@@ -1,0 +1,875 @@
+{
+  "CategoryInfos": [
+    {
+      "CategoryId": "99",
+      "CategoryName": "PRINCIPALES",
+      "IsRelevant": true
+    },
+    {
+      "CategoryId": "97",
+      "CategoryName": "TOTALES",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "95",
+      "CategoryName": "EQUIPOS",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "91",
+      "CategoryName": "MITADES",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "80",
+      "CategoryName": "CUARTOS",
+      "IsRelevant": false
+    }
+  ],
+  "Event": {
+    "ResultInfo": "Ha comenzado a las 22:47",
+    "DefaultGame": null,
+    "liveData": {
+      "Period": 12,
+      "PeriodName": "2º cuarto",
+      "Actions": [
+        {
+          "Period": 11,
+          "PeriodName": "1º cuarto",
+          "Time": 0,
+          "ActionType": -1,
+          "ActionTypeName": null,
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": false
+        },
+        {
+          "Period": 11,
+          "PeriodName": "1º cuarto",
+          "Time": 0,
+          "ActionType": 14,
+          "ActionTypeName": "Patada inicial",
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": false
+        }
+      ],
+      "ResultHome": 20,
+      "ResultAway": 16,
+      "Time": "22:47",
+      "MatchTime": -1,
+      "RemainingPeriodTime": "9:57",
+      "ParticipantHome": "Denver Nuggets (REND)",
+      "ParticipantAway": "Orlando Magic (BLADE)"
+    },
+    "StartDate": "/Date(1760129220000)/",
+    "StarDate": "/Date(1760129220000)/",
+    "isLive": true,
+    "LeagueName": "H2H GG League - 4x5 Min de juego",
+    "ChildrenCount": 22,
+    "SportName": "e-Basket",
+    "CountryCode": "NBA2",
+    "CountryName": "NBA2K",
+    "Participants": [
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "1"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 23901521,
+        "IsHome": false,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Orlando Magic (BLADE)"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "OMa"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      },
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "0"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 23901522,
+        "IsHome": true,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Denver Nuggets (REND)"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "DNu"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      }
+    ],
+    "LiveHistory": null,
+    "SmartMarketReferenceGameTypeIds": "",
+    "StatisticsId": "",
+    "SportId": "7711281996",
+    "Games": [
+      {
+        "Results": [
+          {
+            "Odd": 1.67,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871788317",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Denver Nuggets (REND)",
+            "NodeId": "11871788330",
+            "ParentNodeId": "11871788317",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 2,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871788317",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Orlando Magic (BLADE)",
+            "NodeId": "11871788331",
+            "ParentNodeId": "11871788317",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 97,
+        "SmartMarketAvailable": false,
+        "Spov": "",
+        "ShortName": "Ganador del Partido",
+        "IsLive": true,
+        "Name": "Ganador del Partido",
+        "NodeId": "11871788317",
+        "ParentNodeId": "11868029269",
+        "Priority": 9999,
+        "SportHandle": "ebasket",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.91,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871858731",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Denver Nuggets (REND) -1.5",
+            "NodeId": "11871858733",
+            "ParentNodeId": "11871858731",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.72,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871858731",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Orlando Magic (BLADE) +1.5",
+            "NodeId": "11871858734",
+            "ParentNodeId": "11871858731",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E-1.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871858731",
+        "ParentNodeId": "11868029269",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.91,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871863007",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-3.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Denver Nuggets (REND) -3.5",
+            "NodeId": "11871863008",
+            "ParentNodeId": "11871863007",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.72,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871863007",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-3.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Orlando Magic (BLADE) +3.5",
+            "NodeId": "11871863009",
+            "ParentNodeId": "11871863007",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E-3.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871863007",
+        "ParentNodeId": "11868029269",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.67,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871856673",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Denver Nuggets (REND) +1.5",
+            "NodeId": "11871856674",
+            "ParentNodeId": "11871856673",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 2,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871856673",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Orlando Magic (BLADE) -1.5",
+            "NodeId": "11871856675",
+            "ParentNodeId": "11871856673",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E1.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871856673",
+        "ParentNodeId": "11868029269",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.8,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871788322",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E91.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 91.5",
+            "NodeId": "11871788340",
+            "ParentNodeId": "11871788322",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.85,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871788322",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E91.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 91.5",
+            "NodeId": "11871788341",
+            "ParentNodeId": "11871788322",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E91.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871788322",
+        "ParentNodeId": "11868029269",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 2,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871860055",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E90.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 90.5",
+            "NodeId": "11871860056",
+            "ParentNodeId": "11871860055",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.67,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871860055",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E90.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 90.5",
+            "NodeId": "11871860057",
+            "ParentNodeId": "11871860055",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E90.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871860055",
+        "ParentNodeId": "11868029269",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.91,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871881672",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E83.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 83.5",
+            "NodeId": "11871881674",
+            "ParentNodeId": "11871881672",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.72,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871881672",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E83.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 83.5",
+            "NodeId": "11871881675",
+            "ParentNodeId": "11871881672",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E83.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871881672",
+        "ParentNodeId": "11868029269",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 2,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871860883",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E88.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 88.5",
+            "NodeId": "11871860888",
+            "ParentNodeId": "11871860883",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.67,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871860883",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E88.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 88.5",
+            "NodeId": "11871860889",
+            "ParentNodeId": "11871860883",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E88.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871860883",
+        "ParentNodeId": "11868029269",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.8,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871880469",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E85.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 85.5",
+            "NodeId": "11871880470",
+            "ParentNodeId": "11871880469",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.85,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029269",
+            "EventHasHandicap": false,
+            "GameId": "11871880469",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E85.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 85.5",
+            "NodeId": "11871880471",
+            "ParentNodeId": "11871880469",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E85.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871880469",
+        "ParentNodeId": "11868029269",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": false
+      }
+    ],
+    "StreamingId": "c1759449644365049",
+    "StreamingEnabled": "sis",
+    "LTMEnabled": false,
+    "LeagueKlothoPriority": 1000,
+    "HighlightPriority": 0,
+    "ParticipantHome": "Denver Nuggets (REND)",
+    "ParticipantAway": "Orlando Magic (BLADE)",
+    "ParticipantHomeId": 23901522,
+    "ParticipantAwayId": 23901521,
+    "Name": "Denver Nuggets (REND) - Orlando Magic (BLADE)",
+    "NodeId": "11868029269",
+    "ParentNodeId": "8523428481",
+    "Priority": 0,
+    "SportHandle": "ebasket",
+    "Locked": false
+  },
+  "ResultOddNodes": null
+}

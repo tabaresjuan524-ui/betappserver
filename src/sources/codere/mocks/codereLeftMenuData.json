@@ -1,0 +1,260 @@
+{
+    "sports": [
+        {
+            "Name": "Artes Marciales (UFC/MMA)",
+            "NodeId": "2819844672",
+            "ParentNodeId": "-1",
+            "Priority": 9835,
+            "SportHandle": "artes_marciales",
+            "Locked": false
+        },
+        {
+            "Name": "Badminton",
+            "NodeId": "2819832394",
+            "ParentNodeId": "-1",
+            "Priority": 9795,
+            "SportHandle": "badminton",
+            "Locked": false
+        },
+        {
+            "Name": "Baloncesto",
+            "NodeId": "2819833466",
+            "ParentNodeId": "-1",
+            "Priority": 9886,
+            "SportHandle": "basketball",
+            "Locked": false
+        },
+        {
+            "Name": "Balonmano",
+            "NodeId": "2819843470",
+            "ParentNodeId": "-1",
+            "Priority": 9855,
+            "SportHandle": "handball",
+            "Locked": false
+        },
+        {
+            "Name": "Béisbol",
+            "NodeId": "2819833156",
+            "ParentNodeId": "-1",
+            "Priority": 9882,
+            "SportHandle": "baseball",
+            "Locked": false
+        },
+        {
+            "Name": "Boxeo",
+            "NodeId": "2819834727",
+            "ParentNodeId": "-1",
+            "Priority": 9810,
+            "SportHandle": "boxeo",
+            "Locked": false
+        },
+        {
+            "Name": "Ciclismo",
+            "NodeId": "2819835976",
+            "ParentNodeId": "-1",
+            "Priority": 9870,
+            "SportHandle": "cycling",
+            "Locked": false
+        },
+        {
+            "Name": "Cine/TV",
+            "NodeId": "6587332242",
+            "ParentNodeId": "-1",
+            "Priority": 0,
+            "SportHandle": "cine",
+            "Locked": false
+        },
+        {
+            "Name": "Dardos",
+            "NodeId": "2819836513",
+            "ParentNodeId": "-1",
+            "Priority": 9840,
+            "SportHandle": "darts",
+            "Locked": false
+        },
+        {
+            "Name": "e-Basket",
+            "NodeId": "7711281996",
+            "ParentNodeId": "-1",
+            "Priority": 9883,
+            "SportHandle": "ebasket",
+            "Locked": false
+        },
+        {
+            "Name": "e-Fútbol",
+            "NodeId": "7393461212",
+            "ParentNodeId": "-1",
+            "Priority": 9884,
+            "SportHandle": "efootball",
+            "Locked": false
+        },
+        {
+            "Name": "eSports",
+            "NodeId": "2886177137",
+            "ParentNodeId": "-1",
+            "Priority": 9860,
+            "SportHandle": "esports",
+            "Locked": false
+        },
+        {
+            "Name": "Fútbol",
+            "NodeId": "9553177903",
+            "ParentNodeId": "-1",
+            "Priority": 9900,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "Name": "Fútbol Americano",
+            "NodeId": "2819729850",
+            "ParentNodeId": "-1",
+            "Priority": 9881,
+            "SportHandle": "american_football",
+            "Locked": false
+        },
+        {
+            "Name": "Fútbol Sala",
+            "NodeId": "2819839149",
+            "ParentNodeId": "-1",
+            "Priority": 9825,
+            "SportHandle": "futsal",
+            "Locked": false
+        },
+        {
+            "Name": "Golf",
+            "NodeId": "2819839150",
+            "ParentNodeId": "-1",
+            "Priority": 9800,
+            "SportHandle": "golf",
+            "Locked": false
+        },
+        {
+            "Name": "Hockey Hielo",
+            "NodeId": "2819844477",
+            "ParentNodeId": "-1",
+            "Priority": 9869,
+            "SportHandle": "ice_hockey",
+            "Locked": false
+        },
+        {
+            "Name": "Motor",
+            "NodeId": "2886167181",
+            "ParentNodeId": "-1",
+            "Priority": 9830,
+            "SportHandle": "motorsport",
+            "Locked": false
+        },
+        {
+            "Name": "Politica",
+            "NodeId": "3066752588",
+            "ParentNodeId": "-1",
+            "Priority": 0,
+            "SportHandle": "politica",
+            "Locked": false
+        },
+        {
+            "Name": "Rugby League",
+            "NodeId": "2819844959",
+            "ParentNodeId": "-1",
+            "Priority": 9790,
+            "SportHandle": "rugby_league",
+            "Locked": false
+        },
+        {
+            "Name": "Snooker",
+            "NodeId": "2819845644",
+            "ParentNodeId": "-1",
+            "Priority": 9815,
+            "SportHandle": "snooker",
+            "Locked": false
+        },
+        {
+            "Name": "Tenis",
+            "NodeId": "2819846742",
+            "ParentNodeId": "-1",
+            "Priority": 9890,
+            "SportHandle": "tennis",
+            "Locked": false
+        },
+        {
+            "Name": "Tenis de Mesa",
+            "NodeId": "2819846300",
+            "ParentNodeId": "-1",
+            "Priority": 9875,
+            "SportHandle": "table_tennis",
+            "Locked": false
+        },
+        {
+            "Name": "Voleibol",
+            "NodeId": "2819853525",
+            "ParentNodeId": "-1",
+            "Priority": 9845,
+            "SportHandle": "volleyball",
+            "Locked": false
+        }
+    ],
+    "highlights": [
+        {
+            "CountryCode": null,
+            "SportsHandle": "soccer",
+            "Name": "Fútbol",
+            "NodeId": "9553177903",
+            "ParentNodeId": "-1",
+            "Priority": 9900,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "CountryCode": null,
+            "SportsHandle": "baseball",
+            "Name": "Béisbol",
+            "NodeId": "2819833156",
+            "ParentNodeId": "-1",
+            "Priority": 9882,
+            "SportHandle": "baseball",
+            "Locked": false
+        }
+    ],
+    "highlightsConfig": [
+        {
+            "LeagueName": "Primera A",
+            "IconUrl": "https://navservicestorage.blob.core.windows.net/highlights/Ico_CO.png",
+            "IdLeagues": "3069005120",
+            "SportName": "Fútbol",
+            "SportHandle": "soccer",
+            "CountryCode": "CO"
+        },
+        {
+            "LeagueName": "Primera División",
+            "IconUrl": "https://navservicestorage.blob.core.windows.net/highlights/Ico_ES.png",
+            "IdLeagues": "2903511051",
+            "SportName": "Fútbol",
+            "SportHandle": "soccer",
+            "CountryCode": "ES"
+        },
+        {
+            "LeagueName": "Premier League",
+            "IconUrl": "https://navservicestorage.blob.core.windows.net/highlights/Ico_UK.png",
+            "IdLeagues": "2817453708",
+            "SportName": "Fútbol",
+            "SportHandle": "soccer",
+            "CountryCode": "UK"
+        },
+        {
+            "LeagueName": "Serie A",
+            "IconUrl": "https://navservicestorage.blob.core.windows.net/highlights/Ico_IT.png",
+            "IdLeagues": "2817453710",
+            "SportName": "Fútbol",
+            "SportHandle": "soccer",
+            "CountryCode": "IT"
+        },
+        {
+            "LeagueName": "MLB",
+            "IconUrl": "https://navservicestorage.blob.core.windows.net/highlights/Ico_US.png",
+            "IdLeagues": "2819833171",
+            "SportName": "Béisbol",
+            "SportHandle": "baseball",
+            "CountryCode": "US"
+        }
+    ]
+}

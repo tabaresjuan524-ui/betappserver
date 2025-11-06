@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Events by Sport Handle Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .section { margin: 20px 0; padding: 15px; border: 2px solid #007bff; border-radius: 8px; }
+        .client { margin: 20px 0; padding: 15px; border: 2px solid #28a745; border-radius: 8px; }
+        button { margin: 5px; padding: 8px 12px; border: none; border-radius: 4px; cursor: pointer; }
+        .connect { background: #28a745; color: white; }
+        .subscribe { background: #007bff; color: white; }
+        .unsubscribe { background: #dc3545; color: white; }
+        .stats { background: #17a2b8; color: white; }
+        .status { padding: 5px 10px; margin: 5px 0; border-radius: 4px; }
+        .connected { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .disconnected { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .log { background: #f8f9fa; padding: 10px; margin: 10px 0; height: 150px; overflow-y: auto; 
+               border: 1px solid #dee2e6; border-radius: 4px; font-size: 12px; }
+        .stats-display { background: #e9ecef; padding: 10px; margin: 10px 0; border-radius: 4px; font-size: 12px; }
+        .sport-config { display: flex; gap: 10px; align-items: center; margin: 10px 0; }
+        .sport-config input, .sport-config select { padding: 5px; border: 1px solid #ddd; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Live Events by Sport Handle Test - Market Tabs</h1>
+    <p>This test verifies the new live events by sport handle API with 5-second caching for market tabs functionality.</p>
+
+    <div class="section">
+        <h3>Connection Management</h3>
+        <div class="status" id="connectionStatus">Disconnected</div>
+        <button class="connect" onclick="connect()">Connect WebSocket</button>
+        <button class="unsubscribe" onclick="disconnect()">Disconnect WebSocket</button>
+        <button class="stats" onclick="getCacheStats()">Get Cache Stats</button>
+    </div>
+
+    <div class="client">
+        <h3>Sport Handle Subscriptions (Market Tabs)</h3>
+        
+        <div class="sport-config">
+            <label>Sport Handle:</label>
+            <select id="sportHandle">
+                <option value="soccer">Soccer/Football</option>
+                <option value="basketball">Basketball</option>
+                <option value="tennis">Tennis</option>
+                <option value="baseball">Baseball</option>
+                <option value="american-football">American Football</option>
+                <option value="ice-hockey">Ice Hockey</option>
+            </select>
+        </div>
+        
+        <div class="sport-config">
+            <label>Game Types (market tabs):</label>
+            <input type="text" id="gameTypes" value="1;18" placeholder="e.g., 1;18;97" />
+            <small>(Soccer: 1,18 = Match Result, Over/Under | Basketball: 97,159 = Spread, Totals)</small>
+        </div>
+        
+        <div style="margin: 10px 0;">
+            <button class="subscribe" onclick="subscribeLiveEventsBySportHandle()">Subscribe to Live Events</button>
+            <button class="unsubscribe" onclick="unsubscribeLiveEventsBySportHandle()">Unsubscribe</button>
+        </div>
+
+        <div style="margin: 10px 0;">
+            <strong>Quick Tests:</strong><br>
+            <button class="subscribe" onclick="quickTestSoccer()">Soccer (1;18)</button>
+            <button class="subscribe" onclick="quickTestBasketball()">Basketball (97;159)</button>
+            <button class="subscribe" onclick="quickTestTennis()">Tennis (1;97)</button>
+        </div>
+
+        <div id="log" class="log">Waiting for connection...</div>
+    </div>
+
+    <div class="section">
+        <h3>Cache Statistics</h3>
+        <div id="cacheStats" class="stats-display">No stats available - click "Get Cache Stats" after connecting</div>
+    </div>
+
+    <div class="section">
+        <h3>Live Data Monitor</h3>
+        <div style="margin: 10px 0;">
+            <strong>Last Update:</strong> <span id="lastUpdate">Never</span><br>
+            <strong>Events Count:</strong> <span id="eventsCount">0</span><br>
+            <strong>Sport Handles:</strong> <span id="sportHandles">None</span>
+        </div>
+        <div id="liveData" class="log" style="height: 200px;">No live data received yet...</div>
+    </div>
+
+    <script>
+        let ws = null;
+        let currentSubscriptions = new Set();
+        
+        function log(message, type = 'info') {
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            const icon = type === 'error' ? '❌' : type === 'success' ? '✅' : type === 'data' ? '📊' : 'ℹ️';
+            logDiv.innerHTML += `[${timestamp}] ${icon} ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function updateConnectionStatus(status) {
+            const statusDiv = document.getElementById('connectionStatus');
+            statusDiv.textContent = status;
+            statusDiv.className = `status ${status.toLowerCase().includes('connected') ? 'connected' : 'disconnected'}`;
+        }
+        
+        function connect() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                log('Already connected to WebSocket', 'info');
+                return;
+            }
+            
+            ws = new WebSocket('ws://localhost:8081');
+            
+            ws.onopen = function() {
+                updateConnectionStatus('Connected');
+                log('WebSocket connected successfully', 'success');
+            };
+            
+            ws.onmessage = function(event) {
+                try {
+                    const data = JSON.parse(event.data);
+                    
+                    if (data.type === 'cacheStats') {
+                        displayCacheStats(data.data);
+                        log('Received cache statistics', 'success');
+                    } else if (data.type === 'liveEventsBySportHandle') {
+                        updateLiveData(data);
+                        log(`Received live events: ${data.data?.Events?.length || 0} events for ${data.sportHandle} (gameTypes: ${data.gameTypes?.join(';')})`, 'data');
+                    } else if (data.messageType === 'batchedUpdate') {
+                        log(`Received batched update with ${data.updates?.length || 0} updates`, 'data');
+                        
+                        // Process each update in the batch
+                        data.updates?.forEach(update => {
+                            if (update.data?.type === 'liveEventsBySportHandle') {
+                                updateLiveData(update.data);
+                            }
+                        });
+                    } else if (data.messageType === 'immediate') {
+                        log(`Received immediate data: ${data.sports?.length || 0} sports, ${data.liveEvents?.length || 0} events`, 'data');
+                    } else {
+                        log(`Received data: ${data.type || 'unknown'} (${Object.keys(data).join(', ')})`, 'data');
+                    }
+                } catch (e) {
+                    log(`Received raw message: ${event.data.substring(0, 200)}...`, 'info');
+                }
+            };
+            
+            ws.onclose = function(event) {
+                updateConnectionStatus('Disconnected');
+                log(`WebSocket disconnected (code: ${event.code})`, 'error');
+                currentSubscriptions.clear();
+            };
+            
+            ws.onerror = function(error) {
+                log(`WebSocket error: ${error}`, 'error');
+            };
+        }
+        
+        function disconnect() {
+            if (ws) {
+                ws.close();
+                ws = null;
+                currentSubscriptions.clear();
+            }
+        }
+        
+        function sendMessage(message) {
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                log('Cannot send message - WebSocket not connected', 'error');
+                return false;
+            }
+            
+            ws.send(JSON.stringify(message));
+            log(`Sent: ${message.action} (${JSON.stringify(message).substring(0, 100)}...)`, 'info');
+            return true;
+        }
+        
+        function subscribeLiveEventsBySportHandle() {
+            const sportHandle = document.getElementById('sportHandle').value;
+            const gameTypesStr = document.getElementById('gameTypes').value;
+            const gameTypes = gameTypesStr.split(';').map(gt => parseInt(gt.trim())).filter(gt => !isNaN(gt));
+            
+            if (gameTypes.length === 0) {
+                log('Please enter valid game types (numbers separated by semicolons)', 'error');
+                return;
+            }
+            
+            const subscriptionKey = `${sportHandle}_${gameTypes.join(';')}`;
+            
+            if (currentSubscriptions.has(subscriptionKey)) {
+                log(`Already subscribed to ${sportHandle} with gameTypes ${gameTypes.join(';')}`, 'error');
+                return;
+            }
+            
+            if (sendMessage({
+                action: 'getLiveEventsBySportHandle',
+                sportHandle: sportHandle,
+                gameTypes: gameTypes
+            })) {
+                currentSubscriptions.add(subscriptionKey);
+                log(`Subscribed to live events for ${sportHandle} with gameTypes: ${gameTypes.join(';')}`, 'success');
+            }
+        }
+        
+        function unsubscribeLiveEventsBySportHandle() {
+            const sportHandle = document.getElementById('sportHandle').value;
+            const gameTypesStr = document.getElementById('gameTypes').value;
+            const gameTypes = gameTypesStr.split(';').map(gt => parseInt(gt.trim())).filter(gt => !isNaN(gt));
+            
+            const subscriptionKey = `${sportHandle}_${gameTypes.join(';')}`;
+            
+            if (!currentSubscriptions.has(subscriptionKey)) {
+                log(`Not subscribed to ${sportHandle} with gameTypes ${gameTypes.join(';')}`, 'error');
+                return;
+            }
+            
+            if (sendMessage({
+                action: 'unsubscribeLiveEventsBySportHandle',
+                sportHandle: sportHandle,
+                gameTypes: gameTypes
+            })) {
+                currentSubscriptions.delete(subscriptionKey);
+                log(`Unsubscribed from live events for ${sportHandle} with gameTypes: ${gameTypes.join(';')}`, 'success');
+            }
+        }
+        
+        function quickTestSoccer() {
+            document.getElementById('sportHandle').value = 'soccer';
+            document.getElementById('gameTypes').value = '1;18';
+            subscribeLiveEventsBySportHandle();
+        }
+        
+        function quickTestBasketball() {
+            document.getElementById('sportHandle').value = 'basketball';
+            document.getElementById('gameTypes').value = '97;159';
+            subscribeLiveEventsBySportHandle();
+        }
+        
+        function quickTestTennis() {
+            document.getElementById('sportHandle').value = 'tennis';
+            document.getElementById('gameTypes').value = '1;97';
+            subscribeLiveEventsBySportHandle();
+        }
+        
+        function getCacheStats() {
+            sendMessage({ action: 'getCacheStats' });
+        }
+        
+        function displayCacheStats(stats) {
+            const statsDiv = document.getElementById('cacheStats');
+            let html = `
+                <h4>Cache Statistics (Updated: ${new Date().toLocaleTimeString()})</h4>
+                <p><strong>Active Endpoints:</strong> ${stats.activeEndpoints}</p>
+                <p><strong>Total Subscriptions:</strong> ${stats.totalSubscriptions}</p>
+            `;
+            
+            if (stats.endpointDetails.length > 0) {
+                html += '<h5>Live Events by Sport Handle Endpoints:</h5>';
+                const liveEventEndpoints = stats.endpointDetails.filter(e => 
+                    e.endpoint.includes('liveEventsBySportHandle')
+                );
+                
+                if (liveEventEndpoints.length > 0) {
+                    liveEventEndpoints.forEach(endpoint => {
+                        html += `
+                            <div style="margin: 5px 0; padding: 5px; border: 1px solid #007bff; font-size: 11px;">
+                                <strong>${endpoint.endpoint}</strong><br>
+                                👥 Subscribers: ${endpoint.subscribers} | 
+                                🔄 Active: ${endpoint.hasActiveInterval ? '✅ (5s polling)' : '❌'} | 
+                                🕒 Last Update: ${endpoint.lastUpdate || 'Never'}
+                            </div>
+                        `;
+                    });
+                } else {
+                    html += '<p><em>No active live events subscriptions</em></p>';
+                }
+                
+                html += '<h5>All Endpoints:</h5>';
+                stats.endpointDetails.forEach(endpoint => {
+                    html += `
+                        <div style="margin: 3px 0; padding: 3px; border: 1px solid #ddd; font-size: 10px;">
+                            <strong>${endpoint.endpoint}</strong> | 
+                            👥 ${endpoint.subscribers} | 
+                            🔄 ${endpoint.hasActiveInterval ? '✅' : '❌'} | 
+                            🕒 ${endpoint.lastUpdate ? new Date(endpoint.lastUpdate).toLocaleTimeString() : 'Never'}
+                        </div>
+                    `;
+                });
+            } else {
+                html += '<p><em>No active cache endpoints</em></p>';
+            }
+            
+            statsDiv.innerHTML = html;
+        }
+        
+        function updateLiveData(data) {
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
+            document.getElementById('eventsCount').textContent = data.data?.Events?.length || 0;
+            document.getElementById('sportHandles').textContent = data.data?.SportHandleList?.join(', ') || 'None';
+            
+            const liveDataDiv = document.getElementById('liveData');
+            const events = data.data?.Events || [];
+            
+            let html = `<h4>Live Events for ${data.sportHandle} (gameTypes: ${data.gameTypes?.join(';')})</h4>`;
+            
+            if (events.length > 0) {
+                html += `<p><strong>Total Events:</strong> ${events.length}</p>`;
+                events.slice(0, 5).forEach(event => { // Show only first 5 events
+                    html += `
+                        <div style="margin: 5px 0; padding: 5px; border: 1px solid #28a745; font-size: 11px;">
+                            <strong>${event.ParticipantHome || 'TBD'} vs ${event.ParticipantAway || 'TBD'}</strong><br>
+                            League: ${event.LeagueName || 'Unknown'} | 
+                            Live: ${event.isLive ? '🔴 LIVE' : '⏳ Pre-match'} | 
+                            Markets: ${event.ChildrenCount || 0}
+                            ${event.DefaultGame ? `<br>Default Market: ${event.DefaultGame.Name}` : ''}
+                        </div>
+                    `;
+                });
+                if (events.length > 5) {
+                    html += `<p><em>... and ${events.length - 5} more events</em></p>`;
+                }
+            } else {
+                html += '<p><em>No events received</em></p>';
+            }
+            
+            liveDataDiv.innerHTML = html;
+        }
+        
+        // Auto-connect on page load
+        window.onload = function() {
+            setTimeout(() => connect(), 100);
+        };
+    </script>
+</body>
+</html>

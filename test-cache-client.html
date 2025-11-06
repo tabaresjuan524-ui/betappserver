@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cache System Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .section { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        button { margin: 5px; padding: 10px; }
+        .stats { background: #f5f5f5; padding: 10px; margin: 10px 0; }
+        .log { background: #f0f0f0; padding: 10px; margin: 10px 0; height: 200px; overflow-y: auto; }
+    </style>
+</head>
+<body>
+    <h1>Cache System Test Client</h1>
+    
+    <div class="section">
+        <h3>Connection Status</h3>
+        <div id="connectionStatus">Disconnected</div>
+        <button onclick="connect()">Connect</button>
+        <button onclick="disconnect()">Disconnect</button>
+    </div>
+
+    <div class="section">
+        <h3>Cache Subscriptions</h3>
+        <div>
+            <label>League Node ID:</label>
+            <input type="text" id="leagueNodeId" value="12345" />
+            <button onclick="subscribeLeagueEvents()">Subscribe to League Events</button>
+            <button onclick="unsubscribeLeagueEvents()">Unsubscribe</button>
+        </div>
+        <div>
+            <label>Sport Node ID:</label>
+            <input type="text" id="sportNodeId" value="5" />
+            <button onclick="subscribeLeagues()">Subscribe to Leagues</button>
+            <button onclick="unsubscribeLeagues()">Unsubscribe</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Cache Statistics</h3>
+        <button onclick="getCacheStats()">Get Cache Stats</button>
+        <div id="cacheStats" class="stats">No stats available</div>
+    </div>
+
+    <div class="section">
+        <h3>Activity Log</h3>
+        <button onclick="clearLog()">Clear Log</button>
+        <div id="log" class="log"></div>
+    </div>
+
+    <script>
+        let ws = null;
+        
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${timestamp}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function updateConnectionStatus(status) {
+            document.getElementById('connectionStatus').textContent = status;
+        }
+        
+        function connect() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                log('Already connected');
+                return;
+            }
+            
+            ws = new WebSocket('ws://localhost:8080');
+            
+            ws.onopen = function() {
+                updateConnectionStatus('Connected');
+                log('WebSocket connected');
+            };
+            
+            ws.onmessage = function(event) {
+                try {
+                    const data = JSON.parse(event.data);
+                    if (data.type === 'cacheStats') {
+                        displayCacheStats(data.data);
+                        log('Received cache stats');
+                    } else {
+                        log(`Received data: ${JSON.stringify(data).substring(0, 100)}...`);
+                    }
+                } catch (e) {
+                    log(`Received raw message: ${event.data.substring(0, 100)}...`);
+                }
+            };
+            
+            ws.onclose = function() {
+                updateConnectionStatus('Disconnected');
+                log('WebSocket disconnected');
+            };
+            
+            ws.onerror = function(error) {
+                log(`WebSocket error: ${error}`);
+            };
+        }
+        
+        function disconnect() {
+            if (ws) {
+                ws.close();
+                ws = null;
+            }
+        }
+        
+        function sendMessage(message) {
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                log('Not connected to WebSocket');
+                return;
+            }
+            
+            ws.send(JSON.stringify(message));
+            log(`Sent: ${JSON.stringify(message)}`);
+        }
+        
+        function subscribeLeagueEvents() {
+            const leagueNodeId = document.getElementById('leagueNodeId').value;
+            sendMessage({
+                action: 'subscribeLeagueEvents',
+                leagueNodeId: leagueNodeId
+            });
+        }
+        
+        function unsubscribeLeagueEvents() {
+            const leagueNodeId = document.getElementById('leagueNodeId').value;
+            sendMessage({
+                action: 'unsubscribeLeagueEvents',
+                leagueNodeId: leagueNodeId
+            });
+        }
+        
+        function subscribeLeagues() {
+            const sportNodeId = document.getElementById('sportNodeId').value;
+            sendMessage({
+                action: 'subscribeLeagues',
+                nodeId: sportNodeId
+            });
+        }
+        
+        function unsubscribeLeagues() {
+            const sportNodeId = document.getElementById('sportNodeId').value;
+            sendMessage({
+                action: 'unsubscribeLeagues',
+                nodeId: sportNodeId
+            });
+        }
+        
+        function getCacheStats() {
+            sendMessage({ action: 'getCacheStats' });
+        }
+        
+        function displayCacheStats(stats) {
+            const statsDiv = document.getElementById('cacheStats');
+            let html = `
+                <h4>Cache Statistics</h4>
+                <p><strong>Active Endpoints:</strong> ${stats.activeEndpoints}</p>
+                <p><strong>Total Subscriptions:</strong> ${stats.totalSubscriptions}</p>
+                <h5>Endpoint Details:</h5>
+            `;
+            
+            stats.endpointDetails.forEach(endpoint => {
+                html += `
+                    <div style="margin: 10px 0; padding: 5px; border: 1px solid #ddd;">
+                        <strong>${endpoint.endpoint}</strong><br>
+                        Subscribers: ${endpoint.subscribers}<br>
+                        Active Interval: ${endpoint.hasActiveInterval ? 'Yes' : 'No'}<br>
+                        Last Update: ${endpoint.lastUpdate || 'Never'}
+                    </div>
+                `;
+            });
+            
+            statsDiv.innerHTML = html;
+        }
+        
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+        
+        // Auto-connect on page load
+        window.onload = function() {
+            connect();
+        };
+    </script>
+</body>
+</html>

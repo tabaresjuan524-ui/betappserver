@@ -1,0 +1,1530 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "95",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "80",
+            "CategoryName": "PUNTOS",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "Ha comenzado a las 06:25",
+        "DefaultGame": null,
+        "liveData": {
+            "Sets": [
+                [
+                    2,
+                    11
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "Period": 16,
+            "PeriodName": "2º Set",
+            "Actions": [
+                {
+                    "Period": 15,
+                    "PeriodName": "1º Set",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": true
+                }
+            ],
+            "ResultHome": 0,
+            "ResultAway": 1,
+            "Time": "06:25",
+            "MatchTime": -1,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "Mykola Treshchetka",
+            "ParticipantAway": "Vasyl Salivonchyk"
+        },
+        "StartDate": "/Date(1760156700000)/",
+        "StarDate": "/Date(1760156700000)/",
+        "isLive": true,
+        "LeagueName": "Setka Cup",
+        "ChildrenCount": 39,
+        "SportName": "Tenis de Mesa",
+        "CountryCode": "UA",
+        "CountryName": "Ucrania",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 22530519,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Mykola Treshchetka"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "MTr"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 22552946,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Vasyl Salivonchyk"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "VSa"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "",
+        "StatisticsId": "",
+        "SportId": "2819846300",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 7.25,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11872899182",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka",
+                        "NodeId": "11872899193",
+                        "ParentNodeId": "11872899182",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.04,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11872899182",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk",
+                        "NodeId": "11872899194",
+                        "ParentNodeId": "11872899182",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": true,
+                "Name": "Ganador del Partido",
+                "NodeId": "11872899182",
+                "ParentNodeId": "11871149691",
+                "Priority": 9999,
+                "SportHandle": "table_tennis",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 10.0,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873657380",
+                        "GameTypeId": 1828,
+                        "GameSpecialOddsValue": "<Set>2",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka",
+                        "NodeId": "11873657384",
+                        "ParentNodeId": "11873657380",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.002,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873657380",
+                        "GameTypeId": 1828,
+                        "GameSpecialOddsValue": "<Set>2",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk",
+                        "NodeId": "11873657383",
+                        "ParentNodeId": "11873657380",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "95",
+                        "CategoryName": "JUEGOS",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1828,
+                "SmartMarketAvailable": false,
+                "Spov": "<Set>2",
+                "ShortName": "Ganador Juego 2",
+                "IsLive": true,
+                "Name": "Ganador Juego 2",
+                "NodeId": "11873657380",
+                "ParentNodeId": "11871149691",
+                "Priority": 9997,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688458",
+                        "GameTypeId": 1828,
+                        "GameSpecialOddsValue": "<Set>3",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka",
+                        "NodeId": "11873688466",
+                        "ParentNodeId": "11873688458",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.55,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688458",
+                        "GameTypeId": 1828,
+                        "GameSpecialOddsValue": "<Set>3",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk",
+                        "NodeId": "11873688465",
+                        "ParentNodeId": "11873688458",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "95",
+                        "CategoryName": "JUEGOS",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1828,
+                "SmartMarketAvailable": false,
+                "Spov": "<Set>3",
+                "ShortName": "Ganador Juego 3",
+                "IsLive": true,
+                "Name": "Ganador Juego 3",
+                "NodeId": "11873688458",
+                "ParentNodeId": "11871149691",
+                "Priority": 9997,
+                "SportHandle": "table_tennis",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873679715",
+                        "GameTypeId": 204,
+                        "GameSpecialOddsValue": "<Spov>2.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +2.5",
+                        "NodeId": "11873679716",
+                        "ParentNodeId": "11873679715",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.55,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873679715",
+                        "GameTypeId": 204,
+                        "GameSpecialOddsValue": "<Spov>2.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -2.5",
+                        "NodeId": "11873679717",
+                        "ParentNodeId": "11873679715",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 204,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>2.5",
+                "ShortName": "Hándicap por Juegos",
+                "IsLive": true,
+                "Name": "Hándicap por Juegos",
+                "NodeId": "11873679715",
+                "ParentNodeId": "11871149691",
+                "Priority": 9982,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11872899177",
+                        "GameTypeId": 204,
+                        "GameSpecialOddsValue": "<Spov>1.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +1.5",
+                        "NodeId": "11872899183",
+                        "ParentNodeId": "11872899177",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.55,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11872899177",
+                        "GameTypeId": 204,
+                        "GameSpecialOddsValue": "<Spov>1.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -1.5",
+                        "NodeId": "11872899184",
+                        "ParentNodeId": "11872899177",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 204,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>1.5",
+                "ShortName": "Hándicap por Juegos",
+                "IsLive": true,
+                "Name": "Hándicap por Juegos",
+                "NodeId": "11872899177",
+                "ParentNodeId": "11871149691",
+                "Priority": 9982,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873684260",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>18.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +18.5",
+                        "NodeId": "11873684264",
+                        "ParentNodeId": "11873684260",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873684260",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>18.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -18.5",
+                        "NodeId": "11873684265",
+                        "ParentNodeId": "11873684260",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>18.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11873684260",
+                "ParentNodeId": "11871149691",
+                "Priority": 9980,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873687617",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>19.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +19.5",
+                        "NodeId": "11873687623",
+                        "ParentNodeId": "11873687617",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873687617",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>19.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -19.5",
+                        "NodeId": "11873687624",
+                        "ParentNodeId": "11873687617",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>19.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11873687617",
+                "ParentNodeId": "11871149691",
+                "Priority": 9980,
+                "SportHandle": "table_tennis",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.75,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683787",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>16.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +16.5",
+                        "NodeId": "11873683792",
+                        "ParentNodeId": "11873683787",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.88,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683787",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>16.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -16.5",
+                        "NodeId": "11873683793",
+                        "ParentNodeId": "11873683787",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>16.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11873683787",
+                "ParentNodeId": "11871149691",
+                "Priority": 9980,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.75,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683689",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>15.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +15.5",
+                        "NodeId": "11873683696",
+                        "ParentNodeId": "11873683689",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.88,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683689",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>15.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -15.5",
+                        "NodeId": "11873683695",
+                        "ParentNodeId": "11873683689",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>15.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11873683689",
+                "ParentNodeId": "11871149691",
+                "Priority": 9980,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.88,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683900",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>17.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka +17.5",
+                        "NodeId": "11873683903",
+                        "ParentNodeId": "11873683900",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.75,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683900",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>17.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk -17.5",
+                        "NodeId": "11873683904",
+                        "ParentNodeId": "11873683900",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>17.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11873683900",
+                "ParentNodeId": "11871149691",
+                "Priority": 9980,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.5,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873618741",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk 3:0",
+                        "NodeId": "11873618749",
+                        "ParentNodeId": "11873618741",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 50.0,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873618741",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka 3:1",
+                        "NodeId": "11873618747",
+                        "ParentNodeId": "11873618741",
+                        "Priority": 2,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 3.1,
+                        "SortOrder": 3,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873618741",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk 3:1",
+                        "NodeId": "11873618746",
+                        "ParentNodeId": "11873618741",
+                        "Priority": 3,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 8.0,
+                        "SortOrder": 4,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873618741",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Mykola Treshchetka 3:2",
+                        "NodeId": "11873618745",
+                        "ParentNodeId": "11873618741",
+                        "Priority": 4,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 7.0,
+                        "SortOrder": 5,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873618741",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Vasyl Salivonchyk 3:2",
+                        "NodeId": "11873618750",
+                        "ParentNodeId": "11873618741",
+                        "Priority": 5,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "outrightlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 261,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Resultado Final (por juegos)",
+                "IsLive": true,
+                "Name": "Resultado Final (por juegos)",
+                "NodeId": "11873618741",
+                "ParentNodeId": "11871149691",
+                "Priority": 9975,
+                "SportHandle": "table_tennis",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683901",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>53.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 53.5",
+                        "NodeId": "11873683905",
+                        "ParentNodeId": "11873683901",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683901",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>53.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 53.5",
+                        "NodeId": "11873683906",
+                        "ParentNodeId": "11873683901",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>53.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873683901",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873679706",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>66.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 66.5",
+                        "NodeId": "11873679709",
+                        "ParentNodeId": "11873679706",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873679706",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>66.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 66.5",
+                        "NodeId": "11873679710",
+                        "ParentNodeId": "11873679706",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>66.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873679706",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683701",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>61.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 61.5",
+                        "NodeId": "11873683702",
+                        "ParentNodeId": "11873683701",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873683701",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>61.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 61.5",
+                        "NodeId": "11873683703",
+                        "ParentNodeId": "11873683701",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>61.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873683701",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873656326",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>72.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 72.5",
+                        "NodeId": "11873656329",
+                        "ParentNodeId": "11873656326",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873656326",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>72.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 72.5",
+                        "NodeId": "11873656328",
+                        "ParentNodeId": "11873656326",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>72.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873656326",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873657510",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>69.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 69.5",
+                        "NodeId": "11873657512",
+                        "ParentNodeId": "11873657510",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873657510",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>69.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 69.5",
+                        "NodeId": "11873657511",
+                        "ParentNodeId": "11873657510",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>69.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873657510",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873684261",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>49.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 49.5",
+                        "NodeId": "11873684267",
+                        "ParentNodeId": "11873684261",
+                        "Priority": 0,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.7,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846300",
+                        "LocationId": "10769848030",
+                        "LeagueId": "10769848798",
+                        "EventId": "11871149691",
+                        "EventHasHandicap": false,
+                        "GameId": "11873684261",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>49.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 49.5",
+                        "NodeId": "11873684266",
+                        "ParentNodeId": "11873684261",
+                        "Priority": 1,
+                        "SportHandle": "table_tennis",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>49.5",
+                "ShortName": "Total de Puntos",
+                "IsLive": true,
+                "Name": "Total de Puntos",
+                "NodeId": "11873684261",
+                "ParentNodeId": "11871149691",
+                "Priority": 9995,
+                "SportHandle": "table_tennis",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 0,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Mykola Treshchetka",
+        "ParticipantAway": "Vasyl Salivonchyk",
+        "ParticipantHomeId": 22530519,
+        "ParticipantAwayId": 22552946,
+        "Name": "Mykola Treshchetka - Vasyl Salivonchyk",
+        "NodeId": "11871149691",
+        "ParentNodeId": "10769848798",
+        "Priority": 0,
+        "SportHandle": "table_tennis",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

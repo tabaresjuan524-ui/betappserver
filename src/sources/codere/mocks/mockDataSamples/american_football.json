@@ -1,0 +1,1434 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "96",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "87",
+            "CategoryName": "ANOTACIONES",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "80",
+            "CategoryName": "CUARTOS",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "Ha comenzado a las 03:00",
+        "DefaultGame": null,
+        "liveData": {
+            "Quarters": [
+                [
+                    0,
+                    10
+                ],
+                [
+                    10,
+                    3
+                ],
+                [
+                    21,
+                    6
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "HomeAttacking": false,
+            "Try": "2",
+            "Yards": "5",
+            "Position": "60",
+            "Period": 14,
+            "PeriodName": "4º cuarto",
+            "Actions": [
+                {
+                    "Period": 11,
+                    "PeriodName": "1º cuarto",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                }
+            ],
+            "ResultHome": 31,
+            "ResultAway": 19,
+            "Time": "03:00",
+            "MatchTime": -1,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "Washington",
+            "ParticipantAway": "Rutgers"
+        },
+        "StartDate": "/Date(1760144400000)/",
+        "StarDate": "/Date(1760144400000)/",
+        "isLive": true,
+        "LeagueName": "NCAAF",
+        "ChildrenCount": 23,
+        "SportName": "Fútbol Americano",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15519605,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Rutgers"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Rut"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15579601,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Washington"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Was"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,2,3,6,12,14,15,97,159,164,193,227,230,232,235,237,240,244,245,246,247,248,249,250,251,252,393,394,395,517,518,770,771,772,910,995,1512,1513,1766,2712,3983|97,159,393;1755|97,159,393,1755",
+        "StatisticsId": "59839188",
+        "SportId": "2819729850",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.02,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11840182633",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington",
+                        "NodeId": "11840182636",
+                        "ParentNodeId": "11840182633",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 8.5,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11840182633",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers",
+                        "NodeId": "11840182637",
+                        "ParentNodeId": "11840182633",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": true,
+                "Name": "Ganador del Partido",
+                "NodeId": "11840182633",
+                "ParentNodeId": "11800135367",
+                "Priority": 9995,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.62,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11853057639",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-11.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -11.5",
+                        "NodeId": "11853057646",
+                        "ParentNodeId": "11853057639",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.1,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11853057639",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-11.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +11.5",
+                        "NodeId": "11853057647",
+                        "ParentNodeId": "11853057639",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-11.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11853057639",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.35,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492027",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-9.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -9.5",
+                        "NodeId": "11867492047",
+                        "ParentNodeId": "11867492027",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.85,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492027",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-9.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +9.5",
+                        "NodeId": "11867492048",
+                        "ParentNodeId": "11867492027",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-9.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11867492027",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492030",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-12.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -12.5",
+                        "NodeId": "11867492058",
+                        "ParentNodeId": "11867492030",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492030",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-12.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +12.5",
+                        "NodeId": "11867492059",
+                        "ParentNodeId": "11867492030",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-12.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11867492030",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.51,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492031",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-8.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -8.5",
+                        "NodeId": "11867492060",
+                        "ParentNodeId": "11867492031",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.3,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492031",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-8.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +8.5",
+                        "NodeId": "11867492061",
+                        "ParentNodeId": "11867492031",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-8.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11867492031",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.3,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873467095",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-15.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -15.5",
+                        "NodeId": "11873467096",
+                        "ParentNodeId": "11873467095",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.51,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873467095",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-15.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +15.5",
+                        "NodeId": "11873467097",
+                        "ParentNodeId": "11873467095",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-15.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11873467095",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.3,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485242",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-14.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington -14.5",
+                        "NodeId": "11871485257",
+                        "ParentNodeId": "11871485242",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.51,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485242",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-14.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Rutgers +14.5",
+                        "NodeId": "11871485258",
+                        "ParentNodeId": "11871485242",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-14.5",
+                "ShortName": "Hándicap (sin empate)",
+                "IsLive": true,
+                "Name": "Hándicap (sin empate)",
+                "NodeId": "11871485242",
+                "ParentNodeId": "11800135367",
+                "Priority": 9990,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.75,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873008797",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>66.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 66.5",
+                        "NodeId": "11873008802",
+                        "ParentNodeId": "11873008797",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.35,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873008797",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>66.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 66.5",
+                        "NodeId": "11873008803",
+                        "ParentNodeId": "11873008797",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>66.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11873008797",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492024",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>62.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 62.5",
+                        "NodeId": "11867492037",
+                        "ParentNodeId": "11867492024",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.55,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492024",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>62.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 62.5",
+                        "NodeId": "11867492038",
+                        "ParentNodeId": "11867492024",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>62.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11867492024",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492032",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>61.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 61.5",
+                        "NodeId": "11867492062",
+                        "ParentNodeId": "11867492032",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11867492032",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>61.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 61.5",
+                        "NodeId": "11867492063",
+                        "ParentNodeId": "11867492032",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>61.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11867492032",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.17,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873224283",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>56.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 56.5",
+                        "NodeId": "11873224287",
+                        "ParentNodeId": "11873224283",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 4.0,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11873224283",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>56.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 56.5",
+                        "NodeId": "11873224286",
+                        "ParentNodeId": "11873224283",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>56.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11873224283",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11841727069",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>59.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 59.5",
+                        "NodeId": "11841727071",
+                        "ParentNodeId": "11841727069",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11841727069",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>59.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 59.5",
+                        "NodeId": "11841727070",
+                        "ParentNodeId": "11841727069",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>59.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11841727069",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11865070516",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>60.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 60.5",
+                        "NodeId": "11865070517",
+                        "ParentNodeId": "11865070516",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11865070516",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>60.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 60.5",
+                        "NodeId": "11865070518",
+                        "ParentNodeId": "11865070516",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>60.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11865070516",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.52,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11842410107",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>58.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 58.5",
+                        "NodeId": "11842410109",
+                        "ParentNodeId": "11842410107",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.25,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11842410107",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>58.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 58.5",
+                        "NodeId": "11842410110",
+                        "ParentNodeId": "11842410107",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>58.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11842410107",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.85,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485245",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>64.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 64.5",
+                        "NodeId": "11871485263",
+                        "ParentNodeId": "11871485245",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.33,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485245",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>64.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 64.5",
+                        "NodeId": "11871485270",
+                        "ParentNodeId": "11871485245",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>64.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11871485245",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.95,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485236",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>65.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 65.5",
+                        "NodeId": "11871485264",
+                        "ParentNodeId": "11871485236",
+                        "Priority": 0,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.32,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819729850",
+                        "LocationId": "2819729851",
+                        "LeagueId": "2819729860",
+                        "EventId": "11800135367",
+                        "EventHasHandicap": false,
+                        "GameId": "11871485236",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>65.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 65.5",
+                        "NodeId": "11871485265",
+                        "ParentNodeId": "11871485236",
+                        "Priority": 1,
+                        "SportHandle": "american_football",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "96",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>65.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11871485236",
+                "ParentNodeId": "11800135367",
+                "Priority": 9980,
+                "SportHandle": "american_football",
+                "Locked": true
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 9990,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Washington",
+        "ParticipantAway": "Rutgers",
+        "ParticipantHomeId": 15579601,
+        "ParticipantAwayId": 15519605,
+        "Name": "Washington - Rutgers",
+        "NodeId": "11800135367",
+        "ParentNodeId": "2819729860",
+        "Priority": 0,
+        "SportHandle": "american_football",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

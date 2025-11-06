@@ -1,0 +1,286 @@
+{
+  "markets": [
+    {
+      "structureType": 1,
+      "marketId": 1,
+      "marketName": "Full time",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132473961,
+      "marketGroup": "1X2",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "12/25",
+          "fractionalValue": "1/16",
+          "sourceId": 1940012649,
+          "name": "1",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "16/5",
+          "fractionalValue": "9/1",
+          "sourceId": 1940012652,
+          "name": "X",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "6/1",
+          "fractionalValue": "125/1",
+          "sourceId": 1940012654,
+          "name": "2",
+          "change": 1
+        }
+      ]
+    },
+    {
+      "sourceId": 183053357,
+      "structureType": 1,
+      "marketId": 1,
+      "marketName": "Full time",
+      "isLive": false,
+      "fid": 183053357,
+      "suspended": false,
+      "id": 127410044,
+      "marketGroup": "1X2",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "2/5",
+          "fractionalValue": "9/20",
+          "sourceId": 1866695200,
+          "name": "1",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "10/3",
+          "fractionalValue": "16/5",
+          "sourceId": 1866695201,
+          "name": "X",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "13/2",
+          "fractionalValue": "6/1",
+          "sourceId": 1866695202,
+          "name": "2",
+          "change": -1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 1,
+      "marketId": 2,
+      "marketName": "Double chance",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474059,
+      "marketGroup": "Double chance",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "1/10",
+          "fractionalValue": "1/1000",
+          "sourceId": 1940012688,
+          "name": "1X",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "6/4",
+          "fractionalValue": "9/1",
+          "sourceId": 1940012690,
+          "name": "X2",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "1/5",
+          "fractionalValue": "1/16",
+          "sourceId": 1940012693,
+          "name": "12",
+          "change": -1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 1,
+      "marketId": 4,
+      "marketName": "Draw no bet",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": true,
+      "id": 132474057,
+      "marketGroup": "Draw no bet",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "1/7",
+          "fractionalValue": "1/500",
+          "sourceId": 1940012774,
+          "name": "1",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "9/2",
+          "fractionalValue": "50/1",
+          "sourceId": 1940012776,
+          "name": "2",
+          "change": 1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 1,
+      "marketId": 5,
+      "marketName": "Both teams to score",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474061,
+      "marketGroup": "Both teams to score",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "1/1",
+          "fractionalValue": "8/1",
+          "sourceId": 1940012781,
+          "name": "Yes",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "8/11",
+          "fractionalValue": "1/14",
+          "sourceId": 1940012782,
+          "name": "No",
+          "change": -1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 2,
+      "marketId": 9,
+      "marketName": "Match goals",
+      "choiceGroup": "1.5",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474060,
+      "marketGroup": "Match goals",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "5/6",
+          "fractionalValue": "12/5",
+          "sourceId": 1940012655,
+          "name": "Over",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "5/6",
+          "fractionalValue": "3/10",
+          "sourceId": 1940012656,
+          "name": "Under",
+          "change": -1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 2,
+      "marketId": 17,
+      "marketName": "Asian handicap",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474062,
+      "marketGroup": "Asian Handicap",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "4/5",
+          "fractionalValue": "9/20",
+          "sourceId": 1954734388,
+          "name": "(0) Once Caldas",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "1/1",
+          "fractionalValue": "67/40",
+          "sourceId": 1954734398,
+          "name": "(0) Unión Magdalena",
+          "change": 1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 2,
+      "marketId": 21,
+      "marketName": "Corners 2-Way",
+      "choiceGroup": "14.5",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474343,
+      "marketGroup": "Corners 2-Way",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "1/1",
+          "fractionalValue": "1/2",
+          "sourceId": 1940012831,
+          "name": "Over",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "8/11",
+          "fractionalValue": "6/4",
+          "sourceId": 1940012833,
+          "name": "Under",
+          "change": 1
+        }
+      ]
+    },
+    {
+      "sourceId": 183585104,
+      "structureType": 1,
+      "marketId": 8,
+      "marketName": "Next goal",
+      "isLive": true,
+      "fid": 183585104,
+      "suspended": false,
+      "id": 132474058,
+      "marketGroup": "Next goal",
+      "marketPeriod": "Full-time",
+      "choices": [
+        {
+          "initialFractionalValue": "4/9",
+          "fractionalValue": "15/4",
+          "sourceId": 1954528755,
+          "name": "Once Caldas",
+          "change": 1
+        },
+        {
+          "initialFractionalValue": "9/1",
+          "fractionalValue": "3/10",
+          "sourceId": 1954528785,
+          "name": "No goal",
+          "change": -1
+        },
+        {
+          "initialFractionalValue": "21/10",
+          "fractionalValue": "7/1",
+          "sourceId": 1954528799,
+          "name": "Unión Magdalena",
+          "change": 1
+        }
+      ]
+    }
+  ],
+  "eventId": 14115403
+}

@@ -1,0 +1,975 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "97",
+            "CategoryName": "GOLES",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "95",
+            "CategoryName": "DESCANSO",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "0-1 5'",
+        "DefaultGame": null,
+        "liveData": {
+            "Period": 2,
+            "PeriodName": "1º Tiempo",
+            "Actions": [
+                {
+                    "Period": 2,
+                    "PeriodName": "1º Tiempo",
+                    "Time": 3,
+                    "ActionType": 2,
+                    "ActionTypeName": "Gol",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                },
+                {
+                    "Period": 2,
+                    "PeriodName": "1º Tiempo",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                }
+            ],
+            "ResultHome": 0,
+            "ResultAway": 1,
+            "Time": "06:30",
+            "MatchTime": 5,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "Black Steel Manokwari",
+            "ParticipantAway": "Bintang Timur Surabaya"
+        },
+        "StartDate": "/Date(1760157000000)/",
+        "StarDate": "/Date(1760157000000)/",
+        "isLive": true,
+        "LeagueName": "Pro Futsal League - Indonesia",
+        "ChildrenCount": 12,
+        "SportName": "Fútbol Sala",
+        "CountryCode": "ID",
+        "CountryName": "Indonesia",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 19033394,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Black Steel Manokwari"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "BSt"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 19712710,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Bintang Timur Surabaya"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "BTi"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "",
+        "StatisticsId": "64269449",
+        "SportId": "2819839149",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 2.15,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688800",
+                        "GameTypeId": 4,
+                        "GameSpecialOddsValue": "<Spov>1:0",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari",
+                        "NodeId": "11873688824",
+                        "ParentNodeId": "11873688800",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 4.8,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688800",
+                        "GameTypeId": 4,
+                        "GameSpecialOddsValue": "<Spov>1:0",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Empate",
+                        "NodeId": "11873688825",
+                        "ParentNodeId": "11873688800",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688800",
+                        "GameTypeId": 4,
+                        "GameSpecialOddsValue": "<Spov>1:0",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bintang Timur Surabaya",
+                        "NodeId": "11873688826",
+                        "ParentNodeId": "11873688800",
+                        "Priority": 2,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "3buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 4,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>1:0",
+                "ShortName": "1X2 Handicap 1:0 ",
+                "IsLive": true,
+                "Name": "1X2 Handicap 1:0 ",
+                "NodeId": "11873688800",
+                "ParentNodeId": "11852352746",
+                "Priority": 9973,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 3.8,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688801",
+                        "GameTypeId": 1,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari",
+                        "NodeId": "11873688827",
+                        "ParentNodeId": "11873688801",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 4.5,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688801",
+                        "GameTypeId": 1,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "X",
+                        "NodeId": "11873688828",
+                        "ParentNodeId": "11873688801",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.57,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688801",
+                        "GameTypeId": 1,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bintang Timur Surabaya",
+                        "NodeId": "11873688829",
+                        "ParentNodeId": "11873688801",
+                        "Priority": 2,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "3way",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "1X2 Resultado del Partido",
+                "IsLive": true,
+                "Name": "1X2 Resultado del Partido",
+                "NodeId": "11873688801",
+                "ParentNodeId": "11852352746",
+                "Priority": 9999,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.05,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688807",
+                        "GameTypeId": 2,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari / X",
+                        "NodeId": "11873688816",
+                        "ParentNodeId": "11873688807",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.12,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688807",
+                        "GameTypeId": 2,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari / Bintang Timur Surabaya",
+                        "NodeId": "11873688817",
+                        "ParentNodeId": "11873688807",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.16,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688807",
+                        "GameTypeId": 2,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "X / Bintang Timur Surabaya",
+                        "NodeId": "11873688818",
+                        "ParentNodeId": "11873688807",
+                        "Priority": 2,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "3buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 2,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Doble Oportunidad",
+                "IsLive": true,
+                "Name": "Doble Oportunidad",
+                "NodeId": "11873688807",
+                "ParentNodeId": "11852352746",
+                "Priority": 9985,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 3.1,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688802",
+                        "GameTypeId": 3,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari",
+                        "NodeId": "11873688830",
+                        "ParentNodeId": "11873688802",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.33,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688802",
+                        "GameTypeId": 3,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bintang Timur Surabaya",
+                        "NodeId": "11873688831",
+                        "ParentNodeId": "11873688802",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 3,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador (sin empate)",
+                "IsLive": true,
+                "Name": "Ganador (sin empate)",
+                "NodeId": "11873688802",
+                "ParentNodeId": "11852352746",
+                "Priority": 9997,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.15,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709359",
+                        "GameTypeId": 78,
+                        "GameSpecialOddsValue": "<H>0|<A>1",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari",
+                        "NodeId": "11873709362",
+                        "ParentNodeId": "11873709359",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 4.8,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709359",
+                        "GameTypeId": 78,
+                        "GameSpecialOddsValue": "<H>0|<A>1",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "X",
+                        "NodeId": "11873709363",
+                        "ParentNodeId": "11873709359",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709359",
+                        "GameTypeId": 78,
+                        "GameSpecialOddsValue": "<H>0|<A>1",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bintang Timur Surabaya",
+                        "NodeId": "11873709364",
+                        "ParentNodeId": "11873709359",
+                        "Priority": 2,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "3way",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 78,
+                "SmartMarketAvailable": false,
+                "Spov": "<H>0|<A>1",
+                "ShortName": "Ganar el Resto del Partido (Marcador 0:1)",
+                "IsLive": true,
+                "Name": "Ganar el Resto del Partido (Marcador 0:1)",
+                "NodeId": "11873709359",
+                "ParentNodeId": "11852352746",
+                "Priority": 9995,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.05,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688805",
+                        "GameTypeId": 31,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Sí",
+                        "NodeId": "11873688811",
+                        "ParentNodeId": "11873688805",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 8.0,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688805",
+                        "GameTypeId": 31,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "No",
+                        "NodeId": "11873688812",
+                        "ParentNodeId": "11873688805",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 31,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Marcan Ambos Equipos",
+                "IsLive": true,
+                "Name": "Marcan Ambos Equipos",
+                "NodeId": "11873688805",
+                "ParentNodeId": "11852352746",
+                "Priority": 9980,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.2,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709361",
+                        "GameTypeId": 18,
+                        "GameSpecialOddsValue": "<Spov>6.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 6.5",
+                        "NodeId": "11873709368",
+                        "ParentNodeId": "11873709361",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.6,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709361",
+                        "GameTypeId": 18,
+                        "GameSpecialOddsValue": "<Spov>6.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 6.5",
+                        "NodeId": "11873709369",
+                        "ParentNodeId": "11873709361",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "GOLES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 18,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>6.5",
+                "ShortName": "Más/Menos Total Goles",
+                "IsLive": true,
+                "Name": "Más/Menos Total Goles",
+                "NodeId": "11873709361",
+                "ParentNodeId": "11852352746",
+                "Priority": 9990,
+                "SportHandle": "futsal",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.6,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688808",
+                        "GameTypeId": 18,
+                        "GameSpecialOddsValue": "<Spov>5.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 5.5",
+                        "NodeId": "11873688835",
+                        "ParentNodeId": "11873688808",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.15,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873688808",
+                        "GameTypeId": 18,
+                        "GameSpecialOddsValue": "<Spov>5.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 5.5",
+                        "NodeId": "11873688836",
+                        "ParentNodeId": "11873688808",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "GOLES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 18,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>5.5",
+                "ShortName": "Más/Menos Total Goles",
+                "IsLive": true,
+                "Name": "Más/Menos Total Goles",
+                "NodeId": "11873688808",
+                "ParentNodeId": "11852352746",
+                "Priority": 9990,
+                "SportHandle": "futsal",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709360",
+                        "GameTypeId": 80,
+                        "GameSpecialOddsValue": "<Goal>2",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Black Steel Manokwari",
+                        "NodeId": "11873709365",
+                        "ParentNodeId": "11873709360",
+                        "Priority": 0,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 50.0,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709360",
+                        "GameTypeId": 80,
+                        "GameSpecialOddsValue": "<Goal>2",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Sin Goles",
+                        "NodeId": "11873709366",
+                        "ParentNodeId": "11873709360",
+                        "Priority": 1,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819839149",
+                        "LocationId": "8248353246",
+                        "LeagueId": "8248353762",
+                        "EventId": "11852352746",
+                        "EventHasHandicap": false,
+                        "GameId": "11873709360",
+                        "GameTypeId": 80,
+                        "GameSpecialOddsValue": "<Goal>2",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bintang Timur Surabaya",
+                        "NodeId": "11873709367",
+                        "ParentNodeId": "11873709360",
+                        "Priority": 2,
+                        "SportHandle": "futsal",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "3buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "GOLES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 80,
+                "SmartMarketAvailable": false,
+                "Spov": "<Goal>2",
+                "ShortName": "Próximo Equipo en Marcar (Gol 2)",
+                "IsLive": true,
+                "Name": "Próximo Equipo en Marcar (Gol 2)",
+                "NodeId": "11873709360",
+                "ParentNodeId": "11852352746",
+                "Priority": 9993,
+                "SportHandle": "futsal",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 0,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Black Steel Manokwari",
+        "ParticipantAway": "Bintang Timur Surabaya",
+        "ParticipantHomeId": 19033394,
+        "ParticipantAwayId": 19712710,
+        "Name": "Black Steel Manokwari - Bintang Timur Surabaya",
+        "NodeId": "11852352746",
+        "ParentNodeId": "8248353762",
+        "Priority": 0,
+        "SportHandle": "futsal",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

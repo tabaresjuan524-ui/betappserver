@@ -1,0 +1,313 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "63",
+            "CategoryName": "STRIKEOUTS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "60",
+            "CategoryName": "HITS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "58",
+            "CategoryName": "HITS-CARRERAS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "53",
+            "CategoryName": "IMPULSADAS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "51",
+            "CategoryName": "SENCILLOS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "42",
+            "CategoryName": "HR",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "40",
+            "CategoryName": "BASES",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "37",
+            "CategoryName": "BASES ROBADAS",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "Ha comenzado a las 02:08",
+        "DefaultGame": null,
+        "liveData": {
+            "Innings": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "HomeService": false,
+            "Strikes": "0",
+            "Balls": "0",
+            "Outs": "0",
+            "Bases": {
+                "Baseone": false,
+                "Basetwo": true,
+                "Basethree": false
+            },
+            "Period": 108,
+            "PeriodName": "10ª entrada",
+            "Actions": [
+                {
+                    "Period": 36,
+                    "PeriodName": "1ª entrada",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                }
+            ],
+            "ResultHome": 2,
+            "ResultAway": 2,
+            "Time": "02:08",
+            "MatchTime": -1,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "SEA Mariners (G. Kirby)",
+            "ParticipantAway": "DET Tigers (T. Skubal)"
+        },
+        "StartDate": "/Date(1760141280000)/",
+        "StarDate": "/Date(1760141280000)/",
+        "isLive": true,
+        "LeagueName": "MLB",
+        "ChildrenCount": 29,
+        "SportName": "Béisbol",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15138809,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "DET Tigers (T. Skubal)"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "DTi"
+                        },
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "es",
+                            "Value": "DTi"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15138812,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "SEA Mariners (G. Kirby)"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "SMa"
+                        },
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "es",
+                            "Value": "SMa"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,4,97,159,445,446,772,825,828,829,959,1573,1768,2459,2460,4020,4024|159,959",
+        "StatisticsId": "64158621",
+        "SportId": "2819833156",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.22,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833156",
+                        "LocationId": "2819833161",
+                        "LeagueId": "2819833171",
+                        "EventId": "11862383731",
+                        "EventHasHandicap": false,
+                        "GameId": "11862384052",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "SEA Mariners",
+                        "NodeId": "11862384101",
+                        "ParentNodeId": "11862384052",
+                        "Priority": 0,
+                        "SportHandle": "baseball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 3.8,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833156",
+                        "LocationId": "2819833161",
+                        "LeagueId": "2819833171",
+                        "EventId": "11862383731",
+                        "EventHasHandicap": false,
+                        "GameId": "11862384052",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "DET Tigers",
+                        "NodeId": "11862384102",
+                        "ParentNodeId": "11862384052",
+                        "Priority": 1,
+                        "SportHandle": "baseball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": true,
+                "Name": "Ganador del Partido ",
+                "NodeId": "11862384052",
+                "ParentNodeId": "11862383731",
+                "Priority": 9995,
+                "SportHandle": "baseball",
+                "Locked": true
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 9995,
+        "HighlightPriority": 0,
+        "ParticipantHome": "SEA Mariners (G. Kirby)",
+        "ParticipantAway": "DET Tigers (T. Skubal)",
+        "ParticipantHomeId": 15138812,
+        "ParticipantAwayId": 15138809,
+        "Name": "SEA Mariners(G. Kirby) - DET Tigers(T. Skubal)",
+        "NodeId": "11862383731",
+        "ParentNodeId": "2819833171",
+        "Priority": 0,
+        "SportHandle": "baseball",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

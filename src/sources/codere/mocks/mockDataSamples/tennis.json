@@ -1,0 +1,659 @@
+{
+  "CategoryInfos": [
+    {
+      "CategoryId": "99",
+      "CategoryName": "PRINCIPALES",
+      "IsRelevant": true
+    },
+    {
+      "CategoryId": "95",
+      "CategoryName": "JUEGOS",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "94",
+      "CategoryName": "SETS",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "2",
+      "CategoryName": "RÁPIDOS⚡",
+      "IsRelevant": false
+    }
+  ],
+  "Event": {
+    "ResultInfo": "Ha comenzado a las 22:03 6-2  3-0  (0-0)",
+    "DefaultGame": null,
+    "liveData": {
+      "Sets": [
+        [6, 2],
+        [3, 0]
+      ],
+      "HomeService": false,
+      "SetsHome": 1,
+      "SetsAway": 0,
+      "Period": 16,
+      "PeriodName": "2º Set",
+      "Actions": [
+        {
+          "Period": 15,
+          "PeriodName": "1º Set",
+          "Time": 0,
+          "ActionType": 14,
+          "ActionTypeName": "Patada inicial",
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": true
+        }
+      ],
+      "ResultHome": 0,
+      "ResultAway": 0,
+      "Time": "22:03",
+      "MatchTime": -1,
+      "RemainingPeriodTime": "",
+      "ParticipantHome": "Marina Stakusic",
+      "ParticipantAway": "Madison Brengle"
+    },
+    "StartDate": "/Date(1760126580000)/",
+    "StarDate": "/Date(1760126580000)/",
+    "isLive": true,
+    "LeagueName": "ITF W100 Edmond, OK Femenino (US)",
+    "ChildrenCount": 8,
+    "SportName": "Tenis",
+    "CountryCode": "ITFW",
+    "CountryName": "ITF Femenino",
+    "Participants": [
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "1"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 14793861,
+        "IsHome": false,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Madison Brengle"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "MBr"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      },
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "0"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 16551540,
+        "IsHome": true,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Marina Stakusic"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "MSt"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      }
+    ],
+    "LiveHistory": null,
+    "SmartMarketReferenceGameTypeIds": "38,97,195,199,201,204,260,261,366,388,389,1634,1635,3256|97,195,201,204;270,1090|97,195,201,204,1090;121,262|97,195,201,204,262;1636|97,195,201,204,262,1090;147,2840|97,147,195,201,204,262,1090",
+    "StatisticsId": "",
+    "SportId": "2819846742",
+    "Games": [
+      {
+        "Results": [
+          {
+            "Odd": 1.55,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871862917",
+            "GameTypeId": 1636,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11871862934",
+            "ParentNodeId": "11871862917",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 2.2,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871862917",
+            "GameTypeId": 1636,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11871862935",
+            "ParentNodeId": "11871862917",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "95",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": false
+          },
+          {
+            "CategoryId": "2",
+            "CategoryName": "RÁPIDOS⚡",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 1636,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSet\u003E2|\u003CGame\u003E4",
+        "ShortName": "Ganador del juego (Juego 4 / Set 2)",
+        "IsLive": true,
+        "Name": "Ganador del juego (Juego 4 / Set 2)",
+        "NodeId": "11871862917",
+        "ParentNodeId": "11866355536",
+        "Priority": 9350,
+        "SportHandle": "tennis",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.01,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11870854574",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11870854579",
+            "ParentNodeId": "11870854574",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 9,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11870854574",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11870854580",
+            "ParentNodeId": "11870854574",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 97,
+        "SmartMarketAvailable": false,
+        "Spov": "",
+        "ShortName": "Ganador del partido",
+        "IsLive": true,
+        "Name": "Ganador del partido",
+        "NodeId": "11870854574",
+        "ParentNodeId": "11866355536",
+        "Priority": 9500,
+        "SportHandle": "tennis",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.02,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871842520",
+            "GameTypeId": 262,
+            "GameSpecialOddsValue": "\u003CSet\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11871842545",
+            "ParentNodeId": "11871842520",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 8.5,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871842520",
+            "GameTypeId": 262,
+            "GameSpecialOddsValue": "\u003CSet\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11871842546",
+            "ParentNodeId": "11871842520",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "94",
+            "CategoryName": "SETS",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 262,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSet\u003E2",
+        "ShortName": "Ganador del Set 2",
+        "IsLive": true,
+        "Name": "Ganador del Set 2",
+        "NodeId": "11871842520",
+        "ParentNodeId": "11866355536",
+        "Priority": 9490,
+        "SportHandle": "tennis",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.7,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871880723",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E1",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11871880738",
+            "ParentNodeId": "11871880723",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 1.95,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871880723",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E1",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11871880739",
+            "ParentNodeId": "11871880723",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonlist",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "95",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": false
+          },
+          {
+            "CategoryId": "2",
+            "CategoryName": "RÁPIDOS⚡",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 1972,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E1",
+        "ShortName": "Ganador Punto 1 (Juego 4/Set 2)",
+        "IsLive": true,
+        "Name": "Ganador Punto 1 (Juego 4/Set 2)",
+        "NodeId": "11871880723",
+        "ParentNodeId": "11866355536",
+        "Priority": 9345,
+        "SportHandle": "tennis",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.7,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871880722",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11871880736",
+            "ParentNodeId": "11871880722",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 1.95,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871880722",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11871880737",
+            "ParentNodeId": "11871880722",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonlist",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "95",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": false
+          },
+          {
+            "CategoryId": "2",
+            "CategoryName": "RÁPIDOS⚡",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 1972,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSet\u003E2|\u003CGame\u003E4|\u003CPoint\u003E2",
+        "ShortName": "Ganador Punto 2 (Juego 4/Set 2)",
+        "IsLive": true,
+        "Name": "Ganador Punto 2 (Juego 4/Set 2)",
+        "NodeId": "11871880722",
+        "ParentNodeId": "11866355536",
+        "Priority": 9345,
+        "SportHandle": "tennis",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.7,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871879930",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E3|\u003CPoint\u003E9",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Marina Stakusic",
+            "NodeId": "11871879931",
+            "ParentNodeId": "11871879930",
+            "Priority": 0,
+            "SportHandle": "tennis",
+            "Locked": false
+          },
+          {
+            "Odd": 1.95,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2819846742",
+            "LocationId": "3032989472",
+            "LeagueId": "11849727763",
+            "EventId": "11866355536",
+            "EventHasHandicap": false,
+            "GameId": "11871879930",
+            "GameTypeId": 1972,
+            "GameSpecialOddsValue": "\u003CSet\u003E2|\u003CGame\u003E3|\u003CPoint\u003E9",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Madison Brengle",
+            "NodeId": "11871879932",
+            "ParentNodeId": "11871879930",
+            "Priority": 1,
+            "SportHandle": "tennis",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonlist",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "95",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": false
+          },
+          {
+            "CategoryId": "2",
+            "CategoryName": "RÁPIDOS⚡",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 1972,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSet\u003E2|\u003CGame\u003E3|\u003CPoint\u003E9",
+        "ShortName": "Ganador Punto 9 (Juego 3/Set 2)",
+        "IsLive": true,
+        "Name": "Ganador Punto 9 (Juego 3/Set 2)",
+        "NodeId": "11871879930",
+        "ParentNodeId": "11866355536",
+        "Priority": 9345,
+        "SportHandle": "tennis",
+        "Locked": true
+      }
+    ],
+    "StreamingId": "13160052",
+    "StreamingEnabled": "genius",
+    "LTMEnabled": false,
+    "LeagueKlothoPriority": 50,
+    "HighlightPriority": 0,
+    "ParticipantHome": "Marina Stakusic",
+    "ParticipantAway": "Madison Brengle",
+    "ParticipantHomeId": 16551540,
+    "ParticipantAwayId": 14793861,
+    "Name": "Marina Stakusic - Madison Brengle",
+    "NodeId": "11866355536",
+    "ParentNodeId": "11849727763",
+    "Priority": 0,
+    "SportHandle": "tennis",
+    "Locked": false
+  },
+  "ResultOddNodes": null
+}

@@ -1,0 +1,640 @@
+{
+  "CategoryInfos": [
+    {
+      "CategoryId": "99",
+      "CategoryName": "PRINCIPALES",
+      "IsRelevant": true
+    }
+  ],
+  "Event": {
+    "ResultInfo": "Ha comenzado a las 00:08",
+    "DefaultGame": null,
+    "liveData": {
+      "Period": 1,
+      "PeriodName": "Comenzado",
+      "Actions": [
+        {
+          "Period": 1,
+          "PeriodName": "Comenzado",
+          "Time": 0,
+          "ActionType": 14,
+          "ActionTypeName": "Patada inicial",
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": false
+        }
+      ],
+      "ResultHome": 0,
+      "ResultAway": 0,
+      "Time": "00:08",
+      "MatchTime": 7,
+      "RemainingPeriodTime": "",
+      "ParticipantHome": "Bounty Hunters",
+      "ParticipantAway": "MAGICOS"
+    },
+    "StartDate": "/Date(1760134080000)/",
+    "StarDate": "/Date(1760134080000)/",
+    "isLive": true,
+    "LeagueName": "[CSGO] CCT South America",
+    "ChildrenCount": 6,
+    "SportName": "eSports",
+    "CountryCode": "CSGO",
+    "CountryName": "CS",
+    "Participants": [
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "0"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 20078838,
+        "IsHome": true,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Bounty Hunters"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "BHu"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      },
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "1"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 22494061,
+        "IsHome": false,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "MAGICOS"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "MAG"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      }
+    ],
+    "LiveHistory": null,
+    "SmartMarketReferenceGameTypeIds": "",
+    "StatisticsId": "",
+    "SportId": "2886177137",
+    "Games": [
+      {
+        "Results": [
+          {
+            "Odd": 1.1,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670088",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E1",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters",
+            "NodeId": "11868670113",
+            "ParentNodeId": "11868670088",
+            "Priority": 0,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 5.75,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670088",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E1",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS",
+            "NodeId": "11868670114",
+            "ParentNodeId": "11868670088",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 2727,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CFrom\u003E1",
+        "ShortName": "Ganador del Mapa 1",
+        "IsLive": true,
+        "Name": "Ganador del Mapa 1",
+        "NodeId": "11868670088",
+        "ParentNodeId": "11868638332",
+        "Priority": 9980,
+        "SportHandle": "esports",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.12,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670086",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters",
+            "NodeId": "11868670109",
+            "ParentNodeId": "11868670086",
+            "Priority": 0,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 5.25,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670086",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E2",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS",
+            "NodeId": "11868670110",
+            "ParentNodeId": "11868670086",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 2727,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CFrom\u003E2",
+        "ShortName": "Ganador del Mapa 2",
+        "IsLive": true,
+        "Name": "Ganador del Mapa 2",
+        "NodeId": "11868670086",
+        "ParentNodeId": "11868638332",
+        "Priority": 9980,
+        "SportHandle": "esports",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.18,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670087",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E3",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters",
+            "NodeId": "11868670111",
+            "ParentNodeId": "11868670087",
+            "Priority": 0,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 4.3,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670087",
+            "GameTypeId": 2727,
+            "GameSpecialOddsValue": "\u003CFrom\u003E3",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS",
+            "NodeId": "11868670112",
+            "ParentNodeId": "11868670087",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 2727,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CFrom\u003E3",
+        "ShortName": "Ganador del Mapa 3",
+        "IsLive": true,
+        "Name": "Ganador del Mapa 3",
+        "NodeId": "11868670087",
+        "ParentNodeId": "11868638332",
+        "Priority": 9980,
+        "SportHandle": "esports",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.25,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11872033011",
+            "GameTypeId": 159,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters -1.5",
+            "NodeId": "11872033015",
+            "ParentNodeId": "11872033011",
+            "Priority": 0,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 3.5,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11872033011",
+            "GameTypeId": 159,
+            "GameSpecialOddsValue": "\u003CSpov\u003E-1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS +1.5",
+            "NodeId": "11872033016",
+            "ParentNodeId": "11872033011",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 159,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E-1.5",
+        "ShortName": "Hándicap de la Partida",
+        "IsLive": true,
+        "Name": "Hándicap de la Partida",
+        "NodeId": "11872033011",
+        "ParentNodeId": "11868638332",
+        "Priority": 9987,
+        "SportHandle": "esports",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 3.8,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670083",
+            "GameTypeId": 1595,
+            "GameSpecialOddsValue": "\u003CSpov\u003E2.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 2.5",
+            "NodeId": "11868670101",
+            "ParentNodeId": "11868670083",
+            "Priority": 0,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 1.22,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670083",
+            "GameTypeId": 1595,
+            "GameSpecialOddsValue": "\u003CSpov\u003E2.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 2.5",
+            "NodeId": "11868670102",
+            "ParentNodeId": "11868670083",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 1595,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E2.5",
+        "ShortName": "Más/Menos Total de Mapas Jugados",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Mapas Jugados",
+        "NodeId": "11868670083",
+        "ParentNodeId": "11868638332",
+        "Priority": 9986,
+        "SportHandle": "esports",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.28,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670084",
+            "GameTypeId": 1030,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters 2:0",
+            "NodeId": "11868670103",
+            "ParentNodeId": "11868670084",
+            "Priority": 1,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 4.3,
+            "SortOrder": 2,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670084",
+            "GameTypeId": 1030,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Bounty Hunters 2:1",
+            "NodeId": "11868670104",
+            "ParentNodeId": "11868670084",
+            "Priority": 2,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 30,
+            "SortOrder": 18,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670084",
+            "GameTypeId": 1030,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS 2:0",
+            "NodeId": "11868670105",
+            "ParentNodeId": "11868670084",
+            "Priority": 18,
+            "SportHandle": "esports",
+            "Locked": false
+          },
+          {
+            "Odd": 15,
+            "SortOrder": 19,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "2886177137",
+            "LocationId": "2886177140",
+            "LeagueId": "5769262254",
+            "EventId": "11868638332",
+            "EventHasHandicap": false,
+            "GameId": "11868670084",
+            "GameTypeId": 1030,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "MAGICOS 2:1",
+            "NodeId": "11868670106",
+            "ParentNodeId": "11868670084",
+            "Priority": 19,
+            "SportHandle": "esports",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonlist",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 1030,
+        "SmartMarketAvailable": false,
+        "Spov": "",
+        "ShortName": "Resultado Final por Mapas",
+        "IsLive": true,
+        "Name": "Resultado Final por Mapas",
+        "NodeId": "11868670084",
+        "ParentNodeId": "11868638332",
+        "Priority": 9985,
+        "SportHandle": "esports",
+        "Locked": false
+      }
+    ],
+    "StreamingId": null,
+    "StreamingEnabled": null,
+    "LTMEnabled": false,
+    "LeagueKlothoPriority": 0,
+    "HighlightPriority": 0,
+    "ParticipantHome": "Bounty Hunters",
+    "ParticipantAway": "MAGICOS",
+    "ParticipantHomeId": 20078838,
+    "ParticipantAwayId": 22494061,
+    "Name": "Bounty Hunters - MAGICOS",
+    "NodeId": "11868638332",
+    "ParentNodeId": "5769262254",
+    "Priority": 0,
+    "SportHandle": "esports",
+    "Locked": false
+  },
+  "ResultOddNodes": null
+}

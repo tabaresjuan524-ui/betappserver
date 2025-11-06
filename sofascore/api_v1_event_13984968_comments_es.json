@@ -1,0 +1,5000 @@
+{
+  "comments": [
+    {
+      "text": "Final del partido, Cruz Azul 2, Monterrey 0.",
+      "type": "matchEnded",
+      "id": 33278498,
+      "time": 1
+    },
+    {
+      "text": "Final segunda parte, Cruz Azul 2, Monterrey 0.",
+      "type": "endSecondHalf",
+      "id": 33278497,
+      "periodName": "2ND",
+      "time": 98
+    },
+    {
+      "text": "Decisión del VAR: Gol Cruz Azul 2-0 Monterrey (Ángel Sepúlveda).",
+      "type": "videoAssistantReferee",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "id": 33278495,
+      "periodName": "2ND",
+      "time": 97
+    },
+    {
+      "text": "¡Gooooool! Cruz Azul 2, Monterrey 0. Ángel Sepúlveda (Cruz Azul) remate con la derecha desde el centro del área por bajo, junto al palo izquierdo. Asistencia de Carlos Rodríguez.",
+      "type": "scoreChange",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Carlos Rodríguez",
+            "firstName": "",
+            "lastName": "",
+            "slug": "carlos-rodriguez",
+            "shortName": "C. Rodríguez",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 172,
+            "userCount": 610,
+            "gender": "M",
+            "id": 845849,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 852249600,
+            "proposedMarketValueRaw": {
+              "value": 4600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارلوس رودريغيز",
+                "hi": "कार्लोस रोड्रिग्ज़",
+                "bn": "কার্লোস রদ্রিগেজ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رودريغيز",
+                "hi": "सी. रोड्रिग्ज़",
+                "bn": "সি. রদ্রিগেজ"
+              }
+            }
+          },
+          "eventType": "clearance",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 25,
+            "y": 71.5
+          },
+          "passEndCoordinates": {
+            "x": 61.7,
+            "y": 96.5
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "José Rivero",
+            "slug": "jose-rivero",
+            "shortName": "J. Rivero",
+            "position": "M",
+            "jerseyNumber": "15",
+            "height": 170,
+            "userCount": 469,
+            "gender": "M",
+            "id": 789308,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 702864000,
+            "proposedMarketValueRaw": {
+              "value": 1900000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "خوسيه ريفيرو"
+              },
+              "shortNameTranslation": {
+                "ar": "خ. ريفيرو"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 73,
+            "y": 93.9
+          },
+          "passEndCoordinates": {
+            "x": 70.4,
+            "y": 77.8
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Carlos Rodríguez",
+            "firstName": "",
+            "lastName": "",
+            "slug": "carlos-rodriguez",
+            "shortName": "C. Rodríguez",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 172,
+            "userCount": 610,
+            "gender": "M",
+            "id": 845849,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 852249600,
+            "proposedMarketValueRaw": {
+              "value": 4600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارلوس رودريغيز",
+                "hi": "कार्लोस रोड्रिग्ज़",
+                "bn": "কার্লোস রদ্রিগেজ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رودريغيز",
+                "hi": "सी. रोड्रिग्ज़",
+                "bn": "সি. রদ্রিগেজ"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 70.4,
+            "y": 77.8
+          },
+          "passEndCoordinates": {
+            "x": 61.8,
+            "y": 94.7
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Omar Campos",
+            "firstName": "Omar Campos",
+            "lastName": "",
+            "slug": "omar-campos",
+            "shortName": "O. Campos",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 174,
+            "userCount": 356,
+            "gender": "M",
+            "id": 1097747,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1027123200,
+            "proposedMarketValueRaw": {
+              "value": 4400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عمر كامبوس",
+                "hi": "उमर कैम्पोस",
+                "bn": "ওমর ক্যাম্পোস"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. كامبوس",
+                "hi": "ओ. कैम्पोस",
+                "bn": "ও. ক্যাম্পোস"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 62.9,
+            "y": 93.6
+          },
+          "passEndCoordinates": {
+            "x": 66.5,
+            "y": 83.5
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Carlos Rodríguez",
+            "firstName": "",
+            "lastName": "",
+            "slug": "carlos-rodriguez",
+            "shortName": "C. Rodríguez",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 172,
+            "userCount": 610,
+            "gender": "M",
+            "id": 845849,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 852249600,
+            "proposedMarketValueRaw": {
+              "value": 4600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارلوس رودريغيز",
+                "hi": "कार्लोस रोड्रिग्ज़",
+                "bn": "কার্লোস রদ্রিগেজ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رودريغيز",
+                "hi": "सी. रोड्रिग्ज़",
+                "bn": "সি. রদ্রিগেজ"
+              }
+            }
+          },
+          "eventType": "pass",
+          "isAssist": true,
+          "time": 90,
+          "playerCoordinates": {
+            "x": 70.6,
+            "y": 70.9
+          },
+          "passEndCoordinates": {
+            "x": 81.7,
+            "y": 54.8
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Ángel Sepúlveda",
+            "slug": "angel-sepulveda",
+            "shortName": "Á. Sepúlveda",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 181,
+            "userCount": 1324,
+            "gender": "M",
+            "id": 134449,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 666576000,
+            "proposedMarketValueRaw": {
+              "value": 680000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أنخيل سيبولفيدا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. سيبولفيدا"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "right-foot",
+          "time": 90,
+          "playerCoordinates": {
+            "x": 86.9,
+            "y": 58.8
+          },
+          "gkCoordinates": {
+            "x": 95.9,
+            "y": 51.4
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 52.3
+          },
+          "goalMouthCoordinates": {
+            "x": 37.63,
+            "y": 89.5
+          },
+          "goalkeeper": {
+            "name": "Luis Cárdenas",
+            "firstName": "",
+            "lastName": "",
+            "slug": "luis-cardenas",
+            "shortName": "L. Cárdenas",
+            "position": "G",
+            "jerseyNumber": "22",
+            "height": 180,
+            "userCount": 113,
+            "gender": "M",
+            "id": 322691,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 748051200,
+            "proposedMarketValueRaw": {
+              "value": 320000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لويس كارديناس"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. كارديناس"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 33278496,
+      "periodName": "2ND",
+      "time": 96
+    },
+    {
+      "text": "Sergio Ramos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33278491,
+      "periodName": "2ND",
+      "time": 95
+    },
+    {
+      "text": "Falta de Omar Campos (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Omar Campos",
+        "firstName": "Omar Campos",
+        "lastName": "",
+        "slug": "omar-campos",
+        "shortName": "O. Campos",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 174,
+        "userCount": 356,
+        "gender": "M",
+        "id": 1097747,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1027123200,
+        "proposedMarketValueRaw": {
+          "value": 4400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر كامبوس",
+            "hi": "उमर कैम्पोस",
+            "bn": "ওমর ক্যাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. كامبوس",
+            "hi": "ओ. कैम्पोस",
+            "bn": "ও. ক্যাম্পোস"
+          }
+        }
+      },
+      "id": 33278490,
+      "periodName": "2ND",
+      "time": 95
+    },
+    {
+      "text": "Remate parado alto y por el centro de la portería. Luka Romero (Cruz Azul) remate con la izquierda desde el lado izquierdo del interior del área. Asistencia de Omar Campos.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "Luka Romero",
+        "firstName": "Luka Romero",
+        "lastName": "",
+        "slug": "luka-romero",
+        "shortName": "L. Romero",
+        "position": "F",
+        "jerseyNumber": "18",
+        "height": 169,
+        "userCount": 5439,
+        "gender": "M",
+        "sofascoreId": "lukaromero10",
+        "id": 1032022,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1100736000,
+        "proposedMarketValueRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا روميرو",
+            "hi": "लुका रोमेरो",
+            "bn": "লুকা রোমেরো"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روميرو",
+            "hi": "एल. रोमेरो",
+            "bn": "এল. রোমেরো"
+          }
+        }
+      },
+      "id": 33278492,
+      "periodName": "2ND",
+      "time": 95
+    },
+    {
+      "text": "Remate parado junto al lado derecho de la portería. Carlos Rodríguez (Cruz Azul) remate con la derecha desde fuera del área. Asistencia de Luka Romero.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "id": 33278493,
+      "periodName": "2ND",
+      "time": 94
+    },
+    {
+      "text": "Cambio en Monterrey, entra al campo Joaquín Moxica sustituyendo a Luis Reyes.",
+      "type": "substitution",
+      "isHome": false,
+      "player": {
+        "name": "Joaquin Moxica",
+        "firstName": "Joaquín Moxica",
+        "slug": "moxica-joaquin",
+        "shortName": "J. Moxica",
+        "position": "F",
+        "jerseyNumber": "192",
+        "height": 172,
+        "userCount": 117,
+        "gender": "M",
+        "id": 1469040,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1138320000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خواكين موكسيكا"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. موكسيكا"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Joaquin Moxica",
+        "firstName": "Joaquín Moxica",
+        "slug": "moxica-joaquin",
+        "shortName": "J. Moxica",
+        "position": "F",
+        "jerseyNumber": "192",
+        "height": 172,
+        "userCount": 117,
+        "gender": "M",
+        "id": 1469040,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1138320000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خواكين موكسيكا"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. موكسيكا"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Luis Reyes",
+        "slug": "luis-reyes",
+        "shortName": "L. Reyes",
+        "position": "D",
+        "jerseyNumber": "21",
+        "height": 181,
+        "userCount": 232,
+        "gender": "M",
+        "id": 843154,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 670636800,
+        "proposedMarketValueRaw": {
+          "value": 650000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس رييس",
+            "hi": "लुइस रेयेस",
+            "bn": "লুইস রেয়েস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. رييس",
+            "hi": "एल. रेयेस",
+            "bn": "এল. রেয়েস"
+          }
+        }
+      },
+      "id": 33278483,
+      "periodName": "2ND",
+      "time": 93
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Omar Campos intentó un pase en profundidad pero Ángel Sepúlveda estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "id": 33278479,
+      "periodName": "2ND",
+      "time": 92
+    },
+    {
+      "text": "Sergio Ramos (Monterrey) ha visto tarjeta amarilla por juego peligroso.",
+      "type": "yellowCard",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33278475,
+      "periodName": "2ND",
+      "time": 91
+    },
+    {
+      "text": "El cuarto árbitro ha anunciado 6 minutos de tiempo añadido.",
+      "type": "addedTime",
+      "id": 33278477,
+      "periodName": "2ND",
+      "time": 91
+    },
+    {
+      "text": "Amaury García (Cruz Azul) ha visto tarjeta amarilla por juego peligroso.",
+      "type": "yellowCard",
+      "isHome": true,
+      "player": {
+        "name": "Amaury Garcia Moreno",
+        "slug": "garcia-moreno-amaury",
+        "shortName": "A. G. Moreno",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 180,
+        "userCount": 122,
+        "gender": "M",
+        "id": 990729,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1008720000,
+        "proposedMarketValueRaw": {
+          "value": 470000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماروي غارسيا مورينو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مورينو"
+          }
+        }
+      },
+      "id": 33278472,
+      "periodName": "2ND",
+      "time": 89
+    },
+    {
+      "text": "Falta de Amaury García (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Amaury Garcia Moreno",
+        "slug": "garcia-moreno-amaury",
+        "shortName": "A. G. Moreno",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 180,
+        "userCount": 122,
+        "gender": "M",
+        "id": 990729,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1008720000,
+        "proposedMarketValueRaw": {
+          "value": 470000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماروي غارسيا مورينو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مورينو"
+          }
+        }
+      },
+      "id": 33278473,
+      "periodName": "2ND",
+      "time": 89
+    },
+    {
+      "text": "Jorge Rodríguez (Monterrey) ha recibido una falta en campo contrario.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Jorge Rodríguez",
+        "slug": "jorge-rodriguez",
+        "shortName": "J. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "30",
+        "height": 179,
+        "userCount": 483,
+        "gender": "M",
+        "id": 583332,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 811123200,
+        "proposedMarketValueRaw": {
+          "value": 3400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خورخي رودريغيز"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. رودريغيز"
+          }
+        }
+      },
+      "id": 33278468,
+      "periodName": "2ND",
+      "time": 89
+    },
+    {
+      "text": "Remate fallado por Ángel Sepúlveda (Cruz Azul) remate con la derecha desde el centro del área que se le va demasiado alto. Asistencia de Carlos Rodríguez con un centro al área.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "id": 33278463,
+      "periodName": "2ND",
+      "time": 88
+    },
+    {
+      "text": "Remate fallado por Luka Romero (Cruz Azul) remate con la derecha desde fuera del área el balón se pierde por el lado derecho de la portería. Asistencia de Ángel Sepúlveda.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Luka Romero",
+        "firstName": "Luka Romero",
+        "lastName": "",
+        "slug": "luka-romero",
+        "shortName": "L. Romero",
+        "position": "F",
+        "jerseyNumber": "18",
+        "height": 169,
+        "userCount": 5439,
+        "gender": "M",
+        "sofascoreId": "lukaromero10",
+        "id": 1032022,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1100736000,
+        "proposedMarketValueRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا روميرو",
+            "hi": "लुका रोमेरो",
+            "bn": "লুকা রোমেরো"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روميرو",
+            "hi": "एल. रोमेरो",
+            "bn": "এল. রোমেরো"
+          }
+        }
+      },
+      "id": 33278458,
+      "periodName": "2ND",
+      "time": 85
+    },
+    {
+      "text": "Cambio en Monterrey, entra al campo Jesús Corona sustituyendo a Lucas Ocampos.",
+      "type": "substitution",
+      "isHome": false,
+      "player": {
+        "name": "Jesús Corona",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jesus-corona",
+        "shortName": "J. Corona",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 173,
+        "userCount": 1904,
+        "gender": "M",
+        "id": 123906,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 726278400,
+        "proposedMarketValueRaw": {
+          "value": 2200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خيسوس كورونا",
+            "hi": "जीसस कोरोना",
+            "bn": "জেসাস করোনা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كورونا",
+            "hi": "जे. कोरोना",
+            "bn": "জে. করোনা"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Jesús Corona",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jesus-corona",
+        "shortName": "J. Corona",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 173,
+        "userCount": 1904,
+        "gender": "M",
+        "id": 123906,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 726278400,
+        "proposedMarketValueRaw": {
+          "value": 2200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خيسوس كورونا",
+            "hi": "जीसस कोरोना",
+            "bn": "জেসাস করোনা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. كورونا",
+            "hi": "जे. कोरोना",
+            "bn": "জে. করোনা"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278459,
+      "periodName": "2ND",
+      "time": 85
+    },
+    {
+      "text": "Cambio en Monterrey, entra al campo Carlos Salcedo sustituyendo a Ricardo Chávez.",
+      "type": "substitution",
+      "isHome": false,
+      "player": {
+        "name": "Carlos Salcedo",
+        "slug": "carlos-salcedo",
+        "shortName": "C. Salcedo",
+        "position": "D",
+        "jerseyNumber": "13",
+        "height": 185,
+        "userCount": 302,
+        "gender": "M",
+        "id": 314096,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 749260800,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس سالسيدو",
+            "hi": "कार्लोस साल्सेडो",
+            "bn": "কার্লোস সালসেডো"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سالسيدو",
+            "hi": "सी. साल्सेडो",
+            "bn": "সি. সালসেডো"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Carlos Salcedo",
+        "slug": "carlos-salcedo",
+        "shortName": "C. Salcedo",
+        "position": "D",
+        "jerseyNumber": "13",
+        "height": 185,
+        "userCount": 302,
+        "gender": "M",
+        "id": 314096,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 749260800,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس سالسيدو",
+            "hi": "कार्लोस साल्सेडो",
+            "bn": "কার্লোস সালসেডো"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سالسيدو",
+            "hi": "सी. साल्सेडो",
+            "bn": "সি. সালসেডো"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Ricardo Chávez",
+        "slug": "ricardo-chavez",
+        "shortName": "R. Chávez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 176,
+        "userCount": 179,
+        "gender": "M",
+        "id": 817753,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 785203200,
+        "proposedMarketValueRaw": {
+          "value": 2800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو تشافيز",
+            "hi": "रिकार्डो चावेज़",
+            "bn": "রিকার্ডো শ্যাভেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. تشافيز",
+            "hi": "आर. चावेज़",
+            "bn": "আর. শাভেজ"
+          }
+        }
+      },
+      "id": 33278460,
+      "periodName": "2ND",
+      "time": 85
+    },
+    {
+      "text": "Cambio en Cruz Azul, entra al campo Amaury García sustituyendo a Jeremy Márquez.",
+      "type": "substitution",
+      "isHome": true,
+      "player": {
+        "name": "Amaury Garcia Moreno",
+        "slug": "garcia-moreno-amaury",
+        "shortName": "A. G. Moreno",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 180,
+        "userCount": 122,
+        "gender": "M",
+        "id": 990729,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1008720000,
+        "proposedMarketValueRaw": {
+          "value": 470000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماروي غارسيا مورينو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مورينو"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Amaury Garcia Moreno",
+        "slug": "garcia-moreno-amaury",
+        "shortName": "A. G. Moreno",
+        "position": "M",
+        "jerseyNumber": "17",
+        "height": 180,
+        "userCount": 122,
+        "gender": "M",
+        "id": 990729,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1008720000,
+        "proposedMarketValueRaw": {
+          "value": 470000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أماروي غارسيا مورينو"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مورينو"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278455,
+      "periodName": "2ND",
+      "time": 84
+    },
+    {
+      "text": "Corner,Cruz Azul. Corner cometido por Ricardo Chávez.",
+      "type": "cornerKick",
+      "isHome": false,
+      "player": {
+        "name": "Ricardo Chávez",
+        "slug": "ricardo-chavez",
+        "shortName": "R. Chávez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 176,
+        "userCount": 179,
+        "gender": "M",
+        "id": 817753,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 785203200,
+        "proposedMarketValueRaw": {
+          "value": 2800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو تشافيز",
+            "hi": "रिकार्डो चावेज़",
+            "bn": "রিকার্ডো শ্যাভেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. تشافيز",
+            "hi": "आर. चावेज़",
+            "bn": "আর. শাভেজ"
+          }
+        }
+      },
+      "id": 33278453,
+      "periodName": "2ND",
+      "time": 83
+    },
+    {
+      "text": "Falta de Lucas Ocampos (Monterrey).",
+      "type": "freeKickLost",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278451,
+      "periodName": "2ND",
+      "time": 81
+    },
+    {
+      "text": "Omar Campos (Cruz Azul) ha recibido una falta en la banda izquierda.",
+      "type": "freeKickWon",
+      "isHome": true,
+      "player": {
+        "name": "Omar Campos",
+        "firstName": "Omar Campos",
+        "lastName": "",
+        "slug": "omar-campos",
+        "shortName": "O. Campos",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 174,
+        "userCount": 356,
+        "gender": "M",
+        "id": 1097747,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1027123200,
+        "proposedMarketValueRaw": {
+          "value": 4400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر كامبوس",
+            "hi": "उमर कैम्पोस",
+            "bn": "ওমর ক্যাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. كامبوس",
+            "hi": "ओ. कैम्पोस",
+            "bn": "ও. ক্যাম্পোস"
+          }
+        }
+      },
+      "id": 33278450,
+      "periodName": "2ND",
+      "time": 81
+    },
+    {
+      "text": "Jeremy Márquez (Cruz Azul) ha visto tarjeta amarilla por juego peligroso.",
+      "type": "yellowCard",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278444,
+      "periodName": "2ND",
+      "time": 79
+    },
+    {
+      "text": "Lucas Ocampos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278446,
+      "periodName": "2ND",
+      "time": 79
+    },
+    {
+      "text": "Falta de Jeremy Márquez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278445,
+      "periodName": "2ND",
+      "time": 79
+    },
+    {
+      "text": "Remate parado rozando la escuadra izquierda. Luka Romero (Cruz Azul) remate con la izquierda desde fuera del área. Asistencia de Carlos Rodríguez.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "Luka Romero",
+        "firstName": "Luka Romero",
+        "lastName": "",
+        "slug": "luka-romero",
+        "shortName": "L. Romero",
+        "position": "F",
+        "jerseyNumber": "18",
+        "height": 169,
+        "userCount": 5439,
+        "gender": "M",
+        "sofascoreId": "lukaromero10",
+        "id": 1032022,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1100736000,
+        "proposedMarketValueRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا روميرو",
+            "hi": "लुका रोमेरो",
+            "bn": "লুকা রোমেরো"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روميرو",
+            "hi": "एल. रोमेरो",
+            "bn": "এল. রোমেরো"
+          }
+        }
+      },
+      "id": 33278447,
+      "periodName": "2ND",
+      "time": 79
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Jesús Orozco intentó un pase en profundidad pero Ángel Sepúlveda estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "id": 33278441,
+      "periodName": "2ND",
+      "time": 77
+    },
+    {
+      "text": "Cambio en Monterrey, entra al campo Anthony Martial sustituyendo a Sergio Canales debido a una lesión.",
+      "type": "substitution",
+      "isHome": false,
+      "player": {
+        "name": "Anthony Martial",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-martial",
+        "shortName": "A. Martial",
+        "position": "M",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 19415,
+        "gender": "M",
+        "sofascoreId": "martial_9",
+        "id": 191176,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 818121600,
+        "proposedMarketValueRaw": {
+          "value": 7300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني مارسيال",
+            "hi": "एंथनी मार्शल",
+            "bn": "অ্যান্টনি মার্শাল"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مارسيال",
+            "hi": "ए. मार्शल",
+            "bn": "এ. মার্শাল"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Anthony Martial",
+        "firstName": "",
+        "lastName": "",
+        "slug": "anthony-martial",
+        "shortName": "A. Martial",
+        "position": "M",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 19415,
+        "gender": "M",
+        "sofascoreId": "martial_9",
+        "id": 191176,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 818121600,
+        "proposedMarketValueRaw": {
+          "value": 7300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنتوني مارسيال",
+            "hi": "एंथनी मार्शल",
+            "bn": "অ্যান্টনি মার্শাল"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. مارسيال",
+            "hi": "ए. मार्शल",
+            "bn": "এ. মার্শাল"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Sergio Canales",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sergio-canales",
+        "shortName": "S. Canales",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 176,
+        "userCount": 2880,
+        "gender": "M",
+        "id": 41560,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666662400,
+        "proposedMarketValueRaw": {
+          "value": 6400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاناليس",
+            "hi": "सर्जियो कैनालेस",
+            "bn": "সার্জিও ক্যানালেস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاناليس",
+            "hi": "एस. कैनालेस",
+            "bn": "এস. ক্যানালেস"
+          }
+        }
+      },
+      "id": 33278440,
+      "periodName": "2ND",
+      "time": 77
+    },
+    {
+      "text": "Cambio en Cruz Azul, entra al campo Ángel Sepúlveda sustituyendo a Gabriel Fernández.",
+      "type": "substitution",
+      "isHome": true,
+      "player": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Ángel Sepúlveda",
+        "slug": "angel-sepulveda",
+        "shortName": "Á. Sepúlveda",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 181,
+        "userCount": 1324,
+        "gender": "M",
+        "id": 134449,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666576000,
+        "proposedMarketValueRaw": {
+          "value": 680000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنخيل سيبولفيدا"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. سيبولفيدا"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Gabriel Fernández",
+        "slug": "gabriel-fernandez",
+        "shortName": "G. Fernández",
+        "position": "F",
+        "jerseyNumber": "21",
+        "height": 186,
+        "userCount": 611,
+        "gender": "M",
+        "id": 922896,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 768787200,
+        "proposedMarketValueRaw": {
+          "value": 2100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل فرنانديز",
+            "hi": "गेब्रियल फर्नांडीज",
+            "bn": "গ্যাব্রিয়েল ফার্নান্ডেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فرنانديز",
+            "hi": "जी. फर्नांडीज",
+            "bn": "জি. ফার্নান্ডেজ"
+          }
+        }
+      },
+      "id": 33278439,
+      "periodName": "2ND",
+      "time": 75
+    },
+    {
+      "text": "Cambio en Cruz Azul, entra al campo Luka Romero sustituyendo a José Paradela.",
+      "type": "substitution",
+      "isHome": true,
+      "player": {
+        "name": "Luka Romero",
+        "firstName": "Luka Romero",
+        "lastName": "",
+        "slug": "luka-romero",
+        "shortName": "L. Romero",
+        "position": "F",
+        "jerseyNumber": "18",
+        "height": 169,
+        "userCount": 5439,
+        "gender": "M",
+        "sofascoreId": "lukaromero10",
+        "id": 1032022,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1100736000,
+        "proposedMarketValueRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا روميرو",
+            "hi": "लुका रोमेरो",
+            "bn": "লুকা রোমেরো"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روميرو",
+            "hi": "एल. रोमेरो",
+            "bn": "এল. রোমেরো"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Luka Romero",
+        "firstName": "Luka Romero",
+        "lastName": "",
+        "slug": "luka-romero",
+        "shortName": "L. Romero",
+        "position": "F",
+        "jerseyNumber": "18",
+        "height": 169,
+        "userCount": 5439,
+        "gender": "M",
+        "sofascoreId": "lukaromero10",
+        "id": 1032022,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1100736000,
+        "proposedMarketValueRaw": {
+          "value": 3700000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكا روميرو",
+            "hi": "लुका रोमेरो",
+            "bn": "লুকা রোমেরো"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. روميرو",
+            "hi": "एल. रोमेरो",
+            "bn": "এল. রোমেরো"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "José Paradela",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jose-paradela",
+        "shortName": "J. Paradela",
+        "position": "F",
+        "jerseyNumber": "20",
+        "height": 180,
+        "userCount": 1136,
+        "gender": "M",
+        "id": 944623,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 913680000,
+        "proposedMarketValueRaw": {
+          "value": 7100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه باراديلا",
+            "hi": "जोस परडेला",
+            "bn": "হোসে প্যারাডেলা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. باراديلا",
+            "hi": "जे. परडेला",
+            "bn": "জে. প্যারাডেলা"
+          }
+        }
+      },
+      "id": 33278436,
+      "periodName": "2ND",
+      "time": 75
+    },
+    {
+      "text": "Remate parado alto y por el centro de la portería. Ignacio Rivero (Cruz Azul) remate de cabeza desde el centro del área. Asistencia de José Paradela con un centro al área.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278433,
+      "periodName": "2ND",
+      "time": 74
+    },
+    {
+      "text": "Corner,Cruz Azul. Corner cometido por Ricardo Chávez.",
+      "type": "cornerKick",
+      "isHome": false,
+      "player": {
+        "name": "Ricardo Chávez",
+        "slug": "ricardo-chavez",
+        "shortName": "R. Chávez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 176,
+        "userCount": 179,
+        "gender": "M",
+        "id": 817753,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 785203200,
+        "proposedMarketValueRaw": {
+          "value": 2800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو تشافيز",
+            "hi": "रिकार्डो चावेज़",
+            "bn": "রিকার্ডো শ্যাভেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. تشافيز",
+            "hi": "आर. चावेज़",
+            "bn": "আর. শাভেজ"
+          }
+        }
+      },
+      "id": 33278434,
+      "periodName": "2ND",
+      "time": 73
+    },
+    {
+      "text": "Remate fallado por Jesús Orozco (Cruz Azul) remate de cabeza desde muy cerca el balón se pierde por el lado derecho de la portería. Asistencia de Omar Campos con un centro al área tras un saque de esquina.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Jesús Orozco",
+        "firstName": "Jesús Gilberto Orozco Chiquete",
+        "lastName": "",
+        "slug": "jesus-orozco",
+        "shortName": "J. Orozco",
+        "position": "D",
+        "jerseyNumber": "5",
+        "height": 189,
+        "userCount": 698,
+        "gender": "M",
+        "id": 1088274,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1014076800,
+        "proposedMarketValueRaw": {
+          "value": 6300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خيسوس أوروزكو",
+            "hi": "जीसस ओरोज्को",
+            "bn": "জেসুস ওরোজকো"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. أوروزكو",
+            "hi": "जे. ओरोज्को",
+            "bn": "জে. ওরোজকো"
+          }
+        }
+      },
+      "id": 33278426,
+      "periodName": "2ND",
+      "time": 72
+    },
+    {
+      "text": "Corner,Cruz Azul. Corner cometido por Sergio Ramos.",
+      "type": "cornerKick",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33278427,
+      "periodName": "2ND",
+      "time": 71
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Jeremy Márquez intentó un pase en profundidad pero Ignacio Rivero estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278423,
+      "periodName": "2ND",
+      "time": 70
+    },
+    {
+      "text": "Remate fallado por Sergio Ramos (Monterrey) remate de cabeza desde el centro del área muy cerca del palo derecho pero se marchó ligeramente desviado. Asistencia de Sergio Canales con un centro al área tras un saque de esquina.",
+      "type": "shotOffTarget",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33278419,
+      "periodName": "2ND",
+      "time": 69
+    },
+    {
+      "text": "Corner,Monterrey. Corner cometido por Kevin Mier.",
+      "type": "cornerKick",
+      "isHome": true,
+      "player": {
+        "name": "Kevin Mier",
+        "slug": "kevin-mier",
+        "shortName": "K. Mier",
+        "position": "G",
+        "jerseyNumber": "23",
+        "height": 190,
+        "userCount": 2447,
+        "gender": "M",
+        "id": 876190,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 958694400,
+        "proposedMarketValueRaw": {
+          "value": 7100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيفن مير",
+            "hi": "केविन मियर",
+            "bn": "কেভিন মিয়ার"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. مير",
+            "hi": "के. मियर",
+            "bn": "কে. মিয়ার"
+          }
+        }
+      },
+      "id": 33278420,
+      "periodName": "2ND",
+      "time": 69
+    },
+    {
+      "text": "Remate parado rozando la escuadra izquierda. Lucas Ocampos (Monterrey) remate con la derecha desde fuera del área.",
+      "type": "shotSaved",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278421,
+      "periodName": "2ND",
+      "time": 69
+    },
+    {
+      "text": "Remate parado bajo palos a rás de suelo. Germán Berterame (Monterrey) remate con la derecha desde el lado derecho del interior del área.",
+      "type": "shotSaved",
+      "isHome": false,
+      "player": {
+        "name": "Germán Berterame",
+        "slug": "german-berterame",
+        "shortName": "G. Berterame",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 173,
+        "userCount": 2466,
+        "gender": "M",
+        "id": 822606,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910915200,
+        "proposedMarketValueRaw": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيرمان بيرترامي",
+            "hi": "जर्मन बेर्टेरामे",
+            "bn": "জার্মান বার্টারমে"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بيرترامي",
+            "hi": "जी. बेर्टेरामे",
+            "bn": "জি. বার্টেরেম"
+          }
+        }
+      },
+      "id": 33278422,
+      "periodName": "2ND",
+      "time": 69
+    },
+    {
+      "text": "Remate fallado por Jeremy Márquez (Cruz Azul) remate con la derecha desde fuera del área que se pierde por la izquierda. Asistencia de Carlos Rodríguez.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278416,
+      "periodName": "2ND",
+      "time": 68
+    },
+    {
+      "text": "Falta de Jesús Orozco (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jesús Orozco",
+        "firstName": "Jesús Gilberto Orozco Chiquete",
+        "lastName": "",
+        "slug": "jesus-orozco",
+        "shortName": "J. Orozco",
+        "position": "D",
+        "jerseyNumber": "5",
+        "height": 189,
+        "userCount": 698,
+        "gender": "M",
+        "id": 1088274,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1014076800,
+        "proposedMarketValueRaw": {
+          "value": 6300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خيسوس أوروزكو",
+            "hi": "जीसस ओरोज्को",
+            "bn": "জেসুস ওরোজকো"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. أوروزكو",
+            "hi": "जे. ओरोज्को",
+            "bn": "জে. ওরোজকো"
+          }
+        }
+      },
+      "id": 33278415,
+      "periodName": "2ND",
+      "time": 67
+    },
+    {
+      "text": "Sergio Canales (Monterrey) ha recibido una falta en campo contrario.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Canales",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sergio-canales",
+        "shortName": "S. Canales",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 176,
+        "userCount": 2880,
+        "gender": "M",
+        "id": 41560,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666662400,
+        "proposedMarketValueRaw": {
+          "value": 6400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاناليس",
+            "hi": "सर्जियो कैनालेस",
+            "bn": "সার্জিও ক্যানালেস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاناليس",
+            "hi": "एस. कैनालेस",
+            "bn": "এস. ক্যানালেস"
+          }
+        }
+      },
+      "id": 33278403,
+      "periodName": "2ND",
+      "time": 67
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Carlos Rodríguez intentó un pase en profundidad pero Ignacio Rivero estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278392,
+      "periodName": "2ND",
+      "time": 65
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Willer Ditta intentó un pase en profundidad pero Ignacio Rivero estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278389,
+      "periodName": "2ND",
+      "time": 64
+    },
+    {
+      "text": "Remate rechazado de Gerardo Arteaga (Monterrey) remate con la izquierda desde el centro del área. Asistencia de Germán Berterame.",
+      "type": "shotBlocked",
+      "isHome": false,
+      "player": {
+        "name": "Gerardo Arteaga",
+        "slug": "gerardo-arteaga",
+        "shortName": "G. Arteaga",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 173,
+        "userCount": 841,
+        "gender": "M",
+        "id": 856129,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 905126400,
+        "proposedMarketValueRaw": {
+          "value": 3200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيراردو أرتيغا",
+            "hi": "गेरार्डो आर्टेगा",
+            "bn": "জেরার্ডো আর্টেগা"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أرتيغا",
+            "hi": "जी. आर्टेगा",
+            "bn": "জি. আর্টেগা"
+          }
+        }
+      },
+      "id": 33278382,
+      "periodName": "2ND",
+      "time": 62
+    },
+    {
+      "text": "Ricardo Chávez (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Ricardo Chávez",
+        "slug": "ricardo-chavez",
+        "shortName": "R. Chávez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 176,
+        "userCount": 179,
+        "gender": "M",
+        "id": 817753,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 785203200,
+        "proposedMarketValueRaw": {
+          "value": 2800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريكاردو تشافيز",
+            "hi": "रिकार्डो चावेज़",
+            "bn": "রিকার্ডো শ্যাভেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. تشافيز",
+            "hi": "आर. चावेज़",
+            "bn": "আর. শাভেজ"
+          }
+        }
+      },
+      "id": 33278377,
+      "periodName": "2ND",
+      "time": 61
+    },
+    {
+      "text": "Falta de Ignacio Rivero (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278376,
+      "periodName": "2ND",
+      "time": 61
+    },
+    {
+      "text": "Érik Lira (Cruz Azul) ha recibido una falta en la banda izquierda.",
+      "type": "freeKickWon",
+      "isHome": true,
+      "player": {
+        "name": "Erik Lira",
+        "firstName": "",
+        "lastName": "",
+        "slug": "erik-lira",
+        "shortName": "E. Lira",
+        "position": "D",
+        "jerseyNumber": "6",
+        "height": 172,
+        "userCount": 559,
+        "gender": "M",
+        "id": 944068,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 957744000,
+        "proposedMarketValueRaw": {
+          "value": 8800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك ليرا",
+            "hi": "एरिक लीरा",
+            "bn": "এরিক লিরা"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليرا",
+            "hi": "ई. लीरा",
+            "bn": "ই. লিরা"
+          }
+        }
+      },
+      "id": 33278368,
+      "periodName": "2ND",
+      "time": 57
+    },
+    {
+      "text": "Falta de Germán Berterame (Monterrey).",
+      "type": "freeKickLost",
+      "isHome": false,
+      "player": {
+        "name": "Germán Berterame",
+        "slug": "german-berterame",
+        "shortName": "G. Berterame",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 173,
+        "userCount": 2466,
+        "gender": "M",
+        "id": 822606,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910915200,
+        "proposedMarketValueRaw": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيرمان بيرترامي",
+            "hi": "जर्मन बेर्टेरामे",
+            "bn": "জার্মান বার্টারমে"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بيرترامي",
+            "hi": "जी. बेर्टेरामे",
+            "bn": "জি. বার্টেরেম"
+          }
+        }
+      },
+      "id": 33278365,
+      "periodName": "2ND",
+      "time": 57
+    },
+    {
+      "text": "Remate parado por bajo a la izquierda. Ignacio Rivero (Cruz Azul) remate con la derecha desde fuera del área. Asistencia de Jesús Orozco.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "id": 33278362,
+      "periodName": "2ND",
+      "time": 56
+    },
+    {
+      "text": "Lucas Ocampos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278360,
+      "periodName": "2ND",
+      "time": 54
+    },
+    {
+      "text": "Falta de Jeremy Márquez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278359,
+      "periodName": "2ND",
+      "time": 54
+    },
+    {
+      "text": "Remate fallado por Carlos Rodríguez (Cruz Azul) remate con la derecha desde fuera del área el balón se pierde por el lado derecho de la portería. Asistencia de Omar Campos.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "id": 33278356,
+      "periodName": "2ND",
+      "time": 54
+    },
+    {
+      "text": "Cambio en Cruz Azul, entra al campo Ignacio Rivero sustituyendo a Lorenzo Faravelli.",
+      "type": "substitution",
+      "isHome": true,
+      "player": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "José Rivero",
+        "slug": "jose-rivero",
+        "shortName": "J. Rivero",
+        "position": "M",
+        "jerseyNumber": "15",
+        "height": 170,
+        "userCount": 469,
+        "gender": "M",
+        "id": 789308,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 702864000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه ريفيرو"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. ريفيرو"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33278352,
+      "periodName": "2ND",
+      "time": 52
+    },
+    {
+      "text": "Cambio en Cruz Azul, entra al campo Omar Campos sustituyendo a Carlos Rotondi debido a una lesión.",
+      "type": "substitution",
+      "isHome": true,
+      "player": {
+        "name": "Omar Campos",
+        "firstName": "Omar Campos",
+        "lastName": "",
+        "slug": "omar-campos",
+        "shortName": "O. Campos",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 174,
+        "userCount": 356,
+        "gender": "M",
+        "id": 1097747,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1027123200,
+        "proposedMarketValueRaw": {
+          "value": 4400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر كامبوس",
+            "hi": "उमर कैम्पोस",
+            "bn": "ওমর ক্যাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. كامبوس",
+            "hi": "ओ. कैम्पोस",
+            "bn": "ও. ক্যাম্পোস"
+          }
+        }
+      },
+      "playerIn": {
+        "name": "Omar Campos",
+        "firstName": "Omar Campos",
+        "lastName": "",
+        "slug": "omar-campos",
+        "shortName": "O. Campos",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 174,
+        "userCount": 356,
+        "gender": "M",
+        "id": 1097747,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1027123200,
+        "proposedMarketValueRaw": {
+          "value": 4400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عمر كامبوس",
+            "hi": "उमर कैम्पोस",
+            "bn": "ওমর ক্যাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. كامبوس",
+            "hi": "ओ. कैम्पोस",
+            "bn": "ও. ক্যাম্পোস"
+          }
+        }
+      },
+      "playerOut": {
+        "name": "Carlos Rotondi",
+        "slug": "carlos-rotondi",
+        "shortName": "C. Rotondi",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 181,
+        "userCount": 674,
+        "gender": "M",
+        "id": 884868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 857260800,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روتوندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روتوندي"
+          }
+        }
+      },
+      "id": 33278343,
+      "periodName": "2ND",
+      "time": 52
+    },
+    {
+      "text": "Se reanuda el partido.",
+      "type": "endDelay",
+      "id": 33278344,
+      "periodName": "2ND",
+      "time": 51
+    },
+    {
+      "text": "El juego está detenido debido a una lesión Lucas Ocampos (Monterrey).",
+      "type": "startDelay",
+      "id": 33278339,
+      "periodName": "2ND",
+      "time": 49
+    },
+    {
+      "text": "Lorenzo Faravelli (Cruz Azul) ha visto tarjeta amarilla por juego peligroso.",
+      "type": "yellowCard",
+      "isHome": true,
+      "player": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33278340,
+      "periodName": "2ND",
+      "time": 49
+    },
+    {
+      "text": "Lucas Ocampos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278333,
+      "periodName": "2ND",
+      "time": 49
+    },
+    {
+      "text": "Falta de Lorenzo Faravelli (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33278332,
+      "periodName": "2ND",
+      "time": 49
+    },
+    {
+      "text": "Falta de Jeremy Márquez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278330,
+      "periodName": "2ND",
+      "time": 47
+    },
+    {
+      "text": "Lucas Ocampos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278325,
+      "periodName": "2ND",
+      "time": 47
+    },
+    {
+      "text": "Remate rechazado de Gabriel Fernández (Cruz Azul) remate con la izquierda desde fuera del área. Asistencia de José Paradela.",
+      "type": "shotBlocked",
+      "isHome": true,
+      "player": {
+        "name": "Gabriel Fernández",
+        "slug": "gabriel-fernandez",
+        "shortName": "G. Fernández",
+        "position": "F",
+        "jerseyNumber": "21",
+        "height": 186,
+        "userCount": 611,
+        "gender": "M",
+        "id": 922896,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 768787200,
+        "proposedMarketValueRaw": {
+          "value": 2100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غابرييل فرنانديز",
+            "hi": "गेब्रियल फर्नांडीज",
+            "bn": "গ্যাব্রিয়েল ফার্নান্ডেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. فرنانديز",
+            "hi": "जी. फर्नांडीज",
+            "bn": "জি. ফার্নান্ডেজ"
+          }
+        }
+      },
+      "id": 33278324,
+      "periodName": "2ND",
+      "time": 46
+    },
+    {
+      "text": "Empieza segunda parte Cruz Azul 1, Monterrey 0.",
+      "type": "matchStarted",
+      "id": 33278315,
+      "periodName": "2ND",
+      "time": 46
+    },
+    {
+      "text": "Final primera parte, Cruz Azul 1, Monterrey 0.",
+      "type": "endFirstHalf",
+      "id": 33278230,
+      "periodName": "1ST",
+      "time": 52
+    },
+    {
+      "text": "Corner,Cruz Azul. Corner cometido por Luis Cárdenas.",
+      "type": "cornerKick",
+      "isHome": false,
+      "player": {
+        "name": "Luis Cárdenas",
+        "firstName": "",
+        "lastName": "",
+        "slug": "luis-cardenas",
+        "shortName": "L. Cárdenas",
+        "position": "G",
+        "jerseyNumber": "22",
+        "height": 180,
+        "userCount": 113,
+        "gender": "M",
+        "id": 322691,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 748051200,
+        "proposedMarketValueRaw": {
+          "value": 320000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس كارديناس"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. كارديناس"
+          }
+        }
+      },
+      "id": 33278226,
+      "periodName": "1ST",
+      "time": 52
+    },
+    {
+      "text": "Remate parado junto al lado derecho de la portería. Carlos Rotondi (Cruz Azul) remate con la izquierda desde el centro del área. Asistencia de Carlos Rodríguez.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rotondi",
+        "slug": "carlos-rotondi",
+        "shortName": "C. Rotondi",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 181,
+        "userCount": 674,
+        "gender": "M",
+        "id": 884868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 857260800,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روتوندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روتوندي"
+          }
+        }
+      },
+      "id": 33278227,
+      "periodName": "1ST",
+      "time": 52
+    },
+    {
+      "text": "Fuera de juego, Monterrey. Sergio Ramos intentó un pase en profundidad pero Lucas Ocampos estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278223,
+      "periodName": "1ST",
+      "time": 50
+    },
+    {
+      "text": "Remate rechazado de Luis Reyes (Monterrey) remate de cabeza desde el centro del área. Asistencia de Sergio Canales con un centro al área.",
+      "type": "shotBlocked",
+      "isHome": false,
+      "player": {
+        "name": "Luis Reyes",
+        "slug": "luis-reyes",
+        "shortName": "L. Reyes",
+        "position": "D",
+        "jerseyNumber": "21",
+        "height": 181,
+        "userCount": 232,
+        "gender": "M",
+        "id": 843154,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 670636800,
+        "proposedMarketValueRaw": {
+          "value": 650000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لويس رييس",
+            "hi": "लुइस रेयेस",
+            "bn": "লুইস রেয়েস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. رييس",
+            "hi": "एल. रेयेस",
+            "bn": "এল. রেয়েস"
+          }
+        }
+      },
+      "id": 33278251,
+      "periodName": "1ST",
+      "time": 50
+    },
+    {
+      "text": "Remate rechazado de Germán Berterame (Monterrey) remate con la izquierda desde el centro del área. Asistencia de Lucas Ocampos.",
+      "type": "shotBlocked",
+      "isHome": false,
+      "player": {
+        "name": "Germán Berterame",
+        "slug": "german-berterame",
+        "shortName": "G. Berterame",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 173,
+        "userCount": 2466,
+        "gender": "M",
+        "id": 822606,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910915200,
+        "proposedMarketValueRaw": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيرمان بيرترامي",
+            "hi": "जर्मन बेर्टेरामे",
+            "bn": "জার্মান বার্টারমে"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بيرترامي",
+            "hi": "जी. बेर्टेरामे",
+            "bn": "জি. বার্টেরেম"
+          }
+        }
+      },
+      "id": 33278252,
+      "periodName": "1ST",
+      "time": 50
+    },
+    {
+      "text": "Corner,Monterrey. Corner cometido por Érik Lira.",
+      "type": "cornerKick",
+      "isHome": true,
+      "player": {
+        "name": "Erik Lira",
+        "firstName": "",
+        "lastName": "",
+        "slug": "erik-lira",
+        "shortName": "E. Lira",
+        "position": "D",
+        "jerseyNumber": "6",
+        "height": 172,
+        "userCount": 559,
+        "gender": "M",
+        "id": 944068,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 957744000,
+        "proposedMarketValueRaw": {
+          "value": 8800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك ليرا",
+            "hi": "एरिक लीरा",
+            "bn": "এরিক লিরা"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليرا",
+            "hi": "ई. लीरा",
+            "bn": "ই. লিরা"
+          }
+        }
+      },
+      "id": 33278219,
+      "periodName": "1ST",
+      "time": 50
+    },
+    {
+      "text": "Corner,Monterrey. Corner cometido por Carlos Rotondi.",
+      "type": "cornerKick",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rotondi",
+        "slug": "carlos-rotondi",
+        "shortName": "C. Rotondi",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 181,
+        "userCount": 674,
+        "gender": "M",
+        "id": 884868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 857260800,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روتوندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روتوندي"
+          }
+        }
+      },
+      "id": 33278204,
+      "periodName": "1ST",
+      "time": 50
+    },
+    {
+      "text": "Remate fallado por José Paradela (Cruz Azul) remate con la izquierda desde fuera del área que se va alto y por la izquierda. Asistencia de Jorge Sánchez.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "José Paradela",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jose-paradela",
+        "shortName": "J. Paradela",
+        "position": "F",
+        "jerseyNumber": "20",
+        "height": 180,
+        "userCount": 1136,
+        "gender": "M",
+        "id": 944623,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 913680000,
+        "proposedMarketValueRaw": {
+          "value": 7100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه باراديلا",
+            "hi": "जोस परडेला",
+            "bn": "হোসে প্যারাডেলা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. باراديلا",
+            "hi": "जे. परडेला",
+            "bn": "জে. প্যারাডেলা"
+          }
+        }
+      },
+      "id": 33278205,
+      "periodName": "1ST",
+      "time": 48
+    },
+    {
+      "text": "Érik Lira (Cruz Azul) ha recibido una falta en la banda derecha.",
+      "type": "freeKickWon",
+      "isHome": true,
+      "player": {
+        "name": "Erik Lira",
+        "firstName": "",
+        "lastName": "",
+        "slug": "erik-lira",
+        "shortName": "E. Lira",
+        "position": "D",
+        "jerseyNumber": "6",
+        "height": 172,
+        "userCount": 559,
+        "gender": "M",
+        "id": 944068,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 957744000,
+        "proposedMarketValueRaw": {
+          "value": 8800000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إريك ليرا",
+            "hi": "एरिक लीरा",
+            "bn": "এরিক লিরা"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. ليرا",
+            "hi": "ई. लीरा",
+            "bn": "ই. লিরা"
+          }
+        }
+      },
+      "id": 33278206,
+      "periodName": "1ST",
+      "time": 48
+    },
+    {
+      "text": "Falta de Germán Berterame (Monterrey).",
+      "type": "freeKickLost",
+      "isHome": false,
+      "player": {
+        "name": "Germán Berterame",
+        "slug": "german-berterame",
+        "shortName": "G. Berterame",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 173,
+        "userCount": 2466,
+        "gender": "M",
+        "id": 822606,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910915200,
+        "proposedMarketValueRaw": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيرمان بيرترامي",
+            "hi": "जर्मन बेर्टेरामे",
+            "bn": "জার্মান বার্টারমে"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بيرترامي",
+            "hi": "जी. बेर्टेरामे",
+            "bn": "জি. বার্টেরেম"
+          }
+        }
+      },
+      "id": 33278182,
+      "periodName": "1ST",
+      "time": 48
+    },
+    {
+      "text": "El cuarto árbitro ha anunciado 6 minutos de tiempo añadido.",
+      "type": "addedTime",
+      "id": 33278183,
+      "periodName": "1ST",
+      "time": 46
+    },
+    {
+      "text": "¡Gooooool! Cruz Azul 1, Monterrey 0. Jesús Orozco (Cruz Azul) remate con la izquierda desde fuera del área por el lado derecho de la portería. Asistencia de Lorenzo Faravelli.",
+      "type": "scoreChange",
+      "isHome": true,
+      "player": {
+        "name": "Jesús Orozco",
+        "firstName": "Jesús Gilberto Orozco Chiquete",
+        "lastName": "",
+        "slug": "jesus-orozco",
+        "shortName": "J. Orozco",
+        "position": "D",
+        "jerseyNumber": "5",
+        "height": 189,
+        "userCount": 698,
+        "gender": "M",
+        "id": 1088274,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1014076800,
+        "proposedMarketValueRaw": {
+          "value": 6300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خيسوس أوروزكو",
+            "hi": "जीसस ओरोज्को",
+            "bn": "জেসুস ওরোজকো"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. أوروزكو",
+            "hi": "जे. ओरोज्को",
+            "bn": "জে. ওরোজকো"
+          }
+        }
+      },
+      "assist1": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "footballPassingNetworkAction": [
+        {
+          "player": {
+            "name": "Carlos Rotondi",
+            "slug": "carlos-rotondi",
+            "shortName": "C. Rotondi",
+            "position": "M",
+            "jerseyNumber": "29",
+            "height": 181,
+            "userCount": 674,
+            "gender": "M",
+            "id": 884868,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 857260800,
+            "proposedMarketValueRaw": {
+              "value": 4099999,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارلوس روتوندي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. روتوندي"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 44,
+          "playerCoordinates": {
+            "x": 65.6,
+            "y": 85.9
+          },
+          "passEndCoordinates": {
+            "x": 60.8,
+            "y": 72.3
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Jeremy Márquez",
+            "slug": "jeremy-marquez",
+            "shortName": "J. Márquez",
+            "position": "M",
+            "jerseyNumber": "16",
+            "height": 177,
+            "userCount": 311,
+            "gender": "M",
+            "id": 1046703,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 961545600,
+            "proposedMarketValueRaw": {
+              "value": 4099999,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيريمي ماركيز"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ماركيز"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 44,
+          "playerCoordinates": {
+            "x": 61.1,
+            "y": 67.3
+          },
+          "passEndCoordinates": {
+            "x": 56.6,
+            "y": 43.9
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Willer Ditta",
+            "slug": "willer-ditta",
+            "shortName": "W. Ditta",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 180,
+            "userCount": 817,
+            "gender": "M",
+            "id": 931705,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 853977600,
+            "proposedMarketValueRaw": {
+              "value": 6000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ويلر ديتا"
+              },
+              "shortNameTranslation": {
+                "ar": "و. ديتا"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 44,
+          "playerCoordinates": {
+            "x": 64.4,
+            "y": 33.6
+          },
+          "passEndCoordinates": {
+            "x": 70.9,
+            "y": 4.3
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Carlos Rodríguez",
+            "firstName": "",
+            "lastName": "",
+            "slug": "carlos-rodriguez",
+            "shortName": "C. Rodríguez",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 172,
+            "userCount": 610,
+            "gender": "M",
+            "id": 845849,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 852249600,
+            "proposedMarketValueRaw": {
+              "value": 4600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارلوس رودريغيز",
+                "hi": "कार्लोस रोड्रिग्ज़",
+                "bn": "কার্লোস রদ্রিগেজ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. رودريغيز",
+                "hi": "सी. रोड्रिग्ज़",
+                "bn": "সি. রদ্রিগেজ"
+              }
+            }
+          },
+          "eventType": "pass",
+          "time": 44,
+          "playerCoordinates": {
+            "x": 74.6,
+            "y": 5
+          },
+          "passEndCoordinates": {
+            "x": 66,
+            "y": 17
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Lorenzo Faravelli",
+            "slug": "lorenzo-faravelli",
+            "shortName": "L. Faravelli",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 171,
+            "userCount": 406,
+            "gender": "M",
+            "id": 250009,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 733363200,
+            "proposedMarketValueRaw": {
+              "value": 1900000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لورينزو فارافيللي"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. فارافيللي"
+              }
+            }
+          },
+          "eventType": "pass",
+          "isAssist": true,
+          "time": 44,
+          "playerCoordinates": {
+            "x": 71.4,
+            "y": 25
+          },
+          "passEndCoordinates": {
+            "x": 68.9,
+            "y": 53.3
+          },
+          "isHome": true
+        },
+        {
+          "player": {
+            "name": "Jesús Orozco",
+            "firstName": "Jesús Gilberto Orozco Chiquete",
+            "lastName": "",
+            "slug": "jesus-orozco",
+            "shortName": "J. Orozco",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 189,
+            "userCount": 698,
+            "gender": "M",
+            "id": 1088274,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1014076800,
+            "proposedMarketValueRaw": {
+              "value": 6300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "خيسوس أوروزكو",
+                "hi": "जीसस ओरोज्को",
+                "bn": "জেসুস ওরোজকো"
+              },
+              "shortNameTranslation": {
+                "ar": "خ. أوروزكو",
+                "hi": "जे. ओरोज्को",
+                "bn": "জে. ওরোজকো"
+              }
+            }
+          },
+          "eventType": "goal",
+          "bodyPart": "left-foot",
+          "time": 44,
+          "playerCoordinates": {
+            "x": 70.3,
+            "y": 61.3
+          },
+          "gkCoordinates": {
+            "x": 98.5,
+            "y": 51.1
+          },
+          "goalShotCoordinates": {
+            "x": 100,
+            "y": 45.8
+          },
+          "goalMouthCoordinates": {
+            "x": 72.58,
+            "y": 95.83
+          },
+          "goalkeeper": {
+            "name": "Luis Cárdenas",
+            "firstName": "",
+            "lastName": "",
+            "slug": "luis-cardenas",
+            "shortName": "L. Cárdenas",
+            "position": "G",
+            "jerseyNumber": "22",
+            "height": 180,
+            "userCount": 113,
+            "gender": "M",
+            "id": 322691,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 748051200,
+            "proposedMarketValueRaw": {
+              "value": 320000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لويس كارديناس"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. كارديناس"
+              }
+            }
+          },
+          "isHome": true,
+          "goalType": "regular"
+        }
+      ],
+      "id": 33278154,
+      "periodName": "1ST",
+      "time": 44
+    },
+    {
+      "text": "Falta de Carlos Rodríguez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "id": 33278116,
+      "periodName": "1ST",
+      "time": 39
+    },
+    {
+      "text": "Stefan Medina (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Stefan Medina",
+        "slug": "stefan-medina",
+        "shortName": "S. Medina",
+        "position": "D",
+        "jerseyNumber": "33",
+        "height": 179,
+        "userCount": 767,
+        "gender": "M",
+        "id": 221148,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 708480000,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان ميدينا",
+            "hi": "स्टीफन मदीना",
+            "bn": "স্টেফান মদিনা"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ميدينا",
+            "hi": "एस. मदीना",
+            "bn": "এস. মদিনা"
+          }
+        }
+      },
+      "id": 33278102,
+      "periodName": "1ST",
+      "time": 39
+    },
+    {
+      "text": "Corner,Cruz Azul. Corner cometido por Sergio Ramos.",
+      "type": "cornerKick",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33278084,
+      "periodName": "1ST",
+      "time": 37
+    },
+    {
+      "text": "Remate rechazado de Jeremy Márquez (Cruz Azul) remate con la derecha desde el centro del área. Asistencia de Gabriel Fernández.",
+      "type": "shotBlocked",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33278097,
+      "periodName": "1ST",
+      "time": 37
+    },
+    {
+      "text": "Lucas Ocampos (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Lucas Ocampos",
+        "firstName": "",
+        "lastName": "",
+        "slug": "lucas-ocampos",
+        "shortName": "L. Ocampos",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 187,
+        "userCount": 3889,
+        "gender": "M",
+        "sofascoreId": "Locampos15",
+        "id": 155702,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 773884800,
+        "proposedMarketValueRaw": {
+          "value": 5300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوكاس أوكامبوس",
+            "hi": "लुकास ओकैम्पोस",
+            "bn": "লুকাস ওকাম্পোস"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. أوكامبوس",
+            "hi": "एल. ओकैम्पोस",
+            "bn": "এল. ওকাম্পোস"
+          }
+        }
+      },
+      "id": 33278054,
+      "periodName": "1ST",
+      "time": 35
+    },
+    {
+      "text": "Falta de Lorenzo Faravelli (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33278053,
+      "periodName": "1ST",
+      "time": 35
+    },
+    {
+      "text": "Remate fallado por Gerardo Arteaga (Monterrey) remate con la izquierda desde el lado izquierdo del interior del área muy cerca del palo izquierdo pero se marchó ligeramente desviado. Asistencia de Sergio Canales.",
+      "type": "shotOffTarget",
+      "isHome": false,
+      "player": {
+        "name": "Gerardo Arteaga",
+        "slug": "gerardo-arteaga",
+        "shortName": "G. Arteaga",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 173,
+        "userCount": 841,
+        "gender": "M",
+        "id": 856129,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 905126400,
+        "proposedMarketValueRaw": {
+          "value": 3200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيراردو أرتيغا",
+            "hi": "गेरार्डो आर्टेगा",
+            "bn": "জেরার্ডো আর্টেগা"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. أرتيغا",
+            "hi": "जी. आर्टेगा",
+            "bn": "জি. আর্টেগা"
+          }
+        }
+      },
+      "id": 33278024,
+      "periodName": "1ST",
+      "time": 31
+    },
+    {
+      "text": "Falta de José Paradela (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "José Paradela",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jose-paradela",
+        "shortName": "J. Paradela",
+        "position": "F",
+        "jerseyNumber": "20",
+        "height": 180,
+        "userCount": 1136,
+        "gender": "M",
+        "id": 944623,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 913680000,
+        "proposedMarketValueRaw": {
+          "value": 7100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه باراديلا",
+            "hi": "जोस परडेला",
+            "bn": "হোসে প্যারাডেলা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. باراديلا",
+            "hi": "जे. परडेला",
+            "bn": "জে. প্যারাডেলা"
+          }
+        }
+      },
+      "id": 33277997,
+      "periodName": "1ST",
+      "time": 30
+    },
+    {
+      "text": "Sergio Canales (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Canales",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sergio-canales",
+        "shortName": "S. Canales",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 176,
+        "userCount": 2880,
+        "gender": "M",
+        "id": 41560,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666662400,
+        "proposedMarketValueRaw": {
+          "value": 6400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاناليس",
+            "hi": "सर्जियो कैनालेस",
+            "bn": "সার্জিও ক্যানালেস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاناليس",
+            "hi": "एस. कैनालेस",
+            "bn": "এস. ক্যানালেস"
+          }
+        }
+      },
+      "id": 33277996,
+      "periodName": "1ST",
+      "time": 30
+    },
+    {
+      "text": "Falta de Carlos Rodríguez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "id": 33277998,
+      "periodName": "1ST",
+      "time": 30
+    },
+    {
+      "text": "Jorge Rodríguez (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Jorge Rodríguez",
+        "slug": "jorge-rodriguez",
+        "shortName": "J. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "30",
+        "height": 179,
+        "userCount": 483,
+        "gender": "M",
+        "id": 583332,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 811123200,
+        "proposedMarketValueRaw": {
+          "value": 3400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خورخي رودريغيز"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. رودريغيز"
+          }
+        }
+      },
+      "id": 33277984,
+      "periodName": "1ST",
+      "time": 30
+    },
+    {
+      "text": "Carlos Rotondi (Cruz Azul) ha visto tarjeta amarilla por juego peligroso.",
+      "type": "yellowCard",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rotondi",
+        "slug": "carlos-rotondi",
+        "shortName": "C. Rotondi",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 181,
+        "userCount": 674,
+        "gender": "M",
+        "id": 884868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 857260800,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روتوندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روتوندي"
+          }
+        }
+      },
+      "id": 33277985,
+      "periodName": "1ST",
+      "time": 29
+    },
+    {
+      "text": "Falta de Carlos Rotondi (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rotondi",
+        "slug": "carlos-rotondi",
+        "shortName": "C. Rotondi",
+        "position": "M",
+        "jerseyNumber": "29",
+        "height": 181,
+        "userCount": 674,
+        "gender": "M",
+        "id": 884868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 857260800,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس روتوندي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. روتوندي"
+          }
+        }
+      },
+      "id": 33277986,
+      "periodName": "1ST",
+      "time": 29
+    },
+    {
+      "text": "Stefan Medina (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Stefan Medina",
+        "slug": "stefan-medina",
+        "shortName": "S. Medina",
+        "position": "D",
+        "jerseyNumber": "33",
+        "height": 179,
+        "userCount": 767,
+        "gender": "M",
+        "id": 221148,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 708480000,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان ميدينا",
+            "hi": "स्टीफन मदीना",
+            "bn": "স্টেফান মদিনা"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ميدينا",
+            "hi": "एस. मदीना",
+            "bn": "এস. মদিনা"
+          }
+        }
+      },
+      "id": 33277966,
+      "periodName": "1ST",
+      "time": 29
+    },
+    {
+      "text": "Falta de Jeremy Márquez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33277964,
+      "periodName": "1ST",
+      "time": 27
+    },
+    {
+      "text": "Sergio Canales (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Canales",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sergio-canales",
+        "shortName": "S. Canales",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 176,
+        "userCount": 2880,
+        "gender": "M",
+        "id": 41560,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666662400,
+        "proposedMarketValueRaw": {
+          "value": 6400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاناليس",
+            "hi": "सर्जियो कैनालेस",
+            "bn": "সার্জিও ক্যানালেস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاناليس",
+            "hi": "एस. कैनालेस",
+            "bn": "এস. ক্যানালেস"
+          }
+        }
+      },
+      "id": 33277946,
+      "periodName": "1ST",
+      "time": 27
+    },
+    {
+      "text": "Remate parado bajo palos a rás de suelo. Willer Ditta (Cruz Azul) remate de cabeza desde el centro del área. Asistencia de Carlos Rotondi.",
+      "type": "shotSaved",
+      "isHome": true,
+      "player": {
+        "name": "Willer Ditta",
+        "slug": "willer-ditta",
+        "shortName": "W. Ditta",
+        "position": "D",
+        "jerseyNumber": "4",
+        "height": 180,
+        "userCount": 817,
+        "gender": "M",
+        "id": 931705,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 853977600,
+        "proposedMarketValueRaw": {
+          "value": 6000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلر ديتا"
+          },
+          "shortNameTranslation": {
+            "ar": "و. ديتا"
+          }
+        }
+      },
+      "id": 33277921,
+      "periodName": "1ST",
+      "time": 25
+    },
+    {
+      "text": "Óliver Torres (Monterrey) ha visto tarjeta roja.",
+      "type": "redCard",
+      "isHome": false,
+      "player": {
+        "name": "Óliver Torres",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oliver-torres",
+        "shortName": "Ó. Torres",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 178,
+        "userCount": 1011,
+        "gender": "M",
+        "id": 231776,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 784425600,
+        "proposedMarketValueRaw": {
+          "value": 4300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفير توريس",
+            "hi": "ओलिवर टोरेस",
+            "bn": "অলিভার টরেস"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. توريس",
+            "hi": "ओ. टोरेस",
+            "bn": "ও. টরেস"
+          }
+        }
+      },
+      "id": 33277894,
+      "periodName": "1ST",
+      "time": 24
+    },
+    {
+      "text": "Decisión del VAR: Se revoca la Tarjeta Roja Óliver Torres (Monterrey).",
+      "type": "videoAssistantReferee",
+      "isHome": false,
+      "player": {
+        "name": "Óliver Torres",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oliver-torres",
+        "shortName": "Ó. Torres",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 178,
+        "userCount": 1011,
+        "gender": "M",
+        "id": 231776,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 784425600,
+        "proposedMarketValueRaw": {
+          "value": 4300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفير توريس",
+            "hi": "ओलिवर टोरेस",
+            "bn": "অলিভার টরেস"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. توريس",
+            "hi": "ओ. टोरेस",
+            "bn": "ও. টরেস"
+          }
+        }
+      },
+      "id": 33277889,
+      "periodName": "1ST",
+      "time": 23
+    },
+    {
+      "text": "Falta de Óliver Torres (Monterrey).",
+      "type": "freeKickLost",
+      "isHome": false,
+      "player": {
+        "name": "Óliver Torres",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oliver-torres",
+        "shortName": "Ó. Torres",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 178,
+        "userCount": 1011,
+        "gender": "M",
+        "id": 231776,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 784425600,
+        "proposedMarketValueRaw": {
+          "value": 4300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوليفير توريس",
+            "hi": "ओलिवर टोरेस",
+            "bn": "অলিভার টরেস"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. توريس",
+            "hi": "ओ. टोरेस",
+            "bn": "ও. টরেস"
+          }
+        }
+      },
+      "id": 33277888,
+      "periodName": "1ST",
+      "time": 22
+    },
+    {
+      "text": "José Paradela (Cruz Azul) ha recibido una falta en campo contrario.",
+      "type": "freeKickWon",
+      "isHome": true,
+      "player": {
+        "name": "José Paradela",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jose-paradela",
+        "shortName": "J. Paradela",
+        "position": "F",
+        "jerseyNumber": "20",
+        "height": 180,
+        "userCount": 1136,
+        "gender": "M",
+        "id": 944623,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 913680000,
+        "proposedMarketValueRaw": {
+          "value": 7100000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خوسيه باراديلا",
+            "hi": "जोस परडेला",
+            "bn": "হোসে প্যারাডেলা"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. باراديلا",
+            "hi": "जे. परडेला",
+            "bn": "জে. প্যারাডেলা"
+          }
+        }
+      },
+      "id": 33277887,
+      "periodName": "1ST",
+      "time": 22
+    },
+    {
+      "text": "Remate fallado por Jorge Sánchez (Cruz Azul) remate de cabeza desde el centro del área el balón se pierde por el lado derecho de la portería. Asistencia de Lorenzo Faravelli con un centro al área.",
+      "type": "shotOffTarget",
+      "isHome": true,
+      "player": {
+        "name": "Jorge Sánchez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jorge-sanchez",
+        "shortName": "J. Sánchez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 175,
+        "userCount": 1239,
+        "gender": "M",
+        "id": 832868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 881712000,
+        "proposedMarketValueRaw": {
+          "value": 2300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خورخي سانشيز",
+            "hi": "जॉर्ज सांचेज़",
+            "bn": "জর্জ সানচেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. سانشيز",
+            "hi": "जे. सांचेज़",
+            "bn": "জে. সানচেজ"
+          }
+        }
+      },
+      "id": 33277837,
+      "periodName": "1ST",
+      "time": 21
+    },
+    {
+      "text": "Remate fallado por Sergio Ramos (Monterrey) remate con la izquierda desde el centro del área que se va alto y por la izquierda tras botar una falta.",
+      "type": "shotOffTarget",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Ramos",
+        "slug": "sergio-ramos",
+        "shortName": "S. Ramos",
+        "position": "D",
+        "jerseyNumber": "93",
+        "height": 184,
+        "userCount": 73159,
+        "gender": "M",
+        "sofascoreId": "SergioRamos",
+        "id": 10710,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 512524800,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرخيو راموس",
+            "hi": "सर्जियो रामोस",
+            "bn": "সার্জিও রামোস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. راموس",
+            "hi": "एस. रामोस",
+            "bn": "এস. রামোস"
+          }
+        }
+      },
+      "id": 33277775,
+      "periodName": "1ST",
+      "time": 17
+    },
+    {
+      "text": "Germán Berterame (Monterrey) ha recibido una falta en la banda izquierda.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Germán Berterame",
+        "slug": "german-berterame",
+        "shortName": "G. Berterame",
+        "position": "F",
+        "jerseyNumber": "7",
+        "height": 173,
+        "userCount": 2466,
+        "gender": "M",
+        "id": 822606,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910915200,
+        "proposedMarketValueRaw": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غيرمان بيرترامي",
+            "hi": "जर्मन बेर्टेरामे",
+            "bn": "জার্মান বার্টারমে"
+          },
+          "shortNameTranslation": {
+            "ar": "غ. بيرترامي",
+            "hi": "जी. बेर्टेरामे",
+            "bn": "জি. বার্টেরেম"
+          }
+        }
+      },
+      "id": 33277750,
+      "periodName": "1ST",
+      "time": 16
+    },
+    {
+      "text": "Falta de Carlos Rodríguez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Carlos Rodríguez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "carlos-rodriguez",
+        "shortName": "C. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "19",
+        "height": 172,
+        "userCount": 610,
+        "gender": "M",
+        "id": 845849,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 852249600,
+        "proposedMarketValueRaw": {
+          "value": 4600000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كارلوس رودريغيز",
+            "hi": "कार्लोस रोड्रिग्ज़",
+            "bn": "কার্লোস রদ্রিগেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. رودريغيز",
+            "hi": "सी. रोड्रिग्ज़",
+            "bn": "সি. রদ্রিগেজ"
+          }
+        }
+      },
+      "id": 33277749,
+      "periodName": "1ST",
+      "time": 16
+    },
+    {
+      "text": "Se reanuda el partido.",
+      "type": "endDelay",
+      "id": 33277751,
+      "periodName": "1ST",
+      "time": 13
+    },
+    {
+      "text": "El juego está detenido debido a una lesión Carlos Rotondi (Cruz Azul).",
+      "type": "startDelay",
+      "id": 33277630,
+      "periodName": "1ST",
+      "time": 8
+    },
+    {
+      "text": "El juego está detenido debido a una lesión Ricardo Chávez (Monterrey).",
+      "type": "startDelay",
+      "id": 33277629,
+      "periodName": "1ST",
+      "time": 8
+    },
+    {
+      "text": "Falta de Willer Ditta (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Willer Ditta",
+        "slug": "willer-ditta",
+        "shortName": "W. Ditta",
+        "position": "D",
+        "jerseyNumber": "4",
+        "height": 180,
+        "userCount": 817,
+        "gender": "M",
+        "id": 931705,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 853977600,
+        "proposedMarketValueRaw": {
+          "value": 6000000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلر ديتا"
+          },
+          "shortNameTranslation": {
+            "ar": "و. ديتا"
+          }
+        }
+      },
+      "id": 33277632,
+      "periodName": "1ST",
+      "time": 8
+    },
+    {
+      "text": "Sergio Canales (Monterrey) ha recibido una falta en la banda izquierda.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Sergio Canales",
+        "firstName": "",
+        "lastName": "",
+        "slug": "sergio-canales",
+        "shortName": "S. Canales",
+        "position": "M",
+        "jerseyNumber": "10",
+        "height": 176,
+        "userCount": 2880,
+        "gender": "M",
+        "id": 41560,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 666662400,
+        "proposedMarketValueRaw": {
+          "value": 6400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيرجيو كاناليس",
+            "hi": "सर्जियो कैनालेस",
+            "bn": "সার্জিও ক্যানালেস"
+          },
+          "shortNameTranslation": {
+            "ar": "س. كاناليس",
+            "hi": "एस. कैनालेस",
+            "bn": "এস. ক্যানালেস"
+          }
+        }
+      },
+      "id": 33277631,
+      "periodName": "1ST",
+      "time": 8
+    },
+    {
+      "text": "Falta de Lorenzo Faravelli (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33277633,
+      "periodName": "1ST",
+      "time": 7
+    },
+    {
+      "text": "Stefan Medina (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Stefan Medina",
+        "slug": "stefan-medina",
+        "shortName": "S. Medina",
+        "position": "D",
+        "jerseyNumber": "33",
+        "height": 179,
+        "userCount": 767,
+        "gender": "M",
+        "id": 221148,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 708480000,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيفان ميدينا",
+            "hi": "स्टीफन मदीना",
+            "bn": "স্টেফান মদিনা"
+          },
+          "shortNameTranslation": {
+            "ar": "س. ميدينا",
+            "hi": "एस. मदीना",
+            "bn": "এস. মদিনা"
+          }
+        }
+      },
+      "id": 33277607,
+      "periodName": "1ST",
+      "time": 7
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Lorenzo Faravelli intentó un pase en profundidad pero Jorge Sánchez estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "Jorge Sánchez",
+        "firstName": "",
+        "lastName": "",
+        "slug": "jorge-sanchez",
+        "shortName": "J. Sánchez",
+        "position": "D",
+        "jerseyNumber": "2",
+        "height": 175,
+        "userCount": 1239,
+        "gender": "M",
+        "id": 832868,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 881712000,
+        "proposedMarketValueRaw": {
+          "value": 2300000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خورخي سانشيز",
+            "hi": "जॉर्ज सांचेज़",
+            "bn": "জর্জ সানচেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. سانشيز",
+            "hi": "जे. सांचेज़",
+            "bn": "জে. সানচেজ"
+          }
+        }
+      },
+      "id": 33277584,
+      "periodName": "1ST",
+      "time": 6
+    },
+    {
+      "text": "Falta de Jeremy Márquez (Cruz Azul).",
+      "type": "freeKickLost",
+      "isHome": true,
+      "player": {
+        "name": "Jeremy Márquez",
+        "slug": "jeremy-marquez",
+        "shortName": "J. Márquez",
+        "position": "M",
+        "jerseyNumber": "16",
+        "height": 177,
+        "userCount": 311,
+        "gender": "M",
+        "id": 1046703,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 961545600,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيريمي ماركيز"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. ماركيز"
+          }
+        }
+      },
+      "id": 33277552,
+      "periodName": "1ST",
+      "time": 4
+    },
+    {
+      "text": "Jorge Rodríguez (Monterrey) ha recibido una falta en la zona defensiva.",
+      "type": "freeKickWon",
+      "isHome": false,
+      "player": {
+        "name": "Jorge Rodríguez",
+        "slug": "jorge-rodriguez",
+        "shortName": "J. Rodríguez",
+        "position": "M",
+        "jerseyNumber": "30",
+        "height": 179,
+        "userCount": 483,
+        "gender": "M",
+        "id": 583332,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 811123200,
+        "proposedMarketValueRaw": {
+          "value": 3400000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "خورخي رودريغيز"
+          },
+          "shortNameTranslation": {
+            "ar": "خ. رودريغيز"
+          }
+        }
+      },
+      "id": 33277544,
+      "periodName": "1ST",
+      "time": 4
+    },
+    {
+      "text": "Fuera de juego, Cruz Azul. Gabriel Fernández intentó un pase en profundidad pero Lorenzo Faravelli estaba en posición de fuera de juego.",
+      "type": "offside",
+      "isHome": true,
+      "player": {
+        "name": "Lorenzo Faravelli",
+        "slug": "lorenzo-faravelli",
+        "shortName": "L. Faravelli",
+        "position": "M",
+        "jerseyNumber": "8",
+        "height": 171,
+        "userCount": 406,
+        "gender": "M",
+        "id": 250009,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733363200,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لورينزو فارافيللي"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. فارافيللي"
+          }
+        }
+      },
+      "id": 33277498,
+      "periodName": "1ST",
+      "time": 2
+    },
+    {
+      "text": "Empieza primera parte.",
+      "type": "matchStarted",
+      "id": 33277482,
+      "periodName": "1ST",
+      "time": 1
+    }
+  ],
+  "home": {
+    "goalkeeperColor": {
+      "primary": "d20303",
+      "number": "f04138",
+      "outline": "d20303",
+      "fancyNumber": "ffffff"
+    },
+    "playerColor": {
+      "primary": "0ba3f8",
+      "number": "ffffff",
+      "outline": "0ba3f8",
+      "fancyNumber": "222226"
+    }
+  },
+  "away": {
+    "goalkeeperColor": {
+      "primary": "20990b",
+      "number": "ffffff",
+      "outline": "20990b",
+      "fancyNumber": "ffffff"
+    },
+    "playerColor": {
+      "primary": "2f4260",
+      "number": "ffffff",
+      "outline": "2f4260",
+      "fancyNumber": "ffffff"
+    }
+  }
+}

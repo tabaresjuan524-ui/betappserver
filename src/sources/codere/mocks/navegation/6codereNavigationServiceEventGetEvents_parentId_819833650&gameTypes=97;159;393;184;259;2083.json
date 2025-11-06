@@ -1,0 +1,1672 @@
+[
+    {
+        "StartDate": "/Date(1756684800000)/",
+        "StarDate": "/Date(1756684800000)/",
+        "isLive": false,
+        "LeagueName": "WNBA",
+        "ChildrenCount": 130,
+        "SportName": "Baloncesto",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139369,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Washington Mystics"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "WMy"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139373,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Los Angeles Sparks"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "LAn"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,3,4,6,14,15,97,159,166,193,259,393,394,395,759,1059,1853,2083,2088,2090,2097,2098,2099,2559,2560,4214,4215|97,159,2083;12,164,227,230,232,517,518|97,159,2083,164,230;237,238,239,240,242,781,782|97,159,2083,238,240;244,245,246,285,778,783,784|97,159,2083,245,246;247,248,249,286,779,785,786|97,159,2083,248,249;250,251,252,287,780,787,788|97,159,2083,251,252",
+        "StatisticsId": "56328399",
+        "SportId": "2819833466",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.22,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11644027060",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Los Angeles Sparks",
+                        "NodeId": "11644027061",
+                        "ParentNodeId": "11644027060",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 3.9,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11644027060",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington Mystics",
+                        "NodeId": "11644027062",
+                        "ParentNodeId": "11644027060",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": null,
+                "Name": "Ganador del Partido",
+                "NodeId": "11644027060",
+                "ParentNodeId": "11644027059",
+                "Priority": 1000,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11653409860",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-8.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Los Angeles Sparks -8.5",
+                        "NodeId": "11653409865",
+                        "ParentNodeId": "11653409860",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.91,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11653409860",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-8.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Washington Mystics +8.5",
+                        "NodeId": "11653409866",
+                        "ParentNodeId": "11653409860",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-8.5",
+                "ShortName": "Hándicap",
+                "IsLive": null,
+                "Name": "Hándicap",
+                "NodeId": "11653409860",
+                "ParentNodeId": "11644027059",
+                "Priority": 995,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11654651944",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>168.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 168.5",
+                        "NodeId": "11654651947",
+                        "ParentNodeId": "11654651944",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.88,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644027059",
+                        "EventHasHandicap": false,
+                        "GameId": "11654651944",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>168.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 168.5",
+                        "NodeId": "11654651948",
+                        "ParentNodeId": "11654651944",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 2083,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>168.5",
+                "ShortName": "Más/Menos Puntos Totales",
+                "IsLive": null,
+                "Name": "Más/Menos Puntos Totales",
+                "NodeId": "11654651944",
+                "ParentNodeId": "11644027059",
+                "Priority": 993,
+                "SportHandle": "basketball",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": true,
+        "LeagueKlothoPriority": 4000,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Los Angeles Sparks",
+        "ParticipantAway": "Washington Mystics",
+        "ParticipantHomeId": 15139373,
+        "ParticipantAwayId": 15139369,
+        "Name": "Los Angeles Sparks - Washington Mystics",
+        "NodeId": "11644027059",
+        "ParentNodeId": "2819833650",
+        "Priority": 0,
+        "SportHandle": "basketball",
+        "Locked": false
+    },
+    {
+        "StartDate": "/Date(1756686600000)/",
+        "StarDate": "/Date(1756686600000)/",
+        "isLive": false,
+        "LeagueName": "WNBA",
+        "ChildrenCount": 113,
+        "SportName": "Baloncesto",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139386,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Indiana Fever"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "IFe"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 22406631,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Golden State Valkyries"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "GSt"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,3,4,6,14,15,97,159,166,193,259,393,394,395,759,1059,1853,2083,2088,2090,2097,2098,2099,2559,2560,4214,4215|97,159,2083;12,164,227,230,232,517,518|97,159,2083,164,230;237,238,239,240,242,781,782|97,159,2083,238,240;244,245,246,285,778,783,784|97,159,2083,245,246;247,248,249,286,779,785,786|97,159,2083,248,249;250,251,252,287,780,787,788|97,159,2083,251,252",
+        "StatisticsId": "56328401",
+        "SportId": "2819833466",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 2.05,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11644025788",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Golden State Valkyries",
+                        "NodeId": "11644025789",
+                        "ParentNodeId": "11644025788",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.65,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11644025788",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Indiana Fever",
+                        "NodeId": "11644025790",
+                        "ParentNodeId": "11644025788",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": null,
+                "Name": "Ganador del Partido",
+                "NodeId": "11644025788",
+                "ParentNodeId": "11644025787",
+                "Priority": 1000,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11652930433",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>2.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Golden State Valkyries +2.5",
+                        "NodeId": "11652930435",
+                        "ParentNodeId": "11652930433",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.91,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11652930433",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>2.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Indiana Fever -2.5",
+                        "NodeId": "11652930434",
+                        "ParentNodeId": "11652930433",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>2.5",
+                "ShortName": "Hándicap",
+                "IsLive": null,
+                "Name": "Hándicap",
+                "NodeId": "11652930433",
+                "ParentNodeId": "11644025787",
+                "Priority": 995,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11654098676",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>159.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 159.5",
+                        "NodeId": "11654098681",
+                        "ParentNodeId": "11654098676",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.88,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11644025787",
+                        "EventHasHandicap": false,
+                        "GameId": "11654098676",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>159.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 159.5",
+                        "NodeId": "11654098682",
+                        "ParentNodeId": "11654098676",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 2083,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>159.5",
+                "ShortName": "Más/Menos Puntos Totales",
+                "IsLive": null,
+                "Name": "Más/Menos Puntos Totales",
+                "NodeId": "11654098676",
+                "ParentNodeId": "11644025787",
+                "Priority": 993,
+                "SportHandle": "basketball",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": true,
+        "LeagueKlothoPriority": 4000,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Golden State Valkyries",
+        "ParticipantAway": "Indiana Fever",
+        "ParticipantHomeId": 22406631,
+        "ParticipantAwayId": 15139386,
+        "Name": "Golden State Valkyries - Indiana Fever",
+        "NodeId": "11644025787",
+        "ParentNodeId": "2819833650",
+        "Priority": 0,
+        "SportHandle": "basketball",
+        "Locked": false
+    },
+    {
+        "StartDate": "/Date(1756746000000)/",
+        "StarDate": "/Date(1756746000000)/",
+        "isLive": false,
+        "LeagueName": "WNBA",
+        "ChildrenCount": 3,
+        "SportName": "Baloncesto",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139374,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Connecticut Sun"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "CSu"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139383,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Atlanta Dream"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "ADr"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,3,4,6,14,15,97,159,166,193,259,393,394,395,759,1059,1853,2083,2088,2090,2097,2098,2099,2559,2560,4214,4215|97,159,2083;12,164,227,230,232,517,518|97,159,2083,164,230;237,238,239,240,242,781,782|97,159,2083,238,240;244,245,246,285,778,783,784|97,159,2083,245,246;247,248,249,286,779,785,786|97,159,2083,248,249;250,251,252,287,780,787,788|97,159,2083,251,252",
+        "StatisticsId": "56328403",
+        "SportId": "2819833466",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 4.8,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652267129",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Connecticut Sun",
+                        "NodeId": "11652267130",
+                        "ParentNodeId": "11652267129",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.15,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652267129",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Atlanta Dream",
+                        "NodeId": "11652267131",
+                        "ParentNodeId": "11652267129",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": null,
+                "Name": "Ganador del Partido",
+                "NodeId": "11652267129",
+                "ParentNodeId": "11652267128",
+                "Priority": 1000,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.87,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652306400",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>10.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Connecticut Sun +10.5",
+                        "NodeId": "11652306401",
+                        "ParentNodeId": "11652306400",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652306400",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>10.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Atlanta Dream -10.5",
+                        "NodeId": "11652306402",
+                        "ParentNodeId": "11652306400",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>10.5",
+                "ShortName": "Hándicap",
+                "IsLive": null,
+                "Name": "Hándicap",
+                "NodeId": "11652306400",
+                "ParentNodeId": "11652267128",
+                "Priority": 995,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282401",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>159",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 159",
+                        "NodeId": "11652282418",
+                        "ParentNodeId": "11652282401",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652267128",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282401",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>159",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 159",
+                        "NodeId": "11652282419",
+                        "ParentNodeId": "11652282401",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 2083,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>159",
+                "ShortName": "Más/Menos Puntos Totales",
+                "IsLive": null,
+                "Name": "Más/Menos Puntos Totales",
+                "NodeId": "11652282401",
+                "ParentNodeId": "11652267128",
+                "Priority": 993,
+                "SportHandle": "basketball",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": true,
+        "LeagueKlothoPriority": 4000,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Connecticut Sun",
+        "ParticipantAway": "Atlanta Dream",
+        "ParticipantHomeId": 15139374,
+        "ParticipantAwayId": 15139383,
+        "Name": "Connecticut Sun - Atlanta Dream",
+        "NodeId": "11652267128",
+        "ParentNodeId": "2819833650",
+        "Priority": 0,
+        "SportHandle": "basketball",
+        "Locked": false
+    },
+    {
+        "StartDate": "/Date(1756771200000)/",
+        "StarDate": "/Date(1756771200000)/",
+        "isLive": false,
+        "LeagueName": "WNBA",
+        "ChildrenCount": 3,
+        "SportName": "Baloncesto",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139371,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Minnesota Lynx"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "MLy"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139385,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Dallas Wings"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "DWi"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,3,4,6,14,15,97,159,166,193,259,393,394,395,759,1059,1853,2083,2088,2090,2097,2098,2099,2559,2560,4214,4215|97,159,2083;12,164,227,230,232,517,518|97,159,2083,164,230;237,238,239,240,242,781,782|97,159,2083,238,240;244,245,246,285,778,783,784|97,159,2083,245,246;247,248,249,286,779,785,786|97,159,2083,248,249;250,251,252,287,780,787,788|97,159,2083,251,252",
+        "StatisticsId": "56328405",
+        "SportId": "2819833466",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.08,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282081",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Minnesota Lynx",
+                        "NodeId": "11652282082",
+                        "ParentNodeId": "11652282081",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 6.25,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282081",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Dallas Wings",
+                        "NodeId": "11652282083",
+                        "ParentNodeId": "11652282081",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": null,
+                "Name": "Ganador del Partido",
+                "NodeId": "11652282081",
+                "ParentNodeId": "11652282059",
+                "Priority": 1000,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282084",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-14.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Minnesota Lynx -14.5",
+                        "NodeId": "11652282085",
+                        "ParentNodeId": "11652282084",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.87,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652282084",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-14.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Dallas Wings +14.5",
+                        "NodeId": "11652282086",
+                        "ParentNodeId": "11652282084",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-14.5",
+                "ShortName": "Hándicap",
+                "IsLive": null,
+                "Name": "Hándicap",
+                "NodeId": "11652282084",
+                "ParentNodeId": "11652282059",
+                "Priority": 995,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652302989",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>167.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 167.5",
+                        "NodeId": "11652302991",
+                        "ParentNodeId": "11652302989",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652282059",
+                        "EventHasHandicap": false,
+                        "GameId": "11652302989",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>167.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 167.5",
+                        "NodeId": "11652302992",
+                        "ParentNodeId": "11652302989",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 2083,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>167.5",
+                "ShortName": "Más/Menos Puntos Totales",
+                "IsLive": null,
+                "Name": "Más/Menos Puntos Totales",
+                "NodeId": "11652302989",
+                "ParentNodeId": "11652282059",
+                "Priority": 993,
+                "SportHandle": "basketball",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": true,
+        "LeagueKlothoPriority": 4000,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Minnesota Lynx",
+        "ParticipantAway": "Dallas Wings",
+        "ParticipantHomeId": 15139371,
+        "ParticipantAwayId": 15139385,
+        "Name": "Minnesota Lynx - Dallas Wings",
+        "NodeId": "11652282059",
+        "ParentNodeId": "2819833650",
+        "Priority": 0,
+        "SportHandle": "basketball",
+        "Locked": false
+    },
+    {
+        "StartDate": "/Date(1756778400000)/",
+        "StarDate": "/Date(1756778400000)/",
+        "isLive": false,
+        "LeagueName": "WNBA",
+        "ChildrenCount": 3,
+        "SportName": "Baloncesto",
+        "CountryCode": "US",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139370,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Seattle Storm"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "SSt"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15139373,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Los Angeles Sparks"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "LAn"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "1,3,4,6,14,15,97,159,166,193,259,393,394,395,759,1059,1853,2083,2088,2090,2097,2098,2099,2559,2560,4214,4215|97,159,2083;12,164,227,230,232,517,518|97,159,2083,164,230;237,238,239,240,242,781,782|97,159,2083,238,240;244,245,246,285,778,783,784|97,159,2083,245,246;247,248,249,286,779,785,786|97,159,2083,248,249;250,251,252,287,780,787,788|97,159,2083,251,252",
+        "StatisticsId": "56328407",
+        "SportId": "2819833466",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.35,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652335706",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Seattle Storm",
+                        "NodeId": "11652335710",
+                        "ParentNodeId": "11652335706",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 2.95,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652335706",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Los Angeles Sparks",
+                        "NodeId": "11652335711",
+                        "ParentNodeId": "11652335706",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": null,
+                "Name": "Ganador del Partido",
+                "NodeId": "11652335706",
+                "ParentNodeId": "11652335703",
+                "Priority": 1000,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.83,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652335724",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-6",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Seattle Storm -6",
+                        "NodeId": "11652335728",
+                        "ParentNodeId": "11652335724",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.87,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652335724",
+                        "GameTypeId": 159,
+                        "GameSpecialOddsValue": "<Spov>-6",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Los Angeles Sparks +6",
+                        "NodeId": "11652335729",
+                        "ParentNodeId": "11652335724",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 159,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-6",
+                "ShortName": "Hándicap",
+                "IsLive": null,
+                "Name": "Hándicap",
+                "NodeId": "11652335724",
+                "ParentNodeId": "11652335703",
+                "Priority": 995,
+                "SportHandle": "basketball",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 0,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652669779",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>174.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 174.5",
+                        "NodeId": "11652669780",
+                        "ParentNodeId": "11652669779",
+                        "Priority": 0,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": false,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819833466",
+                        "LocationId": "2819833484",
+                        "LeagueId": "2819833650",
+                        "EventId": "11652335703",
+                        "EventHasHandicap": false,
+                        "GameId": "11652669779",
+                        "GameTypeId": 2083,
+                        "GameSpecialOddsValue": "<Spov>174.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 174.5",
+                        "NodeId": "11652669781",
+                        "ParentNodeId": "11652669779",
+                        "Priority": 1,
+                        "SportHandle": "basketball",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 2083,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>174.5",
+                "ShortName": "Más/Menos Puntos Totales",
+                "IsLive": null,
+                "Name": "Más/Menos Puntos Totales",
+                "NodeId": "11652669779",
+                "ParentNodeId": "11652335703",
+                "Priority": 993,
+                "SportHandle": "basketball",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": true,
+        "LeagueKlothoPriority": 4000,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Seattle Storm",
+        "ParticipantAway": "Los Angeles Sparks",
+        "ParticipantHomeId": 15139370,
+        "ParticipantAwayId": 15139373,
+        "Name": "Seattle Storm - Los Angeles Sparks",
+        "NodeId": "11652335703",
+        "ParentNodeId": "2819833650",
+        "Priority": 0,
+        "SportHandle": "basketball",
+        "Locked": false
+    }
+]

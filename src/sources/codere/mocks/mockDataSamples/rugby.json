@@ -1,0 +1,389 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "98",
+            "CategoryName": "HANDICAPS",
+            "IsRelevant": false
+        },
+        {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "Ha comenzado a las 05:10",
+        "DefaultGame": null,
+        "liveData": {
+            "Period": 1,
+            "PeriodName": "Comenzado",
+            "Actions": [
+                {
+                    "Period": 1,
+                    "PeriodName": "Comenzado",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                }
+            ],
+            "ResultHome": 27,
+            "ResultAway": 7,
+            "Time": "05:10",
+            "MatchTime": 77,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "Bay of Plenty",
+            "ParticipantAway": "Tasman"
+        },
+        "StartDate": "/Date(1760152200000)/",
+        "StarDate": "/Date(1760152200000)/",
+        "isLive": true,
+        "LeagueName": "National Provincial Championship",
+        "ChildrenCount": 3,
+        "SportName": "Rugby Union",
+        "CountryCode": "NZ",
+        "CountryName": "Nueva Zelanda",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 14788923,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Tasman"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Tas"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 15500767,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Bay of Plenty"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Bof"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "",
+        "StatisticsId": "64283533",
+        "SportId": "2819845283",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 3.1,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873702223",
+                        "GameTypeId": 259,
+                        "GameSpecialOddsValue": "<Spov>-20.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Bay of Plenty -20.5",
+                        "NodeId": "11873702224",
+                        "ParentNodeId": "11873702223",
+                        "Priority": 0,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.33,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873702223",
+                        "GameTypeId": 259,
+                        "GameSpecialOddsValue": "<Spov>-20.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Tasman +20.5",
+                        "NodeId": "11873702225",
+                        "ParentNodeId": "11873702223",
+                        "Priority": 1,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "98",
+                        "CategoryName": "HANDICAPS",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 259,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-20.5",
+                "ShortName": "Hándicap (Sin Empate)",
+                "IsLive": true,
+                "Name": "Hándicap (Sin Empate)",
+                "NodeId": "11873702223",
+                "ParentNodeId": "11846548970",
+                "Priority": 9980,
+                "SportHandle": "rugby",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873474718",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>40.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 40.5",
+                        "NodeId": "11873474723",
+                        "ParentNodeId": "11873474718",
+                        "Priority": 0,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.9,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873474718",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>40.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 40.5",
+                        "NodeId": "11873474724",
+                        "ParentNodeId": "11873474718",
+                        "Priority": 1,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>40.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11873474718",
+                "ParentNodeId": "11846548970",
+                "Priority": 9970,
+                "SportHandle": "rugby",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 2.0,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873478084",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>39.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 39.5",
+                        "NodeId": "11873478152",
+                        "ParentNodeId": "11873478084",
+                        "Priority": 0,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.75,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819845283",
+                        "LocationId": "3176598399",
+                        "LeagueId": "3176599121",
+                        "EventId": "11846548970",
+                        "EventHasHandicap": false,
+                        "GameId": "11873478084",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>39.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 39.5",
+                        "NodeId": "11873478153",
+                        "ParentNodeId": "11873478084",
+                        "Priority": 1,
+                        "SportHandle": "rugby",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonline",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": false
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    {
+                        "CategoryId": "97",
+                        "CategoryName": "TOTALES",
+                        "IsRelevant": false
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>39.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11873478084",
+                "ParentNodeId": "11846548970",
+                "Priority": 9970,
+                "SportHandle": "rugby",
+                "Locked": true
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 0,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Bay of Plenty",
+        "ParticipantAway": "Tasman",
+        "ParticipantHomeId": 15500767,
+        "ParticipantAwayId": 14788923,
+        "Name": "Bay of Plenty - Tasman",
+        "NodeId": "11846548970",
+        "ParentNodeId": "3176599121",
+        "Priority": 0,
+        "SportHandle": "rugby",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

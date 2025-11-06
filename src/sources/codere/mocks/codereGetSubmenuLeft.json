@@ -1,0 +1,99 @@
+{
+    "countries": [
+        {
+            "Leagues": [
+                {
+                    "Events": [],
+                    "KlothoPriority": 9995,
+                    "Name": "MLB",
+                    "NodeId": "2819833171",
+                    "ParentNodeId": "2819833161",
+                    "Priority": 9995,
+                    "SportHandle": "baseball",
+                    "Locked": false
+                },
+                {
+                    "Events": [],
+                    "KlothoPriority": 9950,
+                    "Name": "International League",
+                    "NodeId": "3768981836",
+                    "ParentNodeId": "2819833161",
+                    "Priority": 9960,
+                    "SportHandle": "baseball",
+                    "Locked": false
+                },
+                {
+                    "Events": [],
+                    "KlothoPriority": 9950,
+                    "Name": "Pacific Coast League",
+                    "NodeId": "3768996544",
+                    "ParentNodeId": "2819833161",
+                    "Priority": 9950,
+                    "SportHandle": "baseball",
+                    "Locked": false
+                }
+            ],
+            "CountryCode": "US",
+            "Name": "Estados Unidos",
+            "NodeId": "2819833161",
+            "ParentNodeId": "2819833156",
+            "Priority": 1009990,
+            "SportHandle": "baseball",
+            "Locked": false
+        },
+        {
+            "Leagues": [
+                {
+                    "Events": [],
+                    "KlothoPriority": 0,
+                    "Name": "Anticipadas - World Baseball Classic",
+                    "NodeId": "6582144199",
+                    "ParentNodeId": "2819833157",
+                    "Priority": 0,
+                    "SportHandle": "baseball",
+                    "Locked": false
+                }
+            ],
+            "CountryCode": "INT1",
+            "Name": "Internacional",
+            "NodeId": "2819833157",
+            "ParentNodeId": "2819833156",
+            "Priority": 1009985,
+            "SportHandle": "baseball",
+            "Locked": false
+        },
+        {
+            "Leagues": [
+                {
+                    "Events": [],
+                    "KlothoPriority": 9990,
+                    "Name": "LMB",
+                    "NodeId": "3822874141",
+                    "ParentNodeId": "2819833159",
+                    "Priority": 9995,
+                    "SportHandle": "baseball",
+                    "Locked": false
+                }
+            ],
+            "CountryCode": "MX",
+            "Name": "México",
+            "NodeId": "2819833159",
+            "ParentNodeId": "2819833156",
+            "Priority": 1009985,
+            "SportHandle": "baseball",
+            "Locked": false
+        }
+    ],
+    "highlights": [
+        {
+            "CountryCode": "US",
+            "SportsHandle": "baseball",
+            "Name": "MLB",
+            "NodeId": "2819833171",
+            "ParentNodeId": "2819833161",
+            "Priority": 9995,
+            "SportHandle": "baseball",
+            "Locked": false
+        }
+    ]
+}

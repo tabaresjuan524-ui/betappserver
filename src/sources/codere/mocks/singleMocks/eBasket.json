@@ -1,0 +1,951 @@
+{
+  "CategoryInfos": [
+    {
+      "CategoryId": "99",
+      "CategoryName": "PRINCIPALES",
+      "IsRelevant": true
+    },
+    {
+      "CategoryId": "97",
+      "CategoryName": "TOTALES",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "95",
+      "CategoryName": "EQUIPOS",
+      "IsRelevant": false
+    },
+    {
+      "CategoryId": "91",
+      "CategoryName": "MITADES",
+      "IsRelevant": false
+    }
+  ],
+  "Event": {
+    "ResultInfo": "Ha comenzado a las 21:15",
+    "DefaultGame": null,
+    "liveData": {
+      "Period": 14,
+      "PeriodName": "4º cuarto",
+      "Actions": [
+        {
+          "Period": 11,
+          "PeriodName": "1º cuarto",
+          "Time": 0,
+          "ActionType": -1,
+          "ActionTypeName": null,
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": false
+        },
+        {
+          "Period": 11,
+          "PeriodName": "1º cuarto",
+          "Time": 0,
+          "ActionType": 14,
+          "ActionTypeName": "Patada inicial",
+          "Participant": "",
+          "AffectedParticipant": "",
+          "IsHomeTeam": false
+        }
+      ],
+      "ResultHome": 49,
+      "ResultAway": 50,
+      "Time": "21:15",
+      "MatchTime": -1,
+      "RemainingPeriodTime": "19:52",
+      "ParticipantHome": "Oklahoma City Thunder (BOMBARDIER)",
+      "ParticipantAway": "New York Knicks (ARACHNE)"
+    },
+    "StartDate": "/Date(1760123700000)/",
+    "StarDate": "/Date(1760123700000)/",
+    "isLive": true,
+    "LeagueName": "H2H GG League - 4x5 Min de juego",
+    "ChildrenCount": 19,
+    "SportName": "e-Basket",
+    "CountryCode": "NBA2",
+    "CountryName": "NBA2K",
+    "Participants": [
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "0"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 23901856,
+        "IsHome": true,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "Oklahoma City Thunder (BOMBARDIER)"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "OCi"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      },
+      {
+        "AdditionalValues": {
+          "KeyValues": [],
+          "LocalizedValues": [
+            {
+              "Key": "ParticipantOrder",
+              "Value": "1"
+            }
+          ],
+          "ReferenceId": 0
+        },
+        "Id": 23901855,
+        "IsHome": false,
+        "LocalizedNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "New York Knicks (ARACHNE)"
+            }
+          ],
+          "ReferenceId": -1
+        },
+        "LocalizedShortNames": {
+          "LocalizedValues": [
+            {
+              "CountryCode": "-1",
+              "LanguageCode": "-1",
+              "Value": "NYo"
+            }
+          ],
+          "ReferenceId": 0
+        }
+      }
+    ],
+    "LiveHistory": null,
+    "SmartMarketReferenceGameTypeIds": "",
+    "StatisticsId": "",
+    "SportId": "7711281996",
+    "Games": [
+      {
+        "Results": [
+          {
+            "Odd": 2.7,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871424945",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Oklahoma City Thunder (BOMBARDIER)",
+            "NodeId": "11871424963",
+            "ParentNodeId": "11871424945",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.37,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871424945",
+            "GameTypeId": 97,
+            "GameSpecialOddsValue": "",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "New York Knicks (ARACHNE)",
+            "NodeId": "11871424964",
+            "ParentNodeId": "11871424945",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 97,
+        "SmartMarketAvailable": false,
+        "Spov": "",
+        "ShortName": "Ganador del Partido",
+        "IsLive": true,
+        "Name": "Ganador del Partido",
+        "NodeId": "11871424945",
+        "ParentNodeId": "11868029642",
+        "Priority": 9999,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.82,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871630025",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E2.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Oklahoma City Thunder (BOMBARDIER) +2.5",
+            "NodeId": "11871630028",
+            "ParentNodeId": "11871630025",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.82,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871630025",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E2.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "New York Knicks (ARACHNE) -2.5",
+            "NodeId": "11871630029",
+            "ParentNodeId": "11871630025",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E2.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871630025",
+        "ParentNodeId": "11868029642",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.82,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871424943",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E3.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Oklahoma City Thunder (BOMBARDIER) +3.5",
+            "NodeId": "11871424958",
+            "ParentNodeId": "11871424943",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.82,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871424943",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E3.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "New York Knicks (ARACHNE) -3.5",
+            "NodeId": "11871424959",
+            "ParentNodeId": "11871424943",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E3.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871424943",
+        "ParentNodeId": "11868029642",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.82,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871592950",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Oklahoma City Thunder (BOMBARDIER) +1.5",
+            "NodeId": "11871592957",
+            "ParentNodeId": "11871592950",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.82,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871592950",
+            "GameTypeId": 259,
+            "GameSpecialOddsValue": "\u003CSpov\u003E1.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "New York Knicks (ARACHNE) -1.5",
+            "NodeId": "11871592958",
+            "ParentNodeId": "11871592950",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": true
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          }
+        ],
+        "GameType": 259,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E1.5",
+        "ShortName": "Hándicap",
+        "IsLive": true,
+        "Name": "Hándicap",
+        "NodeId": "11871592950",
+        "ParentNodeId": "11868029642",
+        "Priority": 9995,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 2,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871621722",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E127.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 127.5",
+            "NodeId": "11871621793",
+            "ParentNodeId": "11871621722",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.67,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871621722",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E127.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 127.5",
+            "NodeId": "11871621794",
+            "ParentNodeId": "11871621722",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E127.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871621722",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 2,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871607712",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E122.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 122.5",
+            "NodeId": "11871607713",
+            "ParentNodeId": "11871607712",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.67,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871607712",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E122.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 122.5",
+            "NodeId": "11871607714",
+            "ParentNodeId": "11871607712",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E122.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871607712",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.91,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871609397",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E124.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 124.5",
+            "NodeId": "11871609400",
+            "ParentNodeId": "11871609397",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.72,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871609397",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E124.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 124.5",
+            "NodeId": "11871609401",
+            "ParentNodeId": "11871609397",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E124.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871609397",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.9,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871614411",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E125.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 125.5",
+            "NodeId": "11871614412",
+            "ParentNodeId": "11871614411",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.75,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871614411",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E125.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 125.5",
+            "NodeId": "11871614413",
+            "ParentNodeId": "11871614411",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E125.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871614411",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": false
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.75,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871591102",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E120.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 120.5",
+            "NodeId": "11871591127",
+            "ParentNodeId": "11871591102",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.9,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871591102",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E120.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 120.5",
+            "NodeId": "11871591128",
+            "ParentNodeId": "11871591102",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E120.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871591102",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      },
+      {
+        "Results": [
+          {
+            "Odd": 1.85,
+            "SortOrder": 0,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871602344",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E121.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Más 121.5",
+            "NodeId": "11871602348",
+            "ParentNodeId": "11871602344",
+            "Priority": 0,
+            "SportHandle": "ebasket",
+            "Locked": false
+          },
+          {
+            "Odd": 1.8,
+            "SortOrder": 1,
+            "IsLive": true,
+            "upOdd": false,
+            "downOdd": false,
+            "IsNonRunner": false,
+            "SportId": "7711281996",
+            "LocationId": "3032992072",
+            "LeagueId": "8523428481",
+            "EventId": "11868029642",
+            "EventHasHandicap": false,
+            "GameId": "11871602344",
+            "GameTypeId": 2083,
+            "GameSpecialOddsValue": "\u003CSpov\u003E121.5",
+            "GameBetTypeAvailability": 0,
+            "GameNumberOfStarters": 0,
+            "Name": "Menos 121.5",
+            "NodeId": "11871602349",
+            "ParentNodeId": "11871602344",
+            "Priority": 1,
+            "SportHandle": "ebasket",
+            "Locked": false
+          }
+        ],
+        "DisplayTypeName": "2buttonline",
+        "CategoryInfo": {
+          "CategoryId": "99",
+          "CategoryName": "PRINCIPALES",
+          "IsRelevant": false
+        },
+        "CategoryInfos": [
+          {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+          },
+          {
+            "CategoryId": "97",
+            "CategoryName": "TOTALES",
+            "IsRelevant": false
+          }
+        ],
+        "GameType": 2083,
+        "SmartMarketAvailable": false,
+        "Spov": "\u003CSpov\u003E121.5",
+        "ShortName": "Más/Menos Total de Puntos",
+        "IsLive": true,
+        "Name": "Más/Menos Total de Puntos",
+        "NodeId": "11871602344",
+        "ParentNodeId": "11868029642",
+        "Priority": 9985,
+        "SportHandle": "ebasket",
+        "Locked": true
+      }
+    ],
+    "StreamingId": "c1759449665943019",
+    "StreamingEnabled": "sis",
+    "LTMEnabled": false,
+    "LeagueKlothoPriority": 1000,
+    "HighlightPriority": 0,
+    "ParticipantHome": "Oklahoma City Thunder (BOMBARDIER)",
+    "ParticipantAway": "New York Knicks (ARACHNE)",
+    "ParticipantHomeId": 23901856,
+    "ParticipantAwayId": 23901855,
+    "Name": "Oklahoma City Thunder (BOMBARDIER) - New York Knicks (ARACHNE)",
+    "NodeId": "11868029642",
+    "ParentNodeId": "8523428481",
+    "Priority": 0,
+    "SportHandle": "ebasket",
+    "Locked": false
+  },
+  "ResultOddNodes": null
+}

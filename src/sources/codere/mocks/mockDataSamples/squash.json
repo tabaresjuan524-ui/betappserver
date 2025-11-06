@@ -1,0 +1,845 @@
+{
+    "CategoryInfos": [
+        {
+            "CategoryId": "99",
+            "CategoryName": "PRINCIPALES",
+            "IsRelevant": true
+        },
+        {
+            "CategoryId": "90",
+            "CategoryName": "JUEGOS",
+            "IsRelevant": false
+        }
+    ],
+    "Event": {
+        "ResultInfo": "Ha comenzado a las 23:25",
+        "DefaultGame": null,
+        "liveData": {
+            "Period": 1,
+            "PeriodName": "Comenzado",
+            "Actions": [
+                {
+                    "Period": 1,
+                    "PeriodName": "Comenzado",
+                    "Time": 0,
+                    "ActionType": 14,
+                    "ActionTypeName": "Patada inicial",
+                    "Participant": "",
+                    "AffectedParticipant": "",
+                    "IsHomeTeam": false
+                }
+            ],
+            "ResultHome": 1,
+            "ResultAway": 0,
+            "Time": "23:25",
+            "MatchTime": 17,
+            "RemainingPeriodTime": "",
+            "ParticipantHome": "Olivia Fiechter",
+            "ParticipantAway": "Max Lee"
+        },
+        "StartDate": "/Date(1760304300000)/",
+        "StarDate": "/Date(1760304300000)/",
+        "isLive": true,
+        "LeagueName": "Silicon Valley Open - Femenino",
+        "ChildrenCount": 14,
+        "SportName": "Squash",
+        "CountryCode": "US2",
+        "CountryName": "Estados Unidos",
+        "Participants": [
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "0"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 17081897,
+                "IsHome": true,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Olivia Fiechter"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "OFi"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            },
+            {
+                "AdditionalValues": {
+                    "KeyValues": [],
+                    "LocalizedValues": [
+                        {
+                            "Key": "ParticipantOrder",
+                            "Value": "1"
+                        }
+                    ],
+                    "ReferenceId": 0
+                },
+                "Id": 17796904,
+                "IsHome": false,
+                "LocalizedNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "Max Lee"
+                        }
+                    ],
+                    "ReferenceId": -1
+                },
+                "LocalizedShortNames": {
+                    "LocalizedValues": [
+                        {
+                            "CountryCode": "-1",
+                            "LanguageCode": "-1",
+                            "Value": "MLe"
+                        }
+                    ],
+                    "ReferenceId": 0
+                }
+            }
+        ],
+        "LiveHistory": null,
+        "SmartMarketReferenceGameTypeIds": "",
+        "StatisticsId": "64436415",
+        "SportId": "2819846080",
+        "Games": [
+            {
+                "Results": [
+                    {
+                        "Odd": 1.06,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525491",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter",
+                        "NodeId": "11884525520",
+                        "ParentNodeId": "11884525491",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 7.5,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525491",
+                        "GameTypeId": 97,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Max Lee",
+                        "NodeId": "11884525521",
+                        "ParentNodeId": "11884525491",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 97,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Ganador del Partido",
+                "IsLive": true,
+                "Name": "Ganador del Partido",
+                "NodeId": "11884525491",
+                "ParentNodeId": "11880431261",
+                "Priority": 9990,
+                "SportHandle": "squash",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884544898",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>-11.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter -11.5",
+                        "NodeId": "11884544902",
+                        "ParentNodeId": "11884544898",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884544898",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>-11.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Max Lee +11.5",
+                        "NodeId": "11884544903",
+                        "ParentNodeId": "11884544898",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-11.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11884544898",
+                "ParentNodeId": "11880431261",
+                "Priority": 9985,
+                "SportHandle": "squash",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884539049",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>-10.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter -10.5",
+                        "NodeId": "11884539054",
+                        "ParentNodeId": "11884539049",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.95,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884539049",
+                        "GameTypeId": 1491,
+                        "GameSpecialOddsValue": "<Spov>-10.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Max Lee +10.5",
+                        "NodeId": "11884539055",
+                        "ParentNodeId": "11884539049",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 1491,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>-10.5",
+                "ShortName": "Hándicap por Puntos Totales",
+                "IsLive": true,
+                "Name": "Hándicap por Puntos Totales",
+                "NodeId": "11884539049",
+                "ParentNodeId": "11880431261",
+                "Priority": 9985,
+                "SportHandle": "squash",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884563860",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>62.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 62.5",
+                        "NodeId": "11884563872",
+                        "ParentNodeId": "11884563860",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884563860",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>62.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 62.5",
+                        "NodeId": "11884563873",
+                        "ParentNodeId": "11884563860",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>62.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11884563860",
+                "ParentNodeId": "11880431261",
+                "Priority": 9980,
+                "SportHandle": "squash",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.9,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884561618",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>55.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 55.5",
+                        "NodeId": "11884561625",
+                        "ParentNodeId": "11884561618",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.8,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884561618",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>55.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 55.5",
+                        "NodeId": "11884561626",
+                        "ParentNodeId": "11884561618",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>55.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11884561618",
+                "ParentNodeId": "11880431261",
+                "Priority": 9980,
+                "SportHandle": "squash",
+                "Locked": true
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.9,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884560856",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>57.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Más 57.5",
+                        "NodeId": "11884560863",
+                        "ParentNodeId": "11884560856",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 1.85,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884560856",
+                        "GameTypeId": 393,
+                        "GameSpecialOddsValue": "<Spov>57.5",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Menos 57.5",
+                        "NodeId": "11884560864",
+                        "ParentNodeId": "11884560856",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 393,
+                "SmartMarketAvailable": false,
+                "Spov": "<Spov>57.5",
+                "ShortName": "Más/Menos Total de Puntos",
+                "IsLive": true,
+                "Name": "Más/Menos Total de Puntos",
+                "NodeId": "11884560856",
+                "ParentNodeId": "11880431261",
+                "Priority": 9980,
+                "SportHandle": "squash",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.57,
+                        "SortOrder": 1,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525489",
+                        "GameTypeId": 260,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "3 Juegos",
+                        "NodeId": "11884525515",
+                        "ParentNodeId": "11884525489",
+                        "Priority": 1,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 3.3,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525489",
+                        "GameTypeId": 260,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "4 Juegos",
+                        "NodeId": "11884525516",
+                        "ParentNodeId": "11884525489",
+                        "Priority": 2,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 5.5,
+                        "SortOrder": 3,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525489",
+                        "GameTypeId": 260,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "5 Juegos",
+                        "NodeId": "11884525517",
+                        "ParentNodeId": "11884525489",
+                        "Priority": 3,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 260,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Número Exacto de Juegos",
+                "IsLive": true,
+                "Name": "Número Exacto de Juegos",
+                "NodeId": "11884525489",
+                "ParentNodeId": "11880431261",
+                "Priority": 9970,
+                "SportHandle": "squash",
+                "Locked": false
+            },
+            {
+                "Results": [
+                    {
+                        "Odd": 1.45,
+                        "SortOrder": 0,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525483",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter 3:0",
+                        "NodeId": "11884525495",
+                        "ParentNodeId": "11884525483",
+                        "Priority": 0,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 3.2,
+                        "SortOrder": 2,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525483",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter 3:1",
+                        "NodeId": "11884525496",
+                        "ParentNodeId": "11884525483",
+                        "Priority": 2,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 25.0,
+                        "SortOrder": 3,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525483",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Max Lee 3:1",
+                        "NodeId": "11884525499",
+                        "ParentNodeId": "11884525483",
+                        "Priority": 3,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 7.25,
+                        "SortOrder": 4,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525483",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Olivia Fiechter 3:2",
+                        "NodeId": "11884525497",
+                        "ParentNodeId": "11884525483",
+                        "Priority": 4,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    },
+                    {
+                        "Odd": 12.0,
+                        "SortOrder": 5,
+                        "IsLive": true,
+                        "upOdd": false,
+                        "downOdd": false,
+                        "IsNonRunner": false,
+                        "SportId": "2819846080",
+                        "LocationId": "10521400957",
+                        "LeagueId": "11808714061",
+                        "EventId": "11880431261",
+                        "EventHasHandicap": false,
+                        "GameId": "11884525483",
+                        "GameTypeId": 261,
+                        "GameSpecialOddsValue": "",
+                        "GameBetTypeAvailability": 0,
+                        "GameNumberOfStarters": 0,
+                        "Name": "Max Lee 3:2",
+                        "NodeId": "11884525498",
+                        "ParentNodeId": "11884525483",
+                        "Priority": 5,
+                        "SportHandle": "squash",
+                        "Locked": false
+                    }
+                ],
+                "DisplayTypeName": "2buttonlist",
+                "CategoryInfo": {
+                    "CategoryId": "99",
+                    "CategoryName": "PRINCIPALES",
+                    "IsRelevant": true
+                },
+                "CategoryInfos": [
+                    {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    }
+                ],
+                "GameType": 261,
+                "SmartMarketAvailable": false,
+                "Spov": "",
+                "ShortName": "Resultado final (por juegos)",
+                "IsLive": true,
+                "Name": "Resultado final (por juegos)",
+                "NodeId": "11884525483",
+                "ParentNodeId": "11880431261",
+                "Priority": 9975,
+                "SportHandle": "squash",
+                "Locked": false
+            }
+        ],
+        "StreamingId": null,
+        "StreamingEnabled": null,
+        "LTMEnabled": false,
+        "LeagueKlothoPriority": 0,
+        "HighlightPriority": 0,
+        "ParticipantHome": "Olivia Fiechter",
+        "ParticipantAway": "Max Lee",
+        "ParticipantHomeId": 17081897,
+        "ParticipantAwayId": 17796904,
+        "Name": "Olivia Fiechter - Max Lee",
+        "NodeId": "11880431261",
+        "ParentNodeId": "11808714061",
+        "Priority": 0,
+        "SportHandle": "squash",
+        "Locked": false
+    },
+    "ResultOddNodes": null
+}

@@ -1,0 +1,2680 @@
+{
+    "SportHandleList": [
+        "baseball",
+        "table_tennis",
+        "esports",
+        "ebasket",
+        "basketball",
+        "efootball",
+        "soccer",
+        "tennis",
+        "volleyball",
+        "ice_hockey",
+        "darts",
+        "videolive"
+    ],
+    "Events": [
+        {
+            "ResultInfo": "0-1 7'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 0,
+                "RedCardsAway": 0,
+                "Period": 2,
+                "PeriodName": "1º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 4,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 4,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 4,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 1,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 0,
+                "ResultAway": 1,
+                "Time": "12:00",
+                "MatchTime": 7,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Cerezo Osaka",
+                "ParticipantAway": "Albirex Niigata Albi"
+            },
+            "StartDate": "/Date(1754906400000)/",
+            "StarDate": "/Date(1754906400000)/",
+            "isLive": true,
+            "LeagueName": "J1 League",
+            "ChildrenCount": 61,
+            "SportName": "Fútbol",
+            "CountryCode": "JP",
+            "CountryName": "Japón",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15230353,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Albirex Niigata Albi"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "ANi"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15237063,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Cerezo Osaka"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "COs"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "57436935",
+            "SportId": "9553177903",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 2.65,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "9553177903",
+                            "LocationId": "9547994771",
+                            "LeagueId": "3009137309",
+                            "EventId": "11457155932",
+                            "EventHasHandicap": false,
+                            "GameId": "11457155998",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Cerezo Osaka",
+                            "NodeId": "11457156494",
+                            "ParentNodeId": "11457155998",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 3.6,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "9553177903",
+                            "LocationId": "9547994771",
+                            "LeagueId": "3009137309",
+                            "EventId": "11457155932",
+                            "EventHasHandicap": false,
+                            "GameId": "11457155998",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11457156493",
+                            "ParentNodeId": "11457155998",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.35,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "9553177903",
+                            "LocationId": "9547994771",
+                            "LeagueId": "3009137309",
+                            "EventId": "11457155932",
+                            "EventHasHandicap": false,
+                            "GameId": "11457155998",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Albirex Niigata Albi",
+                            "NodeId": "11457156492",
+                            "ParentNodeId": "11457155998",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11457155998",
+                    "ParentNodeId": "11457155932",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.8,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "9553177903",
+                            "LocationId": "9547994771",
+                            "LeagueId": "3009137309",
+                            "EventId": "11457155932",
+                            "EventHasHandicap": false,
+                            "GameId": "11457157202",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>3.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 3.5",
+                            "NodeId": "11457157375",
+                            "ParentNodeId": "11457157202",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 1.95,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "9553177903",
+                            "LocationId": "9547994771",
+                            "LeagueId": "3009137309",
+                            "EventId": "11457155932",
+                            "EventHasHandicap": false,
+                            "GameId": "11457157202",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>3.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 3.5",
+                            "NodeId": "11457157376",
+                            "ParentNodeId": "11457157202",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>3.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11457157202",
+                    "ParentNodeId": "11457155932",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": null,
+            "StreamingEnabled": null,
+            "LTMEnabled": true,
+            "LeagueKlothoPriority": 4200,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Cerezo Osaka",
+            "ParticipantAway": "Albirex Niigata Albi",
+            "ParticipantHomeId": 15237063,
+            "ParticipantAwayId": 15230353,
+            "Name": "Cerezo Osaka - Albirex Niigata Albi",
+            "NodeId": "11457155932",
+            "ParentNodeId": "3009137309",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "ResultInfo": "0-0 9'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 0,
+                "RedCardsAway": 0,
+                "Period": 2,
+                "PeriodName": "1º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 0,
+                "ResultAway": 0,
+                "Time": "12:00",
+                "MatchTime": 9,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "North Eastern MetroStars",
+                "ParticipantAway": "Macarthur FC"
+            },
+            "StartDate": "/Date(1754906400000)/",
+            "StarDate": "/Date(1754906400000)/",
+            "isLive": true,
+            "LeagueName": "Australia FFA Cup - Clasificación",
+            "ChildrenCount": 31,
+            "SportName": "Fútbol",
+            "CountryCode": "AU2",
+            "CountryName": "Australia",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15215838,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "North Eastern MetroStars"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "NEa"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15881604,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Macarthur FC"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "MFC"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "62462204",
+            "SportId": "2817453298",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 4.0,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "10995910253",
+                            "EventId": "11498123481",
+                            "EventHasHandicap": false,
+                            "GameId": "11550052328",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "North Eastern MetroStars",
+                            "NodeId": "11550052337",
+                            "ParentNodeId": "11550052328",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 3.75,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "10995910253",
+                            "EventId": "11498123481",
+                            "EventHasHandicap": false,
+                            "GameId": "11550052328",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11550052338",
+                            "ParentNodeId": "11550052328",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 1.67,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "10995910253",
+                            "EventId": "11498123481",
+                            "EventHasHandicap": false,
+                            "GameId": "11550052328",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Macarthur FC",
+                            "NodeId": "11550052339",
+                            "ParentNodeId": "11550052328",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11550052328",
+                    "ParentNodeId": "11498123481",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.6,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "10995910253",
+                            "EventId": "11498123481",
+                            "EventHasHandicap": false,
+                            "GameId": "11554781213",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>2.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 2.5",
+                            "NodeId": "11554781277",
+                            "ParentNodeId": "11554781213",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.1,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "10995910253",
+                            "EventId": "11498123481",
+                            "EventHasHandicap": false,
+                            "GameId": "11554781213",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>2.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 2.5",
+                            "NodeId": "11554781278",
+                            "ParentNodeId": "11554781213",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>2.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11554781213",
+                    "ParentNodeId": "11498123481",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": null,
+            "StreamingEnabled": null,
+            "LTMEnabled": true,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "North Eastern MetroStars",
+            "ParticipantAway": "Macarthur FC",
+            "ParticipantHomeId": 15215838,
+            "ParticipantAwayId": 15881604,
+            "Name": "North Eastern MetroStars - Macarthur FC",
+            "NodeId": "11498123481",
+            "ParentNodeId": "10995910253",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "ResultInfo": "0-1 40'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 0,
+                "RedCardsAway": 0,
+                "Period": 2,
+                "PeriodName": "1º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 38,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 38,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 38,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 32,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 31,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 31,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 24,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 24,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 24,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 12,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 12,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 12,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 5,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 5,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 4,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 4,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 0,
+                "ResultAway": 1,
+                "Time": "11:30",
+                "MatchTime": 40,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Southern Samity",
+                "ParticipantAway": "Mohammedan SC"
+            },
+            "StartDate": "/Date(1754904600000)/",
+            "StarDate": "/Date(1754904600000)/",
+            "isLive": true,
+            "LeagueName": "India Calcuta Primera División A",
+            "ChildrenCount": 27,
+            "SportName": "Fútbol",
+            "CountryCode": "IN",
+            "CountryName": "India",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15929290,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Mohammedan SC"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "MSC"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 16940239,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Southern Samity"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "SSa"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "",
+            "SportId": "2817453298",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 14.0,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3282924244",
+                            "LeagueId": "4107590632",
+                            "EventId": "11544968844",
+                            "EventHasHandicap": false,
+                            "GameId": "11553828215",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Southern Samity",
+                            "NodeId": "11553828216",
+                            "ParentNodeId": "11553828215",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 5.75,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3282924244",
+                            "LeagueId": "4107590632",
+                            "EventId": "11544968844",
+                            "EventHasHandicap": false,
+                            "GameId": "11553828215",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11553828217",
+                            "ParentNodeId": "11553828215",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 1.14,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3282924244",
+                            "LeagueId": "4107590632",
+                            "EventId": "11544968844",
+                            "EventHasHandicap": false,
+                            "GameId": "11553828215",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Mohammedan SC",
+                            "NodeId": "11553828218",
+                            "ParentNodeId": "11553828215",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11553828215",
+                    "ParentNodeId": "11544968844",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.6,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3282924244",
+                            "LeagueId": "4107590632",
+                            "EventId": "11544968844",
+                            "EventHasHandicap": false,
+                            "GameId": "11553827864",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>2.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 2.5",
+                            "NodeId": "11553827865",
+                            "ParentNodeId": "11553827864",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.1,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3282924244",
+                            "LeagueId": "4107590632",
+                            "EventId": "11544968844",
+                            "EventHasHandicap": false,
+                            "GameId": "11553827864",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>2.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 2.5",
+                            "NodeId": "11553827866",
+                            "ParentNodeId": "11553827864",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>2.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11553827864",
+                    "ParentNodeId": "11544968844",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": "12758842",
+            "StreamingEnabled": "genius",
+            "LTMEnabled": false,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Southern Samity",
+            "ParticipantAway": "Mohammedan SC",
+            "ParticipantHomeId": 16940239,
+            "ParticipantAwayId": 15929290,
+            "Name": "Southern Samity - Mohammedan SC",
+            "NodeId": "11544968844",
+            "ParentNodeId": "4107590632",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "ResultInfo": "0-0 5'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 0,
+                "RedCardsAway": 0,
+                "Period": 2,
+                "PeriodName": "1º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 0,
+                "ResultAway": 0,
+                "Time": "12:00",
+                "MatchTime": 5,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Renofa Yamaguchi",
+                "ParticipantAway": "Ventforet Kofu"
+            },
+            "StartDate": "/Date(1754906400000)/",
+            "StarDate": "/Date(1754906400000)/",
+            "isLive": true,
+            "LeagueName": "J2 League",
+            "ChildrenCount": 31,
+            "SportName": "Fútbol",
+            "CountryCode": "JP",
+            "CountryName": "Japón",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15237074,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Renofa Yamaguchi"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "RYa"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15237835,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Ventforet Kofu"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "VKo"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "57585037",
+            "SportId": "2817453298",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 2.75,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3006581819",
+                            "LeagueId": "3006582358",
+                            "EventId": "11536403507",
+                            "EventHasHandicap": false,
+                            "GameId": "11536403577",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Renofa Yamaguchi",
+                            "NodeId": "11536403608",
+                            "ParentNodeId": "11536403577",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.75,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3006581819",
+                            "LeagueId": "3006582358",
+                            "EventId": "11536403507",
+                            "EventHasHandicap": false,
+                            "GameId": "11536403577",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11536403609",
+                            "ParentNodeId": "11536403577",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.6,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3006581819",
+                            "LeagueId": "3006582358",
+                            "EventId": "11536403507",
+                            "EventHasHandicap": false,
+                            "GameId": "11536403577",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Ventforet Kofu",
+                            "NodeId": "11536403610",
+                            "ParentNodeId": "11536403577",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11536403577",
+                    "ParentNodeId": "11536403507",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.5,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3006581819",
+                            "LeagueId": "3006582358",
+                            "EventId": "11536403507",
+                            "EventHasHandicap": false,
+                            "GameId": "11536406081",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>1.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 1.5",
+                            "NodeId": "11536406082",
+                            "ParentNodeId": "11536406081",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.3,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3006581819",
+                            "LeagueId": "3006582358",
+                            "EventId": "11536403507",
+                            "EventHasHandicap": false,
+                            "GameId": "11536406081",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>1.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 1.5",
+                            "NodeId": "11536406083",
+                            "ParentNodeId": "11536406081",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>1.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11536406081",
+                    "ParentNodeId": "11536403507",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": null,
+            "StreamingEnabled": null,
+            "LTMEnabled": true,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Renofa Yamaguchi",
+            "ParticipantAway": "Ventforet Kofu",
+            "ParticipantHomeId": 15237074,
+            "ParticipantAwayId": 15237835,
+            "Name": "Renofa Yamaguchi - Ventforet Kofu",
+            "NodeId": "11536403507",
+            "ParentNodeId": "3006582358",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "ResultInfo": "2-2 52'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 1,
+                "RedCardsAway": 0,
+                "Period": 3,
+                "PeriodName": "2º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 51,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 51,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 51,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 49,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 48,
+                        "ActionType": 5,
+                        "ActionTypeName": "Tarjeta Amarilla",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 48,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 48,
+                        "ActionType": 16,
+                        "ActionTypeName": "Penalti concedido",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 48,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 45,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 45,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 45,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 3,
+                        "PeriodName": "2º Tiempo",
+                        "Time": 45,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 44,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 44,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 39,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 39,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 39,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 37,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 36,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 36,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 33,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 32,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 32,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 31,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 30,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 30,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 30,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 30,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 29,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 29,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 29,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 21,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 21,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 21,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 19,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 18,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 18,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 14,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 14,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 8,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 8,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 8,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 7,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 7,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 1,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 1,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 2,
+                "ResultAway": 2,
+                "Time": "11:00",
+                "MatchTime": 52,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Yangon United FC S21",
+                "ParticipantAway": "Yadanarbon FC S21"
+            },
+            "StartDate": "/Date(1754902800000)/",
+            "StarDate": "/Date(1754902800000)/",
+            "isLive": true,
+            "LeagueName": "Liga S21 de Birmania",
+            "ChildrenCount": 14,
+            "SportName": "Fútbol",
+            "CountryCode": "MM",
+            "CountryName": "Birmania",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 22317932,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Yangon United FC S21"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "YUn"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 22342252,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Yadanarbon FC S21"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "YFC"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "62717319",
+            "SportId": "2817453298",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.33,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3018540579",
+                            "LeagueId": "10968195528",
+                            "EventId": "11551769640",
+                            "EventHasHandicap": false,
+                            "GameId": "11554638433",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Yangon United FC S21",
+                            "NodeId": "11554638513",
+                            "ParentNodeId": "11554638433",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 3.9,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3018540579",
+                            "LeagueId": "10968195528",
+                            "EventId": "11551769640",
+                            "EventHasHandicap": false,
+                            "GameId": "11554638433",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11554638514",
+                            "ParentNodeId": "11554638433",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 9.5,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3018540579",
+                            "LeagueId": "10968195528",
+                            "EventId": "11551769640",
+                            "EventHasHandicap": false,
+                            "GameId": "11554638433",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Yadanarbon FC S21",
+                            "NodeId": "11554638515",
+                            "ParentNodeId": "11554638433",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11554638433",
+                    "ParentNodeId": "11551769640",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.53,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3018540579",
+                            "LeagueId": "10968195528",
+                            "EventId": "11551769640",
+                            "EventHasHandicap": false,
+                            "GameId": "11554638423",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>5.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 5.5",
+                            "NodeId": "11554638469",
+                            "ParentNodeId": "11554638423",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 2.25,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "3018540579",
+                            "LeagueId": "10968195528",
+                            "EventId": "11551769640",
+                            "EventHasHandicap": false,
+                            "GameId": "11554638423",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>5.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 5.5",
+                            "NodeId": "11554638470",
+                            "ParentNodeId": "11554638423",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>5.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11554638423",
+                    "ParentNodeId": "11551769640",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": "12776764",
+            "StreamingEnabled": "genius",
+            "LTMEnabled": true,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Yangon United FC S21",
+            "ParticipantAway": "Yadanarbon FC S21",
+            "ParticipantHomeId": 22317932,
+            "ParticipantAwayId": 22342252,
+            "Name": "Yangon United FC S21 - Yadanarbon FC S21",
+            "NodeId": "11551769640",
+            "ParentNodeId": "10968195528",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        },
+        {
+            "ResultInfo": "2-0 38'",
+            "DefaultGame": null,
+            "liveData": {
+                "YellowCardsHome": 0,
+                "RedCardsHome": 0,
+                "YellowCardsAway": 0,
+                "RedCardsAway": 0,
+                "Period": 2,
+                "PeriodName": "1º Tiempo",
+                "Actions": [
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 33,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 32,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 16,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 11,
+                        "ActionType": -1,
+                        "ActionTypeName": null,
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 10,
+                        "ActionType": 2,
+                        "ActionTypeName": "Gol",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 6,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 1,
+                        "ActionType": 1,
+                        "ActionTypeName": "Corner",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": true
+                    },
+                    {
+                        "Period": 2,
+                        "PeriodName": "1º Tiempo",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 2,
+                "ResultAway": 0,
+                "Time": "11:30",
+                "MatchTime": 38,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Sutherland Sharks S20",
+                "ParticipantAway": "Sydney FC S20"
+            },
+            "StartDate": "/Date(1754904600000)/",
+            "StarDate": "/Date(1754904600000)/",
+            "isLive": true,
+            "LeagueName": "National Premier League NSW - S20",
+            "ChildrenCount": 23,
+            "SportName": "Fútbol",
+            "CountryCode": "AU2",
+            "CountryName": "Australia",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 15255151,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Sydney FC S20"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "SFC"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 16162707,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Sutherland Sharks S20"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "SSh"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "1,2,4,5,6,7,8,12,14,15,18,20,22,24,25,27,29,30,31,36,37,39,80,82,98,99,102,103,104,105,109,112,113,114,153,155,156,160,161,192,316,321,336,958,960,984,987,988,1033,1060,1812,1813,2115,2433,4669|4,18;74,75,76,149,1187|4,18,75;45,46,47,49,54,56,133,134,374|46,54;62,77,100,101,139|62,139;2633|2633,2634,4,18,75;2634|2633,2634,4,18,75;2616|2616,4,18,75",
+            "StatisticsId": "62542648",
+            "SportId": "2817453298",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.22,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "3014893074",
+                            "EventId": "11530016080",
+                            "EventHasHandicap": false,
+                            "GameId": "11554714349",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Sutherland Sharks S20",
+                            "NodeId": "11554714440",
+                            "ParentNodeId": "11554714349",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 5.25,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "3014893074",
+                            "EventId": "11530016080",
+                            "EventHasHandicap": false,
+                            "GameId": "11554714349",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "X",
+                            "NodeId": "11554714441",
+                            "ParentNodeId": "11554714349",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 9.5,
+                            "SortOrder": 2,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "3014893074",
+                            "EventId": "11530016080",
+                            "EventHasHandicap": false,
+                            "GameId": "11554714349",
+                            "GameTypeId": 1,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Sydney FC S20",
+                            "NodeId": "11554714442",
+                            "ParentNodeId": "11554714349",
+                            "Priority": 2,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "3way",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 1,
+                    "SmartMarketAvailable": true,
+                    "Spov": "",
+                    "ShortName": "1X2",
+                    "IsLive": null,
+                    "Name": "1X2",
+                    "NodeId": "11554714349",
+                    "ParentNodeId": "11530016080",
+                    "Priority": 9990,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                },
+                {
+                    "Results": [
+                        {
+                            "Odd": 1.9,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "3014893074",
+                            "EventId": "11530016080",
+                            "EventHasHandicap": false,
+                            "GameId": "11554714355",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>4.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Más 4.5",
+                            "NodeId": "11554714469",
+                            "ParentNodeId": "11554714355",
+                            "Priority": 0,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 1.75,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2817453298",
+                            "LocationId": "2817453310",
+                            "LeagueId": "3014893074",
+                            "EventId": "11530016080",
+                            "EventHasHandicap": false,
+                            "GameId": "11554714355",
+                            "GameTypeId": 18,
+                            "GameSpecialOddsValue": "<Spov>4.5",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Menos 4.5",
+                            "NodeId": "11554714470",
+                            "ParentNodeId": "11554714355",
+                            "Priority": 1,
+                            "SportHandle": "soccer",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": false
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        },
+                        {
+                            "CategoryId": "82",
+                            "CategoryName": "GOLES",
+                            "IsRelevant": false
+                        },
+                        {
+                            "CategoryId": "111",
+                            "CategoryName": "MATCHACCA",
+                            "IsRelevant": false
+                        }
+                    ],
+                    "GameType": 18,
+                    "SmartMarketAvailable": true,
+                    "Spov": "<Spov>4.5",
+                    "ShortName": "Más/Menos Total Goles",
+                    "IsLive": null,
+                    "Name": "Más/Menos Total Goles",
+                    "NodeId": "11554714355",
+                    "ParentNodeId": "11530016080",
+                    "Priority": 9965,
+                    "SportHandle": "soccer",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": null,
+            "StreamingEnabled": null,
+            "LTMEnabled": true,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Sutherland Sharks S20",
+            "ParticipantAway": "Sydney FC S20",
+            "ParticipantHomeId": 16162707,
+            "ParticipantAwayId": 15255151,
+            "Name": "Sutherland Sharks S20 - Sydney FC S20",
+            "NodeId": "11530016080",
+            "ParentNodeId": "3014893074",
+            "Priority": 0,
+            "SportHandle": "soccer",
+            "Locked": false
+        }
+    ],
+    "Name": "Fútbol",
+    "NodeId": "2817453298",
+    "ParentNodeId": "-1",
+    "Priority": 0,
+    "SportHandle": "soccer",
+    "Locked": false
+}

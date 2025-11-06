@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Client Cache Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .client { margin: 20px 0; padding: 15px; border: 2px solid #333; }
+        .client1 { border-color: #007bff; }
+        .client2 { border-color: #28a745; }
+        button { margin: 5px; padding: 8px; }
+        .status { padding: 5px; margin: 5px 0; }
+        .connected { color: green; }
+        .disconnected { color: red; }
+        .stats { background: #f5f5f5; padding: 10px; margin: 10px 0; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>Multi-Client Cache Test</h1>
+    <p>This test simulates two clients subscribing to the same league events to verify only one API call is made.</p>
+
+    <div class="client client1">
+        <h3>Client 1 (Blue)</h3>
+        <div class="status" id="status1">Disconnected</div>
+        <button onclick="connect(1)">Connect</button>
+        <button onclick="disconnect(1)">Disconnect</button>
+        <button onclick="subscribeLeagueEvents(1)">Subscribe to League Events</button>
+        <button onclick="unsubscribeLeagueEvents(1)">Unsubscribe</button>
+        <div id="log1" style="height: 100px; overflow-y: auto; background: #f8f9fa; padding: 5px; margin: 5px 0;"></div>
+    </div>
+
+    <div class="client client2">
+        <h3>Client 2 (Green)</h3>
+        <div class="status" id="status2">Disconnected</div>
+        <button onclick="connect(2)">Connect</button>
+        <button onclick="disconnect(2)">Disconnect</button>
+        <button onclick="subscribeLeagueEvents(2)">Subscribe to League Events</button>
+        <button onclick="unsubscribeLeagueEvents(2)">Unsubscribe</button>
+        <div id="log2" style="height: 100px; overflow-y: auto; background: #f8f9fa; padding: 5px; margin: 5px 0;"></div>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <h3>Cache Statistics</h3>
+        <button onclick="getCacheStats()">Get Cache Stats</button>
+        <div id="cacheStats" class="stats">No stats available</div>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <h3>Test Scenarios</h3>
+        <button onclick="testScenario1()">Test: Both clients subscribe to same league</button>
+        <button onclick="testScenario2()">Test: Client 1 disconnects while Client 2 stays</button>
+        <button onclick="testScenario3()">Test: Both clients disconnect</button>
+    </div>
+
+    <script>
+        let ws1 = null;
+        let ws2 = null;
+        const LEAGUE_NODE_ID = 'test-league-12345';
+        
+        function log(clientNum, message) {
+            const logDiv = document.getElementById(`log${clientNum}`);
+            const timestamp = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${timestamp}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function updateStatus(clientNum, status) {
+            const statusDiv = document.getElementById(`status${clientNum}`);
+            statusDiv.textContent = status;
+            statusDiv.className = `status ${status.toLowerCase().includes('connected') ? 'connected' : 'disconnected'}`;
+        }
+        
+        function connect(clientNum) {
+            const ws = clientNum === 1 ? ws1 : ws2;
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                log(clientNum, 'Already connected');
+                return;
+            }
+            
+            const newWs = new WebSocket('ws://localhost:8080');
+            
+            newWs.onopen = function() {
+                updateStatus(clientNum, 'Connected');
+                log(clientNum, 'WebSocket connected');
+            };
+            
+            newWs.onmessage = function(event) {
+                try {
+                    const data = JSON.parse(event.data);
+                    if (data.type === 'cacheStats') {
+                        displayCacheStats(data.data);
+                        log(clientNum, 'Received cache stats');
+                    } else {
+                        log(clientNum, `Data received (${Object.keys(data).join(', ')})`);
+                    }
+                } catch (e) {
+                    log(clientNum, `Raw message received`);
+                }
+            };
+            
+            newWs.onclose = function() {
+                updateStatus(clientNum, 'Disconnected');
+                log(clientNum, 'WebSocket disconnected');
+            };
+            
+            newWs.onerror = function(error) {
+                log(clientNum, `WebSocket error: ${error}`);
+            };
+            
+            if (clientNum === 1) {
+                ws1 = newWs;
+            } else {
+                ws2 = newWs;
+            }
+        }
+        
+        function disconnect(clientNum) {
+            const ws = clientNum === 1 ? ws1 : ws2;
+            if (ws) {
+                ws.close();
+                if (clientNum === 1) {
+                    ws1 = null;
+                } else {
+                    ws2 = null;
+                }
+            }
+        }
+        
+        function sendMessage(clientNum, message) {
+            const ws = clientNum === 1 ? ws1 : ws2;
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                log(clientNum, 'Not connected to WebSocket');
+                return;
+            }
+            
+            ws.send(JSON.stringify(message));
+            log(clientNum, `Sent: ${message.action} (${message.leagueNodeId || message.nodeId || ''})`);
+        }
+        
+        function subscribeLeagueEvents(clientNum) {
+            sendMessage(clientNum, {
+                action: 'subscribeLeagueEvents',
+                leagueNodeId: LEAGUE_NODE_ID
+            });
+        }
+        
+        function unsubscribeLeagueEvents(clientNum) {
+            sendMessage(clientNum, {
+                action: 'unsubscribeLeagueEvents',
+                leagueNodeId: LEAGUE_NODE_ID
+            });
+        }
+        
+        function getCacheStats() {
+            // Send request from client 1 if available, otherwise client 2
+            const ws = (ws1 && ws1.readyState === WebSocket.OPEN) ? ws1 : 
+                      (ws2 && ws2.readyState === WebSocket.OPEN) ? ws2 : null;
+            
+            if (ws) {
+                ws.send(JSON.stringify({ action: 'getCacheStats' }));
+            } else {
+                alert('No client connected');
+            }
+        }
+        
+        function displayCacheStats(stats) {
+            const statsDiv = document.getElementById('cacheStats');
+            let html = `
+                <h4>Cache Statistics (Updated: ${new Date().toLocaleTimeString()})</h4>
+                <p><strong>Active Endpoints:</strong> ${stats.activeEndpoints}</p>
+                <p><strong>Total Subscriptions:</strong> ${stats.totalSubscriptions}</p>
+            `;
+            
+            if (stats.endpointDetails.length > 0) {
+                html += '<h5>Endpoint Details:</h5>';
+                stats.endpointDetails.forEach(endpoint => {
+                    html += `
+                        <div style="margin: 5px 0; padding: 5px; border: 1px solid #ddd; font-size: 11px;">
+                            <strong>${endpoint.endpoint}</strong><br>
+                            👥 Subscribers: ${endpoint.subscribers} | 
+                            🔄 Active: ${endpoint.hasActiveInterval ? '✅' : '❌'} | 
+                            🕒 Last Update: ${endpoint.lastUpdate || 'Never'}
+                        </div>
+                    `;
+                });
+            } else {
+                html += '<p><em>No active endpoints</em></p>';
+            }
+            
+            statsDiv.innerHTML = html;
+        }
+        
+        // Test scenarios
+        function testScenario1() {
+            log(1, '🧪 TEST: Both clients subscribe to same league');
+            log(2, '🧪 TEST: Both clients subscribe to same league');
+            
+            setTimeout(() => {
+                if (ws1 && ws1.readyState === WebSocket.OPEN && ws2 && ws2.readyState === WebSocket.OPEN) {
+                    subscribeLeagueEvents(1);
+                    setTimeout(() => subscribeLeagueEvents(2), 500);
+                    setTimeout(() => getCacheStats(), 1000);
+                } else {
+                    alert('Both clients must be connected for this test');
+                }
+            }, 100);
+        }
+        
+        function testScenario2() {
+            log(1, '🧪 TEST: Client 1 disconnects while Client 2 stays');
+            log(2, '🧪 TEST: Client 1 disconnects while Client 2 stays');
+            
+            setTimeout(() => {
+                unsubscribeLeagueEvents(1);
+                setTimeout(() => getCacheStats(), 500);
+            }, 100);
+        }
+        
+        function testScenario3() {
+            log(1, '🧪 TEST: Both clients disconnect');
+            log(2, '🧪 TEST: Both clients disconnect');
+            
+            setTimeout(() => {
+                unsubscribeLeagueEvents(1);
+                unsubscribeLeagueEvents(2);
+                setTimeout(() => getCacheStats(), 500);
+            }, 100);
+        }
+        
+        // Auto-connect both clients on page load
+        window.onload = function() {
+            setTimeout(() => connect(1), 100);
+            setTimeout(() => connect(2), 300);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+{
+    "SportHandleList": [
+        "efootball",
+        "ebasket",
+        "american_football",
+        "soccer",
+        "tennis",
+        "table_tennis",
+        "handball",
+        "beach_volleyball",
+        "volleyball",
+        "basketball",
+        "ice_hockey",
+        "futsal",
+        "esports",
+        "videolive"
+    ],
+    "Events": [
+        {
+            "ResultInfo": "Ha comenzado a las 00:00",
+            "DefaultGame": null,
+            "liveData": {
+                "Sets": [
+                    [
+                        11,
+                        21
+                    ],
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "Period": 16,
+                "PeriodName": "2º Set",
+                "Actions": [
+                    {
+                        "Period": 15,
+                        "PeriodName": "1º Set",
+                        "Time": 0,
+                        "ActionType": 14,
+                        "ActionTypeName": "Patada inicial",
+                        "Participant": "",
+                        "AffectedParticipant": "",
+                        "IsHomeTeam": false
+                    }
+                ],
+                "ResultHome": 0,
+                "ResultAway": 1,
+                "Time": "00:00",
+                "MatchTime": -1,
+                "RemainingPeriodTime": "",
+                "ParticipantHome": "Cannon T / Kraft M",
+                "ParticipantAway": "Santos Lisboa E / Silva Ramos A P"
+            },
+            "StartDate": "/Date(1760220000000)/",
+            "StarDate": "/Date(1760220000000)/",
+            "isLive": true,
+            "LeagueName": "Pro Tour Newport Beach - Femenino",
+            "ChildrenCount": 14,
+            "SportName": "Voley Playa",
+            "CountryCode": "US2",
+            "CountryName": "Estados Unidos",
+            "Participants": [
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "0"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 19541971,
+                    "IsHome": true,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Cannon T / Kraft M"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "CT"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                },
+                {
+                    "AdditionalValues": {
+                        "KeyValues": [],
+                        "LocalizedValues": [
+                            {
+                                "Key": "ParticipantOrder",
+                                "Value": "1"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    },
+                    "Id": 17732784,
+                    "IsHome": false,
+                    "LocalizedNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "Santos Lisboa E / Silva Ramos A P"
+                            }
+                        ],
+                        "ReferenceId": -1
+                    },
+                    "LocalizedShortNames": {
+                        "LocalizedValues": [
+                            {
+                                "CountryCode": "-1",
+                                "LanguageCode": "-1",
+                                "Value": "SLi"
+                            }
+                        ],
+                        "ReferenceId": 0
+                    }
+                }
+            ],
+            "LiveHistory": null,
+            "SmartMarketReferenceGameTypeIds": "",
+            "StatisticsId": "64436179",
+            "SportId": "2886166039",
+            "Games": [
+                {
+                    "Results": [
+                        {
+                            "Odd": 11.0,
+                            "SortOrder": 0,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2886166039",
+                            "LocationId": "11852569482",
+                            "LeagueId": "11852573221",
+                            "EventId": "11878083432",
+                            "EventHasHandicap": false,
+                            "GameId": "11878117606",
+                            "GameTypeId": 97,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Cannon T / Kraft M",
+                            "NodeId": "11878117617",
+                            "ParentNodeId": "11878117606",
+                            "Priority": 0,
+                            "SportHandle": "beach_volleyball",
+                            "Locked": false
+                        },
+                        {
+                            "Odd": 1.02,
+                            "SortOrder": 1,
+                            "IsLive": true,
+                            "upOdd": false,
+                            "downOdd": false,
+                            "IsNonRunner": false,
+                            "SportId": "2886166039",
+                            "LocationId": "11852569482",
+                            "LeagueId": "11852573221",
+                            "EventId": "11878083432",
+                            "EventHasHandicap": false,
+                            "GameId": "11878117606",
+                            "GameTypeId": 97,
+                            "GameSpecialOddsValue": "",
+                            "GameBetTypeAvailability": 0,
+                            "GameNumberOfStarters": 0,
+                            "Name": "Santos Lisboa E / Silva Ramos A P",
+                            "NodeId": "11878117616",
+                            "ParentNodeId": "11878117606",
+                            "Priority": 1,
+                            "SportHandle": "beach_volleyball",
+                            "Locked": false
+                        }
+                    ],
+                    "DisplayTypeName": "2buttonline",
+                    "CategoryInfo": {
+                        "CategoryId": "99",
+                        "CategoryName": "PRINCIPALES",
+                        "IsRelevant": true
+                    },
+                    "CategoryInfos": [
+                        {
+                            "CategoryId": "99",
+                            "CategoryName": "PRINCIPALES",
+                            "IsRelevant": true
+                        }
+                    ],
+                    "GameType": 97,
+                    "SmartMarketAvailable": false,
+                    "Spov": "",
+                    "ShortName": "Ganador del Partido",
+                    "IsLive": null,
+                    "Name": "Ganador del Partido",
+                    "NodeId": "11878117606",
+                    "ParentNodeId": "11878083432",
+                    "Priority": 9995,
+                    "SportHandle": "beach_volleyball",
+                    "Locked": false
+                }
+            ],
+            "StreamingId": null,
+            "StreamingEnabled": null,
+            "LTMEnabled": false,
+            "LeagueKlothoPriority": 0,
+            "HighlightPriority": 0,
+            "ParticipantHome": "Cannon T / Kraft M",
+            "ParticipantAway": "Santos Lisboa E / Silva Ramos A P",
+            "ParticipantHomeId": 19541971,
+            "ParticipantAwayId": 17732784,
+            "Name": "Cannon T / Kraft M - Santos Lisboa E / Silva Ramos A P",
+            "NodeId": "11878083432",
+            "ParentNodeId": "11852573221",
+            "Priority": 0,
+            "SportHandle": "beach_volleyball",
+            "Locked": false
+        }
+    ],
+    "Name": "Voley Playa",
+    "NodeId": "2886166039",
+    "ParentNodeId": "-1",
+    "Priority": 0,
+    "SportHandle": "beach_volleyball",
+    "Locked": false
+}

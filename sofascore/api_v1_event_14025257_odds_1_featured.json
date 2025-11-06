@@ -1,0 +1,103 @@
+{
+    "featured": {
+        "default": {
+            "sourceId": 182204983,
+            "structureType": 1,
+            "marketId": 1,
+            "marketName": "Full time",
+            "isLive": false,
+            "fid": 182204983,
+            "suspended": false,
+            "id": 119525644,
+            "marketGroup": "1X2",
+            "marketPeriod": "Full-time",
+            "choices": [
+                {
+                    "initialFractionalValue": "29\/10",
+                    "fractionalValue": "10\/3",
+                    "sourceId": 1754423015,
+                    "name": "1",
+                    "change": 1
+                },
+                {
+                    "initialFractionalValue": "5\/2",
+                    "fractionalValue": "3\/1",
+                    "sourceId": 1754423021,
+                    "name": "X",
+                    "change": 1
+                },
+                {
+                    "initialFractionalValue": "91\/100",
+                    "fractionalValue": "3\/4",
+                    "sourceId": 1754423023,
+                    "name": "2",
+                    "change": -1
+                }
+            ]
+        },
+        "asian": {
+            "sourceId": 182204983,
+            "structureType": 1,
+            "marketId": 17,
+            "marketName": "Asian handicap",
+            "isLive": false,
+            "fid": 182204984,
+            "suspended": false,
+            "id": 126457424,
+            "marketGroup": "Asian Handicap",
+            "marketPeriod": "Full-time",
+            "choices": [
+                {
+                    "initialFractionalValue": "19\/20",
+                    "fractionalValue": "17\/20",
+                    "sourceId": 1754423029,
+                    "name": "(0.75) Aston Villa",
+                    "change": -1
+                },
+                {
+                    "initialFractionalValue": "9\/10",
+                    "fractionalValue": "1\/1",
+                    "sourceId": 1754423032,
+                    "name": "(-0.75) Manchester City",
+                    "change": 1
+                }
+            ]
+        },
+        "fullTime": {
+            "sourceId": 182204983,
+            "structureType": 1,
+            "marketId": 1,
+            "marketName": "Full time",
+            "isLive": false,
+            "fid": 182204983,
+            "suspended": false,
+            "id": 119525644,
+            "marketGroup": "1X2",
+            "marketPeriod": "Full-time",
+            "choices": [
+                {
+                    "initialFractionalValue": "29\/10",
+                    "fractionalValue": "10\/3",
+                    "sourceId": 1754423015,
+                    "name": "1",
+                    "change": 1
+                },
+                {
+                    "initialFractionalValue": "5\/2",
+                    "fractionalValue": "3\/1",
+                    "sourceId": 1754423021,
+                    "name": "X",
+                    "change": 1
+                },
+                {
+                    "initialFractionalValue": "91\/100",
+                    "fractionalValue": "3\/4",
+                    "sourceId": 1754423023,
+                    "name": "2",
+                    "change": -1
+                }
+            ]
+        }
+    },
+    "hasMoreOdds": true
+}
