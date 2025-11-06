@@ -274,72 +274,116 @@ export class SofaScoreAPI {
                     console.log(`✅ Found ${eventUrls.length} events for ${sport.slug}`);
                     sofascoreData.sports[sport.slug] = { name: sport.slug.charAt(0).toUpperCase() + sport.slug.slice(1).replace('-', ' '), slug: sport.slug, liveCount: sport.liveCount, eventsProcessed: eventUrls.length };
 
-                    // Process events sequentially with delays to avoid CDP saturation
-                    // Key: Longer delays between events (4s) give CDP time to fully recover
-                    for (let eventIndex = 0; eventIndex < eventUrls.length; eventIndex++) {
-                        const eventInfo = eventUrls[eventIndex];
-                        console.log(`🔵 Processing ${sport.slug} event ${eventIndex + 1}/${eventUrls.length}: ${eventInfo.id}`);
-                        try {
-                            console.log(`   ⏱️  [TIMING] Clearing intercepted data...`);
-                            interceptedData.clear();
-                            
-                            // CRITICAL: Always wait before EVERY navigation (including first event)
-                            // The sport page navigation saturates CDP, so first event needs delay too
-                            console.log(`   ⏱️  [TIMING] Waiting 4s for CDP recovery before navigation...`);
-                            await new Promise(resolve => setTimeout(resolve, 4000));
-                            
-                            console.log(`   ⏱️  [TIMING] Navigating to: ${eventInfo.url}`);
-                            await page.goto(eventInfo.url, { waitUntil: 'networkidle2', timeout: 45000 });
-                            console.log(`   ⏱️  [TIMING] Navigation complete, waiting 2s for API calls...`);
+                    // Process events in parallel batches for maximum speed
+                    // With 24GB RAM, we can easily handle 5 concurrent pages
+                    const CONCURRENT_PAGES = 5;
+                    const chunks: any[][] = [];
+                    for (let i = 0; i < eventUrls.length; i += CONCURRENT_PAGES) {
+                        chunks.push(eventUrls.slice(i, i + CONCURRENT_PAGES));
+                    }
+
+                    console.log(`🚀 Processing ${eventUrls.length} events in ${chunks.length} parallel batches (${CONCURRENT_PAGES} at a time)`);
+
+                    for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex++) {
+                        const chunk = chunks[chunkIndex];
+                        console.log(`� Batch ${chunkIndex + 1}/${chunks.length}: Processing ${chunk.length} events in parallel`);
+
+                        // Process chunk events in parallel
+                        const chunkPromises = chunk.map(async (eventInfo: any, indexInChunk: number) => {
+                            // Create a dedicated page for this event
+                            const eventPage = await this.createNewPage();
+                            const eventInterceptedData = new Map<string, any>();
+
+                            // Set up response interception for this page
+                            eventPage.on('response', async (response: any) => {
+                                const url = response.url();
+                                if (url.includes('sofascore.com/api/v1') && response.ok()) {
+                                    try {
+                                        const contentType = response.headers()['content-type'];
+                                        if (contentType && contentType.includes('application/json')) {
+                                            const data = await response.json();
+                                            eventInterceptedData.set(url, data);
+                                        }
+                                    } catch (error) { /* Skip non-JSON */ }
+                                }
+                            });
+
+                            try {
+                                console.log(`   🔵 [${chunkIndex + 1}.${indexInChunk + 1}] Processing ${sport.slug} event ${eventInfo.id}`);
+                                
+                                // Navigate to event page using dedicated page
+                                await eventPage.goto(eventInfo.url, { waitUntil: 'networkidle2', timeout: 45000 });
+                                
+                                // Wait for API calls to complete
+                                await new Promise(resolve => setTimeout(resolve, 2000));
+
+                                // Process intercepted data
+                                const eventData: any = { id: eventInfo.id, url: eventInfo.url, sport: sport.slug, apiData: {}, media: {} };
+                                let apiCallCount = 0;
+
+                                for (const [url, data] of eventInterceptedData.entries()) {
+                                    apiCallCount++;
+                                    if (url.includes(`/event/${eventInfo.id}`)) {
+                                        if (url.includes('/statistics')) eventData.apiData.statistics = data;
+                                        else if (url.includes('/incidents')) eventData.apiData.incidents = data;
+                                        else if (url.includes('/lineups')) eventData.apiData.lineups = data;
+                                        else if (url.includes('/odds')) eventData.apiData.odds = data;
+                                        else if (url.includes('/h2h')) eventData.apiData.h2h = data;
+                                        else if (url.endsWith(`/event/${eventInfo.id}`)) eventData.apiData.eventDetails = data;
+                                    }
+                                }
+
+                                // Extract event details and build media URLs
+                                const eventDetails = eventData.apiData.eventDetails?.event;
+                                if (eventDetails) {
+                                    const { homeTeam, awayTeam, tournament } = eventDetails;
+                                    eventData.media = {
+                                        teamImages: {
+                                            home: homeTeam?.id ? this.getTeamImageUrl(homeTeam.id) : null,
+                                            away: awayTeam?.id ? this.getTeamImageUrl(awayTeam.id) : null
+                                        },
+                                        tournamentImage: tournament?.uniqueTournament?.id ? this.getTournamentImageUrl(tournament.uniqueTournament.id) : null,
+                                    };
+
+                                    if (homeTeam?.id && !sofascoreData.teams[homeTeam.id]) {
+                                        sofascoreData.teams[homeTeam.id] = { id: homeTeam.id, name: homeTeam.name, sport: sport.slug, imageUrl: this.getTeamImageUrl(homeTeam.id) };
+                                    }
+                                    if (awayTeam?.id && !sofascoreData.teams[awayTeam.id]) {
+                                        sofascoreData.teams[awayTeam.id] = { id: awayTeam.id, name: awayTeam.name, sport: sport.slug, imageUrl: this.getTeamImageUrl(awayTeam.id) };
+                                    }
+                                    if (tournament?.uniqueTournament?.id && !sofascoreData.tournaments[tournament.uniqueTournament.id]) {
+                                        sofascoreData.tournaments[tournament.uniqueTournament.id] = { id: tournament.uniqueTournament.id, name: tournament.uniqueTournament.name, sport: sport.slug, imageUrl: this.getTournamentImageUrl(tournament.uniqueTournament.id) };
+                                    }
+                                }
+
+                                console.log(`   ✅ [${chunkIndex + 1}.${indexInChunk + 1}] ${sport.slug} event ${eventInfo.id}: ${apiCallCount} API calls`);
+                                
+                                sofascoreData.events[eventInfo.id] = eventData;
+                                sofascoreData.summary.totalEvents++;
+                                sofascoreData.summary.totalApiCalls += apiCallCount;
+
+                                return { success: true, eventId: eventInfo.id };
+
+                            } catch (eventError) {
+                                console.error(`   🚨 [${chunkIndex + 1}.${indexInChunk + 1}] Error processing event ${eventInfo.id}:`, eventError);
+                                return { success: false, eventId: eventInfo.id, error: eventError };
+                            } finally {
+                                // CRITICAL: Always close the page to free resources
+                                await eventPage.close();
+                            }
+                        });
+
+                        // Wait for all events in this chunk to complete
+                        const results = await Promise.allSettled(chunkPromises);
+                        const successful = results.filter(r => r.status === 'fulfilled' && (r.value as any).success).length;
+                        const failed = results.length - successful;
+                        
+                        console.log(`   ✅ Batch ${chunkIndex + 1}/${chunks.length} complete: ${successful} successful, ${failed} failed`);
+
+                        // Small delay between batches to let system breathe
+                        if (chunkIndex < chunks.length - 1) {
+                            console.log(`   ⏸️  Waiting 2s before next batch...`);
                             await new Promise(resolve => setTimeout(resolve, 2000));
-
-                            console.log(`   ⏱️  [TIMING] Processing intercepted API data...`);
-                            const eventData: any = { id: eventInfo.id, url: eventInfo.url, sport: sport.slug, apiData: {}, media: {} };
-                            let apiCallCount = 0;
-
-                            for (const [url, data] of interceptedData.entries()) {
-                                apiCallCount++;
-                                if (url.includes(`/event/${eventInfo.id}`)) {
-                                    if (url.includes('/statistics')) eventData.apiData.statistics = data;
-                                    else if (url.includes('/incidents')) eventData.apiData.incidents = data;
-                                    else if (url.includes('/lineups')) eventData.apiData.lineups = data;
-                                    else if (url.includes('/odds')) eventData.apiData.odds = data;
-                                    else if (url.includes('/h2h')) eventData.apiData.h2h = data;
-                                    else if (url.endsWith(`/event/${eventInfo.id}`)) eventData.apiData.eventDetails = data;
-                                }
-                            }
-
-                            console.log(`   ⏱️  [TIMING] Extracting event details and building media URLs...`);
-                            const eventDetails = eventData.apiData.eventDetails?.event;
-                            if (eventDetails) {
-                                const { homeTeam, awayTeam, tournament } = eventDetails;
-                                eventData.media = {
-                                    teamImages: {
-                                        home: homeTeam?.id ? this.getTeamImageUrl(homeTeam.id) : null,
-                                        away: awayTeam?.id ? this.getTeamImageUrl(awayTeam.id) : null
-                                    },
-                                    tournamentImage: tournament?.uniqueTournament?.id ? this.getTournamentImageUrl(tournament.uniqueTournament.id) : null,
-                                };
-
-                                if (homeTeam?.id && !sofascoreData.teams[homeTeam.id]) {
-                                    sofascoreData.teams[homeTeam.id] = { id: homeTeam.id, name: homeTeam.name, sport: sport.slug, imageUrl: this.getTeamImageUrl(homeTeam.id) };
-                                }
-                                if (awayTeam?.id && !sofascoreData.teams[awayTeam.id]) {
-                                    sofascoreData.teams[awayTeam.id] = { id: awayTeam.id, name: awayTeam.name, sport: sport.slug, imageUrl: this.getTeamImageUrl(awayTeam.id) };
-                                }
-                                if (tournament?.uniqueTournament?.id && !sofascoreData.tournaments[tournament.uniqueTournament.id]) {
-                                    sofascoreData.tournaments[tournament.uniqueTournament.id] = { id: tournament.uniqueTournament.id, name: tournament.uniqueTournament.name, sport: sport.slug, imageUrl: this.getTournamentImageUrl(tournament.uniqueTournament.id) };
-                                }
-                            }
-
-                            console.log(`   ⏱️  [TIMING] Storing event data and updating counters...`);
-                            console.log(`✅ ${sport.slug} event ${eventInfo.id}: ${apiCallCount} API calls`);
-                            sofascoreData.events[eventInfo.id] = eventData;
-                            sofascoreData.summary.totalEvents++;
-                            sofascoreData.summary.totalApiCalls += apiCallCount;
-
-                        } catch (eventError) {
-                            console.error(`🚨 Error processing event ${eventInfo.id} for ${sport.slug}:`, eventError);
                         }
                     }
                 } catch (sportError) {
