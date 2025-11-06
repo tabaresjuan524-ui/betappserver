@@ -8,7 +8,9 @@ export class SofaScoreDataSource implements IDataSource {
     name = 'sofascore';
     private api: SofaScoreAPI;
     private lastFetchTime = 0;
-    private static FETCH_COOLDOWN = 30000; // 30 seconds
+    private lastSuccessfulData: CombinedData | null = null;
+    private isFetching = false;
+    private static FETCH_COOLDOWN = 30000; // 30 seconds - reduced since we're processing fewer sports
 
     constructor(browser: Browser | null) {
         if (!browser) {
@@ -19,13 +21,37 @@ export class SofaScoreDataSource implements IDataSource {
 
     async fetchData(browser: Browser | null): Promise<CombinedData | null> {
         const now = Date.now();
+        
+        // If currently fetching, return the last successful data
+        if (this.isFetching) {
+            const hasData = this.lastSuccessfulData !== null;
+            const eventCount = this.lastSuccessfulData?.standardizedEvents?.length || 0;
+            const cacheDetails = hasData ? {
+                sports: this.lastSuccessfulData!.sports?.length || 0,
+                liveEvents: this.lastSuccessfulData!.liveEvents?.length || 0,
+                standardizedEvents: this.lastSuccessfulData!.standardizedEvents?.length || 0,
+                sofascoreEvents: Object.keys(this.lastSuccessfulData!.sofascore?.events || {}).length
+            } : 'NO DATA';
+            console.log(`⏳ [SOFASCORE] Fetch in progress, returning cached data:`, cacheDetails);
+            return this.lastSuccessfulData;
+        }
+        
+        // Check cooldown
         if (now - this.lastFetchTime < SofaScoreDataSource.FETCH_COOLDOWN) {
-            console.log(`⏳ [SOFASCORE] Cooldown active, skipping fetch.`);
-            return null;
+            const remainingTime = Math.ceil((SofaScoreDataSource.FETCH_COOLDOWN - (now - this.lastFetchTime)) / 1000);
+            const hasData = this.lastSuccessfulData !== null;
+            const cacheDetails = hasData ? {
+                sports: this.lastSuccessfulData!.sports?.length || 0,
+                liveEvents: this.lastSuccessfulData!.liveEvents?.length || 0,
+                standardizedEvents: this.lastSuccessfulData!.standardizedEvents?.length || 0,
+                sofascoreEvents: Object.keys(this.lastSuccessfulData!.sofascore?.events || {}).length
+            } : 'NO DATA';
+            console.log(`⏳ [SOFASCORE] Cooldown active (${remainingTime}s remaining), returning cached data:`, cacheDetails);
+            return this.lastSuccessfulData;
         }
 
         console.log('🚀 [SOFASCORE] Starting data fetch for all live sports...');
-        this.lastFetchTime = now;
+        this.isFetching = true;
 
         try {
             const result = await this.api.getAllLiveSportsData();
@@ -72,15 +98,26 @@ export class SofaScoreDataSource implements IDataSource {
                 liveData: event // Storing the full standardized event here
             }));
 
-            return {
+            const combinedData: CombinedData = {
                 sports,
                 liveEvents,
                 standardizedEvents,
                 sofascore: result.sofascoreData
             };
+            
+            // Update cache and timing AFTER successful fetch
+            this.lastSuccessfulData = combinedData;
+            this.lastFetchTime = Date.now();
+            this.isFetching = false;
+            
+            console.log(`✅ [SOFASCORE] Data ready to send: ${sports.length} sports, ${liveEvents.length} live events, ${standardizedEvents.length} standardized events`);
+            console.log(`✅ [SOFASCORE] Cached for future requests. Raw events: ${Object.keys(result.sofascoreData.events || {}).length}`);
+            
+            return combinedData;
         } catch (error) {
             console.error(`❌ [SOFASCORE] Error in fetchData:`, error);
-            return null;
+            this.isFetching = false;
+            return this.lastSuccessfulData; // Return cached data on error
         }
     }
 }

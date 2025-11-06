@@ -66,6 +66,18 @@ const sendBatchedUpdate = () => {
         consolidatedData.standardizedEvents = mainDataUpdate.data.standardizedEvents;
     }
 
+    // 🔍 DEBUG: Log what we're about to send
+    console.log(`\n🔍 [WS DEBUG] Preparing to send batched update:`);
+    console.log(`   - Has mainData: ${!!mainDataUpdate}`);
+    console.log(`   - standardizedEvents count: ${consolidatedData.standardizedEvents?.length || 0}`);
+    console.log(`   - sofascore data exists: ${!!consolidatedData.sofascore}`);
+    if (consolidatedData.sofascore) {
+        console.log(`   - sofascore.events keys: ${Object.keys(consolidatedData.sofascore.events || {}).length}`);
+        console.log(`   - sofascore.sports keys: ${Object.keys(consolidatedData.sofascore.sports || {}).length}`);
+        console.log(`   - sofascore.tournaments keys: ${Object.keys(consolidatedData.sofascore.tournaments || {}).length}`);
+    }
+    console.log(`   - subscription updates: ${subscriptionUpdates.length}\n`);
+
     // Clear the queue
     queuedUpdates.clear();
     batchTimeout = null;

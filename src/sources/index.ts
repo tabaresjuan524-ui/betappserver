@@ -701,8 +701,12 @@ export const startDataFetching = async (browser: Browser | null) => {
                     codereData = { ...codereData, ...result.value.codere };
                 }
                 if (result.value.sofascore) {
+                    console.log(`✅ [SOFASCORE] Received data with ${Object.keys(result.value.sofascore.events || {}).length} events`);
                     sofascoreData = { ...sofascoreData, ...result.value.sofascore };
                 }
+            } else if (result.status === 'fulfilled' && !result.value) {
+                const sourceName = sources[index].name;
+                console.log(`ℹ️ ${sourceName} returned null (cached data or cooldown)`);
             } else if (result.status === 'rejected') {
                 const sourceName = sources[index].name;
                 console.error(`👎 Failed to fetch data from ${sourceName}:`, result.reason);
@@ -738,13 +742,14 @@ export const startDataFetching = async (browser: Browser | null) => {
         
         // Preserve existing cached subscription data to prevent flickering
         const previousCodereData = latestData.codere;
+        const previousSofascoreData = latestData.sofascore;
         
         latestData = {
             sports: allSports,
             liveEvents: allLiveEvents,
             standardizedEvents: allStandardizedEvents,
             codere: codereData || previousCodereData,  // Only update if we have new data
-            sofascore: sofascoreData
+            sofascore: sofascoreData || previousSofascoreData  // Preserve previous sofascore data if no new data
         };
         
         // Always restore cached subscription data, regardless of whether we got new base data

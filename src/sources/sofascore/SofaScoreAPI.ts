@@ -183,12 +183,16 @@ export class SofaScoreAPI {
             }
         };
 
-        console.log(`\n🔵 Step 2: Processing ALL sports with live events (${sportsWithLiveEvents.length} sports)`);
+        // Limit sports to prevent timeouts and memory issues
+        const MAX_SPORTS_TO_PROCESS = 2; // Only process 2 sports to ensure completion
+        const sportsToProcess = sportsWithLiveEvents.slice(0, MAX_SPORTS_TO_PROCESS);
         
-        // Process all sports
-        for (let sportIndex = 0; sportIndex < sportsWithLiveEvents.length; sportIndex++) {
-            const sport = sportsWithLiveEvents[sportIndex];
-            console.log(`\n🏈 Processing Sport ${sportIndex + 1}/${sportsWithLiveEvents.length}: ${sport.slug} (${sport.liveCount} live events)`);
+        console.log(`\n🔵 Step 2: Processing ${sportsToProcess.length} sports with live events (limited from ${sportsWithLiveEvents.length} total)`);
+        
+        // Process limited sports
+        for (let sportIndex = 0; sportIndex < sportsToProcess.length; sportIndex++) {
+            const sport = sportsToProcess[sportIndex];
+            console.log(`\n🏈 Processing Sport ${sportIndex + 1}/${sportsToProcess.length}: ${sport.slug} (${sport.liveCount} live events)`);
             
             try {
                 // Add a random delay to mimic human behavior
@@ -390,6 +394,14 @@ export class SofaScoreAPI {
         console.log(`   📡 Total API interceptions: ${sofascoreData.summary.totalApiCalls}`);
         console.log(`\n🎉 COMPREHENSIVE MULTI-SPORT DATA READY FOR WEBSOCKET TRANSMISSION!`);
         console.log(`================================================================\n`);
+        
+        // Clean up event listeners to prevent memory leaks and timeouts
+        try {
+            page.removeAllListeners('response');
+            console.log(`🧹 Cleaned up response listeners to prevent timeouts`);
+        } catch (cleanupError) {
+            console.warn(`⚠️ Error during listener cleanup:`, cleanupError);
+        }
         
         return { sofascoreData };
     }
