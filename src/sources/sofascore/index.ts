@@ -55,7 +55,13 @@ export class SofaScoreDataSource implements IDataSource {
 
         try {
             const result = await this.api.getAllLiveSportsData();
-            
+            // If the API returned null or an unexpected shape, return cached data
+            if (!result || !result.sofascoreData) {
+                console.warn(`⚠️ [SOFASCORE] getAllLiveSportsData returned no data, falling back to cache`);
+                this.isFetching = false;
+                return this.lastSuccessfulData;
+            }
+
             const standardizedEvents: StandardizedEvent[] = Object.entries(result.sofascoreData.events)
                 .map(([eventId, eventData]) => transformSofaScoreEvent(eventId, eventData))
                 .filter((event): event is StandardizedEvent => event !== null);
