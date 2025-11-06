@@ -406,11 +406,11 @@ export class SofaScoreAPI {
         }));
     }
 
-    async getLiveEvents(sportSlug: string): Promise<SportEvent[] | null> {
+    async getLiveEvents(sportSlug: string): Promise<SportEvent[] | null>  {
         const data = await this.getAllLiveSportsData();
         
         const events: SportEvent[] = [];
-        Object.values(data.sofascoreData.events).forEach((eventData: any) => {
+        Object.values(data.sofascoreData.events).forEach((eventData: any)  => {
             if (eventData.sport === sportSlug && eventData.apiData.eventDetails?.event) {
                 const event = eventData.apiData.eventDetails.event;
                 events.push({
@@ -432,7 +432,7 @@ export class SofaScoreAPI {
     }
 
     // Individual API methods (kept for compatibility)
-    async getEventDetails(eventId: number): Promise<EventDetails | null> {
+    async getEventDetails(eventId: number): Promise<EventDetails | null>  {
         return this.get<EventDetails>(`/event/${eventId}`, false);
     }
 
