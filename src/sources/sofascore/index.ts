@@ -10,7 +10,7 @@ export class SofaScoreDataSource implements IDataSource {
     private lastFetchTime = 0;
     private lastSuccessfulData: CombinedData | null = null;
     private isFetching = false;
-    private static FETCH_COOLDOWN = 30000; // 30 seconds - reduced since we're processing fewer sports
+    private static FETCH_COOLDOWN = 60000; // 60 seconds - increased to handle all sports
 
     constructor(browser: Browser | null) {
         if (!browser) {

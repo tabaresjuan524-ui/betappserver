@@ -183,16 +183,12 @@ export class SofaScoreAPI {
             }
         };
 
-        // Limit sports to prevent timeouts and memory issues
-        const MAX_SPORTS_TO_PROCESS = 2; // Only process 2 sports to ensure completion
-        const sportsToProcess = sportsWithLiveEvents.slice(0, MAX_SPORTS_TO_PROCESS);
+        console.log(`\n🔵 Step 2: Processing ALL sports with live events (${sportsWithLiveEvents.length} sports)`);
         
-        console.log(`\n🔵 Step 2: Processing ${sportsToProcess.length} sports with live events (limited from ${sportsWithLiveEvents.length} total)`);
-        
-        // Process limited sports
-        for (let sportIndex = 0; sportIndex < sportsToProcess.length; sportIndex++) {
-            const sport = sportsToProcess[sportIndex];
-            console.log(`\n🏈 Processing Sport ${sportIndex + 1}/${sportsToProcess.length}: ${sport.slug} (${sport.liveCount} live events)`);
+        // Process all sports
+        for (let sportIndex = 0; sportIndex < sportsWithLiveEvents.length; sportIndex++) {
+            const sport = sportsWithLiveEvents[sportIndex];
+            console.log(`\n🏈 Processing Sport ${sportIndex + 1}/${sportsWithLiveEvents.length}: ${sport.slug} (${sport.liveCount} live events)`);
             
             try {
                 // Add a random delay to mimic human behavior
