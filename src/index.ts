@@ -25,6 +25,7 @@ const main = async () => {
         browser = await puppeteer.launch({
             headless: true,
             args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+            protocolTimeout: 180000, // 3 minutes - increased to prevent protocol timeouts during heavy scraping
         });
     } else {
         console.log("🟢 Running in MOCK DATA mode, browser will not be launched.");
