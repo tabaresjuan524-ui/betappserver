@@ -22,48 +22,9 @@ async function testSingleSofaScoreRequest() {
         const sofaScoreAPI = new SofaScoreAPI(browser);
         
         // Run the single request test
-        const consolidatedData = await sofaScoreAPI.testSingleRequestFlow();
+        await sofaScoreAPI.testSingleRequestFlow();
         
         console.log("🎉 Single request test completed!");
-        
-        // Display the consolidated data structure
-        if (consolidatedData && consolidatedData.sofascoreData) {
-            console.log("\n📊 CONSOLIDATED SOFASCORE DATA STRUCTURE:");
-            console.log("=".repeat(60));
-            
-            // Show structure overview
-            const { sofascoreData } = consolidatedData;
-            console.log(`📅 Events: ${Object.keys(sofascoreData.events || {}).length}`);
-            console.log(`⚽ Teams: ${Object.keys(sofascoreData.teams || {}).length}`);
-            console.log(`🏆 Tournaments: ${Object.keys(sofascoreData.tournaments || {}).length}`);
-            console.log(`🖼️ Media URLs Generated: ${Object.keys(sofascoreData.media || {}).length}`);
-            
-            // Show sample event data
-            const eventKeys = Object.keys(sofascoreData.events || {});
-            if (eventKeys.length > 0) {
-                const firstEventId = eventKeys[0];
-                const firstEvent = sofascoreData.events[firstEventId];
-                console.log(`\n🎯 Sample Event (${firstEventId}):`);
-                console.log(`  - Basic Data: ${firstEvent.basicData ? '✅' : '❌'}`);
-                console.log(`  - Statistics: ${firstEvent.statistics ? '✅' : '❌'}`);
-                console.log(`  - Incidents: ${firstEvent.incidents ? '✅' : '❌'}`);
-                console.log(`  - Odds: ${firstEvent.odds ? '✅' : '❌'}`);
-                console.log(`  - Lineups: ${firstEvent.lineups ? '✅' : '❌'}`);
-            }
-            
-            // Show sample media URLs
-            const mediaKeys = Object.keys(sofascoreData.media || {});
-            if (mediaKeys.length > 0) {
-                console.log(`\n🖼️ Sample Media URLs:`);
-                mediaKeys.slice(0, 3).forEach(key => {
-                    console.log(`  - ${key}: ${sofascoreData.media[key]}`);
-                });
-            }
-            
-            console.log("=".repeat(60));
-        } else {
-            console.log("❌ No consolidated data returned");
-        }
         
     } catch (error) {
         console.error("💥 Error during test:", error);

@@ -20,7 +20,7 @@ export function transformSofaScoreEvent(eventId: string, rawEventData: any): Sta
     const awayScore = details.awayScore?.current ?? 0;
 
     const standardizedEvent: StandardizedEvent = {
-        eventId: parseInt(eventId),
+        eventId: eventId,
         source: 'sofascore',
         sport: rawEventData.sport,
         eventName: details.name,

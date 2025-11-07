@@ -3,6 +3,24 @@ import { Browser, Page } from 'puppeteer';
 const BASE_URL = 'https://www.sofascore.com/api/v1';
 const IMG_BASE_URL = 'https://img.sofascore.com/api/v1';
 
+// Memory logging utility
+function logMemoryUsage(label: string): void {
+    const used = process.memoryUsage();
+    const mbUsed = {
+        rss: Math.round(used.rss / 1024 / 1024), // Resident Set Size - total memory allocated
+        heapTotal: Math.round(used.heapTotal / 1024 / 1024), // Total heap allocated
+        heapUsed: Math.round(used.heapUsed / 1024 / 1024), // Heap actually used
+        external: Math.round(used.external / 1024 / 1024), // C++ objects bound to JS
+        arrayBuffers: Math.round(used.arrayBuffers / 1024 / 1024) // ArrayBuffers and SharedArrayBuffers
+    };
+    
+    // Get system memory info (Windows)
+    const totalMemGB = 24; // Your system has 24GB
+    const usedPercent = ((mbUsed.rss / 1024) / totalMemGB * 100).toFixed(1);
+    
+    console.log(`📊 [MEMORY ${label}] RSS: ${mbUsed.rss}MB | Heap: ${mbUsed.heapUsed}/${mbUsed.heapTotal}MB | External: ${mbUsed.external}MB | Arrays: ${mbUsed.arrayBuffers}MB | Total: ${usedPercent}% of ${totalMemGB}GB`);
+}
+
 export class SofaScoreAPI {
     private browser: Browser;
 
@@ -12,7 +30,13 @@ export class SofaScoreAPI {
 
     private async createNewPage(): Promise<Page> {
         console.log(`[SofaScore] 🔄 Creating new page for scraping session...`);
-    const page = await this.browser.newPage();
+        
+        // Check if browser is still connected
+        if (!this.browser.connected) {
+            throw new Error('Browser is not connected. Browser may have crashed or been closed.');
+        }
+        
+        const page = await this.browser.newPage();
     // Increase default timeouts to improve stability on heavy pages
     page.setDefaultNavigationTimeout(90000);
     page.setDefaultTimeout(60000);
@@ -45,6 +69,8 @@ export class SofaScoreAPI {
         console.log(`\n🌍 =================== ALL LIVE SPORTS DATA COLLECTION ===================`);
         console.log(`🎯 Processing ALL sports: API → Sport Pages → En Vivo → All Events`);
         console.log(`================================================================\n`);
+        
+        logMemoryUsage('START');
 
         let page: Page | null = null;
         
@@ -96,6 +122,22 @@ export class SofaScoreAPI {
 
             if (sportsWithLiveEvents.length === 0) {
                 console.error(`❌ No sports with live events found`);
+                // 🔍 DEBUG: Log HTML when API parse fails
+                console.log(`🔍 [HTML DEBUG] Failed to parse event count API. Dumping page state...`);
+                const htmlSnapshot = await page.evaluate(() => {
+                    return {
+                        url: window.location.href,
+                        title: document.title,
+                        bodyText: document.body?.innerText?.substring(0, 2000) || 'NO BODY',
+                        bodyHTML: document.body?.innerHTML?.substring(0, 5000) || 'NO BODY',
+                        bodyLength: document.body?.innerHTML?.length || 0
+                    };
+                });
+                console.log(`🔍 [HTML DEBUG] URL: ${htmlSnapshot.url}`);
+                console.log(`🔍 [HTML DEBUG] Title: ${htmlSnapshot.title}`);
+                console.log(`🔍 [HTML DEBUG] Body length: ${htmlSnapshot.bodyLength} chars`);
+                console.log(`🔍 [HTML DEBUG] Body text (first 2000 chars):\n${htmlSnapshot.bodyText}`);
+                console.log(`🔍 [HTML DEBUG] Body HTML (first 5000 chars):\n${htmlSnapshot.bodyHTML}`);
                 return { sofascoreData: { events: {}, teams: {}, tournaments: {}, media: {}, sports: {} } };
             }
 
@@ -111,6 +153,7 @@ export class SofaScoreAPI {
             for (let sportIndex = 0; sportIndex < sportsWithLiveEvents.length; sportIndex++) {
                 const sport = sportsWithLiveEvents[sportIndex];
                 console.log(`\n🏈 Processing Sport ${sportIndex + 1}/${sportsWithLiveEvents.length}: ${sport.slug} (${sport.liveCount} live events)`);
+                logMemoryUsage(`SPORT-START ${sport.slug}`);
                 
                 try {
                     console.log(`   ⏱️  [TIMING SPORT] Waiting random delay before sport page load...`);
@@ -148,6 +191,24 @@ export class SofaScoreAPI {
                         console.log(`✅ Event links appeared for ${sport.slug}`);
                     } catch (e) {
                         console.log(`⚠️ No event links found for ${sport.slug} after waiting. It's possible there are no live events.`);
+                        // 🔍 DEBUG: Log HTML when selectors fail
+                        console.log(`🔍 [HTML DEBUG] Dumping page HTML for ${sport.slug}...`);
+                        const htmlSnapshot = await page.evaluate(() => {
+                            return {
+                                url: window.location.href,
+                                title: document.title,
+                                bodyLength: document.body?.innerHTML?.length || 0,
+                                bodyPreview: document.body?.innerHTML?.substring(0, 5000) || 'NO BODY',
+                                allButtons: Array.from(document.querySelectorAll('button')).map(b => b.textContent?.trim()).slice(0, 20),
+                                allLinks: Array.from(document.querySelectorAll('a')).map(a => a.getAttribute('href')).slice(0, 50)
+                            };
+                        });
+                        console.log(`🔍 [HTML DEBUG] URL: ${htmlSnapshot.url}`);
+                        console.log(`🔍 [HTML DEBUG] Title: ${htmlSnapshot.title}`);
+                        console.log(`🔍 [HTML DEBUG] Body length: ${htmlSnapshot.bodyLength} chars`);
+                        console.log(`🔍 [HTML DEBUG] First 20 buttons: ${JSON.stringify(htmlSnapshot.allButtons, null, 2)}`);
+                        console.log(`🔍 [HTML DEBUG] First 50 links: ${JSON.stringify(htmlSnapshot.allLinks, null, 2)}`);
+                        console.log(`🔍 [HTML DEBUG] Body preview (first 5000 chars):\n${htmlSnapshot.bodyPreview}`);
                         continue; // Skip to the next sport
                     }
 
@@ -236,6 +297,33 @@ export class SofaScoreAPI {
                     console.log(`   ⏱️  [TIMING SPORT] Event URL extraction complete`);
 
                     if (eventUrls.length === 0) {
+                        // 🔍 DEBUG: Log HTML when no events extracted
+                        console.log(`🔍 [HTML DEBUG] No events extracted from DOM for ${sport.slug}. Dumping page state...`);
+                        const htmlSnapshot = await page.evaluate(() => {
+                            return {
+                                url: window.location.href,
+                                title: document.title,
+                                bodyLength: document.body?.innerHTML?.length || 0,
+                                bodyPreview: document.body?.innerHTML?.substring(0, 5000) || 'NO BODY',
+                                allButtons: Array.from(document.querySelectorAll('button')).map(b => b.textContent?.trim()).slice(0, 20),
+                                matchLinks: Array.from(document.querySelectorAll('a[href*="/match/"]')).length,
+                                eventLinks: Array.from(document.querySelectorAll('a[href*="/event/"]')).length,
+                                allLinks: Array.from(document.querySelectorAll('a')).map(a => ({
+                                    href: a.getAttribute('href'),
+                                    text: a.textContent?.trim(),
+                                    dataId: a.getAttribute('data-id')
+                                })).slice(0, 100)
+                            };
+                        });
+                        console.log(`🔍 [HTML DEBUG] URL: ${htmlSnapshot.url}`);
+                        console.log(`🔍 [HTML DEBUG] Title: ${htmlSnapshot.title}`);
+                        console.log(`🔍 [HTML DEBUG] Body length: ${htmlSnapshot.bodyLength} chars`);
+                        console.log(`🔍 [HTML DEBUG] Match links found: ${htmlSnapshot.matchLinks}`);
+                        console.log(`🔍 [HTML DEBUG] Event links found: ${htmlSnapshot.eventLinks}`);
+                        console.log(`🔍 [HTML DEBUG] First 20 buttons: ${JSON.stringify(htmlSnapshot.allButtons, null, 2)}`);
+                        console.log(`🔍 [HTML DEBUG] First 100 links: ${JSON.stringify(htmlSnapshot.allLinks, null, 2)}`);
+                        console.log(`🔍 [HTML DEBUG] Body preview (first 5000 chars):\n${htmlSnapshot.bodyPreview}`);
+                        
                         // Fallback: try to derive events from intercepted live API payload
                         let fallbackEvents: any[] = [];
                         for (const [url, data] of interceptedData.entries()) {
@@ -274,9 +362,11 @@ export class SofaScoreAPI {
                     console.log(`✅ Found ${eventUrls.length} events for ${sport.slug}`);
                     sofascoreData.sports[sport.slug] = { name: sport.slug.charAt(0).toUpperCase() + sport.slug.slice(1).replace('-', ' '), slug: sport.slug, liveCount: sport.liveCount, eventsProcessed: eventUrls.length };
 
-                    // Process events in parallel batches for maximum speed
-                    // With 24GB RAM, we can easily handle 5 concurrent pages
-                    const CONCURRENT_PAGES = 5;
+                    // Process events sequentially (1 at a time) for maximum stability
+                    // CRITICAL: Even 2 concurrent pages causes VS Code to crash due to total system memory pressure
+                    // Memory per process is fine (440MB), but VS Code + Node + Chrome + 2 Puppeteer pages = system overload
+                    // Sequential processing is slower but guarantees completion
+                    const CONCURRENT_PAGES = 1;
                     const chunks: any[][] = [];
                     for (let i = 0; i < eventUrls.length; i += CONCURRENT_PAGES) {
                         chunks.push(eventUrls.slice(i, i + CONCURRENT_PAGES));
@@ -288,8 +378,14 @@ export class SofaScoreAPI {
                         const chunk = chunks[chunkIndex];
                         console.log(`� Batch ${chunkIndex + 1}/${chunks.length}: Processing ${chunk.length} events in parallel`);
 
-                        // Process chunk events in parallel
+                        // Process chunk events in parallel with staggered page creation
                         const chunkPromises = chunk.map(async (eventInfo: any, indexInChunk: number) => {
+                            // Stagger page creation by 500ms to reduce CDP stress
+                            // This prevents 3 simultaneous newPage() calls which saturate CDP
+                            if (indexInChunk > 0) {
+                                await new Promise(resolve => setTimeout(resolve, 500 * indexInChunk));
+                            }
+                            
                             // Create a dedicated page for this event
                             const eventPage = await this.createNewPage();
                             const eventInterceptedData = new Map<string, any>();
@@ -379,15 +475,25 @@ export class SofaScoreAPI {
                         const failed = results.length - successful;
                         
                         console.log(`   ✅ Batch ${chunkIndex + 1}/${chunks.length} complete: ${successful} successful, ${failed} failed`);
+                        logMemoryUsage(`BATCH-${chunkIndex + 1}/${chunks.length}`);
+                        
+                        // Force garbage collection after each batch to help with memory pressure
+                        if (global.gc) {
+                            global.gc();
+                            console.log(`   🗑️  Garbage collection triggered`);
+                        }
 
                         // Small delay between batches to let system breathe
                         if (chunkIndex < chunks.length - 1) {
-                            console.log(`   ⏸️  Waiting 2s before next batch...`);
-                            await new Promise(resolve => setTimeout(resolve, 2000));
+                            console.log(`   ⏸️  Waiting 3s before next batch...`);
+                            await new Promise(resolve => setTimeout(resolve, 3000)); // Increased to 3s
                         }
                     }
+                    
+                    logMemoryUsage(`SPORT-END ${sport.slug}`);
                 } catch (sportError) {
                     console.error(`🚨 Error processing sport ${sport.slug}:`, sportError);
+                    logMemoryUsage(`SPORT-ERROR ${sport.slug}`);
                 }
             }
 
@@ -397,16 +503,20 @@ export class SofaScoreAPI {
             console.log(`   Total Events: ${sofascoreData.summary.totalEvents}`);
             console.log(`   Total API Calls: ${sofascoreData.summary.totalApiCalls}`);
             console.log(`================================================================\n`);
+            
+            logMemoryUsage('COMPLETE');
 
             return { sofascoreData };
 
         } catch (error) {
             console.error(`🚨 [SOFASCORE FATAL] A critical error occurred during the scraping process:`, error);
+            logMemoryUsage('ERROR');
             return null;
         } finally {
             if (page) {
                 console.log(`[SofaScore] 🔻 Closing page for scraping session...`);
                 await page.close();
+                logMemoryUsage('CLEANUP');
             }
         }
     }

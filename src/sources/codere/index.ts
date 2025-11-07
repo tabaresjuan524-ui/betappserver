@@ -1974,43 +1974,17 @@ function getLeagueLogoUrl(leagueName: string | undefined, countryCode: string | 
  */
 const CodereDataSource: IDataSource = {
     name: 'codere',
-    fetchData: async (browser: Browser | null): Promise<{ liveEvents: LiveEvent[], sports: Sport[], codere: any } | null> => {
-        const useMock = process.env.USE_MOCK_DATA === 'true';
-        console.log(`[Codere] Fetching data... ${useMock ? '(using mock data)' : ''}`);
+    fetchData: async (browser: Browser | null): Promise<CombinedData | null> => {
+        if (process.env.USE_MOCK_DATA === 'true') {
+            return await fetchMockCodereData();
+        }
 
-        try {
-            if (useMock) {
-                const data = await fetchMockCodereData();
-                if (!data) return null;
-                return {
-                    liveEvents: data.liveEvents || [],
-                    sports: data.sports || [],
-                    codere: data.codere || {}
-                };
-            }
-
-            if (!browser) {
-                console.error("[Codere] Browser instance is required for live scraping.");
-                return null;
-            }
-
-            const data = await fetchLiveCodereData(browser);
-
-            if (!data) {
-                console.warn("[Codere] No data was fetched.");
-                return null;
-            }
-            
-            return {
-                liveEvents: data.liveEvents || [],
-                sports: data.sports || [],
-                codere: data.codere || {}
-            };
-
-        } catch (error) {
-            console.error('[Codere] An error occurred in fetchData:', error);
+        if (!browser) {
+            console.error("Codere: Browser instance is required for live scraping.");
             return null;
         }
+
+        return await fetchLiveCodereData(browser);
     }
 };
 

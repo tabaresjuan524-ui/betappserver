@@ -70,13 +70,25 @@ const sendBatchedUpdate = () => {
     console.log(`\n🔍 [WS DEBUG] Preparing to send batched update:`);
     console.log(`   - Has mainData: ${!!mainDataUpdate}`);
     console.log(`   - standardizedEvents count: ${consolidatedData.standardizedEvents?.length || 0}`);
+    console.log(`   - liveEvents count: ${consolidatedData.liveEvents?.length || 0}`);
+    console.log(`   - sports count: ${consolidatedData.sports?.length || 0}`);
+    console.log(`   - codere data exists: ${!!consolidatedData.codere}`);
     console.log(`   - sofascore data exists: ${!!consolidatedData.sofascore}`);
     if (consolidatedData.sofascore) {
-        console.log(`   - sofascore.events keys: ${Object.keys(consolidatedData.sofascore.events || {}).length}`);
-        console.log(`   - sofascore.sports keys: ${Object.keys(consolidatedData.sofascore.sports || {}).length}`);
-        console.log(`   - sofascore.tournaments keys: ${Object.keys(consolidatedData.sofascore.tournaments || {}).length}`);
+        const eventIds = Object.keys(consolidatedData.sofascore.events || {});
+        console.log(`   - sofascore.events: ${eventIds.length} events`);
+        if (eventIds.length > 0) {
+            console.log(`   - First 5 event IDs: ${eventIds.slice(0, 5).join(', ')}`);
+            // Show details of first event
+            const firstEventId = eventIds[0];
+            const firstEvent = consolidatedData.sofascore.events[firstEventId];
+            console.log(`   - Sample event ${firstEventId}:`, JSON.stringify(firstEvent, null, 2).substring(0, 300));
+        }
+        console.log(`   - sofascore.sports: ${Object.keys(consolidatedData.sofascore.sports || {}).length} sports`);
+        console.log(`   - sofascore.tournaments: ${Object.keys(consolidatedData.sofascore.tournaments || {}).length} tournaments`);
+        console.log(`   - sofascore.teams: ${Object.keys(consolidatedData.sofascore.teams || {}).length} teams`);
     }
-    console.log(`   - subscription updates: ${subscriptionUpdates.length}\n`);
+    console.log(`   - subscription updates: ${subscriptionUpdates.length}`);
 
     // Clear the queue
     queuedUpdates.clear();

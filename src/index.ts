@@ -21,12 +21,14 @@ const main = async () => {
     const useMockData = process.env.USE_MOCK_DATA === 'true';
 
     if (!useMockData) {
-        console.log(" launching persistent stealth Puppeteer browser...");
+        console.log("🚀 Launching persistent stealth Puppeteer browser...");
         browser = await puppeteer.launch({
             headless: true,
             args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
             protocolTimeout: 180000, // 3 minutes - increased to prevent protocol timeouts during heavy scraping
         });
+        console.log(`✅ Browser launched successfully. Connected: ${browser.connected}`);
+        console.log(`🔍 Browser process PID: ${browser.process()?.pid}`);
     } else {
         console.log("🟢 Running in MOCK DATA mode, browser will not be launched.");
     }

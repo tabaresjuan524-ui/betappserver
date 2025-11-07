@@ -665,14 +665,28 @@ export const startDataFetching = async (browser: Browser | null) => {
         try {
             const module = await import(`./${name.trim()}`);
             if (name.trim() === 'sofascore') {
-                sources.push(new module.SofaScoreDataSource(browser));
+                const sofascoreSource = new module.SofaScoreDataSource(browser);
+                console.log(`✅ [${name}] Data source loaded successfully`);
+                sources.push(sofascoreSource);
             } else {
-                sources.push(module.default);
+                if (module.default) {
+                    console.log(`✅ [${name}] Data source loaded successfully`);
+                    sources.push(module.default);
+                } else {
+                    console.error(`❌ [${name}] Module loaded but has no default export`);
+                }
             }
         } catch (error) {
             console.error(`❌ Failed to load data source module for: ${name}`, error);
         }
     }
+
+    if (sources.length === 0) {
+        console.error('❌ No data sources loaded! Cannot start fetching.');
+        return;
+    }
+
+    console.log(`✅ Successfully loaded ${sources.length} data sources: ${sources.map(s => s.name).join(', ')}`);
 
     const fetchDataInterval = parseInt(process.env.FETCH_DATA_INTERVAL_MS || '5000', 10);
 
@@ -787,14 +801,26 @@ export const startDataFetching = async (browser: Browser | null) => {
         
         // Debug: Log SofaScore data being sent
         if (latestData.sofascore) {
-            console.log(`🔍 [DEBUG] SofaScore data being sent to frontend:`, {
-                standardizedEventsCount: latestData.standardizedEvents?.length || 0,
-                liveEventsCount: latestData.sofascore.liveEvents?.length || 0,
-                sportsCount: latestData.sofascore.sports?.length || 0,
-                liveSportsCount: latestData.sofascore.liveSports?.length || 0,
-                tournamentsKeys: Object.keys(latestData.sofascore.tournaments || {}),
-                playersKeys: Object.keys(latestData.sofascore.players || {})
-            });
+            const eventIds = Object.keys(latestData.sofascore.events || {});
+            const sportIds = Object.keys(latestData.sofascore.sports || {});
+            console.log(`🔍 [DEBUG] SofaScore data being queued for frontend:`);
+            console.log(`   - standardizedEvents: ${latestData.standardizedEvents?.length || 0} events`);
+            console.log(`   - sofascore.events: ${eventIds.length} events`);
+            if (eventIds.length > 0) {
+                console.log(`   - First 10 event IDs: ${eventIds.slice(0, 10).join(', ')}`);
+                const firstEventId = eventIds[0];
+                const firstEvent = latestData.sofascore.events[firstEventId];
+                console.log(`   - Sample event ${firstEventId} structure:`, {
+                    hasHomeTeam: !!firstEvent.homeTeam,
+                    hasAwayTeam: !!firstEvent.awayTeam,
+                    hasTournament: !!firstEvent.tournament,
+                    status: firstEvent.status,
+                    hasScore: !!firstEvent.homeScore
+                });
+            }
+            console.log(`   - sofascore.sports: ${sportIds.length} sports - [${sportIds.join(', ')}]`);
+            console.log(`   - sofascore.tournaments: ${Object.keys(latestData.sofascore.tournaments || {}).length} tournaments`);
+            console.log(`   - sofascore.teams: ${Object.keys(latestData.sofascore.teams || {}).length} teams`);
         } else {
             console.log(`🔍 [DEBUG] No SofaScore data to send to frontend`);
         }

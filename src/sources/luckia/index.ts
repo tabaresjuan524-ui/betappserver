@@ -212,7 +212,7 @@ const fetchMockData = (): Promise<CombinedData | null> => {
 // Main source object
 const LuckiaDataSource: IDataSource = {
     name: 'luckia',
-    fetchData: async (browser: Browser | null): Promise<{ liveEvents: LiveEvent[], sports: Sport[] } | null> => {
+    fetchData: async (browser: Browser | null): Promise<CombinedData | null> => {
         if (process.env.USE_MOCK_DATA === 'true') {
             return fetchMockData();
         }

@@ -85,11 +85,42 @@ export interface SportStat {
 export interface CombinedData {
     sports: Sport[];
     liveEvents: LiveEvent[];
-    standardizedEvents?: StandardizedEvent[];
+    standardizedEvents?: StandardizedEvent[]; // Optional for now
     codere?: {
         leftMenu?: CodereLeftMenuData;
-    };
-    sofascore?: any;
+    },
+    sofascore?: any; // To store raw sofascore data
+}
+
+export interface StandardizedEvent {
+    eventId: string;
+    source: 'sofascore';
+    sport: string;
+    eventName: string;
+    homeTeam: { name: string; score: string };
+    awayTeam: { name: string; score: string };
+    status: string;
+    matchTime: number | string;
+    stats?: StandardizedStatsGroup[];
+    incidents?: StandardizedIncident[];
+    // Add other standardized fields as needed
+}
+
+export interface StandardizedStatsGroup {
+    groupName: string;
+    statistics: Array<{
+        name: string;
+        home: string | number;
+        away: string | number;
+    }>;
+}
+
+export interface StandardizedIncident {
+    type: 'goal' | 'card' | 'period' | 'substitution' | 'other';
+    time: number;
+    player?: string;
+    team: 'home' | 'away';
+    description: string;
 }
 
 export interface Sport {
@@ -142,40 +173,4 @@ export interface LiveEvent {
     marketsCount?: number; // Number of available markets for this event
     liveData?: any; // Raw live data from the source API for sport-specific statistics
 
-}
-
-export interface SofaSport {
-    id: number;
-    name: string;
-    slug: string;
-}
-
-export interface StandardizedEvent {
-    eventId: number;
-    source: 'sofascore' | 'codere' | 'luckia';
-    sport: string;
-    eventName: string;
-    homeTeam: { name: string; score: string; };
-    awayTeam: { name: string; score: string; };
-    matchTime: string | number;
-    status: string;
-    stats?: StandardizedStatsGroup[];
-    incidents?: StandardizedIncident[];
-}
-
-export interface StandardizedStatsGroup {
-    groupName: string;
-    statistics: {
-        name: string;
-        home: string | number;
-        away: string | number;
-    }[];
-}
-
-export interface StandardizedIncident {
-    type: 'goal' | 'card' | 'substitution' | 'period';
-    time: number;
-    player?: string;
-    team?: 'home' | 'away';
-    description: string;
 }
