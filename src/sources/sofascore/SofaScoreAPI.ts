@@ -65,9 +65,9 @@ export class SofaScoreAPI {
         return page;
     }
 
-    async getAllLiveSportsData(): Promise<{ sofascoreData: any } | null> {
+    async getAllLiveSportsData(progressCallback?: (partialData: any) => void): Promise<{ sofascoreData: any } | null> {
         console.log(`\n🌍 =================== ALL LIVE SPORTS DATA COLLECTION ===================`);
-        console.log(`🎯 Processing ALL sports: API → Sport Pages → En Vivo → All Events`);
+        console.log(`🎯 Processing ALL sports: API → Live Events API → Event Details`);
         console.log(`================================================================\n`);
         
         logMemoryUsage('START');
@@ -148,7 +148,7 @@ export class SofaScoreAPI {
                 summary: { totalSports: 0, totalEvents: 0, totalApiCalls: 0, processedAt: new Date().toISOString() }
             };
 
-            console.log(`\n🔵 Step 2: Processing ALL sports with live events (${sportsWithLiveEvents.length} sports)`);
+            console.log(`\n🔵 Step 2: Fetching live events directly from API for each sport (${sportsWithLiveEvents.length} sports)`);
             
             for (let sportIndex = 0; sportIndex < sportsWithLiveEvents.length; sportIndex++) {
                 const sport = sportsWithLiveEvents[sportIndex];
@@ -156,211 +156,55 @@ export class SofaScoreAPI {
                 logMemoryUsage(`SPORT-START ${sport.slug}`);
                 
                 try {
-                    console.log(`   ⏱️  [TIMING SPORT] Waiting random delay before sport page load...`);
-                    await new Promise(resolve => setTimeout(resolve, Math.random() * 2000 + 1000));
-                    console.log(`   ⏱️  [TIMING SPORT] Navigating to sport page: ${sport.url}`);
-                    await page.goto(sport.url, { waitUntil: 'networkidle2', timeout: 60000 });
-                    console.log(`   ⏱️  [TIMING SPORT] Sport page loaded successfully`);
-
-                    try {
-                        console.log(`   ⏱️  [TIMING SPORT] Attempting to click 'En Vivo' button...`);
-                        const enVivoClicked = await page.evaluate(() => {
-                            const allButtons = Array.from(document.querySelectorAll('button'));
-                            for (const button of allButtons) {
-                                if (button.textContent?.includes('En Vivo') || button.textContent?.includes('Live')) {
-                                    (button as HTMLElement).click();
-                                    return true;
-                                }
-                            }
-                            return false;
-                        });
-                        if (enVivoClicked) {
-                            console.log(`✅ En Vivo clicked for ${sport.slug}`);
-                            console.log(`   ⏱️  [TIMING SPORT] Waiting 2s for live events to load...`);
-                            await new Promise(resolve => setTimeout(resolve, 2000));
-                            console.log(`   ⏱️  [TIMING SPORT] Done waiting after En Vivo click`);
+                    // ✨ NEW API-BASED APPROACH: Direct API call to get live events for this sport
+                    console.log(`   🔵 [API] Fetching live events from: /api/v1/sport/${sport.slug}/events/live`);
+                    const sportLiveEventsUrl = `https://www.sofascore.com/api/v1/sport/${sport.slug}/events/live`;
+                    
+                    await page.goto(sportLiveEventsUrl, { waitUntil: 'networkidle0', timeout: 60000 });
+                    
+                    // Extract live events from API response
+                    const liveEventsData = await page.evaluate(() => {
+                        try {
+                            const bodyText = document.body.innerText;
+                            const data = JSON.parse(bodyText);
+                            return data;
+                        } catch (error) {
+                            console.error('Error parsing live events API response:', error);
+                            return null;
                         }
-                    } catch (error) {
-                        console.log(`⚠️ En Vivo button handling for ${sport.slug}: continuing`);
-                    }
-
-                    // Wait for event links (supporting multiple URL patterns)
-                    try {
-                        console.log(`   ⏱️  [TIMING SPORT] Waiting for event links to appear...`);
-                        await page.waitForSelector('a[href*="/match/"], a[href*="/event/"]', { timeout: 15000 });
-                        console.log(`✅ Event links appeared for ${sport.slug}`);
-                    } catch (e) {
-                        console.log(`⚠️ No event links found for ${sport.slug} after waiting. It's possible there are no live events.`);
-                        // 🔍 DEBUG: Log HTML when selectors fail
-                        console.log(`🔍 [HTML DEBUG] Dumping page HTML for ${sport.slug}...`);
-                        const htmlSnapshot = await page.evaluate(() => {
-                            return {
-                                url: window.location.href,
-                                title: document.title,
-                                bodyLength: document.body?.innerHTML?.length || 0,
-                                bodyPreview: document.body?.innerHTML?.substring(0, 5000) || 'NO BODY',
-                                allButtons: Array.from(document.querySelectorAll('button')).map(b => b.textContent?.trim()).slice(0, 20),
-                                allLinks: Array.from(document.querySelectorAll('a')).map(a => a.getAttribute('href')).slice(0, 50)
-                            };
-                        });
-                        console.log(`🔍 [HTML DEBUG] URL: ${htmlSnapshot.url}`);
-                        console.log(`🔍 [HTML DEBUG] Title: ${htmlSnapshot.title}`);
-                        console.log(`🔍 [HTML DEBUG] Body length: ${htmlSnapshot.bodyLength} chars`);
-                        console.log(`🔍 [HTML DEBUG] First 20 buttons: ${JSON.stringify(htmlSnapshot.allButtons, null, 2)}`);
-                        console.log(`🔍 [HTML DEBUG] First 50 links: ${JSON.stringify(htmlSnapshot.allLinks, null, 2)}`);
-                        console.log(`🔍 [HTML DEBUG] Body preview (first 5000 chars):\n${htmlSnapshot.bodyPreview}`);
-                        continue; // Skip to the next sport
-                    }
-
-                    console.log(`   ⏱️  [TIMING SPORT] Extracting event URLs from page...`);
-                    const eventUrls = await page.evaluate(() => {
-                        function getScrollableContainer(startEl: Element | null): Element | Window {
-                            let el: Element | null = startEl;
-                            while (el) {
-                                const style = window.getComputedStyle(el as Element);
-                                const overflowY = style.overflowY;
-                                if ((overflowY === 'auto' || overflowY === 'scroll') && el.scrollHeight > (el as HTMLElement).clientHeight) {
-                                    return el;
-                                }
-                                el = el.parentElement;
-                            }
-                            return window; // fallback
-                        }
-
-                        function extractIdFromHref(href: string | null): string | null {
-                            if (!href) return null;
-                            const m = href.match(/\/(match|event)\/.*?(\d+)/);
-                            return m ? m[2] : null;
-                        }
-
-                        return new Promise<any[]>(resolve => {
-                            const firstLink = document.querySelector('a[href*="/match/"], a[href*="/event/"]') as HTMLAnchorElement | null;
-                            const scroller = firstLink ? getScrollableContainer(firstLink) : window;
-
-                            let attempts = 0;
-                            const maxAttempts = 30;
-                            let lastScrollPos = -1;
-                            let lastHeight = -1;
-
-                            const doScroll = () => {
-                                if (scroller === window) {
-                                    const currentHeight = document.body.scrollHeight;
-                                    window.scrollTo(0, currentHeight);
-                                    const currentPos = window.scrollY;
-                                    if ((currentPos === lastScrollPos && currentHeight === lastHeight) || attempts >= maxAttempts) {
-                                        // Collect all anchors
-                                        const events: any[] = [];
-                                        const seen = new Set<string>();
-                                        document.querySelectorAll('a[href*="/match/"], a[href*="/event/"]').forEach(a => {
-                                            const el = a as HTMLAnchorElement;
-                                            const id = el.getAttribute('data-id') || extractIdFromHref(el.getAttribute('href'));
-                                            const href = el.getAttribute('href');
-                                            if (id && href && !seen.has(id)) {
-                                                seen.add(id);
-                                                const absUrl = href.startsWith('http') ? href : `https://www.sofascore.com${href}`;
-                                                events.push({ id, url: absUrl });
-                                            }
-                                        });
-                                        resolve(events);
-                                        return;
-                                    }
-                                    lastScrollPos = currentPos;
-                                    lastHeight = currentHeight;
-                                } else {
-                                    const se = scroller as HTMLElement;
-                                    se.scrollTop = se.scrollHeight;
-                                    if ((se.scrollTop === lastScrollPos && se.scrollHeight === lastHeight) || attempts >= maxAttempts) {
-                                        const events: any[] = [];
-                                        const seen = new Set<string>();
-                                        (scroller as Element).querySelectorAll('a[href*="/match/"], a[href*="/event/"]').forEach(a => {
-                                            const el = a as HTMLAnchorElement;
-                                            const id = el.getAttribute('data-id') || extractIdFromHref(el.getAttribute('href'));
-                                            const href = el.getAttribute('href');
-                                            if (id && href && !seen.has(id)) {
-                                                seen.add(id);
-                                                const absUrl = href.startsWith('http') ? href : `https://www.sofascore.com${href}`;
-                                                events.push({ id, url: absUrl });
-                                            }
-                                        });
-                                        resolve(events);
-                                        return;
-                                    }
-                                    lastScrollPos = se.scrollTop;
-                                    lastHeight = se.scrollHeight;
-                                }
-                                attempts++;
-                                setTimeout(doScroll, 250);
-                            };
-                            doScroll();
-                        });
                     });
-                    console.log(`   ⏱️  [TIMING SPORT] Event URL extraction complete`);
 
-                    if (eventUrls.length === 0) {
-                        // 🔍 DEBUG: Log HTML when no events extracted
-                        console.log(`🔍 [HTML DEBUG] No events extracted from DOM for ${sport.slug}. Dumping page state...`);
-                        const htmlSnapshot = await page.evaluate(() => {
-                            return {
-                                url: window.location.href,
-                                title: document.title,
-                                bodyLength: document.body?.innerHTML?.length || 0,
-                                bodyPreview: document.body?.innerHTML?.substring(0, 5000) || 'NO BODY',
-                                allButtons: Array.from(document.querySelectorAll('button')).map(b => b.textContent?.trim()).slice(0, 20),
-                                matchLinks: Array.from(document.querySelectorAll('a[href*="/match/"]')).length,
-                                eventLinks: Array.from(document.querySelectorAll('a[href*="/event/"]')).length,
-                                allLinks: Array.from(document.querySelectorAll('a')).map(a => ({
-                                    href: a.getAttribute('href'),
-                                    text: a.textContent?.trim(),
-                                    dataId: a.getAttribute('data-id')
-                                })).slice(0, 100)
-                            };
-                        });
-                        console.log(`🔍 [HTML DEBUG] URL: ${htmlSnapshot.url}`);
-                        console.log(`🔍 [HTML DEBUG] Title: ${htmlSnapshot.title}`);
-                        console.log(`🔍 [HTML DEBUG] Body length: ${htmlSnapshot.bodyLength} chars`);
-                        console.log(`🔍 [HTML DEBUG] Match links found: ${htmlSnapshot.matchLinks}`);
-                        console.log(`🔍 [HTML DEBUG] Event links found: ${htmlSnapshot.eventLinks}`);
-                        console.log(`🔍 [HTML DEBUG] First 20 buttons: ${JSON.stringify(htmlSnapshot.allButtons, null, 2)}`);
-                        console.log(`🔍 [HTML DEBUG] First 100 links: ${JSON.stringify(htmlSnapshot.allLinks, null, 2)}`);
-                        console.log(`🔍 [HTML DEBUG] Body preview (first 5000 chars):\n${htmlSnapshot.bodyPreview}`);
-                        
-                        // Fallback: try to derive events from intercepted live API payload
-                        let fallbackEvents: any[] = [];
-                        for (const [url, data] of interceptedData.entries()) {
-                            if (url.includes('events/live')) {
-                                const possibleArrays: any[] = [];
-                                if (Array.isArray((data as any).events)) possibleArrays.push((data as any).events);
-                                if (Array.isArray((data as any).sportEvents)) possibleArrays.push((data as any).sportEvents);
-                                if (Array.isArray((data as any).event)) possibleArrays.push((data as any).event);
-                                if (Array.isArray((data as any).sportEventGroups)) {
-                                    // Flatten groups -> events
-                                    (data as any).sportEventGroups.forEach((g: any) => {
-                                        if (Array.isArray(g.events)) possibleArrays.push(g.events);
-                                    });
-                                }
-                                for (const arr of possibleArrays) {
-                                    for (const ev of arr) {
-                                        const evSportSlug = ev?.sport?.slug || ev?.tournament?.sport?.slug || ev?.tournament?.category?.sport?.slug;
-                                        if (evSportSlug === sport.slug && ev?.id) {
-                                            fallbackEvents.push({ id: ev.id });
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        if (fallbackEvents.length === 0) {
-                            console.log(`⚠️ No events found for ${sport.slug} (DOM + live API fallback)`);
-                            continue;
-                        }
-                        console.log(`✅ Fallback extracted ${fallbackEvents.length} events for ${sport.slug} from live API response`);
-                        // Map fallback events into structure with a placeholder URL (will use API endpoints directly)
-                        const apiEventUrls = fallbackEvents.map(ev => ({ id: ev.id, url: `${BASE_URL}/event/${ev.id}` }));
-                        // Replace eventUrls with fallback list
-                        (eventUrls as any) = apiEventUrls;
+                    if (!liveEventsData || !liveEventsData.events) {
+                        console.log(`⚠️ No live events API data found for ${sport.slug}`);
+                        continue;
                     }
 
-                    console.log(`✅ Found ${eventUrls.length} events for ${sport.slug}`);
-                    sofascoreData.sports[sport.slug] = { name: sport.slug.charAt(0).toUpperCase() + sport.slug.slice(1).replace('-', ' '), slug: sport.slug, liveCount: sport.liveCount, eventsProcessed: eventUrls.length };
+                    const liveEvents = liveEventsData.events;
+                    console.log(`✅ Found ${liveEvents.length} live events from API for ${sport.slug} (expected ${sport.liveCount})`);
+                    
+                    // Convert API events to the format expected by the processing logic
+                    // IMPORTANT: Keep the full event data from the live API for later use
+                    const eventUrls = liveEvents.map((event: any) => ({
+                        id: event.id.toString(),
+                        url: `https://www.sofascore.com/event/${event.slug}/${event.id}`,
+                        slug: event.slug,
+                        apiEvent: event // Keep the original API event data
+                    }));
+                    
+                    console.log(`   📊 Processing ${eventUrls.length} live events for ${sport.slug}`);
+                    
+                    sofascoreData.sports[sport.slug] = { 
+                        name: sport.slug.charAt(0).toUpperCase() + sport.slug.slice(1).replace('-', ' '), 
+                        slug: sport.slug, 
+                        liveCount: sport.liveCount, 
+                        eventsProcessed: eventUrls.length 
+                    };
+
+                    // Send progressive update after finding events for this sport
+                    if (progressCallback) {
+                        console.log(`📤 [SOFASCORE PARTIAL] Broadcasting partial update: ${Object.keys(sofascoreData.sports).length} sports, ${Object.keys(sofascoreData.events).length} events`);
+                        progressCallback({ sofascoreData: JSON.parse(JSON.stringify(sofascoreData)) });
+                    }
 
                     // Process events sequentially (1 at a time) for maximum stability
                     // CRITICAL: Even 2 concurrent pages causes VS Code to crash due to total system memory pressure
@@ -413,10 +257,24 @@ export class SofaScoreAPI {
                                 // Wait for API calls to complete
                                 await new Promise(resolve => setTimeout(resolve, 2000));
 
-                                // Process intercepted data
+                                // Process intercepted data and use live API event data
                                 const eventData: any = { id: eventInfo.id, url: eventInfo.url, sport: sport.slug, apiData: {}, media: {} };
                                 let apiCallCount = 0;
-
+                                
+                                // TRUST LIVE EVENTS API: If event comes from /events/live endpoint, it IS live
+                                // No need to re-validate live status - this was causing all events to be rejected
+                                let isLiveEvent = true; // Trust the live events API
+                                let statusDescription = 'live (from API)';
+                                
+                                // Use the event data we already have from the live events API
+                                const apiEvent = eventInfo.apiEvent;
+                                if (apiEvent) {
+                                    // Extract basic event structure from the live API data
+                                    eventData.apiData.eventDetails = { event: apiEvent };
+                                    statusDescription = `${apiEvent.status?.description || 'live'} (from live API)`;
+                                }
+                                
+                                // Also collect additional data from individual page API calls
                                 for (const [url, data] of eventInterceptedData.entries()) {
                                     apiCallCount++;
                                     if (url.includes(`/event/${eventInfo.id}`)) {
@@ -425,14 +283,34 @@ export class SofaScoreAPI {
                                         else if (url.includes('/lineups')) eventData.apiData.lineups = data;
                                         else if (url.includes('/odds')) eventData.apiData.odds = data;
                                         else if (url.includes('/h2h')) eventData.apiData.h2h = data;
-                                        else if (url.endsWith(`/event/${eventInfo.id}`)) eventData.apiData.eventDetails = data;
+                                        else if (url.endsWith(`/event/${eventInfo.id}`)) {
+                                            // Merge with existing data if available
+                                            if (data && data.event) {
+                                                eventData.apiData.eventDetails = data;
+                                                const status = data.event.status;
+                                                statusDescription = `${status?.description || 'unknown'} (API: live, Page: ${status?.type || 'unknown'})`;
+                                            }
+                                        }
                                     }
                                 }
+                                
+                                console.log(`   ✅ [${chunkIndex + 1}.${indexInChunk + 1}] Event ${eventInfo.id} trusted as live from API (${apiCallCount} API calls processed) - Status: ${statusDescription}`);
+
+                                // Event is guaranteed live from API - no need to skip
 
                                 // Extract event details and build media URLs
                                 const eventDetails = eventData.apiData.eventDetails?.event;
                                 if (eventDetails) {
-                                    const { homeTeam, awayTeam, tournament } = eventDetails;
+                                    const { homeTeam, awayTeam, tournament, status, homeScore, awayScore } = eventDetails;
+                                    
+                                    // Set event properties directly for frontend debugging
+                                    eventData.homeTeam = homeTeam;
+                                    eventData.awayTeam = awayTeam;
+                                    eventData.tournament = tournament;
+                                    eventData.status = status;
+                                    eventData.homeScore = homeScore;
+                                    eventData.awayScore = awayScore;
+                                    
                                     eventData.media = {
                                         teamImages: {
                                             home: homeTeam?.id ? this.getTeamImageUrl(homeTeam.id) : null,
@@ -452,7 +330,7 @@ export class SofaScoreAPI {
                                     }
                                 }
 
-                                console.log(`   ✅ [${chunkIndex + 1}.${indexInChunk + 1}] ${sport.slug} event ${eventInfo.id}: ${apiCallCount} API calls`);
+                                console.log(`   ✅ [${chunkIndex + 1}.${indexInChunk + 1}] ${sport.slug} LIVE event ${eventInfo.id}: ${apiCallCount} API calls`);
                                 
                                 sofascoreData.events[eventInfo.id] = eventData;
                                 sofascoreData.summary.totalEvents++;
@@ -489,6 +367,10 @@ export class SofaScoreAPI {
                             await new Promise(resolve => setTimeout(resolve, 3000)); // Increased to 3s
                         }
                     }
+                    
+                    // Show final results for this sport
+                    const sportLiveEvents = Object.values(sofascoreData.events).filter((event: any) => event.sport === sport.slug).length;
+                    console.log(`   🏁 Sport ${sport.slug} complete: ${sportLiveEvents} live events processed (expected ${sport.liveCount})`);
                     
                     logMemoryUsage(`SPORT-END ${sport.slug}`);
                 } catch (sportError) {

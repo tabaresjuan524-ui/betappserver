@@ -4,18 +4,37 @@ import { IDataSource } from '../IDataSource';
 import { SofaScoreAPI } from './SofaScoreAPI';
 import { transformSofaScoreEvent } from './dataTransformer';
 
+// Memory logging utility (duplicated for visibility in this module)
+function logMemoryUsage(label: string): void {
+    const used = process.memoryUsage();
+    const mbUsed = {
+        rss: Math.round(used.rss / 1024 / 1024),
+        heapTotal: Math.round(used.heapTotal / 1024 / 1024),
+        heapUsed: Math.round(used.heapUsed / 1024 / 1024),
+        external: Math.round(used.external / 1024 / 1024),
+        arrayBuffers: Math.round(used.arrayBuffers / 1024 / 1024)
+    };
+    
+    const totalMemGB = 24;
+    const usedPercent = ((mbUsed.rss / 1024) / totalMemGB * 100).toFixed(1);
+    
+    console.log(`📊 [MEMORY ${label}] RSS: ${mbUsed.rss}MB | Heap: ${mbUsed.heapUsed}/${mbUsed.heapTotal}MB | External: ${mbUsed.external}MB | Arrays: ${mbUsed.arrayBuffers}MB | Total: ${usedPercent}% of ${totalMemGB}GB`);
+}
+
 export class SofaScoreDataSource implements IDataSource {
     name = 'sofascore';
     private api: SofaScoreAPI;
     private lastFetchTime = 0;
     private lastSuccessfulData: CombinedData | null = null;
     private isFetching = false;
+    private browser: Browser | null;
     private static FETCH_COOLDOWN = 60000; // 60 seconds between fetch starts
 
     constructor(browser: Browser | null) {
         if (!browser) {
             throw new Error('SofaScore data source requires a browser instance');
         }
+        this.browser = browser;
         this.api = new SofaScoreAPI(browser);
     }
 
@@ -25,73 +44,156 @@ export class SofaScoreDataSource implements IDataSource {
      */
     private async scrapeInBackground(): Promise<void> {
         console.log('🚀 [SOFASCORE BACKGROUND] Starting full scraping in background...');
+        logMemoryUsage('BACKGROUND-START');
+        
+        // Check browser health before scraping
+        if (this.browser && !this.browser.connected) {
+            console.error('❌ [SOFASCORE BACKGROUND] Browser disconnected! Cannot scrape.');
+            console.error('❌ [SOFASCORE BACKGROUND] Please restart the application to reinitialize the browser.');
+            this.isFetching = false;
+            logMemoryUsage('BACKGROUND-BROWSER-DEAD');
+            return;
+        }
+        
         try {
-            const result = await this.api.getAllLiveSportsData();
+            // Pass a callback to send progressive updates
+            const result = await this.api.getAllLiveSportsData((partialData) => {
+                // Send partial data immediately as it becomes available
+                this.updateCacheWithPartialData(partialData);
+            });
             
             if (!result || !result.sofascoreData) {
-                console.warn(`⚠️ [SOFASCORE BACKGROUND] Scraping returned no data`);
+                console.warn(`⚠️  [SOFASCORE BACKGROUND] Scraping returned no data`);
                 return;
             }
 
-            // Transform and build combined data
-            const standardizedEvents: StandardizedEvent[] = Object.entries(result.sofascoreData.events)
-                .map(([eventId, eventData]) => transformSofaScoreEvent(eventId, eventData))
-                .filter((event): event is StandardizedEvent => event !== null);
+            // Final update with complete data
+            this.updateCacheWithData(result.sofascoreData);
 
-            const sports: Sport[] = Object.values(result.sofascoreData.sports).map((sport: any): Sport => ({
-                key: sport.slug,
-                group: 'sofascore',
-                title: sport.name,
-                description: `Live events from SofaScore for ${sport.name}`,
-                active: true,
-                has_outrights: false
-            }));
-
-            const liveEvents: LiveEvent[] = standardizedEvents.map((event: StandardizedEvent): LiveEvent => ({
-                id: event.eventId,
-                api_name: 'sofascore',
-                sport_group: event.sport,
-                sport_category: event.sport,
-                sport_title: event.eventName,
-                league_logo: null,
-                home_team: event.homeTeam.name,
-                away_team: event.awayTeam.name,
-                markets: [],
-                commence_time: new Date().toISOString(),
-                scores: {
-                    home: event.homeTeam.score,
-                    away: event.awayTeam.score
-                },
-                bookmakers: [],
-                status: event.status,
-                match_time: event.matchTime.toString(),
-                start_time: new Date().toISOString(),
-                active: true,
-                bettingActive: true,
-                team1_score: isNaN(parseInt(event.homeTeam.score)) ? 0 : parseInt(event.homeTeam.score),
-                team2_score: isNaN(parseInt(event.awayTeam.score)) ? 0 : parseInt(event.awayTeam.score),
-                marketsCount: 0,
-                liveData: event
-            }));
-
-            const combinedData: CombinedData = {
-                sports,
-                liveEvents,
-                standardizedEvents,
-                sofascore: result.sofascoreData
-            };
-            
-            // Update cache atomically
-            this.lastSuccessfulData = combinedData;
-            this.isFetching = false;
-            
-            console.log(`✅ [SOFASCORE BACKGROUND] Scraping complete! Updated cache with ${sports.length} sports, ${standardizedEvents.length} events`);
-            console.log(`✅ [SOFASCORE BACKGROUND] Cache now contains: ${Object.keys(result.sofascoreData.events || {}).length} raw events`);
-            
         } catch (error) {
             console.error(`❌ [SOFASCORE BACKGROUND] Error during scraping:`, error);
+            logMemoryUsage('BACKGROUND-ERROR');
+        } finally {
             this.isFetching = false;
+            logMemoryUsage('BACKGROUND-END');
         }
+    }
+
+    /**
+     * Update cache with partial data (progressive updates)
+     */
+    private updateCacheWithPartialData(result: any): void {
+        // Extract sofascoreData from wrapper
+        const sofascoreData = result.sofascoreData || result;
+        
+        const transformedData = this.transformSofaScoreData(sofascoreData);
+        
+        // Update the cache
+        this.lastSuccessfulData = transformedData;
+        this.lastFetchTime = Date.now();
+        
+        const eventCount = Object.keys(sofascoreData.events || {}).length;
+        const sportCount = Object.keys(sofascoreData.sports || {}).length;
+        
+        console.log(`📤 [SOFASCORE PARTIAL] Broadcasting partial update: ${sportCount} sports, ${eventCount} events`);
+        
+        // Broadcast to frontend immediately
+        const { broadcastSubscriptionUpdate } = require('../../common/websocketServer');
+        broadcastSubscriptionUpdate('mainData', {
+            type: 'mainData',
+            data: transformedData
+        });
+    }
+
+    /**
+     * Update cache with final complete data
+     */
+    private updateCacheWithData(sofascoreData: any): void {
+        const transformedData = this.transformSofaScoreData(sofascoreData);
+        
+        // Update the cache
+        this.lastSuccessfulData = transformedData;
+        this.lastFetchTime = Date.now();
+        
+        const eventCount = Object.keys(sofascoreData.events || {}).length;
+        const sportCount = Object.keys(sofascoreData.sports || {}).length;
+        
+        console.log(`✅ [SOFASCORE COMPLETE] Broadcasting complete data: ${sportCount} sports, ${eventCount} events`);
+        
+        // Broadcast final complete data to frontend
+        const { broadcastSubscriptionUpdate } = require('../../common/websocketServer');
+        broadcastSubscriptionUpdate('mainData', {
+            type: 'mainData',
+            data: transformedData
+        });
+    }
+
+    /**
+     * Transform raw SofaScore data into frontend-ready structure
+     */
+    private transformSofaScoreData(sofascoreData: any): CombinedData {
+        // Import rich transformer
+        const { transformToRichFormat } = require('./richDataTransformer');
+        
+        // Transform to rich format with nested sofascore structure
+        const richData = transformToRichFormat(sofascoreData);
+        
+        // Transform for legacy compatibility
+        const standardizedEvents: StandardizedEvent[] = Object.entries(sofascoreData.events || {})
+            .map(([eventId, eventData]) => transformSofaScoreEvent(eventId, eventData))
+            .filter((event): event is StandardizedEvent => event !== null);
+
+        const sports: Sport[] = Object.values(sofascoreData.sports || {}).map((sport: any): Sport => ({
+            key: sport.slug,
+            group: 'sofascore',
+            title: sport.name,
+            description: `Live events from SofaScore for ${sport.name}`,
+            active: true,
+            has_outrights: false
+        }));
+
+        const liveEvents: LiveEvent[] = standardizedEvents.map((event: StandardizedEvent): LiveEvent => ({
+            id: parseInt(event.eventId, 10) || 0,
+            api_name: 'sofascore',
+            sport_group: event.sport,
+            sport_category: event.sport,
+            sport_title: event.eventName,
+            league_logo: null,
+            home_team: event.homeTeam.name,
+            away_team: event.awayTeam.name,
+            markets: [],
+            commence_time: new Date().toISOString(),
+            scores: {
+                home: event.homeTeam.score,
+                away: event.awayTeam.score
+            },
+            bookmakers: [],
+            status: event.status,
+            match_time: event.matchTime.toString(),
+            start_time: new Date().toISOString(),
+            active: true,
+            bettingActive: true,
+            team1_score: isNaN(parseInt(event.homeTeam.score)) ? 0 : parseInt(event.homeTeam.score),
+            team2_score: isNaN(parseInt(event.awayTeam.score)) ? 0 : parseInt(event.awayTeam.score),
+            marketsCount: 0,
+            liveData: event
+        }));
+
+        const combinedData: CombinedData = {
+            sports,
+            liveEvents,
+            standardizedEvents,
+            sofascore: {
+                liveData: richData,  // Rich nested structure
+                events: sofascoreData.events || {},  // Raw events for backward compatibility
+                sports: sofascoreData.sports || {},
+                tournaments: sofascoreData.tournaments || {},
+                teams: sofascoreData.teams || {},
+                media: sofascoreData.media || {}
+            }
+        };
+        
+        return combinedData;
     }
 
     async fetchData(browser: Browser | null): Promise<CombinedData | null> {

@@ -3,6 +3,10 @@
   "scripts": {
     "start": "node --max-old-space-size=4096 --expose-gc -r ts-node/register src/index.ts",
     "dev": "nodemon --exec node --max-old-space-size=4096 --expose-gc -r ts-node/register src/index.ts",
+    "dev:log": "nodemon --exec node --max-old-space-size=4096 --expose-gc -r ./logger.js -r ts-node/register src/index.ts",
+    "start:log": "node --max-old-space-size=4096 --expose-gc -r ./logger.js -r ts-node/register src/index.ts",
+    "view-log": "node view-latest-log.js",
+    "logs": "node view-latest-log.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -10,7 +14,6 @@
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",
-    "puppeteer-cluster": "^0.24.0",
     "ws": "^8.18.3"
   },
   "devDependencies": {
