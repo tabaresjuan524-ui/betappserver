@@ -9,8 +9,10 @@ import { StandardizedEvent, StandardizedStatsGroup, StandardizedIncident } from 
  * @returns A standardized event object or null if essential data is missing.
  */
 export function transformSofaScoreEvent(eventId: string, rawEventData: any): StandardizedEvent | null {
-    const details = rawEventData.apiData?.eventDetails?.event;
+    // Try both new enhanced structure and legacy structure
+    const details = rawEventData.apiData?.['event-details']?.event || rawEventData.apiData?.eventDetails?.event;
     if (!details) {
+        console.warn(`[TRANSFORMER] No event details found for event ${eventId}`);
         return null; // Cannot process without basic event details
     }
 
@@ -23,21 +25,28 @@ export function transformSofaScoreEvent(eventId: string, rawEventData: any): Sta
         eventId: eventId,
         source: 'sofascore',
         sport: rawEventData.sport,
-        eventName: details.name,
+        eventName: details.name || `${homeTeam?.name} vs ${awayTeam?.name}`,
         homeTeam: {
-            name: homeTeam.name,
+            name: homeTeam?.name || 'Unknown',
             score: score.toString(),
         },
         awayTeam: {
-            name: awayTeam.name,
+            name: awayTeam?.name || 'Unknown',
             score: awayScore.toString(),
         },
         matchTime: details.time?.currentPeriodStartTimestamp ? 
                    Math.floor((Date.now() / 1000 - details.time.currentPeriodStartTimestamp) / 60) : 
-                   details.status.description,
-        status: details.status.description,
+                   (details.status?.description || 'Unknown'),
+        status: details.status?.description || 'Unknown',
         stats: transformStatistics(rawEventData.apiData?.statistics),
-        incidents: transformIncidents(rawEventData.apiData?.incidents?.incidents),
+        incidents: transformIncidents(rawEventData.apiData?.incidents?.incidents || rawEventData.apiData?.incidents),
+        // Add enhanced data for live statistics widgets
+        liveData: rawEventData.liveData,
+        teams: rawEventData.teams,
+        tournament: rawEventData.tournament,
+        media: rawEventData.media,
+        // Raw API data for advanced use cases
+        rawApiData: rawEventData.apiData
     };
 
     return standardizedEvent;

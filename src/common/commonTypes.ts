@@ -103,6 +103,12 @@ export interface StandardizedEvent {
     matchTime: number | string;
     stats?: StandardizedStatsGroup[];
     incidents?: StandardizedIncident[];
+    // Enhanced data for live statistics widgets
+    liveData?: any; // Live statistics data for frontend widgets
+    teams?: any; // Team information with logos, etc.
+    tournament?: any; // Tournament/league information
+    media?: any; // Media assets (logos, images, etc.)
+    rawApiData?: any; // Complete raw API data for advanced use cases
     // Add other standardized fields as needed
 }
 
