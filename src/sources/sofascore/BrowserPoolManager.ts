@@ -30,7 +30,7 @@ export class BrowserPoolManager {
     
     private readonly BROWSERS_COUNT = 5; // Number of browser instances (each ~2GB)
     private readonly TABS_PER_BROWSER = 0; // Max tabs per browser (0 = unlimited)
-    private readonly MAX_TOTAL_EVENTS = 0; // Total capacity: 0 = unlimited, or set limit (e.g., 100)
+    private readonly MAX_TOTAL_EVENTS = 0; // Total capacity: 0 = unlimited, auto-cleanup handles resource management
     
     private browserTabCounts: number[] = [];
     private browserHealth: boolean[] = []; // Tracks if browsers are connected
@@ -64,6 +64,12 @@ export class BrowserPoolManager {
      * Save event data to JSON file (organized by sport)
      */
     private async saveEventDataToFile(eventId: string, eventData: EventApiData, sportSlug: string): Promise<void> {
+        // Check if file saving is enabled
+        const saveEnabled = process.env.SAVE_SOFASCORE_EVENT_FILES === 'true';
+        if (!saveEnabled) {
+            return;
+        }
+        
         // Only save if we haven't saved this event yet and it has data
         if (this.savedEvents.has(eventId) || Object.keys(eventData).length === 0) {
             return;
@@ -93,7 +99,7 @@ export class BrowserPoolManager {
             const browser = await puppeteer.launch({
                 executablePath: chrome,
                 headless: true, // Use true for production, false for debugging
-                protocolTimeout: 90000, // 90 seconds, crucial for handling high load
+                protocolTimeout: 180000, // 180 seconds (3 min) to handle slow pages and high load
                 args: [
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
@@ -231,9 +237,21 @@ export class BrowserPoolManager {
                 
                 if (url.includes('www.sofascore.com/api/v1/')) {
                     try {
+                        const statusCode = response.status();
                         const contentType = response.headers()['content-type'] || '';
+                        
+                        // Skip responses with error status codes (404, 500, etc.)
+                        if (statusCode >= 400) {
+                            return;
+                        }
+                        
                         if (contentType.includes('application/json')) {
                             const data = await response.json();
+                            
+                            // Skip if data contains error field
+                            if (data && (data.error || data.errors)) {
+                                return;
+                            }
                             
                             const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
                             if (endpointMatch) {

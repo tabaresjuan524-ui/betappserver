@@ -276,6 +276,18 @@ export class SofaScoreAPIFetcher {
                 const liveEvents = await this.fetchLiveEvents(sportName);
                 const sportData = await this.processEventsForSport(sportName, liveEvents);
                 consolidatedData.sports[sportName] = sportData;
+                
+                // Add 3-second delay between sports to allow memory stabilization
+                if (sportsWithLiveEvents.indexOf(sportName) < sportsWithLiveEvents.length - 1) {
+                    console.log('⏳ [SOFASCORE] Pausing 3s before next sport...');
+                    await new Promise(resolve => setTimeout(resolve, 3000));
+                    
+                    // Trigger garbage collection if available
+                    if (global.gc) {
+                        global.gc();
+                        console.log('🗑️  [SOFASCORE] Manual garbage collection triggered');
+                    }
+                }
             }
             
             console.log('✅ [SOFASCORE] Data fetch cycle completed');
