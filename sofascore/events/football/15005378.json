@@ -1,0 +1,351 @@
+{
+  "event/15005378/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15005378/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 1,
+      "draws": 1
+    },
+    "managerDuel": null
+  },
+  "event/15005378/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15005378/pregame-form": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "tv/event/15005378/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15005378": {
+    "event": {
+      "tournament": {
+        "name": "Sierra Leone National Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Sierra Leone",
+          "slug": "sierra-leone",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1141,
+          "country": {
+            "alpha2": "SL",
+            "alpha3": "SLE",
+            "name": "Sierra Leone",
+            "slug": "sierra-leone"
+          },
+          "flag": "sierra-leone",
+          "alpha2": "SL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيراليون"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Sierra Leone National Premier League",
+          "slug": "premier-league",
+          "category": {
+            "name": "Sierra Leone",
+            "slug": "sierra-leone",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1141,
+            "country": {
+              "alpha2": "SL",
+              "alpha3": "SLE",
+              "name": "Sierra Leone",
+              "slug": "sierra-leone"
+            },
+            "flag": "sierra-leone",
+            "alpha2": "SL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيراليون"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1527,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 16950,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الممتاز الوطني لسيراليون"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 92952,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز الوطني في سيراليون"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 85801
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "TMcdsbEYd",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Wilberforce Strikers FC",
+        "slug": "wilberforce-strikers-fc",
+        "shortName": "Wilberforce Strikers",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 278,
+        "nameCode": "WSF",
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 496451,
+        "country": {
+          "alpha2": "SL",
+          "alpha3": "SLE",
+          "name": "Sierra Leone",
+          "slug": "sierra-leone"
+        },
+        "fullName": "Wilberforce Strikers FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلبرفورس سترايكرز إف سي"
+          },
+          "shortNameTranslation": {
+            "ar": "ويلبرفورس سترايكرز"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Wusum Stars FC",
+        "slug": "wusum-stars-fc",
+        "shortName": "Wusum",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 263,
+        "nameCode": "WSF",
+        "national": false,
+        "type": 0,
+        "id": 381893,
+        "country": {
+          "alpha2": "SL",
+          "alpha3": "SLE",
+          "name": "Sierra Leone",
+          "slug": "sierra-leone"
+        },
+        "fullName": "Wusum Stars FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ووسوم ستارز إف سي"
+          },
+          "shortNameTranslation": {
+            "ar": "ووسوم"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "coverage": -1,
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762791144,
+        "period1StartTimestamp": 1762791049,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762791144
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15005378,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1762791144,
+        "extra": 540
+      },
+      "slug": "wilberforce-strikers-fc-wusum-stars-fc",
+      "currentPeriodStartTimestamp": 1762791144,
+      "startTimestamp": 1762791300,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15005378/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15005378/votes": {
+    "vote": {
+      "vote1": 62,
+      "vote2": 7,
+      "voteX": 15
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 28,
+      "voteNo": 7
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 27,
+      "voteNoGoal": 1,
+      "voteAway": 2
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15005378/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15005378/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15005378/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

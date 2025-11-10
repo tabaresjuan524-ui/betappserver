@@ -1,0 +1,2330 @@
+{
+  "event/14821174/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14821174/incidents": {
+    "incidents": [
+      {
+        "text": "Q3",
+        "homeScore": 57,
+        "awayScore": 55,
+        "isLive": false,
+        "period": "period3",
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 57,
+        "awayScore": 55,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327028375,
+        "time": 30,
+        "timeSeconds": 1754,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 46,
+        "periodTimeSeconds": 554,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 57,
+        "awayScore": 54,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327028368,
+        "time": 30,
+        "timeSeconds": 1754,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 46,
+        "periodTimeSeconds": 554,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 57,
+        "awayScore": 53,
+        "player": {
+          "name": "Rron Dahsyla",
+          "slug": "rron-dahsyla",
+          "shortName": "R. Dahsyla",
+          "position": "FG",
+          "jerseyNumber": "55",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1436213,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1115078400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رون داهسيلا"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. داهسيلا"
+            }
+          }
+        },
+        "id": 327028347,
+        "time": 29,
+        "timeSeconds": 1715,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 85,
+        "periodTimeSeconds": 515,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 57,
+        "awayScore": 50,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327028185,
+        "time": 29,
+        "timeSeconds": 1681,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 119,
+        "periodTimeSeconds": 481,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 57,
+        "awayScore": 48,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327028181,
+        "time": 28,
+        "timeSeconds": 1656,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 144,
+        "periodTimeSeconds": 456,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 57,
+        "awayScore": 46,
+        "playerName": "Julian Roche",
+        "id": 327028073,
+        "time": 27,
+        "timeSeconds": 1586,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 214,
+        "periodTimeSeconds": 386,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 55,
+        "awayScore": 46,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327027921,
+        "time": 27,
+        "timeSeconds": 1572,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 228,
+        "periodTimeSeconds": 372,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 55,
+        "awayScore": 45,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327027915,
+        "time": 27,
+        "timeSeconds": 1572,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 228,
+        "periodTimeSeconds": 372,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 55,
+        "awayScore": 44,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027909,
+        "time": 27,
+        "timeSeconds": 1563,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 237,
+        "periodTimeSeconds": 363,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 54,
+        "awayScore": 44,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027904,
+        "time": 27,
+        "timeSeconds": 1563,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 237,
+        "periodTimeSeconds": 363,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 53,
+        "awayScore": 44,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027707,
+        "time": 26,
+        "timeSeconds": 1523,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 277,
+        "periodTimeSeconds": 323,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 51,
+        "awayScore": 44,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327027706,
+        "time": 25,
+        "timeSeconds": 1492,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 308,
+        "periodTimeSeconds": 292,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 51,
+        "awayScore": 43,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327027704,
+        "time": 25,
+        "timeSeconds": 1492,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 308,
+        "periodTimeSeconds": 292,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 51,
+        "awayScore": 42,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327027531,
+        "time": 24,
+        "timeSeconds": 1432,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 368,
+        "periodTimeSeconds": 232,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 49,
+        "awayScore": 42,
+        "player": {
+          "name": "Marques Warrick",
+          "slug": "warrick-marques",
+          "shortName": "M. Warrick",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1180633,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وارك، ماركيس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. وارك"
+            }
+          }
+        },
+        "id": 327027525,
+        "time": 24,
+        "timeSeconds": 1406,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 394,
+        "periodTimeSeconds": 206,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 49,
+        "awayScore": 40,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027523,
+        "time": 24,
+        "timeSeconds": 1385,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 415,
+        "periodTimeSeconds": 185,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 47,
+        "awayScore": 40,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327027510,
+        "time": 23,
+        "timeSeconds": 1346,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 454,
+        "periodTimeSeconds": 146,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 47,
+        "awayScore": 38,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027509,
+        "time": 23,
+        "timeSeconds": 1337,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 463,
+        "periodTimeSeconds": 137,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 45,
+        "awayScore": 38,
+        "player": {
+          "name": "Philbert Weekes",
+          "slug": "philbert-walton-weekes",
+          "shortName": "P. W. Weekes",
+          "position": "C",
+          "jerseyNumber": "4",
+          "height": 208,
+          "userCount": 0,
+          "id": 1964098,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942537600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلبرت ويكيس"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. ويكيس"
+            }
+          }
+        },
+        "id": 327027369,
+        "time": 22,
+        "timeSeconds": 1306,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 494,
+        "periodTimeSeconds": 106,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 43,
+        "awayScore": 38,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327027365,
+        "time": 22,
+        "timeSeconds": 1279,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 521,
+        "periodTimeSeconds": 79,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 41,
+        "awayScore": 38,
+        "player": {
+          "name": "Philbert Weekes",
+          "slug": "philbert-walton-weekes",
+          "shortName": "P. W. Weekes",
+          "position": "C",
+          "jerseyNumber": "4",
+          "height": 208,
+          "userCount": 0,
+          "id": 1964098,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942537600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلبرت ويكيس"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. ويكيس"
+            }
+          }
+        },
+        "id": 327027322,
+        "time": 21,
+        "timeSeconds": 1213,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 587,
+        "periodTimeSeconds": 13,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q2",
+        "homeScore": 39,
+        "awayScore": 38,
+        "isLive": false,
+        "period": "period2",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 39,
+        "awayScore": 38,
+        "player": {
+          "name": "Marques Warrick",
+          "slug": "warrick-marques",
+          "shortName": "M. Warrick",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1180633,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وارك، ماركيس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. وارك"
+            }
+          }
+        },
+        "id": 327026630,
+        "time": 20,
+        "timeSeconds": 1180,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 20,
+        "periodTimeSeconds": 580,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 39,
+        "awayScore": 36,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327026629,
+        "time": 20,
+        "timeSeconds": 1167,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 33,
+        "periodTimeSeconds": 567,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 36,
+        "awayScore": 36,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327026628,
+        "time": 20,
+        "timeSeconds": 1152,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 48,
+        "periodTimeSeconds": 552,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 36,
+        "awayScore": 34,
+        "playerName": "Julian Roche",
+        "id": 327026531,
+        "time": 20,
+        "timeSeconds": 1146,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 54,
+        "periodTimeSeconds": 546,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 35,
+        "awayScore": 34,
+        "playerName": "Julian Roche",
+        "id": 327026530,
+        "time": 20,
+        "timeSeconds": 1146,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 54,
+        "periodTimeSeconds": 546,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 34,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327026382,
+        "time": 19,
+        "timeSeconds": 1099,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 101,
+        "periodTimeSeconds": 499,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 32,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327026215,
+        "time": 17,
+        "timeSeconds": 990,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 210,
+        "periodTimeSeconds": 390,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 33,
+        "awayScore": 30,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327026214,
+        "time": 17,
+        "timeSeconds": 983,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 217,
+        "periodTimeSeconds": 383,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 32,
+        "awayScore": 30,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327026212,
+        "time": 17,
+        "timeSeconds": 983,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 217,
+        "periodTimeSeconds": 383,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 30,
+        "player": {
+          "name": "Jemmerio Jones",
+          "firstName": "Jemmerio Jones",
+          "slug": "jemmerio-jones",
+          "shortName": "J. Jones",
+          "position": "F",
+          "jerseyNumber": "30",
+          "userCount": 1,
+          "id": 2338852,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327026201,
+        "time": 16,
+        "timeSeconds": 949,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 251,
+        "periodTimeSeconds": 349,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 29,
+        "awayScore": 30,
+        "player": {
+          "name": "Rron Dahsyla",
+          "slug": "rron-dahsyla",
+          "shortName": "R. Dahsyla",
+          "position": "FG",
+          "jerseyNumber": "55",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1436213,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1115078400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رون داهسيلا"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. داهسيلا"
+            }
+          }
+        },
+        "id": 327026139,
+        "time": 16,
+        "timeSeconds": 909,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 291,
+        "periodTimeSeconds": 309,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 29,
+        "awayScore": 28,
+        "player": {
+          "name": "Rron Dahsyla",
+          "slug": "rron-dahsyla",
+          "shortName": "R. Dahsyla",
+          "position": "FG",
+          "jerseyNumber": "55",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1436213,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1115078400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رون داهسيلا"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. داهسيلا"
+            }
+          }
+        },
+        "id": 327026032,
+        "time": 15,
+        "timeSeconds": 870,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 330,
+        "periodTimeSeconds": 270,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 29,
+        "awayScore": 25,
+        "player": {
+          "name": "Marques Warrick",
+          "slug": "warrick-marques",
+          "shortName": "M. Warrick",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1180633,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وارك، ماركيس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. وارك"
+            }
+          }
+        },
+        "id": 327025973,
+        "time": 14,
+        "timeSeconds": 810,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 390,
+        "periodTimeSeconds": 210,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 29,
+        "awayScore": 24,
+        "player": {
+          "name": "Marques Warrick",
+          "slug": "warrick-marques",
+          "shortName": "M. Warrick",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1180633,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وارك، ماركيس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. وارك"
+            }
+          }
+        },
+        "id": 327025969,
+        "time": 14,
+        "timeSeconds": 810,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 390,
+        "periodTimeSeconds": 210,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 29,
+        "awayScore": 23,
+        "player": {
+          "name": "Fisnik Rugova",
+          "slug": "fisnik-rugova",
+          "shortName": "F. Rugova",
+          "position": "FC",
+          "jerseyNumber": "7",
+          "height": 207,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1106995,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 620092800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيزنيك روجوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. روجوفا"
+            }
+          }
+        },
+        "id": 327025888,
+        "time": 13,
+        "timeSeconds": 756,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 444,
+        "periodTimeSeconds": 156,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 27,
+        "awayScore": 23,
+        "player": {
+          "name": "Rron Dahsyla",
+          "slug": "rron-dahsyla",
+          "shortName": "R. Dahsyla",
+          "position": "FG",
+          "jerseyNumber": "55",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1436213,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1115078400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رون داهسيلا"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. داهسيلا"
+            }
+          }
+        },
+        "id": 327025886,
+        "time": 12,
+        "timeSeconds": 713,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 487,
+        "periodTimeSeconds": 113,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 27,
+        "awayScore": 21,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327025870,
+        "time": 11,
+        "timeSeconds": 653,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 547,
+        "periodTimeSeconds": 53,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 24,
+        "awayScore": 21,
+        "playerName": "Julian Roche",
+        "id": 327025869,
+        "time": 11,
+        "timeSeconds": 628,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 572,
+        "periodTimeSeconds": 28,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q1",
+        "homeScore": 22,
+        "awayScore": 21,
+        "isLive": false,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 22,
+        "awayScore": 21,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327025797,
+        "time": 10,
+        "timeSeconds": 599,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 1,
+        "periodTimeSeconds": 599,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 19,
+        "awayScore": 21,
+        "player": {
+          "name": "Philbert Weekes",
+          "slug": "philbert-walton-weekes",
+          "shortName": "P. W. Weekes",
+          "position": "C",
+          "jerseyNumber": "4",
+          "height": 208,
+          "userCount": 0,
+          "id": 1964098,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942537600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلبرت ويكيس"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. ويكيس"
+            }
+          }
+        },
+        "id": 327025743,
+        "time": 10,
+        "timeSeconds": 587,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 13,
+        "periodTimeSeconds": 587,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 18,
+        "awayScore": 21,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327025719,
+        "time": 10,
+        "timeSeconds": 568,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 32,
+        "periodTimeSeconds": 568,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 18,
+        "awayScore": 19,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327025718,
+        "time": 10,
+        "timeSeconds": 553,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 47,
+        "periodTimeSeconds": 553,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 15,
+        "awayScore": 19,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327025716,
+        "time": 9,
+        "timeSeconds": 511,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 89,
+        "periodTimeSeconds": 511,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 12,
+        "awayScore": 19,
+        "player": {
+          "name": "Atik Koshi",
+          "slug": "atik-koshi",
+          "shortName": "A. Koshi",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 190,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1436208,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 941760000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أتيك كوشي"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. كوشي"
+            }
+          }
+        },
+        "id": 327025711,
+        "time": 8,
+        "timeSeconds": 470,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 130,
+        "periodTimeSeconds": 470,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 12,
+        "awayScore": 17,
+        "player": {
+          "name": "Kentrell Pullian",
+          "slug": "pullian-kentrell",
+          "shortName": "K. Pullian",
+          "jerseyNumber": "12",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1441300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020643200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوليان، كنتريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوليان"
+            }
+          }
+        },
+        "id": 327025709,
+        "time": 8,
+        "timeSeconds": 443,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 157,
+        "periodTimeSeconds": 443,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 10,
+        "awayScore": 17,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327025706,
+        "time": 8,
+        "timeSeconds": 423,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 177,
+        "periodTimeSeconds": 423,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 10,
+        "awayScore": 16,
+        "player": {
+          "name": "Ziggy Reid",
+          "slug": "reid-ziggy",
+          "shortName": "Z. Reid",
+          "jerseyNumber": "23",
+          "userCount": 4,
+          "gender": "M",
+          "id": 1182914,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريد، زيغي"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ريد"
+            }
+          }
+        },
+        "id": 327025702,
+        "time": 8,
+        "timeSeconds": 423,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 177,
+        "periodTimeSeconds": 423,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 15,
+        "playerName": "Kaosi Ezeagu",
+        "id": 327025663,
+        "time": 7,
+        "timeSeconds": 402,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 198,
+        "periodTimeSeconds": 402,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 13,
+        "player": {
+          "name": "Yor Anei",
+          "slug": "anei-yor",
+          "shortName": "Y. Anei",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1180234,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 944524800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أني، يور"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. أني"
+            }
+          }
+        },
+        "id": 327025436,
+        "time": 6,
+        "timeSeconds": 338,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 262,
+        "periodTimeSeconds": 338,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 11,
+        "player": {
+          "name": "Isiah Umipig",
+          "firstName": "Isiah",
+          "lastName": "Umipig",
+          "slug": "isiah-umipig",
+          "shortName": "I. Umipig",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 183,
+          "userCount": 1,
+          "id": 1644559,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيسيا أوميبيغ"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوميبيغ"
+            }
+          }
+        },
+        "id": 327025376,
+        "time": 5,
+        "timeSeconds": 294,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 306,
+        "periodTimeSeconds": 294,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 11,
+        "player": {
+          "name": "Marques Warrick",
+          "slug": "warrick-marques",
+          "shortName": "M. Warrick",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1180633,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وارك، ماركيس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. وارك"
+            }
+          }
+        },
+        "id": 327025375,
+        "time": 5,
+        "timeSeconds": 279,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 321,
+        "periodTimeSeconds": 279,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 9,
+        "player": {
+          "name": "Philbert Weekes",
+          "slug": "philbert-walton-weekes",
+          "shortName": "P. W. Weekes",
+          "position": "C",
+          "jerseyNumber": "4",
+          "height": 208,
+          "userCount": 0,
+          "id": 1964098,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942537600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلبرت ويكيس"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. ويكيس"
+            }
+          }
+        },
+        "id": 327025362,
+        "time": 5,
+        "timeSeconds": 241,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 359,
+        "periodTimeSeconds": 241,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 5,
+        "awayScore": 9,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327025287,
+        "time": 4,
+        "timeSeconds": 211,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 389,
+        "periodTimeSeconds": 211,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 5,
+        "awayScore": 7,
+        "player": {
+          "name": "Atik Koshi",
+          "slug": "atik-koshi",
+          "shortName": "A. Koshi",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 190,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1436208,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 941760000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أتيك كوشي"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. كوشي"
+            }
+          }
+        },
+        "id": 327025286,
+        "time": 4,
+        "timeSeconds": 199,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 401,
+        "periodTimeSeconds": 199,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 5,
+        "awayScore": 5,
+        "playerName": "Julian Roche",
+        "id": 327025276,
+        "time": 4,
+        "timeSeconds": 181,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 419,
+        "periodTimeSeconds": 181,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 5,
+        "player": {
+          "name": "Fisnik Rugova",
+          "slug": "fisnik-rugova",
+          "shortName": "F. Rugova",
+          "position": "FC",
+          "jerseyNumber": "7",
+          "height": 207,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1106995,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 620092800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيزنيك روجوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. روجوفا"
+            }
+          }
+        },
+        "id": 327025266,
+        "time": 3,
+        "timeSeconds": 155,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 445,
+        "periodTimeSeconds": 155,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 2,
+        "awayScore": 5,
+        "player": {
+          "name": "Atik Koshi",
+          "slug": "atik-koshi",
+          "shortName": "A. Koshi",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 190,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1436208,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 941760000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أتيك كوشي"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. كوشي"
+            }
+          }
+        },
+        "id": 327025250,
+        "time": 2,
+        "timeSeconds": 89,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 511,
+        "periodTimeSeconds": 89,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 2,
+        "player": {
+          "name": "Fisnik Rugova",
+          "slug": "fisnik-rugova",
+          "shortName": "F. Rugova",
+          "position": "FC",
+          "jerseyNumber": "7",
+          "height": 207,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1106995,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 620092800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيزنيك روجوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. روجوفا"
+            }
+          }
+        },
+        "id": 327025187,
+        "time": 1,
+        "timeSeconds": 40,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 560,
+        "periodTimeSeconds": 40,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 0,
+        "awayScore": 2,
+        "player": {
+          "name": "Leo Colimerio",
+          "slug": "colimerio-leo",
+          "shortName": "L. Colimerio",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 201,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1182318,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 984096000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوليميريو، ليو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كوليميريو"
+            }
+          }
+        },
+        "id": 327025186,
+        "time": 1,
+        "timeSeconds": 27,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 573,
+        "periodTimeSeconds": 27,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "tv/event/14821174/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14821174/pregame-form": {
+    "homeTeam": {
+      "position": 6,
+      "value": "1-3",
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 7,
+      "value": "1-3",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    "label": "W-L"
+  },
+  "event/14821174/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14821174/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14821174/votes": {
+    "vote": {
+      "vote1": 94,
+      "vote2": 31,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14821174": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "Princ Caffe Superliga",
+        "slug": "princ-caffe-superliga",
+        "category": {
+          "name": "Kosovo",
+          "slug": "kosovo",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 1589,
+          "country": {
+            "alpha2": "XK",
+            "alpha3": "XKX",
+            "name": "Kosovo",
+            "slug": "kosovo"
+          },
+          "flag": "kosovo",
+          "alpha2": "XK",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوسوفو"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Princ Caffe Superliga",
+          "slug": "princ-caffe-superliga",
+          "category": {
+            "name": "Kosovo",
+            "slug": "kosovo",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 1589,
+            "country": {
+              "alpha2": "XK",
+              "alpha3": "XKX",
+              "name": "Kosovo",
+              "slug": "kosovo"
+            },
+            "flag": "kosovo",
+            "alpha2": "XK",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوسوفو"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 239,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 16731,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "السوبرليغا Princ Caffe"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Princ Caffe Superliga",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 91795,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز برينس كافيه"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Princ Caffe Superliga 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 82634
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "piZcsToXd",
+      "status": {
+        "code": 30,
+        "description": "Pause",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "KB Rahoveci 029",
+        "slug": "grapeland-basketball",
+        "shortName": "Rahoveci ",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 88,
+        "nameCode": "GBA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 493243,
+        "country": {
+          "alpha2": "XK",
+          "alpha3": "XKX",
+          "name": "Kosovo",
+          "slug": "kosovo"
+        },
+        "fullName": "KB Rahoveci 029",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غرايب لاند باسكتبول"
+          },
+          "shortNameTranslation": {
+            "ar": "غرايب لاند باسكتبول"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "KB Vëllaznimi",
+        "slug": "kb-vellaznimi",
+        "shortName": "Vëllaznimi",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 245,
+        "manager": {
+          "name": "Jeronimo Sarin",
+          "slug": "jeronimo-sarin",
+          "shortName": "J. Sarin",
+          "id": 808124,
+          "country": {
+            "alpha2": "HR",
+            "alpha3": "HRV",
+            "name": "Croatia",
+            "slug": "croatia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيرونيمو سارين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سارين"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Gjakova"
+          },
+          "hidden": true,
+          "slug": "palestra-e-sporteve-shani-nushi",
+          "name": "Palestra e sporteve Shani Nushi",
+          "id": 33920,
+          "country": {
+            "alpha2": "XK",
+            "alpha3": "XKX",
+            "name": "Kosovo",
+            "slug": "kosovo"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة شاني نوشي الرياضية",
+              "hi": "फिलिस्तीन एंड स्पोर्टेव शनि नुशी",
+              "bn": "প্যালেস্ট্রা ই স্পোর্টেভ শানি নুশি"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Palestra e sporteve Shani Nushi"
+          }
+        },
+        "nameCode": "KVL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 372915,
+        "country": {
+          "alpha2": "XK",
+          "alpha3": "XKX",
+          "name": "Kosovo",
+          "slug": "kosovo"
+        },
+        "fullName": "KB Vëllaznimi",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كي بي فيلازني"
+          },
+          "shortNameTranslation": {
+            "ar": "فيلازني"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 57,
+        "display": 57,
+        "period1": 22,
+        "period2": 17,
+        "period3": 18
+      },
+      "awayScore": {
+        "current": 55,
+        "display": 55,
+        "period1": 21,
+        "period2": 17,
+        "period3": 17
+      },
+      "coverage": -1,
+      "time": {
+        "played": 1800,
+        "periodLength": 600,
+        "overtimeLength": 300,
+        "totalPeriodCount": 4
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description"
+        ],
+        "changeTimestamp": 1762791946
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14821174,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 10,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "slug": "kb-rahoveci-029-kb-vellaznimi",
+      "startTimestamp": 1762786800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14821174/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14821174/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14821174/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import puppeteer from 'puppeteer-core';
 const { chrome } = require('chrome-paths');
 import { Browser, Page } from 'puppeteer-core';
-
-
+import { promises as fs } from 'fs';
+import path from 'path';
 
 interface EventApiData {
     [endpoint: string]: any;
@@ -26,6 +26,7 @@ export class BrowserPoolManager {
     private browsers: Browser[] = [];
     private eventTabs: Map<string, { browser: Browser; page: Page; browserIndex: number }> = new Map();
     private eventDataCache: Map<string, EventApiData> = new Map();
+    private savedEvents: Set<string> = new Set(); // Track which events have been saved to avoid duplicates
     
     private readonly BROWSERS_COUNT = 5; // Number of browser instances (each ~2GB)
     private readonly TABS_PER_BROWSER = 0; // Max tabs per browser (0 = unlimited)
@@ -57,6 +58,29 @@ export class BrowserPoolManager {
         
         this.startHealthChecks();
         this.logMemoryUsage();
+    }
+    
+    /**
+     * Save event data to JSON file (organized by sport)
+     */
+    private async saveEventDataToFile(eventId: string, eventData: EventApiData, sportSlug: string): Promise<void> {
+        // Only save if we haven't saved this event yet and it has data
+        if (this.savedEvents.has(eventId) || Object.keys(eventData).length === 0) {
+            return;
+        }
+        
+        try {
+            const dirPath = path.join(process.cwd(), 'sofascore', 'events', sportSlug);
+            await fs.mkdir(dirPath, { recursive: true });
+            
+            const filePath = path.join(dirPath, `${eventId}.json`);
+            await fs.writeFile(filePath, JSON.stringify(eventData, null, 2), 'utf-8');
+            
+            this.savedEvents.add(eventId);
+            console.log(`[SOFASCORE] ✅ Saved data for event ${eventId} to sofascore/events/${sportSlug}/${eventId}.json`);
+        } catch (error: any) {
+            console.error(`[SOFASCORE] ❌ Error saving data for event ${eventId}:`, error.message);
+        }
     }
     
     /**
@@ -229,6 +253,13 @@ export class BrowserPoolManager {
                                 const cachedData = this.eventDataCache.get(eventId) || {};
                                 cachedData[endpoint] = data;
                                 this.eventDataCache.set(eventId, cachedData);
+                                
+                                // Save to file after collecting a few endpoints (avoid saving on every single endpoint)
+                                const endpointCount = Object.keys(cachedData).length;
+                                if (endpointCount >= 5 && !this.savedEvents.has(eventId)) {
+                                    const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
+                                    await this.saveEventDataToFile(eventId, cachedData, sportSlug);
+                                }
                                 
                                 // Do not log here to avoid spamming logs
                                 // console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - Captured: ${endpoint}`);

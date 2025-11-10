@@ -1,0 +1,52 @@
+{
+  "event/14957211/incidents": {
+    "incidents": [
+      {
+        "text": "1st quarter",
+        "homeScore": 24,
+        "awayScore": 8,
+        "isLive": true,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      }
+    ]
+  },
+  "event/14957211/pregame-form": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14957211/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "tv/event/14957211/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14957211/managers": {
+    "awayManager": {
+      "name": "Alaura Sharp",
+      "slug": "alaura-sharp",
+      "shortName": "A. Sharp",
+      "id": 804399,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ألاورا شارب"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. شارب"
+        }
+      }
+    }
+  }
+}

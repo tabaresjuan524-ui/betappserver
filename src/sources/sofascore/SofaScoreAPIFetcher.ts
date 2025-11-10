@@ -1,6 +1,8 @@
 import axios, { AxiosInstance } from 'axios';
 import { BrowserPoolManager } from './BrowserPoolManager';
 import PQueue from 'p-queue';
+import { promises as fs } from 'fs';
+import path from 'path';
 
 interface EventCount {
     [sport: string]: {
@@ -66,7 +68,7 @@ export class SofaScoreAPIFetcher {
         });
         
         this.browserPool = new BrowserPoolManager();
-        this.openTabQueue = new PQueue({ concurrency: 10 }); // Concurrently open 10 tabs at a time
+        this.openTabQueue = new PQueue({ concurrency: 3 }); // Reduced to 3 concurrent tabs to prevent memory issues
     }
 
     /**
@@ -173,6 +175,25 @@ export class SofaScoreAPIFetcher {
     }
 
     /**
+     * Save individual event data to JSON file
+     */
+    private async saveEventDataToFile(eventId: string, eventData: EventApiData, sport: string): Promise<void> {
+        try {
+            // Create directory structure: sofascore/events/{sport}/
+            const dirPath = path.join(process.cwd(), 'sofascore', 'events', sport);
+            await fs.mkdir(dirPath, { recursive: true });
+            
+            // Save event data to file
+            const filePath = path.join(dirPath, `${eventId}.json`);
+            await fs.writeFile(filePath, JSON.stringify(eventData, null, 2), 'utf-8');
+            
+            console.log(`[SOFASCORE] ✅ Saved data for event ${eventId} to sofascore/events/${sport}/${eventId}.json`);
+        } catch (error: any) {
+            console.error(`[SOFASCORE] ❌ Error saving data for event ${eventId}:`, error.message);
+        }
+    }
+
+    /**
      * Process events for a sport - opens tabs in browser pool for continuous monitoring
      */
     private async processEventsForSport(sportName: string, liveEvents: LiveEventData): Promise<any> {
@@ -196,12 +217,22 @@ export class SofaScoreAPIFetcher {
         const shuffledEvents = events.sort(() => Math.random() - 0.5);
 
         // Add all tab opening tasks to the queue
-        const promises = shuffledEvents.map(event => {
+        const promises = shuffledEvents.map((event, index) => {
             return this.openTabQueue.add(async () => {
                 try {
+                    // Add small delay between events to prevent memory spikes
+                    if (index > 0 && index % 3 === 0) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    }
+                    
                     const eventUrl = this.createEventUrl(event);
                     const eventData = await this.browserPool.openEventTab(event, eventUrl);
                     sportData.events[event.id.toString()] = eventData;
+                    
+                    // Save event data to file immediately after fetching
+                    if (Object.keys(eventData).length > 0) {
+                        await this.saveEventDataToFile(event.id.toString(), eventData, sportName);
+                    }
                 } catch (error: any) {
                     console.error(`❌ [SOFASCORE] Error processing event ${event.id} in queue:`, error);
                 }

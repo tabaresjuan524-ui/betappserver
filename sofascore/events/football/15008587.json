@@ -1,0 +1,461 @@
+{
+  "event/15008587/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "rescinded": false,
+        "id": 124326110,
+        "time": 54,
+        "timeSeconds": 3240,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 37,
+        "reversedPeriodTimeSeconds": 2160,
+        "periodTimeSeconds": 540,
+        "incidentType": "card"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "00ff00",
+        "number": "000000",
+        "outline": "00ff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "0000ff",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15008587/pregame-form": {
+    "homeTeam": {
+      "position": 15,
+      "value": "12",
+      "form": [
+        "D",
+        "W",
+        "W",
+        "D",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 8,
+      "value": "17",
+      "form": [
+        "D",
+        "L",
+        "D",
+        "W",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15008587/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15008587/managers": {
+    "awayManager": {
+      "name": "Finidi George",
+      "slug": "finidi-george",
+      "shortName": "F. George",
+      "id": 802885,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فينيدي جورج"
+        },
+        "shortNameTranslation": {
+          "ar": "F. جورج"
+        }
+      }
+    }
+  },
+  "tv/event/15008587/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008587/votes": {
+    "vote": {
+      "vote1": 261,
+      "vote2": 414,
+      "voteX": 211
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 143,
+      "voteNo": 30
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 29,
+      "voteNoGoal": 5,
+      "voteAway": 111
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15008587/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008587": {
+    "event": {
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Nigeria",
+          "slug": "nigeria",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1132,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "flag": "nigeria",
+          "alpha2": "NG",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيجيريا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Nigeria Premier Football League",
+          "slug": "professional-league",
+          "primaryColorHex": "#35b149",
+          "secondaryColorHex": "#ed121d",
+          "category": {
+            "name": "Nigeria",
+            "slug": "nigeria",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1132,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "flag": "nigeria",
+            "alpha2": "NG",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيجيريا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 11022,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 2060,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري النيجيري الممتاز لكرة القدم",
+              "hi": "नाइजीरिया प्रीमियर फुटबॉल लीग",
+              "bn": "নাইজেরিয়া প্রিমিয়ার ফুটবল লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 42048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रीमियर लीग",
+            "bn": "প্রিমিয়ার লিগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 5
+        },
+        "id": 79510
+      },
+      "roundInfo": {
+        "round": 12
+      },
+      "customId": "vfLbslbVi",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Kun Khalifat FC",
+        "slug": "kun-khalifat-fc",
+        "shortName": "Kun Khalifat",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 346,
+        "nameCode": "KUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1112561,
+        "country": {
+          "alpha2": "NG",
+          "alpha3": "NGA",
+          "name": "Nigeria",
+          "slug": "nigeria"
+        },
+        "fullName": "Kun Khalifat FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كون خليفة إف سي"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. سي"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Rivers United",
+        "slug": "rivers-united",
+        "shortName": "Rivers Utd",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 4428,
+        "manager": {
+          "name": "Finidi George",
+          "slug": "finidi-george",
+          "shortName": "F. George",
+          "id": 802885,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فينيدي جورج"
+            },
+            "shortNameTranslation": {
+              "ar": "F. جورج"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Port Harcourt"
+          },
+          "venueCoordinates": {
+            "latitude": 4.824918,
+            "longitude": 7.021924
+          },
+          "hidden": true,
+          "slug": "liberation-stadium",
+          "name": "Liberation Stadium",
+          "capacity": 16000,
+          "id": 15613,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب التحرير",
+              "hi": "लिबरेशन स्टेडियम",
+              "bn": "লিবারেশন স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Liberation Stadium",
+            "capacity": 16000
+          }
+        },
+        "nameCode": "RIV",
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 215270,
+        "country": {
+          "alpha2": "NG",
+          "alpha3": "NGA",
+          "name": "Nigeria",
+          "slug": "nigeria"
+        },
+        "fullName": "Rivers United",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0000ff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": 1454284800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريفرز يونايتد"
+          },
+          "shortNameTranslation": {
+            "ar": "ريفرز يونايتد"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762791024,
+        "period1StartTimestamp": 1762786133,
+        "period2StartTimestamp": 1762791024,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "cardsCode"
+        ],
+        "changeTimestamp": 1762791536
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15008587,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1762791024,
+        "extra": 540
+      },
+      "slug": "kun-khalifat-fc-rivers-united",
+      "currentPeriodStartTimestamp": 1762791024,
+      "startTimestamp": 1762786800,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15008587/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008587/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008587/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

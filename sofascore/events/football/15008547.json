@@ -1,0 +1,617 @@
+{
+  "event/15008547/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 1,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Gafar Saka",
+          "slug": "gafar-saka",
+          "shortName": "G. Saka",
+          "position": "F",
+          "jerseyNumber": "9",
+          "userCount": 5,
+          "gender": "M",
+          "id": 1930838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1054425600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غفار ساكا"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. ساكا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Mafeng Pam",
+          "firstName": "Mafeng Pam",
+          "slug": "mafeng-pam",
+          "shortName": "M. Pam",
+          "position": "M",
+          "jerseyNumber": "19",
+          "userCount": 16,
+          "gender": "M",
+          "id": 1610472,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مافينغ بام"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بام"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 327028158,
+        "time": 56,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 35,
+        "incidentType": "goal"
+      },
+      {
+        "playerIn": {
+          "name": "Jonathan Okechukwu",
+          "firstName": "Jonathan Okechukwu",
+          "slug": "jonathan-okechukwu",
+          "shortName": "J. Okechukwu",
+          "position": "M",
+          "jerseyNumber": "36",
+          "userCount": 1,
+          "gender": "M",
+          "id": 2226537,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جوناثان أوكيشوكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. أوكيشوكو"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Gift Osadebe",
+          "slug": "gift-osadebe",
+          "shortName": "G. Osadebe",
+          "position": "M",
+          "jerseyNumber": "4",
+          "userCount": 1,
+          "gender": "M",
+          "id": 1869113,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غيفت أوساديبي"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. أوساديبي"
+            }
+          }
+        },
+        "id": 125119683,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "rescinded": false,
+        "id": 124325982,
+        "time": 45,
+        "addedTime": 2,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 1,
+        "incidentType": "card"
+      },
+      {
+        "rescinded": false,
+        "id": 124325940,
+        "time": 26,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 20,
+        "incidentType": "card"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "fafb00",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "2ca85d",
+        "number": "ffffff",
+        "outline": "2ca85d",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "00ff00",
+        "number": "000000",
+        "outline": "00ff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "59aa75",
+        "number": "ffff00",
+        "outline": "59aa75",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "tv/event/15008547/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008547/managers": {
+    "homeManager": {
+      "name": "Ayuba Mbwas Mangut",
+      "slug": "ayuba-mbwas-mangut",
+      "shortName": "A. M. Mangut",
+      "id": 802880,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أيوبا مبواس مانغوت"
+        },
+        "shortNameTranslation": {
+          "ar": "A. م. مانغوت"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Greg Ikhenoba",
+      "slug": "greg-ikhenoba",
+      "shortName": "G. Ikhenoba",
+      "id": 810503,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "غريغ إيكينوبا"
+        },
+        "shortNameTranslation": {
+          "ar": "غ. إيكينوبا"
+        }
+      }
+    }
+  },
+  "event/15008547/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 3,
+      "draws": 1
+    },
+    "managerDuel": {
+      "homeWins": 2,
+      "awayWins": 1,
+      "draws": 0
+    }
+  },
+  "event/15008547/pregame-form": {
+    "homeTeam": {
+      "position": 16,
+      "value": "12",
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 19,
+      "value": "9",
+      "form": [
+        "L",
+        "L",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15008547/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008547/votes": {
+    "vote": {
+      "vote1": 566,
+      "vote2": 77,
+      "voteX": 185
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 126,
+      "voteNo": 28
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 116,
+      "voteNoGoal": 4,
+      "voteAway": 11
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15008547/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008547": {
+    "event": {
+      "tournament": {
+        "name": "Premier League",
+        "slug": "premier-league",
+        "category": {
+          "name": "Nigeria",
+          "slug": "nigeria",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1132,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "flag": "nigeria",
+          "alpha2": "NG",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيجيريا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Nigeria Premier Football League",
+          "slug": "professional-league",
+          "primaryColorHex": "#35b149",
+          "secondaryColorHex": "#ed121d",
+          "category": {
+            "name": "Nigeria",
+            "slug": "nigeria",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1132,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "flag": "nigeria",
+            "alpha2": "NG",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيجيريا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 11022,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 2060,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري النيجيري الممتاز لكرة القدم",
+              "hi": "नाइजीरिया प्रीमियर फुटबॉल लीग",
+              "bn": "নাইজেরিয়া প্রিমিয়ার ফুটবল লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 42048,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإنجليزي الممتاز",
+            "hi": "प्रीमियर लीग",
+            "bn": "প্রিমিয়ার লিগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premier League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 5
+        },
+        "id": 79510
+      },
+      "roundInfo": {
+        "round": 12
+      },
+      "customId": "bLKbsYjyc",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Plateau United",
+        "slug": "plateau-united",
+        "shortName": "Plateau Utd",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2013,
+        "manager": {
+          "name": "Ayuba Mbwas Mangut",
+          "slug": "ayuba-mbwas-mangut",
+          "shortName": "A. M. Mangut",
+          "id": 802880,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أيوبا مبواس مانغوت"
+            },
+            "shortNameTranslation": {
+              "ar": "A. م. مانغوت"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Jos"
+          },
+          "venueCoordinates": {
+            "latitude": 9.927623,
+            "longitude": 8.884002
+          },
+          "hidden": true,
+          "slug": "rwang-pam-stadium",
+          "name": "Rwang Pam Stadium",
+          "capacity": 15000,
+          "id": 15617,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب روانغ بام",
+              "hi": "रवांग पाम स्टेडियम",
+              "bn": "রুয়াং পাম স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Rwang Pam Stadium",
+            "capacity": 15000
+          }
+        },
+        "nameCode": "PLA",
+        "national": false,
+        "type": 0,
+        "id": 214301,
+        "country": {
+          "alpha2": "NG",
+          "alpha3": "NGA",
+          "name": "Nigeria",
+          "slug": "nigeria"
+        },
+        "fullName": "Plateau United",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#2ca85d",
+          "secondary": "#222226",
+          "text": "#222226"
+        },
+        "foundationDateTimestamp": 155001600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بلاتيو يونيتيد",
+            "ru": "Платеу Юнайтед"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bendel Insurance FC",
+        "slug": "bendel-insurance-fc",
+        "shortName": "Bendel Insurance",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2024,
+        "manager": {
+          "name": "Greg Ikhenoba",
+          "slug": "greg-ikhenoba",
+          "shortName": "G. Ikhenoba",
+          "id": 810503,
+          "country": {
+            "alpha2": "NG",
+            "alpha3": "NGA",
+            "name": "Nigeria",
+            "slug": "nigeria"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غريغ إيكينوبا"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. إيكينوبا"
+            }
+          }
+        },
+        "nameCode": "BEN",
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 307998,
+        "country": {
+          "alpha2": "NG",
+          "alpha3": "NGA",
+          "name": "Nigeria",
+          "slug": "nigeria"
+        },
+        "fullName": "Bendel Insurance FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#222226",
+          "text": "#222226"
+        },
+        "foundationDateTimestamp": 86745600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بندل للتأمين"
+          },
+          "shortNameTranslation": {
+            "ar": "بندل للتأمين"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762790764,
+        "period1StartTimestamp": 1762786746,
+        "period2StartTimestamp": 1762790764,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2"
+        ],
+        "changeTimestamp": 1762791393
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15008547,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1762790764,
+        "extra": 540
+      },
+      "slug": "bendel-insurance-fc-plateau-united",
+      "currentPeriodStartTimestamp": 1762790764,
+      "startTimestamp": 1762786800,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15008547/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008547/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15008547/graph": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

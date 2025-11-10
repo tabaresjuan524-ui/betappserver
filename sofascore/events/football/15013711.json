@@ -1,0 +1,365 @@
+{
+  "event/15013711/pregame-form": {
+    "homeTeam": {
+      "position": 4,
+      "value": "8",
+      "form": [
+        "W",
+        "W",
+        "D",
+        "D"
+      ]
+    },
+    "awayTeam": {
+      "position": 9,
+      "value": "5",
+      "form": [
+        "D",
+        "D",
+        "W",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15013711/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15013711/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "tv/event/15013711/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15013711/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 1,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15013711": {
+    "event": {
+      "tournament": {
+        "name": "Super D1",
+        "slug": "super-d1",
+        "category": {
+          "name": "Mauritania",
+          "slug": "mauritania",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1123,
+          "country": {
+            "alpha2": "MR",
+            "alpha3": "MRT",
+            "name": "Mauritania",
+            "slug": "mauritania"
+          },
+          "flag": "mauritania",
+          "alpha2": "MR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موريتانيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Super D1",
+          "slug": "super-d1",
+          "primaryColorHex": "#109306",
+          "secondaryColorHex": "#cc6c15",
+          "category": {
+            "name": "Mauritania",
+            "slug": "mauritania",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1123,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "flag": "mauritania",
+            "alpha2": "MR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "موريتانيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 861,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 23703,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الموريتاني الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 139411,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري السوبر D1"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 83326
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "dfxcsuwBc",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Police",
+        "slug": "police",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 410,
+        "nameCode": "POL",
+        "national": false,
+        "type": 0,
+        "id": 316069,
+        "country": {},
+        "fullName": "Police",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوليس"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Nouakchott Kings",
+        "slug": "nouakchott-kings",
+        "shortName": "Nouakchott Kings",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 440,
+        "nameCode": "NOU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 305253,
+        "country": {
+          "alpha2": "MR",
+          "alpha3": "MRT",
+          "name": "Mauritania",
+          "slug": "mauritania"
+        },
+        "fullName": "Nouakchott Kings",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": 315532800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نواكشوط كينغز"
+          },
+          "shortNameTranslation": {
+            "ar": "نواكشوط كينغز"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "coverage": -1,
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762791294,
+        "period1StartTimestamp": 1762790909,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762791294
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15013711,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1762791294,
+        "extra": 540
+      },
+      "slug": "police-nouakchott-kings",
+      "currentPeriodStartTimestamp": 1762791294,
+      "startTimestamp": 1762791300,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15013711/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15013711/votes": {
+    "vote": {
+      "vote1": 249,
+      "vote2": 30,
+      "voteX": 72
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 72,
+      "voteNo": 21
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 72,
+      "voteNoGoal": 2,
+      "voteAway": 4
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15013711/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15013711/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15013711/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15013711/graph": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

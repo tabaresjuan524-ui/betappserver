@@ -1,0 +1,321 @@
+{
+  "event/15022197/incidents": {
+    "incidents": [
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "id": 327026024,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15022197/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15022197/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "tv/event/15022197/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15022197": {
+    "event": {
+      "tournament": {
+        "name": "Ligue Régionale Rabat Salé Kénitra",
+        "slug": "ligue-regionale-rabat-sale-kenitra",
+        "category": {
+          "name": "Morocco Amateur",
+          "slug": "morocco-amateur",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1641,
+          "country": {
+            "alpha2": "MA",
+            "alpha3": "MAR",
+            "name": "Morocco",
+            "slug": "morocco"
+          },
+          "flag": "morocco",
+          "alpha2": "MA",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "المغرب هواة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Ligue Régionale Rabat Salé Kénitra",
+          "slug": "ligue-regionale-rabat-sale-kenitra",
+          "category": {
+            "name": "Morocco Amateur",
+            "slug": "morocco-amateur",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1641,
+            "country": {
+              "alpha2": "MA",
+              "alpha3": "MAR",
+              "name": "Morocco",
+              "slug": "morocco"
+            },
+            "flag": "morocco",
+            "alpha2": "MA",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "المغرب هواة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 39,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 30392,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإقليمي الرباط سلا القنيطرة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 166983,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإقليمي الرباط سلا القنيطرة"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "25/26",
+        "year": "25/26",
+        "editor": true,
+        "id": 85086
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "OxfjsWxfj",
+      "status": {
+        "code": 20,
+        "description": "Started",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "AS Futur",
+        "slug": "as-futur",
+        "shortName": "AS Futur",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5,
+        "nameCode": "AFU",
+        "national": false,
+        "type": 0,
+        "id": 1138639,
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "fullName": "AS Futur",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيه إس فوتر"
+          },
+          "shortNameTranslation": {
+            "ar": "إيه إس فوتر"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "KSYG El Gharb",
+        "slug": "cksy-el-gharb",
+        "shortName": "KSYG El Gharb",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 10,
+        "nameCode": "CEG",
+        "national": false,
+        "type": 0,
+        "id": 1138646,
+        "country": {
+          "alpha2": "MA",
+          "alpha3": "MAR",
+          "name": "Morocco",
+          "slug": "morocco"
+        },
+        "fullName": "KSYG El Gharb",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سي.كي.أس.واي الغرب"
+          },
+          "shortNameTranslation": {
+            "ar": "سي.كي.أس.واي الغرب"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0
+      },
+      "coverage": -1,
+      "time": {},
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display"
+        ],
+        "changeTimestamp": 1762788664
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": true,
+      "id": 15022197,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "ksyg-el-gharb-as-futur",
+      "startTimestamp": 1762783200,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "createdByNickname": "Adam Alex",
+      "eventEditorName": "Adam Alex",
+      "eventEditor": {
+        "id": "681988ea33cb9dcc85539587",
+        "name": "Adam Alex"
+      },
+      "showTotoPromo": true,
+      "isEditor": true,
+      "crowdsourcingEnabled": true
+    }
+  },
+  "event/15022197/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15022197/votes": {
+    "vote": {
+      "vote1": 71,
+      "vote2": 4,
+      "voteX": 1
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 37,
+      "voteNo": 4
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 41,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15022197/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15022197/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15022197/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

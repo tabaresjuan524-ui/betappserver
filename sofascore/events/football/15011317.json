@@ -1,0 +1,380 @@
+{
+  "event/15011317/pregame-form": {
+    "homeTeam": {
+      "position": 11,
+      "value": "0",
+      "form": [
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 12,
+      "value": "-5",
+      "form": [
+        "L",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15011317/incidents": {
+    "incidents": [],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15011317/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "tv/event/15011317/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15011317/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15011317": {
+    "event": {
+      "tournament": {
+        "name": "B EPS Dodekanisou Group 2",
+        "slug": "b-eps-dodekanisou-group-2",
+        "category": {
+          "name": "Greece Amateur",
+          "slug": "greece-amateur",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1625,
+          "country": {
+            "alpha2": "GR",
+            "alpha3": "GRC",
+            "name": "Greece",
+            "slug": "greece"
+          },
+          "flag": "greece",
+          "alpha2": "GR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اليونان هواة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "B EPS Dodekanisou",
+          "slug": "b-eps-dodekanisou",
+          "category": {
+            "name": "Greece Amateur",
+            "slug": "greece-amateur",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1625,
+            "country": {
+              "alpha2": "GR",
+              "alpha3": "GRC",
+              "name": "Greece",
+              "slug": "greece"
+            },
+            "flag": "greece",
+            "alpha2": "GR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "اليونان هواة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 108,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 18209,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "B EPS دوديكانيزو"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group 2",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 96068,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "B EPS دوديكانيزو المجموعة 2"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "B EPS Dodekanisou 25/26",
+        "year": "25/26",
+        "editor": true,
+        "id": 81816
+      },
+      "roundInfo": {
+        "round": 3
+      },
+      "customId": "iTidseZid",
+      "status": {
+        "code": 20,
+        "description": "Started",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Theologos"
+        },
+        "venueCoordinates": {
+          "latitude": 36.378825865158,
+          "longitude": 28.037166576715
+        },
+        "hidden": true,
+        "slug": "gipedo-theologou",
+        "name": "Gipedo Theologou",
+        "capacity": 500,
+        "id": 52434,
+        "country": {
+          "alpha2": "GR",
+          "alpha3": "GRC",
+          "name": "Greece",
+          "slug": "greece"
+        },
+        "stadium": {
+          "name": "Gipedo Theologou",
+          "capacity": 500
+        }
+      },
+      "homeTeam": {
+        "name": "APS Damagitos Theologou",
+        "slug": "aps-damagitos-theologou",
+        "shortName": "Damagitos ",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 10,
+        "venue": {
+          "city": {
+            "name": "Theologos"
+          },
+          "venueCoordinates": {
+            "latitude": 36.378825865158,
+            "longitude": 28.037166576715
+          },
+          "hidden": true,
+          "slug": "gipedo-theologou",
+          "name": "Gipedo Theologou",
+          "capacity": 500,
+          "id": 52434,
+          "country": {
+            "alpha2": "GR",
+            "alpha3": "GRC",
+            "name": "Greece",
+            "slug": "greece"
+          },
+          "stadium": {
+            "name": "Gipedo Theologou",
+            "capacity": 500
+          }
+        },
+        "nameCode": "ADT",
+        "national": false,
+        "type": 0,
+        "id": 397454,
+        "country": {
+          "alpha2": "GR",
+          "alpha3": "GRC",
+          "name": "Greece",
+          "slug": "greece"
+        },
+        "fullName": "APS Damagitos Theologou",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيه بي إس داماجيتوس ثيولوجو"
+          },
+          "shortNameTranslation": {
+            "ar": "داماجيتوس"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "AS Akousilaos Fanon",
+        "slug": "as-akousilaos-fanon",
+        "shortName": "Akousilaos",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 53,
+        "nameCode": "AAF",
+        "national": false,
+        "type": 0,
+        "id": 397158,
+        "country": {
+          "alpha2": "GR",
+          "alpha3": "GRC",
+          "name": "Greece",
+          "slug": "greece"
+        },
+        "fullName": "AS Akousilaos Fanon",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيه. إس أكوسيلوس فانون"
+          },
+          "shortNameTranslation": {
+            "ar": "أكوسيلوس"
+          }
+        },
+        "createdByEditor": true,
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0
+      },
+      "coverage": -1,
+      "time": {},
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.current",
+          "homeScore.display",
+          "awayScore.current",
+          "awayScore.display"
+        ],
+        "changeTimestamp": 1762790401
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": true,
+      "id": 15011317,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "aps-damagitos-theologou-as-akousilaos-fanon",
+      "startTimestamp": 1762790400,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "createdByNickname": "Paulos Skembi",
+      "eventEditorName": "Paulos Skembi",
+      "eventEditor": {
+        "id": "62be352276d99eff75ea27df",
+        "name": "Paulos Skembi"
+      },
+      "showTotoPromo": true,
+      "isEditor": true,
+      "crowdsourcingEnabled": true
+    }
+  },
+  "event/15011317/votes": {
+    "vote": {
+      "vote1": 56,
+      "vote2": 5,
+      "voteX": 6
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 38,
+      "voteNo": 5
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 38,
+      "voteNoGoal": 0,
+      "voteAway": 4
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15011317/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15011317/odds/1/featured": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15011317/sport-video-highlights/country/CO/extended": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/15011317/video-stories/country/CO": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  }
+}

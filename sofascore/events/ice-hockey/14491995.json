@@ -1,0 +1,998 @@
+{
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14491995/h2h": {
+    "teamDuel": {
+      "homeWins": 6,
+      "awayWins": 4,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14491995/managers": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14491995/highlights": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14491995/pregame-form": {
+    "homeTeam": {
+      "position": 6,
+      "value": "29",
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 7,
+      "value": "29",
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "tv/event/14491995/country-channels": {
+    "error": {
+      "code": 404,
+      "message": "Not Found"
+    }
+  },
+  "event/14491995/votes": {
+    "vote": {
+      "vote1": 87,
+      "vote2": 17,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14491995": {
+    "event": {
+      "tournament": {
+        "name": "Extraliga",
+        "slug": "extraliga",
+        "category": {
+          "name": "Belarus",
+          "slug": "belarus",
+          "sport": {
+            "name": "Ice hockey",
+            "slug": "ice-hockey",
+            "id": 4
+          },
+          "id": 275,
+          "country": {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus",
+            "slug": "belarus"
+          },
+          "flag": "belarus",
+          "alpha2": "BY",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيلاروسيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Extraliga",
+          "slug": "extraliga",
+          "primaryColorHex": "#030303",
+          "secondaryColorHex": "#a4a800",
+          "category": {
+            "name": "Belarus",
+            "slug": "belarus",
+            "sport": {
+              "name": "Ice hockey",
+              "slug": "ice-hockey",
+              "id": 4
+            },
+            "id": 275,
+            "country": {
+              "alpha2": "BY",
+              "alpha3": "BLR",
+              "name": "Belarus",
+              "slug": "belarus"
+            },
+            "flag": "belarus",
+            "alpha2": "BY",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيلاروسيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 270,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 1370,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 3023,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Extraliga 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80925
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "hHwsZwW",
+      "status": {
+        "code": 1,
+        "description": "1st period",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "HK Vitebsk",
+        "slug": "hk-vitebsk",
+        "shortName": "Vitebsk",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 229,
+        "manager": {
+          "name": "Yupatov Roman Antonovič",
+          "slug": "yupatov-roman-antonovic",
+          "shortName": "Y. R. Antonovič",
+          "id": 807322,
+          "country": {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus",
+            "slug": "belarus"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يوباتوف رومان أنتونوفيتش"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ر. أنتونوفيتش"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Vitebsk"
+          },
+          "hidden": true,
+          "slug": "viciebsk-ice-sport-palace",
+          "name": "Viciebsk Ice Sport Palace",
+          "capacity": 2000,
+          "id": 13080,
+          "country": {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus",
+            "slug": "belarus"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قصر الرياضات الجليدية فيتسيبسك",
+              "hi": "विसीब्स्क आइस स्पोर्ट पैलेस",
+              "bn": "ভিসিবস্ক আইস স্পোর্টস প্যালেস"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Viciebsk Ice Sport Palace",
+            "capacity": 2000
+          }
+        },
+        "nameCode": "VIT",
+        "national": false,
+        "type": 0,
+        "id": 116099,
+        "country": {
+          "alpha2": "BY",
+          "alpha3": "BLR",
+          "name": "Belarus",
+          "slug": "belarus"
+        },
+        "fullName": "HK Vitebsk",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0069b4",
+          "secondary": "#172a67",
+          "text": "#172a67"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف كيه فيتيبسك",
+            "ru": "ХК Витебск"
+          },
+          "shortNameTranslation": {
+            "ar": "فيتيبسك",
+            "hi": "विटेब्स्क",
+            "bn": "ভিটেবস্ক"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Metallurg Zhlobin",
+        "slug": "metallurg-zhlobin",
+        "shortName": "Zhlobin",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 165,
+        "venue": {
+          "city": {
+            "name": "Zhlobin"
+          },
+          "hidden": true,
+          "slug": "zhlobinskyj-ledovyj-dvorets-sporta",
+          "name": "Zhlobinskyj Ledovyj Dvorets Sporta",
+          "capacity": 2000,
+          "id": 13084,
+          "country": {
+            "alpha2": "BY",
+            "alpha3": "BLR",
+            "name": "Belarus",
+            "slug": "belarus"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قصر الرياضات الجليدية زيلوبينسكي جي ليدوفي دفيورتس سبورتا",
+              "hi": "ज़्लोबिंस्कीज लेडोविज ड्वोरेट्स स्पोर्टा",
+              "bn": "ঝলোবিনস্কিজ লেডোভিজ ডভোরেটস স্পোর্টা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Zhlobinskyj Ledovyj Dvorets Sporta",
+            "capacity": 2000
+          }
+        },
+        "nameCode": "ZHO",
+        "national": false,
+        "type": 0,
+        "id": 54107,
+        "country": {
+          "alpha2": "BY",
+          "alpha3": "BLR",
+          "name": "Belarus",
+          "slug": "belarus"
+        },
+        "fullName": "Metallurg Zhlobin",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#00b3f7",
+          "secondary": "#ee2e35",
+          "text": "#ee2e35"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميتالورغ زهلوبين",
+            "ru": "Металлург Жлобин"
+          },
+          "shortNameTranslation": {
+            "ar": "زهلوبين",
+            "hi": "ज़्लोबिन",
+            "bn": "ঝলোবিন"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "time": {
+        "played": 677,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 3
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762791844
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14491995,
+      "defaultPeriodCount": 3,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "slug": "hk-vitebsk-metallurg-zhlobin",
+      "startTimestamp": 1762790400,
+      "periods": {
+        "current": "Score",
+        "period1": "1st period",
+        "period2": "2nd period",
+        "period3": "3rd period",
+        "overtime": "Overtime",
+        "penalties": "Penalty"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14491995/incidents": {
+    "incidents": [
+      {
+        "text": "1st Period",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      }
+    ]
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 40,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 50,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "betSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  }
+}
