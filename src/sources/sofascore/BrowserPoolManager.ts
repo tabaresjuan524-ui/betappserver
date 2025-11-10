@@ -222,6 +222,9 @@ export class BrowserPoolManager {
                                     return;
                                 }
                                 
+                                // Store in both interceptedData and cache for continuous updates
+                                interceptedData[endpoint] = data;
+                                
                                 // Update cache
                                 const cachedData = this.eventDataCache.get(eventId) || {};
                                 cachedData[endpoint] = data;
@@ -268,7 +271,7 @@ export class BrowserPoolManager {
             }
         }
         
-        return this.getEventData(eventId);
+        return interceptedData;
     }
     
     /**

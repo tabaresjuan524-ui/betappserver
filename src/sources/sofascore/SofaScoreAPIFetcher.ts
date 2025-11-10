@@ -140,26 +140,31 @@ export class SofaScoreAPIFetcher {
      */
     private async fetchLiveEvents(sportName: string): Promise<LiveEventData> {
         try {
-            console.log(`🏃 [SOFASCORE] Fetching live events for ${sportName} via browser...`);
+            console.log(`🏃 [SOFASCORE] Fetching live events for ${sportName}...`);
             
             // Get a browser from the pool
-            const browser = this.browserPool['browsers'][0];
+            const browser = this.browserPool['browsers'][0]; // Use any available browser
             const page = await browser.newPage();
             
             try {
+                // Navigate to the live events API endpoint
                 const response = await page.goto(`${this.apiUrl}/sport/${sportName}/events/live`, {
                     waitUntil: 'networkidle2',
-                    timeout: 30000
+                    timeout: 60000 // Increased timeout
                 });
-                
-                const data = await response!.json();
+
+                if (!response) {
+                    throw new Error('No response received from page.goto');
+                }
+
+                const data = await response.json();
                 console.log(`✅ [SOFASCORE] ${sportName}: ${data.events?.length || 0} live events`);
                 
                 await page.close();
                 return data;
             } catch (error) {
                 await page.close();
-                throw error;
+                throw error; // Re-throw to be caught by outer catch
             }
         } catch (error: any) {
             console.error(`❌ [SOFASCORE] Error fetching live events for ${sportName}:`, error.message);
