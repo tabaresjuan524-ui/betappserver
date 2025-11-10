@@ -1,4 +1,4 @@
-import { Browser, Page } from "puppeteer";
+import { Browser, Page } from "puppeteer-core";
 import { IDataSource } from "../IDataSource";
 import { CombinedData, LiveEvent, Sport } from "../../common/commonTypes";
 import { Live, RootObject } from "./types";

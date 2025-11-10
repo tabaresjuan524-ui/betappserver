@@ -1,4 +1,4 @@
-import { Browser } from 'puppeteer';
+import { Browser } from 'puppeteer-core';
 import { broadcastSubscriptionUpdate, sendImmediateResponse, getWatchedMatches } from '../common/websocketServer';
 import { CombinedData } from '../common/commonTypes';
 import { IDataSource } from './IDataSource';
