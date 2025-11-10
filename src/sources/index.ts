@@ -665,8 +665,9 @@ export const startDataFetching = async (browser: Browser | null) => {
         try {
             const module = await import(`./${name.trim()}`);
             if (name.trim() === 'sofascore') {
-                const sofascoreSource = new module.SofaScoreDataSource(browser);
-                console.log(`✅ [${name}] Data source loaded successfully`);
+                // SofaScore handles its own browser instance
+                const sofascoreSource = new module.SofaScoreDataSource();
+                console.log(`✅ [${name}] Data source loaded successfully (API-based)`);
                 sources.push(sofascoreSource);
             } else {
                 if (module.default) {
