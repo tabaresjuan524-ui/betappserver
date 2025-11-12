@@ -1,0 +1,607 @@
+{
+  "event/14156615/h2h": {
+    "teamDuel": {
+      "homeWins": 4,
+      "awayWins": 6,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14156615/pregame-form": {
+    "homeTeam": {
+      "position": 10,
+      "value": "12",
+      "form": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 11,
+      "value": "12",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14156615/votes": {
+    "vote": {
+      "vote1": 222,
+      "vote2": 151,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14156615/incidents": {
+    "incidents": [
+      {
+        "text": "2nd Period",
+        "homeScore": 3,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 0,
+        "id": 327084086,
+        "time": 22,
+        "timeSeconds": 1289,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1111,
+        "periodTimeSeconds": 89,
+        "incidentType": "goal"
+      },
+      {
+        "text": "1st Period",
+        "homeScore": 2,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 0,
+        "id": 327083533,
+        "time": 18,
+        "timeSeconds": 1048,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 152,
+        "periodTimeSeconds": 1048,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "id": 327083328,
+        "time": 11,
+        "timeSeconds": 648,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 552,
+        "periodTimeSeconds": 648,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14156615/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184452130,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184452132,
+        "suspended": false,
+        "id": 147881697,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304047,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304037,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184452130,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184452132,
+        "suspended": false,
+        "id": 147881697,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304047,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304037,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184452130,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184452132,
+        "suspended": false,
+        "id": 147881697,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304047,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304037,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14156615": {
+    "event": {
+      "tournament": {
+        "name": "AHL",
+        "slug": "ahl",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Ice hockey",
+            "slug": "ice-hockey",
+            "id": 4
+          },
+          "id": 37,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "AHL",
+          "slug": "ahl",
+          "primaryColorHex": "#004990",
+          "secondaryColorHex": "#ef3e42",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Ice hockey",
+              "slug": "ice-hockey",
+              "id": 4
+            },
+            "id": 37,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1696,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 844,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الهوكي الأمريكي",
+              "hi": "एएचएल",
+              "bn": "এএইচএল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 2768,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الهوكي الأمريكي",
+            "hi": "एएचएल",
+            "bn": "এএইচএল"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "AHL 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78213
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "HdtsiFud",
+      "status": {
+        "code": 2,
+        "description": "2nd period",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Coachella Valley Firebirds",
+        "slug": "coachella-valley-firebirds",
+        "shortName": "Coachella Valley",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 507,
+        "venue": {
+          "city": {
+            "name": "Palm Desert"
+          },
+          "hidden": true,
+          "slug": "acrisure-arena",
+          "name": "Acrisure Arena",
+          "capacity": 11000,
+          "id": 43426,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أكريشور أرينا",
+              "hi": "एक्रिस्योर एरिना",
+              "bn": "অ্যাক্রিসার এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Acrisure Arena",
+            "capacity": 11000
+          }
+        },
+        "nameCode": "COA",
+        "national": false,
+        "type": 0,
+        "id": 424008,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Coachella Valley Firebirds",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كواتشيلا فالي فايربيردز"
+          },
+          "shortNameTranslation": {
+            "ar": "كواتشيلا فالي"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bakersfield Condors",
+        "slug": "bakersfield-condors",
+        "shortName": "Bakersfield",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 215,
+        "venue": {
+          "city": {
+            "name": "Bakersfield, California"
+          },
+          "hidden": true,
+          "slug": "mechanics-bank-arena",
+          "name": "Mechanics Bank Arena",
+          "capacity": 10400,
+          "id": 28120,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا بنك الميكانيكا",
+              "hi": "मैकेनिक्स बैंक एरिना",
+              "bn": "মেকানিক্স ব্যাংক এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Mechanics Bank Arena",
+            "capacity": 10400
+          }
+        },
+        "nameCode": "BAC",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 45182,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Bakersfield Condors",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#152342",
+          "secondary": "#df4e10",
+          "text": "#df4e10"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باكرسفيلد كوندورز",
+            "ru": "Бейкерсфилд Кондорс"
+          },
+          "shortNameTranslation": {
+            "ar": "باكرسفيلد"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 2,
+        "period2": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "time": {
+        "played": 1466,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 3,
+        "currentPeriodStartTimestamp": 1762918603
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762918983
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14156615,
+      "defaultPeriodCount": 3,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "slug": "coachella-valley-firebirds-bakersfield-condors",
+      "currentPeriodStartTimestamp": 1762918603,
+      "startTimestamp": 1762914600,
+      "periods": {
+        "current": "Score",
+        "period1": "1st period",
+        "period2": "2nd period",
+        "period3": "3rd period",
+        "overtime": "Overtime",
+        "penalties": "Penalty"
+      },
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14156615/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "19/20",
+      "expected": 51,
+      "actual": 54,
+      "id": 18017053
+    },
+    "away": {
+      "fractionalValue": "4/5",
+      "expected": 56,
+      "actual": 54,
+      "id": 18017054
+    }
+  },
+  "event/14156615/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184552187,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184552187,
+        "suspended": true,
+        "id": 150647249,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "1/14",
+            "sourceId": 2081490992,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "15/2",
+            "sourceId": 2081490989,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184452130,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184452132,
+        "suspended": false,
+        "id": 147881697,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304047,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "87/100",
+            "sourceId": 2068304037,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184552187,
+        "structureType": 2,
+        "marketId": 9,
+        "marketName": "Match goals",
+        "choiceGroup": "6.5",
+        "isLive": true,
+        "fid": 184552187,
+        "suspended": true,
+        "id": 150649419,
+        "marketGroup": "Match goals",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/13",
+            "fractionalValue": "10/17",
+            "sourceId": 2081490987,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "7/5",
+            "sourceId": 2081490988,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14156615
+  }
+}

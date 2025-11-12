@@ -1,0 +1,535 @@
+{
+  "event/15022035/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15022035/votes": {
+    "vote": {
+      "vote1": 52,
+      "vote2": 56,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15022035/point-by-point": {
+    "pointByPoint": [
+      {
+        "set": 1,
+        "games": [
+          {
+            "game": 1,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 0,
+              "serving": 2,
+              "scoring": -1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "event/15022035": {
+    "event": {
+      "firstToServe": 2,
+      "awayTeamSeed": "2",
+      "tournament": {
+        "name": "Brisbane 3, Australia, Doubles",
+        "slug": "brisbane-3-australia-doubles",
+        "category": {
+          "name": "Challenger",
+          "slug": "challenger",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "id": 72,
+          "country": {},
+          "flag": "challenger",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تحدي (تنس)",
+              "hi": "डेनमार्क",
+              "bn": "চ্যালেঞ্জার"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "ATP Challenger Brisbane 3, Australia Men Doubles",
+          "slug": "atp-challenger-brisbane-3-australia-men-doubles",
+          "category": {
+            "name": "Challenger",
+            "slug": "challenger",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "id": 72,
+            "country": {},
+            "flag": "challenger",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تحدي (تنس)",
+                "hi": "डेनमार्क",
+                "bn": "চ্যালেঞ্জার"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 5,
+          "groundType": "Hardcourt outdoor",
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 30704,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168185,
+        "endTimestamp": 1763164800,
+        "startTimestamp": 1762732800
+      },
+      "season": {
+        "name": "ATP Challenger Brisbane 3, Australia Men Doubles 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85829
+      },
+      "roundInfo": {
+        "round": 5,
+        "name": "Round of 16",
+        "slug": "round-of-16",
+        "cupRoundType": 8
+      },
+      "customId": "OLwhsroRi",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Brisbane"
+        },
+        "hidden": true,
+        "slug": "show-court-1",
+        "name": "Show Court 1",
+        "id": 42929,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب العرض 1",
+            "hi": "शो कोर्ट 1",
+            "bn": "শো কোর্ট 1"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Show Court 1"
+        }
+      },
+      "homeTeam": {
+        "name": "Shah A / Singh K",
+        "slug": "shah-a-singh-k",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 1,
+        "nameCode": "S/S",
+        "national": false,
+        "type": 2,
+        "id": 929339,
+        "country": {},
+        "fullName": "Shah A / Singh K",
+        "subTeams": [
+          {
+            "name": "Aryan Shah",
+            "slug": "shah-aryan",
+            "shortName": "A. Shah",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 580,
+            "playerTeamInfo": {
+              "birthplace": "Bhuj",
+              "height": 1.73,
+              "weight": 78,
+              "plays": "right-handed",
+              "prizeCurrent": 28387,
+              "prizeTotal": 46357,
+              "id": 13303,
+              "birthDateTimestamp": 1132531200,
+              "prizeCurrentRaw": {
+                "value": 28387,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 46357,
+                "currency": "EUR"
+              },
+              "currentRanking": 386
+            },
+            "nameCode": "SHA",
+            "ranking": 386,
+            "national": false,
+            "type": 1,
+            "id": 422712,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "fullName": "Aryan Shah",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أريان شاه"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. شاه"
+              }
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Karan Singh",
+            "slug": "singh-karan",
+            "shortName": "K. Singh",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 309,
+            "playerTeamInfo": {
+              "birthplace": "Karnal,Haryana",
+              "height": 1.85,
+              "weight": 81,
+              "plays": "right-handed",
+              "prizeCurrent": 22181,
+              "prizeTotal": 63149,
+              "id": 5421,
+              "birthDateTimestamp": 1056931200,
+              "prizeCurrentRaw": {
+                "value": 22181,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 63149,
+                "currency": "EUR"
+              },
+              "currentRanking": 456
+            },
+            "nameCode": "SIN",
+            "ranking": 456,
+            "disabled": false,
+            "national": false,
+            "type": 1,
+            "id": 378554,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "fullName": "Karan Singh",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاران سينغ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. سينغ"
+              }
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شاه أ / سينغ ك"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Chandrasekar A / Stalder R",
+        "slug": "chandrasekar-a-stalder-r",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 21,
+        "nameCode": "C/S",
+        "national": false,
+        "type": 2,
+        "id": 1105717,
+        "country": {},
+        "fullName": "Chandrasekar A / Stalder R",
+        "subTeams": [
+          {
+            "name": "Anirudh Chandrasekar",
+            "slug": "chandrasekar-anirudh",
+            "shortName": "A. Chandrasekar",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 103,
+            "playerTeamInfo": {
+              "residence": "Hyderabad,India",
+              "birthplace": "Chennai, India",
+              "height": 1.8,
+              "weight": 74,
+              "plays": "left-handed",
+              "prizeCurrent": 408,
+              "prizeTotal": 25368,
+              "id": 2642,
+              "birthDateTimestamp": 900115200,
+              "prizeCurrentRaw": {
+                "value": 408,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 25368,
+                "currency": "EUR"
+              }
+            },
+            "nameCode": "CHA",
+            "national": false,
+            "type": 1,
+            "id": 198707,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "fullName": "Anirudh Chandrasekar",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أنيرود تشاندراسيكار",
+                "ru": "Чандрасекар, Анирудх"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تشاندراسيكار"
+              }
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Reese Stalder",
+            "slug": "stalder-reese",
+            "shortName": "R. Stalder",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 74,
+            "playerTeamInfo": {
+              "residence": "Costa Mesa, CA, USA",
+              "birthplace": "Newport Beach, CA, USA",
+              "height": 1.83,
+              "weight": 77,
+              "plays": "right-handed",
+              "prizeCurrent": 2284,
+              "prizeTotal": 250132,
+              "id": 2491,
+              "birthDateTimestamp": 847756800,
+              "prizeCurrentRaw": {
+                "value": 2284,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 250132,
+                "currency": "EUR"
+              },
+              "currentRanking": 1259
+            },
+            "nameCode": "STA",
+            "ranking": 1498,
+            "national": false,
+            "type": 1,
+            "id": 187719,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "fullName": "Reese Stalder",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريس ستالدر"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. ستالدر"
+              }
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تشاندراسيكار أ / ستالدر ر"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "point": "30"
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "point": "40"
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762918888
+      },
+      "changes": {
+        "changes": [
+          "awayScore.point"
+        ],
+        "changeTimestamp": 1762919018
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15022035,
+      "defaultPeriodCount": 3,
+      "slug": "chandrasekar-stalder-shah-singh",
+      "currentPeriodStartTimestamp": 1762918888,
+      "startTimestamp": 1762918500,
+      "periods": {
+        "point": "Game",
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "groundType": "Hardcourt outdoor",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15022035/tennis-power": {
+    "tennisPowerRankings": []
+  }
+}

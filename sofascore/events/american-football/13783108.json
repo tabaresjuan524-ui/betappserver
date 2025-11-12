@@ -1,6 +1,384 @@
 {
+  "event/13783108/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "348",
+      "label": "yds",
+      "player": {
+        "name": "Ben Finley",
+        "slug": "finley-ben",
+        "shortName": "B. Finley",
+        "position": "QB",
+        "jerseyNumber": "10",
+        "height": 191,
+        "userCount": 8,
+        "gender": "M",
+        "id": 1453574,
+        "marketValueCurrency": "EUR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فينلي، بن"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فينلي"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "292",
+      "label": "yds",
+      "player": {
+        "name": "Dru DeShields",
+        "slug": "deshields-dru",
+        "shortName": "D. DeShields",
+        "position": "QB",
+        "jerseyNumber": "12",
+        "height": 191,
+        "userCount": 0,
+        "gender": "M",
+        "id": 1727754,
+        "marketValueCurrency": "EUR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دي شيلدز، درو"
+          },
+          "shortNameTranslation": {
+            "ar": "د. دي شيلدز"
+          }
+        }
+      }
+    }
+  },
   "event/13783108/incidents": {
     "incidents": [
+      {
+        "text": "4th quarter",
+        "homeScore": 27,
+        "awayScore": 35,
+        "isLive": true,
+        "time": 60,
+        "addedTime": 999,
+        "timeSeconds": 3600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 900,
+        "incidentType": "period"
+      },
+      {
+        "from": "fg",
+        "homeScore": 27,
+        "awayScore": 35,
+        "player": {
+          "name": "Matthew Schramm",
+          "slug": "schramm-matthew",
+          "shortName": "M. Schramm",
+          "position": "K",
+          "jerseyNumber": "47",
+          "height": 175,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1918215,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شرام، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. شرام"
+            }
+          }
+        },
+        "id": 327083989,
+        "time": 53,
+        "timeSeconds": 3168,
+        "isHome": true,
+        "incidentClass": "fieldGoal",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 432,
+        "periodTimeSeconds": 468,
+        "incidentType": "goal"
+      },
+      {
+        "from": "ep",
+        "homeScore": 24,
+        "awayScore": 35,
+        "player": {
+          "name": "Matthew Schramm",
+          "slug": "schramm-matthew",
+          "shortName": "M. Schramm",
+          "position": "K",
+          "jerseyNumber": "47",
+          "height": 175,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1918215,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شرام، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. شرام"
+            }
+          }
+        },
+        "id": 327083748,
+        "time": 50,
+        "timeSeconds": 2947,
+        "isHome": true,
+        "incidentClass": "extraPoint",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 653,
+        "periodTimeSeconds": 247,
+        "incidentType": "goal"
+      },
+      {
+        "from": "td",
+        "homeScore": 23,
+        "awayScore": 35,
+        "player": {
+          "name": "Marcel Williams",
+          "slug": "williams-marcel",
+          "shortName": "M. Williams",
+          "position": "WR",
+          "height": 180,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1943444,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويليامز، مارسيل"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ويليامز"
+            }
+          }
+        },
+        "id": 327083747,
+        "time": 50,
+        "timeSeconds": 2947,
+        "isHome": true,
+        "incidentClass": "touchdown",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 653,
+        "periodTimeSeconds": 247,
+        "incidentType": "goal"
+      },
+      {
+        "from": "ep",
+        "homeScore": 17,
+        "awayScore": 35,
+        "player": {
+          "name": "Will Hryszko",
+          "slug": "hryszko-will",
+          "shortName": "W. Hryszko",
+          "position": "K",
+          "jerseyNumber": "47",
+          "height": 178,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1543192,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هريزكو، ويل"
+            },
+            "shortNameTranslation": {
+              "ar": "و. هريزكو"
+            }
+          }
+        },
+        "id": 327083521,
+        "time": 46,
+        "timeSeconds": 2756,
+        "isHome": false,
+        "incidentClass": "extraPoint",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 844,
+        "periodTimeSeconds": 56,
+        "incidentType": "goal"
+      },
+      {
+        "from": "td",
+        "homeScore": 17,
+        "awayScore": 34,
+        "player": {
+          "name": "Da'Shawn Martin",
+          "slug": "martin-dashawn",
+          "shortName": "D. Martin",
+          "position": "ATH",
+          "height": 188,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1846442,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتن، دا شون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. مارتن"
+            }
+          }
+        },
+        "id": 327083520,
+        "time": 46,
+        "timeSeconds": 2756,
+        "isHome": false,
+        "incidentClass": "touchdown",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 844,
+        "periodTimeSeconds": 56,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q3",
+        "homeScore": 17,
+        "awayScore": 28,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 900,
+        "incidentType": "period"
+      },
+      {
+        "from": "ep",
+        "homeScore": 17,
+        "awayScore": 28,
+        "player": {
+          "name": "Will Hryszko",
+          "slug": "hryszko-will",
+          "shortName": "W. Hryszko",
+          "position": "K",
+          "jerseyNumber": "47",
+          "height": 178,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1543192,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هريزكو، ويل"
+            },
+            "shortNameTranslation": {
+              "ar": "و. هريزكو"
+            }
+          }
+        },
+        "id": 327082921,
+        "time": 39,
+        "timeSeconds": 2322,
+        "isHome": false,
+        "incidentClass": "extraPoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 378,
+        "periodTimeSeconds": 522,
+        "incidentType": "goal"
+      },
+      {
+        "from": "td",
+        "homeScore": 17,
+        "awayScore": 27,
+        "player": {
+          "name": "Terik Mulder",
+          "slug": "mulder-terik",
+          "shortName": "T. Mulder",
+          "position": "TE",
+          "jerseyNumber": "89",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1533487,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مولدر، تيريك"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. مولدر"
+            }
+          }
+        },
+        "id": 327082920,
+        "time": 39,
+        "timeSeconds": 2322,
+        "isHome": false,
+        "incidentClass": "touchdown",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 378,
+        "periodTimeSeconds": 522,
+        "incidentType": "goal"
+      },
+      {
+        "from": "ep",
+        "homeScore": 17,
+        "awayScore": 21,
+        "player": {
+          "name": "Will Hryszko",
+          "slug": "hryszko-will",
+          "shortName": "W. Hryszko",
+          "position": "K",
+          "jerseyNumber": "47",
+          "height": 178,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1543192,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هريزكو، ويل"
+            },
+            "shortNameTranslation": {
+              "ar": "و. هريزكو"
+            }
+          }
+        },
+        "id": 327082630,
+        "time": 37,
+        "timeSeconds": 2168,
+        "isHome": false,
+        "incidentClass": "extraPoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 532,
+        "periodTimeSeconds": 368,
+        "incidentType": "goal"
+      },
+      {
+        "from": "td",
+        "homeScore": 17,
+        "awayScore": 20,
+        "player": {
+          "name": "Cade Wolford",
+          "slug": "wolford-cade",
+          "shortName": "C. Wolford",
+          "height": 178,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1846448,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وولفورد، كايد"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. وولفورد"
+            }
+          }
+        },
+        "id": 327082588,
+        "time": 37,
+        "timeSeconds": 2168,
+        "isHome": false,
+        "incidentClass": "touchdown",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 532,
+        "periodTimeSeconds": 368,
+        "incidentType": "goal"
+      },
       {
         "text": "Q2",
         "homeScore": 17,
@@ -333,56 +711,6 @@
       }
     ]
   },
-  "event/13783108/best-players": {
-    "bestHomeTeamPlayer": {
-      "value": "235",
-      "label": "yds",
-      "player": {
-        "name": "Ben Finley",
-        "slug": "finley-ben",
-        "shortName": "B. Finley",
-        "position": "QB",
-        "jerseyNumber": "10",
-        "height": 191,
-        "userCount": 8,
-        "gender": "M",
-        "id": 1453574,
-        "marketValueCurrency": "EUR",
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "فينلي، بن"
-          },
-          "shortNameTranslation": {
-            "ar": "ب. فينلي"
-          }
-        }
-      }
-    },
-    "bestAwayTeamPlayer": {
-      "value": "171",
-      "label": "yds",
-      "player": {
-        "name": "Dru DeShields",
-        "slug": "deshields-dru",
-        "shortName": "D. DeShields",
-        "position": "QB",
-        "jerseyNumber": "12",
-        "height": 191,
-        "userCount": 0,
-        "gender": "M",
-        "id": 1727754,
-        "marketValueCurrency": "EUR",
-        "fieldTranslations": {
-          "nameTranslation": {
-            "ar": "دي شيلدز، درو"
-          },
-          "shortNameTranslation": {
-            "ar": "د. دي شيلدز"
-          }
-        }
-      }
-    }
-  },
   "event/13783108/h2h": {
     "teamDuel": {
       "homeWins": 6,
@@ -410,6 +738,95 @@
       "vote1": 0,
       "vote2": 0
     }
+  },
+  "event/13783108/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184468500,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184468502,
+        "suspended": false,
+        "id": 148019495,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "27/50",
+            "fractionalValue": "33/100",
+            "sourceId": 2070488625,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "31/20",
+            "fractionalValue": "49/20",
+            "sourceId": 2070488624,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184468500,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184468502,
+        "suspended": false,
+        "id": 148019495,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "27/50",
+            "fractionalValue": "33/100",
+            "sourceId": 2070488625,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "31/20",
+            "fractionalValue": "49/20",
+            "sourceId": 2070488624,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184468500,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184468502,
+        "suspended": false,
+        "id": 148019495,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "27/50",
+            "fractionalValue": "33/100",
+            "sourceId": 2070488625,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "31/20",
+            "fractionalValue": "49/20",
+            "sourceId": 2070488624,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
   },
   "event/13783108": {
     "event": {
@@ -507,8 +924,8 @@
       },
       "customId": "yLbsdMb",
       "status": {
-        "code": 31,
-        "description": "Halftime",
+        "code": 16,
+        "description": "4th quarter",
         "type": "inprogress"
       },
       "homeTeam": {
@@ -584,30 +1001,32 @@
         "timeActive": []
       },
       "homeScore": {
-        "current": 17,
-        "display": 17,
+        "current": 27,
+        "display": 27,
         "period1": 3,
-        "period2": 14
+        "period2": 14,
+        "period3": 0,
+        "period4": 10
       },
       "awayScore": {
-        "current": 14,
-        "display": 14,
+        "current": 35,
+        "display": 35,
         "period1": 7,
-        "period2": 7
+        "period2": 7,
+        "period3": 14,
+        "period4": 7
       },
       "time": {
-        "played": 1800,
+        "played": 3303,
         "periodLength": 900,
         "overtimeLength": 600,
         "totalPeriodCount": 4
       },
       "changes": {
         "changes": [
-          "status.code",
-          "status.description",
           "time.played"
         ],
-        "changeTimestamp": 1762913000
+        "changeTimestamp": 1762918993
       },
       "hasGlobalHighlights": false,
       "hasEventPlayerStatistics": true,
@@ -626,100 +1045,12 @@
         "period4": "4th quarter",
         "overtime": "Overtime"
       },
+      "lastPeriod": "period4",
       "finalResultOnly": false,
       "feedLocked": false,
       "showTotoPromo": true,
       "isEditor": false
     }
-  },
-  "event/13783108/odds/1/featured": {
-    "featured": {
-      "default": {
-        "sourceId": 184547948,
-        "structureType": 1,
-        "marketId": 1,
-        "marketName": "Full time",
-        "isLive": true,
-        "fid": 184547948,
-        "suspended": false,
-        "id": 150508778,
-        "marketGroup": "Home/Away",
-        "marketPeriod": "Match",
-        "choices": [
-          {
-            "initialFractionalValue": "9/4",
-            "fractionalValue": "1/4",
-            "sourceId": 2081009157,
-            "name": "1",
-            "change": -1
-          },
-          {
-            "initialFractionalValue": "1/3",
-            "fractionalValue": "3/1",
-            "sourceId": 2081009139,
-            "name": "2",
-            "change": 1
-          }
-        ]
-      },
-      "asian": {
-        "sourceId": 184547948,
-        "structureType": 1,
-        "marketId": 1,
-        "marketName": "Full time",
-        "isLive": true,
-        "fid": 184547948,
-        "suspended": false,
-        "id": 150508778,
-        "marketGroup": "Home/Away",
-        "marketPeriod": "Match",
-        "choices": [
-          {
-            "initialFractionalValue": "9/4",
-            "fractionalValue": "1/4",
-            "sourceId": 2081009157,
-            "name": "1",
-            "change": -1
-          },
-          {
-            "initialFractionalValue": "1/3",
-            "fractionalValue": "3/1",
-            "sourceId": 2081009139,
-            "name": "2",
-            "change": 1
-          }
-        ]
-      },
-      "fullTime": {
-        "sourceId": 184547948,
-        "structureType": 1,
-        "marketId": 1,
-        "marketName": "Full time",
-        "isLive": true,
-        "fid": 184547948,
-        "suspended": false,
-        "id": 150508778,
-        "marketGroup": "Home/Away",
-        "marketPeriod": "Match",
-        "choices": [
-          {
-            "initialFractionalValue": "9/4",
-            "fractionalValue": "1/4",
-            "sourceId": 2081009157,
-            "name": "1",
-            "change": -1
-          },
-          {
-            "initialFractionalValue": "1/3",
-            "fractionalValue": "3/1",
-            "sourceId": 2081009139,
-            "name": "2",
-            "change": 1
-          }
-        ]
-      }
-    },
-    "hasMoreOdds": false
   },
   "event/13783108/graph": {
     "graphPoints": [
@@ -842,6 +1173,110 @@
       {
         "minute": 30,
         "value": 3
+      },
+      {
+        "minute": 31,
+        "value": 3
+      },
+      {
+        "minute": 32,
+        "value": 3
+      },
+      {
+        "minute": 33,
+        "value": 3
+      },
+      {
+        "minute": 34,
+        "value": 3
+      },
+      {
+        "minute": 35,
+        "value": 3
+      },
+      {
+        "minute": 36,
+        "value": 3
+      },
+      {
+        "minute": 37,
+        "value": -4
+      },
+      {
+        "minute": 38,
+        "value": -4
+      },
+      {
+        "minute": 39,
+        "value": -11
+      },
+      {
+        "minute": 40,
+        "value": -11
+      },
+      {
+        "minute": 41,
+        "value": -11
+      },
+      {
+        "minute": 42,
+        "value": -11
+      },
+      {
+        "minute": 43,
+        "value": -11
+      },
+      {
+        "minute": 44,
+        "value": -11
+      },
+      {
+        "minute": 45,
+        "value": -11
+      },
+      {
+        "minute": 46,
+        "value": -18
+      },
+      {
+        "minute": 47,
+        "value": -18
+      },
+      {
+        "minute": 48,
+        "value": -18
+      },
+      {
+        "minute": 49,
+        "value": -18
+      },
+      {
+        "minute": 50,
+        "value": -11
+      },
+      {
+        "minute": 51,
+        "value": -11
+      },
+      {
+        "minute": 52,
+        "value": -11
+      },
+      {
+        "minute": 53,
+        "value": -8
+      },
+      {
+        "minute": 54,
+        "value": -8
+      },
+      {
+        "minute": 55,
+        "value": -8
+      },
+      {
+        "minute": 56,
+        "value": -8
       }
     ],
     "periodTime": 15,
@@ -857,24 +1292,24 @@
         "marketName": "Full time",
         "isLive": true,
         "fid": 184547948,
-        "suspended": false,
+        "suspended": true,
         "id": 150508778,
         "marketGroup": "Home/Away",
         "marketPeriod": "Match",
         "choices": [
           {
-            "initialFractionalValue": "9/4",
-            "fractionalValue": "1/4",
+            "initialFractionalValue": "1/3",
+            "fractionalValue": "12/1",
             "sourceId": 2081009157,
             "name": "1",
-            "change": -1
+            "change": 1
           },
           {
-            "initialFractionalValue": "1/3",
-            "fractionalValue": "3/1",
+            "initialFractionalValue": "9/4",
+            "fractionalValue": "1/30",
             "sourceId": 2081009139,
             "name": "2",
-            "change": 1
+            "change": -1
           }
         ]
       },
