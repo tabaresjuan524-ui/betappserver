@@ -537,9 +537,24 @@ const getSportSpecificLiveEvents = async (): Promise<CombinedData | null> => {
         }
 
         // Transform consolidated events
+        // IMPORTANT: Deduplicate events by NodeId to prevent duplicates when events appear in multiple sports
+        const uniqueEventsMap = new Map<string, NewCodereEvent>();
+        allSportEvents.forEach(event => {
+            if (!uniqueEventsMap.has(event.NodeId)) {
+                uniqueEventsMap.set(event.NodeId, event);
+            }
+        });
+        
+        const uniqueEvents = Array.from(uniqueEventsMap.values());
+        const duplicatesRemoved = allSportEvents.length - uniqueEvents.length;
+        
+        if (duplicatesRemoved > 0) {
+            console.log(`🔄 Removed ${duplicatesRemoved} duplicate event(s) from consolidated data`);
+        }
+        
         const consolidatedResponse: CodereLiveEventsResponse = {
             SportHandleList: allSportHandles,
-            Events: allSportEvents
+            Events: uniqueEvents
         };
 
         const transformedData = transformNewData(consolidatedResponse);
