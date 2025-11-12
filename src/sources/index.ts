@@ -148,28 +148,45 @@ const updateCodereDataStructure = (dataType: 'leagues' | 'leagueEvents', data: a
 
 // Set up event listeners for WebSocket actions with consolidated batching approach
 appEmitter.on('subscribeLeagues', (nodeId: string, clientId: string) => {
-    // Use callback that updates data structure and queues for batching
-    const callback = (data: any) => {
-        updateCodereDataStructure('leagues', data, nodeId);
-        // Queue league-specific update for batching
-        broadcastSubscriptionUpdate(`leagues_${nodeId}`, {
-            type: 'leagues',
-            nodeId: nodeId,
-            data: data
-        });
-        console.log(`📦 Queued leagues update for sport ${nodeId}`);
-    };
-    
-    const leagues = subscribeToLeagues(nodeId, clientId, callback);
-    if (leagues) {
-        updateCodereDataStructure('leagues', leagues, nodeId);
-        // Queue immediate data if available
-        broadcastSubscriptionUpdate(`leagues_${nodeId}`, {
-            type: 'leagues',
-            nodeId: nodeId,
-            data: leagues
-        });
-        console.log(`📦 Queued immediate leagues data for sport ${nodeId}`);
+    try {
+        console.log(`🔔 subscribeLeagues event received - nodeId: ${nodeId}, clientId: ${clientId}`);
+        const startTime = Date.now();
+        
+        // Use callback that updates data structure and queues for batching
+        const callback = (data: any) => {
+            try {
+                updateCodereDataStructure('leagues', data, nodeId);
+                // Queue league-specific update for batching
+                broadcastSubscriptionUpdate(`leagues_${nodeId}`, {
+                    type: 'leagues',
+                    nodeId: nodeId,
+                    data: data
+                });
+                console.log(`📦 Queued leagues update for sport ${nodeId}`);
+            } catch (callbackError) {
+                console.error(`❌ Error in subscribeLeagues callback for nodeId ${nodeId}:`, callbackError);
+            }
+        };
+        
+        const leagues = subscribeToLeagues(nodeId, clientId, callback);
+        const duration = Date.now() - startTime;
+        console.log(`⏱️ subscribeToLeagues completed in ${duration}ms for nodeId ${nodeId}`);
+        
+        if (leagues) {
+            updateCodereDataStructure('leagues', leagues, nodeId);
+            // Queue immediate data if available
+            broadcastSubscriptionUpdate(`leagues_${nodeId}`, {
+                type: 'leagues',
+                nodeId: nodeId,
+                data: leagues
+            });
+            console.log(`📦 Queued immediate leagues data for sport ${nodeId} (${leagues.countries?.length || 0} countries)`);
+        } else {
+            console.warn(`⚠️ subscribeToLeagues returned null/undefined for nodeId ${nodeId}`);
+        }
+    } catch (error) {
+        console.error(`❌ FATAL ERROR in subscribeLeagues event handler for nodeId ${nodeId}:`, error);
+        console.error('Error stack:', error instanceof Error ? error.stack : 'No stack trace');
     }
 });
 

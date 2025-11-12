@@ -51,6 +51,21 @@ const sendBatchedUpdate = () => {
         ...data 
     }));
 
+    // 🔍 DEBUG: Log subscription updates structure
+    if (subscriptionUpdates.length > 0) {
+        console.log(`\n🔍 [SUBSCRIPTION DEBUG] Processing ${subscriptionUpdates.length} subscription updates:`);
+        subscriptionUpdates.forEach((update, index) => {
+            console.log(`   Update ${index + 1}:`, {
+                subscriptionKey: update.subscriptionKey,
+                type: update.type,
+                hasNodeId: !!update.nodeId,
+                hasLeagueNodeId: !!update.leagueNodeId,
+                hasData: !!update.data,
+                dataKeys: update.data ? Object.keys(update.data).slice(0, 5) : []
+            });
+        });
+    }
+
     // Consolidate all queued updates
     const consolidatedData: any = {
         timestamp: Date.now(),
@@ -173,7 +188,13 @@ export const initializeWebSocketServer = (port: number) => {
                     }
                 } else if (data.action === 'getLeagues' && data.nodeId) {
                     // Subscribe to leagues data with automatic caching
-                    appEmitter.emit('subscribeLeagues', data.nodeId, clientId);
+                    console.log(`🏀 getLeagues request for nodeId: ${data.nodeId} from ${clientId}`);
+                    try {
+                        appEmitter.emit('subscribeLeagues', data.nodeId, clientId);
+                        console.log(`✅ subscribeLeagues event emitted successfully for ${data.nodeId}`);
+                    } catch (emitError) {
+                        console.error(`❌ Error emitting subscribeLeagues event for ${data.nodeId}:`, emitError);
+                    }
                 } else if (data.action === 'getLeagueEvents' && data.leagueNodeId) {
                     // Subscribe to league events data with automatic caching
                     appEmitter.emit('subscribeLeagueEvents', data.leagueNodeId, clientId, ws);

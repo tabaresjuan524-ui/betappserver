@@ -587,11 +587,17 @@ const getSportSpecificLiveEvents = async (): Promise<CombinedData | null> => {
  * @returns The cached submenu data or null if not available.
  */
 export const subscribeToLeagues = (nodeId: string, clientId: string, callback?: (data: CodereSubmenu | null) => void): CodereSubmenu | null => {
+    console.log(`🎯 subscribeToLeagues START - nodeId: ${nodeId}, clientId: ${clientId}`);
+    const functionStartTime = Date.now();
+    
     const endpoint = `leagues_${nodeId}`;
 
     const fetcher = async (): Promise<CodereSubmenu | null> => {
+        const fetcherStartTime = Date.now();
+        console.log(`🌐 Fetcher START for nodeId ${nodeId}`);
         try {
             if (process.env.USE_MOCK_DATA === 'true') {
+                console.log(`✅ Using mock data for nodeId ${nodeId}`);
                 return mockSubmenuData as CodereSubmenu;
             }
             const requestUrl = `${URLS.submenu}${nodeId}`;
@@ -599,15 +605,36 @@ export const subscribeToLeagues = (nodeId: string, clientId: string, callback?: 
             const response = await axios.get(requestUrl);
             const requestDuration = Date.now() - startTime;
             logHttpResponse(response.status, requestDuration, requestUrl, requestId);
-            return response.data as CodereSubmenu;
+            
+            const fetcherDuration = Date.now() - fetcherStartTime;
+            console.log(`✅ Fetcher COMPLETE for nodeId ${nodeId} in ${fetcherDuration}ms`);
+            
+            const data = response.data as CodereSubmenu;
+            console.log(`📊 Leagues data size: ${data?.countries?.length || 0} countries`);
+            return data;
         } catch (error) {
-            console.error(`Error fetching leagues for nodeId ${nodeId}:`, error);
+            const fetcherDuration = Date.now() - fetcherStartTime;
+            console.error(`❌ Fetcher ERROR for nodeId ${nodeId} after ${fetcherDuration}ms:`, error);
+            if (axios.isAxiosError(error)) {
+                console.error(`  → Axios error details: ${error.code}, ${error.message}`);
+                console.error(`  → Response status: ${error.response?.status}`);
+            }
             return null;
         }
     };
 
-    // Use longer cache duration for menu data to reduce flickering (10 minutes)
-    return cacheManager.subscribe(endpoint, clientId, fetcher, callback, 600000);
+    try {
+        // Use longer cache duration for menu data to reduce flickering (10 minutes)
+        const result = cacheManager.subscribe(endpoint, clientId, fetcher, callback, 600000);
+        const functionDuration = Date.now() - functionStartTime;
+        console.log(`✅ subscribeToLeagues COMPLETE in ${functionDuration}ms - nodeId: ${nodeId}, has result: ${!!result}`);
+        return result;
+    } catch (error) {
+        const functionDuration = Date.now() - functionStartTime;
+        console.error(`❌ FATAL ERROR in subscribeToLeagues after ${functionDuration}ms - nodeId: ${nodeId}:`, error);
+        console.error('Error stack:', error instanceof Error ? error.stack : 'No stack trace');
+        throw error; // Re-throw to let caller handle it
+    }
 };
 
 /**
