@@ -18,3 +18,22 @@ yarn-debug.log*
 yarn-error.log*
 logs/
 *.log
+
+# Mock data files
+*mock*.json
+*mock*.ts
+*mock*.js
+mock-data/
+
+# Demo data
+demo-data/
+
+# SofaScore data files
+sofascore/
+sofascore-*.json
+
+# Test files
+test-*.js
+test-*.ts
+test-*.html
+*-test-*.json
