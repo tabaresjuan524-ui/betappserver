@@ -46,6 +46,33 @@ interface ConsolidatedData {
 /**
  * SofaScore API Fetcher V2 - Uses Browser Pool for scalable event monitoring
  * Supports 100+ concurrent live events with multiple browser instances
+ * 
+ * CONFIGURATION OPTIONS:
+ * ---------------------
+ * 1. MAX_EVENTS_PER_SPORT: Limits number of events fetched per sport
+ *    - Set to 0 for unlimited
+ *    - Set to 5-10 for testing to prevent memory issues
+ * 
+ * 2. SPORT_FILTER: Filter which sports to fetch (useful for testing)
+ *    - 'all' = Fetch all sports with live events (default)
+ *    - 'football' = Only fetch football events
+ *    - 'basketball' = Only fetch basketball events
+ *    - 'tennis' = Only fetch tennis events
+ *    - Any valid sport slug from SofaScore
+ * 
+ * EXAMPLES:
+ * ---------
+ * // Test only basketball with 5 events max:
+ * MAX_EVENTS_PER_SPORT = 5
+ * SPORT_FILTER = 'basketball'
+ * 
+ * // Fetch all sports unlimited:
+ * MAX_EVENTS_PER_SPORT = 0
+ * SPORT_FILTER = 'all'
+ * 
+ * // Test football only with 10 events:
+ * MAX_EVENTS_PER_SPORT = 10
+ * SPORT_FILTER = 'football'
  */
 export class SofaScoreAPIFetcher {
     private baseUrl = 'https://www.sofascore.com';
@@ -57,6 +84,11 @@ export class SofaScoreAPIFetcher {
     
     // Configuration: Limit events per sport to prevent Chrome crashes during testing
     private readonly MAX_EVENTS_PER_SPORT: number = 5; // Set to 5 for testing, can be changed to 0 (unlimited) later
+    
+    // Configuration: Sport filter for testing specific sports
+    // Options: 'all' (fetch all sports), 'football', 'basketball', 'tennis', etc.
+    // Example: Set to 'basketball' to only fetch basketball events
+    private readonly SPORT_FILTER: string = 'basketball'; // Default: 'all' - fetch all sports
 
     constructor() {
         this.axiosInstance = axios.create({
@@ -243,8 +275,9 @@ export class SofaScoreAPIFetcher {
                     const eventUrl = this.createEventUrl(event);
                     
                     // Add per-event timeout protection to prevent individual events from hanging
+                    // Increased to 120 seconds to allow for page load (90s) + widget data collection (up to 35s)
                     const eventTimeout = new Promise<EventApiData>((_, reject) => {
-                        setTimeout(() => reject(new Error(`Event ${event.id} processing timeout after 15 seconds`)), 15000);
+                        setTimeout(() => reject(new Error(`Event ${event.id} processing timeout after 120 seconds`)), 120000);
                     });
                     
                     const eventData = await Promise.race([
@@ -283,6 +316,7 @@ export class SofaScoreAPIFetcher {
     async fetchAllData(): Promise<ConsolidatedData> {
         console.log('🚀 [SOFASCORE] Starting data fetch cycle...');
         console.log(`⚙️  [SOFASCORE] Max events per sport: ${this.MAX_EVENTS_PER_SPORT === 0 ? 'unlimited' : this.MAX_EVENTS_PER_SPORT}`);
+        console.log(`🎯 [SOFASCORE] Sport filter: ${this.SPORT_FILTER === 'all' ? 'all sports' : this.SPORT_FILTER}`);
         this.logMemoryUsage();
         
         try {
@@ -290,9 +324,22 @@ export class SofaScoreAPIFetcher {
             const eventCount = await this.fetchEventCount();
             
             // Step 2: Get sports with live events
-            const sportsWithLiveEvents = Object.keys(eventCount).filter(
+            let sportsWithLiveEvents = Object.keys(eventCount).filter(
                 sport => eventCount[sport].live > 0
             );
+            
+            // Step 2.5: Apply sport filter if specified
+            if (this.SPORT_FILTER !== 'all') {
+                const originalCount = sportsWithLiveEvents.length;
+                sportsWithLiveEvents = sportsWithLiveEvents.filter(
+                    sport => sport.toLowerCase() === this.SPORT_FILTER.toLowerCase()
+                );
+                console.log(`🎯 [SOFASCORE] Sport filter applied: ${originalCount} sports -> ${sportsWithLiveEvents.length} sport(s) (${this.SPORT_FILTER})`);
+                
+                if (sportsWithLiveEvents.length === 0) {
+                    console.warn(`⚠️  [SOFASCORE] No live events found for sport: ${this.SPORT_FILTER}`);
+                }
+            }
             
             // Step 3: Fetch live events and open monitoring tabs for each sport
             const consolidatedData: ConsolidatedData = {

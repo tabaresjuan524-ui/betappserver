@@ -119,7 +119,7 @@ export class BrowserPoolManager {
                     '--no-default-browser-check',
                     '--safebrowsing-disable-auto-update',
                     '--disable-blink-features=AutomationControlled',
-                    `--window-size=1280,720`,
+                    `--window-size=1920,1080`, // Laptop screen dimensions to load all widgets
                     '--disable-features=site-per-process', // Reduce memory per tab
                     '--renderer-process-limit=3', // Limit to 3 renderer processes per browser (was 10)
                     '--max-old-space-size=768', // 768MB heap per browser (was 512MB)
@@ -131,7 +131,6 @@ export class BrowserPoolManager {
                     '--disable-backgrounding-occluded-windows', // Keep background tabs responsive
                     '--memory-pressure-off', // Disable memory pressure warnings
                     '--max_old_space_size=768', // Alternative Node memory limit flag
-                    '--single-process', // Force single-process mode for stability
                 ],
             });
 
@@ -232,6 +231,14 @@ export class BrowserPoolManager {
         try {
             // 1. Create a lightweight blank page first
             page = await browser.newPage();
+            
+            // Set viewport to laptop dimensions (1920x1080) to ensure all widgets load
+            await page.setViewport({
+                width: 1920,
+                height: 1080,
+                deviceScaleFactor: 1,
+            });
+            
             await page.goto('about:blank', { waitUntil: 'domcontentloaded' });
 
             // 2. Set up everything before navigating to the heavy page
@@ -284,15 +291,19 @@ export class BrowserPoolManager {
                                 cachedData[endpoint] = data;
                                 this.eventDataCache.set(eventId, cachedData);
                                 
+                                // Log widget-specific endpoints for debugging
+                                if (endpoint.includes('/statistics') || endpoint.includes('/lineups') || 
+                                    endpoint.includes('/momentum') || endpoint.includes('/graph') || 
+                                    endpoint.includes('/standings')) {
+                                    console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - 🎯 WIDGET DATA CAPTURED: ${endpoint}`);
+                                }
+                                
                                 // Save to file after collecting a few endpoints (avoid saving on every single endpoint)
                                 const endpointCount = Object.keys(cachedData).length;
                                 if (endpointCount >= 5 && !this.savedEvents.has(eventId)) {
                                     const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
                                     await this.saveEventDataToFile(eventId, cachedData, sportSlug);
                                 }
-                                
-                                // Do not log here to avoid spamming logs
-                                // console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - Captured: ${endpoint}`);
                             }
                         }
                     } catch (error) {
@@ -312,11 +323,39 @@ export class BrowserPoolManager {
             
             // 3. Now, navigate to the actual URL
             await page.goto(eventUrl, {
-                waitUntil: 'domcontentloaded',
-                timeout: 60000, // 60-second navigation timeout
+                waitUntil: 'load', // Wait for DOM to load (networkidle2 never triggers due to continuous live updates)
+                timeout: 90000, // 90-second navigation timeout
             });
             
-            console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live`);
+            // 4. Wait additional time for lazy-loaded widget data
+            // SofaScore loads widget data (statistics, lineups, h2h, standings, etc.) automatically
+            // Some widgets load progressively, so we need to wait longer
+            console.log(`⏳ [Browser ${browserIndex + 1}] Event ${eventId} - Waiting for lazy-loaded widget data...`);
+            
+            // Wait in intervals to allow time for all progressive requests
+            await new Promise(resolve => setTimeout(resolve, 5000)); // Initial wait of 5 seconds for page to settle
+            let previousCount = Object.keys(interceptedData).length;
+            console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Initial capture: ${previousCount} endpoints`);
+            
+            // Wait up to 30 more seconds, checking if new endpoints are still being captured
+            for (let i = 0; i < 10; i++) {
+                await new Promise(resolve => setTimeout(resolve, 3000));
+                const currentCount = Object.keys(interceptedData).length;
+                
+                if (currentCount > previousCount) {
+                    console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Captured ${currentCount} endpoints (still loading...)`);
+                    previousCount = currentCount;
+                } else if (i >= 3) {
+                    // If no new endpoints for 3 iterations (9 seconds), we can stop
+                    console.log(`✋ [Browser ${browserIndex + 1}] Event ${eventId} - No new endpoints for 9s, stopping wait`);
+                    break;
+                }
+            }
+            
+            const capturedEndpoints = Object.keys(interceptedData).length;
+            const endpointList = Object.keys(interceptedData).join(', ');
+            console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
+            console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
             
             // Log distribution periodically
             const totalActiveTabs = this.eventTabs.size;
