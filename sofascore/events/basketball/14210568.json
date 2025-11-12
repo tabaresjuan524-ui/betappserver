@@ -1,0 +1,2918 @@
+{
+  "event/14210568/pregame-form": {
+    "homeTeam": {
+      "position": 18,
+      "value": "3-6",
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 5,
+      "value": "6-3",
+      "form": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "label": "W-L"
+  },
+  "event/14210568/incidents": {
+    "incidents": [
+      {
+        "text": "3rd quarter",
+        "homeScore": 48,
+        "awayScore": 41,
+        "isLive": true,
+        "period": "period3",
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 41,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327073349,
+        "time": 26,
+        "timeSeconds": 1506,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 294,
+        "periodTimeSeconds": 306,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 39,
+        "player": {
+          "name": "Tyrique Jones",
+          "slug": "jones-tyrique",
+          "shortName": "T. Jones",
+          "position": "C",
+          "jerseyNumber": "88",
+          "height": 206,
+          "userCount": 2673,
+          "gender": "M",
+          "id": 1201420,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 862617600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيريك جونز",
+              "hi": "जोन्स, टायरिक",
+              "bn": "জোন্স, টাইরিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. جونز",
+              "hi": "टी. जोन्स",
+              "bn": "টি. জোন্স"
+            }
+          }
+        },
+        "id": 327073342,
+        "time": 25,
+        "timeSeconds": 1490,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 310,
+        "periodTimeSeconds": 290,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 46,
+        "awayScore": 39,
+        "player": {
+          "name": "Nikola Mirotic",
+          "firstName": "Nikola",
+          "lastName": "Mirotic",
+          "slug": "nikola-mirotic",
+          "shortName": "N. Mirotic",
+          "position": "F",
+          "jerseyNumber": "33",
+          "height": 208,
+          "userCount": 793,
+          "gender": "M",
+          "id": 2267096,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 666230400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميروتيتش، نيكولا"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. ميروتيتش"
+            }
+          }
+        },
+        "id": 327073334,
+        "time": 25,
+        "timeSeconds": 1472,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 328,
+        "periodTimeSeconds": 272,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 37,
+        "player": {
+          "name": "Sterling Brown",
+          "firstName": "Sterling",
+          "lastName": "Brown",
+          "slug": "brown-sterling",
+          "shortName": "S. Brown",
+          "position": "GF",
+          "jerseyNumber": "12",
+          "height": 196,
+          "userCount": 2582,
+          "gender": "M",
+          "id": 885234,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 792374400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيرلينج براون",
+              "hi": "ब्राउन, स्टर्लिंग",
+              "bn": "ব্রাউন, স্টার্লিং"
+            },
+            "shortNameTranslation": {
+              "ar": "س. براون",
+              "hi": "एस. ब्राउन",
+              "bn": "এস. ব্রাউন"
+            }
+          }
+        },
+        "id": 327073322,
+        "time": 25,
+        "timeSeconds": 1454,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 346,
+        "periodTimeSeconds": 254,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 37,
+        "player": {
+          "name": "Elie Okobo",
+          "firstName": "Elie",
+          "lastName": "Okobo",
+          "slug": "okobo-elie",
+          "shortName": "E. Okobo",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 191,
+          "userCount": 664,
+          "gender": "M",
+          "id": 940775,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 877564800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيلي أوكوبو",
+              "hi": "ओकोबो, एली",
+              "bn": "ওকোবো, এলি"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوكوبو",
+              "hi": "ई. ओकोबो",
+              "bn": "ই. ওকোবো"
+            }
+          }
+        },
+        "id": 327073270,
+        "time": 24,
+        "timeSeconds": 1386,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 414,
+        "periodTimeSeconds": 186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 37,
+        "player": {
+          "name": "Elie Okobo",
+          "firstName": "Elie",
+          "lastName": "Okobo",
+          "slug": "okobo-elie",
+          "shortName": "E. Okobo",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 191,
+          "userCount": 664,
+          "gender": "M",
+          "id": 940775,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 877564800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيلي أوكوبو",
+              "hi": "ओकोबो, एली",
+              "bn": "ওকোবো, এলি"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. أوكوبو",
+              "hi": "ई. ओकोबो",
+              "bn": "ই. ওকোবো"
+            }
+          }
+        },
+        "id": 327073261,
+        "time": 24,
+        "timeSeconds": 1386,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 414,
+        "periodTimeSeconds": 186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 37,
+        "player": {
+          "name": "Sterling Brown",
+          "firstName": "Sterling",
+          "lastName": "Brown",
+          "slug": "brown-sterling",
+          "shortName": "S. Brown",
+          "position": "GF",
+          "jerseyNumber": "12",
+          "height": 196,
+          "userCount": 2582,
+          "gender": "M",
+          "id": 885234,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 792374400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيرلينج براون",
+              "hi": "ब्राउन, स्टर्लिंग",
+              "bn": "ব্রাউন, স্টার্লিং"
+            },
+            "shortNameTranslation": {
+              "ar": "س. براون",
+              "hi": "एस. ब्राउन",
+              "bn": "এস. ব্রাউন"
+            }
+          }
+        },
+        "id": 327073260,
+        "time": 24,
+        "timeSeconds": 1386,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 414,
+        "periodTimeSeconds": 186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 45,
+        "awayScore": 37,
+        "player": {
+          "name": "Sterling Brown",
+          "firstName": "Sterling",
+          "lastName": "Brown",
+          "slug": "brown-sterling",
+          "shortName": "S. Brown",
+          "position": "GF",
+          "jerseyNumber": "12",
+          "height": 196,
+          "userCount": 2582,
+          "gender": "M",
+          "id": 885234,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 792374400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيرلينج براون",
+              "hi": "ब्राउन, स्टर्लिंग",
+              "bn": "ব্রাউন, স্টার্লিং"
+            },
+            "shortNameTranslation": {
+              "ar": "س. براون",
+              "hi": "एस. ब्राउन",
+              "bn": "এস. ব্রাউন"
+            }
+          }
+        },
+        "id": 327073291,
+        "time": 24,
+        "timeSeconds": 1426,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 374,
+        "periodTimeSeconds": 226,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 42,
+        "awayScore": 34,
+        "player": {
+          "name": "Nick Calathes",
+          "slug": "calathes-nick",
+          "shortName": "N. Calathes",
+          "position": "G",
+          "jerseyNumber": "33",
+          "height": 196,
+          "userCount": 1274,
+          "gender": "M",
+          "id": 861620,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 602812800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كالاثيس، نيك",
+              "hi": "कैलाथेस, निक",
+              "bn": "ক্যালাথেস, নিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. كالاثيس",
+              "hi": "एन. कैलाथेस",
+              "bn": "এন. ক্যালাথেস"
+            }
+          }
+        },
+        "id": 327073221,
+        "time": 23,
+        "timeSeconds": 1337,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 463,
+        "periodTimeSeconds": 137,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 42,
+        "awayScore": 34,
+        "player": {
+          "name": "Nick Calathes",
+          "slug": "calathes-nick",
+          "shortName": "N. Calathes",
+          "position": "G",
+          "jerseyNumber": "33",
+          "height": 196,
+          "userCount": 1274,
+          "gender": "M",
+          "id": 861620,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 602812800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كالاثيس، نيك",
+              "hi": "कैलाथेस, निक",
+              "bn": "ক্যালাথেস, নিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. كالاثيس",
+              "hi": "एन. कैलाथेस",
+              "bn": "এন. ক্যালাথেস"
+            }
+          }
+        },
+        "id": 327073194,
+        "time": 22,
+        "timeSeconds": 1313,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 487,
+        "periodTimeSeconds": 113,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 42,
+        "awayScore": 34,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327073192,
+        "time": 22,
+        "timeSeconds": 1313,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 487,
+        "periodTimeSeconds": 113,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 39,
+        "awayScore": 32,
+        "player": {
+          "name": "Aleksej Pokusevski",
+          "firstName": "Aleksej",
+          "lastName": "Pokuševski",
+          "slug": "aleksej-pokusevski",
+          "shortName": "A. Pokuševski",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 2106,
+          "gender": "M",
+          "id": 972550,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1009324800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليكسي بوكوشيفسكي",
+              "hi": "अलेक्सेज पोकुसेव्स्की",
+              "bn": "আলেকসেজ পোকুশেভস্কি"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بوكوشيفسكي",
+              "hi": "ए. पोकुसेव्स्की",
+              "bn": "এ. পোকুসেভস্কি"
+            }
+          }
+        },
+        "id": 327073148,
+        "time": 22,
+        "timeSeconds": 1261,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 539,
+        "periodTimeSeconds": 61,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q2",
+        "homeScore": 36,
+        "awayScore": 32,
+        "isLive": false,
+        "period": "period2",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 36,
+        "awayScore": 32,
+        "player": {
+          "name": "Tyrique Jones",
+          "slug": "jones-tyrique",
+          "shortName": "T. Jones",
+          "position": "C",
+          "jerseyNumber": "88",
+          "height": 206,
+          "userCount": 2673,
+          "gender": "M",
+          "id": 1201420,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 862617600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيريك جونز",
+              "hi": "जोन्स, टायरिक",
+              "bn": "জোন্স, টাইরিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. جونز",
+              "hi": "टी. जोन्स",
+              "bn": "টি. জোন্স"
+            }
+          }
+        },
+        "id": 327072585,
+        "time": 20,
+        "timeSeconds": 1198,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 2,
+        "periodTimeSeconds": 598,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 36,
+        "awayScore": 32,
+        "player": {
+          "name": "Tyrique Jones",
+          "slug": "jones-tyrique",
+          "shortName": "T. Jones",
+          "position": "C",
+          "jerseyNumber": "88",
+          "height": 206,
+          "userCount": 2673,
+          "gender": "M",
+          "id": 1201420,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 862617600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيريك جونز",
+              "hi": "जोन्स, टायरिक",
+              "bn": "জোন্স, টাইরিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. جونز",
+              "hi": "टी. जोन्स",
+              "bn": "টি. জোন্স"
+            }
+          }
+        },
+        "id": 327072566,
+        "time": 20,
+        "timeSeconds": 1198,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 2,
+        "periodTimeSeconds": 598,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 34,
+        "awayScore": 32,
+        "player": {
+          "name": "Sterling Brown",
+          "firstName": "Sterling",
+          "lastName": "Brown",
+          "slug": "brown-sterling",
+          "shortName": "S. Brown",
+          "position": "GF",
+          "jerseyNumber": "12",
+          "height": 196,
+          "userCount": 2582,
+          "gender": "M",
+          "id": 885234,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 792374400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيرلينج براون",
+              "hi": "ब्राउन, स्टर्लिंग",
+              "bn": "ব্রাউন, স্টার্লিং"
+            },
+            "shortNameTranslation": {
+              "ar": "س. براون",
+              "hi": "एस. ब्राउन",
+              "bn": "এস. ব্রাউন"
+            }
+          }
+        },
+        "id": 327072404,
+        "time": 19,
+        "timeSeconds": 1132,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 68,
+        "periodTimeSeconds": 532,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 32,
+        "player": {
+          "name": "Matthew Strazel",
+          "slug": "strazel-matthew",
+          "shortName": "M. Strazel",
+          "position": "G",
+          "jerseyNumber": "32",
+          "height": 184,
+          "userCount": 406,
+          "gender": "M",
+          "id": 998709,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028505600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيو سترازيل",
+              "hi": "स्ट्राज़ेल, मैथ्यू",
+              "bn": "স্ট্রাজেল, ম্যাথিউ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سترزيل",
+              "hi": "एम. स्ट्राज़ेल",
+              "bn": "এম. স্ট্রাজেল"
+            }
+          }
+        },
+        "id": 327072341,
+        "time": 19,
+        "timeSeconds": 1112,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 88,
+        "periodTimeSeconds": 512,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 32,
+        "player": {
+          "name": "Matthew Strazel",
+          "slug": "strazel-matthew",
+          "shortName": "M. Strazel",
+          "position": "G",
+          "jerseyNumber": "32",
+          "height": 184,
+          "userCount": 406,
+          "gender": "M",
+          "id": 998709,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028505600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيو سترازيل",
+              "hi": "स्ट्राज़ेल, मैथ्यू",
+              "bn": "স্ট্রাজেল, ম্যাথিউ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سترزيل",
+              "hi": "एम. स्ट्राज़ेल",
+              "bn": "এম. স্ট্রাজেল"
+            }
+          }
+        },
+        "id": 327072331,
+        "time": 19,
+        "timeSeconds": 1112,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 88,
+        "periodTimeSeconds": 512,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 29,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327072286,
+        "time": 19,
+        "timeSeconds": 1092,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 108,
+        "periodTimeSeconds": 492,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 29,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327072252,
+        "time": 19,
+        "timeSeconds": 1092,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 108,
+        "periodTimeSeconds": 492,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 28,
+        "awayScore": 29,
+        "player": {
+          "name": "Nikola Mirotic",
+          "firstName": "Nikola",
+          "lastName": "Mirotic",
+          "slug": "nikola-mirotic",
+          "shortName": "N. Mirotic",
+          "position": "F",
+          "jerseyNumber": "33",
+          "height": 208,
+          "userCount": 793,
+          "gender": "M",
+          "id": 2267096,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 666230400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميروتيتش، نيكولا"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. ميروتيتش"
+            }
+          }
+        },
+        "id": 327072178,
+        "time": 17,
+        "timeSeconds": 986,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 214,
+        "periodTimeSeconds": 386,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 28,
+        "awayScore": 28,
+        "player": {
+          "name": "Nikola Mirotic",
+          "firstName": "Nikola",
+          "lastName": "Mirotic",
+          "slug": "nikola-mirotic",
+          "shortName": "N. Mirotic",
+          "position": "F",
+          "jerseyNumber": "33",
+          "height": 208,
+          "userCount": 793,
+          "gender": "M",
+          "id": 2267096,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 666230400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميروتيتش، نيكولا"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. ميروتيتش"
+            }
+          }
+        },
+        "id": 327072163,
+        "time": 17,
+        "timeSeconds": 986,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 214,
+        "periodTimeSeconds": 386,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 28,
+        "awayScore": 27,
+        "player": {
+          "name": "Shake Milton",
+          "firstName": "Shake",
+          "lastName": "Milton",
+          "slug": "shake-milton",
+          "shortName": "S. Milton",
+          "position": "GF",
+          "jerseyNumber": "2",
+          "height": 196,
+          "userCount": 1502,
+          "gender": "M",
+          "id": 940777,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 843696000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيك ميلتون",
+              "hi": "शेक मिल्टन",
+              "bn": "শেক মিল্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ميلتون",
+              "hi": "एस. मिल्टन",
+              "bn": "এস. মিল্টন"
+            }
+          }
+        },
+        "id": 327072072,
+        "time": 16,
+        "timeSeconds": 926,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 274,
+        "periodTimeSeconds": 326,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 27,
+        "awayScore": 27,
+        "player": {
+          "name": "Shake Milton",
+          "firstName": "Shake",
+          "lastName": "Milton",
+          "slug": "shake-milton",
+          "shortName": "S. Milton",
+          "position": "GF",
+          "jerseyNumber": "2",
+          "height": 196,
+          "userCount": 1502,
+          "gender": "M",
+          "id": 940777,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 843696000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيك ميلتون",
+              "hi": "शेक मिल्टन",
+              "bn": "শেক মিল্টন"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ميلتون",
+              "hi": "एस. मिल्टन",
+              "bn": "এস. মিল্টন"
+            }
+          }
+        },
+        "id": 327072060,
+        "time": 16,
+        "timeSeconds": 926,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 274,
+        "periodTimeSeconds": 326,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 26,
+        "awayScore": 27,
+        "player": {
+          "name": "Nikola Mirotic",
+          "firstName": "Nikola",
+          "lastName": "Mirotic",
+          "slug": "nikola-mirotic",
+          "shortName": "N. Mirotic",
+          "position": "F",
+          "jerseyNumber": "33",
+          "height": 208,
+          "userCount": 793,
+          "gender": "M",
+          "id": 2267096,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 666230400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميروتيتش، نيكولا"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. ميروتيتش"
+            }
+          }
+        },
+        "id": 327071963,
+        "time": 16,
+        "timeSeconds": 905,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 295,
+        "periodTimeSeconds": 305,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 26,
+        "awayScore": 25,
+        "player": {
+          "name": "Nikola Mirotic",
+          "firstName": "Nikola",
+          "lastName": "Mirotic",
+          "slug": "nikola-mirotic",
+          "shortName": "N. Mirotic",
+          "position": "F",
+          "jerseyNumber": "33",
+          "height": 208,
+          "userCount": 793,
+          "gender": "M",
+          "id": 2267096,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 666230400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميروتيتش، نيكولا"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. ميروتيتش"
+            }
+          }
+        },
+        "id": 327071949,
+        "time": 15,
+        "timeSeconds": 878,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 322,
+        "periodTimeSeconds": 278,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 26,
+        "awayScore": 23,
+        "player": {
+          "name": "Tyrique Jones",
+          "slug": "jones-tyrique",
+          "shortName": "T. Jones",
+          "position": "C",
+          "jerseyNumber": "88",
+          "height": 206,
+          "userCount": 2673,
+          "gender": "M",
+          "id": 1201420,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 862617600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيريك جونز",
+              "hi": "जोन्स, टायरिक",
+              "bn": "জোন্স, টাইরিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. جونز",
+              "hi": "टी. जोन्स",
+              "bn": "টি. জোন্স"
+            }
+          }
+        },
+        "id": 327071943,
+        "time": 15,
+        "timeSeconds": 867,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 333,
+        "periodTimeSeconds": 267,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 24,
+        "awayScore": 23,
+        "player": {
+          "name": "Nick Calathes",
+          "slug": "calathes-nick",
+          "shortName": "N. Calathes",
+          "position": "G",
+          "jerseyNumber": "33",
+          "height": 196,
+          "userCount": 1274,
+          "gender": "M",
+          "id": 861620,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 602812800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كالاثيس، نيك",
+              "hi": "कैलाथेस, निक",
+              "bn": "ক্যালাথেস, নিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. كالاثيس",
+              "hi": "एन. कैलाथेस",
+              "bn": "এন. ক্যালাথেস"
+            }
+          }
+        },
+        "id": 327071852,
+        "time": 13,
+        "timeSeconds": 741,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 459,
+        "periodTimeSeconds": 141,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 22,
+        "awayScore": 23,
+        "player": {
+          "name": "Nemanja Nedovic",
+          "slug": "nemanja-nedovic",
+          "shortName": "N. Nedović",
+          "position": "G",
+          "jerseyNumber": "26",
+          "height": 192,
+          "userCount": 3264,
+          "gender": "M",
+          "id": 861881,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 677030400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيمانيا نيدوفيتش",
+              "hi": "नेमांजा नेडोविक",
+              "bn": "নেমাঞ্জা নেডোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. نيدوفيتش",
+              "hi": "एन. नेडोविक",
+              "bn": "এন. নেডোভিচ"
+            }
+          }
+        },
+        "id": 327071837,
+        "time": 13,
+        "timeSeconds": 720,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 480,
+        "periodTimeSeconds": 120,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 22,
+        "awayScore": 20,
+        "player": {
+          "name": "Nick Calathes",
+          "slug": "calathes-nick",
+          "shortName": "N. Calathes",
+          "position": "G",
+          "jerseyNumber": "33",
+          "height": 196,
+          "userCount": 1274,
+          "gender": "M",
+          "id": 861620,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 602812800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كالاثيس، نيك",
+              "hi": "कैलाथेस, निक",
+              "bn": "ক্যালাথেস, নিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. كالاثيس",
+              "hi": "एन. कैलाथेस",
+              "bn": "এন. ক্যালাথেস"
+            }
+          }
+        },
+        "id": 327071824,
+        "time": 12,
+        "timeSeconds": 702,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 498,
+        "periodTimeSeconds": 102,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q1",
+        "homeScore": 19,
+        "awayScore": 20,
+        "isLive": false,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 19,
+        "awayScore": 20,
+        "player": {
+          "name": "Isaac Bonga",
+          "firstName": "Isaac",
+          "lastName": "Bonga",
+          "slug": "bonga-isaac",
+          "shortName": "I. Bonga",
+          "position": "G",
+          "jerseyNumber": "17",
+          "height": 203,
+          "userCount": 2392,
+          "gender": "M",
+          "id": 940808,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942019200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بونجا، إسحاق",
+              "hi": "बोंगा, इसाक",
+              "bn": "বোঙ্গা, আইজ্যাক"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بونجا",
+              "hi": "आई. बोंगा",
+              "bn": "আই. বোঙ্গা"
+            }
+          }
+        },
+        "id": 327071633,
+        "time": 10,
+        "timeSeconds": 566,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 34,
+        "periodTimeSeconds": 566,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 18,
+        "awayScore": 20,
+        "player": {
+          "name": "Isaac Bonga",
+          "firstName": "Isaac",
+          "lastName": "Bonga",
+          "slug": "bonga-isaac",
+          "shortName": "I. Bonga",
+          "position": "G",
+          "jerseyNumber": "17",
+          "height": 203,
+          "userCount": 2392,
+          "gender": "M",
+          "id": 940808,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 942019200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بونجا، إسحاق",
+              "hi": "बोंगा, इसाक",
+              "bn": "বোঙ্গা, আইজ্যাক"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بونجا",
+              "hi": "आई. बोंगा",
+              "bn": "আই. বোঙ্গা"
+            }
+          }
+        },
+        "id": 327071623,
+        "time": 10,
+        "timeSeconds": 566,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 34,
+        "periodTimeSeconds": 566,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 17,
+        "awayScore": 20,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327071587,
+        "time": 10,
+        "timeSeconds": 542,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 58,
+        "periodTimeSeconds": 542,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 17,
+        "awayScore": 19,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327071578,
+        "time": 10,
+        "timeSeconds": 542,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 58,
+        "periodTimeSeconds": 542,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 18,
+        "player": {
+          "name": "Mike James",
+          "firstName": "Mike",
+          "lastName": "James",
+          "slug": "james-mike",
+          "shortName": "M. James",
+          "position": "G",
+          "jerseyNumber": "55",
+          "height": 185,
+          "userCount": 2125,
+          "gender": "M",
+          "id": 861579,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650937600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمس، مايك",
+              "hi": "जेम्स, माइक",
+              "bn": "জেমস, মাইক"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيمس",
+              "hi": "एम. जेम्स",
+              "bn": "এম. জেমস"
+            }
+          }
+        },
+        "id": 327071535,
+        "time": 9,
+        "timeSeconds": 515,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 85,
+        "periodTimeSeconds": 515,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 16,
+        "player": {
+          "name": "Mike James",
+          "firstName": "Mike",
+          "lastName": "James",
+          "slug": "james-mike",
+          "shortName": "M. James",
+          "position": "G",
+          "jerseyNumber": "55",
+          "height": 185,
+          "userCount": 2125,
+          "gender": "M",
+          "id": 861579,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650937600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمس، مايك",
+              "hi": "जेम्स, माइक",
+              "bn": "জেমস, মাইক"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيمس",
+              "hi": "एम. जेम्स",
+              "bn": "এম. জেমস"
+            }
+          }
+        },
+        "id": 327071447,
+        "time": 8,
+        "timeSeconds": 472,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 128,
+        "periodTimeSeconds": 472,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 14,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327071393,
+        "time": 8,
+        "timeSeconds": 436,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 164,
+        "periodTimeSeconds": 436,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 12,
+        "player": {
+          "name": "Aleksej Pokusevski",
+          "firstName": "Aleksej",
+          "lastName": "Pokuševski",
+          "slug": "aleksej-pokusevski",
+          "shortName": "A. Pokuševski",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 2106,
+          "gender": "M",
+          "id": 972550,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1009324800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليكسي بوكوشيفسكي",
+              "hi": "अलेक्सेज पोकुसेव्स्की",
+              "bn": "আলেকসেজ পোকুশেভস্কি"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بوكوشيفسكي",
+              "hi": "ए. पोकुसेव्स्की",
+              "bn": "এ. পোকুসেভস্কি"
+            }
+          }
+        },
+        "id": 327071367,
+        "time": 7,
+        "timeSeconds": 406,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 194,
+        "periodTimeSeconds": 406,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 12,
+        "player": {
+          "name": "Daniel Theis",
+          "firstName": "Daniel",
+          "lastName": "Theis",
+          "slug": "theis-daniel",
+          "shortName": "D. Theis",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 204,
+          "userCount": 942,
+          "gender": "M",
+          "id": 861455,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 702345600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثيس، دانيال",
+              "hi": "थीस, डैनियल",
+              "bn": "থিস, ড্যানিয়েল"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ثيس",
+              "hi": "डी. थीस",
+              "bn": "ডি. থাইস"
+            }
+          }
+        },
+        "id": 327071292,
+        "time": 7,
+        "timeSeconds": 385,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 215,
+        "periodTimeSeconds": 385,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 15,
+        "awayScore": 10,
+        "player": {
+          "name": "Jaron Blossomgame",
+          "firstName": "Jaron",
+          "lastName": "Blossomgame",
+          "slug": "blossomgame-jaron",
+          "shortName": "J. Blossomgame",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 191,
+          "gender": "M",
+          "id": 885247,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 748137600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جارون بلوسومجيم",
+              "hi": "ब्लॉसमगेम, जेरोन",
+              "bn": "ব্লসমগেম, জারন"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بلوسومجيم",
+              "hi": "जे. ब्लॉसमगेम",
+              "bn": "জে. ব্লসমগেম"
+            }
+          }
+        },
+        "id": 327071249,
+        "time": 6,
+        "timeSeconds": 356,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 244,
+        "periodTimeSeconds": 356,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 9,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327071129,
+        "time": 6,
+        "timeSeconds": 310,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 290,
+        "periodTimeSeconds": 310,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 15,
+        "awayScore": 7,
+        "player": {
+          "name": "Alpha Diallo",
+          "firstName": "Alpha",
+          "lastName": "Diallo",
+          "slug": "diallo-alpha",
+          "shortName": "A. Diallo",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 785,
+          "gender": "M",
+          "id": 1133856,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 867542400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفا ديالو",
+              "hi": "डायलो, अल्फा",
+              "bn": "ডায়ালো, আলফা"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ديالو",
+              "hi": "ए. डायलो",
+              "bn": "এ. ডায়ালো"
+            }
+          }
+        },
+        "id": 327071122,
+        "time": 5,
+        "timeSeconds": 298,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 302,
+        "periodTimeSeconds": 298,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 4,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327071064,
+        "time": 5,
+        "timeSeconds": 257,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 343,
+        "periodTimeSeconds": 257,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 13,
+        "awayScore": 4,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327071021,
+        "time": 4,
+        "timeSeconds": 224,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 376,
+        "periodTimeSeconds": 224,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 4,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327070988,
+        "time": 4,
+        "timeSeconds": 224,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 376,
+        "periodTimeSeconds": 224,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 4,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327070930,
+        "time": 4,
+        "timeSeconds": 187,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 413,
+        "periodTimeSeconds": 187,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 7,
+        "awayScore": 4,
+        "player": {
+          "name": "Daniel Theis",
+          "firstName": "Daniel",
+          "lastName": "Theis",
+          "slug": "theis-daniel",
+          "shortName": "D. Theis",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 204,
+          "userCount": 942,
+          "gender": "M",
+          "id": 861455,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 702345600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثيس، دانيال",
+              "hi": "थीस, डैनियल",
+              "bn": "থিস, ড্যানিয়েল"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ثيس",
+              "hi": "डी. थीस",
+              "bn": "ডি. থাইস"
+            }
+          }
+        },
+        "id": 327070896,
+        "time": 3,
+        "timeSeconds": 168,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 432,
+        "periodTimeSeconds": 168,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 3,
+        "player": {
+          "name": "Aleksej Pokusevski",
+          "firstName": "Aleksej",
+          "lastName": "Pokuševski",
+          "slug": "aleksej-pokusevski",
+          "shortName": "A. Pokuševski",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 2106,
+          "gender": "M",
+          "id": 972550,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1009324800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليكسي بوكوشيفسكي",
+              "hi": "अलेक्सेज पोकुसेव्स्की",
+              "bn": "আলেকসেজ পোকুশেভস্কি"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بوكوشيفسكي",
+              "hi": "ए. पोकुसेव्स्की",
+              "bn": "এ. পোকুসেভস্কি"
+            }
+          }
+        },
+        "id": 327070819,
+        "time": 3,
+        "timeSeconds": 149,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 451,
+        "periodTimeSeconds": 149,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 5,
+        "awayScore": 3,
+        "player": {
+          "name": "Matthew Strazel",
+          "slug": "strazel-matthew",
+          "shortName": "M. Strazel",
+          "position": "G",
+          "jerseyNumber": "32",
+          "height": 184,
+          "userCount": 406,
+          "gender": "M",
+          "id": 998709,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028505600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماثيو سترازيل",
+              "hi": "स्ट्राज़ेल, मैथ्यू",
+              "bn": "স্ট্রাজেল, ম্যাথিউ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سترزيل",
+              "hi": "एम. स्ट्राज़ेल",
+              "bn": "এম. স্ট্রাজেল"
+            }
+          }
+        },
+        "id": 327070793,
+        "time": 3,
+        "timeSeconds": 122,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 478,
+        "periodTimeSeconds": 122,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 5,
+        "awayScore": 1,
+        "player": {
+          "name": "Aleksej Pokusevski",
+          "firstName": "Aleksej",
+          "lastName": "Pokuševski",
+          "slug": "aleksej-pokusevski",
+          "shortName": "A. Pokuševski",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 2106,
+          "gender": "M",
+          "id": 972550,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1009324800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليكسي بوكوشيفسكي",
+              "hi": "अलेक्सेज पोकुसेव्स्की",
+              "bn": "আলেকসেজ পোকুশেভস্কি"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بوكوشيفسكي",
+              "hi": "ए. पोकुसेव्स्की",
+              "bn": "এ. পোকুসেভস্কি"
+            }
+          }
+        },
+        "id": 327070767,
+        "time": 2,
+        "timeSeconds": 97,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 503,
+        "periodTimeSeconds": 97,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 3,
+        "awayScore": 1,
+        "player": {
+          "name": "Mike James",
+          "firstName": "Mike",
+          "lastName": "James",
+          "slug": "james-mike",
+          "shortName": "M. James",
+          "position": "G",
+          "jerseyNumber": "55",
+          "height": 185,
+          "userCount": 2125,
+          "gender": "M",
+          "id": 861579,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650937600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمس، مايك",
+              "hi": "जेम्स, माइक",
+              "bn": "জেমস, মাইক"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيمس",
+              "hi": "एम. जेम्स",
+              "bn": "এম. জেমস"
+            }
+          }
+        },
+        "id": 327070734,
+        "time": 2,
+        "timeSeconds": 83,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 517,
+        "periodTimeSeconds": 83,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 3,
+        "awayScore": 0,
+        "player": {
+          "name": "Duane Washington",
+          "firstName": "Duane",
+          "lastName": "Washington ",
+          "slug": "duane-washington",
+          "shortName": "D. Washington Jr.",
+          "position": "G",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 1914,
+          "gender": "M",
+          "id": 1133932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 953856000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوين واشنطن",
+              "hi": "डुआने वाशिंगटन",
+              "bn": "ডুয়ান ওয়াশিংটন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. واشنطن جونيور",
+              "hi": "डी. वाशिंगटन",
+              "bn": "ডি. ওয়াশিংটন জুনিয়র"
+            }
+          }
+        },
+        "id": 327070677,
+        "time": 2,
+        "timeSeconds": 62,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 538,
+        "periodTimeSeconds": 62,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "tv/event/14210568/country-channels": {
+    "countryChannels": {
+      "ES": [
+        2028
+      ],
+      "MK": [
+        3783
+      ],
+      "BA": [
+        231,
+        3783
+      ],
+      "HR": [
+        231
+      ],
+      "US": [
+        6673
+      ],
+      "RS": [
+        3783
+      ]
+    }
+  },
+  "event/14210568/h2h": {
+    "teamDuel": {
+      "homeWins": 6,
+      "awayWins": 3,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14210568/managers": {
+    "homeManager": {
+      "name": "Željko Obradović",
+      "slug": "zeljko-obradovic",
+      "shortName": "Ž. Obradović",
+      "id": 793902,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "زيلكو أوبرادوفيتش",
+          "hi": "जेल्को ओब्राडोविक",
+          "bn": "জেলজকো ওব্রাডোভিচ"
+        },
+        "shortNameTranslation": {
+          "ar": "ز. أوبرادوفيتش",
+          "hi": "ज़ेड. ओब्रादोविक",
+          "bn": "জেড. ওব্রাডোভিচ"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Vassilis Spanoulis",
+      "slug": "vassilis-spanoulis",
+      "shortName": "V. Spanoulis",
+      "id": 800951,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فاسيليوس سبانوليس",
+          "hi": "वासिलिस स्पैनौलिस",
+          "bn": "ভাসিলিস স্প্যানুলিস"
+        },
+        "shortNameTranslation": {
+          "ar": "ف. سبانوليس",
+          "hi": "वी. स्पैनौलिस",
+          "bn": "ভি. স্প্যানুলিস"
+        }
+      }
+    }
+  },
+  "event/14210568/votes": {
+    "vote": {
+      "vote1": 7222,
+      "vote2": 6426,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14210568": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "Euroleague",
+        "slug": "euroleague",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 103,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Euroleague",
+          "slug": "euroleague",
+          "primaryColorHex": "#f47321",
+          "secondaryColorHex": "#f47321",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 103,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 56081,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 138,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي",
+              "hi": "यूरोलीग",
+              "bn": "ইউরোলীগ"
+            },
+            "shortNameTranslation": {}
+          },
+          "hasRating": true,
+          "hasLiveRating": true
+        },
+        "priority": 136,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 42527,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الأوروبي",
+            "hi": "यूरोलिग",
+            "bn": "ইউরোলীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Euroleague 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78545
+      },
+      "roundInfo": {
+        "round": 10
+      },
+      "customId": "MHcsvzvb",
+      "status": {
+        "code": 15,
+        "description": "3rd quarter",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Belgrade"
+        },
+        "hidden": true,
+        "slug": "-tark-arena",
+        "name": "Belgrade Arena",
+        "capacity": 19394,
+        "id": 21586,
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستارك أرينا",
+            "hi": "स्टार्क एरिना",
+            "bn": "স্টার্ক এরিনা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Belgrade Arena",
+          "capacity": 19394
+        }
+      },
+      "homeTeam": {
+        "name": "KK Partizan Mozzart Bet",
+        "slug": "kk-partizan-mozzart-bet",
+        "shortName": "Partizan Mozzart",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 83686,
+        "manager": {
+          "name": "Željko Obradović",
+          "slug": "zeljko-obradovic",
+          "shortName": "Ž. Obradović",
+          "id": 793902,
+          "country": {
+            "alpha2": "RS",
+            "alpha3": "SRB",
+            "name": "Serbia",
+            "slug": "serbia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "زيلكو أوبرادوفيتش",
+              "hi": "जेल्को ओब्राडोविक",
+              "bn": "জেলজকো ওব্রাডোভিচ"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. أوبرادوفيتش",
+              "hi": "ज़ेड. ओब्रादोविक",
+              "bn": "জেড. ওব্রাডোভিচ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Belgrade"
+          },
+          "hidden": true,
+          "slug": "-tark-arena",
+          "name": "Belgrade Arena",
+          "capacity": 19394,
+          "id": 21586,
+          "country": {
+            "alpha2": "RS",
+            "alpha3": "SRB",
+            "name": "Serbia",
+            "slug": "serbia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستارك أرينا",
+              "hi": "स्टार्क एरिना",
+              "bn": "স্টার্ক এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Belgrade Arena",
+            "capacity": 19394
+          }
+        },
+        "nameCode": "KPM",
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 6637,
+        "country": {
+          "alpha2": "RS",
+          "alpha3": "SRB",
+          "name": "Serbia",
+          "slug": "serbia"
+        },
+        "fullName": "KK Partizan Mozzart Bet",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كي كي بارتيزان موزارت بيت",
+            "ru": "Партизан Белград"
+          },
+          "shortNameTranslation": {
+            "ar": "بارتيزان موزارت",
+            "hi": "पार्टिज़न मोज़ार्ट",
+            "bn": "পার্টিজান মোৎজার্ট"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Monaco Basket",
+        "slug": "monaco-basket",
+        "shortName": "Monaco Basket",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 18867,
+        "manager": {
+          "name": "Vassilis Spanoulis",
+          "slug": "vassilis-spanoulis",
+          "shortName": "V. Spanoulis",
+          "id": 800951,
+          "country": {
+            "alpha2": "GR",
+            "alpha3": "GRC",
+            "name": "Greece",
+            "slug": "greece"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فاسيليوس سبانوليس",
+              "hi": "वासिलिस स्पैनौलिस",
+              "bn": "ভাসিলিস স্প্যানুলিস"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. سبانوليس",
+              "hi": "वी. स्पैनौलिस",
+              "bn": "ভি. স্প্যানুলিস"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Fontvieille"
+          },
+          "hidden": true,
+          "slug": "salle-gaston-medecin",
+          "name": "Salle Gaston Medecin",
+          "capacity": 5000,
+          "id": 16179,
+          "country": {
+            "alpha2": "MC",
+            "alpha3": "MCO",
+            "name": "Monaco",
+            "slug": "monaco"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة جاستون ميديسن",
+              "hi": "सैले गैस्टन मेडिसिन",
+              "bn": "সাল্লে গ্যাস্টন মেডিসিন"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Salle Gaston Medecin",
+            "capacity": 5000
+          }
+        },
+        "nameCode": "MON",
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 176220,
+        "country": {
+          "alpha2": "MC",
+          "alpha3": "MCO",
+          "name": "Monaco",
+          "slug": "monaco"
+        },
+        "fullName": "Monaco Basket",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#e20e0e",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موناكو باسكت",
+            "ru": "АС Монако",
+            "hi": "मोनाको बास्केट",
+            "bn": "মোনাকো বাস্কেট"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 48,
+        "display": 48,
+        "period1": 19,
+        "period2": 17,
+        "period3": 12
+      },
+      "awayScore": {
+        "current": 41,
+        "display": 41,
+        "period1": 20,
+        "period2": 12,
+        "period3": 9
+      },
+      "time": {
+        "played": 1524,
+        "periodLength": 600,
+        "overtimeLength": 300,
+        "totalPeriodCount": 4,
+        "currentPeriodStartTimestamp": 1762893379
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762894015
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14210568,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 10,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "slug": "monaco-basket-kk-partizan-mozzart-bet",
+      "currentPeriodStartTimestamp": 1762893379,
+      "startTimestamp": 1762889400,
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "SG",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": false,
+      "seasonStatisticsType": "regularSeason",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14210568/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184533580,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235810,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/27",
+            "sourceId": 2079421218,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "21/10",
+            "sourceId": 2079421221,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184533580,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235811,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/11",
+            "sourceId": 2079421183,
+            "name": "(-4.5) KK Partizan Mozzart Bet",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2079421178,
+            "name": "(+4.5) Monaco Basket",
+            "change": 0
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184533580,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235810,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/27",
+            "sourceId": 2079421218,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "21/10",
+            "sourceId": 2079421221,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14210568/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 0
+      },
+      {
+        "minute": 2,
+        "value": 4
+      },
+      {
+        "minute": 3,
+        "value": 3
+      },
+      {
+        "minute": 4,
+        "value": 9
+      },
+      {
+        "minute": 5,
+        "value": 8
+      },
+      {
+        "minute": 6,
+        "value": 5
+      },
+      {
+        "minute": 7,
+        "value": 5
+      },
+      {
+        "minute": 8,
+        "value": 1
+      },
+      {
+        "minute": 9,
+        "value": -1
+      },
+      {
+        "minute": 10,
+        "value": -1
+      },
+      {
+        "minute": 11,
+        "value": -1
+      },
+      {
+        "minute": 12,
+        "value": 2
+      },
+      {
+        "minute": 13,
+        "value": 1
+      },
+      {
+        "minute": 14,
+        "value": 1
+      },
+      {
+        "minute": 15,
+        "value": 1
+      },
+      {
+        "minute": 16,
+        "value": 1
+      },
+      {
+        "minute": 17,
+        "value": -1
+      },
+      {
+        "minute": 18,
+        "value": -1
+      },
+      {
+        "minute": 19,
+        "value": 2
+      },
+      {
+        "minute": 20,
+        "value": 4
+      },
+      {
+        "minute": 21,
+        "value": 4
+      },
+      {
+        "minute": 22,
+        "value": 8
+      },
+      {
+        "minute": 23,
+        "value": 8
+      },
+      {
+        "minute": 24,
+        "value": 9
+      },
+      {
+        "minute": 25,
+        "value": 9
+      },
+      {
+        "minute": 26,
+        "value": 7
+      }
+    ],
+    "periodTime": 10,
+    "overtimeLength": 5,
+    "periodCount": 4
+  },
+  "event/14210568/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184533580,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235810,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/27",
+            "sourceId": 2079421218,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "21/10",
+            "sourceId": 2079421221,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184134459,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184134460,
+        "suspended": false,
+        "id": 148019587,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "21/20",
+            "fractionalValue": "19/20",
+            "sourceId": 2022075850,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "87/100",
+            "sourceId": 2022075854,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184533580,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235811,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/11",
+            "sourceId": 2079421183,
+            "name": "(-4.5) KK Partizan Mozzart Bet",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2079421178,
+            "name": "(+4.5) Monaco Basket",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "sourceId": 184533580,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "151.5",
+        "isLive": true,
+        "fid": 184533580,
+        "suspended": false,
+        "id": 150235812,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "5/6",
+            "sourceId": 2079421197,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/11",
+            "sourceId": 2079421201,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14210568
+  },
+  "event/14210568/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "19/20",
+      "expected": 51,
+      "actual": 43,
+      "id": 18019780
+    },
+    "away": {
+      "fractionalValue": "87/100",
+      "expected": 54,
+      "actual": 62,
+      "id": 18019781
+    }
+  }
+}

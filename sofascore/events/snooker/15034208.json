@@ -1,0 +1,400 @@
+{
+  "event/15034208/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 2,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15034208/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184607485,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184607485,
+        "suspended": false,
+        "id": 150213159,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/1",
+            "sourceId": 2088583171,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "4/5",
+            "sourceId": 2088583176,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184607485,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184607485,
+        "suspended": false,
+        "id": 150213159,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/1",
+            "sourceId": 2088583171,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "4/5",
+            "sourceId": 2088583176,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184607485,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184607485,
+        "suspended": false,
+        "id": 150213159,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/1",
+            "sourceId": 2088583171,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "4/5",
+            "sourceId": 2088583176,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/15034208": {
+    "event": {
+      "tournament": {
+        "name": "Champion of Champions 2025",
+        "slug": "champion-of-champions-2025",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Snooker",
+            "slug": "snooker",
+            "id": 19
+          },
+          "id": 55,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Champion of Champions",
+          "slug": "champion-of-champions",
+          "primaryColorHex": "#bcb9b8",
+          "secondaryColorHex": "#8b8785",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Snooker",
+              "slug": "snooker",
+              "id": 19
+            },
+            "id": 55,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 895,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 1574,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة أبطال الأبطال"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168121
+      },
+      "season": {
+        "name": "Champion of Champions 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85676
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "KlGsoqY",
+      "status": {
+        "code": 20,
+        "description": "Started",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Wilson K.",
+        "slug": "wilson-kyren",
+        "shortName": "Wilson K.",
+        "gender": "M",
+        "sport": {
+          "name": "Snooker",
+          "slug": "snooker",
+          "id": 19
+        },
+        "userCount": 1945,
+        "nameCode": "WIL",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 120814,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "fullName": "Wilson, Kyren",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويلسون، كيرين",
+            "hi": "विल्सन, कायरन",
+            "bn": "উইলসন, কিরেন"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Xintong Z.",
+        "slug": "xintong-zhao",
+        "shortName": "Xintong Z.",
+        "gender": "M",
+        "sport": {
+          "name": "Snooker",
+          "slug": "snooker",
+          "id": 19
+        },
+        "userCount": 1295,
+        "playerTeamInfo": {
+          "id": 22763
+        },
+        "nameCode": "XIN",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 78085,
+        "country": {
+          "alpha2": "CN",
+          "alpha3": "CHN",
+          "name": "China",
+          "slug": "china"
+        },
+        "fullName": "Xintong Z.",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شينتونغ، تشاو",
+            "ru": "Жао Жинтонг",
+            "hi": "ज़िंटोंग, झाओ",
+            "bn": "জিনটং, ঝাও"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 2
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 3
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762887754
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period1"
+        ],
+        "changeTimestamp": 1762892767
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15034208,
+      "slug": "wilson-xintong",
+      "currentPeriodStartTimestamp": 1762887754,
+      "startTimestamp": 1762887600,
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15034208/votes": {
+    "vote": {
+      "vote1": 55,
+      "vote2": 93,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15034208/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "1/1",
+      "expected": 50,
+      "actual": 53,
+      "id": 18054558
+    },
+    "away": null
+  },
+  "event/15034208/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184607485,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184607485,
+        "suspended": false,
+        "id": 150213159,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/1",
+            "sourceId": 2088583171,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "4/5",
+            "sourceId": 2088583176,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184603086,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184603086,
+        "suspended": false,
+        "id": 150093340,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "1/1",
+            "sourceId": 2087997703,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "4/5",
+            "sourceId": 2087997707,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 15034208
+  }
+}

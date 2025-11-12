@@ -1,0 +1,321 @@
+{
+  "event/14086741": {
+    "event": {
+      "tournament": {
+        "name": "Ranji Trophy, Elite A",
+        "slug": "ranji-trophy-elite-a",
+        "category": {
+          "name": "India",
+          "slug": "india",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1350,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "flag": "india",
+          "alpha2": "IN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الهند",
+              "hi": "भारत",
+              "bn": "ভারত"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Ranji Trophy",
+          "slug": "ranji-trophy",
+          "primaryColorHex": "#1D65AB",
+          "secondaryColorHex": "#AC9881",
+          "category": {
+            "name": "India",
+            "slug": "india",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1350,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند",
+                "hi": "भारत",
+                "bn": "ভারত"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 268,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 18682,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس رانجي",
+              "hi": "रणजी ट्रॉफी",
+              "bn": "রঞ্জি ট্রফি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Elite A",
+        "isLive": false,
+        "id": 101320,
+        "endTimestamp": 1771891200,
+        "startTimestamp": 1760486400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس رانجي، النخبة A"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Ranji Trophy, 2025/26",
+        "year": "2025/2026",
+        "editor": false,
+        "id": 77592
+      },
+      "customId": "Kyucsczuc",
+      "status": {
+        "code": 22,
+        "description": "2nd Inning",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kotambi, Vadodara,"
+        },
+        "hidden": true,
+        "slug": "vadodara-international-cricket-stadium",
+        "name": "Vadodara International Cricket Stadium",
+        "id": 43512,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب فادودارا الدولي للكريكيت",
+            "hi": "वडोदरा इंटरनेशनल क्रिकेट स्टेडियम",
+            "bn": "ভাদোদরা ইন্টারন্যাশনাল ক্রিকেট স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Vadodara International Cricket Stadium"
+        }
+      },
+      "referee": {
+        "name": "Amit Sharma",
+        "slug": "amit-sharma",
+        "yellowCards": 0,
+        "redCards": 0,
+        "yellowRedCards": 0,
+        "games": 17,
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "id": 789965,
+        "country": {},
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أميت شارما"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Baroda",
+        "slug": "baroda",
+        "shortName": "BRD",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 75,
+        "nameCode": "BAR",
+        "national": false,
+        "type": 0,
+        "id": 298685,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Baroda",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بارودا"
+          },
+          "shortNameTranslation": {
+            "hi": "बीआरडी",
+            "bn": "বিআরডি"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Jharkhand",
+        "slug": "jharkhand",
+        "shortName": "JHA",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 44,
+        "nameCode": "JHA",
+        "national": false,
+        "type": 0,
+        "id": 298702,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Jharkhand",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جهارخاند"
+          },
+          "shortNameTranslation": {
+            "hi": "जेएचए",
+            "bn": "জেএইচএ"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 291,
+        "display": 291,
+        "innings": {
+          "inning1": {
+            "score": 291,
+            "wickets": 10,
+            "overs": 103.2,
+            "runRate": 2.82
+          }
+        }
+      },
+      "awayScore": {
+        "current": 516,
+        "display": 516,
+        "innings": {
+          "inning1": {
+            "score": 506,
+            "wickets": 10,
+            "overs": 140,
+            "runRate": 3.61
+          },
+          "inning2": {
+            "score": 10,
+            "wickets": 1,
+            "overs": 8,
+            "runRate": 1.25
+          }
+        }
+      },
+      "coverage": 2,
+      "time": {},
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type"
+        ],
+        "changeTimestamp": 1762833922
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14086741,
+      "umpire1Name": "Rakesh Raghavan (IND)",
+      "umpire2Name": "Indranil Chakravarti (IND)",
+      "tvUmpireName": "No TV Umpire",
+      "refereeName": "Amit Sharma",
+      "tossWin": "Baroda",
+      "tossDecision": "Bowling",
+      "endTimestamp": 1762858800,
+      "slug": "jharkhand-baroda",
+      "startTimestamp": 1762574400,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "lastPeriod": "inning2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14086741/votes": {
+    "vote": {
+      "vote1": 10,
+      "vote2": 2,
+      "voteX": 1
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14086741/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "event/15028267/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15028267/votes": {
+    "vote": {
+      "vote1": 14,
+      "vote2": 5,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15028267": {
+    "event": {
+      "tournament": {
+        "name": "Kumamoto Masters Japan 2025, MD, Qualifying",
+        "slug": "kumamoto-masters-japan-2025-md-qualifying",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "id": 259,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kumamoto Masters Japan, MD",
+          "slug": "kumamoto-masters-japan-md",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 16,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 21535,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كوماموتو اليابان، زوجي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168656
+      },
+      "season": {
+        "name": "Kumamoto Masters Japan, MD 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85984
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "iEKisNgbj",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kumamoto"
+        },
+        "hidden": true,
+        "slug": "court-4",
+        "name": "Court 4",
+        "id": 42504,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 4",
+            "hi": "कोर्ट 4",
+            "bn": "কোর্ট 4"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Court 4"
+        }
+      },
+      "homeTeam": {
+        "name": "Lai J B T / Yakura N",
+        "slug": "lai-j-b-t-yakura-n",
+        "gender": "M",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 5,
+        "nameCode": "L/Y",
+        "national": false,
+        "type": 2,
+        "id": 1088958,
+        "country": {},
+        "fullName": "Lai J B T / Yakura N",
+        "subTeams": [
+          {
+            "name": "Lai J.",
+            "slug": "lai-jonathan",
+            "gender": "M",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 2,
+            "nameCode": "LAI",
+            "national": false,
+            "type": 1,
+            "id": 199988,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "fullName": "Lai, Jonathan",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لاي، جوناثان"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Yakura N.",
+            "slug": "yakura-nyl",
+            "gender": "M",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 1,
+            "nameCode": "YAK",
+            "national": false,
+            "type": 1,
+            "id": 161764,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "fullName": "Yakura, Nyl",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ياكورا، نيل"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاي ج ب ت / ياكورا ن"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Kawabe H / Matsukawa K",
+        "slug": "kawabe-h-matsukawa-k",
+        "gender": "M",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 1,
+        "nameCode": "K/M",
+        "national": false,
+        "type": 2,
+        "id": 1127838,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fullName": "Kawabe H / Matsukawa K",
+        "subTeams": [
+          {
+            "name": "Kawabe H.",
+            "slug": "kawabe-haruki",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 0,
+            "nameCode": "KAW",
+            "national": false,
+            "type": 1,
+            "id": 831408,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Kawabe, Haruki",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاوابي، هاروكی"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Matsukawa K.",
+            "slug": "matsukawa-kenta",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 0,
+            "nameCode": "MAT",
+            "national": false,
+            "type": 1,
+            "id": 1127839,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Matsukawa, Kenta",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتسوكوا، كينتا"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاوابي هـ / ماتسوكوا ك"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 9
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 20
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762831253
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1"
+        ],
+        "changeTimestamp": 1762831771
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15028267,
+      "defaultPeriodCount": 3,
+      "slug": "kawabe-matsukawa-laib-yakura",
+      "currentPeriodStartTimestamp": 1762831253,
+      "startTimestamp": 1762830600,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15028267/incidents": {
+    "incidents": [
+      {
+        "text": "1. set",
+        "homeScore": 9,
+        "awayScore": 20,
+        "isLive": true,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 20,
+        "period": "period1",
+        "id": 327052400,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 20,
+        "period": "period1",
+        "id": 327052399,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 19,
+        "period": "period1",
+        "id": 327052398,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 19,
+        "period": "period1",
+        "id": 327052397,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 18,
+        "period": "period1",
+        "id": 327052396,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 18,
+        "period": "period1",
+        "id": 327052363,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327052362,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327052361,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 16,
+        "period": "period1",
+        "id": 327052332,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 16,
+        "period": "period1",
+        "id": 327052331,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 15,
+        "period": "period1",
+        "id": 327052330,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 14,
+        "period": "period1",
+        "id": 327052329,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 13,
+        "period": "period1",
+        "id": 327052317,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327052316,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327052315,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 11,
+        "period": "period1",
+        "id": 327052299,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 10,
+        "period": "period1",
+        "id": 327052298,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 9,
+        "period": "period1",
+        "id": 327052283,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327052282,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327052281,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327052264,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327052263,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327052262,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327052261,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327052240,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327052239,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327052238,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327052198,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327052197,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  }
+}

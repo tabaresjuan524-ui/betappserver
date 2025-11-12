@@ -1,0 +1,801 @@
+{
+  "event/15021630/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15021630/votes": {
+    "vote": {
+      "vote1": 194,
+      "vote2": 25,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15021630/point-by-point": {
+    "pointByPoint": [
+      {
+        "set": 1,
+        "games": [
+          {
+            "game": 4,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 2,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 2,
+              "serving": 1,
+              "scoring": -1
+            }
+          },
+          {
+            "game": 3,
+            "points": [
+              {
+                "homePoint": "15",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 2,
+              "serving": 2,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 2,
+            "points": [
+              {
+                "homePoint": "15",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "15",
+                "pointDescription": 2,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 1,
+              "serving": 1,
+              "scoring": 1
+            }
+          },
+          {
+            "game": 1,
+            "points": [
+              {
+                "homePoint": "15",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 1,
+              "serving": 2,
+              "scoring": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "event/15021630": {
+    "event": {
+      "firstToServe": 1,
+      "tournament": {
+        "name": "Kobe, Japan, Doubles",
+        "slug": "kobe-japan-doubles",
+        "category": {
+          "name": "Challenger",
+          "slug": "challenger",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "id": 72,
+          "country": {},
+          "flag": "challenger",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تحدي (تنس)",
+              "hi": "डेनमार्क",
+              "bn": "চ্যালেঞ্জার"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kobe, Japan, Doubles",
+          "slug": "kobe-japan-doubles",
+          "category": {
+            "name": "Challenger",
+            "slug": "challenger",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "id": 72,
+            "country": {},
+            "flag": "challenger",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تحدي (تنس)",
+                "hi": "डेनमार्क",
+                "bn": "চ্যালেঞ্জার"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 12,
+          "groundType": "Hardcourt indoor",
+          "tennisPoints": 100,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 6655,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبي، اليابان، زوجي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168198,
+        "endTimestamp": 1763164800,
+        "startTimestamp": 1762732800
+      },
+      "season": {
+        "name": "ATP Challenger Kobe, Japan Men Doubles 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 80669
+      },
+      "roundInfo": {
+        "round": 5,
+        "name": "Round of 16",
+        "slug": "round-of-16",
+        "cupRoundType": 8
+      },
+      "customId": "UgIhsbfYi",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kobe"
+        },
+        "hidden": true,
+        "slug": "court-c",
+        "name": "Court C",
+        "id": 53146,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "stadium": {
+          "name": "Court C"
+        }
+      },
+      "homeTeam": {
+        "name": "Isaro PR / Kaliyanda Poonacha N",
+        "slug": "isaro-pr-kaliyanda-poonacha-n",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 20,
+        "nameCode": "I/K",
+        "national": false,
+        "type": 2,
+        "id": 1120251,
+        "country": {},
+        "fullName": "Isaro PR / Kaliyanda Poonacha N",
+        "subTeams": [
+          {
+            "name": "Pruchya Isaro",
+            "slug": "isarow-pruchya",
+            "shortName": "P. Isaro",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 74,
+            "playerTeamInfo": {
+              "residence": "Songkhla, Thailand",
+              "birthplace": "Songkhla, Thailand",
+              "height": 1.75,
+              "weight": 70,
+              "plays": "right-handed",
+              "prizeCurrent": 567,
+              "prizeTotal": 57135,
+              "id": 1545,
+              "birthDateTimestamp": 813801600,
+              "prizeCurrentRaw": {
+                "value": 567,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 57135,
+                "currency": "EUR"
+              }
+            },
+            "nameCode": "ISA",
+            "national": false,
+            "type": 1,
+            "id": 59700,
+            "country": {
+              "alpha2": "TH",
+              "alpha3": "THA",
+              "name": "Thailand",
+              "slug": "thailand"
+            },
+            "fullName": "Pruchya Isaro",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بروتشيا إيسارو",
+                "ru": "Пручя Исаров"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. إيسارو"
+              }
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Niki Kaliyanda Poonacha",
+            "slug": "kaliyanda-poonacha-niki",
+            "shortName": "N. K. Poonacha",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 182,
+            "playerTeamInfo": {
+              "residence": "Anantapur, India",
+              "birthplace": "Neyveli, India",
+              "height": 1.91,
+              "weight": 88,
+              "plays": "right-handed",
+              "prizeCurrent": 400,
+              "prizeTotal": 104519,
+              "id": 2246,
+              "birthDateTimestamp": 798940800,
+              "prizeCurrentRaw": {
+                "value": 400,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 104519,
+                "currency": "EUR"
+              },
+              "currentRanking": 996
+            },
+            "nameCode": "KAL",
+            "national": false,
+            "type": 1,
+            "id": 145936,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "fullName": "Niki Kaliyanda Poonacha",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيكي كالياندا بوناشا",
+                "ru": "Калиянда Пунача, Ники"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. بوناشا"
+              }
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيسارو بي آر / كالياندا بوناشا ن"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Imamura M / Uchida K",
+        "slug": "imamura-m-uchida-k",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 2,
+        "nameCode": "I/U",
+        "national": false,
+        "type": 2,
+        "id": 957844,
+        "country": {},
+        "fullName": "Imamura M / Uchida K",
+        "subTeams": [
+          {
+            "name": "Masamichi Imamura",
+            "slug": "imamura-masamichi",
+            "shortName": "M. Imamura",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 375,
+            "playerTeamInfo": {
+              "birthplace": "Osaka",
+              "height": 1.78,
+              "weight": 73,
+              "plays": "right-handed",
+              "prizeCurrent": 25349,
+              "prizeTotal": 86584,
+              "id": 2634,
+              "birthDateTimestamp": 911779200,
+              "prizeCurrentRaw": {
+                "value": 25349,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 86584,
+                "currency": "EUR"
+              },
+              "currentRanking": 519
+            },
+            "nameCode": "IMA",
+            "ranking": 519,
+            "national": false,
+            "type": 1,
+            "id": 197935,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Masamichi Imamura",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماساميشي إيمامورا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. إيمامورا"
+              }
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Kaichi Uchida",
+            "slug": "uchida-kaichi",
+            "shortName": "K. Uchida",
+            "gender": "M",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "userCount": 721,
+            "playerTeamInfo": {
+              "height": 1.8,
+              "plays": "right-handed",
+              "turnedPro": "2013",
+              "prizeCurrent": 31469,
+              "prizeTotal": 535560,
+              "id": 417,
+              "birthDateTimestamp": 777600000,
+              "prizeCurrentRaw": {
+                "value": 31469,
+                "currency": "EUR"
+              },
+              "prizeTotalRaw": {
+                "value": 535560,
+                "currency": "EUR"
+              },
+              "currentRanking": 307
+            },
+            "nameCode": "UCH",
+            "ranking": 309,
+            "national": false,
+            "type": 1,
+            "id": 82579,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Kaichi Uchida",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كايتشي أوتشيدا",
+                "ru": "Каичи Учида",
+                "hi": "काइची उचिदा",
+                "bn": "কাইচি উচিদা"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. أوتشيدا"
+              }
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيمامورا م / أوشيدا ك"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 1,
+        "point": "0"
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 2,
+        "point": "15"
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762913301
+      },
+      "changes": {
+        "changes": [
+          "awayScore.point"
+        ],
+        "changeTimestamp": 1762913905
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15021630,
+      "defaultPeriodCount": 3,
+      "slug": "isaro-pr-kaliyanda-poonacha-imamura-uchida",
+      "currentPeriodStartTimestamp": 1762913301,
+      "startTimestamp": 1762912800,
+      "periods": {
+        "point": "Game",
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "groundType": "Hardcourt indoor",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15021630/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184594263,
+        "suspended": false,
+        "id": 150615812,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "8/15",
+            "sourceId": 2086799571,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "13/8",
+            "fractionalValue": "11/8",
+            "sourceId": 2086799567,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184594263,
+        "suspended": false,
+        "id": 150615812,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "8/15",
+            "sourceId": 2086799571,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "13/8",
+            "fractionalValue": "11/8",
+            "sourceId": 2086799567,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184594263,
+        "suspended": false,
+        "id": 150615812,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "8/15",
+            "sourceId": 2086799571,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "13/8",
+            "fractionalValue": "11/8",
+            "sourceId": 2086799567,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/15021630/tennis-power": {
+    "tennisPowerRankings": [
+      {
+        "set": 1,
+        "game": 1,
+        "value": -29,
+        "breakOccurred": false
+      },
+      {
+        "set": 1,
+        "game": 2,
+        "value": 18.2,
+        "breakOccurred": false
+      },
+      {
+        "set": 1,
+        "game": 3,
+        "value": -22,
+        "breakOccurred": false
+      }
+    ]
+  },
+  "event/15021630/odds/1/all": {
+    "markets": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184594263,
+        "suspended": false,
+        "id": 150615812,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "8/15",
+            "sourceId": 2086799571,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "13/8",
+            "fractionalValue": "11/8",
+            "sourceId": 2086799567,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184417381,
+        "suspended": false,
+        "id": 149793578,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "4/9",
+            "sourceId": 2062310599,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "13/8",
+            "fractionalValue": "13/8",
+            "sourceId": 2062310807,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 15021630
+  }
+}

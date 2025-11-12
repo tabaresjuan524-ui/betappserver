@@ -1,0 +1,2387 @@
+{
+  "event/14216516/pregame-form": {
+    "homeTeam": {
+      "position": 2,
+      "value": "3",
+      "form": [
+        "W",
+        "D"
+      ]
+    },
+    "awayTeam": {
+      "position": 3,
+      "value": "2",
+      "form": [
+        "W",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14216516/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 2,
+      "draws": 1
+    },
+    "managerDuel": null
+  },
+  "tv/event/14216516/country-channels": {
+    "countryChannels": {
+      "HR": [
+        137
+      ],
+      "ES": [
+        4435
+      ]
+    }
+  },
+  "event/14216516/votes": {
+    "vote": {
+      "vote1": 555,
+      "vote2": 143,
+      "voteX": 25
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14216516/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 18,
+        "awayScore": 19,
+        "isLive": true,
+        "time": 60,
+        "addedTime": 999,
+        "timeSeconds": 3600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 18,
+        "awayScore": 19,
+        "player": {
+          "name": "Matko Moslavac",
+          "slug": "matko-moslavac",
+          "shortName": "M. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 190,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1921025,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، ماتكو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. موسلافاك"
+            }
+          }
+        },
+        "id": 327073348,
+        "time": 40,
+        "timeSeconds": 2368,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 21,
+        "reversedPeriodTimeSeconds": 1232,
+        "periodTimeSeconds": 568,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 17,
+        "awayScore": 19,
+        "player": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "id": 327073292,
+        "time": 38,
+        "timeSeconds": 2233,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 23,
+        "reversedPeriodTimeSeconds": 1367,
+        "periodTimeSeconds": 433,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 19,
+        "player": {
+          "name": "Matko Moslavac",
+          "slug": "matko-moslavac",
+          "shortName": "M. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 190,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1921025,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، ماتكو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. موسلافاك"
+            }
+          }
+        },
+        "id": 327073269,
+        "time": 37,
+        "timeSeconds": 2179,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1421,
+        "periodTimeSeconds": 379,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 15,
+        "awayScore": 19,
+        "player": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "id": 327073226,
+        "time": 35,
+        "timeSeconds": 2097,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1503,
+        "periodTimeSeconds": 297,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 19,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327073223,
+        "time": 35,
+        "timeSeconds": 2083,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1517,
+        "periodTimeSeconds": 283,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 18,
+        "player": {
+          "name": "Matko Moslavac",
+          "slug": "matko-moslavac",
+          "shortName": "M. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 190,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1921025,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، ماتكو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. موسلافاك"
+            }
+          }
+        },
+        "id": 327073204,
+        "time": 35,
+        "timeSeconds": 2051,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1549,
+        "periodTimeSeconds": 251,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 18,
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "id": 327073190,
+        "time": 34,
+        "timeSeconds": 2018,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 27,
+        "reversedPeriodTimeSeconds": 1582,
+        "periodTimeSeconds": 218,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 17,
+        "player": {
+          "name": "Matko Moslavac",
+          "slug": "matko-moslavac",
+          "shortName": "M. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 190,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1921025,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، ماتكو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. موسلافاك"
+            }
+          }
+        },
+        "id": 327073134,
+        "time": 32,
+        "timeSeconds": 1904,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 29,
+        "reversedPeriodTimeSeconds": 1696,
+        "periodTimeSeconds": 104,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 17,
+        "player": {
+          "name": "Matko Moslavac",
+          "slug": "matko-moslavac",
+          "shortName": "M. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 190,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1921025,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، ماتكو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. موسلافاك"
+            }
+          }
+        },
+        "id": 327073120,
+        "time": 32,
+        "timeSeconds": 1865,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 29,
+        "reversedPeriodTimeSeconds": 1735,
+        "periodTimeSeconds": 65,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 12,
+        "awayScore": 16,
+        "isLive": false,
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 16,
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "id": 327072560,
+        "time": 30,
+        "timeSeconds": 1786,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 14,
+        "periodTimeSeconds": 1786,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 15,
+        "player": {
+          "name": "Juan Alvarez Castro",
+          "slug": "castro-alvarez-juan",
+          "shortName": "J. C. Alvarez",
+          "position": "CB",
+          "jerseyNumber": "13",
+          "height": 190,
+          "userCount": 5,
+          "gender": "M",
+          "id": 912580,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 657331200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفاريز كاسترو، خوان"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. كاسترو"
+            }
+          }
+        },
+        "id": 327072508,
+        "time": 29,
+        "timeSeconds": 1691,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 109,
+        "periodTimeSeconds": 1691,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 14,
+        "player": {
+          "name": "Ibrahim Haseljic",
+          "slug": "haseljic-ibrahim",
+          "shortName": "I. Haseljic",
+          "position": "RW",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 20,
+          "gender": "M",
+          "id": 902768,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 884736000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاسيلجيك، إبراهيم"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. هاسيلجيك"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Lucijan Krajcar",
+          "slug": "krajcar-lucijan",
+          "shortName": "L. Krajcar",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 196,
+          "userCount": 13,
+          "gender": "M",
+          "id": 1139175,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 998352000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كرايجار، لوتشيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كرايجار"
+            }
+          }
+        },
+        "id": 327072480,
+        "time": 28,
+        "timeSeconds": 1644,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 156,
+        "periodTimeSeconds": 1644,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 14,
+        "player": {
+          "name": "Ariel Pietrasik",
+          "firstName": "",
+          "lastName": "",
+          "slug": "pietrasik-ariel",
+          "shortName": "A. Pietrasik",
+          "position": "LB",
+          "jerseyNumber": "12",
+          "height": 202,
+          "userCount": 46,
+          "gender": "M",
+          "id": 941860,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيترسكي، أرييل"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بيترسكي"
+            }
+          }
+        },
+        "id": 327072400,
+        "time": 26,
+        "timeSeconds": 1553,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 247,
+        "periodTimeSeconds": 1553,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 13,
+        "player": {
+          "name": "Ariel Pietrasik",
+          "firstName": "",
+          "lastName": "",
+          "slug": "pietrasik-ariel",
+          "shortName": "A. Pietrasik",
+          "position": "LB",
+          "jerseyNumber": "12",
+          "height": 202,
+          "userCount": 46,
+          "gender": "M",
+          "id": 941860,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيترسكي، أرييل"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بيترسكي"
+            }
+          }
+        },
+        "id": 327072328,
+        "time": 25,
+        "timeSeconds": 1453,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 347,
+        "periodTimeSeconds": 1453,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 12,
+        "player": {
+          "name": "Daniel Reznicky",
+          "slug": "reznicky-daniel",
+          "shortName": "D. Reznicky",
+          "position": "P",
+          "jerseyNumber": "77",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 964469,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 890870400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريزنيكي، دانيال"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ريزنيكي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327072274,
+        "time": 23,
+        "timeSeconds": 1373,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 427,
+        "periodTimeSeconds": 1373,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 11,
+        "player": {
+          "name": "Ognjen Cenic",
+          "slug": "cenic-ognjen",
+          "shortName": "O. Cenic",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 185,
+          "userCount": 82,
+          "gender": "M",
+          "id": 1563243,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1154217600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، أوجنيين"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك"
+            }
+          }
+        },
+        "id": 327072258,
+        "time": 23,
+        "timeSeconds": 1357,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 443,
+        "periodTimeSeconds": 1357,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 11,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327072236,
+        "time": 22,
+        "timeSeconds": 1319,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 481,
+        "periodTimeSeconds": 1319,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 10,
+        "player": {
+          "name": "Kresimir Kozina",
+          "slug": "kozina-kresimir",
+          "shortName": "K. Kozina",
+          "position": "P",
+          "jerseyNumber": "44",
+          "height": 196,
+          "userCount": 39,
+          "gender": "M",
+          "id": 833704,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 646272000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوزينا، كريشيمير",
+              "hi": "कोज़िना, क्रेसिमिर",
+              "bn": "কোজিনা, ক্রেসিমির"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كوزينا",
+              "hi": "के. कोज़िना",
+              "bn": "কে. কোজিনা"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "id": 327072230,
+        "time": 22,
+        "timeSeconds": 1307,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 493,
+        "periodTimeSeconds": 1307,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 10,
+        "player": {
+          "name": "Juan Alvarez Castro",
+          "slug": "castro-alvarez-juan",
+          "shortName": "J. C. Alvarez",
+          "position": "CB",
+          "jerseyNumber": "13",
+          "height": 190,
+          "userCount": 5,
+          "gender": "M",
+          "id": 912580,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 657331200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألفاريز كاسترو، خوان"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. كاسترو"
+            }
+          }
+        },
+        "id": 327072214,
+        "time": 22,
+        "timeSeconds": 1268,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 532,
+        "periodTimeSeconds": 1268,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 9,
+        "player": {
+          "name": "Ognjen Cenic",
+          "slug": "cenic-ognjen",
+          "shortName": "O. Cenic",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 185,
+          "userCount": 82,
+          "gender": "M",
+          "id": 1563243,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1154217600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، أوجنيين"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك"
+            }
+          }
+        },
+        "id": 327072159,
+        "time": 21,
+        "timeSeconds": 1201,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 599,
+        "periodTimeSeconds": 1201,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 9,
+        "player": {
+          "name": "Ognjen Cenic",
+          "slug": "cenic-ognjen",
+          "shortName": "O. Cenic",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 185,
+          "userCount": 82,
+          "gender": "M",
+          "id": 1563243,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1154217600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، أوجنيين"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك"
+            }
+          }
+        },
+        "id": 327072131,
+        "time": 20,
+        "timeSeconds": 1160,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 640,
+        "periodTimeSeconds": 1160,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Zoran Markovic",
+          "slug": "markovic-zoran",
+          "shortName": "Z. Marković",
+          "position": "CB",
+          "jerseyNumber": "19",
+          "height": 197,
+          "userCount": 5,
+          "gender": "M",
+          "id": 904513,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 799718400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماركوفيتش، زوران",
+              "hi": "मार्कोविक, ज़ोरान",
+              "bn": "মার্কোভিচ, জোরান"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ماركوفيتش",
+              "hi": "ज़. मार्कोविक",
+              "bn": "জেড. মার্কোভিচ"
+            }
+          }
+        },
+        "playerName": "Zoran Markovic",
+        "duration": 120,
+        "id": 162272,
+        "time": 20,
+        "timeSeconds": 1143,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 657,
+        "periodTimeSeconds": 1143,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 9,
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "id": 327071946,
+        "time": 17,
+        "timeSeconds": 970,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 830,
+        "periodTimeSeconds": 970,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 8,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327071931,
+        "time": 16,
+        "timeSeconds": 934,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 866,
+        "periodTimeSeconds": 934,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 7,
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "id": 327071892,
+        "time": 15,
+        "timeSeconds": 885,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 915,
+        "periodTimeSeconds": 885,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "player": {
+          "name": "Aleksandar Cenic",
+          "slug": "cenic-aleksandar",
+          "shortName": "A. Cenić",
+          "position": "RB",
+          "jerseyNumber": "33",
+          "height": 201,
+          "userCount": 29,
+          "gender": "M",
+          "id": 1151046,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1042243200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، ألكسندر",
+              "hi": "सेनिक, एलेक्ज़ेंडर",
+              "bn": "সিনিক, আলেকসান্ডার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك",
+              "hi": "ए. सेनिक",
+              "bn": "এ. সিনিক"
+            }
+          }
+        },
+        "id": 327071885,
+        "time": 15,
+        "timeSeconds": 874,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 926,
+        "periodTimeSeconds": 874,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 6,
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "id": 327071876,
+        "time": 15,
+        "timeSeconds": 847,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 953,
+        "periodTimeSeconds": 847,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 5,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327071829,
+        "time": 13,
+        "timeSeconds": 760,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1040,
+        "periodTimeSeconds": 760,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 6,
+        "awayScore": 4,
+        "player": {
+          "name": "Odinn Thor Rikhardsson",
+          "firstName": "",
+          "lastName": "",
+          "slug": "rikhardsson-odinn-thor",
+          "shortName": "O. Rikhardsson",
+          "position": "RW",
+          "jerseyNumber": "2",
+          "height": 181,
+          "userCount": 60,
+          "gender": "M",
+          "id": 911470,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 877564800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ريخاردسون، أودين ثور",
+              "hi": "रिखर्डसन, ओडिन थोर",
+              "bn": "রিখার্ডসন, ওডিন থর"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ريخاردسون",
+              "hi": "ओ. रिखर्डसन",
+              "bn": "ও. রিচার্ডসন"
+            }
+          }
+        },
+        "id": 327071799,
+        "time": 12,
+        "timeSeconds": 692,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1108,
+        "periodTimeSeconds": 692,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 3,
+        "player": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "id": 327071743,
+        "time": 11,
+        "timeSeconds": 617,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1183,
+        "periodTimeSeconds": 617,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 3,
+        "player": {
+          "name": "Tin Lučin",
+          "slug": "lucin-tin",
+          "shortName": "T. Lučin",
+          "position": "LB",
+          "jerseyNumber": "41",
+          "height": 196,
+          "userCount": 450,
+          "gender": "M",
+          "id": 910499,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 934761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تين لوشين",
+              "hi": "टिन लुचिन",
+              "bn": "টিন লুচিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. لوشين",
+              "hi": "टी. लुचिन",
+              "bn": "টি. লুচিন"
+            }
+          }
+        },
+        "id": 327071657,
+        "time": 8,
+        "timeSeconds": 463,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 23,
+        "reversedPeriodTimeSeconds": 1337,
+        "periodTimeSeconds": 463,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Patrik Martinović",
+          "slug": "martinovic-patrik",
+          "shortName": "P. Martinović",
+          "position": "RB",
+          "jerseyNumber": "29",
+          "height": 188,
+          "userCount": 111,
+          "gender": "M",
+          "id": 944993,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967507200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارتينوفيتش، باتريك",
+              "hi": "मार्टिनोविक, पैट्रिक",
+              "bn": "মার্তিনোভিচ, প্যাট্রিক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. مارتينوفيتش",
+              "hi": "पी. मार्टिनोविक",
+              "bn": "পি. মার্তিনোভিচ"
+            }
+          }
+        },
+        "playerName": "Patrik Martinović",
+        "duration": 120,
+        "id": 162265,
+        "time": 8,
+        "timeSeconds": 423,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 23,
+        "reversedPeriodTimeSeconds": 1377,
+        "periodTimeSeconds": 423,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 3,
+        "player": {
+          "name": "Ognjen Cenic",
+          "slug": "cenic-ognjen",
+          "shortName": "O. Cenic",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 185,
+          "userCount": 82,
+          "gender": "M",
+          "id": 1563243,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1154217600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، أوجنيين"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك"
+            }
+          }
+        },
+        "id": 327071622,
+        "time": 7,
+        "timeSeconds": 419,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1381,
+        "periodTimeSeconds": 419,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327071597,
+        "time": 7,
+        "timeSeconds": 378,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1422,
+        "periodTimeSeconds": 378,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "playerName": "Luka Moslavac",
+        "duration": 120,
+        "id": 162264,
+        "time": 7,
+        "timeSeconds": 367,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1433,
+        "periodTimeSeconds": 367,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 2,
+        "player": {
+          "name": "Aleksandar Bakic",
+          "firstName": "Aleksandar",
+          "lastName": "Bakic",
+          "slug": "bakic-aleksandar",
+          "shortName": "A. Baki",
+          "position": "LW",
+          "jerseyNumber": "4",
+          "height": 194,
+          "userCount": 17,
+          "gender": "M",
+          "id": 1014175,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967939200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باكيك، ألكسندر"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. باكيك"
+            }
+          }
+        },
+        "id": 327071520,
+        "time": 6,
+        "timeSeconds": 308,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1492,
+        "periodTimeSeconds": 308,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "player": {
+          "name": "Aleksandar Cenic",
+          "slug": "cenic-aleksandar",
+          "shortName": "A. Cenić",
+          "position": "RB",
+          "jerseyNumber": "33",
+          "height": 201,
+          "userCount": 29,
+          "gender": "M",
+          "id": 1151046,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1042243200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تشينيك، ألكسندر",
+              "hi": "सेनिक, एलेक्ज़ेंडर",
+              "bn": "সিনিক, আলেকসান্ডার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينيك",
+              "hi": "ए. सेनिक",
+              "bn": "এ. সিনিক"
+            }
+          }
+        },
+        "id": 327071450,
+        "time": 3,
+        "timeSeconds": 173,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1627,
+        "periodTimeSeconds": 173,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Lucas Meister",
+          "slug": "meister-lucas",
+          "shortName": "L. Meister",
+          "position": "P",
+          "jerseyNumber": "3",
+          "height": 197,
+          "userCount": 22,
+          "gender": "M",
+          "id": 910626,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 840153600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميستر، لوكاس",
+              "hi": "मिस्टर, लुकास",
+              "bn": "মেইস্টার, লুকাস"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ميستر",
+              "hi": "एल. मिस्टर",
+              "bn": "এল. মেইস্টার"
+            }
+          }
+        },
+        "playerName": "Lucas Meister",
+        "duration": 120,
+        "id": 162260,
+        "time": 3,
+        "timeSeconds": 153,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1647,
+        "periodTimeSeconds": 153,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 2,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327071383,
+        "time": 2,
+        "timeSeconds": 115,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 29,
+        "reversedPeriodTimeSeconds": 1685,
+        "periodTimeSeconds": 115,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 1,
+        "player": {
+          "name": "Luka Maros",
+          "slug": "maros-luka",
+          "shortName": "L. Maros",
+          "position": "LB",
+          "jerseyNumber": "20",
+          "height": 196,
+          "userCount": 17,
+          "gender": "M",
+          "id": 902278,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 764121600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماروس، لوكا",
+              "hi": "मारोस, लूका",
+              "bn": "মারোস, লুকা"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ماروس",
+              "hi": "एल. मारोस",
+              "bn": "এল. মারোস"
+            }
+          }
+        },
+        "id": 327071323,
+        "time": 1,
+        "timeSeconds": 38,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 30,
+        "reversedPeriodTimeSeconds": 1762,
+        "periodTimeSeconds": 38,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Luka Moslavac",
+          "slug": "moslavac-luka",
+          "shortName": "L. Moslavac",
+          "position": "LB",
+          "jerseyNumber": "27",
+          "height": 195,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994237,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889315200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موسلافاك، لوكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. موسلافاك"
+            }
+          }
+        },
+        "id": 327071321,
+        "time": 1,
+        "timeSeconds": 31,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 30,
+        "reversedPeriodTimeSeconds": 1769,
+        "periodTimeSeconds": 31,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14216516/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "5",
+      "label": "gls",
+      "player": {
+        "name": "Matko Moslavac",
+        "slug": "matko-moslavac",
+        "shortName": "M. Moslavac",
+        "position": "LB",
+        "jerseyNumber": "9",
+        "height": 190,
+        "userCount": 24,
+        "gender": "M",
+        "id": 1921025,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1171497600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موسلافاك، ماتكو"
+          },
+          "shortNameTranslation": {
+            "ar": "م. موسلافاك"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "7",
+      "label": "gls",
+      "player": {
+        "name": "Luka Maros",
+        "slug": "maros-luka",
+        "shortName": "L. Maros",
+        "position": "LB",
+        "jerseyNumber": "20",
+        "height": 196,
+        "userCount": 17,
+        "gender": "M",
+        "id": 902278,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 764121600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماروس، لوكا",
+            "hi": "मारोस, लूका",
+            "bn": "মারোস, লুকা"
+          },
+          "shortNameTranslation": {
+            "ar": "ل. ماروس",
+            "hi": "एल. मारोस",
+            "bn": "এল. মারোস"
+          }
+        }
+      }
+    }
+  },
+  "event/14216516/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184538670,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538670,
+        "suspended": false,
+        "id": 150258818,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "3/5",
+            "fractionalValue": "27/20",
+            "sourceId": 2079963989,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "9/2",
+            "sourceId": 2079963994,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "11/10",
+            "sourceId": 2079963998,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184538670,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538670,
+        "suspended": false,
+        "id": 150258818,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "3/5",
+            "fractionalValue": "27/20",
+            "sourceId": 2079963989,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "9/2",
+            "sourceId": 2079963994,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "11/10",
+            "sourceId": 2079963998,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184538670,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538670,
+        "suspended": false,
+        "id": 150258818,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "3/5",
+            "fractionalValue": "27/20",
+            "sourceId": 2079963989,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "9/2",
+            "sourceId": 2079963994,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "11/10",
+            "sourceId": 2079963998,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14216516": {
+    "event": {
+      "tournament": {
+        "name": "EHF European League, Group H",
+        "slug": "ehf-european-league-group-h",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Handball",
+            "slug": "handball",
+            "id": 6
+          },
+          "id": 73,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "EHF European League",
+          "slug": "ehf-european-league",
+          "primaryColorHex": "#0f1734",
+          "secondaryColorHex": "#e64315",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Handball",
+              "slug": "handball",
+              "id": 6
+            },
+            "id": 73,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 2481,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 59,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي لكرة اليد",
+              "hi": "ईएचएफ यूरोपीयन लीग",
+              "bn": "ইএইচএফ ইউরোপীয়ান লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group H",
+        "groupSign": "H",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 120778,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الدوري الأوروبي لكرة اليد، المجموعة H",
+            "hi": "ईएचएफ यूरोपीयन लीग, ग्रुप एच",
+            "bn": "ইএইচএফ ইউরোপীয়ান লীগ, গ্রুপ এইচ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "EHF European League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78471
+      },
+      "roundInfo": {
+        "round": 3
+      },
+      "customId": "fncsekk",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Nasice"
+        },
+        "hidden": true,
+        "slug": "sport-hall-os-kralja-tomislava",
+        "name": "Sport hall OS Kralja Tomislava",
+        "id": 6812,
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "صالة الرياضة في مدرسة كرايلا توميسلاف",
+            "hi": "स्पोर्ट हॉल ओएस क्राल्जा टोमिस्लावा",
+            "bn": "স্পোর্টস হল ওএস ক্রালজা টমিস্লাভা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Sport hall OS Kralja Tomislava"
+        }
+      },
+      "homeTeam": {
+        "name": "Nexe Našice",
+        "slug": "nexe-nasice",
+        "shortName": "Nexe",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 1805,
+        "manager": {
+          "name": "Krešo Ivanković",
+          "slug": "kreso-ivankovic",
+          "shortName": "K. Ivanković",
+          "id": 806248,
+          "country": {
+            "alpha2": "HR",
+            "alpha3": "HRV",
+            "name": "Croatia",
+            "slug": "croatia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كريشو إيفانكوفيتش"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. إيفانكوفيتش"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Nasice"
+          },
+          "hidden": true,
+          "slug": "sport-hall-os-kralja-tomislava",
+          "name": "Sport hall OS Kralja Tomislava",
+          "id": 6812,
+          "country": {
+            "alpha2": "HR",
+            "alpha3": "HRV",
+            "name": "Croatia",
+            "slug": "croatia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة الرياضة في مدرسة كرايلا توميسلاف",
+              "hi": "स्पोर्ट हॉल ओएस क्राल्जा टोमिस्लावा",
+              "bn": "স্পোর্টস হল ওএস ক্রালজা টমিস্লাভা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Sport hall OS Kralja Tomislava"
+          }
+        },
+        "nameCode": "RKN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 25504,
+        "country": {
+          "alpha2": "HR",
+          "alpha3": "HRV",
+          "name": "Croatia",
+          "slug": "croatia"
+        },
+        "fullName": "Nexe Našice",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#008000",
+          "secondary": "#ee1212",
+          "text": "#ee1212"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيكسي ناشيتسه"
+          },
+          "shortNameTranslation": {
+            "ar": "نيكسي"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Kadetten Schaffhausen",
+        "slug": "kadetten-schaffhausen",
+        "shortName": "Kadetten",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 1161,
+        "manager": {
+          "name": "Hrvoje Horvat",
+          "slug": "hrvoje-horvat",
+          "shortName": "H. Horvat",
+          "id": 791747,
+          "country": {
+            "alpha2": "HR",
+            "alpha3": "HRV",
+            "name": "Croatia",
+            "slug": "croatia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هرفوي هورفات"
+            },
+            "shortNameTranslation": {
+              "ar": "هـ. هورفات"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Schaffhausen"
+          },
+          "hidden": true,
+          "slug": "bbc-arena",
+          "name": "BBC-Arena",
+          "capacity": 3500,
+          "id": 6408,
+          "country": {
+            "alpha2": "CH",
+            "alpha3": "CHE",
+            "name": "Switzerland",
+            "slug": "switzerland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بي بي سي أرينا",
+              "hi": "बीबीसी-एरिना",
+              "bn": "বিবিসি এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "BBC-Arena",
+            "capacity": 3500
+          }
+        },
+        "nameCode": "KSH",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 5655,
+        "country": {
+          "alpha2": "CH",
+          "alpha3": "CHE",
+          "name": "Switzerland",
+          "slug": "switzerland"
+        },
+        "fullName": "Kadetten Schaffhausen",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff6300",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كاديتن شافهاوزن",
+            "ru": "Кадеттен Шаффхаузен"
+          },
+          "shortNameTranslation": {
+            "ar": "كاديتن",
+            "hi": "काडेटेन",
+            "bn": "কাডেতেন"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 18,
+        "display": 18,
+        "period1": 12
+      },
+      "awayScore": {
+        "current": 19,
+        "display": 19,
+        "period1": 16
+      },
+      "time": {
+        "played": 2374,
+        "periodLength": 1800,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762893372
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762894022
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14216516,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 30,
+      "slug": "nexe-nasice-kadetten-schaffhausen",
+      "currentPeriodStartTimestamp": 1762893372,
+      "startTimestamp": 1762890300,
+      "defaultOvertimeLength": 5,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14216516/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 0
+      },
+      {
+        "minute": 2,
+        "value": -1
+      },
+      {
+        "minute": 3,
+        "value": 0
+      },
+      {
+        "minute": 4,
+        "value": 0
+      },
+      {
+        "minute": 5,
+        "value": 0
+      },
+      {
+        "minute": 6,
+        "value": 1
+      },
+      {
+        "minute": 7,
+        "value": 1
+      },
+      {
+        "minute": 8,
+        "value": 2
+      },
+      {
+        "minute": 9,
+        "value": 2
+      },
+      {
+        "minute": 10,
+        "value": 2
+      },
+      {
+        "minute": 11,
+        "value": 3
+      },
+      {
+        "minute": 12,
+        "value": 2
+      },
+      {
+        "minute": 13,
+        "value": 1
+      },
+      {
+        "minute": 14,
+        "value": 1
+      },
+      {
+        "minute": 15,
+        "value": 0
+      },
+      {
+        "minute": 16,
+        "value": -1
+      },
+      {
+        "minute": 17,
+        "value": -2
+      },
+      {
+        "minute": 18,
+        "value": -2
+      },
+      {
+        "minute": 19,
+        "value": -2
+      },
+      {
+        "minute": 20,
+        "value": -1
+      },
+      {
+        "minute": 21,
+        "value": 0
+      },
+      {
+        "minute": 22,
+        "value": -1
+      },
+      {
+        "minute": 23,
+        "value": -1
+      },
+      {
+        "minute": 24,
+        "value": -1
+      },
+      {
+        "minute": 25,
+        "value": -2
+      },
+      {
+        "minute": 26,
+        "value": -3
+      },
+      {
+        "minute": 27,
+        "value": -3
+      },
+      {
+        "minute": 28,
+        "value": -2
+      },
+      {
+        "minute": 29,
+        "value": -3
+      },
+      {
+        "minute": 30,
+        "value": -4
+      },
+      {
+        "minute": 31,
+        "value": -4
+      },
+      {
+        "minute": 32,
+        "value": -4
+      },
+      {
+        "minute": 33,
+        "value": -4
+      },
+      {
+        "minute": 34,
+        "value": -5
+      },
+      {
+        "minute": 35,
+        "value": -4
+      },
+      {
+        "minute": 36,
+        "value": -4
+      },
+      {
+        "minute": 37,
+        "value": -3
+      },
+      {
+        "minute": 38,
+        "value": -2
+      },
+      {
+        "minute": 39,
+        "value": -2
+      },
+      {
+        "minute": 40,
+        "value": -1
+      }
+    ],
+    "periodTime": 30,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14216516/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184538670,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538670,
+        "suspended": false,
+        "id": 150258818,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "3/5",
+            "fractionalValue": "27/20",
+            "sourceId": 2079963989,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "9/2",
+            "sourceId": 2079963994,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "11/10",
+            "sourceId": 2079963998,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184145743,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184145743,
+        "suspended": false,
+        "id": 145298754,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "13/20",
+            "sourceId": 2055857570,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "7/1",
+            "sourceId": 2055857581,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "3/2",
+            "fractionalValue": "17/10",
+            "sourceId": 2055857576,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14216516
+  }
+}

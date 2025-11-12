@@ -1,0 +1,337 @@
+{
+  "event/14647257/votes": {
+    "vote": {
+      "vote1": 90,
+      "vote2": 4,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14647257/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14647257/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 102,
+        "awayScore": 55,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "text": "HT",
+        "homeScore": 56,
+        "awayScore": 31,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      }
+    ]
+  },
+  "event/14647257": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3816,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "PKJsetWb",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Texas Arlington Mavericks",
+        "slug": "texas-arlington-mavericks",
+        "shortName": "Texas Arlington",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 137,
+        "venue": {
+          "city": {
+            "name": "Arlington"
+          },
+          "hidden": true,
+          "slug": "college-park-center",
+          "name": "College Park Center",
+          "capacity": 7000,
+          "id": 16515,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز كوليدج بارك",
+              "hi": "कॉलेज पार्क सेंटर",
+              "bn": "কলেজ পার্ক সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "College Park Center",
+            "capacity": 7000
+          }
+        },
+        "nameCode": "UTA",
+        "national": false,
+        "type": 0,
+        "id": 86790,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Texas Arlington Mavericks",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تكساس أرلينغتون مافريكس",
+            "ru": "Тексас Арлингтон Маверикс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Arlington Baptist College",
+        "slug": "arlington-baptist-college",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 17,
+        "venue": {
+          "city": {
+            "name": "Arlington"
+          },
+          "hidden": true,
+          "slug": "j-frank-norris-auditorium",
+          "name": "J. Frank Norris Auditorium",
+          "id": 42648,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قاعة ج. فرانك نوريس",
+              "hi": "जे. फ्रैंक नोरिस ऑडिटोरियम",
+              "bn": "জে. ফ্রাঙ্ক নরিস অডিটোরিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "J. Frank Norris Auditorium"
+          }
+        },
+        "nameCode": "ABAP",
+        "national": false,
+        "type": 0,
+        "id": 240904,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Arlington Baptist College",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرلينغتون بابتست كوليدج"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 102,
+        "display": 102,
+        "period1": 56,
+        "period2": 46
+      },
+      "awayScore": {
+        "current": 55,
+        "display": 55,
+        "period1": 31,
+        "period2": 24
+      },
+      "time": {
+        "played": 2202,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2",
+          "time.played"
+        ],
+        "changeTimestamp": 1762829030
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14647257,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "arlington-baptist-college-texas-arlington-mavericks",
+      "startTimestamp": 1762822800,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

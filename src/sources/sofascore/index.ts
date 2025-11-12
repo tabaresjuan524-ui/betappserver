@@ -162,17 +162,40 @@ export class SofaScoreDataSource implements IDataSource {
     async fetchData(browser: any = null): Promise<any> {
         // This method returns the latest cached data.
         // The fetching is handled by the startFetching loop.
-        const hasData = this.lastSuccessfulData !== null;
+        let dataToReturn = this.lastSuccessfulData;
         
-        if (!hasData) {
+        // If no cached data, try to load the latest saved file
+        if (!dataToReturn) {
+            try {
+                const sofascoreDir = path.join(__dirname, '../../../sofascore');
+                if (fs.existsSync(sofascoreDir)) {
+                    const files = fs.readdirSync(sofascoreDir)
+                        .filter(f => f.startsWith('sofascore-data-') && f.endsWith('.json'))
+                        .sort()
+                        .reverse(); // Most recent first
+                    
+                    if (files.length > 0) {
+                        const latestFile = files[0];
+                        const filepath = path.join(sofascoreDir, latestFile);
+                        const fileData = fs.readFileSync(filepath, 'utf-8');
+                        dataToReturn = JSON.parse(fileData);
+                        console.log(`📁 [SOFASCORE] Loaded cached data from file: ${latestFile}`);
+                    }
+                }
+            } catch (error: any) {
+                console.error(`❌ [SOFASCORE] Error loading cached file:`, error.message);
+            }
+        }
+        
+        if (!dataToReturn) {
             console.log(`⏳ [SOFASCORE] No data yet, fetching in progress...`);
             return null;
         }
 
         const dataDetails = {
-            sportsWithLiveEvents: Object.keys(this.lastSuccessfulData.sports).length,
-            totalEvents: Object.values(this.lastSuccessfulData.sports).reduce((sum: number, sport: any) => sum + Object.keys(sport.events).length, 0),
-            lastUpdate: this.lastSuccessfulData.lastUpdate
+            sportsWithLiveEvents: Object.keys(dataToReturn.sports || {}).length,
+            totalEvents: Object.values(dataToReturn.sports || {}).reduce((sum: number, sport: any) => sum + Object.keys(sport.events || {}).length, 0),
+            lastUpdate: dataToReturn.lastUpdate
         };
 
         if (this.isFetching) {
@@ -181,6 +204,12 @@ export class SofaScoreDataSource implements IDataSource {
             console.log(`📬 [SOFASCORE] Returning cached data:`, dataDetails);
         }
         
-        return this.lastSuccessfulData;
+        // Return data in the expected format for the main index.ts aggregator
+        return {
+            sports: [], // SofaScore doesn't provide sports in the same format as other sources
+            liveEvents: [],
+            standardizedEvents: [],
+            sofascore: dataToReturn // This is the key: wrap data in sofascore object
+        };
     }
 }

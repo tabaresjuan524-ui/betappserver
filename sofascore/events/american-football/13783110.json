@@ -1,0 +1,763 @@
+{
+  "event/13783110/incidents": {
+    "incidents": [
+      {
+        "text": "2nd quarter",
+        "homeScore": 3,
+        "awayScore": 7,
+        "isLive": true,
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 900,
+        "incidentType": "period"
+      },
+      {
+        "text": "Q1",
+        "homeScore": 3,
+        "awayScore": 7,
+        "isLive": false,
+        "time": 15,
+        "addedTime": 999,
+        "timeSeconds": 900,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 900,
+        "incidentType": "period"
+      },
+      {
+        "from": "ep",
+        "homeScore": 3,
+        "awayScore": 7,
+        "player": {
+          "name": "David Dellenbach",
+          "slug": "dellenbach-david",
+          "shortName": "D. Dellenbach",
+          "position": "K",
+          "jerseyNumber": "37",
+          "height": 188,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1920603,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديلينباش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ديلينباش"
+            }
+          }
+        },
+        "id": 327080300,
+        "time": 14,
+        "timeSeconds": 822,
+        "isHome": false,
+        "incidentClass": "extraPoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 78,
+        "periodTimeSeconds": 822,
+        "incidentType": "goal"
+      },
+      {
+        "from": "td",
+        "homeScore": 3,
+        "awayScore": 6,
+        "player": {
+          "name": "Parker Navarro",
+          "slug": "navarro-parker",
+          "shortName": "P. Navarro",
+          "position": "QB",
+          "jerseyNumber": "13",
+          "height": 183,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1452610,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نافارو، باركر"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. نافارو"
+            }
+          }
+        },
+        "id": 327080299,
+        "time": 14,
+        "timeSeconds": 822,
+        "isHome": false,
+        "incidentClass": "touchdown",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 78,
+        "periodTimeSeconds": 822,
+        "incidentType": "goal"
+      },
+      {
+        "from": "fg",
+        "homeScore": 3,
+        "awayScore": 0,
+        "player": {
+          "name": "Palmer Domschke",
+          "slug": "domschke-palmer",
+          "shortName": "P. Domschke",
+          "position": "K",
+          "jerseyNumber": "37",
+          "height": 178,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1529015,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومشكي، بالمر"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. دومشكي"
+            }
+          }
+        },
+        "id": 327079084,
+        "time": 5,
+        "timeSeconds": 281,
+        "isHome": true,
+        "incidentClass": "fieldGoal",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 619,
+        "periodTimeSeconds": 281,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/13783110/h2h": {
+    "teamDuel": {
+      "homeWins": 5,
+      "awayWins": 4,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/13783110/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "34",
+      "label": "yds",
+      "player": {
+        "name": "Broc Lowry",
+        "slug": "lowry-broc",
+        "shortName": "B. Lowry",
+        "position": "QB",
+        "jerseyNumber": "14",
+        "height": 191,
+        "userCount": 0,
+        "gender": "M",
+        "id": 1561546,
+        "marketValueCurrency": "EUR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لاوري، بروك"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. لاوري"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "46",
+      "label": "yds",
+      "player": {
+        "name": "Parker Navarro",
+        "slug": "navarro-parker",
+        "shortName": "P. Navarro",
+        "position": "QB",
+        "jerseyNumber": "13",
+        "height": 183,
+        "userCount": 9,
+        "gender": "M",
+        "id": 1452610,
+        "marketValueCurrency": "EUR",
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نافارو، باركر"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. نافارو"
+          }
+        }
+      }
+    }
+  },
+  "event/13783110/votes": {
+    "vote": {
+      "vote1": 699,
+      "vote2": 611,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/13783110": {
+    "event": {
+      "tournament": {
+        "name": "NCAA, Regular Season",
+        "slug": "ncaa-regular-season",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "American football",
+            "slug": "american-football",
+            "id": 63
+          },
+          "id": 1370,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA, Regular Season",
+          "slug": "ncaa-regular-season",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "American football",
+              "slug": "american-football",
+              "id": 63
+            },
+            "id": 1370,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 2289,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 19510,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الرابطة الوطنية لرياضة الجامعات، الموسم العادي",
+              "hi": "एनसीएए, रेगुलर सीज़न",
+              "bn": "এনসিএএ, রেগুলার সিজন"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 108948,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الجامعات الأمريكي، الموسم العادي",
+            "hi": "एनसीएए, रेगुलर सीजन",
+            "bn": "এনসিএএ, রেগুলার সিজন"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 74693
+      },
+      "customId": "aMbsgMb",
+      "status": {
+        "code": 14,
+        "description": "2nd quarter",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Western Michigan Broncos",
+        "slug": "western-michigan-broncos",
+        "shortName": "Western Michigan",
+        "gender": "M",
+        "sport": {
+          "name": "American football",
+          "slug": "american-football",
+          "id": 63
+        },
+        "userCount": 178,
+        "venue": {
+          "city": {
+            "name": "Kalamazoo"
+          },
+          "venueCoordinates": {
+            "latitude": 42.2855,
+            "longitude": -85.6009
+          },
+          "hidden": true,
+          "slug": "waldo-stadium",
+          "name": "Waldo Stadium",
+          "capacity": 30200,
+          "id": 47369,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب والدوا",
+              "hi": "वाल्डो स्टेडियम",
+              "bn": "ওয়াল্ডো স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Waldo Stadium",
+            "capacity": 30200
+          }
+        },
+        "nameCode": "WMU",
+        "national": false,
+        "type": 0,
+        "id": 4356,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Western Michigan Broncos",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويستيرن ماشيغان"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Ohio Bobcats",
+        "slug": "ohio-bobcats",
+        "shortName": "Ohio",
+        "gender": "M",
+        "sport": {
+          "name": "American football",
+          "slug": "american-football",
+          "id": 63
+        },
+        "userCount": 326,
+        "venue": {
+          "city": {
+            "name": "Athens"
+          },
+          "hidden": true,
+          "slug": "peden-stadium",
+          "name": "Peden Stadium",
+          "capacity": 24000,
+          "id": 37693,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب بيدن",
+              "hi": "पेडेन स्टेडियम",
+              "bn": "পেডেন স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Peden Stadium",
+            "capacity": 24000
+          }
+        },
+        "nameCode": "OHIO",
+        "national": false,
+        "type": 0,
+        "id": 4350,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Ohio Bobcats",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوهايو بوبكاتس"
+          },
+          "shortNameTranslation": {
+            "ar": "أوهايو"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 3,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 7,
+        "display": 7,
+        "period1": 7,
+        "period2": 0
+      },
+      "time": {
+        "played": 1680,
+        "periodLength": 900,
+        "overtimeLength": 600,
+        "totalPeriodCount": 4
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762913726
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13783110,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 15,
+      "defaultOvertimeLength": 10,
+      "slug": "western-michigan-broncos-ohio-bobcats",
+      "startTimestamp": 1762909200,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/13783110/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184547959,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547959,
+        "suspended": false,
+        "id": 150528330,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "8/5",
+            "sourceId": 2081012288,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "10/13",
+            "fractionalValue": "1/2",
+            "sourceId": 2081012274,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184547959,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547959,
+        "suspended": false,
+        "id": 150528330,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "8/5",
+            "sourceId": 2081012288,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "10/13",
+            "fractionalValue": "1/2",
+            "sourceId": 2081012274,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184547959,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547959,
+        "suspended": false,
+        "id": 150528330,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "8/5",
+            "sourceId": 2081012288,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "10/13",
+            "fractionalValue": "1/2",
+            "sourceId": 2081012274,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/13783110/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 0
+      },
+      {
+        "minute": 2,
+        "value": 0
+      },
+      {
+        "minute": 3,
+        "value": 0
+      },
+      {
+        "minute": 4,
+        "value": 0
+      },
+      {
+        "minute": 5,
+        "value": 3
+      },
+      {
+        "minute": 6,
+        "value": 3
+      },
+      {
+        "minute": 7,
+        "value": 3
+      },
+      {
+        "minute": 8,
+        "value": 3
+      },
+      {
+        "minute": 9,
+        "value": 3
+      },
+      {
+        "minute": 10,
+        "value": 3
+      },
+      {
+        "minute": 11,
+        "value": 3
+      },
+      {
+        "minute": 12,
+        "value": 3
+      },
+      {
+        "minute": 13,
+        "value": 3
+      },
+      {
+        "minute": 14,
+        "value": -4
+      },
+      {
+        "minute": 15,
+        "value": -4
+      },
+      {
+        "minute": 16,
+        "value": -4
+      },
+      {
+        "minute": 17,
+        "value": -4
+      },
+      {
+        "minute": 18,
+        "value": -4
+      },
+      {
+        "minute": 19,
+        "value": -4
+      },
+      {
+        "minute": 20,
+        "value": -4
+      },
+      {
+        "minute": 21,
+        "value": -4
+      },
+      {
+        "minute": 22,
+        "value": -4
+      },
+      {
+        "minute": 23,
+        "value": -4
+      },
+      {
+        "minute": 24,
+        "value": -4
+      },
+      {
+        "minute": 25,
+        "value": -4
+      },
+      {
+        "minute": 26,
+        "value": -4
+      },
+      {
+        "minute": 27,
+        "value": -4
+      },
+      {
+        "minute": 28,
+        "value": -4
+      }
+    ],
+    "periodTime": 15,
+    "overtimeLength": 10,
+    "periodCount": 4
+  },
+  "event/13783110/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184547959,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547959,
+        "suspended": false,
+        "id": 150528330,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "8/5",
+            "sourceId": 2081012288,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "10/13",
+            "fractionalValue": "1/2",
+            "sourceId": 2081012274,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184468494,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184468496,
+        "suspended": false,
+        "id": 148019507,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "83/100",
+            "sourceId": 2070488619,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "77/100",
+            "fractionalValue": "1/1",
+            "sourceId": 2070488618,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 13783110
+  }
+}

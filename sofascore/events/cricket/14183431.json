@@ -1,0 +1,333 @@
+{
+  "event/14183431/pregame-form": {
+    "homeTeam": {
+      "position": 6,
+      "value": "4",
+      "form": [
+        "L",
+        "L",
+        "D"
+      ]
+    },
+    "awayTeam": {
+      "position": 2,
+      "value": "15",
+      "form": [
+        "D",
+        "W",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14183431/votes": {
+    "vote": {
+      "vote1": 42,
+      "vote2": 15,
+      "voteX": 1
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14183431": {
+    "event": {
+      "tournament": {
+        "name": "Sheffield Shield",
+        "slug": "sheffield-shield",
+        "category": {
+          "name": "Australia",
+          "slug": "australia",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1347,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "flag": "australia",
+          "alpha2": "AU",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أستراليا",
+              "hi": "ऑस्ट्रेलिया",
+              "bn": "অস্ট্রেলিয়া"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Sheffield Shield",
+          "slug": "sheffield-shield",
+          "primaryColorHex": "#b1e2fb",
+          "secondaryColorHex": "#b99e53",
+          "category": {
+            "name": "Australia",
+            "slug": "australia",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1347,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "flag": "australia",
+            "alpha2": "AU",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أستراليا",
+                "hi": "ऑस्ट्रेलिया",
+                "bn": "অস্ট্রেলিয়া"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 280,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 11160,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "درع شيفيلد",
+              "hi": "शेफील्ड शील्ड",
+              "bn": "শেফিল্ড শিল্ড"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 40651,
+        "endTimestamp": 1774396800,
+        "startTimestamp": 1759536000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "درع شيفيلد",
+            "hi": "शेफील्ड शील्ड",
+            "bn": "শেফিল্ড শিল্ড"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Sheffield Shield, 2025/26",
+        "year": "2025/2026",
+        "editor": false,
+        "id": 78362
+      },
+      "customId": "cfAbsdfAb",
+      "status": {
+        "code": 21,
+        "description": "1st Inning",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Perth"
+        },
+        "hidden": true,
+        "slug": "w-a-c-a-ground",
+        "name": "W.A.C.A. Ground",
+        "capacity": 24500,
+        "id": 24760,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب دبليو.أيه.سي.أيه",
+            "hi": "डब्ल्यू.ए.सी.ए. ग्राउंड",
+            "bn": "ডব্লিউ.এ.সি.এ. গ্রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "W.A.C.A. Ground",
+          "capacity": 24500
+        }
+      },
+      "referee": {
+        "name": "Steve Davis",
+        "slug": "steve-davis",
+        "yellowCards": 0,
+        "redCards": 0,
+        "yellowRedCards": 0,
+        "games": 190,
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "id": 790131,
+        "country": {},
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستيف ديفيس"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Western Australia",
+        "slug": "western-australia",
+        "shortName": "WAU",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 243,
+        "nameCode": "WAU",
+        "national": false,
+        "type": 0,
+        "id": 187752,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Western Australia",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أستراليا الغربية"
+          },
+          "shortNameTranslation": {
+            "hi": "डब्ल्यूएयू",
+            "bn": "ডব্লিউএইউ"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Queensland",
+        "slug": "queensland",
+        "shortName": "QUN",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 319,
+        "nameCode": "QUE",
+        "national": false,
+        "type": 0,
+        "id": 187753,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Queensland",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوينزلاند"
+          },
+          "shortNameTranslation": {
+            "hi": "क्यूयूएन",
+            "bn": "কিউইউএন"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0
+      },
+      "awayScore": {
+        "current": 50,
+        "display": 50,
+        "innings": {
+          "inning1": {
+            "score": 50,
+            "wickets": 1,
+            "overs": 17,
+            "runRate": 2.94
+          }
+        }
+      },
+      "coverage": 3,
+      "time": {},
+      "changes": {
+        "changes": [
+          "awayScore.innings"
+        ],
+        "changeTimestamp": 1762833508
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14183431,
+      "umpire1Name": "Abhijeet Bengeri (IND)",
+      "umpire2Name": "Ben Treloar (AUS)",
+      "tvUmpireName": "No TV Umpire",
+      "refereeName": "Steve Davis",
+      "tossWin": "Western Australia",
+      "tossDecision": "Bowling",
+      "endTimestamp": 1763112600,
+      "slug": "queensland-western-australia",
+      "startTimestamp": 1762828200,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "lastPeriod": "inning1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14183431/h2h": {
+    "teamDuel": {
+      "homeWins": 6,
+      "awayWins": 1,
+      "draws": 3
+    },
+    "managerDuel": null
+  }
+}

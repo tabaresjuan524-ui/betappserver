@@ -1,0 +1,3339 @@
+{
+  "event/14662050/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "6",
+      "label": "gls",
+      "player": {
+        "name": "Drevy-Noah Paschal",
+        "slug": "paschal-drevy-noah",
+        "shortName": "D. Paschal",
+        "position": "LW",
+        "jerseyNumber": "97",
+        "height": 192,
+        "userCount": 3,
+        "gender": "M",
+        "id": 944769,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 995241600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باسكال، دريفي-نوح"
+          },
+          "shortNameTranslation": {
+            "ar": "د. باسكال"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "3",
+      "label": "gls",
+      "player": {
+        "name": "Ignacio Valles Becerra",
+        "slug": "becerra-ignacio-valles",
+        "shortName": "I. V. Becerra",
+        "position": "CB",
+        "jerseyNumber": "34",
+        "height": 182,
+        "userCount": 2,
+        "gender": "M",
+        "id": 1411906,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 874540800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيسيرا، إغناسيو فاليز"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بيسيرا"
+          }
+        }
+      }
+    }
+  },
+  "event/14662050/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 23,
+        "awayScore": 19,
+        "isLive": true,
+        "time": 60,
+        "addedTime": 999,
+        "timeSeconds": 3600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 23,
+        "awayScore": 19,
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "id": 327073369,
+        "time": 36,
+        "timeSeconds": 2136,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1464,
+        "periodTimeSeconds": 336,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 22,
+        "awayScore": 19,
+        "player": {
+          "name": "Inaki Cavero Echepare",
+          "slug": "cavero-echepare-inaki",
+          "shortName": "I. C. Etxepane",
+          "position": "RW",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 8,
+          "gender": "M",
+          "id": 996600,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 830563200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كافيرو إيشيباري، إيناكي",
+              "hi": "कैवेरो एचेपारे, इनाकी",
+              "bn": "কাভেরো ইচেপারে, ইনাকি"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ك. إتشاباري",
+              "hi": "आई. सी. एचेपारे",
+              "bn": "আই. সি. এটক্সপানে"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "id": 327073341,
+        "time": 35,
+        "timeSeconds": 2054,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1546,
+        "periodTimeSeconds": 254,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 22,
+        "awayScore": 18,
+        "player": {
+          "name": "Andreas Lang",
+          "slug": "lang-andreas",
+          "shortName": "A. Lang",
+          "position": "RB",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 6,
+          "gender": "M",
+          "id": 949582,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 841536000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانغ، أندرياس"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. لانغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "id": 327073325,
+        "time": 34,
+        "timeSeconds": 2014,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 27,
+        "reversedPeriodTimeSeconds": 1586,
+        "periodTimeSeconds": 214,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Marko Jevtic",
+          "firstName": "Marko",
+          "lastName": "Jevtic",
+          "slug": "jevtic-marko",
+          "shortName": "M. Jevtić",
+          "position": "P",
+          "jerseyNumber": "4",
+          "height": 196,
+          "userCount": 32,
+          "gender": "M",
+          "id": 1095739,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1003276800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيفتيتش، ماركو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيفتيتش"
+            }
+          }
+        },
+        "playerName": "Marko Jevtic",
+        "duration": 120,
+        "id": 162287,
+        "time": 33,
+        "timeSeconds": 1959,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1641,
+        "periodTimeSeconds": 159,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 21,
+        "awayScore": 18,
+        "player": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Andreas Lang",
+          "slug": "lang-andreas",
+          "shortName": "A. Lang",
+          "position": "RB",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 6,
+          "gender": "M",
+          "id": 949582,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 841536000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانغ، أندرياس"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. لانغ"
+            }
+          }
+        },
+        "id": 327073297,
+        "time": 33,
+        "timeSeconds": 1957,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1643,
+        "periodTimeSeconds": 157,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "playerName": "Johannes Marescot",
+        "duration": 120,
+        "id": 162285,
+        "time": 33,
+        "timeSeconds": 1953,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1647,
+        "periodTimeSeconds": 153,
+        "incidentType": "suspension"
+      },
+      {
+        "player": {
+          "name": "Mario Nevado Gil",
+          "slug": "nevado-gil-mario",
+          "shortName": "M. N. Gil",
+          "position": "LB",
+          "jerseyNumber": "39",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1518022,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفادو جيل، ماريو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيل"
+            }
+          }
+        },
+        "playerName": "Mario Nevado Gil",
+        "duration": 120,
+        "id": 162284,
+        "time": 31,
+        "timeSeconds": 1841,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 30,
+        "reversedPeriodTimeSeconds": 1759,
+        "periodTimeSeconds": 41,
+        "incidentType": "suspension"
+      },
+      {
+        "text": "HT",
+        "homeScore": 20,
+        "awayScore": 18,
+        "isLive": false,
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 20,
+        "awayScore": 18,
+        "player": {
+          "name": "Dariel Garcia Rivera",
+          "slug": "garcia-rivera-dariel",
+          "shortName": "D. G. Rivera",
+          "position": "LW",
+          "jerseyNumber": "32",
+          "height": 199,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1155365,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 851990400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غارسيا ريفيرا، داريل"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ريفيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "id": 327072700,
+        "time": 30,
+        "timeSeconds": 1797,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 3,
+        "periodTimeSeconds": 1797,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 20,
+        "awayScore": 17,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "id": 327072698,
+        "time": 30,
+        "timeSeconds": 1770,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 30,
+        "periodTimeSeconds": 1770,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 19,
+        "awayScore": 17,
+        "player": {
+          "name": "Dariel Garcia Rivera",
+          "slug": "garcia-rivera-dariel",
+          "shortName": "D. G. Rivera",
+          "position": "LW",
+          "jerseyNumber": "32",
+          "height": 199,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1155365,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 851990400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غارسيا ريفيرا، داريل"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ريفيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "id": 327072689,
+        "time": 30,
+        "timeSeconds": 1757,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 43,
+        "periodTimeSeconds": 1757,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 19,
+        "awayScore": 16,
+        "player": {
+          "name": "Inaki Cavero Echepare",
+          "slug": "cavero-echepare-inaki",
+          "shortName": "I. C. Etxepane",
+          "position": "RW",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 8,
+          "gender": "M",
+          "id": 996600,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 830563200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كافيرو إيشيباري، إيناكي",
+              "hi": "कैवेरो एचेपारे, इनाकी",
+              "bn": "কাভেরো ইচেপারে, ইনাকি"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ك. إتشاباري",
+              "hi": "आई. सी. एचेपारे",
+              "bn": "আই. সি. এটক্সপানে"
+            }
+          }
+        },
+        "id": 327072565,
+        "time": 27,
+        "timeSeconds": 1616,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 184,
+        "periodTimeSeconds": 1616,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 19,
+        "awayScore": 15,
+        "player": {
+          "name": "Jonathan Mapu",
+          "slug": "mapu-jonathan",
+          "shortName": "J. Mapu",
+          "position": "P",
+          "jerseyNumber": "8",
+          "height": 181,
+          "userCount": 2,
+          "gender": "M",
+          "id": 925835,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 889488000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مابو، جوناثان"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مابو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jose Maria Marquez Coloma",
+          "firstName": "",
+          "lastName": "",
+          "slug": "marquez-coloma-jose-maria",
+          "shortName": "J. M. M. Coloma",
+          "position": "LB",
+          "jerseyNumber": "9",
+          "height": 187,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1009791,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 851040000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماركيز كولوم، خوسيه ماريا"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. كولوم"
+            }
+          }
+        },
+        "id": 327072520,
+        "time": 27,
+        "timeSeconds": 1586,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 214,
+        "periodTimeSeconds": 1586,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Miguel Neves",
+          "slug": "neves-miguel",
+          "shortName": "M. Neves",
+          "position": "CB",
+          "jerseyNumber": "23",
+          "height": 199,
+          "userCount": 5,
+          "gender": "M",
+          "id": 945008,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 972950400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفيس، ميغيل"
+            },
+            "shortNameTranslation": {
+              "ar": "م. نيفيس"
+            }
+          }
+        },
+        "playerName": "Miguel Neves",
+        "duration": 120,
+        "id": 162279,
+        "time": 27,
+        "timeSeconds": 1561,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 239,
+        "periodTimeSeconds": 1561,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 18,
+        "awayScore": 15,
+        "player": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "id": 327072501,
+        "time": 27,
+        "timeSeconds": 1561,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 239,
+        "periodTimeSeconds": 1561,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 18,
+        "awayScore": 14,
+        "player": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Miguel Neves",
+          "slug": "neves-miguel",
+          "shortName": "M. Neves",
+          "position": "CB",
+          "jerseyNumber": "23",
+          "height": 199,
+          "userCount": 5,
+          "gender": "M",
+          "id": 945008,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 972950400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفيس، ميغيل"
+            },
+            "shortNameTranslation": {
+              "ar": "م. نيفيس"
+            }
+          }
+        },
+        "id": 327072475,
+        "time": 26,
+        "timeSeconds": 1526,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 274,
+        "periodTimeSeconds": 1526,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 17,
+        "awayScore": 14,
+        "player": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Mario Nevado Gil",
+          "slug": "nevado-gil-mario",
+          "shortName": "M. N. Gil",
+          "position": "LB",
+          "jerseyNumber": "39",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1518022,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفادو جيل، ماريو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيل"
+            }
+          }
+        },
+        "id": 327072471,
+        "time": 26,
+        "timeSeconds": 1518,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 282,
+        "periodTimeSeconds": 1518,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 17,
+        "awayScore": 13,
+        "player": {
+          "name": "Micke Brasseleur",
+          "slug": "brasseleur-micke",
+          "shortName": "M. Brasseleur",
+          "position": "RB",
+          "jerseyNumber": "93",
+          "height": 197,
+          "userCount": 5,
+          "gender": "M",
+          "id": 835559,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 734918400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "براسلور، ميكي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. براسلور"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "id": 327072441,
+        "time": 25,
+        "timeSeconds": 1461,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 339,
+        "periodTimeSeconds": 1461,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 16,
+        "awayScore": 13,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "id": 327072418,
+        "time": 24,
+        "timeSeconds": 1398,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 402,
+        "periodTimeSeconds": 1398,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 15,
+        "awayScore": 13,
+        "player": {
+          "name": "Esteban Joaquin Salinas Munoz",
+          "slug": "salinas-munoz-esteban-joaquin",
+          "shortName": "E. J. S. Muñoz",
+          "position": "P",
+          "jerseyNumber": "11",
+          "height": 183,
+          "userCount": 43,
+          "gender": "M",
+          "id": 996605,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 695692800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ساليناس مونوز، إستيبان جواكين",
+              "hi": "सेलिनास मुनोज़, एस्टेबन जोकिन",
+              "bn": "সেলিনাস মুনোজ, এস্তেবান জোয়াকিন"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ج. س. مونوز",
+              "hi": "ई. जे. एस. मुनोज़",
+              "bn": "ই. জে. এস. মুনোজ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "id": 327072405,
+        "time": 23,
+        "timeSeconds": 1374,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 426,
+        "periodTimeSeconds": 1374,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 15,
+        "awayScore": 12,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "id": 327072348,
+        "time": 22,
+        "timeSeconds": 1274,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 526,
+        "periodTimeSeconds": 1274,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Marko Jevtic",
+          "firstName": "Marko",
+          "lastName": "Jevtic",
+          "slug": "jevtic-marko",
+          "shortName": "M. Jevtić",
+          "position": "P",
+          "jerseyNumber": "4",
+          "height": 196,
+          "userCount": 32,
+          "gender": "M",
+          "id": 1095739,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1003276800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيفتيتش، ماركو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيفتيتش"
+            }
+          }
+        },
+        "playerName": "Marko Jevtic",
+        "duration": 120,
+        "id": 162277,
+        "time": 22,
+        "timeSeconds": 1274,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 526,
+        "periodTimeSeconds": 1274,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 12,
+        "player": {
+          "name": "Dariel Garcia Rivera",
+          "slug": "garcia-rivera-dariel",
+          "shortName": "D. G. Rivera",
+          "position": "LW",
+          "jerseyNumber": "32",
+          "height": 199,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1155365,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 851990400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غارسيا ريفيرا، داريل"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ريفيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "id": 327072305,
+        "time": 21,
+        "timeSeconds": 1245,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 555,
+        "periodTimeSeconds": 1245,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 11,
+        "player": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Miguel Neves",
+          "slug": "neves-miguel",
+          "shortName": "M. Neves",
+          "position": "CB",
+          "jerseyNumber": "23",
+          "height": 199,
+          "userCount": 5,
+          "gender": "M",
+          "id": 945008,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 972950400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفيس، ميغيل"
+            },
+            "shortNameTranslation": {
+              "ar": "م. نيفيس"
+            }
+          }
+        },
+        "id": 327072298,
+        "time": 21,
+        "timeSeconds": 1235,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 565,
+        "periodTimeSeconds": 1235,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 11,
+        "player": {
+          "name": "Xavier Gonzalez Unciti",
+          "slug": "gonzalez-unciti-xavier",
+          "shortName": "X. G. Unciti",
+          "position": "RW",
+          "jerseyNumber": "18",
+          "height": 180,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1889229,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1102636800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غونزاليس أونسيتي، خافيير"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. أونسيتي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "id": 327072243,
+        "time": 20,
+        "timeSeconds": 1179,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 621,
+        "periodTimeSeconds": 1179,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "playerName": "Quinten Colman",
+        "duration": 120,
+        "id": 162273,
+        "time": 19,
+        "timeSeconds": 1105,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 695,
+        "periodTimeSeconds": 1105,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 10,
+        "player": {
+          "name": "Andreas Lang",
+          "slug": "lang-andreas",
+          "shortName": "A. Lang",
+          "position": "RB",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 6,
+          "gender": "M",
+          "id": 949582,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 841536000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانغ، أندرياس"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. لانغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "id": 327072091,
+        "time": 19,
+        "timeSeconds": 1093,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 707,
+        "periodTimeSeconds": 1093,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 10,
+        "player": {
+          "name": "Esteban Joaquin Salinas Munoz",
+          "slug": "salinas-munoz-esteban-joaquin",
+          "shortName": "E. J. S. Muñoz",
+          "position": "P",
+          "jerseyNumber": "11",
+          "height": 183,
+          "userCount": 43,
+          "gender": "M",
+          "id": 996605,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 695692800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ساليناس مونوز، إستيبان جواكين",
+              "hi": "सेलिनास मुनोज़, एस्टेबन जोकिन",
+              "bn": "সেলিনাস মুনোজ, এস্তেবান জোয়াকিন"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ج. س. مونوز",
+              "hi": "ई. जे. एस. मुनोज़",
+              "bn": "ই. জে. এস. মুনোজ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Piotr Mielczarski",
+          "slug": "mielczarski-piotr",
+          "shortName": "P. Mielczarski",
+          "position": "P",
+          "jerseyNumber": "77",
+          "height": 197,
+          "userCount": 6,
+          "gender": "M",
+          "id": 1889061,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1125446400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلتشارسكي، بيتر"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. ميلتشارسكي"
+            }
+          }
+        },
+        "id": 327072082,
+        "time": 19,
+        "timeSeconds": 1080,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 720,
+        "periodTimeSeconds": 1080,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 9,
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "id": 327072046,
+        "time": 18,
+        "timeSeconds": 1045,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 755,
+        "periodTimeSeconds": 1045,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 9,
+        "player": {
+          "name": "Esteban Joaquin Salinas Munoz",
+          "slug": "salinas-munoz-esteban-joaquin",
+          "shortName": "E. J. S. Muñoz",
+          "position": "P",
+          "jerseyNumber": "11",
+          "height": 183,
+          "userCount": 43,
+          "gender": "M",
+          "id": 996605,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 695692800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ساليناس مونوز، إستيبان جواكين",
+              "hi": "सेलिनास मुनोज़, एस्टेबन जोकिन",
+              "bn": "সেলিনাস মুনোজ, এস্তেবান জোয়াকিন"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ج. س. مونوز",
+              "hi": "ई. जे. एस. मुनोज़",
+              "bn": "ই. জে. এস. মুনোজ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Gorka Nieto Marcos",
+          "slug": "nieto-marcos-gorka",
+          "shortName": "G. N. Marcos",
+          "position": "CB",
+          "jerseyNumber": "31",
+          "height": 185,
+          "userCount": 11,
+          "gender": "M",
+          "id": 1001091,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1012435200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيتو ماركوس، جوركا",
+              "hi": "नीटो मार्कोस, गोर्का",
+              "bn": "নিতো মার্কোস, গোর্কা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ن. ماركوس",
+              "hi": "जी. एन. मार्कोस",
+              "bn": "জি.এন. মার্কোস"
+            }
+          }
+        },
+        "id": 327072029,
+        "time": 17,
+        "timeSeconds": 1016,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 784,
+        "periodTimeSeconds": 1016,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 8,
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "id": 327071929,
+        "time": 16,
+        "timeSeconds": 947,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 853,
+        "periodTimeSeconds": 947,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 8,
+        "player": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "id": 327071904,
+        "time": 15,
+        "timeSeconds": 894,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 906,
+        "periodTimeSeconds": 894,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 8,
+        "player": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Esteban Joaquin Salinas Munoz",
+          "slug": "salinas-munoz-esteban-joaquin",
+          "shortName": "E. J. S. Muñoz",
+          "position": "P",
+          "jerseyNumber": "11",
+          "height": 183,
+          "userCount": 43,
+          "gender": "M",
+          "id": 996605,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 695692800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ساليناس مونوز، إستيبان جواكين",
+              "hi": "सेलिनास मुनोज़, एस्टेबन जोकिन",
+              "bn": "সেলিনাস মুনোজ, এস্তেবান জোয়াকিন"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ج. س. مونوز",
+              "hi": "ई. जे. एस. मुनोज़",
+              "bn": "ই. জে. এস. মুনোজ"
+            }
+          }
+        },
+        "id": 327071896,
+        "time": 15,
+        "timeSeconds": 880,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 920,
+        "periodTimeSeconds": 880,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "playerName": "Ignacio Valles Becerra",
+        "duration": 120,
+        "id": 162270,
+        "time": 15,
+        "timeSeconds": 841,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 959,
+        "periodTimeSeconds": 841,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 7,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "id": 327071816,
+        "time": 13,
+        "timeSeconds": 765,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1035,
+        "periodTimeSeconds": 765,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "playerName": "Julen Mugica Santiago",
+        "duration": 120,
+        "id": 162268,
+        "time": 13,
+        "timeSeconds": 728,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1072,
+        "periodTimeSeconds": 728,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 7,
+        "player": {
+          "name": "Marko Jevtic",
+          "firstName": "Marko",
+          "lastName": "Jevtic",
+          "slug": "jevtic-marko",
+          "shortName": "M. Jevtić",
+          "position": "P",
+          "jerseyNumber": "4",
+          "height": 196,
+          "userCount": 32,
+          "gender": "M",
+          "id": 1095739,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1003276800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيفتيتش، ماركو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيفتيتش"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "id": 327071753,
+        "time": 12,
+        "timeSeconds": 718,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1082,
+        "periodTimeSeconds": 718,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 6,
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "id": 327071741,
+        "time": 12,
+        "timeSeconds": 692,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1108,
+        "periodTimeSeconds": 692,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "player": {
+          "name": "Andreas Lang",
+          "slug": "lang-andreas",
+          "shortName": "A. Lang",
+          "position": "RB",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 6,
+          "gender": "M",
+          "id": 949582,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 841536000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانغ، أندرياس"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. لانغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "id": 327071698,
+        "time": 11,
+        "timeSeconds": 608,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1192,
+        "periodTimeSeconds": 608,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 6,
+        "player": {
+          "name": "Andreas Lang",
+          "slug": "lang-andreas",
+          "shortName": "A. Lang",
+          "position": "RB",
+          "jerseyNumber": "4",
+          "height": 191,
+          "userCount": 6,
+          "gender": "M",
+          "id": 949582,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 841536000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانغ، أندرياس"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. لانغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "id": 327071670,
+        "time": 10,
+        "timeSeconds": 558,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 21,
+        "reversedPeriodTimeSeconds": 1242,
+        "periodTimeSeconds": 558,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 6,
+        "player": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Mario Nevado Gil",
+          "slug": "nevado-gil-mario",
+          "shortName": "M. N. Gil",
+          "position": "LB",
+          "jerseyNumber": "39",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1518022,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفادو جيل، ماريو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيل"
+            }
+          }
+        },
+        "id": 327071659,
+        "time": 10,
+        "timeSeconds": 546,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 21,
+        "reversedPeriodTimeSeconds": 1254,
+        "periodTimeSeconds": 546,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 5,
+        "awayScore": 5,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "id": 327071643,
+        "time": 9,
+        "timeSeconds": 490,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 22,
+        "reversedPeriodTimeSeconds": 1310,
+        "periodTimeSeconds": 490,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 5,
+        "player": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "id": 327071579,
+        "time": 7,
+        "timeSeconds": 413,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1387,
+        "periodTimeSeconds": 413,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 5,
+        "player": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Mario Nevado Gil",
+          "slug": "nevado-gil-mario",
+          "shortName": "M. N. Gil",
+          "position": "LB",
+          "jerseyNumber": "39",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1518022,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفادو جيل، ماريو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيل"
+            }
+          }
+        },
+        "id": 327071573,
+        "time": 7,
+        "timeSeconds": 402,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1398,
+        "periodTimeSeconds": 402,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 4,
+        "player": {
+          "name": "Mario Nevado Gil",
+          "slug": "nevado-gil-mario",
+          "shortName": "M. N. Gil",
+          "position": "LB",
+          "jerseyNumber": "39",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1518022,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1028073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيفادو جيل، ماريو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيل"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Marko Jevtic",
+          "firstName": "Marko",
+          "lastName": "Jevtic",
+          "slug": "jevtic-marko",
+          "shortName": "M. Jevtić",
+          "position": "P",
+          "jerseyNumber": "4",
+          "height": 196,
+          "userCount": 32,
+          "gender": "M",
+          "id": 1095739,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1003276800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيفتيتش، ماركو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيفتيتش"
+            }
+          }
+        },
+        "id": 327071542,
+        "time": 7,
+        "timeSeconds": 365,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1435,
+        "periodTimeSeconds": 365,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "player": {
+          "name": "Drevy-Noah Paschal",
+          "slug": "paschal-drevy-noah",
+          "shortName": "D. Paschal",
+          "position": "LW",
+          "jerseyNumber": "97",
+          "height": 192,
+          "userCount": 3,
+          "gender": "M",
+          "id": 944769,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 995241600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باسكال، دريفي-نوح"
+            },
+            "shortNameTranslation": {
+              "ar": "د. باسكال"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Sergio Perez Manzanares",
+          "slug": "perez-manzanares-sergio",
+          "shortName": "S. P. Manzanares",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 180,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233214,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيريز مانزانا، سيرجيو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مانزانا"
+            }
+          }
+        },
+        "id": 327071517,
+        "time": 6,
+        "timeSeconds": 329,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1471,
+        "periodTimeSeconds": 329,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 3,
+        "player": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "id": 327071507,
+        "time": 6,
+        "timeSeconds": 317,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1483,
+        "periodTimeSeconds": 317,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "player": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Quinten Colman",
+          "firstName": "",
+          "lastName": "",
+          "slug": "colman-quinten",
+          "shortName": "Q. Colman",
+          "position": "LB",
+          "jerseyNumber": "15",
+          "height": 188,
+          "userCount": 6,
+          "gender": "M",
+          "id": 909209,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 845337600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كولمان، كوينتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. كولمان"
+            }
+          }
+        },
+        "id": 327071482,
+        "time": 5,
+        "timeSeconds": 274,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1526,
+        "periodTimeSeconds": 274,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 2,
+        "player": {
+          "name": "Johannes Marescot",
+          "slug": "marescot-johannes",
+          "shortName": "J. Marescot",
+          "position": "P",
+          "jerseyNumber": "36",
+          "height": 194,
+          "userCount": 2,
+          "gender": "M",
+          "id": 912357,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 765417600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريسكوت، يوهانس"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ماريسكوت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Benjamin Bataille",
+          "slug": "bataille-benjamin",
+          "shortName": "B. Bataille",
+          "position": "LB",
+          "jerseyNumber": "17",
+          "height": 196,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1067944,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712022400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "باتاي، بنيامين",
+              "hi": "बटैले, बेन्जामिन",
+              "bn": "বাতাইলে, বেঞ্জামিন"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. باتاي",
+              "hi": "बी. बटैले",
+              "bn": "বি. বাতাইলে"
+            }
+          }
+        },
+        "id": 327071461,
+        "time": 4,
+        "timeSeconds": 227,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 27,
+        "reversedPeriodTimeSeconds": 1573,
+        "periodTimeSeconds": 227,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 2,
+        "player": {
+          "name": "Ignacio Valles Becerra",
+          "slug": "becerra-ignacio-valles",
+          "shortName": "I. V. Becerra",
+          "position": "CB",
+          "jerseyNumber": "34",
+          "height": 182,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411906,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 874540800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيسيرا، إغناسيو فاليز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بيسيرا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Julen Mugica Santiago",
+          "slug": "mugica-santiago-julen",
+          "shortName": "J. M. Santiago",
+          "position": "RB",
+          "jerseyNumber": "19",
+          "height": 190,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1167296,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1062547200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "موغيكا سانتياغو، جولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سانتياغو"
+            }
+          }
+        },
+        "id": 327071453,
+        "time": 4,
+        "timeSeconds": 212,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 27,
+        "reversedPeriodTimeSeconds": 1588,
+        "periodTimeSeconds": 212,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 0,
+        "awayScore": 1,
+        "player": {
+          "name": "Marko Jevtic",
+          "firstName": "Marko",
+          "lastName": "Jevtic",
+          "slug": "jevtic-marko",
+          "shortName": "M. Jevtić",
+          "position": "P",
+          "jerseyNumber": "4",
+          "height": 196,
+          "userCount": 32,
+          "gender": "M",
+          "id": 1095739,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1003276800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيفتيتش، ماركو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جيفتيتش"
+            }
+          }
+        },
+        "id": 327071365,
+        "time": 1,
+        "timeSeconds": 58,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 30,
+        "reversedPeriodTimeSeconds": 1742,
+        "periodTimeSeconds": 58,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14662050/pregame-form": {
+    "homeTeam": {
+      "position": 2,
+      "value": "2",
+      "form": [
+        "L",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 3,
+      "value": "2",
+      "form": [
+        "W",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14662050/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184538677,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538677,
+        "suspended": false,
+        "id": 150258950,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "1/6",
+            "sourceId": 2079965146,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "8/1",
+            "fractionalValue": "7/1",
+            "sourceId": 2079965148,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/4",
+            "fractionalValue": "15/2",
+            "sourceId": 2079965151,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184538677,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538677,
+        "suspended": false,
+        "id": 150258950,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "1/6",
+            "sourceId": 2079965146,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "8/1",
+            "fractionalValue": "7/1",
+            "sourceId": 2079965148,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/4",
+            "fractionalValue": "15/2",
+            "sourceId": 2079965151,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184538677,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538677,
+        "suspended": false,
+        "id": 150258950,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "1/6",
+            "sourceId": 2079965146,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "8/1",
+            "fractionalValue": "7/1",
+            "sourceId": 2079965148,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/4",
+            "fractionalValue": "15/2",
+            "sourceId": 2079965151,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14662050/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "tv/event/14662050/country-channels": {
+    "countryChannels": {
+      "ES": [
+        3247
+      ]
+    }
+  },
+  "event/14662050/votes": {
+    "vote": {
+      "vote1": 634,
+      "vote2": 93,
+      "voteX": 35
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14662050": {
+    "event": {
+      "tournament": {
+        "name": "EHF European League, Group A",
+        "slug": "ehf-european-league-group-a",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Handball",
+            "slug": "handball",
+            "id": 6
+          },
+          "id": 73,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "EHF European League",
+          "slug": "ehf-european-league",
+          "primaryColorHex": "#0f1734",
+          "secondaryColorHex": "#e64315",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Handball",
+              "slug": "handball",
+              "id": 6
+            },
+            "id": 73,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 2481,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 59,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي لكرة اليد",
+              "hi": "ईएचएफ यूरोपीयन लीग",
+              "bn": "ইএইচএফ ইউরোপীয়ান লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group A",
+        "groupSign": "A",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 22628,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الأوروبي لكرة اليد، المجموعة A",
+            "hi": "ईएचएफ यूरोपीयन लीग, ग्रुप ए",
+            "bn": "ইএইচএফ ইউরোপীয়ান লীগ, গ্রুপ এ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "EHF European League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78471
+      },
+      "roundInfo": {
+        "round": 3
+      },
+      "customId": "vEbsjHc",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Saint-Raphael"
+        },
+        "hidden": true,
+        "slug": "palais-des-sports-jean-francois-krakowski",
+        "name": "Palais des sports Jean-Francois Krakowski",
+        "capacity": 2000,
+        "id": 6486,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "قصر الرياضة جان-فرانسوا كراكوسكي",
+            "hi": "पैलैस डेस स्पोर्ट्स जीन-फ्रेंकोइस क्राकोव्स्की",
+            "bn": "প্যালাইস ডেস স্পোর্টস জিন-ফ্রাঙ্কোইস ক্রাকওস্কি"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Palais des sports Jean-Francois Krakowski",
+          "capacity": 2000
+        }
+      },
+      "homeTeam": {
+        "name": "Saint-Raphaël Var Handball",
+        "slug": "saint-raphael-var-handball",
+        "shortName": "Saint-Raphaël",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 460,
+        "manager": {
+          "name": "Joel Da Silva",
+          "slug": "joel-da-silva",
+          "shortName": "J. D. Silva",
+          "id": 792021,
+          "country": {},
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جويل دا سيلفا",
+              "hi": "जोएल दा सिल्वा",
+              "bn": "জোয়েল দা সিলভা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. د. سيلفا",
+              "hi": "जे.डी. सिल्वा",
+              "bn": "জে. ডি. সিলভা"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Saint-Raphael"
+          },
+          "hidden": true,
+          "slug": "palais-des-sports-jean-francois-krakowski",
+          "name": "Palais des sports Jean-Francois Krakowski",
+          "capacity": 2000,
+          "id": 6486,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "قصر الرياضة جان-فرانسوا كراكوسكي",
+              "hi": "पैलैस डेस स्पोर्ट्स जीन-फ्रेंकोइस क्राकोव्स्की",
+              "bn": "প্যালাইস ডেস স্পোর্টস জিন-ফ্রাঙ্কোইস ক্রাকওস্কি"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Palais des sports Jean-Francois Krakowski",
+            "capacity": 2000
+          }
+        },
+        "nameCode": "SRA",
+        "national": false,
+        "type": 0,
+        "id": 6609,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fullName": "Saint-Raphaël Var Handball",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffdd00",
+          "secondary": "#273a69",
+          "text": "#273a69"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سانت-رافائيل فار هاندبول",
+            "ru": "Сент Рафаэль"
+          },
+          "shortNameTranslation": {
+            "ar": "سانت-رافائيل",
+            "hi": "सेंट-राफेल",
+            "bn": "সেন্ট-রাফায়েল"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "CD Bidasoa Irún",
+        "slug": "cd-bidasoa-irun",
+        "shortName": "CD Bidasoa",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 1090,
+        "venue": {
+          "city": {
+            "name": "Irun"
+          },
+          "hidden": true,
+          "slug": "pabellon-polideportivo-artaleku",
+          "name": "Pabellon Polideportivo Artaleku",
+          "capacity": 2200,
+          "id": 24443,
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بابيلون بوليديبورتيبو أرتاليكو",
+              "hi": "पाबेलोन पोलिडेपोर्टिवो आर्टालेकु",
+              "bn": "প্যাবেলন পলিদেপোর্টিভো আর্তালেকু"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Pabellon Polideportivo Artaleku",
+            "capacity": 2200
+          }
+        },
+        "nameCode": "CDB",
+        "class": 0,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 3970,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "fullName": "CD Bidasoa Irún",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#00008b",
+          "text": "#00008b"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سي دي بيداسوا إيرون",
+            "ru": "КД Бидасоа"
+          },
+          "shortNameTranslation": {
+            "ar": "سي دي بيداسوا",
+            "hi": "सीडी बिडासोआ",
+            "bn": "সিডি বিদাসোয়া"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 23,
+        "display": 23,
+        "period1": 20
+      },
+      "awayScore": {
+        "current": 19,
+        "display": 19,
+        "period1": 18
+      },
+      "time": {
+        "played": 2088,
+        "periodLength": 1800,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762893617
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display"
+        ],
+        "changeTimestamp": 1762894051
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14662050,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 30,
+      "slug": "saint-raphael-var-handball-cd-bidasoa-irun",
+      "currentPeriodStartTimestamp": 1762893617,
+      "startTimestamp": 1762890300,
+      "defaultOvertimeLength": 5,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14662050/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -1
+      },
+      {
+        "minute": 2,
+        "value": -1
+      },
+      {
+        "minute": 3,
+        "value": -1
+      },
+      {
+        "minute": 4,
+        "value": -1
+      },
+      {
+        "minute": 5,
+        "value": 0
+      },
+      {
+        "minute": 6,
+        "value": 0
+      },
+      {
+        "minute": 7,
+        "value": -1
+      },
+      {
+        "minute": 8,
+        "value": -1
+      },
+      {
+        "minute": 9,
+        "value": 0
+      },
+      {
+        "minute": 10,
+        "value": 0
+      },
+      {
+        "minute": 11,
+        "value": 1
+      },
+      {
+        "minute": 12,
+        "value": 1
+      },
+      {
+        "minute": 13,
+        "value": 2
+      },
+      {
+        "minute": 14,
+        "value": 2
+      },
+      {
+        "minute": 15,
+        "value": 2
+      },
+      {
+        "minute": 16,
+        "value": 3
+      },
+      {
+        "minute": 17,
+        "value": 2
+      },
+      {
+        "minute": 18,
+        "value": 3
+      },
+      {
+        "minute": 19,
+        "value": 3
+      },
+      {
+        "minute": 20,
+        "value": 2
+      },
+      {
+        "minute": 21,
+        "value": 2
+      },
+      {
+        "minute": 22,
+        "value": 3
+      },
+      {
+        "minute": 23,
+        "value": 2
+      },
+      {
+        "minute": 24,
+        "value": 3
+      },
+      {
+        "minute": 25,
+        "value": 4
+      },
+      {
+        "minute": 26,
+        "value": 4
+      },
+      {
+        "minute": 27,
+        "value": 3
+      },
+      {
+        "minute": 28,
+        "value": 3
+      },
+      {
+        "minute": 29,
+        "value": 3
+      },
+      {
+        "minute": 30,
+        "value": 2
+      },
+      {
+        "minute": 31,
+        "value": 2
+      },
+      {
+        "minute": 32,
+        "value": 2
+      },
+      {
+        "minute": 33,
+        "value": 3
+      },
+      {
+        "minute": 34,
+        "value": 4
+      },
+      {
+        "minute": 35,
+        "value": 3
+      },
+      {
+        "minute": 36,
+        "value": 4
+      }
+    ],
+    "periodTime": 30,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14662050/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184538677,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538677,
+        "suspended": false,
+        "id": 150258950,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/9",
+            "fractionalValue": "1/6",
+            "sourceId": 2079965146,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "8/1",
+            "fractionalValue": "7/1",
+            "sourceId": 2079965148,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/4",
+            "fractionalValue": "15/2",
+            "sourceId": 2079965151,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184145744,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184145744,
+        "suspended": false,
+        "id": 145298766,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "39/50",
+            "fractionalValue": "2/5",
+            "sourceId": 2055858510,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "15/2",
+            "fractionalValue": "8/1",
+            "sourceId": 2055858512,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "3/2",
+            "fractionalValue": "13/5",
+            "sourceId": 2055858511,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14662050
+  },
+  "event/14662050/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "2/5",
+      "expected": 71,
+      "actual": 56,
+      "id": 17966199
+    },
+    "away": null
+  }
+}

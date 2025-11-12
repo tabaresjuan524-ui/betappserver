@@ -1,0 +1,326 @@
+{
+  "event/14086746/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 1,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14086746/votes": {
+    "vote": {
+      "vote1": 2,
+      "vote2": 12,
+      "voteX": 0
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14086746": {
+    "event": {
+      "tournament": {
+        "name": "Ranji Trophy, Elite C",
+        "slug": "ranji-trophy-elite-c",
+        "category": {
+          "name": "India",
+          "slug": "india",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1350,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "flag": "india",
+          "alpha2": "IN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الهند",
+              "hi": "भारत",
+              "bn": "ভারত"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Ranji Trophy",
+          "slug": "ranji-trophy",
+          "primaryColorHex": "#1D65AB",
+          "secondaryColorHex": "#AC9881",
+          "category": {
+            "name": "India",
+            "slug": "india",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1350,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند",
+                "hi": "भारत",
+                "bn": "ভারত"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 268,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 18682,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس رانجي",
+              "hi": "रणजी ट्रॉफी",
+              "bn": "রঞ্জি ট্রফি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Elite C",
+        "isLive": false,
+        "id": 101319,
+        "endTimestamp": 1771891200,
+        "startTimestamp": 1760486400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس رانجي، النخبة C"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Ranji Trophy, 2025/26",
+        "year": "2025/2026",
+        "editor": false,
+        "id": 77592
+      },
+      "customId": "Zyucsezuc",
+      "status": {
+        "code": 22,
+        "description": "2nd Inning",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Agartala"
+        },
+        "hidden": true,
+        "slug": "maharaja-bir-bikram-college-stadium",
+        "name": "Maharaja Bir Bikram College Stadium",
+        "id": 42968,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب كلية ماهراجا بير بيكرام",
+            "hi": "महाराजा बीर बिक्रम कॉलेज स्टेडियम",
+            "bn": "মহারাজা বীর বিক্রম কলেজ স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Maharaja Bir Bikram College Stadium"
+        }
+      },
+      "referee": {
+        "name": "Pinninti Jayachandra",
+        "slug": "pinninti-jayachandra",
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "id": 790285,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينينتي جاياشاندرا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Tripura",
+        "slug": "tripura",
+        "shortName": "TRP",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 20,
+        "nameCode": "TRI",
+        "national": false,
+        "type": 0,
+        "id": 298704,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Tripura",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تريبورا"
+          },
+          "shortNameTranslation": {
+            "hi": "टीआरपी",
+            "bn": "টিআরপি"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Assam",
+        "slug": "assam",
+        "shortName": "ASM",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 37,
+        "nameCode": "ASS",
+        "national": false,
+        "type": 0,
+        "id": 298699,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Assam",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "اسام"
+          },
+          "shortNameTranslation": {
+            "hi": "एएसएम",
+            "bn": "এএসএম"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 602,
+        "display": 602,
+        "innings": {
+          "inning1": {
+            "score": 602,
+            "wickets": 7,
+            "overs": 143,
+            "runRate": 4.21
+          }
+        }
+      },
+      "awayScore": {
+        "current": 342,
+        "display": 342,
+        "innings": {
+          "inning1": {
+            "score": 238,
+            "wickets": 10,
+            "overs": 77.3,
+            "runRate": 3.07
+          },
+          "inning2": {
+            "score": 104,
+            "wickets": 3,
+            "overs": 38,
+            "runRate": 2.74
+          }
+        }
+      },
+      "coverage": 2,
+      "time": {},
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.innings"
+        ],
+        "changeTimestamp": 1762832468
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14086746,
+      "umpire1Name": "KN Ramesh",
+      "umpire2Name": "Rohit Singla (IND)",
+      "tvUmpireName": "No TV Umpire",
+      "refereeName": "Pinninti Jayachandra",
+      "tossWin": "Assam",
+      "tossDecision": "Bowling",
+      "endTimestamp": 1762855200,
+      "slug": "tripura-assam",
+      "startTimestamp": 1762570800,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "lastPeriod": "inning2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

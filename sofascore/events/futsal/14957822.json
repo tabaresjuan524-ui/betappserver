@@ -1,0 +1,883 @@
+{
+  "event/14957822/h2h": {
+    "teamDuel": {
+      "homeWins": 5,
+      "awayWins": 3,
+      "draws": 2
+    },
+    "managerDuel": null
+  },
+  "event/14957818": {
+    "event": {
+      "tournament": {
+        "name": "Liga Futsal, Playoffs",
+        "slug": "liga-futsal-playoffs",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Futsal",
+            "slug": "futsal",
+            "id": 29
+          },
+          "id": 202,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل",
+              "hi": "ब्राज़ील",
+              "bn": "ব্রাজিল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "LNF",
+          "slug": "lnf",
+          "primaryColorHex": "#0b7aff",
+          "secondaryColorHex": "#ecd028",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Futsal",
+              "slug": "futsal",
+              "id": 29
+            },
+            "id": 202,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل",
+                "hi": "ब्राज़ील",
+                "bn": "ব্রাজিল"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 5792,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 650,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الوطني لكرة الصالات",
+              "hi": "एलएनएफ",
+              "bn": "এলএনএফ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 11405,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري كرة الصالات، التصفيات",
+            "hi": "लीगा फुटसल, प्लेऑफ्स",
+            "bn": "লীগা ফুটসাল, প্লে অফ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Liga Nacional 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 73392
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "xTnsHdMb",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "venue": {
+        "city": {
+          "name": "São Paulo"
+        },
+        "hidden": true,
+        "slug": "sport-club-corinthians-paulista",
+        "name": "Sport Club Corinthians Paulista",
+        "id": 10960,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي كورينثيانز الرياضي بوليستا",
+            "hi": "स्पोर्ट क्लब कोरिंथियंस पॉलिस्ता",
+            "bn": "স্পোর্ট ক্লাব করিন্থিয়ানস পাওলিটা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Sport Club Corinthians Paulista"
+        }
+      },
+      "homeTeam": {
+        "name": "Corinthians",
+        "slug": "corinthians-paulista",
+        "shortName": "Corinthians",
+        "gender": "M",
+        "sport": {
+          "name": "Futsal",
+          "slug": "futsal",
+          "id": 29
+        },
+        "userCount": 12051,
+        "venue": {
+          "city": {
+            "name": "Sao Paulo"
+          },
+          "hidden": true,
+          "slug": "gin-sio-poliesportivo-wlamir-marques",
+          "name": "Ginásio Poliesportivo Wlamir Marques",
+          "capacity": 7000,
+          "id": 28076,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة الألعاب الرياضية بولي سبورتيفو ولامير ماركيس",
+              "hi": "गिनासियो पॉलीस्पोर्टिवो व्लामिर मार्क्स",
+              "bn": "জিনাসিও পলিদেপোর্টিভো ভলামির মার্কেস"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Ginásio Poliesportivo Wlamir Marques",
+            "capacity": 7000
+          }
+        },
+        "nameCode": "CPA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 34672,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fullName": "Corinthians",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كورينثيانز"
+          },
+          "shortNameTranslation": {
+            "ar": "كورينثيانز",
+            "hi": "कोरिंथियन्स",
+            "bn": "করিন্থিয়ানস"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Magnus Sorocaba",
+        "slug": "magnus-sorocaba",
+        "shortName": "Magnus",
+        "gender": "M",
+        "sport": {
+          "name": "Futsal",
+          "slug": "futsal",
+          "id": 29
+        },
+        "userCount": 11162,
+        "venue": {
+          "city": {
+            "name": "Sorocaba"
+          },
+          "hidden": true,
+          "slug": "arena-sorocaba",
+          "name": "Arena Sorocaba",
+          "capacity": 4263,
+          "id": 29771,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا سوروكابا",
+              "hi": "एरिना सोरोकाबा",
+              "bn": "এরিনা সোরোকাবা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Arena Sorocaba",
+            "capacity": 4263
+          }
+        },
+        "nameCode": "MSO",
+        "national": false,
+        "type": 0,
+        "id": 217682,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fullName": "Magnus Sorocaba",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماغنوس سوروكابا"
+          },
+          "shortNameTranslation": {
+            "ar": "ماغنوس",
+            "hi": "मैग्नस",
+            "bn": "ম্যাগনাস"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 4,
+        "display": 4,
+        "period1": 4,
+        "period2": 0,
+        "normaltime": 4
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "time": {
+        "played": 2400,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762304640,
+        "period2StartTimestamp": 1762304640
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "awayScore.period2",
+          "awayScore.normaltime"
+        ],
+        "changeTimestamp": 1762308054
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14957818,
+      "slug": "magnus-sorocaba-corinthians",
+      "currentPeriodStartTimestamp": 1762304640,
+      "startTimestamp": 1762300800,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "tv/event/14957822/country-channels": {
+    "countryChannels": {
+      "BR": [
+        7158,
+        946,
+        5996
+      ]
+    }
+  },
+  "event/14957822/votes": {
+    "vote": {
+      "vote1": 257,
+      "vote2": 179,
+      "voteX": 12
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14957822/incidents": {
+    "incidents": [
+      {
+        "text": "ET",
+        "homeScore": 7,
+        "awayScore": 6,
+        "isLive": false,
+        "time": 50,
+        "addedTime": 999,
+        "timeSeconds": 3000,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 300,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 2,
+        "playerName": "Renatinho ",
+        "period": "extra2",
+        "id": 327081684,
+        "time": 49,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 1,
+        "playerName": "Pepita",
+        "period": "extra1",
+        "id": 327081482,
+        "time": 45,
+        "addedTime": 1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 0,
+        "awayScore": 1,
+        "playerName": "Marlon",
+        "period": "extra1",
+        "id": 327081411,
+        "time": 45,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "incidentType": "goal"
+      },
+      {
+        "text": "FT",
+        "homeScore": 6,
+        "awayScore": 5,
+        "isLive": false,
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 5,
+        "awayScore": 3,
+        "playerName": "Edimar",
+        "period": "period2",
+        "id": 327080939,
+        "time": 40,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 5,
+        "awayScore": 2,
+        "playerName": "Genaro",
+        "period": "period2",
+        "id": 327080937,
+        "time": 37,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 4,
+        "awayScore": 2,
+        "playerName": "Rodrigo",
+        "period": "period2",
+        "id": 327080331,
+        "time": 34,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 7,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 3,
+        "awayScore": 2,
+        "playerName": "Joãozinho",
+        "period": "period2",
+        "id": 327080322,
+        "time": 33,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 2,
+        "awayScore": 2,
+        "playerName": "Witamá",
+        "period": "period2",
+        "id": 327078968,
+        "time": 23,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 18,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 1,
+        "awayScore": 2,
+        "isLive": false,
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 2,
+        "playerName": "Marlon",
+        "period": "period1",
+        "id": 327078117,
+        "time": 20,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 1,
+        "playerName": "Kauê",
+        "period": "period1",
+        "id": 327077310,
+        "time": 11,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 0,
+        "awayScore": 1,
+        "playerName": "Renatinho",
+        "period": "period1",
+        "id": 327076635,
+        "time": 2,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14957822": {
+    "event": {
+      "tournament": {
+        "name": "Liga Futsal, Playoffs",
+        "slug": "liga-futsal-playoffs",
+        "category": {
+          "name": "Brazil",
+          "slug": "brazil",
+          "sport": {
+            "name": "Futsal",
+            "slug": "futsal",
+            "id": 29
+          },
+          "id": 202,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "flag": "brazil",
+          "alpha2": "BR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "البرازيل",
+              "hi": "ब्राज़ील",
+              "bn": "ব্রাজিল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "LNF",
+          "slug": "lnf",
+          "primaryColorHex": "#0b7aff",
+          "secondaryColorHex": "#ecd028",
+          "category": {
+            "name": "Brazil",
+            "slug": "brazil",
+            "sport": {
+              "name": "Futsal",
+              "slug": "futsal",
+              "id": 29
+            },
+            "id": 202,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "flag": "brazil",
+            "alpha2": "BR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "البرازيل",
+                "hi": "ब्राज़ील",
+                "bn": "ব্রাজিল"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 5629,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 650,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الوطني لكرة الصالات",
+              "hi": "एलएनएफ",
+              "bn": "এলএনএফ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 11405,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري كرة الصالات، التصفيات",
+            "hi": "लीगा फुटसल, प्लेऑफ्स",
+            "bn": "লীগা ফুটসাল, প্লে অফ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Liga Nacional 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 73392
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "xTnsHdMb",
+      "status": {
+        "code": 32,
+        "description": "Awaiting extra time",
+        "type": "inprogress"
+      },
+      "aggregatedWinnerCode": 2,
+      "venue": {
+        "city": {
+          "name": "Sorocaba"
+        },
+        "hidden": true,
+        "slug": "arena-sorocaba",
+        "name": "Arena Sorocaba",
+        "capacity": 4263,
+        "id": 29771,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرينا سوروكابا",
+            "hi": "एरिना सोरोकाबा",
+            "bn": "এরিনা সোরোকাবা"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Arena Sorocaba",
+          "capacity": 4263
+        }
+      },
+      "homeTeam": {
+        "name": "Magnus Sorocaba",
+        "slug": "magnus-sorocaba",
+        "shortName": "Magnus",
+        "gender": "M",
+        "sport": {
+          "name": "Futsal",
+          "slug": "futsal",
+          "id": 29
+        },
+        "userCount": 11080,
+        "venue": {
+          "city": {
+            "name": "Sorocaba"
+          },
+          "hidden": true,
+          "slug": "arena-sorocaba",
+          "name": "Arena Sorocaba",
+          "capacity": 4263,
+          "id": 29771,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا سوروكابا",
+              "hi": "एरिना सोरोकाबा",
+              "bn": "এরিনা সোরোকাবা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Arena Sorocaba",
+            "capacity": 4263
+          }
+        },
+        "nameCode": "MSO",
+        "national": false,
+        "type": 0,
+        "id": 217682,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fullName": "Magnus Sorocaba",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماغنوس سوروكابا"
+          },
+          "shortNameTranslation": {
+            "ar": "ماغنوس",
+            "hi": "मैग्नस",
+            "bn": "ম্যাগনাস"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Corinthians",
+        "slug": "corinthians-paulista",
+        "shortName": "Corinthians",
+        "gender": "M",
+        "sport": {
+          "name": "Futsal",
+          "slug": "futsal",
+          "id": 29
+        },
+        "userCount": 11967,
+        "venue": {
+          "city": {
+            "name": "Sao Paulo"
+          },
+          "hidden": true,
+          "slug": "gin-sio-poliesportivo-wlamir-marques",
+          "name": "Ginásio Poliesportivo Wlamir Marques",
+          "capacity": 7000,
+          "id": 28076,
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة الألعاب الرياضية بولي سبورتيفو ولامير ماركيس",
+              "hi": "गिनासियो पॉलीस्पोर्टिवो व्लामिर मार्क्स",
+              "bn": "জিনাসিও পলিদেপোর্টিভো ভলামির মার্কেস"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Ginásio Poliesportivo Wlamir Marques",
+            "capacity": 7000
+          }
+        },
+        "nameCode": "CPA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 34672,
+        "country": {
+          "alpha2": "BR",
+          "alpha3": "BRA",
+          "name": "Brazil",
+          "slug": "brazil"
+        },
+        "fullName": "Corinthians",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كورينثيانز"
+          },
+          "shortNameTranslation": {
+            "ar": "كورينثيانز",
+            "hi": "कोरिंथियन्स",
+            "bn": "করিন্থিয়ানস"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 6,
+        "display": 6,
+        "period1": 1,
+        "period2": 5,
+        "normaltime": 6,
+        "extra1": 1,
+        "extra2": 0,
+        "overtime": 1,
+        "aggregated": 8
+      },
+      "awayScore": {
+        "current": 5,
+        "display": 5,
+        "period1": 2,
+        "period2": 3,
+        "normaltime": 5,
+        "extra1": 1,
+        "extra2": 0,
+        "overtime": 1,
+        "aggregated": 9
+      },
+      "time": {
+        "played": 2993,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762913220,
+        "extra2StartTimestamp": 1762913220
+      },
+      "changes": {
+        "changes": [
+          "time.played",
+          "status.code",
+          "status.description",
+          "homeScore.period2",
+          "homeScore.normaltime",
+          "awayScore.period2",
+          "awayScore.normaltime"
+        ],
+        "changeTimestamp": 1762913712
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14957822,
+      "slug": "magnus-sorocaba-corinthians",
+      "currentPeriodStartTimestamp": 1762913220,
+      "previousLegEventId": 14957818,
+      "startTimestamp": 1762905600,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 2,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

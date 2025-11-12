@@ -1,0 +1,655 @@
+{
+  "event/15033751/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Echozz",
+            "firstName": "Xiliang",
+            "lastName": "Xu",
+            "slug": "echo",
+            "shortName": "Blood",
+            "position": "mid",
+            "userCount": 0,
+            "id": 1074509,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 978393600
+          },
+          "teamId": 366307,
+          "position": "mid",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "niu",
+            "firstName": "Li",
+            "lastName": "Kongbo",
+            "slug": "niu",
+            "shortName": "po3",
+            "position": "off",
+            "userCount": 0,
+            "id": 1072168,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 970185600
+          },
+          "teamId": 364590,
+          "position": "off",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "planet",
+            "firstName": "Hao",
+            "lastName": "Lin",
+            "slug": "planet",
+            "shortName": "plAnet",
+            "position": "ss",
+            "userCount": 0,
+            "id": 1074511,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 898646400
+          },
+          "teamId": 366502,
+          "position": "ss",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "shiro",
+            "firstName": "Xuan'ang",
+            "lastName": "Guo",
+            "slug": "shiro",
+            "shortName": "shiro",
+            "position": "hc",
+            "userCount": 0,
+            "id": 1093260,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 985305600
+          },
+          "teamId": 363827,
+          "position": "hc",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "y`",
+            "firstName": "Yiping",
+            "lastName": "Zhang",
+            "slug": "y",
+            "shortName": "y`",
+            "position": "hs",
+            "userCount": 0,
+            "id": 1079438,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 902534400
+          },
+          "teamId": 363837,
+          "position": "hs",
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Malin",
+            "firstName": "Danila",
+            "lastName": "Severyn",
+            "slug": "redrankroad-lft",
+            "shortName": "r. LFT",
+            "position": "mid",
+            "userCount": 0,
+            "id": 2227499,
+            "country": {
+              "alpha2": "BY",
+              "alpha3": "BLR",
+              "name": "Belarus",
+              "slug": "belarus"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 938464,
+          "position": "mid",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Vazya",
+            "firstName": "Ivan",
+            "lastName": "German",
+            "slug": "vazya",
+            "shortName": "KHAN.ZAMAY",
+            "position": "off",
+            "userCount": 0,
+            "id": 1071248,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 843004800
+          },
+          "teamId": 358719,
+          "position": "off",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "asdekor_r",
+            "firstName": "Vyacheslav",
+            "lastName": "Ignatiev",
+            "slug": "asdekor-r",
+            "shortName": "asdekor_r",
+            "position": "hs",
+            "userCount": 0,
+            "id": 1466661,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1085702400
+          },
+          "teamId": 460542,
+          "position": "hs",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "dualrazee",
+            "firstName": "Mykyta",
+            "lastName": "Dubynskyi",
+            "slug": "dualrazee",
+            "shortName": "dualrazee",
+            "position": "mid",
+            "userCount": 0,
+            "id": 1650538,
+            "country": {
+              "alpha2": "UA",
+              "alpha3": "UKR",
+              "name": "Ukraine",
+              "slug": "ukraine"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 499141,
+          "position": "mid",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "ktAmOp",
+            "firstName": "Nikolay",
+            "lastName": "Khalyapin",
+            "slug": "ktamop",
+            "shortName": "♠",
+            "position": "off",
+            "userCount": 0,
+            "id": 1177195,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 951868800
+          },
+          "teamId": 406887,
+          "position": "off",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "ryota",
+            "firstName": "Maxim",
+            "lastName": "Kravchenkov",
+            "slug": "wein666",
+            "shortName": "Wein666",
+            "position": "ss",
+            "userCount": 0,
+            "id": 1809266,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 416147,
+          "position": "ss",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "ssnovv1",
+            "firstName": "Ilya",
+            "lastName": "Kondrashov",
+            "slug": "ssnovv1",
+            "shortName": "ssnovv1",
+            "position": "hc",
+            "userCount": 0,
+            "id": 2031693,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358720,
+          "position": "hc",
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/15033751/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 0,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "unique-tournament/16254/season/85774/info": {
+    "info": {
+      "newcomersUpperDivision": [],
+      "newcomersLowerDivision": [],
+      "newcomersOther": [],
+      "numberOfCompetitors": 6,
+      "totalPrizeMoney": 50000,
+      "totalPrizeMoneyCurrency": "USD",
+      "tier": "c",
+      "id": 53633,
+      "hostCountries": [],
+      "totalPrizeMoneyRaw": {
+        "value": 50000,
+        "currency": "USD"
+      }
+    }
+  },
+  "event/15033751/votes": {
+    "vote": {
+      "vote1": 12,
+      "vote2": 2,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15033751": {
+    "event": {
+      "tournament": {
+        "name": "DreamLeague Playoffs",
+        "slug": "dreamleague-playoffs",
+        "category": {
+          "name": "Dota 2",
+          "slug": "dota2",
+          "sport": {
+            "name": "E-sports",
+            "slug": "esports",
+            "id": 72
+          },
+          "id": 1570,
+          "country": {},
+          "flag": "dota-2",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوتا 2",
+              "hi": "डोटा 2",
+              "bn": "ডোটা 2"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "DreamLeague",
+          "slug": "dreamleague",
+          "category": {
+            "name": "Dota 2",
+            "slug": "dota2",
+            "sport": {
+              "name": "E-sports",
+              "slug": "esports",
+              "id": 72
+            },
+            "id": 1570,
+            "country": {},
+            "flag": "dota-2",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دوتا 2",
+                "hi": "डोटा 2",
+                "bn": "ডোটা 2"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 335,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 16254,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الأحلام"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 90608,
+        "endTimestamp": 1762898400,
+        "startTimestamp": 1762606800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تصفيات دوري الأحلام"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Division 2 season 2 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85774
+      },
+      "customId": "xDuisoGNi",
+      "status": {
+        "code": 1005,
+        "description": "Fifth game",
+        "type": "inprogress"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Team Tidebound",
+        "slug": "team-tidebound",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 122,
+        "nameCode": "TTI",
+        "national": false,
+        "type": 0,
+        "id": 1048922,
+        "country": {
+          "alpha2": "CN",
+          "alpha3": "CHN",
+          "name": "China",
+          "slug": "china"
+        },
+        "fullName": "Team Tidebound",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيم تايدباوند"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "eSpoiled",
+        "slug": "espoiled",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 33,
+        "nameCode": "ESP",
+        "national": false,
+        "type": 0,
+        "id": 1096564,
+        "country": {},
+        "fullName": "eSpoiled",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إي سبويلد"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 0,
+        "period2": 1,
+        "period3": 1,
+        "period4": 0
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 0,
+        "period3": 0,
+        "period4": 1
+      },
+      "coverage": 91,
+      "time": {
+        "currentPeriodStartTimestamp": 1762891438
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762891447
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15033751,
+      "bestOf": 5,
+      "eventType": "best_of",
+      "slug": "espoiled-team-tidebound",
+      "currentPeriodStartTimestamp": 1762891438,
+      "startTimestamp": 1762875000,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15033751/highlights": {
+    "highlights": [
+      {
+        "title": "Stream available!",
+        "subtitle": "",
+        "url": "https://www.twitch.tv/esl_dota2",
+        "mediaType": 1,
+        "doFollow": false,
+        "keyHighlight": false,
+        "livestream": false,
+        "id": 6947380,
+        "createdAtTimestamp": 1762872430,
+        "sourceUrl": "https://www.twitch.tv/esl_dota2"
+      }
+    ]
+  },
+  "event/15033751/esports-games": {
+    "games": [
+      {
+        "length": 2560,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 2,
+        "homeScore": {
+          "display": 33
+        },
+        "awayScore": {
+          "display": 13
+        },
+        "homeTeamStartingSide": 2,
+        "hasCompleteStatistics": true,
+        "id": 528829,
+        "startTimestamp": 1762874779
+      },
+      {
+        "length": 2105,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeScore": {
+          "display": 37
+        },
+        "awayScore": {
+          "display": 7
+        },
+        "homeTeamStartingSide": 3,
+        "hasCompleteStatistics": true,
+        "id": 528830,
+        "startTimestamp": 1762878830
+      },
+      {
+        "length": 2848,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeScore": {
+          "display": 26
+        },
+        "awayScore": {
+          "display": 16
+        },
+        "homeTeamStartingSide": 3,
+        "hasCompleteStatistics": true,
+        "id": 528831,
+        "startTimestamp": 1762882372
+      },
+      {
+        "length": 2462,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 2,
+        "homeScore": {},
+        "awayScore": {},
+        "hasCompleteStatistics": false,
+        "id": 528832,
+        "startTimestamp": 1762887460
+      },
+      {
+        "status": {
+          "code": 20,
+          "description": "Started",
+          "type": "inprogress"
+        },
+        "winnerCode": 0,
+        "homeScore": {},
+        "awayScore": {},
+        "hasCompleteStatistics": false,
+        "id": 528833,
+        "startTimestamp": 1762891438
+      }
+    ]
+  }
+}

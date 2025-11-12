@@ -1,0 +1,428 @@
+{
+  "event/15028279/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15028279/votes": {
+    "vote": {
+      "vote1": 7,
+      "vote2": 7,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15028279/incidents": {
+    "incidents": [
+      {
+        "text": "1. set",
+        "homeScore": 10,
+        "awayScore": 8,
+        "isLive": true,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327050852,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327050851,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327050850,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327050829,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327050828,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327050804,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327050803,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327050802,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327050782,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327050781,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327050780,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327050753,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327050752,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327050751,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327050718,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327050717,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327050716,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/15028279": {
+    "event": {
+      "tournament": {
+        "name": "Kumamoto Masters Japan 2025, WS, Qualifying",
+        "slug": "kumamoto-masters-japan-2025-ws-qualifying",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "id": 259,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kumamoto Masters Japan, WS",
+          "slug": "kumamoto-masters-japan-ws",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 18,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 21544,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كوماموتو اليابان، السيدات فردي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168657
+      },
+      "season": {
+        "name": "Kumamoto Masters Japan, WS 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85986
+      },
+      "roundInfo": {
+        "round": 27,
+        "name": "Quarterfinals",
+        "slug": "quarterfinals",
+        "cupRoundType": 4
+      },
+      "customId": "JYncsJFKi",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kumamoto"
+        },
+        "hidden": true,
+        "slug": "court-2",
+        "name": "Court 2",
+        "id": 42502,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 2",
+            "hi": "कोर्ट 2",
+            "bn": "কোর্ট 2"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Court 2"
+        }
+      },
+      "homeTeam": {
+        "name": "Shaunna LI.",
+        "slug": "li-shaunna",
+        "gender": "F",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 1,
+        "nameCode": "SHA",
+        "national": false,
+        "type": 1,
+        "id": 284934,
+        "country": {
+          "alpha2": "NZ",
+          "alpha3": "NZL",
+          "name": "New Zealand",
+          "slug": "new-zealand"
+        },
+        "fullName": "LI, Shaunna",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لي، شونا"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bhatoye N.",
+        "slug": "bhatoye-naishaa-kaur",
+        "gender": "F",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 2,
+        "nameCode": "BHA",
+        "national": false,
+        "type": 1,
+        "id": 1089034,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Bhatoye, Naishaa Kaur",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بهاتوي، نيشا كاور"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 10
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 8
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762826801
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1"
+        ],
+        "changeTimestamp": 1762827175
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15028279,
+      "defaultPeriodCount": 3,
+      "slug": "bhatoye-shaunna-li",
+      "currentPeriodStartTimestamp": 1762826801,
+      "startTimestamp": 1762826400,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "event/15030847/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 10,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15030847/votes": {
+    "vote": {
+      "vote1": 5,
+      "vote2": 21,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15030847": {
+    "event": {
+      "tournament": {
+        "name": "TT Elite Series",
+        "slug": "tt-elite-series",
+        "category": {
+          "name": "Poland",
+          "slug": "poland",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1340,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "flag": "poland",
+          "alpha2": "PL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Elite Series",
+          "slug": "tt-elite-series",
+          "category": {
+            "name": "Poland",
+            "slug": "poland",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1340,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "flag": "poland",
+            "alpha2": "PL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1085,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19041,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة النخبة لتنس الطاولة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة النخبة لتنس الطاولة (TT)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "rLpdszmHd",
+      "status": {
+        "code": 10,
+        "description": "3rd set",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Szymik R.",
+        "slug": "szymik-robert",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 184,
+        "playerTeamInfo": {
+          "id": 22477
+        },
+        "nameCode": "SZY",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 414317,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Szymik, Robert",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "شيميك، روبرت"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Jadach O.",
+        "slug": "jadach-oskar",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 273,
+        "playerTeamInfo": {
+          "id": 22145
+        },
+        "nameCode": "JAD",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 455624,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Jadach, Oskar",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ياداش، أوسكار"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 11
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 3,
+        "period2": 5
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762834435
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762834450
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15030847,
+      "defaultPeriodCount": 5,
+      "slug": "jadach-szymik",
+      "currentPeriodStartTimestamp": 1762834435,
+      "startTimestamp": 1762833900,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

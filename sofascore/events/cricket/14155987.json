@@ -1,0 +1,3094 @@
+{
+  "event/14155987/h2h": {
+    "teamDuel": {
+      "homeWins": 5,
+      "awayWins": 5,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14155987/votes": {
+    "vote": {
+      "vote1": 170,
+      "vote2": 236,
+      "voteX": 34
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14155987/incidents": {
+    "incidents": [
+      {
+        "number": 32,
+        "over": 6,
+        "ball": 2,
+        "runs": 1,
+        "zone": "h",
+        "angle": 7,
+        "length": 4,
+        "score": "29/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Tess Flintoff",
+          "slug": "tess-flintoff",
+          "shortName": "Tess Flintoff",
+          "position": "AR",
+          "height": 158,
+          "userCount": 3,
+          "gender": "F",
+          "id": 1001474,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1049068800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيس فلينتوف",
+              "hi": "टेस फ्लिंटॉफ",
+              "bn": "টেস ফ্লিনটফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ت فلينتوف",
+              "hi": "टी फ्लिंटॉफ",
+              "bn": "টি ফ্লিনটফ"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 40
+          }
+        },
+        "commentary": "1 run, played towards square leg.",
+        "id": 5213367,
+        "time": 18,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 31,
+        "over": 6,
+        "ball": 1,
+        "runs": 0,
+        "score": "28/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Tess Flintoff",
+          "slug": "tess-flintoff",
+          "shortName": "Tess Flintoff",
+          "position": "AR",
+          "height": 158,
+          "userCount": 3,
+          "gender": "F",
+          "id": 1001474,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1049068800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيس فلينتوف",
+              "hi": "टेस फ्लिंटॉफ",
+              "bn": "টেস ফ্লিনটফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ت فلينتوف",
+              "hi": "टी फ्लिंटॉफ",
+              "bn": "টি ফ্লিনটফ"
+            }
+          }
+        },
+        "ballDetails": {},
+        "commentary": "Wide.",
+        "id": 5213366,
+        "time": 17,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 30,
+        "over": 5,
+        "ball": 6,
+        "runs": 2,
+        "zone": "p",
+        "angle": 343,
+        "length": 4,
+        "score": "27/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 40
+          }
+        },
+        "commentary": "2 runs, played towards mid wicket.",
+        "id": 5213364,
+        "time": 16,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 29,
+        "over": 5,
+        "ball": 5,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 192,
+        "length": 3,
+        "score": "25/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 37
+          }
+        },
+        "commentary": "1 run, played towards covers.",
+        "id": 5213362,
+        "time": 16,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 28,
+        "over": 5,
+        "ball": 4,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 217,
+        "length": 2,
+        "score": "24/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 30
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213361,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 27,
+        "over": 5,
+        "ball": 3,
+        "runs": 1,
+        "zone": "ctd",
+        "angle": 173,
+        "length": 4,
+        "score": "24/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 13,
+            "y": 41
+          }
+        },
+        "commentary": "1 run, played towards point.",
+        "id": 5213360,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 26,
+        "over": 5,
+        "ball": 2,
+        "runs": 0,
+        "zone": "p",
+        "angle": 333,
+        "length": 1,
+        "score": "23/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 31
+          }
+        },
+        "commentary": "No run, played towards mid wicket.",
+        "id": 5213358,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 25,
+        "over": 5,
+        "ball": 1,
+        "runs": 1,
+        "zone": "h",
+        "angle": 3,
+        "length": 4,
+        "score": "23/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Georgia Wareham",
+          "slug": "georgia-wareham",
+          "shortName": "Georgia Wareham",
+          "position": "AR",
+          "jerseyNumber": "35",
+          "height": 168,
+          "userCount": 20,
+          "gender": "F",
+          "id": 956771,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 927676800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "جورجيا ويرهام",
+              "hi": "जॉर्जिया वेयरहैम",
+              "bn": "জর্জিয়া ওয়ারহাম"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 42
+          }
+        },
+        "commentary": "1 run, played towards square leg.",
+        "id": 5213357,
+        "time": 14,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 24,
+        "over": 4,
+        "ball": 6,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 202,
+        "length": 3,
+        "score": "22/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 42
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213355,
+        "time": 13,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 23,
+        "over": 4,
+        "ball": 5,
+        "runs": 4,
+        "zone": "lc",
+        "angle": 141,
+        "length": 5,
+        "score": "22/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 11,
+            "y": 55
+          }
+        },
+        "commentary": "Four! Played towards point.",
+        "id": 5213353,
+        "time": 13,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 22,
+        "over": 4,
+        "ball": 4,
+        "runs": 0,
+        "score": "18/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 16,
+            "y": 41
+          }
+        },
+        "commentary": "No run.",
+        "id": 5213352,
+        "time": 12,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 21,
+        "over": 4,
+        "ball": 3,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 198,
+        "length": 3,
+        "score": "18/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 45
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213350,
+        "time": 12,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 20,
+        "over": 4,
+        "ball": 2,
+        "runs": 4,
+        "zone": "p",
+        "angle": 338,
+        "length": 5,
+        "score": "18/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 56
+          }
+        },
+        "commentary": "Four! Played towards mid wicket.",
+        "id": 5213349,
+        "time": 11,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 19,
+        "over": 4,
+        "ball": 1,
+        "runs": 2,
+        "zone": "lc",
+        "angle": 132,
+        "length": 4,
+        "score": "14/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 13,
+            "y": 45
+          }
+        },
+        "commentary": "2 runs, played towards third man.",
+        "id": 5213347,
+        "time": 11,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 18,
+        "over": 3,
+        "ball": 6,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 193,
+        "length": 3,
+        "score": "12/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 42
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213344,
+        "time": 10,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 17,
+        "over": 3,
+        "ball": 5,
+        "runs": 0,
+        "zone": "sd",
+        "angle": 257,
+        "length": 1,
+        "score": "12/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 39
+          }
+        },
+        "commentary": "No run, played towards mid off.",
+        "id": 5213343,
+        "time": 9,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 16,
+        "over": 3,
+        "ball": 4,
+        "runs": 0,
+        "score": "12/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 40
+          }
+        },
+        "commentary": "Bye.",
+        "id": 5213342,
+        "time": 9,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "B1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "B",
+        "incidentType": "ball"
+      },
+      {
+        "number": 15,
+        "over": 3,
+        "ball": 3,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 198,
+        "length": 3,
+        "score": "11/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 41
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213341,
+        "time": 9,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 14,
+        "over": 3,
+        "ball": 2,
+        "runs": 0,
+        "zone": "p",
+        "angle": 323,
+        "length": 3,
+        "score": "11/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 42
+          }
+        },
+        "commentary": "No run, played towards mid wicket.",
+        "id": 5213337,
+        "time": 8,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 13,
+        "over": 3,
+        "ball": 1,
+        "runs": 2,
+        "zone": "h",
+        "angle": 6,
+        "length": 4,
+        "score": "11/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 41
+          }
+        },
+        "commentary": "2 runs, played towards square leg.",
+        "id": 5213336,
+        "time": 8,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 12,
+        "over": 2,
+        "ball": 6,
+        "runs": 0,
+        "zone": "sqc",
+        "angle": 169,
+        "length": 3,
+        "score": "9/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 42
+          }
+        },
+        "commentary": "No run, played towards point.",
+        "id": 5213333,
+        "time": 7,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 11,
+        "over": 2,
+        "ball": 5,
+        "runs": 1,
+        "zone": "lc",
+        "angle": 126,
+        "length": 4,
+        "score": "9/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 46
+          }
+        },
+        "commentary": "1 run, played towards third man.",
+        "id": 5213331,
+        "time": 7,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 10,
+        "over": 2,
+        "ball": 4,
+        "runs": 1,
+        "zone": "lg",
+        "angle": 56,
+        "length": 4,
+        "score": "8/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 42
+          }
+        },
+        "commentary": "1 run, played towards fine leg.",
+        "id": 5213330,
+        "time": 6,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 9,
+        "over": 2,
+        "ball": 3,
+        "runs": 0,
+        "zone": "p",
+        "angle": 342,
+        "length": 3,
+        "score": "7/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 41
+          }
+        },
+        "commentary": "No run, played towards mid wicket.",
+        "id": 5213328,
+        "time": 6,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 8,
+        "over": 2,
+        "ball": 2,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 206,
+        "length": 2,
+        "score": "7/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 41
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213327,
+        "time": 5,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 7,
+        "over": 2,
+        "ball": 1,
+        "runs": 0,
+        "zone": "ctd",
+        "angle": 173,
+        "length": 3,
+        "score": "7/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Milly Illingworth",
+          "slug": "milly-illingworth",
+          "shortName": "Milly Illingworth",
+          "position": "B",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1468448,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1121385600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميلي إيلينغورث"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إيلينغورث"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 44
+          }
+        },
+        "commentary": "No run, played towards point.",
+        "id": 5213325,
+        "time": 5,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 6,
+        "over": 1,
+        "ball": 6,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 202,
+        "length": 3,
+        "score": "7/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 16,
+            "y": 32
+          }
+        },
+        "commentary": "1 run, played towards covers.",
+        "id": 5213322,
+        "time": 3,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 5,
+        "over": 1,
+        "ball": 5,
+        "runs": 1,
+        "zone": "p",
+        "angle": 341,
+        "length": 4,
+        "score": "6/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 42
+          }
+        },
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5213321,
+        "time": 3,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 4,
+        "over": 1,
+        "ball": 4,
+        "runs": 4,
+        "zone": "od",
+        "angle": 298,
+        "length": 5,
+        "score": "5/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 34
+          }
+        },
+        "commentary": "Four! Played towards mid on.",
+        "id": 5213319,
+        "time": 3,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 3,
+        "over": 1,
+        "ball": 3,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 211,
+        "length": 2,
+        "score": "1/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Tahlia Wilson",
+          "slug": "tahlia-wilson",
+          "shortName": "Tahlia Wilson",
+          "position": "WK",
+          "height": 170,
+          "userCount": 2,
+          "gender": "F",
+          "id": 966875,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940464000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تاليا ويلسون",
+              "hi": "ताहलिया विल्सन",
+              "bn": "তাহলিয়া উইলসন"
+            },
+            "shortNameTranslation": {
+              "ar": "ت ويلسون",
+              "hi": "टी विल्सन",
+              "bn": "টি উইলসন"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 37
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5213318,
+        "time": 2,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 2,
+        "over": 1,
+        "ball": 2,
+        "runs": 1,
+        "zone": "od",
+        "angle": 293,
+        "length": 4,
+        "score": "1/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 32
+          }
+        },
+        "commentary": "1 run, played towards mid on.",
+        "id": 5213316,
+        "time": 2,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 1,
+        "over": 1,
+        "ball": 1,
+        "runs": 0,
+        "zone": "lg",
+        "angle": 20,
+        "length": 1,
+        "score": "0/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Georgia Voll",
+          "slug": "georgia-voll",
+          "shortName": "Georgia Voll",
+          "position": "AR",
+          "jerseyNumber": "13",
+          "userCount": 23,
+          "gender": "F",
+          "id": 1086315,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1060041600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جورجيا فول",
+              "hi": "जॉर्जिया वोल",
+              "bn": "জর্জিয়া ভল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج فول",
+              "hi": "जी वोल",
+              "bn": "জি ভল"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Charis Bekker",
+          "firstName": "",
+          "lastName": "",
+          "slug": "charis-bekker",
+          "shortName": "Charis Bekker",
+          "position": "B",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1212714,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1079222400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شاريس بيكر"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. بيكر"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 20,
+            "y": 40
+          }
+        },
+        "commentary": "No run, played towards square leg.",
+        "id": 5213315,
+        "time": 2,
+        "inningNumber": 1,
+        "battingTeamId": 274889,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      }
+    ]
+  },
+  "event/14155987/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184483620,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149764598,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "11/10",
+            "sourceId": 2072774792,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "8/11",
+            "fractionalValue": "8/11",
+            "sourceId": 2072774794,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184483620,
+        "structureType": 2,
+        "marketId": 41,
+        "marketName": "Current innings sixes",
+        "choiceGroup": "2.5",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149769921,
+        "marketGroup": "Current innings sixes",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526997,
+            "name": "Sydney Thunder (W) - Over",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526996,
+            "name": "Sydney Thunder (W) - Under",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184483620,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149764598,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "11/10",
+            "sourceId": 2072774792,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "8/11",
+            "fractionalValue": "8/11",
+            "sourceId": 2072774794,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14155987": {
+    "event": {
+      "tournament": {
+        "name": "Women's Big Bash League",
+        "slug": "womens-big-bash-league",
+        "category": {
+          "name": "Australia",
+          "slug": "australia",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1347,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "flag": "australia",
+          "alpha2": "AU",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أستراليا",
+              "hi": "ऑस्ट्रेलिया",
+              "bn": "অস্ট্রেলিয়া"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Women's Big Bash League",
+          "slug": "womens-big-bash-league",
+          "primaryColorHex": "#231f20",
+          "secondaryColorHex": "#c1cb0e",
+          "category": {
+            "name": "Australia",
+            "slug": "australia",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1347,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "flag": "australia",
+            "alpha2": "AU",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أستراليا",
+                "hi": "ऑस्ट्रेलिया",
+                "bn": "অস্ট্রেলিয়া"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 890,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 11163,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري بيج باش للسيدات",
+              "hi": "महिला बिग बैश लीग",
+              "bn": "উইমেনস বিগ ব্যাশ লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 103644,
+        "endTimestamp": 1765584000,
+        "startTimestamp": 1762646400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري البيغ باش للسيدات"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Women's Big Bash League, 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 78209
+      },
+      "customId": "MXjcsOXjc",
+      "status": {
+        "code": 21,
+        "description": "1st Inning",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Melbourne, Victoria"
+        },
+        "hidden": true,
+        "slug": "junction-oval",
+        "name": "Junction Oval",
+        "capacity": 7000,
+        "id": 24809,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوفال جونكشن",
+            "hi": "जंक्शन ओवल",
+            "bn": "জংশন ওভাল"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Junction Oval",
+          "capacity": 7000
+        }
+      },
+      "referee": {
+        "name": "Bob Parry",
+        "slug": "bob-parry",
+        "yellowCards": 0,
+        "redCards": 0,
+        "yellowRedCards": 0,
+        "games": 59,
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "id": 789991,
+        "country": {},
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بوب باري"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Melbourne Renegades Women",
+        "slug": "melbourne-renegades-women",
+        "shortName": "MR-W",
+        "gender": "F",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 257,
+        "venue": {
+          "city": {
+            "name": "Melbourne, Victoria"
+          },
+          "hidden": true,
+          "slug": "junction-oval",
+          "name": "Junction Oval",
+          "capacity": 7000,
+          "id": 24809,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوفال جونكشن",
+              "hi": "जंक्शन ओवल",
+              "bn": "জংশন ওভাল"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Junction Oval",
+            "capacity": 7000
+          }
+        },
+        "nameCode": "MRW",
+        "national": false,
+        "type": 0,
+        "id": 274887,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Melbourne Renegades Women",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نساء ملبورن رينيغايدز"
+          },
+          "shortNameTranslation": {
+            "hi": "एमआर-डब्ल्यू",
+            "bn": "এমএর-ডব্লিউ"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Sydney Thunder Women",
+        "slug": "sydney-thunder-women",
+        "shortName": "ST-W",
+        "gender": "F",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 281,
+        "venue": {
+          "city": {
+            "name": "Sydney"
+          },
+          "hidden": true,
+          "slug": "blacktown-international-sportspark",
+          "name": "Blacktown International Sportspark",
+          "capacity": 10000,
+          "id": 24984,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارك بلاكتاون الدولية الرياضية",
+              "hi": "ब्लैकटाउन इंटरनेशनल स्पोर्ट्सपार्क",
+              "bn": "ব্ল্যাকটাউন ইন্টারন্যাশনাল স্পোর্টসপার্ক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Blacktown International Sportspark",
+            "capacity": 10000
+          }
+        },
+        "nameCode": "STW",
+        "national": false,
+        "type": 0,
+        "id": 274889,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Sydney Thunder Women",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نساء سيدني ثاندر "
+          },
+          "shortNameTranslation": {
+            "hi": "एसटी-डब्ल्यू",
+            "bn": "এসটি-ডব্লিউ"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0
+      },
+      "awayScore": {
+        "current": 29,
+        "display": 29,
+        "innings": {
+          "inning1": {
+            "score": 29,
+            "wickets": 0,
+            "overs": 5.1,
+            "runRate": 5.61
+          }
+        }
+      },
+      "coverage": 2,
+      "time": {},
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.innings"
+        ],
+        "changeTimestamp": 1762835243
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14155987,
+      "umpire1Name": "Chris Grant (AUS)",
+      "umpire2Name": "Daryl Brigham (AUS)",
+      "tvUmpireName": "Bede Sajowitz (AUS)",
+      "refereeName": "Bob Parry",
+      "tossWin": "Melbourne Renegades Women",
+      "tossDecision": "Bowling",
+      "currentBattingTeamId": 274889,
+      "currentBatsmanId": 966875,
+      "currentBowlerId": 1001474,
+      "endTimestamp": 1762848600,
+      "slug": "sydney-thunder-women-melbourne-renegades-women",
+      "startTimestamp": 1762834200,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "lastPeriod": "inning1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "cricketBallProperties": [
+        "time",
+        "number",
+        "over",
+        "ball",
+        "runs",
+        "zone",
+        "angle",
+        "score",
+        "scored",
+        "wicket",
+        "missed",
+        "incidentClassLabel",
+        "incidentClassColor",
+        "batsman",
+        "bowler",
+        "ballDetails",
+        "commentary",
+        "id"
+      ],
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14155987/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "6/5",
+      "expected": 45,
+      "actual": 60,
+      "id": 18019308
+    },
+    "away": null
+  },
+  "event/14155987/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184483620,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149764598,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "11/10",
+            "sourceId": 2072774792,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "8/11",
+            "fractionalValue": "8/11",
+            "sourceId": 2072774794,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "sourceId": 184472836,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184472836,
+        "suspended": false,
+        "id": 148019635,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "13/10",
+            "sourceId": 2070963824,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "31/50",
+            "sourceId": 2070963825,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 1,
+        "marketId": 37,
+        "marketName": "To score most runs",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149774856,
+        "marketGroup": "To score most runs",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/1",
+            "fractionalValue": "4/11",
+            "sourceId": 2083528219,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "8/11",
+            "fractionalValue": "2/1",
+            "sourceId": 2083528224,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "28/1",
+            "fractionalValue": "40/1",
+            "sourceId": 2083528226,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 2,
+        "marketId": 38,
+        "marketName": "Next over runs",
+        "choiceGroup": "7.5",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": true,
+        "id": 149765775,
+        "marketGroup": "Next over runs",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "7/10",
+            "fractionalValue": "3/4",
+            "sourceId": 2083763112,
+            "name": "6th Over Sydney Thunder (W) - Over",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "21/20",
+            "fractionalValue": "1/1",
+            "sourceId": 2083763109,
+            "name": "6th Over Sydney Thunder (W) - Under",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 1,
+        "marketId": 39,
+        "marketName": "Wicket in next over",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": true,
+        "id": 149765776,
+        "marketGroup": "Wicket in next over",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "10/3",
+            "fractionalValue": "12/5",
+            "sourceId": 2083763116,
+            "name": "6th Over (Sydney Thunder (W)) - Yes",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/5",
+            "fractionalValue": "3/10",
+            "sourceId": 2083763118,
+            "name": "6th Over (Sydney Thunder (W)) - No",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 2,
+        "marketId": 40,
+        "marketName": "Current innings runs",
+        "choiceGroup": "150.5",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149766586,
+        "marketGroup": "Current innings runs",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "4/9",
+            "sourceId": 2083526980,
+            "name": "Sydney Thunder (W) (20 Overs) - Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "13/8",
+            "sourceId": 2083526978,
+            "name": "Sydney Thunder (W) (20 Overs) - Under",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 2,
+        "marketId": 41,
+        "marketName": "Current innings sixes",
+        "choiceGroup": "2.5",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149769921,
+        "marketGroup": "Current innings sixes",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "4/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526997,
+            "name": "Sydney Thunder (W) - Over",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/10",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526996,
+            "name": "Sydney Thunder (W) - Under",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184483620,
+        "structureType": 2,
+        "marketId": 42,
+        "marketName": "Runs at fall of next wicket",
+        "choiceGroup": "44.5",
+        "isLive": true,
+        "fid": 184483620,
+        "suspended": false,
+        "id": 149775294,
+        "marketGroup": "Runs at fall of next wicket",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526999,
+            "name": "1st Wicket Sydney Thunder (W) - Over",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/6",
+            "sourceId": 2083526998,
+            "name": "1st Wicket Sydney Thunder (W) - Under",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 14155987
+  }
+}

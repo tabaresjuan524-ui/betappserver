@@ -24,11 +24,11 @@ interface EventApiData {
  */
 export class BrowserPoolManager {
     private browsers: Browser[] = [];
-    private eventTabs: Map<string, { browser: Browser; page: Page; browserIndex: number }> = new Map();
+    private eventTabs: Map<string, { browser: Browser; page: Page; browserIndex: number; event: any; url: string; sportSlug: string }> = new Map();
     private eventDataCache: Map<string, EventApiData> = new Map();
     private savedEvents: Set<string> = new Set(); // Track which events have been saved to avoid duplicates
     
-    private readonly BROWSERS_COUNT = 5; // Number of browser instances (each ~2GB)
+    private readonly BROWSERS_COUNT = 3; // Number of browser instances (each ~2GB) - Reduced from 5 to lower memory pressure
     private readonly TABS_PER_BROWSER = 0; // Max tabs per browser (0 = unlimited)
     private readonly MAX_TOTAL_EVENTS = 0; // Total capacity: 0 = unlimited, auto-cleanup handles resource management
     
@@ -99,7 +99,7 @@ export class BrowserPoolManager {
             const browser = await puppeteer.launch({
                 executablePath: chrome,
                 headless: true, // Use true for production, false for debugging
-                protocolTimeout: 180000, // 180 seconds (3 min) to handle slow pages and high load
+                protocolTimeout: 300000, // 300 seconds (5 min) - increased for better stability
                 args: [
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
@@ -120,6 +120,18 @@ export class BrowserPoolManager {
                     '--safebrowsing-disable-auto-update',
                     '--disable-blink-features=AutomationControlled',
                     `--window-size=1280,720`,
+                    '--disable-features=site-per-process', // Reduce memory per tab
+                    '--renderer-process-limit=3', // Limit to 3 renderer processes per browser (was 10)
+                    '--max-old-space-size=768', // 768MB heap per browser (was 512MB)
+                    '--js-flags=--max-old-space-size=768',
+                    '--disable-web-security', // Reduce security overhead
+                    '--disable-webgl', // Disable WebGL to save memory
+                    '--disable-software-rasterizer', // Disable software rasterizer
+                    '--disable-background-timer-throttling', // Prevent tab throttling
+                    '--disable-backgrounding-occluded-windows', // Keep background tabs responsive
+                    '--memory-pressure-off', // Disable memory pressure warnings
+                    '--max_old_space_size=768', // Alternative Node memory limit flag
+                    '--single-process', // Force single-process mode for stability
                 ],
             });
 
@@ -290,7 +302,8 @@ export class BrowserPoolManager {
             });
 
             // Track tab here, before navigation, to allow for cleanup on failure
-            this.eventTabs.set(eventId, { browser, page, browserIndex });
+            const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
+            this.eventTabs.set(eventId, { browser, page, browserIndex, event, url: eventUrl, sportSlug });
             this.browserTabCounts[browserIndex]++;
             this.eventDataCache.set(eventId, interceptedData);
 
@@ -427,13 +440,22 @@ export class BrowserPoolManager {
         for (let i = 0; i < this.browsers.length; i++) {
             const isConnected = this.browsers[i] && this.browsers[i].isConnected();
             
-            if (!isConnected && this.browserHealth[i]) { // Was healthy, now it's not
-                console.warn(`⚠️ [HEALTH] Browser ${i + 1} is disconnected. Attempting to replace...`);
+            if (!isConnected) { // Browser is disconnected
+                if (this.browserHealth[i]) {
+                    // First time detecting disconnection
+                    console.warn(`⚠️ [HEALTH] Browser ${i + 1} is disconnected. Attempting to replace...`);
+                } else {
+                    // Still disconnected, try to replace again
+                    console.warn(`⚠️ [HEALTH] Browser ${i + 1} still disconnected. Retrying replacement...`);
+                }
+                
                 this.browserHealth[i] = false;
                 
                 try {
                     await this.replaceBrowser(i);
+                    this.browserHealth[i] = true; // Mark as healthy after successful replacement
                     replacedCount++;
+                    console.log(`✅ [HEALTH] Browser ${i + 1} successfully replaced and reconnected.`);
                 } catch (error: any) {
                     console.error(`❌ [HEALTH] Failed to replace browser ${i + 1}: ${error.message}`);
                 }
@@ -468,23 +490,38 @@ export class BrowserPoolManager {
         // Reset tab count for this browser
         this.browserTabCounts[index] = 0;
 
-        // Find all tabs that were running on the crashed browser
-        const tabsToReopen: { event: any, url: string }[] = [];
+        // Find all tabs that were running on the crashed browser and reopen them
+        const tabsToReopen: Array<{ eventId: string; event: any; url: string; sportSlug: string }> = [];
         for (const [eventId, tabInfo] of this.eventTabs.entries()) {
             if (tabInfo.browserIndex === index) {
-                // We need event and url to reopen. This assumes you store them somewhere.
-                // For this example, we'll need to enhance what we store in eventTabs or have a way to retrieve it.
-                // Let's assume we can't get the event object back easily, so we just log it.
-                console.warn(`    - Event ${eventId} was on crashed browser ${index + 1}. It needs to be reopened.`);
+                console.log(`    - Event ${eventId} was on crashed browser ${index + 1}. Queueing for reopening...`);
+                tabsToReopen.push({ 
+                    eventId, 
+                    event: tabInfo.event, 
+                    url: tabInfo.url,
+                    sportSlug: tabInfo.sportSlug
+                });
+                // Remove old tab info
                 this.eventTabs.delete(eventId);
                 this.eventDataCache.delete(eventId);
             }
         }
         
-        // Note: Re-opening tabs automatically is complex as you need the original `event` object.
-        // A robust implementation would involve a persistent queue or re-fetching the event list.
-        // For now, the system will self-heal by creating a new browser, and subsequent fetch cycles will fill it.
-        console.log(`    - The new browser ${index + 1} is ready. New events will be assigned to it.`);
+        // Reopen tabs on the new browser
+        if (tabsToReopen.length > 0) {
+            console.log(`    - Reopening ${tabsToReopen.length} tabs on new browser ${index + 1}...`);
+            for (const { event, url } of tabsToReopen) {
+                try {
+                    await this.openEventTab(event, url);
+                    console.log(`      ✅ Reopened event ${event.id}`);
+                } catch (error: any) {
+                    console.error(`      ❌ Failed to reopen event ${event.id}: ${error.message}`);
+                }
+            }
+            console.log(`    - Browser ${index + 1} recovery complete. ${tabsToReopen.length} tabs reopened.`);
+        } else {
+            console.log(`    - The new browser ${index + 1} is ready. New events will be assigned to it.`);
+        }
     }
 
     /**

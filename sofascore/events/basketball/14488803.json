@@ -1,0 +1,328 @@
+{
+  "event/14488803": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3816,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "gIJsCFid",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Tennessee Tech Golden Eagles",
+        "slug": "tennessee-tech-golden-eagles",
+        "shortName": "Tennessee Tech",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 94,
+        "venue": {
+          "city": {
+            "name": "Cookeville"
+          },
+          "hidden": true,
+          "slug": "hooper-eblen-arena",
+          "name": "Hooper Eblen Arena",
+          "id": 19421,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا هوبر إبلن",
+              "hi": "हूपर एब्लेन एरिना",
+              "bn": "হুপার এবলেন এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Hooper Eblen Arena"
+          }
+        },
+        "nameCode": "TNTC",
+        "national": false,
+        "type": 0,
+        "id": 86656,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Tennessee Tech Golden Eagles",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تينيسي تيك غولدن إيجلز",
+            "ru": "Теннесси Тех"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Virginia Lynchburg Dragons",
+        "slug": "virginia-lynchburg-dragons",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 29,
+        "venue": {
+          "city": {
+            "name": "Lynchburg, VA"
+          },
+          "hidden": true,
+          "slug": "vul-gym",
+          "name": "VUL Gym",
+          "capacity": 500,
+          "id": 53028,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "stadium": {
+            "name": "VUL Gym",
+            "capacity": 500
+          }
+        },
+        "nameCode": "VUL",
+        "national": false,
+        "type": 0,
+        "id": 396527,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Virginia Lynchburg Dragons",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيرجينيا لينشبرغ دراجونز"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 118,
+        "display": 118,
+        "period1": 53,
+        "period2": 65
+      },
+      "awayScore": {
+        "current": 58,
+        "display": 58,
+        "period1": 25,
+        "period2": 33
+      },
+      "time": {
+        "played": 2400,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2"
+        ],
+        "changeTimestamp": 1762826376
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14488803,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "virginia-lynchburg-dragons-tennessee-tech-golden-eagles",
+      "startTimestamp": 1762819200,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14488803/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 118,
+        "awayScore": 58,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "text": "HT",
+        "homeScore": 53,
+        "awayScore": 25,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      }
+    ]
+  },
+  "event/14488803/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14488803/votes": {
+    "vote": {
+      "vote1": 98,
+      "vote2": 7,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  }
+}

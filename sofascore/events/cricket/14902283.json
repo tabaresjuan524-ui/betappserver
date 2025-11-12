@@ -1,0 +1,4051 @@
+{
+  "event/14902283/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 0,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "tv/event/14902283/country-channels": {
+    "countryChannels": {
+      "NL": [
+        5623
+      ]
+    }
+  },
+  "event/14902283/votes": {
+    "vote": {
+      "vote1": 40,
+      "vote2": 4,
+      "voteX": 5
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14902283": {
+    "event": {
+      "tournament": {
+        "name": "Bali Bash International Rising East Asia Tri-Series",
+        "slug": "bali-bash-international-rising-east-asia-tri-series",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1343,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Bali Bash International Rising East Asia Tri-Series",
+          "slug": "bali-bash-international-rising-east-asia-tri-series",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1343,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 7,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 30250,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة ثلاثية باهلي باش الدولية لشرق آسيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "id": 166615,
+        "endTimestamp": 1763078400,
+        "startTimestamp": 1762387200,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلسلة ثلاثية دولية باهالي باش في شرق آسيا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Bali Bash International Rising East Asia Tri-Series, 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 84805
+      },
+      "customId": "myKdsxUej",
+      "status": {
+        "code": 48,
+        "description": "Drinks",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Bali"
+        },
+        "hidden": true,
+        "slug": "udayana-cricket-ground",
+        "name": "Udayana Cricket Ground",
+        "id": 42409,
+        "country": {
+          "alpha2": "ID",
+          "alpha3": "IDN",
+          "name": "Indonesia",
+          "slug": "indonesia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب أوديانا للكريكيت",
+            "hi": "उदयना क्रिकेट ग्राउंड",
+            "bn": "উদয়না ক্রিকেট গ্রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Udayana Cricket Ground"
+        }
+      },
+      "homeTeam": {
+        "name": "Myanmar",
+        "slug": "myanmar",
+        "shortName": "MYA",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 124,
+        "nameCode": "MYA",
+        "national": true,
+        "type": 0,
+        "id": 463662,
+        "country": {
+          "alpha2": "MM",
+          "alpha3": "MMR",
+          "name": "Myanmar",
+          "slug": "myanmar"
+        },
+        "fullName": "Myanmar",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#fbed26",
+          "text": "#fbed26"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ميانمار"
+          },
+          "shortNameTranslation": {
+            "ar": "إم واي إيه"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Timor-Leste",
+        "slug": "timor-leste",
+        "shortName": "TLS",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 11,
+        "nameCode": "TIM",
+        "national": true,
+        "type": 0,
+        "id": 1137222,
+        "country": {
+          "alpha2": "TL",
+          "alpha3": "TLS",
+          "name": "East Timor",
+          "slug": "east-timor"
+        },
+        "fullName": "Timor-Leste",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#be0505",
+          "secondary": "#f4d934",
+          "text": "#f4d934"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تيمور ليشتي"
+          },
+          "shortNameTranslation": {
+            "ar": "ت. ليشتي"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 63,
+        "display": 63,
+        "innings": {
+          "inning1": {
+            "score": 63,
+            "wickets": 4,
+            "overs": 10,
+            "runRate": 6.3
+          }
+        }
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0
+      },
+      "coverage": 2,
+      "time": {},
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description"
+        ],
+        "changeTimestamp": 1762913853
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14902283,
+      "tossWin": "Myanmar",
+      "tossDecision": "Batting",
+      "currentBattingTeamId": 463662,
+      "endTimestamp": 1762925400,
+      "slug": "timor-leste-myanmar",
+      "startTimestamp": 1762911000,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "cricketBallProperties": [
+        "time",
+        "number",
+        "over",
+        "ball",
+        "runs",
+        "score",
+        "scored",
+        "wicket",
+        "missed",
+        "incidentClassLabel",
+        "incidentClassColor",
+        "batsman",
+        "bowler",
+        "ballDetails",
+        "commentary",
+        "id",
+        "zone",
+        "angle",
+        "bowlDetail",
+        "fielder"
+      ],
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14902283/incidents": {
+    "incidents": [
+      {
+        "number": 68,
+        "over": 10,
+        "ball": 6,
+        "runs": 1,
+        "zone": "ofd",
+        "angle": 243,
+        "length": 4,
+        "score": "63/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards mid off.",
+        "id": 5216577,
+        "time": 48,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 67,
+        "over": 10,
+        "ball": 5,
+        "runs": 4,
+        "zone": "p",
+        "angle": 328,
+        "length": 5,
+        "score": "62/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 34
+          }
+        },
+        "commentary": "Four! Played towards mid wicket.",
+        "id": 5216576,
+        "time": 47,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 66,
+        "over": 10,
+        "ball": 4,
+        "runs": 1,
+        "zone": "p",
+        "angle": 328,
+        "length": 4,
+        "score": "58/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 35
+          }
+        },
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5216575,
+        "time": 47,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 65,
+        "over": 10,
+        "ball": 3,
+        "runs": 1,
+        "zone": "ofd",
+        "angle": 237,
+        "length": 4,
+        "score": "57/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 32
+          }
+        },
+        "commentary": "1 run, played towards mid off.",
+        "id": 5216574,
+        "time": 46,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 64,
+        "over": 10,
+        "ball": 2,
+        "runs": 1,
+        "zone": "p",
+        "angle": 326,
+        "length": 3,
+        "score": "56/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 35
+          }
+        },
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5216573,
+        "time": 46,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 63,
+        "over": 10,
+        "ball": 1,
+        "runs": 1,
+        "zone": "ctd",
+        "angle": 185,
+        "length": 4,
+        "score": "55/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Yahya Suhail",
+          "slug": "muhammad-yahya-suhail",
+          "shortName": "Yahya Suhail",
+          "position": "B",
+          "userCount": 0,
+          "id": 2338922,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 6,
+            "y": 40
+          }
+        },
+        "commentary": "1 run, played towards covers.",
+        "id": 5216572,
+        "time": 45,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 62,
+        "over": 9,
+        "ball": 7,
+        "runs": 2,
+        "zone": "g",
+        "angle": 76,
+        "length": 4,
+        "score": "54/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 54
+          }
+        },
+        "commentary": "2 runs, played towards fine leg.",
+        "id": 5216571,
+        "time": 44,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 61,
+        "over": 9,
+        "ball": 6,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 201,
+        "length": 4,
+        "score": "52/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards covers.",
+        "id": 5216570,
+        "time": 43,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 60,
+        "over": 9,
+        "ball": 5,
+        "runs": 0,
+        "score": "51/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 45
+          }
+        },
+        "commentary": "Wide.",
+        "id": 5216569,
+        "time": 43,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 59,
+        "over": 9,
+        "ball": 4,
+        "runs": 1,
+        "zone": "h",
+        "angle": 4,
+        "length": 4,
+        "score": "50/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 10,
+            "y": 51
+          }
+        },
+        "commentary": "1 run, played towards square leg.",
+        "id": 5216559,
+        "time": 43,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 58,
+        "over": 9,
+        "ball": 3,
+        "runs": 0,
+        "zone": "od",
+        "angle": 300,
+        "length": 1,
+        "score": "49/4",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 45
+          }
+        },
+        "commentary": "No run, played towards mid on.",
+        "id": 5216558,
+        "time": 42,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 57,
+        "over": 9,
+        "ball": 2,
+        "runs": 0,
+        "zone": "p",
+        "angle": 347,
+        "length": 2,
+        "score": "49/4",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 44
+          }
+        },
+        "commentary": "No run, played towards mid wicket.",
+        "id": 5216557,
+        "time": 42,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 56,
+        "over": 9,
+        "ball": 1,
+        "runs": 0,
+        "score": "49/4",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 10,
+            "y": 48
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216546,
+        "time": 41,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 55,
+        "over": 8,
+        "ball": 6,
+        "runs": 1,
+        "zone": "p",
+        "angle": 310,
+        "length": 4,
+        "score": "49/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards mid on.",
+        "id": 5216537,
+        "time": 40,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 54,
+        "over": 8,
+        "ball": 5,
+        "runs": 2,
+        "zone": "od",
+        "angle": 299,
+        "length": 4,
+        "score": "48/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 34
+          }
+        },
+        "commentary": "2 runs, played towards mid on.",
+        "id": 5216536,
+        "time": 39,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 53,
+        "over": 8,
+        "ball": 4,
+        "runs": 1,
+        "zone": "ofd",
+        "angle": 250,
+        "length": 4,
+        "score": "46/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 36
+          }
+        },
+        "commentary": "1 run, played towards mid off.",
+        "id": 5216535,
+        "time": 39,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 52,
+        "over": 8,
+        "ball": 3,
+        "runs": 1,
+        "zone": "lg",
+        "angle": 49,
+        "length": 3,
+        "score": "45/4",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards fine leg.",
+        "id": 5216534,
+        "time": 39,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 51,
+        "over": 8,
+        "ball": 2,
+        "runs": 0,
+        "score": "44/4",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Khin Aye",
+          "slug": "khin-aye",
+          "shortName": "K Aye",
+          "position": "AR",
+          "userCount": 13,
+          "gender": "M",
+          "id": 1472852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "خين آي"
+            },
+            "shortNameTranslation": {
+              "ar": "خ. آي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 9,
+            "y": 29
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216533,
+        "time": 38,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 50,
+        "over": 8,
+        "ball": 1,
+        "runs": 0,
+        "zone": "lc",
+        "angle": 126,
+        "length": 2,
+        "score": "44/4",
+        "scored": false,
+        "wicket": true,
+        "missed": false,
+        "bowlDetail": "Caught",
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "fielder": {
+          "name": "Arif Hosen",
+          "slug": "arif-hosen",
+          "shortName": "A Hosen",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338912,
+          "marketValueCurrency": "EUR"
+        },
+        "dismissedBatsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 8,
+            "y": 45
+          }
+        },
+        "commentary": "OUT! c sub Arif Hosen b Muhammad Suhail Sattar.",
+        "id": 5216532,
+        "time": 37,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "W",
+        "incidentClassColor": "wickets",
+        "totalRuns": 0,
+        "incidentClass": "W",
+        "incidentType": "ball"
+      },
+      {
+        "number": 49,
+        "over": 7,
+        "ball": 6,
+        "runs": 1,
+        "zone": "sqc",
+        "angle": 168,
+        "length": 3,
+        "score": "44/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 48
+          }
+        },
+        "commentary": "1 run, played towards point.",
+        "id": 5216531,
+        "time": 35,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 48,
+        "over": 7,
+        "ball": 5,
+        "runs": 0,
+        "score": "43/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 8,
+            "y": 45
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216530,
+        "time": 34,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 47,
+        "over": 7,
+        "ball": 4,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 196,
+        "length": 3,
+        "score": "43/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards covers.",
+        "id": 5216529,
+        "time": 34,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 46,
+        "over": 7,
+        "ball": 3,
+        "runs": 0,
+        "score": "42/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 8,
+            "y": 46
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216528,
+        "time": 33,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 45,
+        "over": 7,
+        "ball": 2,
+        "runs": 0,
+        "zone": "sd",
+        "angle": 277,
+        "length": 1,
+        "score": "42/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 11,
+            "y": 44
+          }
+        },
+        "commentary": "No run, played towards mid on.",
+        "id": 5216527,
+        "time": 33,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 44,
+        "over": 7,
+        "ball": 1,
+        "runs": 4,
+        "zone": "lg",
+        "angle": 22,
+        "length": 5,
+        "score": "42/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Rahat Kazi",
+          "slug": "rahat-kazi",
+          "shortName": "R Kazi",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338918,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 10,
+            "y": 54
+          }
+        },
+        "commentary": "Four! Played towards square leg.",
+        "id": 5216526,
+        "time": 33,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 43,
+        "over": 6,
+        "ball": 9,
+        "runs": 1,
+        "zone": "ctd",
+        "angle": 189,
+        "length": 3,
+        "score": "38/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 6,
+            "y": 50
+          }
+        },
+        "commentary": "1 run, played towards covers.",
+        "id": 5216514,
+        "time": 30,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 42,
+        "over": 6,
+        "ball": 8,
+        "runs": 0,
+        "zone": "ofd",
+        "angle": 248,
+        "length": 1,
+        "score": "37/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 31
+          }
+        },
+        "commentary": "No run, played towards mid off.",
+        "id": 5216513,
+        "time": 30,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 41,
+        "over": 6,
+        "ball": 7,
+        "runs": 0,
+        "score": "37/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 8,
+            "y": 44
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216512,
+        "time": 29,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 40,
+        "over": 6,
+        "ball": 6,
+        "runs": 0,
+        "score": "37/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "Wide.",
+        "id": 5216511,
+        "time": 29,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 38,
+        "over": 6,
+        "ball": 5,
+        "runs": 2,
+        "zone": "ctd",
+        "angle": 184,
+        "length": 4,
+        "score": "36/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 6,
+            "y": 46
+          }
+        },
+        "commentary": "2 runs, played towards covers.",
+        "id": 5216509,
+        "time": 29,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 37,
+        "over": 6,
+        "ball": 4,
+        "runs": 0,
+        "score": "34/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 6,
+            "y": 51
+          }
+        },
+        "commentary": "Wide.",
+        "id": 5216508,
+        "time": 28,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 36,
+        "over": 6,
+        "ball": 3,
+        "runs": 0,
+        "zone": "ctd",
+        "angle": 188,
+        "length": 3,
+        "score": "33/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 11,
+            "y": 47
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5216507,
+        "time": 28,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 35,
+        "over": 6,
+        "ball": 2,
+        "runs": 0,
+        "score": "33/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 5,
+            "y": 44
+          }
+        },
+        "commentary": "Wide.",
+        "id": 5216506,
+        "time": 27,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 34,
+        "over": 6,
+        "ball": 1,
+        "runs": 0,
+        "score": "32/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Muhammad Suhail Sattar",
+          "slug": "muhammad-suhail-sattar",
+          "shortName": "Suhail Sattar",
+          "position": "AR",
+          "userCount": 0,
+          "id": 2338916,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 8,
+            "y": 39
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216505,
+        "time": 27,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 33,
+        "over": 5,
+        "ball": 6,
+        "runs": 1,
+        "zone": "lg",
+        "angle": 50,
+        "length": 3,
+        "score": "32/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 42
+          }
+        },
+        "commentary": "1 run, played towards fine leg.",
+        "id": 5216504,
+        "time": 26,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 32,
+        "over": 5,
+        "ball": 5,
+        "runs": 1,
+        "zone": "p",
+        "angle": 343,
+        "length": 3,
+        "score": "31/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 40
+          }
+        },
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5216503,
+        "time": 25,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 31,
+        "over": 5,
+        "ball": 4,
+        "runs": 0,
+        "zone": "cd",
+        "angle": 201,
+        "length": 2,
+        "score": "30/3",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 10,
+            "y": 44
+          }
+        },
+        "commentary": "No run, played towards covers.",
+        "id": 5216502,
+        "time": 25,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 30,
+        "over": 5,
+        "ball": 3,
+        "runs": 2,
+        "zone": "p",
+        "angle": 332,
+        "length": 4,
+        "score": "30/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 11,
+            "y": 37
+          }
+        },
+        "commentary": "2 runs, played towards mid wicket.",
+        "id": 5216501,
+        "time": 24,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 29,
+        "over": 5,
+        "ball": 2,
+        "runs": 1,
+        "zone": "p",
+        "angle": 342,
+        "length": 2,
+        "score": "28/3",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ko Ko Lin Thu",
+          "slug": "ko-ko-lin-thu",
+          "shortName": "Ko Lin Thu",
+          "position": "BM",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1472860,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كو كو لين ثو"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ثو"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 16,
+            "y": 43
+          }
+        },
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5216494,
+        "time": 24,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 28,
+        "over": 5,
+        "ball": 1,
+        "runs": 0,
+        "zone": "g",
+        "angle": 90,
+        "length": 2,
+        "score": "27/3",
+        "scored": false,
+        "wicket": true,
+        "missed": false,
+        "bowlDetail": "Caught",
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "fielder": {
+          "name": "Egidio Pinheiro",
+          "slug": "egidio-pinheiro",
+          "shortName": "E Pinheiro",
+          "position": "WK",
+          "userCount": 0,
+          "id": 2338919,
+          "marketValueCurrency": "EUR"
+        },
+        "dismissedBatsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 26,
+            "y": 45
+          }
+        },
+        "commentary": "OUT! c Egidio Pinheiro b Elias Tilman.",
+        "id": 5216491,
+        "time": 23,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "W",
+        "incidentClassColor": "wickets",
+        "totalRuns": 0,
+        "incidentClass": "W",
+        "incidentType": "ball"
+      },
+      {
+        "number": 27,
+        "over": 4,
+        "ball": 7,
+        "runs": 1,
+        "zone": "h",
+        "angle": 5,
+        "length": 3,
+        "score": "27/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 14,
+            "y": 32
+          }
+        },
+        "commentary": "1 run, played towards square leg.",
+        "id": 5216490,
+        "time": 21,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 26,
+        "over": 4,
+        "ball": 6,
+        "runs": 0,
+        "score": "26/2",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 16,
+            "y": 35
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216489,
+        "time": 20,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 25,
+        "over": 4,
+        "ball": 5,
+        "runs": 4,
+        "zone": "p",
+        "angle": 345,
+        "length": 5,
+        "score": "26/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 33
+          }
+        },
+        "commentary": "Four! Played towards mid wicket.",
+        "id": 5216488,
+        "time": 20,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 24,
+        "over": 4,
+        "ball": 4,
+        "runs": 2,
+        "zone": "lc",
+        "angle": 121,
+        "length": 3,
+        "score": "22/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 22,
+            "y": 33
+          }
+        },
+        "commentary": "No ball! Played towards third man.",
+        "id": 5216487,
+        "time": 19,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Nb3",
+        "incidentClassColor": "errors",
+        "totalRuns": 3,
+        "incidentClass": "NB",
+        "incidentType": "ball"
+      },
+      {
+        "number": 23,
+        "over": 4,
+        "ball": 3,
+        "runs": 0,
+        "zone": "sd",
+        "angle": 256,
+        "length": 1,
+        "score": "19/2",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 34
+          }
+        },
+        "commentary": "No run, played towards mid off.",
+        "id": 5216486,
+        "time": 19,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 22,
+        "over": 4,
+        "ball": 2,
+        "runs": 1,
+        "zone": "p",
+        "angle": 321,
+        "length": 3,
+        "score": "19/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "1 run, played towards mid wicket.",
+        "id": 5216485,
+        "time": 18,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 21,
+        "over": 4,
+        "ball": 1,
+        "runs": 0,
+        "score": "18/2",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 13,
+            "y": 36
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216484,
+        "time": 18,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 20,
+        "over": 3,
+        "ball": 7,
+        "runs": 1,
+        "zone": "lg",
+        "angle": 57,
+        "length": 3,
+        "score": "18/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 33
+          }
+        },
+        "commentary": "1 run, played towards fine leg.",
+        "id": 5216483,
+        "time": 16,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 19,
+        "over": 3,
+        "ball": 6,
+        "runs": 0,
+        "zone": "h",
+        "angle": 350,
+        "length": 1,
+        "score": "17/2",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 45
+          }
+        },
+        "commentary": "No run, played towards mid wicket.",
+        "id": 5216482,
+        "time": 16,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 18,
+        "over": 3,
+        "ball": 5,
+        "runs": 0,
+        "score": "17/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 20,
+            "y": 46
+          }
+        },
+        "commentary": "Wide.",
+        "id": 5216481,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      },
+      {
+        "number": 17,
+        "over": 3,
+        "ball": 4,
+        "runs": 1,
+        "zone": "sqc",
+        "angle": 171,
+        "length": 3,
+        "score": "16/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 25,
+            "y": 41
+          }
+        },
+        "commentary": "1 run, played towards point.",
+        "id": 5216480,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 16,
+        "over": 3,
+        "ball": 3,
+        "runs": 0,
+        "score": "15/2",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Ye Naing Tun",
+          "slug": "ye-naing-tun",
+          "shortName": "Naing Tun",
+          "position": "WK",
+          "userCount": 6,
+          "gender": "M",
+          "id": 1472857,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يي نايغ تون"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. تون"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 34
+          }
+        },
+        "commentary": "Leg bye.",
+        "id": 5216479,
+        "time": 15,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Lb1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "LB",
+        "incidentType": "ball"
+      },
+      {
+        "number": 15,
+        "over": 3,
+        "ball": 2,
+        "runs": 0,
+        "score": "14/2",
+        "scored": false,
+        "wicket": true,
+        "missed": false,
+        "bowlDetail": "Bowled",
+        "batsman": {
+          "name": "Htet Lin Aung",
+          "slug": "htet-lin-aung",
+          "shortName": "Lin Aung",
+          "position": "AR",
+          "userCount": 7,
+          "gender": "M",
+          "id": 1472858,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هت لين أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. أونغ"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "dismissedBatsman": {
+          "name": "Htet Lin Aung",
+          "slug": "htet-lin-aung",
+          "shortName": "Lin Aung",
+          "position": "AR",
+          "userCount": 7,
+          "gender": "M",
+          "id": 1472858,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هت لين أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. أونغ"
+            }
+          }
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 34
+          }
+        },
+        "commentary": "OUT! b Elias Tilman.",
+        "id": 5216478,
+        "time": 14,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "W",
+        "incidentClassColor": "wickets",
+        "totalRuns": 0,
+        "incidentClass": "W",
+        "incidentType": "ball"
+      },
+      {
+        "number": 14,
+        "over": 3,
+        "ball": 1,
+        "runs": 1,
+        "zone": "sqc",
+        "angle": 169,
+        "length": 3,
+        "score": "14/1",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 25,
+            "y": 39
+          }
+        },
+        "commentary": "1 run, played towards point.",
+        "id": 5216477,
+        "time": 12,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 13,
+        "over": 2,
+        "ball": 6,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 229,
+        "length": 3,
+        "score": "13/1",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 23,
+            "y": 29
+          }
+        },
+        "commentary": "1 run, played towards mid off.",
+        "id": 5216476,
+        "time": 11,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 12,
+        "over": 2,
+        "ball": 5,
+        "runs": 4,
+        "zone": "p",
+        "angle": 348,
+        "length": 5,
+        "score": "12/1",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {},
+        "commentary": "Four! Played towards mid wicket.",
+        "id": 5216475,
+        "time": 10,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "4",
+        "incidentClassColor": "fours",
+        "totalRuns": 4,
+        "incidentClass": "4",
+        "incidentType": "ball"
+      },
+      {
+        "number": 11,
+        "over": 2,
+        "ball": 4,
+        "runs": 0,
+        "score": "8/1",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 15,
+            "y": 29
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216474,
+        "time": 10,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 10,
+        "over": 2,
+        "ball": 3,
+        "runs": 1,
+        "zone": "ctd",
+        "angle": 174,
+        "length": 3,
+        "score": "8/1",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Htet Lin Aung",
+          "slug": "htet-lin-aung",
+          "shortName": "Lin Aung",
+          "position": "AR",
+          "userCount": 7,
+          "gender": "M",
+          "id": 1472858,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هت لين أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. أونغ"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 12,
+            "y": 35
+          }
+        },
+        "commentary": "1 run, played towards point.",
+        "id": 5216473,
+        "time": 9,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 9,
+        "over": 2,
+        "ball": 2,
+        "runs": 0,
+        "zone": "ofd",
+        "angle": 251,
+        "length": 1,
+        "score": "7/1",
+        "scored": false,
+        "wicket": true,
+        "missed": false,
+        "bowlDetail": "Caught & Bowled",
+        "batsman": {
+          "name": "Thuya Aung",
+          "slug": "thuya-aung",
+          "shortName": "T Aung",
+          "position": "BM",
+          "userCount": 10,
+          "gender": "M",
+          "id": 1472853,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثويا أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ث. أونغ"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "fielder": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "dismissedBatsman": {
+          "name": "Thuya Aung",
+          "slug": "thuya-aung",
+          "shortName": "T Aung",
+          "position": "BM",
+          "userCount": 10,
+          "gender": "M",
+          "id": 1472853,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثويا أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ث. أونغ"
+            }
+          }
+        },
+        "ballDetails": {},
+        "commentary": "OUT! c & b MD Raihan Hossain.",
+        "id": 5216472,
+        "time": 7,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "W",
+        "incidentClassColor": "wickets",
+        "totalRuns": 0,
+        "incidentClass": "W",
+        "incidentType": "ball"
+      },
+      {
+        "number": 8,
+        "over": 2,
+        "ball": 1,
+        "runs": 0,
+        "zone": "h",
+        "angle": 9,
+        "length": 2,
+        "score": "7/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Thuya Aung",
+          "slug": "thuya-aung",
+          "shortName": "T Aung",
+          "position": "BM",
+          "userCount": 10,
+          "gender": "M",
+          "id": 1472853,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثويا أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ث. أونغ"
+            }
+          }
+        },
+        "bowler": {
+          "name": "MD Raihan Hossain",
+          "slug": "md-raihan-hossain",
+          "shortName": "Raihan Hossain",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338914,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 17,
+            "y": 34
+          }
+        },
+        "commentary": "No run, played towards square leg.",
+        "id": 5216471,
+        "time": 7,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 7,
+        "over": 1,
+        "ball": 7,
+        "runs": 2,
+        "zone": "p",
+        "angle": 310,
+        "length": 4,
+        "score": "7/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 24,
+            "y": 30
+          }
+        },
+        "commentary": "2 runs, played towards mid on.",
+        "id": 5216470,
+        "time": 6,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 6,
+        "over": 1,
+        "ball": 6,
+        "runs": 1,
+        "zone": "h",
+        "angle": 9,
+        "length": 3,
+        "score": "5/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Thuya Aung",
+          "slug": "thuya-aung",
+          "shortName": "T Aung",
+          "position": "BM",
+          "userCount": 10,
+          "gender": "M",
+          "id": 1472853,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ثويا أونغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ث. أونغ"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 32
+          }
+        },
+        "commentary": "1 run, played towards square leg.",
+        "id": 5216469,
+        "time": 5,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 5,
+        "over": 1,
+        "ball": 5,
+        "runs": 1,
+        "zone": "cd",
+        "angle": 194,
+        "length": 3,
+        "score": "4/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 23,
+            "y": 34
+          }
+        },
+        "commentary": "1 run, played towards covers.",
+        "id": 5216468,
+        "time": 5,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "1",
+        "incidentClassColor": "single",
+        "totalRuns": 1,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 4,
+        "over": 1,
+        "ball": 4,
+        "runs": 0,
+        "score": "3/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 25
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216467,
+        "time": 5,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 3,
+        "over": 1,
+        "ball": 3,
+        "runs": 0,
+        "score": "3/0",
+        "scored": false,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 18,
+            "y": 25
+          }
+        },
+        "commentary": "No run.",
+        "id": 5216466,
+        "time": 4,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "0",
+        "incidentClassColor": "noruns",
+        "totalRuns": 0,
+        "incidentClass": "0",
+        "incidentType": "ball"
+      },
+      {
+        "number": 2,
+        "over": 1,
+        "ball": 2,
+        "runs": 2,
+        "zone": "p",
+        "angle": 347,
+        "length": 4,
+        "score": "3/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 20,
+            "y": 34
+          }
+        },
+        "commentary": "2 runs, played towards mid wicket.",
+        "id": 5216465,
+        "time": 4,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "2",
+        "incidentClassColor": "single",
+        "totalRuns": 2,
+        "incidentClass": "REGULAR",
+        "incidentType": "ball"
+      },
+      {
+        "number": 1,
+        "over": 1,
+        "ball": 1,
+        "runs": 0,
+        "score": "1/0",
+        "scored": true,
+        "wicket": false,
+        "missed": false,
+        "batsman": {
+          "name": "Pyae Phyo Wai",
+          "slug": "pyae-phyo-wai",
+          "shortName": "Phyo Wai",
+          "position": "AR",
+          "userCount": 8,
+          "gender": "M",
+          "id": 1515260,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بياي فيو واي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. واي"
+            }
+          }
+        },
+        "bowler": {
+          "name": "Elias Tilman",
+          "slug": "elias-tilman",
+          "shortName": "E Tilman",
+          "position": "BM",
+          "userCount": 0,
+          "id": 2338913,
+          "marketValueCurrency": "EUR"
+        },
+        "ballDetails": {
+          "pitchHit": {
+            "x": 13,
+            "y": 42
+          }
+        },
+        "commentary": "Wide.",
+        "id": 5216464,
+        "time": 4,
+        "inningNumber": 1,
+        "battingTeamId": 463662,
+        "incidentClassLabel": "Wd1",
+        "incidentClassColor": "errors",
+        "totalRuns": 1,
+        "incidentClass": "WD",
+        "incidentType": "ball"
+      }
+    ]
+  }
+}

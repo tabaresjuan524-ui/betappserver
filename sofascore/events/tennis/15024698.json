@@ -1,0 +1,1491 @@
+{
+  "event/15024698/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15024698/votes": {
+    "vote": {
+      "vote1": 62,
+      "vote2": 943,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15024698": {
+    "event": {
+      "firstToServe": 2,
+      "awayTeamSeed": "4",
+      "tournament": {
+        "name": "Champaign, USA",
+        "slug": "champaign-usa",
+        "category": {
+          "name": "Challenger",
+          "slug": "challenger",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "id": 72,
+          "country": {},
+          "flag": "challenger",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تحدي (تنس)",
+              "hi": "डेनमार्क",
+              "bn": "চ্যালেঞ্জার"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Champaign, USA",
+          "slug": "champaign-usa",
+          "category": {
+            "name": "Challenger",
+            "slug": "challenger",
+            "sport": {
+              "name": "Tennis",
+              "slug": "tennis",
+              "id": 5
+            },
+            "id": 72,
+            "country": {},
+            "flag": "challenger",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تحدي (تنس)",
+                "hi": "डेनमार्क",
+                "bn": "চ্যালেঞ্জার"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 110,
+          "groundType": "Hardcourt indoor",
+          "tennisPoints": 75,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 3546,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شامبين، الولايات المتحدة الأمريكية"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168186,
+        "endTimestamp": 1763251200,
+        "startTimestamp": 1762732800
+      },
+      "season": {
+        "name": "ATP Challenger Champaign, USA Men Singles 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 80662
+      },
+      "roundInfo": {
+        "round": 6,
+        "name": "Round of 32",
+        "slug": "round-of-32",
+        "cupRoundType": 16
+      },
+      "customId": "hkIcsWTMd",
+      "status": {
+        "code": 9,
+        "description": "2nd set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Champaign"
+        },
+        "hidden": true,
+        "slug": "the-goldenberg-court",
+        "name": "The Goldenberg Court",
+        "id": 47151,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب جولدنبرغ",
+            "hi": "गोल्डनबर्ग कोर्ट",
+            "bn": "গোল্ডেনবার্গ কোর্ট"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "The Goldenberg Court"
+        }
+      },
+      "homeTeam": {
+        "name": "Hoyoung Roh",
+        "slug": "roh-hoyoung",
+        "shortName": "H. Roh",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 97,
+        "playerTeamInfo": {
+          "birthplace": "Anyang-si",
+          "height": 1.85,
+          "weight": 80,
+          "plays": "right-handed",
+          "prizeCurrent": 7191,
+          "prizeTotal": 9868,
+          "id": 22506,
+          "birthDateTimestamp": 1145491200,
+          "prizeCurrentRaw": {
+            "value": 7191,
+            "currency": "EUR"
+          },
+          "prizeTotalRaw": {
+            "value": 9868,
+            "currency": "EUR"
+          },
+          "currentRanking": 828
+        },
+        "nameCode": "ROH",
+        "ranking": 835,
+        "national": false,
+        "type": 1,
+        "id": 469696,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fullName": "Hoyoung Roh",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هويونغ روه"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. روه"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Murphy Cassone",
+        "slug": "cassone-murphy",
+        "shortName": "M. Cassone",
+        "gender": "M",
+        "sport": {
+          "name": "Tennis",
+          "slug": "tennis",
+          "id": 5
+        },
+        "userCount": 1067,
+        "playerTeamInfo": {
+          "birthplace": "Overland Park",
+          "height": 1.88,
+          "weight": 79,
+          "plays": "right-handed",
+          "prizeCurrent": 150134,
+          "prizeTotal": 206568,
+          "id": 5417,
+          "birthDateTimestamp": 1029456000,
+          "prizeCurrentRaw": {
+            "value": 150134,
+            "currency": "EUR"
+          },
+          "prizeTotalRaw": {
+            "value": 206568,
+            "currency": "EUR"
+          },
+          "currentRanking": 242
+        },
+        "nameCode": "CAS",
+        "ranking": 245,
+        "national": false,
+        "type": 1,
+        "id": 333007,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Murphy Cassone",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مورفي كاسون",
+            "hi": "मर्फी कास्सोने",
+            "bn": "মারফি ক্যাসোন"
+          },
+          "shortNameTranslation": {
+            "ar": "م. كاسون"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 1,
+        "point": "40"
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 6,
+        "period2": 3,
+        "point": "A"
+      },
+      "time": {
+        "period1": 1498,
+        "currentPeriodStartTimestamp": 1762825644
+      },
+      "changes": {
+        "changes": [
+          "awayScore.point"
+        ],
+        "changeTimestamp": 1762827286
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15024698,
+      "defaultPeriodCount": 3,
+      "slug": "hoyoung-roh-murphy-cassone",
+      "currentPeriodStartTimestamp": 1762825644,
+      "startTimestamp": 1762824000,
+      "periods": {
+        "point": "Game",
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "??",
+        "AN",
+        "CU",
+        "IR",
+        "KP",
+        "SY",
+        "VE",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": false,
+      "groundType": "Hardcourt indoor",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15024698/tennis-power": {
+    "tennisPowerRankings": [
+      {
+        "set": 1,
+        "game": 1,
+        "value": -29,
+        "breakOccurred": false
+      },
+      {
+        "set": 1,
+        "game": 2,
+        "value": -40.8,
+        "breakOccurred": true
+      },
+      {
+        "set": 1,
+        "game": 3,
+        "value": -66.8,
+        "breakOccurred": false
+      },
+      {
+        "set": 1,
+        "game": 4,
+        "value": -37.8,
+        "breakOccurred": true
+      },
+      {
+        "set": 1,
+        "game": 5,
+        "value": -75.8,
+        "breakOccurred": false
+      },
+      {
+        "set": 1,
+        "game": 6,
+        "value": -36.2,
+        "breakOccurred": true
+      },
+      {
+        "set": 2,
+        "game": 1,
+        "value": -10,
+        "breakOccurred": false
+      },
+      {
+        "set": 2,
+        "game": 2,
+        "value": 10,
+        "breakOccurred": false
+      },
+      {
+        "set": 2,
+        "game": 3,
+        "value": -58.8,
+        "breakOccurred": false
+      },
+      {
+        "set": 2,
+        "game": 4,
+        "value": -70,
+        "breakOccurred": true
+      }
+    ]
+  },
+  "team/469696/rankings": {
+    "rankings": [
+      {
+        "team": {
+          "name": "Hoyoung Roh",
+          "slug": "roh-hoyoung",
+          "shortName": "H. Roh",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 97,
+          "nameCode": "ROH",
+          "ranking": 835,
+          "national": false,
+          "type": 1,
+          "id": 469696,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هويونغ روه"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. روه"
+            }
+          }
+        },
+        "type": 5,
+        "rowName": "Hoyoung Roh",
+        "ranking": 835,
+        "points": 28,
+        "previousRanking": 827,
+        "previousPoints": 28,
+        "bestRanking": 806,
+        "id": 113085,
+        "country": {},
+        "rankingClass": "team"
+      },
+      {
+        "team": {
+          "name": "Hoyoung Roh",
+          "slug": "roh-hoyoung",
+          "shortName": "H. Roh",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 97,
+          "nameCode": "ROH",
+          "ranking": 835,
+          "national": false,
+          "type": 1,
+          "id": 469696,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هويونغ روه"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. روه"
+            }
+          }
+        },
+        "type": 7,
+        "rowName": "Hoyoung Roh",
+        "ranking": 828,
+        "points": 28,
+        "previousRanking": 835,
+        "id": 162156,
+        "country": {},
+        "rankingClass": "livetennis",
+        "nextWinPoints": 34,
+        "maxPoints": 103
+      },
+      {
+        "team": {
+          "name": "Hoyoung Roh",
+          "slug": "roh-hoyoung",
+          "shortName": "H. Roh",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 97,
+          "nameCode": "ROH",
+          "ranking": 835,
+          "national": false,
+          "type": 1,
+          "id": 469696,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هويونغ روه"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. روه"
+            }
+          }
+        },
+        "type": 34,
+        "rowName": "Hoyoung Roh",
+        "ranking": 1146,
+        "points": 13.15,
+        "previousRanking": 1145,
+        "previousPoints": 13.21,
+        "bestRanking": 804,
+        "id": 182792,
+        "country": {},
+        "rankingClass": "utr",
+        "bestRankingDateTimestamp": 1758542451
+      }
+    ]
+  },
+  "event/15024698/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184515083,
+        "structureType": 2,
+        "marketId": 12,
+        "marketName": "Total games won",
+        "choiceGroup": "14.5",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624602,
+        "marketGroup": "Total sets/games",
+        "marketPeriod": "Extra time",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/7",
+            "sourceId": 2077312012,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/4",
+            "sourceId": 2077312011,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184515083,
+        "structureType": 2,
+        "marketId": 12,
+        "marketName": "Total games won",
+        "choiceGroup": "14.5",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624602,
+        "marketGroup": "Total sets/games",
+        "marketPeriod": "Extra time",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/7",
+            "sourceId": 2077312012,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/4",
+            "sourceId": 2077312011,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184515083,
+        "structureType": 2,
+        "marketId": 12,
+        "marketName": "Total games won",
+        "choiceGroup": "14.5",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624602,
+        "marketGroup": "Total sets/games",
+        "marketPeriod": "Extra time",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/7",
+            "sourceId": 2077312012,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/4",
+            "sourceId": 2077312011,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/15024698/point-by-point": {
+    "pointByPoint": [
+      {
+        "set": 2,
+        "games": [
+          {
+            "game": 5,
+            "points": [
+              {
+                "homePoint": "15",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 1,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 1,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 2,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "A",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 3,
+              "serving": 2,
+              "scoring": -1
+            }
+          },
+          {
+            "game": 4,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 2
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 3,
+              "serving": 1,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 3,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 2,
+              "serving": 2,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 2,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "A",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "A",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "A",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 2
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "A",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              }
+            ],
+            "score": {
+              "homeScore": 1,
+              "awayScore": 1,
+              "serving": 1,
+              "scoring": 1
+            }
+          },
+          {
+            "game": 1,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "A",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 1,
+              "serving": 2,
+              "scoring": 2
+            }
+          }
+        ]
+      },
+      {
+        "set": 1,
+        "games": [
+          {
+            "game": 6,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "A",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 3
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 6,
+              "serving": 1,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 5,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "40",
+                "pointDescription": 1,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 5,
+              "serving": 2,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 4,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 2
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 2
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "40",
+                "awayPoint": "A",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 2
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 4,
+              "serving": 1,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 3,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 3,
+              "serving": 2,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 2,
+            "points": [
+              {
+                "homePoint": "0",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "0",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 2
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 2
+              },
+              {
+                "homePoint": "30",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 2
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 2,
+              "serving": 1,
+              "scoring": 2
+            }
+          },
+          {
+            "game": 1,
+            "points": [
+              {
+                "homePoint": "15",
+                "awayPoint": "0",
+                "pointDescription": 0,
+                "homePointType": 1,
+                "awayPointType": 5
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "15",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "30",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              },
+              {
+                "homePoint": "15",
+                "awayPoint": "40",
+                "pointDescription": 0,
+                "homePointType": 5,
+                "awayPointType": 1
+              }
+            ],
+            "score": {
+              "homeScore": 0,
+              "awayScore": 1,
+              "serving": 2,
+              "scoring": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "team/333007/rankings": {
+    "rankings": [
+      {
+        "team": {
+          "name": "Murphy Cassone",
+          "slug": "cassone-murphy",
+          "shortName": "M. Cassone",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 1067,
+          "nameCode": "CAS",
+          "ranking": 245,
+          "national": false,
+          "type": 1,
+          "id": 333007,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورفي كاسون",
+              "hi": "मर्फी कास्सोने",
+              "bn": "মারফি ক্যাসোন"
+            },
+            "shortNameTranslation": {
+              "ar": "م. كاسون"
+            }
+          }
+        },
+        "tournamentsPlayed": 7,
+        "type": 5,
+        "rowName": "Murphy Cassone",
+        "ranking": 245,
+        "points": 230,
+        "previousRanking": 245,
+        "previousPoints": 225,
+        "bestRanking": 172,
+        "id": 16937,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "rankingClass": "team"
+      },
+      {
+        "team": {
+          "name": "Murphy Cassone",
+          "slug": "cassone-murphy",
+          "shortName": "M. Cassone",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 1067,
+          "nameCode": "CAS",
+          "ranking": 245,
+          "national": false,
+          "type": 1,
+          "id": 333007,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورفي كاسون",
+              "hi": "मर्फी कास्सोने",
+              "bn": "মারফি ক্যাসোন"
+            },
+            "shortNameTranslation": {
+              "ar": "م. كاسون"
+            }
+          }
+        },
+        "type": 7,
+        "rowName": "Murphy Cassone",
+        "ranking": 242,
+        "points": 230,
+        "previousRanking": 245,
+        "id": 109715,
+        "country": {},
+        "rankingClass": "livetennis",
+        "nextWinPoints": 236,
+        "maxPoints": 305
+      },
+      {
+        "team": {
+          "name": "Murphy Cassone",
+          "slug": "cassone-murphy",
+          "shortName": "M. Cassone",
+          "gender": "M",
+          "sport": {
+            "name": "Tennis",
+            "slug": "tennis",
+            "id": 5
+          },
+          "userCount": 1067,
+          "nameCode": "CAS",
+          "ranking": 245,
+          "national": false,
+          "type": 1,
+          "id": 333007,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورفي كاسون",
+              "hi": "मर्फी कास्सोने",
+              "bn": "মারফি ক্যাসোন"
+            },
+            "shortNameTranslation": {
+              "ar": "م. كاسون"
+            }
+          }
+        },
+        "type": 34,
+        "rowName": "Murphy Cassone",
+        "ranking": 282,
+        "points": 14.23,
+        "previousRanking": 280,
+        "previousPoints": 14.22,
+        "bestRanking": 144,
+        "id": 181097,
+        "country": {},
+        "rankingClass": "utr",
+        "bestRankingDateTimestamp": 1760011273
+      }
+    ]
+  },
+  "event/15024698/provider/1/winning-odds": {
+    "home": null,
+    "away": {
+      "fractionalValue": "13/100",
+      "expected": 89,
+      "actual": 87,
+      "id": 18018179
+    }
+  },
+  "event/15024698/odds/1/all": {
+    "markets": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624843,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "9/2",
+            "fractionalValue": "66/1",
+            "sourceId": 2077312003,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/7",
+            "fractionalValue": "1/750",
+            "sourceId": 2077312002,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184461929,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184461929,
+        "suspended": false,
+        "id": 147917897,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "3/1",
+            "fractionalValue": "5/1",
+            "sourceId": 2069673131,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/50",
+            "fractionalValue": "13/100",
+            "sourceId": 2069673381,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184515083,
+        "structureType": 2,
+        "marketId": 12,
+        "marketName": "Total games won",
+        "choiceGroup": "14.5",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624602,
+        "marketGroup": "Total sets/games",
+        "marketPeriod": "Extra time",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/7",
+            "sourceId": 2077312012,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/4",
+            "sourceId": 2077312011,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184515083,
+        "structureType": 1,
+        "marketId": 15,
+        "marketName": "Current set winner",
+        "isLive": true,
+        "fid": 184515083,
+        "suspended": false,
+        "id": 149624601,
+        "marketGroup": "Current set winner",
+        "marketPeriod": "Current set",
+        "choices": [
+          {
+            "initialFractionalValue": "10/3",
+            "fractionalValue": "8/1",
+            "sourceId": 2083044816,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "1/5",
+            "fractionalValue": "1/20",
+            "sourceId": 2083044780,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    ],
+    "eventId": 15024698
+  }
+}

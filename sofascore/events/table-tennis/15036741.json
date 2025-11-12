@@ -1,0 +1,247 @@
+{
+  "event/15036741/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 9,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036741/votes": {
+    "vote": {
+      "vote1": 1,
+      "vote2": 16,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15036741": {
+    "event": {
+      "tournament": {
+        "name": "TT Elite Series",
+        "slug": "tt-elite-series",
+        "category": {
+          "name": "Poland",
+          "slug": "poland",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1340,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "flag": "poland",
+          "alpha2": "PL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Elite Series",
+          "slug": "tt-elite-series",
+          "category": {
+            "name": "Poland",
+            "slug": "poland",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1340,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "flag": "poland",
+            "alpha2": "PL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1036,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19041,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة النخبة لتنس الطاولة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة النخبة لتنس الطاولة (TT)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "NFIdskTId",
+      "status": {
+        "code": 10,
+        "description": "3rd set",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Lamer M.",
+        "slug": "lamer-maciej",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 148,
+        "playerTeamInfo": {
+          "id": 22458
+        },
+        "nameCode": "LAM",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 459038,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Lamer, Maciej",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لامر، ماتشيج"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Brunner M.",
+        "slug": "brunner-marian",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 96,
+        "playerTeamInfo": {
+          "id": 22165
+        },
+        "nameCode": "BRU",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 459660,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Brunner, Marian",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برونر، ماريان"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 11,
+        "period3": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 8,
+        "period2": 9,
+        "period3": 3
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762913959
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "homeScore.period3",
+          "awayScore.period3",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762914006
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036741,
+      "defaultPeriodCount": 5,
+      "slug": "brunner-lamer",
+      "currentPeriodStartTimestamp": 1762913959,
+      "startTimestamp": 1762913400,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

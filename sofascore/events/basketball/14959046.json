@@ -1,0 +1,3591 @@
+{
+  "event/14959046/h2h": {
+    "teamDuel": {
+      "homeWins": 6,
+      "awayWins": 0,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14959046/votes": {
+    "vote": {
+      "vote1": 392,
+      "vote2": 47,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14959046": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3816,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "tLJsCMP",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "North Carolina A&T Aggies",
+        "slug": "north-carolina-a-and-t-aggies",
+        "shortName": "UNC A&T",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 92,
+        "venue": {
+          "city": {
+            "name": "Greensboro"
+          },
+          "hidden": true,
+          "slug": "corbett-sports-center",
+          "name": "Corbett Sports Center",
+          "capacity": 5000,
+          "id": 19397,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز رياضي كوربيت",
+              "hi": "कॉर्बेट स्पोर्ट्स सेंटर",
+              "bn": "করবেট স্পোর্টস সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Corbett Sports Center",
+            "capacity": 5000
+          }
+        },
+        "nameCode": "NCAT",
+        "national": false,
+        "type": 0,
+        "id": 101877,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "North Carolina A&T Aggies",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نورث كارولينا أجيز"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "South Carolina State Bulldogs",
+        "slug": "south-carolina-state-bulldogs",
+        "shortName": "South Carolina St.",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 152,
+        "venue": {
+          "city": {
+            "name": "Orangeburg"
+          },
+          "hidden": true,
+          "slug": "smith-hammond-middleton-memorial-center",
+          "name": "Smith-Hammond-Middleton Memorial Center",
+          "capacity": 3200,
+          "id": 19728,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز سميث-هاموند-ميدلتون التذكاري",
+              "hi": "स्मिथ-हैमंड-मिडलटन मेमोरियल सेंटर",
+              "bn": "স্মিথ-হ্যামন্ড-মিডলটন মেমোরিয়াল সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Smith-Hammond-Middleton Memorial Center",
+            "capacity": 3200
+          }
+        },
+        "nameCode": "SCST",
+        "national": false,
+        "type": 0,
+        "id": 86818,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "South Carolina State Bulldogs",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساوث كارولينا ستيت بولدوغز",
+            "ru": "Саут Каролина Стейт"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 77,
+        "display": 77,
+        "period1": 36,
+        "period2": 41
+      },
+      "awayScore": {
+        "current": 51,
+        "display": 51,
+        "period1": 26,
+        "period2": 25
+      },
+      "time": {
+        "played": 2173,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762827218
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14959046,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "north-carolina-a-and-t-aggies-south-carolina-state-bulldogs",
+      "startTimestamp": 1762819200,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14959046/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 77,
+        "awayScore": 51,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 77,
+        "awayScore": 51,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050840,
+        "time": 36,
+        "timeSeconds": 2148,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 252,
+        "periodTimeSeconds": 948,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 74,
+        "awayScore": 51,
+        "player": {
+          "name": "Colin McKenzie",
+          "slug": "mckenzie-colin",
+          "shortName": "C. McKenzie",
+          "position": "G",
+          "jerseyNumber": "20",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1431088,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكنزي، كولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ماكنزي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Noah Treadwell",
+          "firstName": "Noah Treadwell",
+          "slug": "noah-treadwell",
+          "shortName": "N. Treadwell",
+          "position": "G",
+          "userCount": 0,
+          "id": 2343474,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050816,
+        "time": 36,
+        "timeSeconds": 2115,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 285,
+        "periodTimeSeconds": 915,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 74,
+        "awayScore": 49,
+        "player": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327050767,
+        "time": 35,
+        "timeSeconds": 2059,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 341,
+        "periodTimeSeconds": 859,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 73,
+        "awayScore": 49,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327050708,
+        "time": 34,
+        "timeSeconds": 1994,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 406,
+        "periodTimeSeconds": 794,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 73,
+        "awayScore": 48,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050707,
+        "time": 34,
+        "timeSeconds": 1994,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 406,
+        "periodTimeSeconds": 794,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 71,
+        "awayScore": 48,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327050653,
+        "time": 33,
+        "timeSeconds": 1967,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 433,
+        "periodTimeSeconds": 767,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 71,
+        "awayScore": 48,
+        "player": {
+          "name": "Colin McKenzie",
+          "slug": "mckenzie-colin",
+          "shortName": "C. McKenzie",
+          "position": "G",
+          "jerseyNumber": "20",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1431088,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماكنزي، كولين"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ماكنزي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327050652,
+        "time": 33,
+        "timeSeconds": 1960,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 440,
+        "periodTimeSeconds": 760,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 71,
+        "awayScore": 46,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327050636,
+        "time": 33,
+        "timeSeconds": 1922,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 478,
+        "periodTimeSeconds": 722,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 71,
+        "awayScore": 45,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327050616,
+        "time": 33,
+        "timeSeconds": 1922,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 478,
+        "periodTimeSeconds": 722,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 71,
+        "awayScore": 43,
+        "player": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050615,
+        "time": 32,
+        "timeSeconds": 1904,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 496,
+        "periodTimeSeconds": 704,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 69,
+        "awayScore": 43,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327050558,
+        "time": 32,
+        "timeSeconds": 1862,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 538,
+        "periodTimeSeconds": 662,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 69,
+        "awayScore": 40,
+        "player": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050557,
+        "time": 31,
+        "timeSeconds": 1846,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 554,
+        "periodTimeSeconds": 646,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 68,
+        "awayScore": 40,
+        "player": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050556,
+        "time": 31,
+        "timeSeconds": 1846,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 554,
+        "periodTimeSeconds": 646,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 67,
+        "awayScore": 40,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327050555,
+        "time": 31,
+        "timeSeconds": 1839,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 561,
+        "periodTimeSeconds": 639,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 67,
+        "awayScore": 39,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327050554,
+        "time": 31,
+        "timeSeconds": 1839,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 561,
+        "periodTimeSeconds": 639,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 67,
+        "awayScore": 38,
+        "player": {
+          "name": "Mujahiid Burton",
+          "firstName": "Mujahiid Burton",
+          "slug": "mujahiid-burton",
+          "shortName": "M. Burton",
+          "userCount": 0,
+          "id": 2348169,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050510,
+        "time": 31,
+        "timeSeconds": 1805,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 595,
+        "periodTimeSeconds": 605,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 65,
+        "awayScore": 38,
+        "player": {
+          "name": "Teon Tindal",
+          "firstName": "Teon Tindal",
+          "slug": "teon-tindal",
+          "shortName": "T. Tindal",
+          "userCount": 0,
+          "id": 2342999,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327050380,
+        "time": 30,
+        "timeSeconds": 1750,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 650,
+        "periodTimeSeconds": 550,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 65,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050379,
+        "time": 29,
+        "timeSeconds": 1735,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 665,
+        "periodTimeSeconds": 535,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 64,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050378,
+        "time": 29,
+        "timeSeconds": 1735,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 665,
+        "periodTimeSeconds": 535,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 63,
+        "awayScore": 36,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327050351,
+        "time": 29,
+        "timeSeconds": 1704,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 696,
+        "periodTimeSeconds": 504,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 61,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050257,
+        "time": 28,
+        "timeSeconds": 1669,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 731,
+        "periodTimeSeconds": 469,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 60,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050254,
+        "time": 28,
+        "timeSeconds": 1669,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 731,
+        "periodTimeSeconds": 469,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 59,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050218,
+        "time": 28,
+        "timeSeconds": 1640,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 760,
+        "periodTimeSeconds": 440,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 58,
+        "awayScore": 36,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327050039,
+        "time": 28,
+        "timeSeconds": 1624,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 776,
+        "periodTimeSeconds": 424,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 56,
+        "awayScore": 36,
+        "player": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327049997,
+        "time": 28,
+        "timeSeconds": 1630,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 770,
+        "periodTimeSeconds": 430,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 56,
+        "awayScore": 34,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327049952,
+        "time": 27,
+        "timeSeconds": 1581,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 819,
+        "periodTimeSeconds": 381,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 56,
+        "awayScore": 32,
+        "player": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "id": 327049951,
+        "time": 27,
+        "timeSeconds": 1576,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 824,
+        "periodTimeSeconds": 376,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 54,
+        "awayScore": 32,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327049914,
+        "time": 27,
+        "timeSeconds": 1561,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 839,
+        "periodTimeSeconds": 361,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 54,
+        "awayScore": 31,
+        "player": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327049913,
+        "time": 26,
+        "timeSeconds": 1544,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 856,
+        "periodTimeSeconds": 344,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 52,
+        "awayScore": 31,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049841,
+        "time": 25,
+        "timeSeconds": 1468,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 932,
+        "periodTimeSeconds": 268,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 31,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049803,
+        "time": 25,
+        "timeSeconds": 1468,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 932,
+        "periodTimeSeconds": 268,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 49,
+        "awayScore": 31,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049802,
+        "time": 25,
+        "timeSeconds": 1468,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 932,
+        "periodTimeSeconds": 268,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 48,
+        "awayScore": 31,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Bryson Ogletree",
+          "slug": "ogletree-bryson",
+          "shortName": "B. Ogletree",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1961511,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوغلتري، برايسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. أوغلتري"
+            }
+          }
+        },
+        "id": 327049742,
+        "time": 25,
+        "timeSeconds": 1441,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 959,
+        "periodTimeSeconds": 241,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 45,
+        "awayScore": 31,
+        "player": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327049605,
+        "time": 24,
+        "timeSeconds": 1393,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 1007,
+        "periodTimeSeconds": 193,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 45,
+        "awayScore": 29,
+        "player": {
+          "name": "D'Shay Wright",
+          "slug": "wright-dshay",
+          "shortName": "D. Wright",
+          "height": 206,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1962306,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رايت، دي شاي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شاي رايت"
+            }
+          }
+        },
+        "id": 327049575,
+        "time": 23,
+        "timeSeconds": 1376,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1024,
+        "periodTimeSeconds": 176,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 45,
+        "awayScore": 27,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049534,
+        "time": 23,
+        "timeSeconds": 1350,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1050,
+        "periodTimeSeconds": 150,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 44,
+        "awayScore": 27,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049533,
+        "time": 23,
+        "timeSeconds": 1350,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1050,
+        "periodTimeSeconds": 150,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 42,
+        "awayScore": 27,
+        "player": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327049509,
+        "time": 23,
+        "timeSeconds": 1341,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1059,
+        "periodTimeSeconds": 141,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 42,
+        "awayScore": 26,
+        "player": {
+          "name": "Bryson Ogletree",
+          "slug": "ogletree-bryson",
+          "shortName": "B. Ogletree",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1961511,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوغلتري، برايسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. أوغلتري"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "id": 327049417,
+        "time": 22,
+        "timeSeconds": 1319,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1081,
+        "periodTimeSeconds": 119,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 40,
+        "awayScore": 26,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327049373,
+        "time": 22,
+        "timeSeconds": 1269,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1131,
+        "periodTimeSeconds": 69,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 38,
+        "awayScore": 26,
+        "player": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327049372,
+        "time": 21,
+        "timeSeconds": 1242,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1158,
+        "periodTimeSeconds": 42,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 36,
+        "awayScore": 26,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 36,
+        "awayScore": 26,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048767,
+        "time": 20,
+        "timeSeconds": 1200,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 26,
+        "player": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327048728,
+        "time": 20,
+        "timeSeconds": 1197,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 3,
+        "periodTimeSeconds": 1197,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 24,
+        "player": {
+          "name": "Will Felton",
+          "slug": "felton-will",
+          "shortName": "W. Felton",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 206,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1181852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلتون، ويل"
+            },
+            "shortNameTranslation": {
+              "ar": "و. فيلتون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327048691,
+        "time": 20,
+        "timeSeconds": 1157,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 43,
+        "periodTimeSeconds": 1157,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 24,
+        "player": {
+          "name": "James Morrow",
+          "slug": "morrow-james",
+          "shortName": "J. Morrow",
+          "position": "G",
+          "jerseyNumber": "22",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603443,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورو، جيمس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مورو"
+            }
+          }
+        },
+        "id": 327048663,
+        "time": 20,
+        "timeSeconds": 1146,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 54,
+        "periodTimeSeconds": 1146,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 23,
+        "player": {
+          "name": "James Morrow",
+          "slug": "morrow-james",
+          "shortName": "J. Morrow",
+          "position": "G",
+          "jerseyNumber": "22",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603443,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورو، جيمس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مورو"
+            }
+          }
+        },
+        "id": 327048662,
+        "time": 20,
+        "timeSeconds": 1146,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 54,
+        "periodTimeSeconds": 1146,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 22,
+        "player": {
+          "name": "James Morrow",
+          "slug": "morrow-james",
+          "shortName": "J. Morrow",
+          "position": "G",
+          "jerseyNumber": "22",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603443,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورو، جيمس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مورو"
+            }
+          }
+        },
+        "id": 327048626,
+        "time": 19,
+        "timeSeconds": 1126,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 74,
+        "periodTimeSeconds": 1126,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 20,
+        "player": {
+          "name": "Noah Treadwell",
+          "firstName": "Noah Treadwell",
+          "slug": "noah-treadwell",
+          "shortName": "N. Treadwell",
+          "position": "G",
+          "userCount": 0,
+          "id": 2343474,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048601,
+        "time": 18,
+        "timeSeconds": 1063,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 137,
+        "periodTimeSeconds": 1063,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 19,
+        "player": {
+          "name": "Noah Treadwell",
+          "firstName": "Noah Treadwell",
+          "slug": "noah-treadwell",
+          "shortName": "N. Treadwell",
+          "position": "G",
+          "userCount": 0,
+          "id": 2343474,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048600,
+        "time": 18,
+        "timeSeconds": 1063,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 137,
+        "periodTimeSeconds": 1063,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 31,
+        "awayScore": 18,
+        "player": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048580,
+        "time": 18,
+        "timeSeconds": 1052,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 148,
+        "periodTimeSeconds": 1052,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 30,
+        "awayScore": 18,
+        "player": {
+          "name": "Will Felton",
+          "slug": "felton-will",
+          "shortName": "W. Felton",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 206,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1181852,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيلتون، ويل"
+            },
+            "shortNameTranslation": {
+              "ar": "و. فيلتون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "id": 327048555,
+        "time": 18,
+        "timeSeconds": 1024,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 176,
+        "periodTimeSeconds": 1024,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 28,
+        "awayScore": 18,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327048526,
+        "time": 17,
+        "timeSeconds": 1008,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 192,
+        "periodTimeSeconds": 1008,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 28,
+        "awayScore": 15,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327048311,
+        "time": 16,
+        "timeSeconds": 931,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 269,
+        "periodTimeSeconds": 931,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 27,
+        "awayScore": 15,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327048294,
+        "time": 16,
+        "timeSeconds": 919,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 281,
+        "periodTimeSeconds": 919,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 27,
+        "awayScore": 14,
+        "player": {
+          "name": "Bryson Ogletree",
+          "slug": "ogletree-bryson",
+          "shortName": "B. Ogletree",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1961511,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوغلتري، برايسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. أوغلتري"
+            }
+          }
+        },
+        "id": 327048276,
+        "time": 16,
+        "timeSeconds": 906,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 294,
+        "periodTimeSeconds": 906,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 26,
+        "awayScore": 14,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "id": 327048252,
+        "time": 15,
+        "timeSeconds": 871,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 329,
+        "periodTimeSeconds": 871,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 23,
+        "awayScore": 14,
+        "player": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "id": 327048150,
+        "time": 14,
+        "timeSeconds": 814,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 386,
+        "periodTimeSeconds": 814,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 21,
+        "awayScore": 14,
+        "player": {
+          "name": "D'Shay Wright",
+          "slug": "wright-dshay",
+          "shortName": "D. Wright",
+          "height": 206,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1962306,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رايت، دي شاي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شاي رايت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jayden Johnson",
+          "slug": "johnson-jayden",
+          "shortName": "J. Johnson",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1960118,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونسن، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جونسن"
+            }
+          }
+        },
+        "id": 327048149,
+        "time": 14,
+        "timeSeconds": 804,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 396,
+        "periodTimeSeconds": 804,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 21,
+        "awayScore": 12,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327048120,
+        "time": 13,
+        "timeSeconds": 757,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 443,
+        "periodTimeSeconds": 757,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 20,
+        "awayScore": 12,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327048119,
+        "time": 13,
+        "timeSeconds": 757,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 443,
+        "periodTimeSeconds": 757,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 19,
+        "awayScore": 12,
+        "player": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327047828,
+        "time": 11,
+        "timeSeconds": 632,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 568,
+        "periodTimeSeconds": 632,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 12,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047797,
+        "time": 10,
+        "timeSeconds": 599,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 601,
+        "periodTimeSeconds": 599,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 12,
+        "player": {
+          "name": "Zamoku Weluche-Ume",
+          "slug": "weluche-ume-zamoku",
+          "shortName": "Z. Weluche-Ume",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599571,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1097884800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلوتشي-أومي، زاموكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ز. ويلوتشي-أومي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327047763,
+        "time": 10,
+        "timeSeconds": 570,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 630,
+        "periodTimeSeconds": 570,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 13,
+        "awayScore": 12,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327047670,
+        "time": 10,
+        "timeSeconds": 555,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 645,
+        "periodTimeSeconds": 555,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 13,
+        "awayScore": 9,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047624,
+        "time": 9,
+        "timeSeconds": 526,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 674,
+        "periodTimeSeconds": 526,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 12,
+        "awayScore": 9,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047623,
+        "time": 9,
+        "timeSeconds": 526,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 674,
+        "periodTimeSeconds": 526,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 11,
+        "awayScore": 9,
+        "player": {
+          "name": "D'Shay Wright",
+          "slug": "wright-dshay",
+          "shortName": "D. Wright",
+          "height": 206,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1962306,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رايت، دي شاي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. شاي رايت"
+            }
+          }
+        },
+        "id": 327047595,
+        "time": 9,
+        "timeSeconds": 519,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 681,
+        "periodTimeSeconds": 519,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 11,
+        "awayScore": 8,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047293,
+        "time": 7,
+        "timeSeconds": 395,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 805,
+        "periodTimeSeconds": 395,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 8,
+        "player": {
+          "name": "Lewis Walker",
+          "slug": "walker-lewis",
+          "shortName": "L. Walker",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1945607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لويس"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brooklyn Vick",
+          "firstName": "Brooklyn Vick",
+          "slug": "brooklyn-vick",
+          "shortName": "B. Vick",
+          "userCount": 0,
+          "id": 2348178,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327047292,
+        "time": 7,
+        "timeSeconds": 395,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 805,
+        "periodTimeSeconds": 395,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 8,
+        "awayScore": 8,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047236,
+        "time": 5,
+        "timeSeconds": 293,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 907,
+        "periodTimeSeconds": 293,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 8,
+        "awayScore": 8,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047217,
+        "time": 5,
+        "timeSeconds": 293,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 907,
+        "periodTimeSeconds": 293,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 8,
+        "player": {
+          "name": "Trent Middleton",
+          "slug": "middleton-trent",
+          "shortName": "T. Middleton",
+          "jerseyNumber": "13",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1602049,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميدلتون، ترينت"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ميدلتون"
+            }
+          }
+        },
+        "id": 327047067,
+        "time": 4,
+        "timeSeconds": 227,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 973,
+        "periodTimeSeconds": 227,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 5,
+        "awayScore": 8,
+        "player": {
+          "name": "Lureon Walker",
+          "slug": "walker-lureon",
+          "shortName": "L. Walker",
+          "position": "G",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1661740,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "والكر، لوريون"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. والكر"
+            }
+          }
+        },
+        "id": 327047043,
+        "time": 4,
+        "timeSeconds": 212,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 988,
+        "periodTimeSeconds": 212,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 3,
+        "awayScore": 8,
+        "player": {
+          "name": "Derwin Hodge Jr.",
+          "firstName": "Derwin Hodge Jr.",
+          "slug": "derwin-hodge-jr",
+          "shortName": "D. Hodge Jr.",
+          "userCount": 0,
+          "id": 2343058,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327046990,
+        "time": 3,
+        "timeSeconds": 163,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1037,
+        "periodTimeSeconds": 163,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 3,
+        "awayScore": 6,
+        "player": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327046989,
+        "time": 3,
+        "timeSeconds": 131,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1069,
+        "periodTimeSeconds": 131,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 3,
+        "awayScore": 5,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Florian Tenebay",
+          "slug": "tenebay-florian",
+          "shortName": "F. Tenebay",
+          "height": 198,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1962328,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تينباي، فلوريان"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. تينباي"
+            }
+          }
+        },
+        "id": 327046875,
+        "time": 2,
+        "timeSeconds": 109,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1091,
+        "periodTimeSeconds": 109,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 3,
+        "awayScore": 2,
+        "player": {
+          "name": "Dwayne Pierce",
+          "firstName": "Dwayne Pierce",
+          "slug": "dwayne-pierce",
+          "shortName": "D. Pierce",
+          "userCount": 0,
+          "id": 2348174,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "K.J. Debrick",
+          "slug": "debrick-kj",
+          "shortName": "K. Debrick",
+          "position": "F",
+          "jerseyNumber": "32",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1599275,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديبريك، ك. ج."
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ج. ديبريك"
+            }
+          }
+        },
+        "id": 327046852,
+        "time": 1,
+        "timeSeconds": 47,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1153,
+        "periodTimeSeconds": 47,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 0,
+        "awayScore": 2,
+        "player": {
+          "name": "Obie Bronston",
+          "slug": "bronston-obie",
+          "shortName": "O. Bronston",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1664619,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برونستون، أوبى"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. برونستون"
+            }
+          }
+        },
+        "id": 327046798,
+        "time": 1,
+        "timeSeconds": 19,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1181,
+        "periodTimeSeconds": 19,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14959046/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184505892,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534302,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/5",
+            "sourceId": 2076005028,
+            "name": "(+24.5) North Carolina A&T Aggies",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "20/23",
+            "sourceId": 2076005021,
+            "name": "(-24.5) South Carolina State Bulldogs",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184505892,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534302,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/5",
+            "sourceId": 2076005028,
+            "name": "(+24.5) North Carolina A&T Aggies",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "20/23",
+            "sourceId": 2076005021,
+            "name": "(-24.5) South Carolina State Bulldogs",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184505892,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534302,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/5",
+            "sourceId": 2076005028,
+            "name": "(+24.5) North Carolina A&T Aggies",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "20/23",
+            "sourceId": 2076005021,
+            "name": "(-24.5) South Carolina State Bulldogs",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14959046/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 1
+      },
+      {
+        "minute": 2,
+        "value": -2
+      },
+      {
+        "minute": 3,
+        "value": -5
+      },
+      {
+        "minute": 4,
+        "value": -1
+      },
+      {
+        "minute": 5,
+        "value": 0
+      },
+      {
+        "minute": 6,
+        "value": 0
+      },
+      {
+        "minute": 7,
+        "value": 3
+      },
+      {
+        "minute": 8,
+        "value": 3
+      },
+      {
+        "minute": 9,
+        "value": 4
+      },
+      {
+        "minute": 10,
+        "value": 5
+      },
+      {
+        "minute": 11,
+        "value": 7
+      },
+      {
+        "minute": 12,
+        "value": 7
+      },
+      {
+        "minute": 13,
+        "value": 9
+      },
+      {
+        "minute": 14,
+        "value": 9
+      },
+      {
+        "minute": 15,
+        "value": 12
+      },
+      {
+        "minute": 16,
+        "value": 13
+      },
+      {
+        "minute": 17,
+        "value": 10
+      },
+      {
+        "minute": 18,
+        "value": 11
+      },
+      {
+        "minute": 19,
+        "value": 9
+      },
+      {
+        "minute": 20,
+        "value": 10
+      },
+      {
+        "minute": 21,
+        "value": 12
+      },
+      {
+        "minute": 22,
+        "value": 16
+      },
+      {
+        "minute": 23,
+        "value": 16
+      },
+      {
+        "minute": 24,
+        "value": 14
+      },
+      {
+        "minute": 25,
+        "value": 21
+      },
+      {
+        "minute": 26,
+        "value": 23
+      },
+      {
+        "minute": 27,
+        "value": 22
+      },
+      {
+        "minute": 28,
+        "value": 25
+      },
+      {
+        "minute": 29,
+        "value": 29
+      },
+      {
+        "minute": 30,
+        "value": 27
+      },
+      {
+        "minute": 31,
+        "value": 29
+      },
+      {
+        "minute": 32,
+        "value": 28
+      },
+      {
+        "minute": 33,
+        "value": 23
+      },
+      {
+        "minute": 34,
+        "value": 24
+      },
+      {
+        "minute": 35,
+        "value": 25
+      },
+      {
+        "minute": 36,
+        "value": 26
+      },
+      {
+        "minute": 37,
+        "value": 26
+      }
+    ],
+    "periodTime": 20,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14959046/provider/1/winning-odds": {
+    "home": null,
+    "away": {
+      "fractionalValue": "13/10",
+      "expected": 43,
+      "actual": 40,
+      "id": 18037073
+    }
+  },
+  "event/14959046/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184505892,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534300,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/8",
+            "fractionalValue": "1/200",
+            "sourceId": 2076005099,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "6/5",
+            "fractionalValue": "16/1",
+            "sourceId": 2076005094,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184501118,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184501119,
+        "suspended": false,
+        "id": 149105068,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/7",
+            "fractionalValue": "13/20",
+            "sourceId": 2075620165,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "6/5",
+            "fractionalValue": "13/10",
+            "sourceId": 2075620159,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184505892,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534302,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "4/5",
+            "sourceId": 2076005028,
+            "name": "(+24.5) North Carolina A&T Aggies",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "20/23",
+            "sourceId": 2076005021,
+            "name": "(-24.5) South Carolina State Bulldogs",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184505892,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "146.5",
+        "isLive": true,
+        "fid": 184505892,
+        "suspended": false,
+        "id": 149534305,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "1/1",
+            "sourceId": 2076005051,
+            "name": "Over",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "5/7",
+            "sourceId": 2076005056,
+            "name": "Under",
+            "change": -1
+          }
+        ]
+      }
+    ],
+    "eventId": 14959046
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "event/15036497/h2h": {
+    "teamDuel": {
+      "homeWins": 4,
+      "awayWins": 5,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036497/votes": {
+    "vote": {
+      "vote1": 21,
+      "vote2": 40,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15036497": {
+    "event": {
+      "tournament": {
+        "name": "Czech Liga Pro",
+        "slug": "czech-liga-pro",
+        "category": {
+          "name": "Czech Republic",
+          "slug": "czech-republic",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1369,
+          "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+          },
+          "flag": "czech-republic",
+          "alpha2": "CZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "التشيك"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Czech Liga Pro",
+          "slug": "czech-liga-pro",
+          "category": {
+            "name": "Czech Republic",
+            "slug": "czech-republic",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1369,
+            "country": {
+              "alpha2": "CZ",
+              "alpha3": "CZE",
+              "name": "Czechia",
+              "slug": "czechia"
+            },
+            "flag": "czech-republic",
+            "alpha2": "CZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "التشيك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 111,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19039,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري المحترفين التشيكي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين التشيكي (Czech)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "ZWndsqnWi",
+      "status": {
+        "code": 12,
+        "description": "5th set",
+        "type": "inprogress"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Vaclahovsky O.",
+        "slug": "vaclahovsky-oldrich",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 35,
+        "nameCode": "VAC",
+        "national": false,
+        "type": 1,
+        "id": 1115666,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Vaclahovsky, Oldrich",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فاكلهافسكي، أولدريش"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Tuma Daniel",
+        "slug": "tuma-daniel",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 368,
+        "playerTeamInfo": {
+          "id": 21934
+        },
+        "nameCode": "TD",
+        "national": false,
+        "type": 1,
+        "id": 409849,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Tuma Daniel",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توما د"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 10,
+        "period2": 11,
+        "period3": 9,
+        "period4": 12,
+        "period5": 5
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 12,
+        "period2": 9,
+        "period3": 11,
+        "period4": 10,
+        "period5": 6
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762913686
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period5",
+          "awayScore.period5"
+        ],
+        "changeTimestamp": 1762913837
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036497,
+      "defaultPeriodCount": 5,
+      "slug": "vaclahovsky-tuma-daniel",
+      "currentPeriodStartTimestamp": 1762913686,
+      "startTimestamp": 1762912800,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period5",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

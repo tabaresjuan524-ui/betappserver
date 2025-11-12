@@ -1,0 +1,2567 @@
+{
+  "event/14662096/pregame-form": {
+    "homeTeam": {
+      "position": 1,
+      "value": "4",
+      "form": [
+        "W",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 3,
+      "value": "2",
+      "form": [
+        "D",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14662096/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 19,
+        "awayScore": 15,
+        "isLive": true,
+        "time": 60,
+        "addedTime": 999,
+        "timeSeconds": 3600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 19,
+        "awayScore": 15,
+        "id": 327073377,
+        "time": 38,
+        "timeSeconds": 2235,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 23,
+        "reversedPeriodTimeSeconds": 1365,
+        "periodTimeSeconds": 435,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 19,
+        "awayScore": 14,
+        "player": {
+          "name": "August Baskar Pedersen",
+          "slug": "pedersen-august-baskar",
+          "shortName": "A. B. Pedersen",
+          "position": "LW",
+          "jerseyNumber": "40",
+          "height": 180,
+          "userCount": 33,
+          "gender": "M",
+          "id": 912523,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 772416000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيدرسن، أوغست باسكار",
+              "hi": "पेडरसन, ऑगस्ट बस्कर",
+              "bn": "পেডারসেন, আগস্ট বাস্কার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ب. بيدرسن",
+              "hi": "ए. बी. पेडरसन",
+              "bn": "এ. বি. পেডারসেন"
+            }
+          }
+        },
+        "id": 327073365,
+        "time": 37,
+        "timeSeconds": 2195,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1405,
+        "periodTimeSeconds": 395,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Isak Jogvan Djurhuus Vedelsbøl",
+          "slug": "vedelsbol-isak",
+          "shortName": "I. Vedelsbøl",
+          "position": "P",
+          "jerseyNumber": "47",
+          "height": 196,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1443205,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1098057600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدلسبول، إيساك يوجفان جورهووس"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فيدلسبول"
+            }
+          }
+        },
+        "playerName": "Isak Jogvan Djurhuus Vedelsbøl",
+        "duration": 120,
+        "id": 162289,
+        "time": 37,
+        "timeSeconds": 2195,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1405,
+        "periodTimeSeconds": 395,
+        "incidentType": "suspension"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 18,
+        "awayScore": 14,
+        "player": {
+          "name": "Sebastian Durlanu",
+          "slug": "durlanu-sebastian",
+          "shortName": "S. Durlanu",
+          "position": "RB",
+          "jerseyNumber": "15",
+          "height": 181,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1442640,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1085356800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دورلانو، سيباستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "س. دورلانو"
+            }
+          }
+        },
+        "id": 327073333,
+        "time": 36,
+        "timeSeconds": 2152,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1448,
+        "periodTimeSeconds": 352,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "playerName": "Marian Michalczik",
+        "duration": 120,
+        "id": 162288,
+        "time": 36,
+        "timeSeconds": 2152,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 25,
+        "reversedPeriodTimeSeconds": 1448,
+        "periodTimeSeconds": 352,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 18,
+        "awayScore": 13,
+        "player": {
+          "name": "Jonathan Edvardsson",
+          "firstName": "Jonathan",
+          "lastName": "Edvardsson",
+          "slug": "edvardsson-jonathan",
+          "shortName": "J. Edvardsson",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 186,
+          "userCount": 43,
+          "gender": "M",
+          "id": 995768,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860371200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدفاردسون، جوناثان",
+              "hi": "एडवर्डसन, जोनाथन",
+              "bn": "এডভার্ডসন, জোনাথন"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. إدفاردسون",
+              "hi": "जे. एडवर्डसन",
+              "bn": "জে. এডভার্ডসন"
+            }
+          }
+        },
+        "id": 327073299,
+        "time": 35,
+        "timeSeconds": 2055,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1545,
+        "periodTimeSeconds": 255,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 17,
+        "awayScore": 13,
+        "player": {
+          "name": "Vilhelm Poulsen",
+          "slug": "poulsen-vilhelm",
+          "shortName": "V. Poulsen",
+          "position": "RB",
+          "jerseyNumber": "25",
+          "height": 190,
+          "userCount": 51,
+          "gender": "M",
+          "id": 1000877,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 935107200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولسن، فيلهلم"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. بولسن"
+            }
+          }
+        },
+        "id": 327073249,
+        "time": 33,
+        "timeSeconds": 1950,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1650,
+        "periodTimeSeconds": 150,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 13,
+        "player": {
+          "name": "Eirik Grotta Truls",
+          "slug": "grotta-truls-eirik",
+          "shortName": "E. G. Truls",
+          "position": "CB",
+          "jerseyNumber": "90",
+          "height": 188,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233180,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 871430400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غروتا ترولس، إيريك"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ترولس"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Sebastian Spante",
+          "slug": "spante-sebastian",
+          "shortName": "S. Spante",
+          "position": "LW",
+          "jerseyNumber": "17",
+          "height": 175,
+          "userCount": 5,
+          "gender": "M",
+          "id": 995770,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 964569600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سبانتي، سيباستيان",
+              "hi": "स्पांते, सेबेस्टियन",
+              "bn": "স্প্যান্টে, সেবাস্তিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "س. سبانتي",
+              "hi": "एस. स्पांते",
+              "bn": "এস. স্প্যান্টে"
+            }
+          }
+        },
+        "id": 327073243,
+        "time": 33,
+        "timeSeconds": 1940,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1660,
+        "periodTimeSeconds": 140,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 12,
+        "player": {
+          "name": "Jonathan Edvardsson",
+          "firstName": "Jonathan",
+          "lastName": "Edvardsson",
+          "slug": "edvardsson-jonathan",
+          "shortName": "J. Edvardsson",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 186,
+          "userCount": 43,
+          "gender": "M",
+          "id": 995768,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860371200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدفاردسون، جوناثان",
+              "hi": "एडवर्डसन, जोनाथन",
+              "bn": "এডভার্ডসন, জোনাথন"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. إدفاردسون",
+              "hi": "जे. एडवर्डसन",
+              "bn": "জে. এডভার্ডসন"
+            }
+          }
+        },
+        "id": 327073208,
+        "time": 32,
+        "timeSeconds": 1874,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 29,
+        "reversedPeriodTimeSeconds": 1726,
+        "periodTimeSeconds": 74,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 15,
+        "awayScore": 12,
+        "isLive": false,
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 15,
+        "awayScore": 12,
+        "player": {
+          "name": "Renars Uscins",
+          "slug": "uscins-renars",
+          "shortName": "R. Uščins",
+          "position": "RB",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 277,
+          "gender": "M",
+          "id": 1102685,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020038400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوشينس، رينارز",
+              "hi": "उस्किन्स, रेनार्स",
+              "bn": "উসকিন, রেনারস"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أوشينس",
+              "hi": "आर. उस्किन्स",
+              "bn": "আর. উসকিন"
+            }
+          }
+        },
+        "id": 327072681,
+        "time": 30,
+        "timeSeconds": 1800,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1800,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 12,
+        "player": {
+          "name": "Isak Jogvan Djurhuus Vedelsbøl",
+          "slug": "vedelsbol-isak",
+          "shortName": "I. Vedelsbøl",
+          "position": "P",
+          "jerseyNumber": "47",
+          "height": 196,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1443205,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1098057600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدلسبول، إيساك يوجفان جورهووس"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فيدلسبول"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Sebastian Durlanu",
+          "slug": "durlanu-sebastian",
+          "shortName": "S. Durlanu",
+          "position": "RB",
+          "jerseyNumber": "15",
+          "height": 181,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1442640,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1085356800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دورلانو، سيباستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "س. دورلانو"
+            }
+          }
+        },
+        "id": 327072675,
+        "time": 30,
+        "timeSeconds": 1786,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 14,
+        "periodTimeSeconds": 1786,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 11,
+        "player": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "id": 327072671,
+        "time": 30,
+        "timeSeconds": 1766,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 34,
+        "periodTimeSeconds": 1766,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 11,
+        "player": {
+          "name": "Tom Poyet",
+          "slug": "poyet-tom",
+          "shortName": "T. Poyet",
+          "position": "P",
+          "jerseyNumber": "7",
+          "height": 187,
+          "userCount": 3,
+          "gender": "M",
+          "id": 941948,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 943833600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوييه، توم"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. بوييه"
+            }
+          }
+        },
+        "id": 327072640,
+        "time": 29,
+        "timeSeconds": 1720,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 80,
+        "periodTimeSeconds": 1720,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 13,
+        "awayScore": 10,
+        "player": {
+          "name": "Sebastian Durlanu",
+          "slug": "durlanu-sebastian",
+          "shortName": "S. Durlanu",
+          "position": "RB",
+          "jerseyNumber": "15",
+          "height": 181,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1442640,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1085356800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دورلانو، سيباستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "س. دورلانو"
+            }
+          }
+        },
+        "id": 327072618,
+        "time": 28,
+        "timeSeconds": 1671,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 129,
+        "periodTimeSeconds": 1671,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Leif Tissier",
+          "slug": "tissier-leif",
+          "shortName": "L. Tissier",
+          "position": "CB",
+          "jerseyNumber": "99",
+          "height": 183,
+          "userCount": 49,
+          "gender": "M",
+          "id": 894762,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 945388800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيسير، ليف",
+              "hi": "टिस्सियर, लीफ",
+              "bn": "টিসিয়ার, লেইফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. تيسير",
+              "hi": "एल. टिस्सियर",
+              "bn": "এল. টিসিয়ার"
+            }
+          }
+        },
+        "playerName": "Leif Tissier",
+        "duration": 120,
+        "id": 162281,
+        "time": 28,
+        "timeSeconds": 1671,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 129,
+        "periodTimeSeconds": 1671,
+        "incidentType": "suspension"
+      },
+      {
+        "player": {
+          "name": "August Baskar Pedersen",
+          "slug": "pedersen-august-baskar",
+          "shortName": "A. B. Pedersen",
+          "position": "LW",
+          "jerseyNumber": "40",
+          "height": 180,
+          "userCount": 33,
+          "gender": "M",
+          "id": 912523,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 772416000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيدرسن، أوغست باسكار",
+              "hi": "पेडरसन, ऑगस्ट बस्कर",
+              "bn": "পেডারসেন, আগস্ট বাস্কার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ب. بيدرسن",
+              "hi": "ए. बी. पेडरसन",
+              "bn": "এ. বি. পেডারসেন"
+            }
+          }
+        },
+        "playerName": "August Baskar Pedersen",
+        "duration": 120,
+        "id": 162280,
+        "time": 28,
+        "timeSeconds": 1671,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 129,
+        "periodTimeSeconds": 1671,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 9,
+        "player": {
+          "name": "Thomas Alfred Solstad",
+          "firstName": "Thomas",
+          "lastName": "Solstad",
+          "slug": "solstad-thomas-alfred",
+          "shortName": "T. A. Solstad",
+          "position": "P",
+          "jerseyNumber": "32",
+          "height": 194,
+          "userCount": 25,
+          "gender": "M",
+          "id": 996754,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 856915200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سولستاد، توماس ألفريد",
+              "hi": "सोलस्टैड, थॉमस अल्फ्रेड",
+              "bn": "সলস্ট্যাড, টমাস আলফ্রেড"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. أ. سولستاد",
+              "hi": "टी. ए. सोलस्टैड",
+              "bn": "টি. এ. সলস্ট্যাড"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Renars Uscins",
+          "slug": "uscins-renars",
+          "shortName": "R. Uščins",
+          "position": "RB",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 277,
+          "gender": "M",
+          "id": 1102685,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020038400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوشينس، رينارز",
+              "hi": "उस्किन्स, रेनार्स",
+              "bn": "উসকিন, রেনারস"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أوشينس",
+              "hi": "आर. उस्किन्स",
+              "bn": "আর. উসকিন"
+            }
+          }
+        },
+        "id": 327072561,
+        "time": 28,
+        "timeSeconds": 1635,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 165,
+        "periodTimeSeconds": 1635,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 9,
+        "player": {
+          "name": "Renars Uscins",
+          "slug": "uscins-renars",
+          "shortName": "R. Uščins",
+          "position": "RB",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 277,
+          "gender": "M",
+          "id": 1102685,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020038400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوشينس، رينارز",
+              "hi": "उस्किन्स, रेनार्स",
+              "bn": "উসকিন, রেনারস"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أوشينس",
+              "hi": "आर. उस्किन्स",
+              "bn": "আর. উসকিন"
+            }
+          }
+        },
+        "id": 327072514,
+        "time": 26,
+        "timeSeconds": 1556,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 244,
+        "periodTimeSeconds": 1556,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 9,
+        "player": {
+          "name": "Tobias Trommler",
+          "slug": "trommler-tobias",
+          "shortName": "T. Trommler",
+          "position": "P",
+          "jerseyNumber": "14",
+          "height": 189,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1442643,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1089072000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تروملر، توبياس"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. تروملر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jesper Roisland",
+          "slug": "roisland-jesper",
+          "shortName": "J. Roisland",
+          "position": "RB",
+          "jerseyNumber": "17",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1563298,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1073001600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رويسلاند، يسبر"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. رويسلاند"
+            }
+          }
+        },
+        "id": 327072491,
+        "time": 26,
+        "timeSeconds": 1515,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 285,
+        "periodTimeSeconds": 1515,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 8,
+        "player": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "id": 327072430,
+        "time": 25,
+        "timeSeconds": 1473,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 327,
+        "periodTimeSeconds": 1473,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 8,
+        "player": {
+          "name": "Arvid Uusvoog",
+          "slug": "uusvoog-arvid",
+          "shortName": "A. Uusvoog",
+          "position": "RW",
+          "jerseyNumber": "43",
+          "height": 178,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1442644,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1122940800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوسفوج، أرفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. أوسفوج"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Isak Jogvan Djurhuus Vedelsbøl",
+          "slug": "vedelsbol-isak",
+          "shortName": "I. Vedelsbøl",
+          "position": "P",
+          "jerseyNumber": "47",
+          "height": 196,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1443205,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1098057600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدلسبول، إيساك يوجفان جورهووس"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فيدلسبول"
+            }
+          }
+        },
+        "id": 327072377,
+        "time": 24,
+        "timeSeconds": 1397,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 403,
+        "periodTimeSeconds": 1397,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 7,
+        "player": {
+          "name": "Justus Fischer",
+          "slug": "fischer-justus",
+          "shortName": "J. Fischer",
+          "position": "P",
+          "jerseyNumber": "14",
+          "height": 194,
+          "userCount": 115,
+          "gender": "M",
+          "id": 1092416,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1044489600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيشر، جوستوس",
+              "hi": "फिशर, जस्टस",
+              "bn": "ফিশার, জাস্টাস"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. فيشر",
+              "hi": "जे. फिशर",
+              "bn": "জে. ফিশার"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "id": 327072275,
+        "time": 22,
+        "timeSeconds": 1287,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 513,
+        "periodTimeSeconds": 1287,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 7,
+        "player": {
+          "name": "Justus Fischer",
+          "slug": "fischer-justus",
+          "shortName": "J. Fischer",
+          "position": "P",
+          "jerseyNumber": "14",
+          "height": 194,
+          "userCount": 115,
+          "gender": "M",
+          "id": 1092416,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1044489600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيشر، جوستوس",
+              "hi": "फिशर, जस्टस",
+              "bn": "ফিশার, জাস্টাস"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. فيشر",
+              "hi": "जे. फिशर",
+              "bn": "জে. ফিশার"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Leif Tissier",
+          "slug": "tissier-leif",
+          "shortName": "L. Tissier",
+          "position": "CB",
+          "jerseyNumber": "99",
+          "height": 183,
+          "userCount": 49,
+          "gender": "M",
+          "id": 894762,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 945388800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تيسير، ليف",
+              "hi": "टिस्सियर, लीफ",
+              "bn": "টিসিয়ার, লেইফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. تيسير",
+              "hi": "एल. टिस्सियर",
+              "bn": "এল. টিসিয়ার"
+            }
+          }
+        },
+        "id": 327072215,
+        "time": 21,
+        "timeSeconds": 1210,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 590,
+        "periodTimeSeconds": 1210,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 7,
+        "player": {
+          "name": "Jesper Roisland",
+          "slug": "roisland-jesper",
+          "shortName": "J. Roisland",
+          "position": "RB",
+          "jerseyNumber": "17",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1563298,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1073001600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رويسلاند، يسبر"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. رويسلاند"
+            }
+          }
+        },
+        "id": 327072190,
+        "time": 20,
+        "timeSeconds": 1161,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 639,
+        "periodTimeSeconds": 1161,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 8,
+        "awayScore": 6,
+        "player": {
+          "name": "August Baskar Pedersen",
+          "slug": "pedersen-august-baskar",
+          "shortName": "A. B. Pedersen",
+          "position": "LW",
+          "jerseyNumber": "40",
+          "height": 180,
+          "userCount": 33,
+          "gender": "M",
+          "id": 912523,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 772416000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيدرسن، أوغست باسكار",
+              "hi": "पेडरसन, ऑगस्ट बस्कर",
+              "bn": "পেডারসেন, আগস্ট বাস্কার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ب. بيدرسن",
+              "hi": "ए. बी. पेडरसन",
+              "bn": "এ. বি. পেডারসেন"
+            }
+          }
+        },
+        "id": 327072169,
+        "time": 19,
+        "timeSeconds": 1100,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 700,
+        "periodTimeSeconds": 1100,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "player": {
+          "name": "Renars Uscins",
+          "slug": "uscins-renars",
+          "shortName": "R. Uščins",
+          "position": "RB",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 277,
+          "gender": "M",
+          "id": 1102685,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020038400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوشينس، رينارز",
+              "hi": "उस्किन्स, रेनार्स",
+              "bn": "উসকিন, রেনারস"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أوشينس",
+              "hi": "आर. उस्किन्स",
+              "bn": "আর. উসকিন"
+            }
+          }
+        },
+        "id": 327072097,
+        "time": 18,
+        "timeSeconds": 1023,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 777,
+        "periodTimeSeconds": 1023,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 6,
+        "player": {
+          "name": "Birgir Jonsson",
+          "slug": "jonsson-birgir",
+          "shortName": "B. Jonsson",
+          "position": "LB",
+          "jerseyNumber": "8",
+          "height": 195,
+          "userCount": 7,
+          "gender": "M",
+          "id": 941817,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 944870400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونسون، بيرغير"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. يونسون"
+            }
+          }
+        },
+        "id": 327071983,
+        "time": 16,
+        "timeSeconds": 943,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 857,
+        "periodTimeSeconds": 943,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 5,
+        "player": {
+          "name": "Jonathan Edvardsson",
+          "firstName": "Jonathan",
+          "lastName": "Edvardsson",
+          "slug": "edvardsson-jonathan",
+          "shortName": "J. Edvardsson",
+          "position": "CB",
+          "jerseyNumber": "28",
+          "height": 186,
+          "userCount": 43,
+          "gender": "M",
+          "id": 995768,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860371200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدفاردسون، جوناثان",
+              "hi": "एडवर्डसन, जोनाथन",
+              "bn": "এডভার্ডসন, জোনাথন"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. إدفاردسون",
+              "hi": "जे. एडवर्डसन",
+              "bn": "জে. এডভার্ডসন"
+            }
+          }
+        },
+        "id": 327071938,
+        "time": 15,
+        "timeSeconds": 885,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 915,
+        "periodTimeSeconds": 885,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 5,
+        "player": {
+          "name": "Malte Celander",
+          "slug": "celander-malte",
+          "shortName": "M. Celander",
+          "position": "RW",
+          "jerseyNumber": "25",
+          "height": 193,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1153127,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1016409600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيلاندر، مالتي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سيلاندر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jesper Roisland",
+          "slug": "roisland-jesper",
+          "shortName": "J. Roisland",
+          "position": "RB",
+          "jerseyNumber": "17",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1563298,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1073001600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رويسلاند، يسبر"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. رويسلاند"
+            }
+          }
+        },
+        "id": 327071917,
+        "time": 14,
+        "timeSeconds": 826,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 974,
+        "periodTimeSeconds": 826,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 4,
+        "player": {
+          "name": "Renars Uscins",
+          "slug": "uscins-renars",
+          "shortName": "R. Uščins",
+          "position": "RB",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 277,
+          "gender": "M",
+          "id": 1102685,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1020038400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوشينس، رينارز",
+              "hi": "उस्किन्स, रेनार्स",
+              "bn": "উসকিন, রেনারস"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أوشينس",
+              "hi": "आर. उस्किन्स",
+              "bn": "আর. উসকিন"
+            }
+          }
+        },
+        "id": 327071833,
+        "time": 12,
+        "timeSeconds": 666,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1134,
+        "periodTimeSeconds": 666,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 4,
+        "player": {
+          "name": "Isak Jogvan Djurhuus Vedelsbøl",
+          "slug": "vedelsbol-isak",
+          "shortName": "I. Vedelsbøl",
+          "position": "P",
+          "jerseyNumber": "47",
+          "height": 196,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1443205,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1098057600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيدلسبول، إيساك يوجفان جورهووس"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فيدلسبول"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Birgir Jonsson",
+          "slug": "jonsson-birgir",
+          "shortName": "B. Jonsson",
+          "position": "LB",
+          "jerseyNumber": "8",
+          "height": 195,
+          "userCount": 7,
+          "gender": "M",
+          "id": 941817,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 944870400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يونسون، بيرغير"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. يونسون"
+            }
+          }
+        },
+        "id": 327071804,
+        "time": 11,
+        "timeSeconds": 625,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1175,
+        "periodTimeSeconds": 625,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 3,
+        "player": {
+          "name": "Justus Fischer",
+          "slug": "fischer-justus",
+          "shortName": "J. Fischer",
+          "position": "P",
+          "jerseyNumber": "14",
+          "height": 194,
+          "userCount": 115,
+          "gender": "M",
+          "id": 1092416,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1044489600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيشر، جوستوس",
+              "hi": "फिशर, जस्टस",
+              "bn": "ফিশার, জাস্টাস"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. فيشر",
+              "hi": "जे. फिशर",
+              "bn": "জে. ফিশার"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "id": 327071766,
+        "time": 10,
+        "timeSeconds": 556,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 21,
+        "reversedPeriodTimeSeconds": 1244,
+        "periodTimeSeconds": 556,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "player": {
+          "name": "Eirik Grotta Truls",
+          "slug": "grotta-truls-eirik",
+          "shortName": "E. G. Truls",
+          "position": "CB",
+          "jerseyNumber": "90",
+          "height": 188,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233180,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 871430400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غروتا ترولس، إيريك"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ترولس"
+            }
+          }
+        },
+        "id": 327071755,
+        "time": 10,
+        "timeSeconds": 542,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 21,
+        "reversedPeriodTimeSeconds": 1258,
+        "periodTimeSeconds": 542,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 2,
+        "player": {
+          "name": "Justus Fischer",
+          "slug": "fischer-justus",
+          "shortName": "J. Fischer",
+          "position": "P",
+          "jerseyNumber": "14",
+          "height": 194,
+          "userCount": 115,
+          "gender": "M",
+          "id": 1092416,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1044489600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيشر، جوستوس",
+              "hi": "फिशर, जस्टस",
+              "bn": "ফিশার, জাস্টাস"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. فيشر",
+              "hi": "जे. फिशर",
+              "bn": "জে. ফিশার"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "id": 327071724,
+        "time": 9,
+        "timeSeconds": 492,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "reversedPeriodTimeSeconds": 1308,
+        "periodTimeSeconds": 492,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Tom Poyet",
+          "slug": "poyet-tom",
+          "shortName": "T. Poyet",
+          "position": "P",
+          "jerseyNumber": "7",
+          "height": 187,
+          "userCount": 3,
+          "gender": "M",
+          "id": 941948,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 943833600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوييه، توم"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. بوييه"
+            }
+          }
+        },
+        "playerName": "Tom Poyet",
+        "duration": 120,
+        "id": 162267,
+        "time": 8,
+        "timeSeconds": 478,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "reversedPeriodTime": 23,
+        "reversedPeriodTimeSeconds": 1322,
+        "periodTimeSeconds": 478,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "player": {
+          "name": "Malte Celander",
+          "slug": "celander-malte",
+          "shortName": "M. Celander",
+          "position": "RW",
+          "jerseyNumber": "25",
+          "height": 193,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1153127,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1016409600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيلاندر، مالتي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سيلاندر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Eirik Grotta Truls",
+          "slug": "grotta-truls-eirik",
+          "shortName": "E. G. Truls",
+          "position": "CB",
+          "jerseyNumber": "90",
+          "height": 188,
+          "userCount": 1,
+          "gender": "M",
+          "id": 2233180,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 871430400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غروتا ترولس، إيريك"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ترولس"
+            }
+          }
+        },
+        "id": 327071658,
+        "time": 7,
+        "timeSeconds": 407,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1393,
+        "periodTimeSeconds": 407,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 2,
+        "awayScore": 1,
+        "player": {
+          "name": "August Baskar Pedersen",
+          "slug": "pedersen-august-baskar",
+          "shortName": "A. B. Pedersen",
+          "position": "LW",
+          "jerseyNumber": "40",
+          "height": 180,
+          "userCount": 33,
+          "gender": "M",
+          "id": 912523,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 772416000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيدرسن، أوغست باسكار",
+              "hi": "पेडरसन, ऑगस्ट बस्कर",
+              "bn": "পেডারসেন, আগস্ট বাস্কার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ب. بيدرسن",
+              "hi": "ए. बी. पेडरसन",
+              "bn": "এ. বি. পেডারসেন"
+            }
+          }
+        },
+        "id": 327071652,
+        "time": 7,
+        "timeSeconds": 387,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 24,
+        "reversedPeriodTimeSeconds": 1413,
+        "periodTimeSeconds": 387,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 1,
+        "awayScore": 1,
+        "player": {
+          "name": "Magnus Persson",
+          "slug": "persson-magnus",
+          "shortName": "M. Persson",
+          "position": "RB",
+          "jerseyNumber": "10",
+          "height": 192,
+          "userCount": 1,
+          "gender": "M",
+          "id": 806775,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 661392000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيرسون، ماغنوس"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيرسون"
+            }
+          }
+        },
+        "id": 327071567,
+        "time": 5,
+        "timeSeconds": 280,
+        "isHome": false,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1520,
+        "periodTimeSeconds": 280,
+        "incidentType": "goal"
+      },
+      {
+        "player": {
+          "name": "Marian Michalczik",
+          "slug": "michalczik-marian",
+          "shortName": "M. Michalczik",
+          "position": "LB",
+          "jerseyNumber": "22",
+          "height": 199,
+          "userCount": 43,
+          "gender": "M",
+          "id": 835552,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 854755200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميشالشيك، ماريان",
+              "hi": "मिचल्ज़िक, मैरिएन",
+              "bn": "মাইকেলজিক, মারিয়ান"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ميشالشيك",
+              "hi": "एम. मिचल्ज़िक",
+              "bn": "এম. মাইকেলজিক"
+            }
+          }
+        },
+        "playerName": "Marian Michalczik",
+        "duration": 120,
+        "id": 162263,
+        "time": 5,
+        "timeSeconds": 280,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1520,
+        "periodTimeSeconds": 280,
+        "incidentType": "suspension"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "August Baskar Pedersen",
+          "slug": "pedersen-august-baskar",
+          "shortName": "A. B. Pedersen",
+          "position": "LW",
+          "jerseyNumber": "40",
+          "height": 180,
+          "userCount": 33,
+          "gender": "M",
+          "id": 912523,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 772416000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيدرسن، أوغست باسكار",
+              "hi": "पेडरसन, ऑगस्ट बस्कर",
+              "bn": "পেডারসেন, আগস্ট বাস্কার"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ب. بيدرسن",
+              "hi": "ए. बी. पेडरसन",
+              "bn": "এ. বি. পেডারসেন"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Joel Birlehm",
+          "slug": "birlehm-joel",
+          "shortName": "J. Birlehm",
+          "position": "G",
+          "jerseyNumber": "41",
+          "height": 196,
+          "userCount": 47,
+          "gender": "M",
+          "id": 830799,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 861926400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيرلهيم، جويل",
+              "hi": "बिरलेहम, जोएल",
+              "bn": "বিরলেহম, জোয়েল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيرلهيم",
+              "hi": "जे. बिरलेहम",
+              "bn": "জি. বিরলেহম"
+            }
+          }
+        },
+        "id": 327071472,
+        "time": 3,
+        "timeSeconds": 174,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "reversedPeriodTimeSeconds": 1626,
+        "periodTimeSeconds": 174,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14662096/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 1,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "tv/event/14662096/country-channels": {
+    "countryChannels": {
+      "ES": [
+        4435
+      ]
+    }
+  },
+  "event/14662096/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184538654,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538654,
+        "suspended": false,
+        "id": 150257115,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/10",
+            "fractionalValue": "1/50",
+            "sourceId": 2079962623,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2079962624,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "21/1",
+            "sourceId": 2079962628,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184538654,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538654,
+        "suspended": false,
+        "id": 150257115,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/10",
+            "fractionalValue": "1/50",
+            "sourceId": 2079962623,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2079962624,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "21/1",
+            "sourceId": 2079962628,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184538654,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538654,
+        "suspended": false,
+        "id": 150257115,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/10",
+            "fractionalValue": "1/50",
+            "sourceId": 2079962623,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2079962624,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "21/1",
+            "sourceId": 2079962628,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14662096/votes": {
+    "vote": {
+      "vote1": 497,
+      "vote2": 39,
+      "voteX": 19
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14662096/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 0
+      },
+      {
+        "minute": 2,
+        "value": 0
+      },
+      {
+        "minute": 3,
+        "value": 1
+      },
+      {
+        "minute": 4,
+        "value": 1
+      },
+      {
+        "minute": 5,
+        "value": 0
+      },
+      {
+        "minute": 6,
+        "value": 0
+      },
+      {
+        "minute": 7,
+        "value": 0
+      },
+      {
+        "minute": 8,
+        "value": 0
+      },
+      {
+        "minute": 9,
+        "value": 1
+      },
+      {
+        "minute": 10,
+        "value": 1
+      },
+      {
+        "minute": 11,
+        "value": 0
+      },
+      {
+        "minute": 12,
+        "value": 1
+      },
+      {
+        "minute": 13,
+        "value": 1
+      },
+      {
+        "minute": 14,
+        "value": 0
+      },
+      {
+        "minute": 15,
+        "value": 1
+      },
+      {
+        "minute": 16,
+        "value": 0
+      },
+      {
+        "minute": 17,
+        "value": 0
+      },
+      {
+        "minute": 18,
+        "value": 1
+      },
+      {
+        "minute": 19,
+        "value": 2
+      },
+      {
+        "minute": 20,
+        "value": 1
+      },
+      {
+        "minute": 21,
+        "value": 2
+      },
+      {
+        "minute": 22,
+        "value": 3
+      },
+      {
+        "minute": 23,
+        "value": 3
+      },
+      {
+        "minute": 24,
+        "value": 2
+      },
+      {
+        "minute": 25,
+        "value": 3
+      },
+      {
+        "minute": 26,
+        "value": 3
+      },
+      {
+        "minute": 27,
+        "value": 3
+      },
+      {
+        "minute": 28,
+        "value": 3
+      },
+      {
+        "minute": 29,
+        "value": 2
+      },
+      {
+        "minute": 30,
+        "value": 3
+      },
+      {
+        "minute": 31,
+        "value": 3
+      },
+      {
+        "minute": 32,
+        "value": 4
+      },
+      {
+        "minute": 33,
+        "value": 4
+      },
+      {
+        "minute": 34,
+        "value": 4
+      },
+      {
+        "minute": 35,
+        "value": 5
+      },
+      {
+        "minute": 36,
+        "value": 4
+      },
+      {
+        "minute": 37,
+        "value": 5
+      }
+    ],
+    "periodTime": 30,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14662096/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "9/100",
+      "expected": 92,
+      "actual": 75,
+      "id": 17967248
+    },
+    "away": null
+  },
+  "event/14662096/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "4",
+      "label": "gls",
+      "player": {
+        "name": "Renars Uscins",
+        "slug": "uscins-renars",
+        "shortName": "R. Uščins",
+        "position": "RB",
+        "jerseyNumber": "13",
+        "height": 188,
+        "userCount": 277,
+        "gender": "M",
+        "id": 1102685,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1020038400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوشينس، رينارز",
+            "hi": "उस्किन्स, रेनार्स",
+            "bn": "উসকিন, রেনারস"
+          },
+          "shortNameTranslation": {
+            "ar": "ر. أوشينس",
+            "hi": "आर. उस्किन्स",
+            "bn": "আর. উসকিন"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "2",
+      "label": "gls",
+      "player": {
+        "name": "Isak Jogvan Djurhuus Vedelsbøl",
+        "slug": "vedelsbol-isak",
+        "shortName": "I. Vedelsbøl",
+        "position": "P",
+        "jerseyNumber": "47",
+        "height": 196,
+        "userCount": 24,
+        "gender": "M",
+        "id": 1443205,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1098057600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيدلسبول، إيساك يوجفان جورهووس"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. فيدلسبول"
+          }
+        }
+      }
+    }
+  },
+  "event/14662096": {
+    "event": {
+      "tournament": {
+        "name": "EHF European League, Group G",
+        "slug": "ehf-european-league-group-g",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Handball",
+            "slug": "handball",
+            "id": 6
+          },
+          "id": 73,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "EHF European League",
+          "slug": "ehf-european-league",
+          "primaryColorHex": "#0f1734",
+          "secondaryColorHex": "#e64315",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Handball",
+              "slug": "handball",
+              "id": 6
+            },
+            "id": 73,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 2481,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 59,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي لكرة اليد",
+              "hi": "ईएचएफ यूरोपीयन लीग",
+              "bn": "ইএইচএফ ইউরোপীয়ান লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group G",
+        "groupSign": "G",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 120777,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الدوري الأوروبي لكرة اليد، المجموعة G",
+            "hi": "ईएचएफ यूरोपीयन लीग, ग्रुप जी",
+            "bn": "ইএইচএফ ইউরোপীয়ান লীগ, গ্রুপ জি"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "EHF European League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78471
+      },
+      "roundInfo": {
+        "round": 3
+      },
+      "customId": "cHbsXic",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "attendance": 2013,
+      "venue": {
+        "city": {
+          "name": "Hannover"
+        },
+        "hidden": true,
+        "slug": "swiss-life-hall",
+        "name": "Swiss Life Hall",
+        "capacity": 4460,
+        "id": 2023,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سويس لايف هول",
+            "hi": "स्विस लाइफ हॉल",
+            "bn": "সুইস লাইফ হল"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Swiss Life Hall",
+          "capacity": 4460
+        }
+      },
+      "homeTeam": {
+        "name": "TSV Hannover Burgdorf",
+        "slug": "tsv-hannover-burgdorf",
+        "shortName": "Burgdorf",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 1525,
+        "manager": {
+          "name": "Christian Prokop",
+          "slug": "christian-prokop",
+          "shortName": "C. Prokop",
+          "id": 792001,
+          "country": {},
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كريستيان بروكوب",
+              "hi": "क्रिश्चियन प्रोकोप",
+              "bn": "ক্রিশ্চিয়ান প্রোকোপ"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بروكوب",
+              "hi": "सी. प्रोकोप",
+              "bn": "সি. প্রোকোপ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Hannover"
+          },
+          "hidden": true,
+          "slug": "tui-arena",
+          "name": "TUI Arena",
+          "capacity": 10000,
+          "id": 5566,
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "توي أرينا",
+              "hi": "टीयूआई एरिना",
+              "bn": "টিইউআই এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "TUI Arena",
+            "capacity": 10000
+          }
+        },
+        "nameCode": "HAN",
+        "class": 1,
+        "national": false,
+        "type": 0,
+        "id": 5447,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "fullName": "TSV Hannover Burgdorf",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#004500",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تي إس في هانوفر بورغدورف",
+            "ru": "Ганновер Бюргдорф"
+          },
+          "shortNameTranslation": {
+            "ar": "بورغدورف",
+            "hi": "बुर्गडॉर्फ",
+            "bn": "বার্গডর্ফ"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "IK Sävehof",
+        "slug": "ik-savehof",
+        "shortName": "Sävehof",
+        "gender": "M",
+        "sport": {
+          "name": "Handball",
+          "slug": "handball",
+          "id": 6
+        },
+        "userCount": 696,
+        "venue": {
+          "city": {
+            "name": "Partille"
+          },
+          "hidden": true,
+          "slug": "partillebohallen",
+          "name": "Partillebohallen",
+          "id": 6814,
+          "country": {
+            "alpha2": "SE",
+            "alpha3": "SWE",
+            "name": "Sweden",
+            "slug": "sweden"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة بارتيلبوهالين",
+              "hi": "पार्टिलबोहॉलन",
+              "bn": "পার্টিলেবোহালেন"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Partillebohallen"
+          }
+        },
+        "nameCode": "SAV",
+        "national": false,
+        "type": 0,
+        "id": 4102,
+        "country": {
+          "alpha2": "SE",
+          "alpha3": "SWE",
+          "name": "Sweden",
+          "slug": "sweden"
+        },
+        "fullName": "IK Sävehof",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffd700",
+          "text": "#ffd700"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "آي كيه سافيهوف",
+            "ru": "ИК Савехоф"
+          },
+          "shortNameTranslation": {
+            "ar": "سافيهوف",
+            "hi": "सेवहोफ",
+            "bn": "সেভেহফ"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 19,
+        "display": 19,
+        "period1": 15
+      },
+      "awayScore": {
+        "current": 14,
+        "display": 14,
+        "period1": 12
+      },
+      "time": {
+        "played": 2198,
+        "periodLength": 1800,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762893553
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display"
+        ],
+        "changeTimestamp": 1762894042
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14662096,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 30,
+      "slug": "tsv-hannover-burgdorf-ik-savehof",
+      "currentPeriodStartTimestamp": 1762893553,
+      "startTimestamp": 1762890300,
+      "defaultOvertimeLength": 5,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14662096/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184538654,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184538654,
+        "suspended": false,
+        "id": 150257115,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/10",
+            "fractionalValue": "1/50",
+            "sourceId": 2079962623,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2079962624,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "7/1",
+            "fractionalValue": "21/1",
+            "sourceId": 2079962628,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184145639,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184145639,
+        "suspended": false,
+        "id": 145298768,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "3/20",
+            "fractionalValue": "9/100",
+            "sourceId": 2055859233,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/1",
+            "fractionalValue": "12/1",
+            "sourceId": 2055859239,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "15/2",
+            "sourceId": 2055859236,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14662096
+  }
+}

@@ -716,7 +716,8 @@ export const startDataFetching = async (browser: Browser | null) => {
                     codereData = { ...codereData, ...result.value.codere };
                 }
                 if (result.value.sofascore) {
-                    console.log(`✅ [SOFASCORE] Received data with ${Object.keys(result.value.sofascore.events || {}).length} events`);
+                    const totalEvents = Object.values(result.value.sofascore.sports || {}).reduce((sum: number, sport: any) => sum + Object.keys(sport.events || {}).length, 0);
+                    console.log(`✅ [SOFASCORE] Received data with ${totalEvents} events across ${Object.keys(result.value.sofascore.sports || {}).length} sports`);
                     sofascoreData = { ...sofascoreData, ...result.value.sofascore };
                 }
             } else if (result.status === 'fulfilled' && !result.value) {

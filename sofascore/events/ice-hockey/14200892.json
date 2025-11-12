@@ -1,0 +1,3765 @@
+{
+  "event/14200892/incidents": {
+    "incidents": [
+      {
+        "text": "2nd Period",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "text": "1st Period",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "player": {
+          "name": "Brock Faber",
+          "slug": "faber-brock",
+          "shortName": "B. Faber",
+          "position": "D",
+          "jerseyNumber": "7",
+          "height": 185,
+          "userCount": 63,
+          "gender": "M",
+          "id": 1095983,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1029974400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فابر، بروك",
+              "hi": "फेबर, ब्रॉक",
+              "bn": "ফেবার, ব্রক"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. فابر",
+              "hi": "बी. फेबर",
+              "bn": "বি. ফেবার"
+            }
+          }
+        },
+        "playerName": "Brock Faber",
+        "suspensionDrawnByPlayer": {
+          "name": "Philipp Kurashev",
+          "slug": "kurashev-philipp",
+          "shortName": "P. Kurashev",
+          "position": "C",
+          "jerseyNumber": "96",
+          "height": 183,
+          "userCount": 151,
+          "gender": "M",
+          "id": 918670,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 939686400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوراشيف، فيليب",
+              "hi": "कुराशेव, फिलिप",
+              "bn": "কুরাশেভ, ফিলিপ"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. كوراشيف",
+              "hi": "पी. कुराशेव",
+              "bn": "পি. কুরাশেভ"
+            }
+          }
+        },
+        "description": "Penalty to Brock Faber 2 minutes for Hooking (Drawn by Philipp Kurashev)",
+        "duration": 120,
+        "id": 162330,
+        "time": 8,
+        "timeSeconds": 463,
+        "incidentClass": "twoMinutes",
+        "isHome": true,
+        "iceHockeyPenaltyType": {
+          "id": 33,
+          "key": "hooking",
+          "description": "Hooking",
+          "severity": "minor"
+        },
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 737,
+        "periodTimeSeconds": 463,
+        "incidentType": "suspension"
+      },
+      {
+        "player": {
+          "name": "John Klingberg",
+          "slug": "klingberg-john",
+          "shortName": "J. Klingberg",
+          "position": "D",
+          "jerseyNumber": "3",
+          "height": 188,
+          "userCount": 57,
+          "gender": "M",
+          "id": 142084,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 713750400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كلينجبرج، جون",
+              "hi": "क्लिंगबर्ग, जॉन",
+              "bn": "ক্লিংবার্গ, জন"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كلينجبرج",
+              "hi": "जे. क्लिंगबर्ग",
+              "bn": "জে. ক্লিংবার্গ"
+            }
+          }
+        },
+        "playerName": "John Klingberg",
+        "suspensionDrawnByPlayer": {
+          "name": "Daemon Hunt",
+          "slug": "hunt-daemon",
+          "shortName": "D. Hunt",
+          "position": "D",
+          "jerseyNumber": "48",
+          "height": 185,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1411300,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1021420800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هانت، ديمون",
+              "hi": "हंट, डेमन",
+              "bn": "হান্ট, ডেমন"
+            },
+            "shortNameTranslation": {
+              "ar": "د. هانت",
+              "hi": "डी. हंट",
+              "bn": "ডি. হান্ট"
+            }
+          }
+        },
+        "description": "Penalty to John Klingberg 2 minutes for Hooking (Drawn by Daemon Hunt)",
+        "duration": 120,
+        "id": 162325,
+        "time": 4,
+        "timeSeconds": 185,
+        "incidentClass": "twoMinutes",
+        "isHome": false,
+        "iceHockeyPenaltyType": {
+          "id": 33,
+          "key": "hooking",
+          "description": "Hooking",
+          "severity": "minor"
+        },
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 1015,
+        "periodTimeSeconds": 185,
+        "incidentType": "suspension"
+      }
+    ]
+  },
+  "event/14200892/h2h": {
+    "teamDuel": {
+      "homeWins": 7,
+      "awayWins": 3,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14200892/managers": {
+    "homeManager": {
+      "name": "John Hynes",
+      "slug": "john-hynes",
+      "shortName": "J. Hynes",
+      "id": 791845,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "جون هاينس"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. هاينس"
+        }
+      }
+    }
+  },
+  "tv/event/14200892/country-channels": {
+    "countryChannels": {
+      "US": [
+        3849,
+        3793
+      ]
+    }
+  },
+  "event/14200892": {
+    "event": {
+      "tournament": {
+        "name": "NHL",
+        "slug": "nhl",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Ice hockey",
+            "slug": "ice-hockey",
+            "id": 4
+          },
+          "id": 37,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NHL",
+          "slug": "nhl",
+          "secondaryColorHex": "#808291",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Ice hockey",
+              "slug": "ice-hockey",
+              "id": 4
+            },
+            "id": 37,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 18677,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 234,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الهوكي الوطني",
+              "hi": "एनएचएल",
+              "bn": "এনএইচএল"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 20,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 142,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الوطني للهوكي",
+            "hi": "एनएचएल",
+            "bn": "এনএইচএলব"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NHL 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 78476
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "OybsWyb",
+      "status": {
+        "code": 2,
+        "description": "2nd period",
+        "type": "inprogress"
+      },
+      "attendance": 0,
+      "venue": {
+        "city": {
+          "name": "St. Paul"
+        },
+        "hidden": true,
+        "slug": "xcel-energy-center",
+        "name": "Xcel Energy Center",
+        "capacity": 18064,
+        "id": 6020,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مركز إكسل إنيرجي",
+            "hi": "एक्सेल एनर्जी सेंटर",
+            "bn": "এক্সেল এনার্জি সেন্টার"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Xcel Energy Center",
+          "capacity": 18064
+        }
+      },
+      "homeTeam": {
+        "name": "Minnesota Wild",
+        "slug": "minnesota-wild",
+        "shortName": "Wild",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 8353,
+        "manager": {
+          "name": "John Hynes",
+          "slug": "john-hynes",
+          "shortName": "J. Hynes",
+          "id": 791845,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون هاينس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. هاينس"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "St. Paul"
+          },
+          "hidden": true,
+          "slug": "xcel-energy-center",
+          "name": "Xcel Energy Center",
+          "capacity": 18064,
+          "id": 6020,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز إكسل إنيرجي",
+              "hi": "एक्सेल एनर्जी सेंटर",
+              "bn": "এক্সেল এনার্জি সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Xcel Energy Center",
+            "capacity": 18064
+          }
+        },
+        "nameCode": "MIN",
+        "class": 1,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 3689,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Minnesota Wild",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#024930",
+          "secondary": "#af1e24",
+          "text": "#af1e24"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مينيسوتا وايلد",
+            "ru": "Миннесота Вилд"
+          },
+          "shortNameTranslation": {
+            "ar": "وايلد",
+            "hi": "वाइल्ड",
+            "bn": "ওয়াইল্ড"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "San Jose Sharks",
+        "slug": "san-jose-sharks",
+        "shortName": "Sharks",
+        "gender": "M",
+        "sport": {
+          "name": "Ice hockey",
+          "slug": "ice-hockey",
+          "id": 4
+        },
+        "userCount": 4626,
+        "venue": {
+          "city": {
+            "name": "San Jose"
+          },
+          "hidden": true,
+          "slug": "sap-center-at-san-jose",
+          "name": "SAP Center at San Jose",
+          "capacity": 17562,
+          "id": 6046,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز SAP في سان خوسيه",
+              "hi": "एसएपी सेंटर एट सैन जोस",
+              "bn": "এসএপি সেন্টার এট সান জোসে"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "SAP Center at San Jose",
+            "capacity": 17562
+          }
+        },
+        "nameCode": "SJ",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 3696,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "San Jose Sharks",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#006d75",
+          "secondary": "#ea7200",
+          "text": "#ea7200"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سان خوسيه شاركس",
+            "ru": "Сан-Хосе Шаркс"
+          },
+          "shortNameTranslation": {
+            "ar": "شاركس",
+            "hi": "शार्क्स",
+            "bn": "শার্কস"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "time": {
+        "played": 1482,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 3,
+        "currentPeriodStartTimestamp": 1762913394
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762913849
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14200892,
+      "defaultPeriodCount": 3,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "slug": "san-jose-sharks-minnesota-wild",
+      "currentPeriodStartTimestamp": 1762913394,
+      "startTimestamp": 1762909200,
+      "periods": {
+        "current": "Score",
+        "period1": "1st period",
+        "period2": "2nd period",
+        "period3": "3rd period",
+        "overtime": "Overtime",
+        "penalties": "Penalty"
+      },
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "seasonStatisticsType": "regularSeason",
+      "showTotoPromo": true,
+      "isEditor": false,
+      "homeTeamSeasonHistoricalForm": {
+        "wins": 7,
+        "draws": 3,
+        "losses": 7
+      },
+      "awayTeamSeasonHistoricalForm": {
+        "wins": 7,
+        "draws": 3,
+        "losses": 6
+      }
+    }
+  },
+  "event/14200892/votes": {
+    "vote": {
+      "vote1": 2355,
+      "vote2": 655,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14200892/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Matt Boldy",
+            "firstName": "Matthew Boldy",
+            "slug": "boldy-matt",
+            "shortName": "M. Boldy",
+            "position": "L",
+            "jerseyNumber": "12",
+            "height": 188,
+            "userCount": 432,
+            "gender": "M",
+            "id": 1122226,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 986428800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولد، مات",
+                "hi": "बोल्डी, मैट",
+                "bn": "বোল্ডি, ম্যাট"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بولد",
+                "hi": "एम. बोल्डी",
+                "bn": "এম. বোল্ডি"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 476,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 1,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Vinnie Hinostroza",
+            "slug": "hinostroza-vinnie",
+            "shortName": "V. Hinostroza",
+            "position": "C",
+            "jerseyNumber": "18",
+            "height": 178,
+            "userCount": 9,
+            "gender": "M",
+            "id": 818198,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 765331200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هينوستروزا، فيني",
+                "hi": "हिनोस्त्रोज़ा, विन्नी",
+                "bn": "হিনোস্ট্রোসিস, ভিনি"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. هينوستروزا",
+                "hi": "वी. हिनोस्त्रोज़ा",
+                "bn": "ভি. হিনোস্ট্রোসিস"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 232,
+            "assists": 0,
+            "goals": 0,
+            "shots": 3,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 50,
+            "faceOffWins": 1,
+            "faceOffTaken": 2,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Zeev Buium",
+            "slug": "buium-zeev",
+            "shortName": "Z. Buium",
+            "position": "D",
+            "jerseyNumber": "8",
+            "height": 183,
+            "userCount": 27,
+            "gender": "M",
+            "id": 1629010,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1133913600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بويوم، زيف"
+              },
+              "shortNameTranslation": {
+                "ar": "ز. بويوم"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 530,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kirill Kaprizov",
+            "slug": "kaprizov-kirill",
+            "shortName": "K. Kaprizov",
+            "position": "L",
+            "jerseyNumber": "97",
+            "height": 178,
+            "userCount": 6216,
+            "gender": "M",
+            "id": 612400,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 862012800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كابريزوف، كيريل",
+                "hi": "काप्रिज़ोव, किरिल",
+                "bn": "কাপ্রিজভ, কিরিল"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كابريزوف",
+                "hi": "के. काप्रिज़ोव",
+                "bn": "কে. কাপ্রিজভ"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 97,
+          "jerseyNumber": "97",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 525,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Danila Yurov",
+            "slug": "danila-yurov",
+            "shortName": "D. Yurov",
+            "position": "R",
+            "jerseyNumber": "22",
+            "height": 185,
+            "userCount": 30,
+            "gender": "M",
+            "id": 1067277,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1072051200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانيلا، يوروف",
+                "hi": "डैनिला, युरोव",
+                "bn": "ড্যানিলা, ইউরভ"
+              },
+              "shortNameTranslation": {
+                "ar": "د. يوروف",
+                "hi": "डी. युरोव",
+                "bn": "ডি. ইউরভ"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 245,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 50,
+            "faceOffWins": 1,
+            "faceOffTaken": 2,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ryan Hartman",
+            "slug": "hartman-ryan",
+            "shortName": "R. Hartman",
+            "position": "R",
+            "jerseyNumber": "38",
+            "height": 183,
+            "userCount": 67,
+            "gender": "M",
+            "id": 790427,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 780019200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هارتمن، ريان"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. هارتمن",
+                "hi": "आर. हार्टमैन",
+                "bn": "আর. হার্টম্যান"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 38,
+          "jerseyNumber": "38",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 269,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 4,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 2,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Brock Faber",
+            "slug": "faber-brock",
+            "shortName": "B. Faber",
+            "position": "D",
+            "jerseyNumber": "7",
+            "height": 185,
+            "userCount": 63,
+            "gender": "M",
+            "id": 1095983,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1029974400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فابر، بروك",
+                "hi": "फेबर, ब्रॉक",
+                "bn": "ফেবার, ব্রক"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. فابر",
+                "hi": "बी. फेबर",
+                "bn": "বি. ফেবার"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 532,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 2,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 2,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Marcus Johansson",
+            "slug": "johansson-marcus",
+            "shortName": "M. Johansson",
+            "position": "L",
+            "jerseyNumber": "90",
+            "height": 185,
+            "userCount": 82,
+            "gender": "M",
+            "id": 42274,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 655171200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "يوهانسون، ماركوس",
+                "hi": "जोहानसन, मार्कस",
+                "bn": "জোহানসন, মার্কাস"
+              },
+              "shortNameTranslation": {
+                "ar": "م. يوهانسون",
+                "hi": "एम. जोहान्सन",
+                "bn": "এম. জোহানসন"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 90,
+          "jerseyNumber": "90",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 323,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Vladimir Tarasenko",
+            "slug": "tarasenko-vladimir",
+            "shortName": "V. Tarasenko",
+            "position": "R",
+            "jerseyNumber": "91",
+            "height": 185,
+            "userCount": 1627,
+            "gender": "M",
+            "id": 87619,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 692582400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تاراسينكو، فلاديمير",
+                "hi": "तरासेन्को, व्लादिमीर",
+                "bn": "তারাসেঙ্কো, ভ্লাদিমির"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. تاراسينكو",
+                "hi": "वी. तरासेन्को",
+                "bn": "ভি তারাসেনকো"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 91,
+          "jerseyNumber": "91",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 287,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Daemon Hunt",
+            "slug": "hunt-daemon",
+            "shortName": "D. Hunt",
+            "position": "D",
+            "jerseyNumber": "48",
+            "height": 185,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1411300,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1021420800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هانت، ديمون",
+                "hi": "हंट, डेमन",
+                "bn": "হান্ট, ডেমন"
+              },
+              "shortNameTranslation": {
+                "ar": "د. هانت",
+                "hi": "डी. हंट",
+                "bn": "ডি. হান্ট"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 48,
+          "jerseyNumber": "48",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 326,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 1,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jared Spurgeon",
+            "slug": "spurgeon-jared",
+            "shortName": "J. Spurgeon",
+            "position": "D",
+            "jerseyNumber": "46",
+            "height": 175,
+            "userCount": 56,
+            "gender": "M",
+            "id": 146331,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 628300800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سبورجون، جاريد",
+                "hi": "स्पर्जन, जेरेड",
+                "bn": "স্পারজিয়ন, জ্যারেড"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سبورجون",
+                "hi": "जे. स्पर्जन",
+                "bn": "জে. স্পারজিয়ন"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 46,
+          "jerseyNumber": "46",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 550,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Filip Gustavsson",
+            "slug": "gustavsson-filip",
+            "shortName": "F. Gustavsson",
+            "position": "G",
+            "jerseyNumber": "32",
+            "height": 188,
+            "userCount": 52,
+            "gender": "M",
+            "id": 906970,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 897177600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوستافسون، فيليب",
+                "hi": "गुस्तावसन, फ़िलिप",
+                "bn": "গুস্তাভসন, ফিলিপ"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. جوستافسون",
+                "hi": "एफ. गुस्तावसन",
+                "bn": "এফ. গুস্তাভসন"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 32,
+          "jerseyNumber": "32",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 1430,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "saves": 6,
+            "powerPlaySaves": 0,
+            "shortHandedSaves": 1,
+            "shortHandedSavePercentage": 1,
+            "evenSaves": 5,
+            "shortHandedShotsAgainst": 1,
+            "evenShotsAgainst": 5,
+            "powerPlayShotsAgainst": 0,
+            "savePercentage": 1,
+            "powerPlaySavePercentage": 0,
+            "evenStrengthSavePercentage": 1,
+            "shotsAgainst": 6,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jonas Brodin",
+            "slug": "brodin-jonas",
+            "shortName": "J. Brodin",
+            "position": "D",
+            "jerseyNumber": "25",
+            "height": 188,
+            "userCount": 59,
+            "gender": "M",
+            "id": 133684,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 742435200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "برودين، جوناس",
+                "hi": "ब्रॉडिन, जोनास",
+                "bn": "ব্রডিন, জোনাস"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. برودين",
+                "hi": "जे. ब्रॉडिन",
+                "bn": "জে. ব্রডিন"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 489,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Mats Zuccarello",
+            "slug": "zuccarello-mats",
+            "shortName": "M. Zuccarello",
+            "position": "R",
+            "jerseyNumber": "36",
+            "height": 173,
+            "userCount": 812,
+            "gender": "M",
+            "id": 755562,
+            "country": {
+              "alpha2": "NO",
+              "alpha3": "NOR",
+              "name": "Norway",
+              "slug": "norway"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 557452800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "زوكاريلو، ماتس",
+                "hi": "ज़ुकेरेलो, मैट्स",
+                "bn": "জুকারেলো, ম্যাটস"
+              },
+              "shortNameTranslation": {
+                "ar": "م. زوكاريلو",
+                "hi": "एम. ज़ुकेरेलो",
+                "bn": "এম. জুকারেলো"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 36,
+          "jerseyNumber": "36",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 429,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joel Eriksson Ek",
+            "slug": "eriksson-ek-joel",
+            "shortName": "J. E. Ek",
+            "position": "C",
+            "jerseyNumber": "14",
+            "height": 191,
+            "userCount": 185,
+            "gender": "M",
+            "id": 858965,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 854496000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إريكسون إيك، جويل",
+                "hi": "एरिक्सन एक, जोएल",
+                "bn": "এরিকসন এক, জোয়েল"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. إ. إيك",
+                "hi": "जे. ई. एक",
+                "bn": "জে.ই. এক"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 471,
+            "assists": 0,
+            "goals": 0,
+            "shots": 3,
+            "shotsMissed": 3,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 75,
+            "faceOffWins": 6,
+            "faceOffTaken": 8,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "David Jiricek",
+            "slug": "jiricek-david",
+            "shortName": "D. Jiricek",
+            "position": "D",
+            "jerseyNumber": "55",
+            "height": 193,
+            "userCount": 38,
+            "gender": "M",
+            "id": 1017324,
+            "country": {
+              "alpha2": "CZ",
+              "alpha3": "CZE",
+              "name": "Czechia",
+              "slug": "czechia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1069977600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيريسك، ديفيد",
+                "hi": "जिरीसेक, डेविड",
+                "bn": "জিরিসেক, ডেভিড"
+              },
+              "shortNameTranslation": {
+                "ar": "د. جيريسك",
+                "hi": "डी. जिरीसेक",
+                "bn": "ডি. জিরিসেক"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 55,
+          "jerseyNumber": "55",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 316,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 1,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 2,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Marco Rossi",
+            "slug": "rossi-marco",
+            "shortName": "M. Rossi",
+            "position": "C",
+            "jerseyNumber": "23",
+            "height": 175,
+            "userCount": 420,
+            "gender": "M",
+            "id": 1096127,
+            "country": {
+              "alpha2": "AT",
+              "alpha3": "AUT",
+              "name": "Austria",
+              "slug": "austria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1001203200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "روسي، ماركو",
+                "hi": "रॉसी, मार्को",
+                "bn": "রসি, মার্কো"
+              },
+              "shortNameTranslation": {
+                "ar": "م. روسي",
+                "hi": "एम. रॉसी",
+                "bn": "এম. রসি"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 406,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 100,
+            "faceOffWins": 3,
+            "faceOffTaken": 3,
+            "takeaways": 1,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Marcus Foligno",
+            "slug": "foligno-marcus",
+            "shortName": "M. Foligno",
+            "position": "L",
+            "jerseyNumber": "17",
+            "height": 191,
+            "userCount": 33,
+            "gender": "M",
+            "id": 225138,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 681782400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فولينيو، ماركوس",
+                "hi": "फोलिग्नो, मार्कस",
+                "bn": "ফোলিগনো, মার্কাস"
+              },
+              "shortNameTranslation": {
+                "ar": "م. فولينيو",
+                "hi": "एम. फोलिग्नो",
+                "bn": "এম. ফোলিগনো"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 301,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Yakov Trenin",
+            "slug": "trenin-yakov",
+            "shortName": "Y. Trenin",
+            "position": "C",
+            "jerseyNumber": "13",
+            "height": 188,
+            "userCount": 64,
+            "gender": "M",
+            "id": 953972,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 853113600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ترينين، ياكوف",
+                "hi": "ट्रेनिन, याकोव",
+                "bn": "ট্রেনিন, ইয়াকভ"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. ترينين",
+                "hi": "वाय. ट्रेनिन",
+                "bn": "ওয়াই. ট্রেনিন"
+              }
+            }
+          },
+          "teamId": 3689,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 323,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 100,
+            "faceOffWins": 1,
+            "faceOffTaken": 1,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "124735",
+        "number": "ded3bb",
+        "outline": "124735",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "fafb00",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "John Klingberg",
+            "slug": "klingberg-john",
+            "shortName": "J. Klingberg",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 188,
+            "userCount": 57,
+            "gender": "M",
+            "id": 142084,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 713750400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كلينجبرج، جون",
+                "hi": "क्लिंगबर्ग, जॉन",
+                "bn": "ক্লিংবার্গ, জন"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كلينجبرج",
+                "hi": "जे. क्लिंगबर्ग",
+                "bn": "জে. ক্লিংবার্গ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 464,
+            "assists": 0,
+            "goals": 0,
+            "shots": 2,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 2,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dmitry Orlov",
+            "slug": "orlov-dmitry",
+            "shortName": "D. Orlov",
+            "position": "D",
+            "jerseyNumber": "9",
+            "height": 180,
+            "userCount": 180,
+            "gender": "M",
+            "id": 88036,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 680227200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أورلوف، ديمتري",
+                "hi": "ओरलोव, दिमित्री",
+                "bn": "অরলভ, দিমিত্রি"
+              },
+              "shortNameTranslation": {
+                "ar": "د. أورلوف",
+                "hi": "डी. ओरलोव",
+                "bn": "ডি. অরলভ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 597,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Adam Gaudette",
+            "slug": "gaudette-adam",
+            "shortName": "A. Gaudette",
+            "position": "R",
+            "jerseyNumber": "81",
+            "height": 185,
+            "userCount": 38,
+            "gender": "M",
+            "id": 930515,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 844300800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوديت، آدم",
+                "hi": "गौडेट, एडम",
+                "bn": "গডেট, অ্যাডাম"
+              },
+              "shortNameTranslation": {
+                "ar": "آ. جوديت",
+                "hi": "ए. गौडेट",
+                "bn": "এ. গডেট"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 81,
+          "jerseyNumber": "81",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 266,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 25,
+            "faceOffWins": 1,
+            "faceOffTaken": 4,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Barclay Goodrow",
+            "slug": "goodrow-barclay",
+            "shortName": "B. Goodrow",
+            "position": "C",
+            "jerseyNumber": "23",
+            "height": 188,
+            "userCount": 29,
+            "gender": "M",
+            "id": 606982,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 730684800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جودرو، باركلي",
+                "hi": "गुडरो, बार्कले",
+                "bn": "গুডরো, বার্কলে"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. جودرو",
+                "hi": "बी. गुडरो",
+                "bn": "বি. গুডরো"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 312,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 2,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Mario Ferraro",
+            "slug": "ferraro-mario",
+            "shortName": "M. Ferraro",
+            "position": "D",
+            "jerseyNumber": "38",
+            "height": 180,
+            "userCount": 16,
+            "gender": "M",
+            "id": 994291,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 905990400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيرارو، ماريو",
+                "hi": "फेरारो, मारियो",
+                "bn": "ফেরার, মারিও"
+              },
+              "shortNameTranslation": {
+                "ar": "م. فيرارو",
+                "hi": "एम. फेरारो",
+                "bn": "এম. ফেরারো"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 38,
+          "jerseyNumber": "38",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 448,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Macklin Celebrini",
+            "slug": "celebrini-macklin",
+            "shortName": "M. Celebrini",
+            "position": "C",
+            "jerseyNumber": "71",
+            "height": 183,
+            "userCount": 595,
+            "gender": "M",
+            "id": 1629000,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1150156800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيليبريني، ماكلين"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سيليبريني"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 71,
+          "jerseyNumber": "71",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 399,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 2,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 50,
+            "faceOffWins": 2,
+            "faceOffTaken": 4,
+            "takeaways": 1,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "William Eklund",
+            "firstName": "",
+            "lastName": "",
+            "slug": "eklund-william",
+            "shortName": "W. Eklund",
+            "position": "L",
+            "jerseyNumber": "72",
+            "height": 178,
+            "userCount": 663,
+            "gender": "M",
+            "id": 1014017,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1034380800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إكلوند، ويليام",
+                "hi": "एक्लुंड, विलियम",
+                "bn": "একলান্ড, উইলিয়াম"
+              },
+              "shortNameTranslation": {
+                "ar": "و. إكلوند",
+                "hi": "डब्ल्यू. एक्लुंड",
+                "bn": "ডব্লিউ. একলুন্ড"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 72,
+          "jerseyNumber": "72",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 470,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sam Dickinson",
+            "slug": "dickinson-sam",
+            "shortName": "S. Dickinson",
+            "position": "D",
+            "jerseyNumber": "6",
+            "height": 191,
+            "userCount": 6,
+            "gender": "M",
+            "id": 1821468,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1149638400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديكنسون، سام"
+              },
+              "shortNameTranslation": {
+                "ar": "س. ديكنسون"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 315,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ty Dellandrea",
+            "firstName": "",
+            "lastName": "",
+            "slug": "dellandrea-ty",
+            "shortName": "T. Dellandrea",
+            "position": "C",
+            "jerseyNumber": "10",
+            "height": 188,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1012742,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 964137600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديلاندريا، تي",
+                "hi": "डेलैंड्रिया, टाय",
+                "bn": "ডেলান্ড্রিয়া, টাই"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. ديلاندريا",
+                "hi": "टी. डेलैंड्रिया",
+                "bn": "টি. ডেলান্ড্রিয়া"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 304,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 80,
+            "faceOffWins": 4,
+            "faceOffTaken": 5,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tyler Toffoli",
+            "slug": "toffoli-tyler",
+            "shortName": "T. Toffoli",
+            "position": "C",
+            "jerseyNumber": "73",
+            "height": 183,
+            "userCount": 286,
+            "gender": "M",
+            "id": 181243,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 704073600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "توفيلي، تايلر",
+                "hi": "टोफोली, टायलर",
+                "bn": "টফোলি, টাইলার"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. توفيلي",
+                "hi": "टी. टोफोली",
+                "bn": "টি. টফোলি"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 73,
+          "jerseyNumber": "73",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 338,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 2,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Will Smith",
+            "slug": "smith-will",
+            "shortName": "W. Smith",
+            "position": "C",
+            "jerseyNumber": "2",
+            "height": 183,
+            "userCount": 261,
+            "gender": "M",
+            "id": 1548753,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1111017600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سميث، ويل",
+                "hi": "स्मिथ, विल",
+                "bn": "স্মিথ, উইল"
+              },
+              "shortNameTranslation": {
+                "ar": "و. سميث",
+                "hi": "डब्ल्यू. स्मिथ",
+                "bn": "ডব্লিউ. স্মিথ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 388,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Collin Graf",
+            "slug": "graf-collin",
+            "shortName": "C. Graf",
+            "position": "R",
+            "jerseyNumber": "51",
+            "height": 185,
+            "userCount": 16,
+            "gender": "M",
+            "id": 1837930,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1032566400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غراف، كولين"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. غراف"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 51,
+          "jerseyNumber": "51",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 274,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Shakir Mukhamadullin",
+            "slug": "mukhamadullin-shakir",
+            "shortName": "S. Mukhamadullin",
+            "position": "D",
+            "jerseyNumber": "85",
+            "height": 193,
+            "userCount": 249,
+            "gender": "M",
+            "id": 994476,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1010620800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد الدين، شاكر",
+                "hi": "मुखमदुलिन, शाकिर",
+                "bn": "মুখমদুল্লিন, শাকির"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. محمد الدين",
+                "hi": "एस. मुखमदुलिन",
+                "bn": "এস. মুখমদুল্লিন"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 85,
+          "jerseyNumber": "85",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 483,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ryan Reaves",
+            "slug": "reaves-ryan",
+            "shortName": "R. Reaves",
+            "position": "R",
+            "jerseyNumber": "75",
+            "height": 188,
+            "userCount": 37,
+            "gender": "M",
+            "id": 137303,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 538099200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريفز، ريان",
+                "hi": "रीव्स, रयान",
+                "bn": "রিভস, রায়ান"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. ريفز",
+                "hi": "आर. रीव्स",
+                "bn": "আর. রিভস"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 75,
+          "jerseyNumber": "75",
+          "position": "R",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 236,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 2,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 1,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Vincent Desharnais",
+            "firstName": "Vincent Desharnais",
+            "lastName": "",
+            "slug": "desharnais-vincent",
+            "shortName": "V. Desharnais",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 201,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1399123,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 833328000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديشارنيه، فنسنت",
+                "hi": "देशर्नैस, विंसेंट",
+                "bn": "দেশারনাইস, ভিনসেন্ট"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. ديشارنيه",
+                "hi": "वी. देशर्नैस",
+                "bn": "ভি দেশারনাইস"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 449,
+            "assists": 0,
+            "goals": 0,
+            "shots": 1,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Yaroslav Askarov",
+            "slug": "askarov-yaroslav",
+            "shortName": "Y. Askarov",
+            "position": "G",
+            "jerseyNumber": "30",
+            "height": 191,
+            "userCount": 53,
+            "gender": "M",
+            "id": 1008378,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1024185600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عسكروف، ياروسلاف",
+                "hi": "असकारोव, यारोस्लाव",
+                "bn": "আসকারভ, ইয়ারোস্লাভ"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. عسكروف",
+                "hi": "वाई. असकारोव",
+                "bn": "ওয়াই. আসকারভ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 1430,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "saves": 11,
+            "powerPlaySaves": 1,
+            "shortHandedSaves": 1,
+            "shortHandedSavePercentage": 1,
+            "evenSaves": 9,
+            "shortHandedShotsAgainst": 1,
+            "evenShotsAgainst": 9,
+            "powerPlayShotsAgainst": 1,
+            "savePercentage": 1,
+            "powerPlaySavePercentage": 1,
+            "evenStrengthSavePercentage": 1,
+            "shotsAgainst": 11,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Philipp Kurashev",
+            "slug": "kurashev-philipp",
+            "shortName": "P. Kurashev",
+            "position": "C",
+            "jerseyNumber": "96",
+            "height": 183,
+            "userCount": 151,
+            "gender": "M",
+            "id": 918670,
+            "country": {
+              "alpha2": "CH",
+              "alpha3": "CHE",
+              "name": "Switzerland",
+              "slug": "switzerland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 939686400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوراشيف، فيليب",
+                "hi": "कुराशेव, फिलिप",
+                "bn": "কুরাশেভ, ফিলিপ"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. كوراشيف",
+                "hi": "पी. कुराशेव",
+                "bn": "পি. কুরাশেভ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 96,
+          "jerseyNumber": "96",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 426,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 1,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jeff Skinner",
+            "slug": "skinner-jeff",
+            "shortName": "J. Skinner",
+            "position": "L",
+            "jerseyNumber": "53",
+            "height": 180,
+            "userCount": 2703,
+            "gender": "M",
+            "id": 137801,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 705974400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سكينر، جيف",
+                "hi": "स्किनर, जेफ़",
+                "bn": "স্কিনার, জেফ"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سكينر",
+                "hi": "जे. स्किनर",
+                "bn": "জে. স্কিনার"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 53,
+          "jerseyNumber": "53",
+          "position": "L",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 340,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 1,
+            "hits": 1,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 0,
+            "faceOffWins": 0,
+            "faceOffTaken": 0,
+            "takeaways": 0,
+            "giveaways": 1,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 1,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Alexander Wennberg",
+            "firstName": "",
+            "lastName": "",
+            "slug": "wennberg-alex",
+            "shortName": "A. Wennberg",
+            "position": "C",
+            "jerseyNumber": "21",
+            "height": 188,
+            "userCount": 503,
+            "gender": "M",
+            "id": 263755,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 780192000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "وينبرج، أليكس",
+                "hi": "वेनबर्ग, एलेक्स",
+                "bn": "ওয়েনবার্গ, অ্যালেক্স"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. وينبرج",
+                "hi": "ए. वेनबर्ग",
+                "bn": "এ. ওয়েনবার্গ"
+              }
+            }
+          },
+          "teamId": 3696,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 521,
+            "assists": 0,
+            "goals": 0,
+            "shots": 0,
+            "shotsMissed": 0,
+            "hits": 0,
+            "powerPlayGoals": 0,
+            "powerPlayAssists": 0,
+            "powerPlayPoints": 0,
+            "evenStrengthGoals": 0,
+            "evenStrengthAssists": 0,
+            "evenStrengthPoints": 0,
+            "penaltyMinutes": 0,
+            "faceOffPercentage": 16.7,
+            "faceOffWins": 1,
+            "faceOffTaken": 6,
+            "takeaways": 0,
+            "giveaways": 0,
+            "shortHandedGoals": 0,
+            "shortHandedAssists": 0,
+            "shortHandedPoints": 0,
+            "blocked": 0,
+            "blockedAttempts": 0,
+            "plusMinus": 0,
+            "points": 0,
+            "statisticsType": {
+              "sportSlug": "ice-hockey",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "0096a6",
+        "number": "ffffff",
+        "outline": "0096a6",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "fafb00",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14200892/pregame-form": {
+    "homeTeam": {
+      "position": 12,
+      "value": "17",
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 11,
+      "value": "17",
+      "form": [
+        "W",
+        "OTL",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "label": "Pts"
+  },
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14200892/best-players": {
+    "bestHomeTeamPlayer": {
+      "value": "–",
+      "label": "pts",
+      "player": {
+        "name": "Filip Gustavsson",
+        "slug": "gustavsson-filip",
+        "shortName": "F. Gustavsson",
+        "position": "G",
+        "jerseyNumber": "32",
+        "height": 188,
+        "userCount": 52,
+        "gender": "M",
+        "id": 906970,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 897177600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوستافسون، فيليب",
+            "hi": "गुस्तावसन, फ़िलिप",
+            "bn": "গুস্তাভসন, ফিলিপ"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. جوستافسون",
+            "hi": "एफ. गुस्तावसन",
+            "bn": "এফ. গুস্তাভসন"
+          }
+        }
+      }
+    },
+    "bestAwayTeamPlayer": {
+      "value": "–",
+      "label": "pts",
+      "player": {
+        "name": "Yaroslav Askarov",
+        "slug": "askarov-yaroslav",
+        "shortName": "Y. Askarov",
+        "position": "G",
+        "jerseyNumber": "30",
+        "height": 191,
+        "userCount": 53,
+        "gender": "M",
+        "id": 1008378,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1024185600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "عسكروف، ياروسلاف",
+            "hi": "असकारोव, यारोस्लाव",
+            "bn": "আসকারভ, ইয়ারোস্লাভ"
+          },
+          "shortNameTranslation": {
+            "ar": "ي. عسكروف",
+            "hi": "वाई. असकारोव",
+            "bn": "ওয়াই. আসকারভ"
+          }
+        }
+      }
+    }
+  },
+  "event/14200892/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184547982,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547982,
+        "suspended": false,
+        "id": 150526086,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "8/5",
+            "fractionalValue": "1/4",
+            "sourceId": 2081017224,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/2",
+            "fractionalValue": "3/1",
+            "sourceId": 2081017223,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184547982,
+        "structureType": 2,
+        "marketId": 9,
+        "marketName": "Match goals",
+        "choiceGroup": "4.5",
+        "isLive": true,
+        "fid": 184547982,
+        "suspended": false,
+        "id": 150526088,
+        "marketGroup": "Match goals",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/17",
+            "sourceId": 2081017221,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "7/5",
+            "sourceId": 2081017222,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184547982,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547982,
+        "suspended": false,
+        "id": 150526086,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "8/5",
+            "fractionalValue": "1/4",
+            "sourceId": 2081017224,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/2",
+            "fractionalValue": "3/1",
+            "sourceId": 2081017223,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14200892/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184547982,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184547982,
+        "suspended": false,
+        "id": 150526086,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "8/5",
+            "fractionalValue": "1/4",
+            "sourceId": 2081017224,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/2",
+            "fractionalValue": "3/1",
+            "sourceId": 2081017223,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184494671,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184494673,
+        "suspended": false,
+        "id": 149340515,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "23/50",
+            "fractionalValue": "49/100",
+            "sourceId": 2074758623,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "9/5",
+            "fractionalValue": "17/10",
+            "sourceId": 2074758621,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184547982,
+        "structureType": 2,
+        "marketId": 9,
+        "marketName": "Match goals",
+        "choiceGroup": "4.5",
+        "isLive": true,
+        "fid": 184547982,
+        "suspended": false,
+        "id": 150526088,
+        "marketGroup": "Match goals",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "10/11",
+            "fractionalValue": "10/17",
+            "sourceId": 2081017221,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "7/5",
+            "sourceId": 2081017222,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    ],
+    "eventId": 14200892
+  },
+  "event/14200892/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "49/100",
+      "expected": 67,
+      "actual": 76,
+      "id": 18038125
+    },
+    "away": {
+      "fractionalValue": "17/10",
+      "expected": 37,
+      "actual": 24,
+      "id": 18038126
+    }
+  }
+}

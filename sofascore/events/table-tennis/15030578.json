@@ -1,0 +1,1526 @@
+{
+  "event/15030578/h2h": {
+    "teamDuel": {
+      "homeWins": 4,
+      "awayWins": 2,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15030578/votes": {
+    "vote": {
+      "vote1": 46,
+      "vote2": 7,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15030578": {
+    "event": {
+      "tournament": {
+        "name": "Czech Liga Pro",
+        "slug": "czech-liga-pro",
+        "category": {
+          "name": "Czech Republic",
+          "slug": "czech-republic",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1369,
+          "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+          },
+          "flag": "czech-republic",
+          "alpha2": "CZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "التشيك"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Czech Liga Pro",
+          "slug": "czech-liga-pro",
+          "category": {
+            "name": "Czech Republic",
+            "slug": "czech-republic",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1369,
+            "country": {
+              "alpha2": "CZ",
+              "alpha3": "CZE",
+              "name": "Czechia",
+              "slug": "czechia"
+            },
+            "flag": "czech-republic",
+            "alpha2": "CZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "التشيك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 110,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19039,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري المحترفين التشيكي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين التشيكي (Czech)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "cXndsuWri",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Nguyen B.",
+        "slug": "nguyen-ba-hoang-tai",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 133,
+        "nameCode": "NGU",
+        "national": false,
+        "type": 1,
+        "id": 1044819,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Nguyen, BA Hoang Tai",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نجوين، ب. أ. هوانغ تاي"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Novak K.",
+        "slug": "novak-kamil",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 252,
+        "nameCode": "NOV",
+        "national": false,
+        "type": 1,
+        "id": 409852,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Novak, Kamil",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نوفاك، كميل"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 7
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 10
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762831810
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1",
+          "awayScore.period1"
+        ],
+        "changeTimestamp": 1762831989
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15030578,
+      "defaultPeriodCount": 5,
+      "slug": "nguyen-novak",
+      "currentPeriodStartTimestamp": 1762831810,
+      "startTimestamp": 1762831800,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15030428,
+        "homeTeamId": 398476,
+        "awayTeamId": 410012,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030429,
+        "homeTeamId": 355334,
+        "awayTeamId": 398480,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030430,
+        "homeTeamId": 410013,
+        "awayTeamId": 398475,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030431,
+        "homeTeamId": 458856,
+        "awayTeamId": 410059,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030432,
+        "homeTeamId": 502715,
+        "awayTeamId": 506374,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030433,
+        "homeTeamId": 486993,
+        "awayTeamId": 488290,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030434,
+        "homeTeamId": 550812,
+        "awayTeamId": 445385,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030435,
+        "homeTeamId": 412640,
+        "awayTeamId": 422788,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030436,
+        "homeTeamId": 483808,
+        "awayTeamId": 490558,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030437,
+        "homeTeamId": 1108695,
+        "awayTeamId": 504158,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030438,
+        "homeTeamId": 504721,
+        "awayTeamId": 410501,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030502,
+        "homeTeamId": 409918,
+        "awayTeamId": 448100,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030503,
+        "homeTeamId": 355849,
+        "awayTeamId": 410188,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030558,
+        "homeTeamId": 409852,
+        "awayTeamId": 1136756,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030559,
+        "homeTeamId": 409832,
+        "awayTeamId": 1133964,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030560,
+        "homeTeamId": 1043000,
+        "awayTeamId": 484968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030561,
+        "homeTeamId": 445943,
+        "awayTeamId": 410437,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030562,
+        "homeTeamId": 355334,
+        "awayTeamId": 458856,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030563,
+        "homeTeamId": 1044819,
+        "awayTeamId": 1085904,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030564,
+        "homeTeamId": 929470,
+        "awayTeamId": 484968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030565,
+        "homeTeamId": 496771,
+        "awayTeamId": 1136756,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030566,
+        "homeTeamId": 1141665,
+        "awayTeamId": 1133964,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030567,
+        "homeTeamId": 1085904,
+        "awayTeamId": 409852,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030568,
+        "homeTeamId": 410437,
+        "awayTeamId": 409832,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030569,
+        "homeTeamId": 458856,
+        "awayTeamId": 1043000,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030570,
+        "homeTeamId": 1136756,
+        "awayTeamId": 1044819,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030571,
+        "homeTeamId": 1133964,
+        "awayTeamId": 445943,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030572,
+        "homeTeamId": 484968,
+        "awayTeamId": 355334,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030573,
+        "homeTeamId": 1085904,
+        "awayTeamId": 496771,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030574,
+        "homeTeamId": 410437,
+        "awayTeamId": 1141665,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030575,
+        "homeTeamId": 458856,
+        "awayTeamId": 929470,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030576,
+        "homeTeamId": 445943,
+        "awayTeamId": 409832,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030577,
+        "homeTeamId": 355334,
+        "awayTeamId": 1043000,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030578,
+        "homeTeamId": 1044819,
+        "awayTeamId": 409852,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030579,
+        "homeTeamId": 424538,
+        "awayTeamId": 410014,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030580,
+        "homeTeamId": 411152,
+        "awayTeamId": 548882,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030581,
+        "homeTeamId": 410020,
+        "awayTeamId": 522792,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030582,
+        "homeTeamId": 398514,
+        "awayTeamId": 409838,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030583,
+        "homeTeamId": 412607,
+        "awayTeamId": 410299,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030584,
+        "homeTeamId": 519186,
+        "awayTeamId": 410440,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030585,
+        "homeTeamId": 410058,
+        "awayTeamId": 425872,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030586,
+        "homeTeamId": 481710,
+        "awayTeamId": 413020,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030587,
+        "homeTeamId": 548882,
+        "awayTeamId": 519186,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030588,
+        "homeTeamId": 522792,
+        "awayTeamId": 410058,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030589,
+        "homeTeamId": 409838,
+        "awayTeamId": 481710,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030590,
+        "homeTeamId": 410014,
+        "awayTeamId": 412607,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030591,
+        "homeTeamId": 410299,
+        "awayTeamId": 424538,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030592,
+        "homeTeamId": 425872,
+        "awayTeamId": 410020,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030593,
+        "homeTeamId": 410440,
+        "awayTeamId": 411152,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030594,
+        "homeTeamId": 413020,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030595,
+        "homeTeamId": 424538,
+        "awayTeamId": 412607,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030596,
+        "homeTeamId": 411152,
+        "awayTeamId": 519186,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030597,
+        "homeTeamId": 410020,
+        "awayTeamId": 410058,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030598,
+        "homeTeamId": 398514,
+        "awayTeamId": 481710,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030599,
+        "homeTeamId": 548882,
+        "awayTeamId": 410440,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030600,
+        "homeTeamId": 522792,
+        "awayTeamId": 425872,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030601,
+        "homeTeamId": 409838,
+        "awayTeamId": 413020,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030602,
+        "homeTeamId": 410014,
+        "awayTeamId": 410299,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15030684,
+        "homeTeamId": 410184,
+        "awayTeamId": 452354,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030685,
+        "homeTeamId": 466061,
+        "awayTeamId": 425873,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030686,
+        "homeTeamId": 410184,
+        "awayTeamId": 413380,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030687,
+        "homeTeamId": 425873,
+        "awayTeamId": 452354,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030688,
+        "homeTeamId": 466061,
+        "awayTeamId": 413380,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030689,
+        "homeTeamId": 410184,
+        "awayTeamId": 425873,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030690,
+        "homeTeamId": 413380,
+        "awayTeamId": 452354,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030691,
+        "homeTeamId": 410184,
+        "awayTeamId": 466061,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030692,
+        "homeTeamId": 461074,
+        "awayTeamId": 511646,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030693,
+        "homeTeamId": 462873,
+        "awayTeamId": 416191,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030694,
+        "homeTeamId": 461074,
+        "awayTeamId": 416191,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030695,
+        "homeTeamId": 486993,
+        "awayTeamId": 502715,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030696,
+        "homeTeamId": 446686,
+        "awayTeamId": 447970,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030697,
+        "homeTeamId": 421778,
+        "awayTeamId": 466093,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030698,
+        "homeTeamId": 464814,
+        "awayTeamId": 511646,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030699,
+        "homeTeamId": 550812,
+        "awayTeamId": 506374,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030700,
+        "homeTeamId": 512450,
+        "awayTeamId": 1077161,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030701,
+        "homeTeamId": 423054,
+        "awayTeamId": 411698,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030702,
+        "homeTeamId": 418801,
+        "awayTeamId": 409861,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030703,
+        "homeTeamId": 1084605,
+        "awayTeamId": 464814,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030704,
+        "homeTeamId": 486993,
+        "awayTeamId": 506374,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030709,
+        "homeTeamId": 446686,
+        "awayTeamId": 1077161,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030714,
+        "homeTeamId": 421778,
+        "awayTeamId": 411698,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030720,
+        "homeTeamId": 414763,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030723,
+        "homeTeamId": 462873,
+        "awayTeamId": 1084605,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030724,
+        "homeTeamId": 450860,
+        "awayTeamId": 502715,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030725,
+        "homeTeamId": 447970,
+        "awayTeamId": 512450,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030726,
+        "homeTeamId": 466093,
+        "awayTeamId": 423054,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030727,
+        "homeTeamId": 418801,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030728,
+        "homeTeamId": 461074,
+        "awayTeamId": 464814,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030729,
+        "homeTeamId": 526370,
+        "awayTeamId": 450860,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030730,
+        "homeTeamId": 446686,
+        "awayTeamId": 512450,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030731,
+        "homeTeamId": 421778,
+        "awayTeamId": 423054,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030732,
+        "homeTeamId": 409861,
+        "awayTeamId": 414763,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030733,
+        "homeTeamId": 1084605,
+        "awayTeamId": 416191,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15030804,
+        "homeTeamId": 459960,
+        "awayTeamId": 498796,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030805,
+        "homeTeamId": 1081202,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030806,
+        "homeTeamId": 1085576,
+        "awayTeamId": 1129558,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030807,
+        "homeTeamId": 414115,
+        "awayTeamId": 476438,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030808,
+        "homeTeamId": 268047,
+        "awayTeamId": 478718,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030809,
+        "homeTeamId": 415463,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030810,
+        "homeTeamId": 458799,
+        "awayTeamId": 1149585,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030811,
+        "homeTeamId": 414186,
+        "awayTeamId": 448751,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030812,
+        "homeTeamId": 425648,
+        "awayTeamId": 853696,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030813,
+        "homeTeamId": 459045,
+        "awayTeamId": 1081202,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030814,
+        "homeTeamId": 414317,
+        "awayTeamId": 498796,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030815,
+        "homeTeamId": 459038,
+        "awayTeamId": 1085576,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030816,
+        "homeTeamId": 414115,
+        "awayTeamId": 448751,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030817,
+        "homeTeamId": 268047,
+        "awayTeamId": 853696,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030818,
+        "homeTeamId": 412160,
+        "awayTeamId": 1081202,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030819,
+        "homeTeamId": 455624,
+        "awayTeamId": 459960,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030820,
+        "homeTeamId": 462049,
+        "awayTeamId": 1129558,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030821,
+        "homeTeamId": 476438,
+        "awayTeamId": 414186,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030822,
+        "homeTeamId": 478718,
+        "awayTeamId": 425648,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030823,
+        "homeTeamId": 458799,
+        "awayTeamId": 1085576,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030824,
+        "homeTeamId": 419378,
+        "awayTeamId": 459045,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030825,
+        "homeTeamId": 415463,
+        "awayTeamId": 414317,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030826,
+        "homeTeamId": 414115,
+        "awayTeamId": 414186,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030827,
+        "homeTeamId": 268047,
+        "awayTeamId": 425648,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030828,
+        "homeTeamId": 412160,
+        "awayTeamId": 459045,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030829,
+        "homeTeamId": 459038,
+        "awayTeamId": 462049,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030830,
+        "homeTeamId": 459960,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030831,
+        "homeTeamId": 448751,
+        "awayTeamId": 476438,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030832,
+        "homeTeamId": 455624,
+        "awayTeamId": 498796,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030833,
+        "homeTeamId": 853696,
+        "awayTeamId": 478718,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030834,
+        "homeTeamId": 1129558,
+        "awayTeamId": 1149585,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030835,
+        "homeTeamId": 1081202,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030836,
+        "homeTeamId": 414317,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030837,
+        "homeTeamId": 412160,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030838,
+        "homeTeamId": 458799,
+        "awayTeamId": 462049,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030839,
+        "homeTeamId": 1085576,
+        "awayTeamId": 1149585,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030840,
+        "homeTeamId": 415463,
+        "awayTeamId": 455624,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030841,
+        "homeTeamId": 459045,
+        "awayTeamId": 1081202,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030842,
+        "homeTeamId": 459038,
+        "awayTeamId": 1129558,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030843,
+        "homeTeamId": 459960,
+        "awayTeamId": 498796,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030844,
+        "homeTeamId": 1084420,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030845,
+        "homeTeamId": 424764,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030846,
+        "homeTeamId": 266892,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030847,
+        "homeTeamId": 414317,
+        "awayTeamId": 455624,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030848,
+        "homeTeamId": 412897,
+        "awayTeamId": 527083,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030849,
+        "homeTeamId": 462050,
+        "awayTeamId": 508022,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030850,
+        "homeTeamId": 413684,
+        "awayTeamId": 419435,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030851,
+        "homeTeamId": 415463,
+        "awayTeamId": 459960,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030852,
+        "homeTeamId": 455526,
+        "awayTeamId": 497843,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030853,
+        "homeTeamId": 463539,
+        "awayTeamId": 1124200,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030854,
+        "homeTeamId": 1084420,
+        "awayTeamId": 508022,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030855,
+        "homeTeamId": 410487,
+        "awayTeamId": 1043754,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030856,
+        "homeTeamId": 498796,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030857,
+        "homeTeamId": 483593,
+        "awayTeamId": 410531,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030858,
+        "homeTeamId": 452965,
+        "awayTeamId": 1102369,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030859,
+        "homeTeamId": 205638,
+        "awayTeamId": 305602,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030860,
+        "homeTeamId": 424854,
+        "awayTeamId": 462050,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030861,
+        "homeTeamId": 424764,
+        "awayTeamId": 413684,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030862,
+        "homeTeamId": 266892,
+        "awayTeamId": 455526,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030863,
+        "homeTeamId": 482656,
+        "awayTeamId": 411533,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030864,
+        "homeTeamId": 414317,
+        "awayTeamId": 459960,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030865,
+        "homeTeamId": 412897,
+        "awayTeamId": 463539,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030866,
+        "homeTeamId": 1043754,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030867,
+        "homeTeamId": 1084420,
+        "awayTeamId": 462050,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030868,
+        "homeTeamId": 410531,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030869,
+        "homeTeamId": 249161,
+        "awayTeamId": 412611,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030870,
+        "homeTeamId": 455624,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030871,
+        "homeTeamId": 1102369,
+        "awayTeamId": 527083,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030872,
+        "homeTeamId": 410487,
+        "awayTeamId": 419435,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030873,
+        "homeTeamId": 508022,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030874,
+        "homeTeamId": 483593,
+        "awayTeamId": 497843,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030875,
+        "homeTeamId": 205638,
+        "awayTeamId": 482656,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030876,
+        "homeTeamId": 415463,
+        "awayTeamId": 498796,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030877,
+        "homeTeamId": 452965,
+        "awayTeamId": 1124200,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030878,
+        "homeTeamId": 413684,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030879,
+        "homeTeamId": 455526,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030880,
+        "homeTeamId": 1084420,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030881,
+        "homeTeamId": 412611,
+        "awayTeamId": 305602,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030882,
+        "homeTeamId": 464712,
+        "awayTeamId": 460528,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030883,
+        "homeTeamId": 463539,
+        "awayTeamId": 527083,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030884,
+        "homeTeamId": 424764,
+        "awayTeamId": 410487,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030885,
+        "homeTeamId": 266892,
+        "awayTeamId": 483593,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030886,
+        "homeTeamId": 249161,
+        "awayTeamId": 411533,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030887,
+        "homeTeamId": 462050,
+        "awayTeamId": 508022,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030888,
+        "homeTeamId": 460555,
+        "awayTeamId": 497639,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030889,
+        "homeTeamId": 412897,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030890,
+        "homeTeamId": 1043754,
+        "awayTeamId": 419435,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030891,
+        "homeTeamId": 410531,
+        "awayTeamId": 497843,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030892,
+        "homeTeamId": 1084420,
+        "awayTeamId": 508022,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030893,
+        "homeTeamId": 482656,
+        "awayTeamId": 305602,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030894,
+        "homeTeamId": 454798,
+        "awayTeamId": 411479,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030895,
+        "homeTeamId": 1102369,
+        "awayTeamId": 1124200,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030896,
+        "homeTeamId": 413684,
+        "awayTeamId": 410487,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030897,
+        "homeTeamId": 455526,
+        "awayTeamId": 483593,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030898,
+        "homeTeamId": 424854,
+        "awayTeamId": 462050,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030899,
+        "homeTeamId": 205638,
+        "awayTeamId": 249161,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030900,
+        "homeTeamId": 463539,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030901,
+        "homeTeamId": 464712,
+        "awayTeamId": 460555,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030902,
+        "homeTeamId": 424764,
+        "awayTeamId": 1043754,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030903,
+        "homeTeamId": 1084420,
+        "awayTeamId": 462050,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030904,
+        "homeTeamId": 412897,
+        "awayTeamId": 1102369,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030905,
+        "homeTeamId": 411479,
+        "awayTeamId": 460528,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030906,
+        "homeTeamId": 266892,
+        "awayTeamId": 410531,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030907,
+        "homeTeamId": 412611,
+        "awayTeamId": 411533,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030908,
+        "homeTeamId": 419435,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030909,
+        "homeTeamId": 454798,
+        "awayTeamId": 497639,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030910,
+        "homeTeamId": 508022,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030911,
+        "homeTeamId": 497843,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030912,
+        "homeTeamId": 1124200,
+        "awayTeamId": 527083,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030913,
+        "homeTeamId": 482656,
+        "awayTeamId": 249161,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030914,
+        "homeTeamId": 413684,
+        "awayTeamId": 1043754,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030915,
+        "homeTeamId": 460555,
+        "awayTeamId": 460528,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030916,
+        "homeTeamId": 455526,
+        "awayTeamId": 410531,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030917,
+        "homeTeamId": 463539,
+        "awayTeamId": 1102369,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030918,
+        "homeTeamId": 205638,
+        "awayTeamId": 412611,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030919,
+        "homeTeamId": 410487,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030920,
+        "homeTeamId": 452965,
+        "awayTeamId": 527083,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030921,
+        "homeTeamId": 464712,
+        "awayTeamId": 454798,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030922,
+        "homeTeamId": 483593,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15030923,
+        "homeTeamId": 411533,
+        "awayTeamId": 305602,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15031168,
+        "homeTeamId": 1143418,
+        "awayTeamId": 1144570,
+        "uniqueTournamentId": 30772
+      },
+      {
+        "eventId": 15031169,
+        "homeTeamId": 1149988,
+        "awayTeamId": 501051,
+        "uniqueTournamentId": 30772
+      }
+    ]
+  }
+}

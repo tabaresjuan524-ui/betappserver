@@ -1,0 +1,522 @@
+{
+  "event/15031065/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 9,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15031065": {
+    "event": {
+      "tournament": {
+        "name": "TT Elite Series",
+        "slug": "tt-elite-series",
+        "category": {
+          "name": "Poland",
+          "slug": "poland",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1340,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "flag": "poland",
+          "alpha2": "PL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Elite Series",
+          "slug": "tt-elite-series",
+          "category": {
+            "name": "Poland",
+            "slug": "poland",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1340,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "flag": "poland",
+            "alpha2": "PL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1036,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19041,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة النخبة لتنس الطاولة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة النخبة لتنس الطاولة (TT)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "ImMbsgOQg",
+      "status": {
+        "code": 10,
+        "description": "3rd set",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Strowski K.",
+        "slug": "strowski-karol",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 225,
+        "playerTeamInfo": {
+          "id": 22681
+        },
+        "nameCode": "STR",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 854456,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Strowski, Karol",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستروفسكي، كارول"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Wiecek A.",
+        "slug": "wiecek-adrian",
+        "shortName": "Wiecek A.",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 473,
+        "nameCode": "WIE",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 218133,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Wiecek, Adrian",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتشيك، أدريان"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فيتشيك"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 11,
+        "period3": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 8,
+        "period2": 5,
+        "period3": 3
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762894451
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "homeScore.period3",
+          "awayScore.period3",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762894517
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15031065,
+      "defaultPeriodCount": 5,
+      "slug": "strowski-wiecek",
+      "currentPeriodStartTimestamp": 1762894451,
+      "startTimestamp": 1762893900,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "??",
+        "AN",
+        "CU",
+        "IR",
+        "KP",
+        "SY",
+        "VE",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/15031065/votes": {
+    "vote": {
+      "vote1": 13,
+      "vote2": 42,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15033788,
+        "homeTeamId": 517214,
+        "awayTeamId": 1150269,
+        "uniqueTournamentId": 30792
+      },
+      {
+        "eventId": 15033789,
+        "homeTeamId": 1150270,
+        "awayTeamId": 503456,
+        "uniqueTournamentId": 30792
+      },
+      {
+        "eventId": 15033790,
+        "homeTeamId": 1150271,
+        "awayTeamId": 1079255,
+        "uniqueTournamentId": 30792
+      },
+      {
+        "eventId": 15033791,
+        "homeTeamId": 476806,
+        "awayTeamId": 1150272,
+        "uniqueTournamentId": 30792
+      },
+      {
+        "eventId": 15033804,
+        "homeTeamId": 1079128,
+        "awayTeamId": 407882,
+        "uniqueTournamentId": 30769
+      },
+      {
+        "eventId": 15033811,
+        "homeTeamId": 455852,
+        "awayTeamId": 449173,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15033812,
+        "homeTeamId": 410294,
+        "awayTeamId": 410186,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15034030,
+        "homeTeamId": 234323,
+        "awayTeamId": 251835,
+        "uniqueTournamentId": 30785
+      },
+      {
+        "eventId": 15034208,
+        "homeTeamId": 120814,
+        "awayTeamId": 78085,
+        "uniqueTournamentId": 1574
+      },
+      {
+        "eventId": 15034564,
+        "homeTeamId": 126100,
+        "awayTeamId": 208087,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034565,
+        "homeTeamId": 230821,
+        "awayTeamId": 146896,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034566,
+        "homeTeamId": 194920,
+        "awayTeamId": 126110,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034611,
+        "homeTeamId": 495088,
+        "awayTeamId": 399036,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034612,
+        "homeTeamId": 292783,
+        "awayTeamId": 292512,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034714,
+        "homeTeamId": 235444,
+        "awayTeamId": 400099,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034715,
+        "homeTeamId": 230886,
+        "awayTeamId": 192741,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034738,
+        "homeTeamId": 25083,
+        "awayTeamId": 126230,
+        "uniqueTournamentId": 2122
+      },
+      {
+        "eventId": 15034845,
+        "homeTeamId": 146862,
+        "awayTeamId": 254885,
+        "uniqueTournamentId": 2122
+      },
+      {
+        "eventId": 15034846,
+        "homeTeamId": 272324,
+        "awayTeamId": 254909,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034847,
+        "homeTeamId": 235444,
+        "awayTeamId": 192741,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15034946,
+        "homeTeamId": 414395,
+        "awayTeamId": 524565,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15034947,
+        "homeTeamId": 458743,
+        "awayTeamId": 413021,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15035067,
+        "homeTeamId": 484525,
+        "awayTeamId": 458857,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15035068,
+        "homeTeamId": 410015,
+        "awayTeamId": 412069,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15035069,
+        "homeTeamId": 409846,
+        "awayTeamId": 422222,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15035070,
+        "homeTeamId": 412607,
+        "awayTeamId": 410439,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15035071,
+        "homeTeamId": 126244,
+        "awayTeamId": 213383,
+        "uniqueTournamentId": 2122
+      },
+      {
+        "eventId": 15035072,
+        "homeTeamId": 25083,
+        "awayTeamId": 254885,
+        "uniqueTournamentId": 2122
+      },
+      {
+        "eventId": 15035073,
+        "homeTeamId": 510516,
+        "awayTeamId": 266891,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035074,
+        "homeTeamId": 268557,
+        "awayTeamId": 347682,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035084,
+        "homeTeamId": 466145,
+        "awayTeamId": 398477,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035085,
+        "homeTeamId": 462289,
+        "awayTeamId": 504721,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035086,
+        "homeTeamId": 483808,
+        "awayTeamId": 503330,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035093,
+        "homeTeamId": 230821,
+        "awayTeamId": 126148,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15035139,
+        "homeTeamId": 126100,
+        "awayTeamId": 399036,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15035172,
+        "homeTeamId": 230886,
+        "awayTeamId": 400099,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15035180,
+        "homeTeamId": 422788,
+        "awayTeamId": 458800,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035351,
+        "homeTeamId": 935167,
+        "awayTeamId": 233655,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15035360,
+        "homeTeamId": 146862,
+        "awayTeamId": 126230,
+        "uniqueTournamentId": 2122
+      },
+      {
+        "eventId": 15035361,
+        "homeTeamId": 495088,
+        "awayTeamId": 208087,
+        "uniqueTournamentId": 9500
+      },
+      {
+        "eventId": 15035362,
+        "homeTeamId": 410854,
+        "awayTeamId": 410311,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035363,
+        "homeTeamId": 1079724,
+        "awayTeamId": 410210,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15035457,
+        "homeTeamId": 479379,
+        "awayTeamId": 1091679,
+        "uniqueTournamentId": 30755
+      }
+    ]
+  }
+}

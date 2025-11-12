@@ -1,0 +1,2924 @@
+{
+  "event/14959596/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 0,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14959596": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3816,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "PBBsWWJ",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "TCU Horned Frogs",
+        "slug": "tcu-horned-frogs",
+        "shortName": "TCU",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 311,
+        "manager": {
+          "name": "Jamie Dixon",
+          "slug": "jamie-dixon",
+          "shortName": "J. Dixon",
+          "id": 804511,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمي ديكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ديكسون"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Fort Worth"
+          },
+          "hidden": true,
+          "slug": "schollmaier-arena",
+          "name": "Schollmaier Arena",
+          "id": 19426,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا شولماير",
+              "hi": "स्कोलमेयर एरिना",
+              "bn": "স্কোলমায়ার এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Schollmaier Arena"
+          }
+        },
+        "nameCode": "TCU",
+        "national": false,
+        "type": 0,
+        "id": 87346,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "TCU Horned Frogs",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#53257f",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تي اس يو هورنيد فروغز",
+            "ru": "ТКЮ Хорнд Фрогс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Lamar Cardinals",
+        "slug": "lamar-cardinals",
+        "shortName": "Lamar",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 140,
+        "venue": {
+          "city": {
+            "name": "Beaumont"
+          },
+          "hidden": true,
+          "slug": "montagne-center",
+          "name": "Montagne Center",
+          "capacity": 10080,
+          "id": 16769,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونتانيه سنتر",
+              "hi": "मोंटेग्ने सेंटर",
+              "bn": "মন্টাগন সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Montagne Center",
+            "capacity": 10080
+          }
+        },
+        "nameCode": "LAM",
+        "national": false,
+        "type": 0,
+        "id": 66340,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Lamar Cardinals",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لامار كاردينالز",
+            "ru": "Ламар Кардиналс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 61,
+        "display": 61,
+        "period1": 39,
+        "period2": 22
+      },
+      "awayScore": {
+        "current": 56,
+        "display": 56,
+        "period1": 38,
+        "period2": 18
+      },
+      "time": {
+        "played": 1905,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2",
+          "time.played"
+        ],
+        "changeTimestamp": 1762829030
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14959596,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "tcu-horned-frogs-lamar-cardinals",
+      "startTimestamp": 1762822800,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14959596/votes": {
+    "vote": {
+      "vote1": 245,
+      "vote2": 26,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14959596/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 61,
+        "awayScore": 56,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 61,
+        "awayScore": 56,
+        "player": {
+          "name": "Jace Posey",
+          "slug": "posey-jace",
+          "shortName": "J. Posey",
+          "position": "F",
+          "jerseyNumber": "41",
+          "height": 195,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1600120,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوزي، جايس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بوزي"
+            }
+          }
+        },
+        "id": 327051558,
+        "time": 32,
+        "timeSeconds": 1905,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 495,
+        "periodTimeSeconds": 705,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 60,
+        "awayScore": 56,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327051496,
+        "time": 31,
+        "timeSeconds": 1845,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 555,
+        "periodTimeSeconds": 645,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 58,
+        "awayScore": 56,
+        "player": {
+          "name": "David Punch",
+          "slug": "punch-david",
+          "shortName": "D. Punch",
+          "position": "F",
+          "jerseyNumber": "15",
+          "height": 200,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بانش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بانش"
+            }
+          }
+        },
+        "id": 327051495,
+        "time": 31,
+        "timeSeconds": 1821,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 579,
+        "periodTimeSeconds": 621,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 56,
+        "awayScore": 56,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051446,
+        "time": 30,
+        "timeSeconds": 1779,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 621,
+        "periodTimeSeconds": 579,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 56,
+        "awayScore": 55,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327051433,
+        "time": 30,
+        "timeSeconds": 1752,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 648,
+        "periodTimeSeconds": 552,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 54,
+        "awayScore": 55,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051397,
+        "time": 29,
+        "timeSeconds": 1687,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 713,
+        "periodTimeSeconds": 487,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 53,
+        "awayScore": 55,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051374,
+        "time": 29,
+        "timeSeconds": 1687,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 713,
+        "periodTimeSeconds": 487,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 52,
+        "awayScore": 55,
+        "player": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327051257,
+        "time": 28,
+        "timeSeconds": 1629,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 771,
+        "periodTimeSeconds": 429,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 52,
+        "awayScore": 54,
+        "player": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327051210,
+        "time": 27,
+        "timeSeconds": 1589,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 811,
+        "periodTimeSeconds": 389,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 52,
+        "awayScore": 52,
+        "player": {
+          "name": "David Punch",
+          "slug": "punch-david",
+          "shortName": "D. Punch",
+          "position": "F",
+          "jerseyNumber": "15",
+          "height": 200,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بانش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بانش"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "id": 327051195,
+        "time": 26,
+        "timeSeconds": 1557,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 843,
+        "periodTimeSeconds": 357,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 49,
+        "awayScore": 52,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327051154,
+        "time": 25,
+        "timeSeconds": 1484,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 916,
+        "periodTimeSeconds": 284,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 47,
+        "awayScore": 52,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051084,
+        "time": 25,
+        "timeSeconds": 1467,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 933,
+        "periodTimeSeconds": 267,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 47,
+        "awayScore": 50,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051058,
+        "time": 24,
+        "timeSeconds": 1422,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 978,
+        "periodTimeSeconds": 222,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 50,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327051057,
+        "time": 24,
+        "timeSeconds": 1422,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 978,
+        "periodTimeSeconds": 222,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 45,
+        "awayScore": 50,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327050923,
+        "time": 24,
+        "timeSeconds": 1390,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 1010,
+        "periodTimeSeconds": 190,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 45,
+        "awayScore": 47,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050922,
+        "time": 23,
+        "timeSeconds": 1363,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1037,
+        "periodTimeSeconds": 163,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 45,
+        "awayScore": 44,
+        "player": {
+          "name": "David Punch",
+          "slug": "punch-david",
+          "shortName": "D. Punch",
+          "position": "F",
+          "jerseyNumber": "15",
+          "height": 200,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بانش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بانش"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050921,
+        "time": 23,
+        "timeSeconds": 1355,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1045,
+        "periodTimeSeconds": 155,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 43,
+        "awayScore": 44,
+        "player": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327050894,
+        "time": 23,
+        "timeSeconds": 1338,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1062,
+        "periodTimeSeconds": 138,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 43,
+        "awayScore": 42,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327050893,
+        "time": 22,
+        "timeSeconds": 1315,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1085,
+        "periodTimeSeconds": 115,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 41,
+        "awayScore": 42,
+        "player": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327050891,
+        "time": 22,
+        "timeSeconds": 1295,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1105,
+        "periodTimeSeconds": 95,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 41,
+        "awayScore": 40,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050866,
+        "time": 22,
+        "timeSeconds": 1275,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1125,
+        "periodTimeSeconds": 75,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 41,
+        "awayScore": 39,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050865,
+        "time": 22,
+        "timeSeconds": 1275,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1125,
+        "periodTimeSeconds": 75,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 41,
+        "awayScore": 38,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327050845,
+        "time": 21,
+        "timeSeconds": 1255,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1145,
+        "periodTimeSeconds": 55,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 39,
+        "awayScore": 38,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 39,
+        "awayScore": 38,
+        "player": {
+          "name": "Micah Robinson",
+          "slug": "robinson-micah",
+          "shortName": "M. Robinson",
+          "position": "F",
+          "jerseyNumber": "5",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958819,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روبنسون، ميكا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. روبنسون"
+            }
+          }
+        },
+        "id": 327050415,
+        "time": 20,
+        "timeSeconds": 1193,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 7,
+        "periodTimeSeconds": 1193,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 38,
+        "awayScore": 38,
+        "player": {
+          "name": "Micah Robinson",
+          "slug": "robinson-micah",
+          "shortName": "M. Robinson",
+          "position": "F",
+          "jerseyNumber": "5",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958819,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روبنسون، ميكا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. روبنسون"
+            }
+          }
+        },
+        "id": 327050414,
+        "time": 20,
+        "timeSeconds": 1193,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 7,
+        "periodTimeSeconds": 1193,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 37,
+        "awayScore": 38,
+        "player": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050360,
+        "time": 19,
+        "timeSeconds": 1136,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 64,
+        "periodTimeSeconds": 1136,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 35,
+        "awayScore": 38,
+        "player": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "id": 327050359,
+        "time": 19,
+        "timeSeconds": 1123,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 77,
+        "periodTimeSeconds": 1123,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 35,
+        "awayScore": 36,
+        "player": {
+          "name": "Kayden Edwards",
+          "firstName": "Kayden Edwards",
+          "slug": "kayden-edwards",
+          "shortName": "K. Edwards",
+          "userCount": 2,
+          "id": 2342273,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050336,
+        "time": 19,
+        "timeSeconds": 1110,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 90,
+        "periodTimeSeconds": 1110,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 34,
+        "awayScore": 36,
+        "player": {
+          "name": "King-Njhsanni Wilhite",
+          "firstName": "King-Njhsanni Wilhite",
+          "slug": "king-njhsanni-wilhite",
+          "shortName": "K. Wilhite",
+          "position": "G",
+          "height": 185,
+          "userCount": 0,
+          "id": 2341234,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "id": 327050315,
+        "time": 19,
+        "timeSeconds": 1094,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 106,
+        "periodTimeSeconds": 1094,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 34,
+        "awayScore": 34,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "King-Njhsanni Wilhite",
+          "firstName": "King-Njhsanni Wilhite",
+          "slug": "king-njhsanni-wilhite",
+          "shortName": "K. Wilhite",
+          "position": "G",
+          "height": 185,
+          "userCount": 0,
+          "id": 2341234,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050314,
+        "time": 18,
+        "timeSeconds": 1069,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 131,
+        "periodTimeSeconds": 1069,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 34,
+        "awayScore": 31,
+        "player": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Kayden Edwards",
+          "firstName": "Kayden Edwards",
+          "slug": "kayden-edwards",
+          "shortName": "K. Edwards",
+          "userCount": 2,
+          "id": 2342273,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050313,
+        "time": 18,
+        "timeSeconds": 1051,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 149,
+        "periodTimeSeconds": 1051,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 31,
+        "player": {
+          "name": "Kayden Edwards",
+          "firstName": "Kayden Edwards",
+          "slug": "kayden-edwards",
+          "shortName": "K. Edwards",
+          "userCount": 2,
+          "id": 2342273,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "id": 327050002,
+        "time": 17,
+        "timeSeconds": 968,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 232,
+        "periodTimeSeconds": 968,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 29,
+        "awayScore": 31,
+        "player": {
+          "name": "Jace Posey",
+          "slug": "posey-jace",
+          "shortName": "J. Posey",
+          "position": "F",
+          "jerseyNumber": "41",
+          "height": 195,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1600120,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوزي، جايس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بوزي"
+            }
+          }
+        },
+        "id": 327050001,
+        "time": 16,
+        "timeSeconds": 943,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 257,
+        "periodTimeSeconds": 943,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 27,
+        "awayScore": 31,
+        "player": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "assist1": {
+          "name": "King-Njhsanni Wilhite",
+          "firstName": "King-Njhsanni Wilhite",
+          "slug": "king-njhsanni-wilhite",
+          "shortName": "K. Wilhite",
+          "position": "G",
+          "height": 185,
+          "userCount": 0,
+          "id": 2341234,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327050000,
+        "time": 16,
+        "timeSeconds": 927,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 273,
+        "periodTimeSeconds": 927,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 27,
+        "awayScore": 29,
+        "player": {
+          "name": "Lelevicius Liutauras",
+          "firstName": "Liutauras",
+          "lastName": "Lelevicius",
+          "slug": "liutauras-lelevicius",
+          "shortName": "L. Lelevičius",
+          "position": "G",
+          "height": 201,
+          "userCount": 31,
+          "gender": "M",
+          "id": 1173835,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1054080000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليوتاراس، ليفيليتشياس",
+              "hi": "लिउटौरस, लेलेविसियस",
+              "bn": "লিউটারাস, লেলেভিসিয়াস"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ليفيليتشياس",
+              "hi": "एल. लेलेविसियस",
+              "bn": "এল. লেলেভিসিয়াস"
+            }
+          }
+        },
+        "id": 327049923,
+        "time": 15,
+        "timeSeconds": 886,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 314,
+        "periodTimeSeconds": 886,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 26,
+        "awayScore": 29,
+        "player": {
+          "name": "Lelevicius Liutauras",
+          "firstName": "Liutauras",
+          "lastName": "Lelevicius",
+          "slug": "liutauras-lelevicius",
+          "shortName": "L. Lelevičius",
+          "position": "G",
+          "height": 201,
+          "userCount": 31,
+          "gender": "M",
+          "id": 1173835,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1054080000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليوتاراس، ليفيليتشياس",
+              "hi": "लिउटौरस, लेलेविसियस",
+              "bn": "লিউটারাস, লেলেভিসিয়াস"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ليفيليتشياس",
+              "hi": "एल. लेलेविसियस",
+              "bn": "এল. লেলেভিসিয়াস"
+            }
+          }
+        },
+        "id": 327049920,
+        "time": 15,
+        "timeSeconds": 886,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 314,
+        "periodTimeSeconds": 886,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 25,
+        "awayScore": 29,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049852,
+        "time": 15,
+        "timeSeconds": 843,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 357,
+        "periodTimeSeconds": 843,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 25,
+        "awayScore": 27,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049851,
+        "time": 14,
+        "timeSeconds": 817,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 383,
+        "periodTimeSeconds": 817,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 24,
+        "awayScore": 27,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049808,
+        "time": 14,
+        "timeSeconds": 817,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 383,
+        "periodTimeSeconds": 817,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 23,
+        "awayScore": 27,
+        "player": {
+          "name": "Jayden Gambrel",
+          "slug": "gambrel-jayden",
+          "shortName": "J. Gambrel",
+          "position": "G",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1899268,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غامبريل، جاييدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. غامبريل"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Andrew Holifield",
+          "slug": "holifield-andrew",
+          "shortName": "A. Holifield",
+          "position": "F",
+          "jerseyNumber": "22",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1666566,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هوليفيلد، أندرو"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. هوليفيلد"
+            }
+          }
+        },
+        "id": 327049783,
+        "time": 14,
+        "timeSeconds": 787,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 413,
+        "periodTimeSeconds": 787,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 23,
+        "awayScore": 24,
+        "player": {
+          "name": "Micah Robinson",
+          "slug": "robinson-micah",
+          "shortName": "M. Robinson",
+          "position": "F",
+          "jerseyNumber": "5",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958819,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روبنسون، ميكا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. روبنسون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "id": 327049748,
+        "time": 13,
+        "timeSeconds": 768,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 432,
+        "periodTimeSeconds": 768,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 20,
+        "awayScore": 24,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049513,
+        "time": 12,
+        "timeSeconds": 696,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 504,
+        "periodTimeSeconds": 696,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 20,
+        "awayScore": 22,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049491,
+        "time": 12,
+        "timeSeconds": 681,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 519,
+        "periodTimeSeconds": 681,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 18,
+        "awayScore": 22,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049490,
+        "time": 11,
+        "timeSeconds": 658,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 542,
+        "periodTimeSeconds": 658,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 18,
+        "awayScore": 21,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049469,
+        "time": 11,
+        "timeSeconds": 658,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 542,
+        "periodTimeSeconds": 658,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 18,
+        "awayScore": 20,
+        "player": {
+          "name": "Micah Robinson",
+          "slug": "robinson-micah",
+          "shortName": "M. Robinson",
+          "position": "F",
+          "jerseyNumber": "5",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958819,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "روبنسون، ميكا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. روبنسون"
+            }
+          }
+        },
+        "id": 327049468,
+        "time": 11,
+        "timeSeconds": 647,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 553,
+        "periodTimeSeconds": 647,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 20,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049378,
+        "time": 10,
+        "timeSeconds": 582,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 618,
+        "periodTimeSeconds": 582,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 18,
+        "player": {
+          "name": "David Punch",
+          "slug": "punch-david",
+          "shortName": "D. Punch",
+          "position": "F",
+          "jerseyNumber": "15",
+          "height": 200,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بانش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بانش"
+            }
+          }
+        },
+        "id": 327049347,
+        "time": 9,
+        "timeSeconds": 533,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 667,
+        "periodTimeSeconds": 533,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 18,
+        "player": {
+          "name": "Braden East",
+          "slug": "east-braden",
+          "shortName": "B. East",
+          "position": "F",
+          "height": 206,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1899280,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ياست، برادن"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. ياست"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Errol White",
+          "slug": "white-errol",
+          "shortName": "E. White",
+          "position": "F",
+          "jerseyNumber": "10",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1600617,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وايت، إيرول"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. وايت"
+            }
+          }
+        },
+        "id": 327049346,
+        "time": 9,
+        "timeSeconds": 502,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 698,
+        "periodTimeSeconds": 502,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 16,
+        "player": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "id": 327049164,
+        "time": 8,
+        "timeSeconds": 455,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 745,
+        "periodTimeSeconds": 455,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 15,
+        "awayScore": 14,
+        "player": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "id": 327049137,
+        "time": 8,
+        "timeSeconds": 442,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 758,
+        "periodTimeSeconds": 442,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 11,
+        "player": {
+          "name": "Jace Posey",
+          "slug": "posey-jace",
+          "shortName": "J. Posey",
+          "position": "F",
+          "jerseyNumber": "41",
+          "height": 195,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1600120,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوزي، جايس"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بوزي"
+            }
+          }
+        },
+        "id": 327049136,
+        "time": 7,
+        "timeSeconds": 402,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 798,
+        "periodTimeSeconds": 402,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 13,
+        "awayScore": 11,
+        "player": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "id": 327049115,
+        "time": 7,
+        "timeSeconds": 382,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 818,
+        "periodTimeSeconds": 382,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 8,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327049065,
+        "time": 6,
+        "timeSeconds": 313,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 887,
+        "periodTimeSeconds": 313,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 6,
+        "player": {
+          "name": "Rob Lee Jr.",
+          "firstName": "Rob Lee Jr.",
+          "slug": "rob-lee-jr",
+          "shortName": "R. Lee Jr.",
+          "userCount": 0,
+          "id": 2341554,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048944,
+        "time": 4,
+        "timeSeconds": 239,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 961,
+        "periodTimeSeconds": 239,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 4,
+        "player": {
+          "name": "Jayden Barrs",
+          "slug": "barrs-jayden",
+          "shortName": "J. Barrs",
+          "position": "G",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1603478,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارس، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بارس"
+            }
+          }
+        },
+        "id": 327048811,
+        "time": 4,
+        "timeSeconds": 207,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 993,
+        "periodTimeSeconds": 207,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 13,
+        "awayScore": 2,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327048776,
+        "time": 3,
+        "timeSeconds": 177,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1023,
+        "periodTimeSeconds": 177,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 2,
+        "player": {
+          "name": "David Punch",
+          "slug": "punch-david",
+          "shortName": "D. Punch",
+          "position": "F",
+          "jerseyNumber": "15",
+          "height": 200,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1958820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بانش، ديفيد"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بانش"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Lelevicius Liutauras",
+          "firstName": "Liutauras",
+          "lastName": "Lelevicius",
+          "slug": "liutauras-lelevicius",
+          "shortName": "L. Lelevičius",
+          "position": "G",
+          "height": 201,
+          "userCount": 31,
+          "gender": "M",
+          "id": 1173835,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1054080000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليوتاراس، ليفيليتشياس",
+              "hi": "लिउटौरस, लेलेविसियस",
+              "bn": "লিউটারাস, লেলেভিসিয়াস"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ليفيليتشياس",
+              "hi": "एल. लेलेविसियस",
+              "bn": "এল. লেলেভিসিয়াস"
+            }
+          }
+        },
+        "id": 327048705,
+        "time": 3,
+        "timeSeconds": 134,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1066,
+        "periodTimeSeconds": 134,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 7,
+        "awayScore": 2,
+        "player": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327048704,
+        "time": 2,
+        "timeSeconds": 109,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1091,
+        "periodTimeSeconds": 109,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 2,
+        "player": {
+          "name": "Cody Pennebaker",
+          "slug": "pennebaker-cody",
+          "shortName": "C. Pennebaker",
+          "position": "G",
+          "jerseyNumber": "0",
+          "height": 196,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1446272,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيبيكر، كودي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بينيبيكر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Errol White",
+          "slug": "white-errol",
+          "shortName": "E. White",
+          "position": "F",
+          "jerseyNumber": "10",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1600617,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وايت، إيرول"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. وايت"
+            }
+          }
+        },
+        "id": 327048671,
+        "time": 2,
+        "timeSeconds": 93,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1107,
+        "periodTimeSeconds": 93,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 0,
+        "player": {
+          "name": "Xavier Edmonds",
+          "firstName": "Xavier Edmonds",
+          "slug": "xavier-edmonds",
+          "shortName": "X. Edmonds",
+          "userCount": 0,
+          "id": 2342247,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "id": 327048636,
+        "time": 1,
+        "timeSeconds": 34,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1166,
+        "periodTimeSeconds": 34,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 0,
+        "player": {
+          "name": "Jayden Pierre",
+          "slug": "pierre-jayden",
+          "shortName": "J. Pierre",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 188,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1433978,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيير، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بيير"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Brock Harding",
+          "slug": "harding-brock",
+          "shortName": "B. Harding",
+          "position": "G",
+          "jerseyNumber": "2",
+          "height": 183,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1602064,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاردينغ، بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. هاردينغ"
+            }
+          }
+        },
+        "id": 327048635,
+        "time": 1,
+        "timeSeconds": 17,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1183,
+        "periodTimeSeconds": 17,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14959596/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184505903,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149597870,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "11/1",
+            "fractionalValue": "1/10",
+            "sourceId": 2076006661,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/66",
+            "fractionalValue": "11/2",
+            "sourceId": 2076006660,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184505903,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149598022,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "10/11",
+            "sourceId": 2076006657,
+            "name": "(+8.5) TCU Horned Frogs",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/13",
+            "sourceId": 2076006656,
+            "name": "(-8.5) Lamar Cardinals",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184505903,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149597870,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "11/1",
+            "fractionalValue": "1/10",
+            "sourceId": 2076006661,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/66",
+            "fractionalValue": "11/2",
+            "sourceId": 2076006660,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14959596/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 4
+      },
+      {
+        "minute": 2,
+        "value": 5
+      },
+      {
+        "minute": 3,
+        "value": 11
+      },
+      {
+        "minute": 4,
+        "value": 7
+      },
+      {
+        "minute": 5,
+        "value": 7
+      },
+      {
+        "minute": 6,
+        "value": 5
+      },
+      {
+        "minute": 7,
+        "value": 4
+      },
+      {
+        "minute": 8,
+        "value": -1
+      },
+      {
+        "minute": 9,
+        "value": -1
+      },
+      {
+        "minute": 10,
+        "value": -3
+      },
+      {
+        "minute": 11,
+        "value": -4
+      },
+      {
+        "minute": 12,
+        "value": -4
+      },
+      {
+        "minute": 13,
+        "value": -1
+      },
+      {
+        "minute": 14,
+        "value": -2
+      },
+      {
+        "minute": 15,
+        "value": -2
+      },
+      {
+        "minute": 16,
+        "value": -2
+      },
+      {
+        "minute": 17,
+        "value": 0
+      },
+      {
+        "minute": 18,
+        "value": 0
+      },
+      {
+        "minute": 19,
+        "value": -1
+      },
+      {
+        "minute": 20,
+        "value": 1
+      },
+      {
+        "minute": 21,
+        "value": 3
+      },
+      {
+        "minute": 22,
+        "value": 1
+      },
+      {
+        "minute": 23,
+        "value": -2
+      },
+      {
+        "minute": 24,
+        "value": -3
+      },
+      {
+        "minute": 25,
+        "value": -3
+      },
+      {
+        "minute": 26,
+        "value": 0
+      },
+      {
+        "minute": 27,
+        "value": -2
+      },
+      {
+        "minute": 28,
+        "value": -3
+      },
+      {
+        "minute": 29,
+        "value": -1
+      },
+      {
+        "minute": 30,
+        "value": 0
+      },
+      {
+        "minute": 31,
+        "value": 4
+      },
+      {
+        "minute": 32,
+        "value": 5
+      }
+    ],
+    "periodTime": 20,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14959596/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "3/100",
+      "expected": 97,
+      "actual": 90,
+      "id": 18031017
+    },
+    "away": null
+  },
+  "event/14959596/odds/1/all": {
+    "markets": [
+      {
+        "sourceId": 184505903,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149597870,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "11/1",
+            "fractionalValue": "1/10",
+            "sourceId": 2076006661,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "1/66",
+            "fractionalValue": "11/2",
+            "sourceId": 2076006660,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "sourceId": 184501132,
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184501133,
+        "suspended": false,
+        "id": 149097620,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "3/100",
+            "fractionalValue": "3/100",
+            "sourceId": 2075620291,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "15/1",
+            "fractionalValue": "14/1",
+            "sourceId": 2075620288,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184505903,
+        "structureType": 2,
+        "marketId": 16,
+        "marketName": "Point spread",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149598022,
+        "marketGroup": "Point spread",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "10/11",
+            "sourceId": 2076006657,
+            "name": "(+8.5) TCU Horned Frogs",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/13",
+            "sourceId": 2076006656,
+            "name": "(-8.5) Lamar Cardinals",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "sourceId": 184505903,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "153.5",
+        "isLive": true,
+        "fid": 184505903,
+        "suspended": false,
+        "id": 149598023,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "10/11",
+            "sourceId": 2076006658,
+            "name": "Over",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "5/6",
+            "fractionalValue": "10/13",
+            "sourceId": 2076006659,
+            "name": "Under",
+            "change": -1
+          }
+        ]
+      }
+    ],
+    "eventId": 14959596
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "event/15031362/esports-games": {
+    "games": [
+      {
+        "length": 2831,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeScore": {},
+        "awayScore": {},
+        "hasCompleteStatistics": false,
+        "id": 528769,
+        "startTimestamp": 1762889614
+      },
+      {
+        "status": {
+          "code": 20,
+          "description": "Started",
+          "type": "inprogress"
+        },
+        "winnerCode": 0,
+        "homeScore": {},
+        "awayScore": {},
+        "hasCompleteStatistics": false,
+        "id": 528770,
+        "startTimestamp": 1762893176
+      }
+    ]
+  },
+  "event/15031362/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15031362/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "ayuki",
+            "slug": "ayuki",
+            "shortName": "ayuki",
+            "userCount": 0,
+            "id": 2355630,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358720,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "wh1teout",
+            "firstName": "Vladislav",
+            "lastName": "Kokoulin",
+            "slug": "wh1teout",
+            "shortName": "wh1teout",
+            "userCount": 0,
+            "id": 1968294,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1085961600
+          },
+          "teamId": 413708,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "yogire",
+            "slug": "yogire",
+            "shortName": "yogire",
+            "userCount": 0,
+            "id": 2355631,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358720,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "z3ndy",
+            "slug": "z3ndy",
+            "shortName": "z3ndy",
+            "userCount": 0,
+            "id": 2355633,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358720,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "zEtsu",
+            "slug": "zetsu",
+            "shortName": "zEtsu",
+            "userCount": 0,
+            "id": 2355632,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358720,
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Myzunic",
+            "firstName": "Tom",
+            "lastName": "Pluot",
+            "slug": "myzunic",
+            "shortName": "Myzunic",
+            "userCount": 0,
+            "id": 1442151,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 358721,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Nico",
+            "firstName": "Nicolas",
+            "lastName": "Le Breton",
+            "slug": "nico",
+            "shortName": "Nico",
+            "userCount": 0,
+            "id": 2205392,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 1111292,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ziviio",
+            "slug": "ziviio",
+            "shortName": "Ziviio",
+            "userCount": 0,
+            "id": 2322848,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 1111292,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "bL4SEZ",
+            "firstName": "Elyas",
+            "lastName": "Amiar",
+            "slug": "bl4sez",
+            "shortName": "bL4SEZ",
+            "userCount": 0,
+            "id": 2205390,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 1111292,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "eSx",
+            "firstName": "Sacha",
+            "lastName": "Dupin",
+            "slug": "esx",
+            "shortName": "eSx",
+            "userCount": 0,
+            "id": 2205391,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 1111292,
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "unique-tournament/23645/season/85977/info": {
+    "info": {
+      "newcomersUpperDivision": [],
+      "newcomersLowerDivision": [],
+      "newcomersOther": [],
+      "numberOfCompetitors": 16,
+      "tier": "d",
+      "id": 53717,
+      "hostCountries": []
+    }
+  },
+  "event/15031362": {
+    "event": {
+      "tournament": {
+        "name": "Exort Series Contenders Stage",
+        "slug": "exort-series-contenders-stage",
+        "category": {
+          "name": "Counter Strike",
+          "slug": "csgo",
+          "sport": {
+            "name": "E-sports",
+            "slug": "esports",
+            "id": 72
+          },
+          "id": 1572,
+          "country": {},
+          "flag": "counter-strike",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاونتر سترايك",
+              "hi": "काउंटर स्ट्राइक",
+              "bn": "কাউন্টার স্ট্রাইক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Exort Series",
+          "slug": "exort-series",
+          "category": {
+            "name": "Counter Strike",
+            "slug": "csgo",
+            "sport": {
+              "name": "E-sports",
+              "slug": "esports",
+              "id": 72
+            },
+            "id": 1572,
+            "country": {},
+            "flag": "counter-strike",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاونتر سترايك",
+                "hi": "काउंटर स्ट्राइक",
+                "bn": "কাউন্টার স্ট্রাইক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 36,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 23645,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلسلة إكسورت"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "id": 148325,
+        "endTimestamp": 1764478800,
+        "startTimestamp": 1762684200,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مرحلة المتنافسين لسلسلة Exort"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Season 19 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85977
+      },
+      "customId": "RAUisLPjj",
+      "status": {
+        "code": 1002,
+        "description": "Second game",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Young TigeRES",
+        "slug": "young-tigeres",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 0,
+        "nameCode": "YTI",
+        "national": false,
+        "type": 0,
+        "id": 1149536,
+        "country": {},
+        "fullName": "Young TigeRES",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "3DMAX Academy",
+        "slug": "3dmax-academy",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 7,
+        "nameCode": "3AC",
+        "national": false,
+        "type": 0,
+        "id": 1111292,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fullName": "3DMAX Academy",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "3 دي ماكس أكاديمي"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "coverage": 90,
+      "time": {
+        "currentPeriodStartTimestamp": 1762893176
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762893186
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15031362,
+      "bestOf": 3,
+      "eventType": "best_of",
+      "roundsInAHalf": 12,
+      "slug": "young-tigeres-3dmax-academy",
+      "currentPeriodStartTimestamp": 1762893176,
+      "startTimestamp": 1762889400,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15031362/votes": {
+    "vote": {
+      "vote1": 9,
+      "vote2": 10,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15031362/highlights": {
+    "highlights": [
+      {
+        "title": "Stream available!",
+        "subtitle": "",
+        "url": "https://kick.com/exort-en2",
+        "mediaType": 1,
+        "doFollow": false,
+        "keyHighlight": false,
+        "livestream": false,
+        "id": 6944295,
+        "createdAtTimestamp": 1762836730,
+        "sourceUrl": "https://kick.com/exort-en2"
+      }
+    ]
+  }
+}

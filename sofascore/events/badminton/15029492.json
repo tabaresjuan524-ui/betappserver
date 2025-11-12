@@ -1,0 +1,573 @@
+{
+  "event/15029492/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15029492/votes": {
+    "vote": {
+      "vote1": 18,
+      "vote2": 8,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15029492": {
+    "event": {
+      "tournament": {
+        "name": "Kumamoto Masters Japan 2025, XD",
+        "slug": "kumamoto-masters-japan-2025-xd",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "id": 259,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kumamoto Masters Japan, XD",
+          "slug": "kumamoto-masters-japan-xd",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 16,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 21545,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كوماموتو اليابان، مزدوج مختلط"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168691
+      },
+      "season": {
+        "name": "Kumamoto Masters Japan, XD 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85985
+      },
+      "roundInfo": {
+        "round": 6,
+        "name": "Round of 32",
+        "slug": "round-of-32",
+        "cupRoundType": 16
+      },
+      "customId": "WiwcsEDdj",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kumamoto"
+        },
+        "hidden": true,
+        "slug": "court-3",
+        "name": "Court 3",
+        "id": 42503,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 3",
+            "hi": "कोर्ट 3",
+            "bn": "কোর্ট 3"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Court 3"
+        }
+      },
+      "homeTeam": {
+        "name": "Yang P-H / HU L F",
+        "slug": "yang-p-h-hu-l-f",
+        "gender": "X",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 27,
+        "nameCode": "Y/H",
+        "national": false,
+        "type": 2,
+        "id": 302946,
+        "country": {
+          "alpha2": "TW",
+          "alpha3": "TWN",
+          "name": "Chinese Taipei",
+          "slug": "chinese-taipei"
+        },
+        "fullName": "Yang P-H / HU L F",
+        "subTeams": [
+          {
+            "name": "Ling Fang Hu.",
+            "slug": "hu-ling-fang",
+            "gender": "F",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 5,
+            "nameCode": "LIN",
+            "national": false,
+            "type": 1,
+            "id": 181868,
+            "country": {
+              "alpha2": "TW",
+              "alpha3": "TWN",
+              "name": "Chinese Taipei",
+              "slug": "chinese-taipei"
+            },
+            "fullName": "Hu, Ling Fang",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هو، لينغ فاج"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Yang P.",
+            "slug": "yang-po-hsuan",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 5,
+            "nameCode": "YAN",
+            "national": false,
+            "type": 1,
+            "id": 478521,
+            "country": {
+              "alpha2": "TW",
+              "alpha3": "TWN",
+              "name": "Chinese Taipei",
+              "slug": "chinese-taipei"
+            },
+            "fullName": "Yang, Po-Hsuan",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "يانغ، بو هسوان"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "يانغ ب-هـ / هو ل ف"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Horbanluekit P / Aimsaard B",
+        "slug": "horbanluekit-p-aimsaard-b",
+        "gender": "X",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 2,
+        "nameCode": "H/A",
+        "national": false,
+        "type": 2,
+        "id": 1133929,
+        "country": {},
+        "fullName": "Horbanluekit P / Aimsaard B",
+        "subTeams": [
+          {
+            "name": "Aimsaard B.",
+            "slug": "aimsaard-benyapa",
+            "gender": "F",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 6,
+            "nameCode": "AIM",
+            "national": false,
+            "type": 1,
+            "id": 249831,
+            "country": {
+              "alpha2": "TH",
+              "alpha3": "THA",
+              "name": "Thailand",
+              "slug": "thailand"
+            },
+            "fullName": "Aimsaard, Benyapa",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أيمسارد، بينيابا"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Horbanluekit P.",
+            "slug": "horbanluekit-phuwanat",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 1,
+            "nameCode": "HOR",
+            "national": false,
+            "type": 1,
+            "id": 496246,
+            "country": {
+              "alpha2": "TH",
+              "alpha3": "THA",
+              "name": "Thailand",
+              "slug": "thailand"
+            },
+            "fullName": "Horbanluekit, Phuwanat",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هوربانلويكيت، فوانات"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هوربانلويكيت ب / أيمسارد ب"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 11
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 7
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762913337
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1"
+        ],
+        "changeTimestamp": 1762913734
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15029492,
+      "defaultPeriodCount": 3,
+      "slug": "horbanluekit-aimsaard-yang-p-h-huf",
+      "currentPeriodStartTimestamp": 1762913337,
+      "startTimestamp": 1762913100,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15029492/incidents": {
+    "incidents": [
+      {
+        "text": "1. set",
+        "homeScore": 11,
+        "awayScore": 7,
+        "isLive": true,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327081830,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327081784,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327081783,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327081782,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327081742,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327081741,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327081740,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327081700,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327081699,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327081698,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327081653,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327081652,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327081651,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327081624,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327081623,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327081590,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327081589,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327081588,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  }
+}

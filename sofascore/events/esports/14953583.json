@@ -1,0 +1,554 @@
+{
+  "event/14953583/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 1,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/14953583/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "dea",
+            "firstName": "Deni",
+            "lastName": "Ediev",
+            "slug": "dea",
+            "shortName": "dea",
+            "userCount": 0,
+            "id": 1108482,
+            "country": {
+              "alpha2": "RU",
+              "alpha3": "RUS",
+              "name": "Russia",
+              "slug": "russia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1076716800
+          },
+          "teamId": 377971,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "nosraC",
+            "firstName": "Carson",
+            "lastName": "O'Reilly",
+            "slug": "nosrac",
+            "shortName": "nosraC",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1075223,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 951350400
+          },
+          "teamId": 378951,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "shane",
+            "firstName": "Shane",
+            "lastName": "Dressler",
+            "slug": "shane",
+            "shortName": "shane",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1072387,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1053388800
+          },
+          "teamId": 363838,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "slump",
+            "firstName": "Dylan",
+            "lastName": "N.",
+            "slug": "slump",
+            "shortName": "slump",
+            "userCount": 0,
+            "id": 1617799,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 501320,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "snav",
+            "firstName": "Wyatt",
+            "lastName": "Phillippi",
+            "slug": "snav",
+            "shortName": "snav",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1072386,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 979603200
+          },
+          "teamId": 363838,
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Grizz",
+            "firstName": "Adam",
+            "lastName": "Golden",
+            "slug": "grizz",
+            "shortName": "Griizz",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1202063,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1106006400
+          },
+          "teamId": 412595,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "WolfY",
+            "firstName": "Adam",
+            "lastName": "Andersson",
+            "slug": "wolfy",
+            "shortName": "WolfY",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1077094,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 913075200
+          },
+          "teamId": 364817,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "chop",
+            "firstName": "Connor",
+            "lastName": "Sullivan",
+            "slug": "chop",
+            "shortName": "chop",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1073556,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1012435200
+          },
+          "teamId": 364242,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "cxzi",
+            "firstName": "Danny",
+            "lastName": "Strzelczyk",
+            "slug": "cxzi",
+            "shortName": "cxzi",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1075096,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 961027200
+          },
+          "teamId": 364246,
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "viz",
+            "firstName": "Wesley ",
+            "lastName": "Harris",
+            "slug": "viz",
+            "shortName": "viz",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1071049,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 997056000
+          },
+          "teamId": 366197,
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14953583/esports-games": {
+    "games": [
+      {
+        "length": 2793,
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "map": {
+          "name": "Train",
+          "id": 18
+        },
+        "homeScore": {
+          "display": 13,
+          "period1": 6,
+          "period2": 7
+        },
+        "awayScore": {
+          "display": 9,
+          "period1": 6,
+          "period2": 3
+        },
+        "homeTeamStartingSide": 4,
+        "hasCompleteStatistics": true,
+        "id": 526307,
+        "startTimestamp": 1762826855
+      },
+      {
+        "status": {
+          "code": 20,
+          "description": "Started",
+          "type": "inprogress"
+        },
+        "winnerCode": 0,
+        "map": {
+          "name": "Overpass",
+          "id": 14
+        },
+        "homeScore": {},
+        "awayScore": {},
+        "hasCompleteStatistics": false,
+        "id": 526308,
+        "startTimestamp": 1762830713
+      }
+    ]
+  },
+  "event/14953583/votes": {
+    "vote": {
+      "vote1": 4,
+      "vote2": 29,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "unique-tournament/18501/season/85047/info": {
+    "info": {
+      "newcomersUpperDivision": [],
+      "newcomersLowerDivision": [],
+      "newcomersOther": [],
+      "numberOfCompetitors": 22,
+      "tier": "c",
+      "id": 53135,
+      "hostCountries": []
+    }
+  },
+  "event/14953583": {
+    "event": {
+      "tournament": {
+        "name": "ESL Challenger League Playoffs",
+        "slug": "esl-challenger-league-playoffs",
+        "category": {
+          "name": "Counter Strike",
+          "slug": "csgo",
+          "sport": {
+            "name": "E-sports",
+            "slug": "esports",
+            "id": 72
+          },
+          "id": 1572,
+          "country": {},
+          "flag": "counter-strike",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاونتر سترايك",
+              "hi": "काउंटर स्ट्राइक",
+              "bn": "কাউন্টার স্ট্রাইক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "ESL Challenger League",
+          "slug": "esl-challenger-league",
+          "category": {
+            "name": "Counter Strike",
+            "slug": "csgo",
+            "sport": {
+              "name": "E-sports",
+              "slug": "esports",
+              "id": 72
+            },
+            "id": 1572,
+            "country": {},
+            "flag": "counter-strike",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاونتر سترايك",
+                "hi": "काउंटर स्ट्राइक",
+                "bn": "কাউন্টার স্ট্রাইক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 119,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 18501,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري التحدي ESL"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 98162,
+        "endTimestamp": 1763269200,
+        "startTimestamp": 1761267600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "تصفيات دوري التحدي ESL"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "North America Cup #4 season 50 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85047
+      },
+      "customId": "wkxisjifj",
+      "status": {
+        "code": 1002,
+        "description": "Second game",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Voca",
+        "slug": "voca",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 4,
+        "nameCode": "VOC",
+        "national": false,
+        "type": 0,
+        "id": 1137909,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Voca",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فوكه"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Marsborne",
+        "slug": "marsborne",
+        "sport": {
+          "name": "E-sports",
+          "slug": "esports",
+          "id": 72
+        },
+        "userCount": 18,
+        "nameCode": "MAR",
+        "national": false,
+        "type": 0,
+        "id": 1055521,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Marsborne",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مارس بورن"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "coverage": 91,
+      "time": {
+        "currentPeriodStartTimestamp": 1762830713
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762830722
+      },
+      "hasGlobalHighlights": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14953583,
+      "bestOf": 3,
+      "eventType": "best_of",
+      "roundsInAHalf": 12,
+      "slug": "voca-marsborne",
+      "currentPeriodStartTimestamp": 1762830713,
+      "startTimestamp": 1762827000,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14953583/highlights": {
+    "highlights": [
+      {
+        "title": "Stream available!",
+        "subtitle": "",
+        "url": "https://www.twitch.tv/eslcs",
+        "mediaType": 1,
+        "doFollow": false,
+        "keyHighlight": false,
+        "livestream": false,
+        "id": 6944231,
+        "createdAtTimestamp": 1762825598,
+        "sourceUrl": "https://www.twitch.tv/eslcs"
+      }
+    ]
+  }
+}

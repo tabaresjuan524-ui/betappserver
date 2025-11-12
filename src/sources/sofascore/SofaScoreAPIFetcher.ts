@@ -54,6 +54,9 @@ export class SofaScoreAPIFetcher {
     private browserPool: BrowserPoolManager;
     private isBrowserPoolInitialized = false;
     private openTabQueue: PQueue;
+    
+    // Configuration: Limit events per sport to prevent Chrome crashes during testing
+    private readonly MAX_EVENTS_PER_SPORT: number = 5; // Set to 5 for testing, can be changed to 0 (unlimited) later
 
     constructor() {
         this.axiosInstance = axios.create({
@@ -68,7 +71,7 @@ export class SofaScoreAPIFetcher {
         });
         
         this.browserPool = new BrowserPoolManager();
-        this.openTabQueue = new PQueue({ concurrency: 3 }); // Reduced to 3 concurrent tabs to prevent memory issues
+        this.openTabQueue = new PQueue({ concurrency: 2 }); // Reduced to 2 concurrent tabs to prevent memory exhaustion
     }
 
     /**
@@ -202,10 +205,16 @@ export class SofaScoreAPIFetcher {
             events: {} as { [eventId: string]: EventApiData },
         };
         
-        const events = liveEvents.events || [];
+        let events = liveEvents.events || [];
         
         if (events.length === 0) {
             return sportData;
+        }
+        
+        // Apply event limit per sport to prevent Chrome crashes during testing
+        if (this.MAX_EVENTS_PER_SPORT > 0 && events.length > this.MAX_EVENTS_PER_SPORT) {
+            console.log(`⚠️  [SOFASCORE] Limiting ${sportName} events from ${events.length} to ${this.MAX_EVENTS_PER_SPORT} for testing`);
+            events = events.slice(0, this.MAX_EVENTS_PER_SPORT);
         }
         
         console.log(`🔄 [SOFASCORE] Processing ${events.length} events for ${sportName}...`);
@@ -220,17 +229,36 @@ export class SofaScoreAPIFetcher {
         const promises = shuffledEvents.map((event, index) => {
             return this.openTabQueue.add(async () => {
                 try {
-                    // Add small delay between events to prevent memory spikes
-                    if (index > 0 && index % 3 === 0) {
-                        await new Promise(resolve => setTimeout(resolve, 1000));
+                    // Add delay between events to prevent memory spikes and allow GC
+                    if (index > 0 && index % 2 === 0) {
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        
+                        // Trigger GC every 5 events if available
+                        if (index % 5 === 0 && global.gc) {
+                            global.gc();
+                            console.log(`🗑️  [SOFASCORE] GC after ${index} events`);
+                        }
                     }
                     
                     const eventUrl = this.createEventUrl(event);
-                    const eventData = await this.browserPool.openEventTab(event, eventUrl);
+                    
+                    // Add per-event timeout protection to prevent individual events from hanging
+                    const eventTimeout = new Promise<EventApiData>((_, reject) => {
+                        setTimeout(() => reject(new Error(`Event ${event.id} processing timeout after 15 seconds`)), 15000);
+                    });
+                    
+                    const eventData = await Promise.race([
+                        this.browserPool.openEventTab(event, eventUrl),
+                        eventTimeout
+                    ]).catch(error => {
+                        console.error(`⏰ [SOFASCORE] Event ${event.id} timeout or error:`, error.message);
+                        return {} as EventApiData; // Return empty object on timeout/error to continue processing other events
+                    }) as EventApiData;
+                    
                     sportData.events[event.id.toString()] = eventData;
                     
                     // Save event data to file immediately after fetching
-                    if (Object.keys(eventData).length > 0) {
+                    if (eventData && Object.keys(eventData).length > 0) {
                         await this.saveEventDataToFile(event.id.toString(), eventData, sportName);
                     }
                 } catch (error: any) {
@@ -254,6 +282,7 @@ export class SofaScoreAPIFetcher {
      */
     async fetchAllData(): Promise<ConsolidatedData> {
         console.log('🚀 [SOFASCORE] Starting data fetch cycle...');
+        console.log(`⚙️  [SOFASCORE] Max events per sport: ${this.MAX_EVENTS_PER_SPORT === 0 ? 'unlimited' : this.MAX_EVENTS_PER_SPORT}`);
         this.logMemoryUsage();
         
         try {
@@ -273,19 +302,39 @@ export class SofaScoreAPIFetcher {
             };
             
             for (const sportName of sportsWithLiveEvents) {
-                const liveEvents = await this.fetchLiveEvents(sportName);
-                const sportData = await this.processEventsForSport(sportName, liveEvents);
-                consolidatedData.sports[sportName] = sportData;
+                try {
+                    const liveEvents = await this.fetchLiveEvents(sportName);
+                    
+                    // Add timeout protection to prevent infinite hangs - much shorter timeout
+                    const timeout = new Promise((_, reject) => {
+                        setTimeout(() => reject(new Error(`Sport ${sportName} processing timeout after 30 seconds`)), 30000);
+                    });
+                    
+                    const sportData = await Promise.race([
+                        this.processEventsForSport(sportName, liveEvents),
+                        timeout
+                    ]);
+                    
+                    consolidatedData.sports[sportName] = sportData;
+                } catch (error: any) {
+                    console.error(`❌ [SOFASCORE] Error processing ${sportName}:`, error.message);
+                    // Continue with next sport instead of failing completely
+                    consolidatedData.sports[sportName] = { 
+                        liveEvents: { events: [] },
+                        events: {}
+                    };
+                }
                 
-                // Add 3-second delay between sports to allow memory stabilization
+                // Add 5-second delay between sports to allow memory stabilization and full GC cycle
                 if (sportsWithLiveEvents.indexOf(sportName) < sportsWithLiveEvents.length - 1) {
-                    console.log('⏳ [SOFASCORE] Pausing 3s before next sport...');
-                    await new Promise(resolve => setTimeout(resolve, 3000));
+                    console.log('⏳ [SOFASCORE] Pausing 5s before next sport...');
+                    await new Promise(resolve => setTimeout(resolve, 5000));
                     
                     // Trigger garbage collection if available
                     if (global.gc) {
                         global.gc();
                         console.log('🗑️  [SOFASCORE] Manual garbage collection triggered');
+                        this.logMemoryUsage();
                     }
                 }
             }

@@ -1,0 +1,323 @@
+{
+  "event/14086736/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 2,
+      "draws": 2
+    },
+    "managerDuel": null
+  },
+  "event/14086736/votes": {
+    "vote": {
+      "vote1": 2,
+      "vote2": 15,
+      "voteX": 0
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14086736": {
+    "event": {
+      "tournament": {
+        "name": "Ranji Trophy, Plate",
+        "slug": "ranji-trophy-plate",
+        "category": {
+          "name": "India",
+          "slug": "india",
+          "sport": {
+            "name": "Cricket",
+            "slug": "cricket",
+            "id": 62
+          },
+          "id": 1350,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "flag": "india",
+          "alpha2": "IN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الهند",
+              "hi": "भारत",
+              "bn": "ভারত"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Ranji Trophy",
+          "slug": "ranji-trophy",
+          "primaryColorHex": "#1D65AB",
+          "secondaryColorHex": "#AC9881",
+          "category": {
+            "name": "India",
+            "slug": "india",
+            "sport": {
+              "name": "Cricket",
+              "slug": "cricket",
+              "id": 62
+            },
+            "id": 1350,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند",
+                "hi": "भारत",
+                "bn": "ভারত"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 268,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 18682,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس رانجي",
+              "hi": "रणजी ट्रॉफी",
+              "bn": "রঞ্জি ট্রফি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Plate",
+        "isLive": false,
+        "id": 101326,
+        "endTimestamp": 1771891200,
+        "startTimestamp": 1760486400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة رانجي، المجموعة"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Ranji Trophy, 2025/26",
+        "year": "2025/2026",
+        "editor": false,
+        "id": 77592
+      },
+      "customId": "GzucsJzuc",
+      "status": {
+        "code": 22,
+        "description": "2nd Inning",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Rangpo, Sikkim"
+        },
+        "hidden": true,
+        "slug": "sica-ground",
+        "name": "SICA Ground",
+        "id": 43511,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أرض سيكا",
+            "hi": "सिका ग्राउंड",
+            "bn": "সিকা গ্রাউন্ড"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "SICA Ground"
+        }
+      },
+      "referee": {
+        "name": "Manish Majithia",
+        "slug": "manish-majithia",
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "id": 790281,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانيش ماجيثيا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Sikkim",
+        "slug": "sikkim",
+        "shortName": "SIK",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 25,
+        "nameCode": "SIK",
+        "national": false,
+        "type": 0,
+        "id": 298734,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Sikkim",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيكيم"
+          },
+          "shortNameTranslation": {
+            "hi": "एसआईके",
+            "bn": "এসআইকে"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bihar",
+        "slug": "bihar",
+        "shortName": "BIH",
+        "gender": "M",
+        "sport": {
+          "name": "Cricket",
+          "slug": "cricket",
+          "id": 62
+        },
+        "userCount": 46,
+        "nameCode": "BIH",
+        "national": false,
+        "type": 0,
+        "id": 298731,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Bihar",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيهار"
+          },
+          "shortNameTranslation": {
+            "hi": "बीआईएच",
+            "bn": "বিআইএইচ"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 429,
+        "display": 429,
+        "innings": {
+          "inning1": {
+            "score": 429,
+            "wickets": 10,
+            "overs": 143.5,
+            "runRate": 2.98
+          }
+        }
+      },
+      "awayScore": {
+        "current": 436,
+        "display": 436,
+        "innings": {
+          "inning1": {
+            "score": 265,
+            "wickets": 10,
+            "overs": 77.4,
+            "runRate": 3.41
+          },
+          "inning2": {
+            "score": 171,
+            "wickets": 3,
+            "overs": 58.2,
+            "runRate": 2.93
+          }
+        }
+      },
+      "coverage": 2,
+      "time": {},
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.innings"
+        ],
+        "changeTimestamp": 1762831449
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14086736,
+      "refereeName": "Manish Majithia",
+      "tossWin": "Bihar",
+      "tossDecision": "Batting",
+      "endTimestamp": 1762854300,
+      "slug": "sikkim-bihar",
+      "startTimestamp": 1762569900,
+      "periods": {
+        "current": "Match",
+        "inning1": "1st Inning",
+        "inning2": "2nd Inning",
+        "inning3": "3rd Inning",
+        "inning4": "4th Inning"
+      },
+      "lastPeriod": "inning2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}
