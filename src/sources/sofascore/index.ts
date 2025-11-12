@@ -1,6 +1,7 @@
 import { CombinedData, StandardizedEvent, LiveEvent, Sport } from '../../common/commonTypes';
 import { IDataSource } from '../IDataSource';
 import { SofaScoreAPIFetcher } from './SofaScoreAPIFetcher';
+import { transformSofascoreToLiveEvents } from './sofascoreToLiveEventsTransformer';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -204,12 +205,37 @@ export class SofaScoreDataSource implements IDataSource {
             console.log(`📬 [SOFASCORE] Returning cached data:`, dataDetails);
         }
         
+        // Check if SOFASCORE_LIVE_WIDGETS is enabled in frontend
+        // This will populate liveEvents for sportsbook display
+        let liveEvents: LiveEvent[] = [];
+        let sports: Sport[] = [];
+        
+        // Transform SofaScore data to liveEvents format for widgets and sportsbook
+        // This will include odds data and make events appear in the betting interface
+        if (dataToReturn) {
+            console.log('🔄 [SOFASCORE] Transforming data to LiveEvents format for sportsbook integration...');
+            liveEvents = transformSofascoreToLiveEvents(dataToReturn);
+            
+            // Extract sports list from the data
+            const sportNames = Object.keys(dataToReturn.sports || {});
+            sports = sportNames.map(sportName => ({
+                key: sportName,
+                group: sportName.charAt(0).toUpperCase() + sportName.slice(1).replace(/-/g, ' '),
+                title: sportName.charAt(0).toUpperCase() + sportName.slice(1).replace(/-/g, ' '),
+                description: `Live events for ${sportName}`,
+                active: true,
+                has_outrights: false
+            }));
+            
+            console.log(`✅ [SOFASCORE] Transformed ${liveEvents.length} live events across ${sports.length} sports`);
+        }
+        
         // Return data in the expected format for the main index.ts aggregator
         return {
-            sports: [], // SofaScore doesn't provide sports in the same format as other sources
-            liveEvents: [],
+            sports: sports, // Sport list for navigation
+            liveEvents: liveEvents, // Transformed events for sportsbook display
             standardizedEvents: [],
-            sofascore: dataToReturn // This is the key: wrap data in sofascore object
+            sofascore: dataToReturn // Raw data for Redux and advanced widgets
         };
     }
 }
