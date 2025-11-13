@@ -3,6 +3,7 @@ const { chrome } = require('chrome-paths');
 import { Browser, Page } from 'puppeteer-core';
 import { promises as fs } from 'fs';
 import path from 'path';
+import axios from 'axios';
 
 interface EventApiData {
     [endpoint: string]: any;
@@ -358,6 +359,11 @@ export class BrowserPoolManager {
                 }
             }
             
+            // After waiting period ends, fetch missing critical endpoints via direct HTTP
+            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - About to call fetchMissingCriticalEndpoints`);
+            await this.fetchMissingCriticalEndpoints(eventId, interceptedData, page);
+            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - Finished fetchMissingCriticalEndpoints`);
+            
             const capturedEndpoints = Object.keys(interceptedData).length;
             const endpointList = Object.keys(interceptedData).join(', ');
             console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
@@ -605,5 +611,63 @@ export class BrowserPoolManager {
             max: this.MAX_TOTAL_EVENTS === 0 ? 'unlimited' : this.MAX_TOTAL_EVENTS,
             browsers: this.BROWSERS_COUNT
         };
+    }
+
+    /**
+     * Fetch missing critical endpoints via direct HTTP requests
+     * This function is called after the Puppeteer waiting period to fill in any missing endpoints
+     */
+    private async fetchMissingCriticalEndpoints(eventId: string, interceptedData: EventApiData, page: Page): Promise<void> {
+        const criticalEndpoints = [
+            `event/${eventId}/statistics`,
+            `event/${eventId}/h2h`,
+            `tournament/177/season/80229/standings/total`,
+            `event/${eventId}/lineups`,
+            `event/${eventId}/odds/1/all`
+        ];
+
+        const missingEndpoints = criticalEndpoints.filter(endpoint => !interceptedData[endpoint]);
+
+        if (missingEndpoints.length === 0) {
+            console.log(`🌐 [Direct API] Event ${eventId} - All critical endpoints already captured`);
+            return;
+        }
+
+        console.log(`🌐 [Direct API] Event ${eventId} - Fetching ${missingEndpoints.length} missing endpoints: ${missingEndpoints.join(', ')}`);
+
+        try {
+            // Get cookies from browser page to use in direct requests
+            const cookies = await page.cookies();
+            const cookieString = cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ');
+
+            for (const endpoint of missingEndpoints) {
+                try {
+                    const response = await axios.get(`https://api.sofascore.com/api/v1/${endpoint}`, {
+                        headers: {
+                            'Cookie': cookieString,
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                            'Accept': 'application/json',
+                            'Referer': 'https://www.sofascore.com/',
+                            'Origin': 'https://www.sofascore.com'
+                        },
+                        timeout: 10000
+                    });
+
+                    if (response.status === 200 && response.data) {
+                        interceptedData[endpoint] = response.data;
+                        console.log(`🌐 [Direct API] Event ${eventId} - Fetched: ${endpoint}`);
+                    } else {
+                        console.log(`⚠️ [Direct API] Event ${eventId} - No data for: ${endpoint} (status: ${response.status})`);
+                    }
+                } catch (error: any) {
+                    console.log(`❌ [Direct API] Event ${eventId} - Failed to fetch ${endpoint}: ${error.message}`);
+                }
+            }
+
+            console.log(`🌐 [Direct API] Event ${eventId} - Completed. Total endpoints now: ${Object.keys(interceptedData).length}`);
+
+        } catch (error: any) {
+            console.error(`❌ [Direct API] Event ${eventId} - Critical error: ${error.message}`);
+        }
     }
 }
