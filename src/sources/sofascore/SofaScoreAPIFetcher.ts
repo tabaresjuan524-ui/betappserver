@@ -243,13 +243,33 @@ export class SofaScoreAPIFetcher {
             return sportData;
         }
         
-        // Apply event limit per sport to prevent Chrome crashes during testing
-        if (this.MAX_EVENTS_PER_SPORT > 0 && events.length > this.MAX_EVENTS_PER_SPORT) {
-            console.log(`⚠️  [SOFASCORE] Limiting ${sportName} events from ${events.length} to ${this.MAX_EVENTS_PER_SPORT} for testing`);
-            events = events.slice(0, this.MAX_EVENTS_PER_SPORT);
+        // Filter out events that are already being monitored
+        const newEvents = events.filter(event => !this.browserPool.isEventMonitored(event.id.toString()));
+        const alreadyMonitoredCount = events.length - newEvents.length;
+        
+        if (alreadyMonitoredCount > 0) {
+            console.log(`♻️  [SOFASCORE] ${sportName}: ${alreadyMonitoredCount} events already being monitored`);
         }
         
-        console.log(`🔄 [SOFASCORE] Processing ${events.length} events for ${sportName}...`);
+        // Calculate remaining slots for this sport
+        const remainingSlots = this.MAX_EVENTS_PER_SPORT > 0 
+            ? Math.max(0, this.MAX_EVENTS_PER_SPORT - alreadyMonitoredCount)
+            : newEvents.length;
+        
+        if (remainingSlots === 0) {
+            console.log(`⏸️  [SOFASCORE] ${sportName}: Already at max capacity (${alreadyMonitoredCount}/${this.MAX_EVENTS_PER_SPORT}), skipping new events`);
+            return sportData;
+        }
+        
+        // Limit new events to remaining slots
+        if (newEvents.length > remainingSlots) {
+            console.log(`⚠️  [SOFASCORE] Limiting ${sportName} from ${newEvents.length} new events to ${remainingSlots} (${alreadyMonitoredCount} already monitored, max: ${this.MAX_EVENTS_PER_SPORT})`);
+            events = newEvents.slice(0, remainingSlots);
+        } else {
+            events = newEvents;
+        }
+        
+        console.log(`🔄 [SOFASCORE] Processing ${events.length} NEW events for ${sportName} (total will be: ${alreadyMonitoredCount + events.length}/${this.MAX_EVENTS_PER_SPORT})...`);
         
         // Initialize browser pool if not done
         await this.initBrowserPool();
@@ -388,6 +408,43 @@ export class SofaScoreAPIFetcher {
             
             console.log('✅ [SOFASCORE] Data fetch cycle completed');
             this.logMemoryUsage();
+            
+            // Filter consolidatedData to only include actively monitored events
+            // This ensures cached data only contains events we're actually tracking
+            console.log('🔍 [SOFASCORE] Filtering consolidated data to only include actively monitored events...');
+            let totalEventsBeforeFilter = 0;
+            let totalEventsAfterFilter = 0;
+            
+            for (const sportName in consolidatedData.sports) {
+                const sportData = consolidatedData.sports[sportName];
+                
+                if (sportData.liveEvents && sportData.liveEvents.events) {
+                    const originalCount = sportData.liveEvents.events.length;
+                    totalEventsBeforeFilter += originalCount;
+                    
+                    // Filter events to only include those being actively monitored
+                    sportData.liveEvents.events = sportData.liveEvents.events.filter(event => 
+                        this.browserPool.isEventMonitored(event.id.toString())
+                    );
+                    
+                    const filteredCount = sportData.liveEvents.events.length;
+                    totalEventsAfterFilter += filteredCount;
+                    
+                    if (originalCount !== filteredCount) {
+                        console.log(`  📊 [SOFASCORE] ${sportName}: ${originalCount} events → ${filteredCount} actively monitored`);
+                    }
+                    
+                    // Also filter the events object to match
+                    const monitoredEventIds = new Set(sportData.liveEvents.events.map(e => e.id.toString()));
+                    for (const eventId in sportData.events) {
+                        if (!monitoredEventIds.has(eventId)) {
+                            delete sportData.events[eventId];
+                        }
+                    }
+                }
+            }
+            
+            console.log(`✅ [SOFASCORE] Filtered consolidated data: ${totalEventsBeforeFilter} → ${totalEventsAfterFilter} events`);
             
             return consolidatedData;
             

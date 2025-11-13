@@ -397,6 +397,13 @@ export class BrowserPoolManager {
     }
     
     /**
+     * Check if an event is already being monitored
+     */
+    isEventMonitored(eventId: string): boolean {
+        return this.eventTabs.has(eventId);
+    }
+    
+    /**
      * Get cached data for an event (returns live-updated data)
      */
     getEventData(eventId: string): EventApiData {
