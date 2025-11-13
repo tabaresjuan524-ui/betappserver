@@ -337,6 +337,83 @@ export class BrowserPoolManager {
             let previousCount = Object.keys(interceptedData).length;
             console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Initial capture: ${previousCount} endpoints`);
             
+            // 4b. Click on different tabs to trigger their endpoint loading
+            // H2H Tab
+            try {
+                console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking H2H tab to load team events...`);
+                
+                // Wait for tab navigation to be available - using actual SofaScore selector
+                await page.waitForSelector('button[role="tab"]', { timeout: 5000 });
+                
+                // Find and click the H2H tab
+                const tabs = await page.$$('button[role="tab"]');
+                if (tabs.length >= 2) {
+                    // Try to find H2H tab by looking for "H2H" or "Matches" text
+                    for (const tab of tabs) {
+                        const text = await page.evaluate(el => el.textContent, tab);
+                        if (text && (text.toLowerCase().includes('h2h') || text.toLowerCase().includes('matches'))) {
+                            await tab.click();
+                            console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Clicked H2H tab`);
+                            await new Promise(resolve => setTimeout(resolve, 3000)); // Wait for endpoints to fire
+                            break;
+                        }
+                    }
+                }
+            } catch (error: any) {
+                console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click H2H tab: ${error.message}`);
+            }
+            
+            // Statistics Tab
+            try {
+                console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking Statistics tab...`);
+                const tabs = await page.$$('button[role="tab"]');
+                for (const tab of tabs) {
+                    const text = await page.evaluate(el => el.textContent, tab);
+                    if (text && (text.toLowerCase().includes('statistics') || text.toLowerCase().includes('estadísticas'))) {
+                        await tab.click();
+                        console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Clicked Statistics tab`);
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        break;
+                    }
+                }
+            } catch (error: any) {
+                console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click Statistics tab: ${error.message}`);
+            }
+            
+            // Lineups Tab
+            try {
+                console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking Lineups tab...`);
+                const tabs = await page.$$('button[role="tab"]');
+                for (const tab of tabs) {
+                    const text = await page.evaluate(el => el.textContent, tab);
+                    if (text && (text.toLowerCase().includes('lineup') || text.toLowerCase().includes('alineación'))) {
+                        await tab.click();
+                        console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Clicked Lineups tab`);
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        break;
+                    }
+                }
+            } catch (error: any) {
+                console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click Lineups tab: ${error.message}`);
+            }
+            
+            // Try to click "Show more" button for team-streaks
+            try {
+                console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Looking for 'Show more' button...`);
+                const showMoreButtons = await page.$$('button.button--variant_filled');
+                for (const button of showMoreButtons) {
+                    const text = await page.evaluate(el => el.textContent, button);
+                    if (text && text.toLowerCase().includes('show more')) {
+                        await button.click();
+                        console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Clicked 'Show more' button`);
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        break;
+                    }
+                }
+            } catch (error: any) {
+                console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click 'Show more' button: ${error.message}`);
+            }
+            
             // Keep waiting as long as new endpoints are being captured (up to 60 seconds total)
             let idleIterations = 0;
             const maxIdleIterations = 5; // Stop after 15 seconds of no new endpoints (5 × 3s)
@@ -369,6 +446,11 @@ export class BrowserPoolManager {
             console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
             console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
             
+            // CRITICAL FIX: Update cache with final complete interceptedData
+            // This ensures cache has ALL endpoints including those from tab clicks
+            this.eventDataCache.set(eventId, interceptedData);
+            console.log(`💾 [Browser ${browserIndex + 1}] Event ${eventId} - Cache updated with all ${capturedEndpoints} endpoints`);
+            
             // Log distribution periodically
             const totalActiveTabs = this.eventTabs.size;
             if (totalActiveTabs % 10 === 0) {
@@ -383,6 +465,10 @@ export class BrowserPoolManager {
                 await this.closeEventTab(eventId);
             }
         }
+        
+        // CRITICAL FIX: Update cache with final complete interceptedData after all tab clicks
+        // Previously cache was set at line 319 BEFORE tab clicking, missing h2h/statistics/etc
+        this.eventDataCache.set(eventId, interceptedData);
         
         return interceptedData;
     }
@@ -618,13 +704,46 @@ export class BrowserPoolManager {
      * This function is called after the Puppeteer waiting period to fill in any missing endpoints
      */
     private async fetchMissingCriticalEndpoints(eventId: string, interceptedData: EventApiData, page: Page): Promise<void> {
+        // Get event details to extract team IDs and customId
+        const eventEndpoint = `event/${eventId}`;
+        const eventData = interceptedData[eventEndpoint];
+        
         const criticalEndpoints = [
             `event/${eventId}/statistics`,
             `event/${eventId}/h2h`,
             `tournament/177/season/80229/standings/total`,
             `event/${eventId}/lineups`,
-            `event/${eventId}/odds/1/all`
+            `event/${eventId}/odds/1/all`,
+            `event/${eventId}/odds/1/featured`,
+            `event/${eventId}/win-probability`,
+            `event/${eventId}/team-streaks/betting-odds/1`,
+            `event/${eventId}/graph`,
+            `event/${eventId}/pregame-form`
         ];
+
+        // Add team events endpoints if we have event data with team IDs
+        if (eventData) {
+            const homeTeamId = eventData.homeTeam?.id;
+            const awayTeamId = eventData.awayTeam?.id;
+            const customId = eventData.customId;
+
+            if (homeTeamId) {
+                criticalEndpoints.push(`team/${homeTeamId}/events/last/0`);
+                criticalEndpoints.push(`team/${homeTeamId}/events/next/0`);
+                criticalEndpoints.push(`team/${homeTeamId}/team-statistics/seasons`);
+            }
+
+            if (awayTeamId) {
+                criticalEndpoints.push(`team/${awayTeamId}/events/last/0`);
+                criticalEndpoints.push(`team/${awayTeamId}/events/next/0`);
+                criticalEndpoints.push(`team/${awayTeamId}/team-statistics/seasons`);
+            }
+
+            // Add H2H events endpoint using customId
+            if (customId) {
+                criticalEndpoints.push(`event/${customId}/h2h/events`);
+            }
+        }
 
         const missingEndpoints = criticalEndpoints.filter(endpoint => !interceptedData[endpoint]);
 
@@ -633,41 +752,47 @@ export class BrowserPoolManager {
             return;
         }
 
-        console.log(`🌐 [Direct API] Event ${eventId} - Fetching ${missingEndpoints.length} missing endpoints: ${missingEndpoints.join(', ')}`);
+        console.log(`🌐 [Browser Fetch] Event ${eventId} - Fetching ${missingEndpoints.length} missing endpoints via browser context: ${missingEndpoints.join(', ')}`);
 
         try {
-            // Get cookies from browser page to use in direct requests
-            const cookies = await page.cookies();
-            const cookieString = cookies.map(cookie => `${cookie.name}=${cookie.value}`).join('; ');
-
+            // Use browser's fetch API to make requests with proper authentication
             for (const endpoint of missingEndpoints) {
                 try {
-                    const response = await axios.get(`https://api.sofascore.com/api/v1/${endpoint}`, {
-                        headers: {
-                            'Cookie': cookieString,
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                            'Accept': 'application/json',
-                            'Referer': 'https://www.sofascore.com/',
-                            'Origin': 'https://www.sofascore.com'
-                        },
-                        timeout: 10000
-                    });
+                    const data = await page.evaluate((endpointPath) => {
+                        return fetch(`https://api.sofascore.com/api/v1/${endpointPath}`, {
+                            method: 'GET',
+                            headers: {
+                                'Accept': 'application/json',
+                                'Referer': window.location.href,
+                                'X-Requested-With': 'XMLHttpRequest'
+                            },
+                            credentials: 'include'
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                return response.json();
+                            } else {
+                                return null;
+                            }
+                        })
+                        .catch(() => null);
+                    }, endpoint);
 
-                    if (response.status === 200 && response.data) {
-                        interceptedData[endpoint] = response.data;
-                        console.log(`🌐 [Direct API] Event ${eventId} - Fetched: ${endpoint}`);
+                    if (data) {
+                        interceptedData[endpoint] = data;
+                        console.log(`✅ [Browser Fetch] Event ${eventId} - Fetched: ${endpoint}`);
                     } else {
-                        console.log(`⚠️ [Direct API] Event ${eventId} - No data for: ${endpoint} (status: ${response.status})`);
+                        console.log(`⚠️ [Browser Fetch] Event ${eventId} - No data for: ${endpoint}`);
                     }
                 } catch (error: any) {
-                    console.log(`❌ [Direct API] Event ${eventId} - Failed to fetch ${endpoint}: ${error.message}`);
+                    console.log(`❌ [Browser Fetch] Event ${eventId} - Failed to fetch ${endpoint}: ${error.message}`);
                 }
             }
 
-            console.log(`🌐 [Direct API] Event ${eventId} - Completed. Total endpoints now: ${Object.keys(interceptedData).length}`);
+            console.log(`🌐 [Browser Fetch] Event ${eventId} - Completed. Total endpoints now: ${Object.keys(interceptedData).length}`);
 
         } catch (error: any) {
-            console.error(`❌ [Direct API] Event ${eventId} - Critical error: ${error.message}`);
+            console.error(`❌ [Browser Fetch] Event ${eventId} - Critical error: ${error.message}`);
         }
     }
 }

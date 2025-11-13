@@ -193,6 +193,55 @@ export class SofaScoreDataSource implements IDataSource {
             return null;
         }
 
+        // CRITICAL FIX: Filter out stale cached events that aren't currently monitored
+        // Only return events that have fresh data from the current browser session
+        const filteredData = { ...dataToReturn };
+        let removedEvents = 0;
+        
+        if (filteredData.sports) {
+            for (const [sportName, sportData] of Object.entries(filteredData.sports)) {
+                if ((sportData as any).events) {
+                    const freshEvents: any = {};
+                    
+                    for (const [eventId, eventData] of Object.entries((sportData as any).events)) {
+                        // Check if this event has fresh data from current session
+                        // by verifying it has a JSON file with recent modification time
+                        const eventFilePath = path.join(__dirname, '../../../sofascore/events', sportName, `${eventId}.json`);
+                        
+                        try {
+                            if (fs.existsSync(eventFilePath)) {
+                                const stats = fs.statSync(eventFilePath);
+                                const fileAge = Date.now() - stats.mtimeMs;
+                                
+                                // Only include events with data modified in the last 5 minutes
+                                if (fileAge < 300000) { // 5 minutes = 300,000ms
+                                    freshEvents[eventId] = eventData;
+                                } else {
+                                    removedEvents++;
+                                    console.log(`🗑️  [SOFASCORE] Removed stale cached event ${eventId} (data age: ${Math.floor(fileAge / 60000)} minutes)`);
+                                }
+                            } else {
+                                // No file means no fresh data, remove from cache
+                                removedEvents++;
+                                console.log(`🗑️  [SOFASCORE] Removed event ${eventId} from cache (no data file found)`);
+                            }
+                        } catch (error) {
+                            // On error, keep the event to be safe
+                            freshEvents[eventId] = eventData;
+                        }
+                    }
+                    
+                    (filteredData.sports as any)[sportName].events = freshEvents;
+                }
+            }
+        }
+        
+        if (removedEvents > 0) {
+            console.log(`🧹 [SOFASCORE] Cleaned up ${removedEvents} stale events from cache`);
+        }
+        
+        dataToReturn = filteredData;
+
         const dataDetails = {
             sportsWithLiveEvents: Object.keys(dataToReturn.sports || {}).length,
             totalEvents: Object.values(dataToReturn.sports || {}).reduce((sum: number, sport: any) => sum + Object.keys(sport.events || {}).length, 0),
