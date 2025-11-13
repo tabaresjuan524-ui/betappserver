@@ -90,16 +90,23 @@ const sendBatchedUpdate = () => {
     console.log(`   - codere data exists: ${!!consolidatedData.codere}`);
     console.log(`   - sofascore data exists: ${!!consolidatedData.sofascore}`);
     if (consolidatedData.sofascore) {
-        const eventIds = Object.keys(consolidatedData.sofascore.events || {});
-        console.log(`   - sofascore.events: ${eventIds.length} events`);
-        if (eventIds.length > 0) {
-            console.log(`   - First 5 event IDs: ${eventIds.slice(0, 5).join(', ')}`);
-            // Show details of first event
-            const firstEventId = eventIds[0];
-            const firstEvent = consolidatedData.sofascore.events[firstEventId];
-            console.log(`   - Sample event ${firstEventId}:`, JSON.stringify(firstEvent, null, 2).substring(0, 300));
-        }
         console.log(`   - sofascore.sports: ${Object.keys(consolidatedData.sofascore.sports || {}).length} sports`);
+        
+        // Count events from nested structure
+        let totalEventsInSports = 0;
+        Object.keys(consolidatedData.sofascore.sports || {}).forEach(sportName => {
+            const sportData = consolidatedData.sofascore.sports[sportName];
+            if (sportData?.events) {
+                const eventCount = Object.keys(sportData.events).length;
+                totalEventsInSports += eventCount;
+                console.log(`   - sofascore.sports.${sportName}.events: ${eventCount} events`);
+                if (eventCount > 0) {
+                    console.log(`   - First 3 event IDs: ${Object.keys(sportData.events).slice(0, 3).join(', ')}`);
+                }
+            }
+        });
+        
+        console.log(`   - Total events in nested structure: ${totalEventsInSports}`);
         console.log(`   - sofascore.tournaments: ${Object.keys(consolidatedData.sofascore.tournaments || {}).length} tournaments`);
         console.log(`   - sofascore.teams: ${Object.keys(consolidatedData.sofascore.teams || {}).length} teams`);
     }

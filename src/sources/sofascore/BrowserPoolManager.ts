@@ -241,74 +241,51 @@ export class BrowserPoolManager {
             
             await page.goto('about:blank', { waitUntil: 'domcontentloaded' });
 
-            // 2. Set up everything before navigating to the heavy page
+            // 2. Simple response interception using standard Puppeteer API
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-            await page.setRequestInterception(true);
-
-            page.on('request', (request: any) => {
-                if (request.isInterceptResolutionHandled()) return;
-                request.continue();
-            });
-
-            // Set up response listener for continuous capture
+            
+            // Intercept responses - simple standard Puppeteer approach
             page.on('response', async (response: any) => {
                 const url = response.url();
                 
-                if (url.includes('www.sofascore.com/api/v1/')) {
-                    try {
-                        const statusCode = response.status();
-                        const contentType = response.headers()['content-type'] || '';
-                        
-                        // Skip responses with error status codes (404, 500, etc.)
-                        if (statusCode >= 400) {
-                            return;
-                        }
-                        
-                        if (contentType.includes('application/json')) {
-                            const data = await response.json();
-                            
-                            // Skip if data contains error field
-                            if (data && (data.error || data.errors)) {
-                                return;
-                            }
-                            
-                            const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
-                            if (endpointMatch) {
-                                const endpoint = endpointMatch[1];
-                                
-                                // Filter out noise endpoints
-                                if (endpoint.includes('country/alpha2') || 
-                                    endpoint.includes('branding/providers/') ||
-                                    endpoint.includes('sport/-18000/event-count')) {
-                                    return;
-                                }
-                                
-                                // Store in both interceptedData and cache for continuous updates
-                                interceptedData[endpoint] = data;
-                                
-                                // Update cache
-                                const cachedData = this.eventDataCache.get(eventId) || {};
-                                cachedData[endpoint] = data;
-                                this.eventDataCache.set(eventId, cachedData);
-                                
-                                // Log widget-specific endpoints for debugging
-                                if (endpoint.includes('/statistics') || endpoint.includes('/lineups') || 
-                                    endpoint.includes('/momentum') || endpoint.includes('/graph') || 
-                                    endpoint.includes('/standings')) {
-                                    console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - 🎯 WIDGET DATA CAPTURED: ${endpoint}`);
-                                }
-                                
-                                // Save to file after collecting a few endpoints (avoid saving on every single endpoint)
-                                const endpointCount = Object.keys(cachedData).length;
-                                if (endpointCount >= 5 && !this.savedEvents.has(eventId)) {
-                                    const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
-                                    await this.saveEventDataToFile(eventId, cachedData, sportSlug);
-                                }
-                            }
-                        }
-                    } catch (error) {
-                        // Ignore JSON parse errors
+                // Only process SofaScore API JSON responses
+                if (!url.includes('www.sofascore.com/api/v1/')) return;
+                
+                try {
+                    const statusCode = response.status();
+                    if (statusCode >= 400) return;
+                    
+                    const contentType = response.headers()['content-type'] || '';
+                    if (!contentType.includes('application/json')) return;
+                    
+                    const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
+                    if (!endpointMatch) return;
+                    
+                    const endpoint = endpointMatch[1];
+                    
+                    // Filter out noise
+                    if (endpoint.includes('/image') || endpoint.includes('/flag') || endpoint.includes('/logo')) return;
+                    
+                    // Get JSON data
+                    const data = await response.json();
+                    if (data?.error || data?.errors) return;
+                    
+                    // Store it
+                    interceptedData[endpoint] = data;
+                    const cachedData = this.eventDataCache.get(eventId) || {};
+                    cachedData[endpoint] = data;
+                    this.eventDataCache.set(eventId, cachedData);
+                    
+                    console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - Captured: ${endpoint}`);
+                    
+                    // Save periodically
+                    if (Object.keys(cachedData).length >= 5 && !this.savedEvents.has(eventId)) {
+                        const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
+                        await this.saveEventDataToFile(eventId, cachedData, sportSlug);
+                        this.savedEvents.add(eventId);
                     }
+                } catch (error) {
+                    // Ignore errors silently
                 }
             });
 
@@ -327,28 +304,35 @@ export class BrowserPoolManager {
                 timeout: 90000, // 90-second navigation timeout
             });
             
-            // 4. Wait additional time for lazy-loaded widget data
-            // SofaScore loads widget data (statistics, lineups, h2h, standings, etc.) automatically
-            // Some widgets load progressively, so we need to wait longer
-            console.log(`⏳ [Browser ${browserIndex + 1}] Event ${eventId} - Waiting for lazy-loaded widget data...`);
+            // 4. Wait for all widget endpoints to load
+            // SofaScore fires all endpoints automatically on page load (no interaction needed)
+            // Critical endpoints: statistics, h2h, standings/total, odds/1/all
+            console.log(`⏳ [Browser ${browserIndex + 1}] Event ${eventId} - Waiting for all widget endpoints to load...`);
             
-            // Wait in intervals to allow time for all progressive requests
-            await new Promise(resolve => setTimeout(resolve, 5000)); // Initial wait of 5 seconds for page to settle
+            // Initial wait for page to settle and fire initial requests
+            await new Promise(resolve => setTimeout(resolve, 5000));
             let previousCount = Object.keys(interceptedData).length;
             console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Initial capture: ${previousCount} endpoints`);
             
-            // Wait up to 30 more seconds, checking if new endpoints are still being captured
-            for (let i = 0; i < 10; i++) {
+            // Keep waiting as long as new endpoints are being captured (up to 60 seconds total)
+            let idleIterations = 0;
+            const maxIdleIterations = 5; // Stop after 15 seconds of no new endpoints (5 × 3s)
+            const maxTotalIterations = 20; // Max 60 seconds total wait (20 × 3s)
+            
+            for (let i = 0; i < maxTotalIterations; i++) {
                 await new Promise(resolve => setTimeout(resolve, 3000));
                 const currentCount = Object.keys(interceptedData).length;
                 
                 if (currentCount > previousCount) {
-                    console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Captured ${currentCount} endpoints (still loading...)`);
+                    console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Captured ${currentCount} endpoints (+${currentCount - previousCount} new)`);
                     previousCount = currentCount;
-                } else if (i >= 3) {
-                    // If no new endpoints for 3 iterations (9 seconds), we can stop
-                    console.log(`✋ [Browser ${browserIndex + 1}] Event ${eventId} - No new endpoints for 9s, stopping wait`);
-                    break;
+                    idleIterations = 0; // Reset idle counter
+                } else {
+                    idleIterations++;
+                    if (idleIterations >= maxIdleIterations) {
+                        console.log(`✋ [Browser ${browserIndex + 1}] Event ${eventId} - No new endpoints for ${maxIdleIterations * 3}s, stopping wait`);
+                        break;
+                    }
                 }
             }
             

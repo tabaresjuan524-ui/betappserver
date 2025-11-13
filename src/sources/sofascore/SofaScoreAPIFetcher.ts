@@ -249,6 +249,19 @@ export class SofaScoreAPIFetcher {
         
         if (alreadyMonitoredCount > 0) {
             console.log(`♻️  [SOFASCORE] ${sportName}: ${alreadyMonitoredCount} events already being monitored`);
+            
+            // Populate sportData.events with data from already-monitored events
+            events.forEach(event => {
+                const eventId = event.id.toString();
+                if (this.browserPool.isEventMonitored(eventId)) {
+                    const cachedData = this.browserPool.getEventData(eventId);
+                    if (cachedData && Object.keys(cachedData).length > 0) {
+                        sportData.events[eventId] = cachedData;
+                    }
+                }
+            });
+            
+            console.log(`📥 [SOFASCORE] ${sportName}: Retrieved cached data for ${Object.keys(sportData.events).length} already-monitored events`);
         }
         
         // Calculate remaining slots for this sport
@@ -257,7 +270,7 @@ export class SofaScoreAPIFetcher {
             : newEvents.length;
         
         if (remainingSlots === 0) {
-            console.log(`⏸️  [SOFASCORE] ${sportName}: Already at max capacity (${alreadyMonitoredCount}/${this.MAX_EVENTS_PER_SPORT}), skipping new events`);
+            console.log(`⏸️  [SOFASCORE] ${sportName}: Already at max capacity (${alreadyMonitoredCount}/${this.MAX_EVENTS_PER_SPORT}), returning cached data`);
             return sportData;
         }
         
@@ -372,9 +385,14 @@ export class SofaScoreAPIFetcher {
                 try {
                     const liveEvents = await this.fetchLiveEvents(sportName);
                     
-                    // Add timeout protection to prevent infinite hangs - much shorter timeout
+                    // Add timeout protection to prevent infinite hangs
+                    // Increased to 180 seconds to allow for:
+                    // - Opening tabs: ~10-15s for 5 events
+                    // - Widget data collection: ~12s per event (9s wait + 3s buffer) = ~60s for 5 events
+                    // - Data processing and saving: ~5-10s
+                    // Total: ~90-95s for 5 events, 180s provides comfortable buffer
                     const timeout = new Promise((_, reject) => {
-                        setTimeout(() => reject(new Error(`Sport ${sportName} processing timeout after 30 seconds`)), 30000);
+                        setTimeout(() => reject(new Error(`Sport ${sportName} processing timeout after 180 seconds`)), 180000);
                     });
                     
                     const sportData = await Promise.race([
@@ -434,13 +452,9 @@ export class SofaScoreAPIFetcher {
                         console.log(`  📊 [SOFASCORE] ${sportName}: ${originalCount} events → ${filteredCount} actively monitored`);
                     }
                     
-                    // Also filter the events object to match
-                    const monitoredEventIds = new Set(sportData.liveEvents.events.map(e => e.id.toString()));
-                    for (const eventId in sportData.events) {
-                        if (!monitoredEventIds.has(eventId)) {
-                            delete sportData.events[eventId];
-                        }
-                    }
+                    // DO NOT filter sportData.events - keep all detailedData for monitored events
+                    // The events object contains intercepted data from browser tabs that should persist
+                    // even if the event is not in the current live events API response
                 }
             }
             

@@ -820,24 +820,48 @@ export const startDataFetching = async (browser: Browser | null) => {
         
         // Debug: Log SofaScore data being sent
         if (latestData.sofascore) {
-            const eventIds = Object.keys(latestData.sofascore.events || {});
             const sportIds = Object.keys(latestData.sofascore.sports || {});
+            
+            // Count total events with detailedData across all sports
+            let totalEventsWithDetailedData = 0;
+            const allEventIds: string[] = [];
+            
+            sportIds.forEach(sportName => {
+                const sportData = latestData.sofascore.sports[sportName];
+                if (sportData?.events) {
+                    const sportEventIds = Object.keys(sportData.events);
+                    allEventIds.push(...sportEventIds);
+                    totalEventsWithDetailedData += sportEventIds.length;
+                }
+            });
+            
             console.log(`🔍 [DEBUG] SofaScore data being queued for frontend:`);
             console.log(`   - standardizedEvents: ${latestData.standardizedEvents?.length || 0} events`);
-            console.log(`   - sofascore.events: ${eventIds.length} events`);
-            if (eventIds.length > 0) {
-                console.log(`   - First 10 event IDs: ${eventIds.slice(0, 10).join(', ')}`);
-                const firstEventId = eventIds[0];
-                const firstEvent = latestData.sofascore.events[firstEventId];
-                console.log(`   - Sample event ${firstEventId} structure:`, {
-                    hasHomeTeam: !!firstEvent.homeTeam,
-                    hasAwayTeam: !!firstEvent.awayTeam,
-                    hasTournament: !!firstEvent.tournament,
-                    status: firstEvent.status,
-                    hasScore: !!firstEvent.homeScore
-                });
+            console.log(`   - sofascore.sports: ${sportIds.length} sports`);
+            console.log(`   - Total events with detailedData: ${totalEventsWithDetailedData}`);
+            
+            if (allEventIds.length > 0) {
+                console.log(`   - First 10 event IDs with detailedData: ${allEventIds.slice(0, 10).join(', ')}`);
+                
+                // Get first event with detailedData
+                const firstSportWithEvents = sportIds.find(sportName => 
+                    latestData.sofascore.sports[sportName]?.events && 
+                    Object.keys(latestData.sofascore.sports[sportName].events).length > 0
+                );
+                
+                if (firstSportWithEvents) {
+                    const firstEventId = Object.keys(latestData.sofascore.sports[firstSportWithEvents].events)[0];
+                    const firstEvent = latestData.sofascore.sports[firstSportWithEvents].events[firstEventId];
+                    const eventDetails = firstEvent[`event/${firstEventId}`]?.event;
+                    console.log(`   - Sample event ${firstEventId} (${firstSportWithEvents}) detailedData:`, {
+                        hasEventDetails: !!eventDetails,
+                        hasOdds: !!firstEvent[`event/${firstEventId}/odds/1/featured`],
+                        hasAllOdds: !!firstEvent[`event/${firstEventId}/odds/1/all`],
+                        homeTeam: eventDetails?.homeTeam?.name,
+                        awayTeam: eventDetails?.awayTeam?.name
+                    });
+                }
             }
-            console.log(`   - sofascore.sports: ${sportIds.length} sports - [${sportIds.join(', ')}]`);
             console.log(`   - sofascore.tournaments: ${Object.keys(latestData.sofascore.tournaments || {}).length} tournaments`);
             console.log(`   - sofascore.teams: ${Object.keys(latestData.sofascore.teams || {}).length} teams`);
         } else {
