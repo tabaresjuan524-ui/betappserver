@@ -241,10 +241,23 @@ export class BrowserPoolManager {
             
             await page.goto('about:blank', { waitUntil: 'domcontentloaded' });
 
-            // 2. Simple response interception using standard Puppeteer API
+            // 2. Enable request interception to capture responses before browser consumes them
             await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+            await page.setRequestInterception(true);
             
-            // Intercept responses - simple standard Puppeteer approach
+            // Store responses by request ID to match with requests
+            const pendingRequests = new Map<string, string>();
+            
+            // Intercept requests and store their IDs
+            page.on('request', (request: any) => {
+                const url = request.url();
+                if (url.includes('www.sofascore.com/api/v1/')) {
+                    pendingRequests.set(request._requestId, url);
+                }
+                request.continue();
+            });
+            
+            // Intercept responses using request interception approach
             page.on('response', async (response: any) => {
                 const url = response.url();
                 
@@ -266,8 +279,11 @@ export class BrowserPoolManager {
                     // Filter out noise
                     if (endpoint.includes('/image') || endpoint.includes('/flag') || endpoint.includes('/logo')) return;
                     
-                    // Get JSON data
-                    const data = await response.json();
+                    // Use buffer() instead of json() to avoid body consumption issues
+                    const buffer = await response.buffer();
+                    const text = buffer.toString('utf-8');
+                    const data = JSON.parse(text);
+                    
                     if (data?.error || data?.errors) return;
                     
                     // Store it
@@ -284,8 +300,14 @@ export class BrowserPoolManager {
                         await this.saveEventDataToFile(eventId, cachedData, sportSlug);
                         this.savedEvents.add(eventId);
                     }
-                } catch (error) {
-                    // Ignore errors silently
+                } catch (error: any) {
+                    // Log failures for critical endpoints
+                    const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
+                    const endpoint = endpointMatch ? endpointMatch[1] : url;
+                    if (endpoint.includes('statistics') || endpoint.includes('h2h') || 
+                        endpoint.includes('standings') || endpoint.includes('lineups')) {
+                        console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Failed to capture ${endpoint}: ${error.message}`);
+                    }
                 }
             });
 

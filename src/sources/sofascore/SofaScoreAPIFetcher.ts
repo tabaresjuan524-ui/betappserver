@@ -83,7 +83,7 @@ export class SofaScoreAPIFetcher {
     private openTabQueue: PQueue;
     
     // Configuration: Limit events per sport to prevent Chrome crashes during testing
-    private readonly MAX_EVENTS_PER_SPORT: number = 5; // Set to 5 for testing, can be changed to 0 (unlimited) later
+    private readonly MAX_EVENTS_PER_SPORT: number = 1; // Set to 5 for testing, can be changed to 0 (unlimited) later
     
     // Configuration: Sport filter for testing specific sports
     // Options: 'all' (fetch all sports), 'football', 'basketball', 'tennis', etc.
