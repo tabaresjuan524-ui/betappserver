@@ -52,6 +52,7 @@ export interface SofaScoreRichEvent {
         lastActions: LastAction[];
         statistics: EventStatistics | null;
         momentum: number | null; // -100 to 100, negative = away advantage
+        standings: any | null; // Placeholder for standings data
     };
     url: string;
     startTime: string;
@@ -171,9 +172,10 @@ export function transformToRichFormat(rawData: any): SofaScoreLiveData {
  * Transform a single event into rich format
  */
 function transformEvent(eventId: string, eventData: any): SofaScoreRichEvent {
+    console.log("Transforming event:", eventId);
     const apiData = eventData.apiData || {};
     const eventDetails = apiData.eventDetails?.event;
-    
+
     // Extract home/away scores
     const homeScore = eventDetails?.homeScore?.current || eventDetails?.homeScore?.display || 0;
     const awayScore = eventDetails?.awayScore?.current || eventDetails?.awayScore?.display || 0;
@@ -191,7 +193,7 @@ function transformEvent(eventId: string, eventData: any): SofaScoreRichEvent {
         const currentSeconds = eventDetails.time.initial || 0;
         const currentMinute = Math.floor(currentSeconds / 60);
         const injuryTime = eventDetails.time.extra ? Math.floor(eventDetails.time.extra / 60) : 0;
-        
+
         timeInfo = {
             currentMinute,
             currentPeriod: eventDetails.lastPeriod || 'period1',
@@ -207,6 +209,11 @@ function transformEvent(eventId: string, eventData: any): SofaScoreRichEvent {
 
     // Calculate momentum (based on recent actions and possession)
     const momentum = calculateMomentum(statistics, lastActions);
+    const standings = eventData[`tournament/${eventData.tournament.id}/season/${eventData.season.id}/standings/total`] || null;
+
+    if (standings) {
+        console.log('Standings data found for event:', eventId);
+    }
 
     return {
         id: eventId,
@@ -240,7 +247,8 @@ function transformEvent(eventId: string, eventData: any): SofaScoreRichEvent {
         liveData: {
             lastActions,
             statistics,
-            momentum
+            momentum,
+            standings
         },
         url: eventData.url || `https://www.sofascore.com/event/${eventId}`,
         startTime: eventDetails?.startTimestamp ? new Date(eventDetails.startTimestamp * 1000).toISOString() : new Date().toISOString()
@@ -254,7 +262,7 @@ function extractLastActions(incidents: any): LastAction[] {
     if (!incidents || !incidents.incidents) return [];
 
     const significantTypes = ['goal', 'yellowCard', 'redCard', 'substitution', 'period', 'injuryTime'];
-    
+
     return incidents.incidents
         .filter((incident: any) => significantTypes.includes(incident.incidentType))
         .slice(0, 5)
@@ -297,7 +305,7 @@ function extractStatistics(statistics: any): EventStatistics | null {
     if (!allPeriod) return null;
 
     const stats: any = {};
-    
+
     allPeriod.groups?.forEach((group: any) => {
         group.statisticsItems?.forEach((item: any) => {
             stats[item.key] = {
@@ -339,7 +347,7 @@ function calculateMomentum(statistics: EventStatistics | null, lastActions: Last
     const recentGoals = lastActions
         .filter(action => action.type === 'goal')
         .slice(0, 3);
-    
+
     recentGoals.forEach((goal, index) => {
         const weight = 3 - index; // Recent goals weight more
         momentum += goal.team === 'home' ? (10 * weight) : (-10 * weight);

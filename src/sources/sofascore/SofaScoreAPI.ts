@@ -18,7 +18,7 @@ export class SofaScoreAPI {
 
     public async getAllLiveSportsData(onProgressUpdate: (partialData: SofascoreScrapedData) => void): Promise<void> {
         console.log('🌐 [API] Starting to fetch all live sports data using cluster...');
-        
+
         const mainPageUrl = `${SofaScoreAPI.BASE_URL}/`;
         const accumulatedData: SofascoreScrapedData = { sports: {}, events: {} };
 
@@ -30,13 +30,13 @@ export class SofaScoreAPI {
                 if (taskType === 'getSports') {
                     console.log(`[API] Visiting main page to find live sports: ${url}`);
                     await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
-                    
+
                     // Wait for content to load
                     await new Promise(resolve => setTimeout(resolve, 3000));
 
                     const liveSportsLinks = await page.evaluate(() => {
                         const links: { sport: string, url: string }[] = [];
-                        
+
                         // Try multiple selectors
                         const selectors = [
                             'a[href*="/live-scores"]',
@@ -46,7 +46,7 @@ export class SofaScoreAPI {
                             'a[href*="/hockey/live"]',
                             'a[href*="/esports/live"]'
                         ];
-                        
+
                         selectors.forEach(selector => {
                             const elements = document.querySelectorAll(selector);
                             elements.forEach(el => {
@@ -60,12 +60,12 @@ export class SofaScoreAPI {
                                 }
                             });
                         });
-                        
+
                         return links;
                     });
 
                     console.log(`[API] Found ${liveSportsLinks.length} live sports categories.`);
-                    
+
                     // If nothing found, try the direct approach
                     if (liveSportsLinks.length === 0) {
                         console.log('[API] No sports found with selectors. Trying direct URLs...');
@@ -81,16 +81,16 @@ export class SofaScoreAPI {
                             liveSportsLinks.push(item);
                         });
                     }
-                    
+
                     return liveSportsLinks;
 
                 } else if (taskType === 'getEvents') {
                     console.log(`[API] Visiting sport page: ${url}`);
                     await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
-                    
+
                     // Wait for dynamic content to load
                     await new Promise(resolve => setTimeout(resolve, 3000));
-                    
+
                     // Scroll to load more events
                     await page.evaluate(() => {
                         window.scrollTo(0, document.body.scrollHeight);
@@ -99,12 +99,12 @@ export class SofaScoreAPI {
 
                     const eventLinks = await page.evaluate(() => {
                         const eventUrls = new Set<string>();
-                        
+
                         // Debug: Log all links on the page
                         const allLinks = Array.from(document.querySelectorAll('a')).map(a => a.href);
                         console.log(`[DEBUG] Total links found: ${allLinks.length}`);
                         console.log(`[DEBUG] Sample links:`, allLinks.slice(0, 10));
-                        
+
                         // Try multiple selectors for event links
                         const selectors = [
                             'a[href*="/event/"]',
@@ -114,7 +114,7 @@ export class SofaScoreAPI {
                             'a[href*="/partido/"]',  // Spanish version
                             'a[href*="/evento/"]'    // Spanish version
                         ];
-                        
+
                         selectors.forEach(selector => {
                             const elements = document.querySelectorAll(selector);
                             console.log(`[DEBUG] Selector "${selector}" found ${elements.length} elements`);
@@ -126,7 +126,7 @@ export class SofaScoreAPI {
                                 }
                             });
                         });
-                        
+
                         console.log(`[DEBUG] Total unique event URLs: ${eventUrls.size}`);
                         return Array.from(eventUrls);
                     });
@@ -161,16 +161,16 @@ export class SofaScoreAPI {
                             console.log(`[API] Timeout reached for event ${eventId}, collected ${collectedCount}/${apiEndpoints.length} endpoints`);
                             resolve(collectedData);
                         }, 30000); // 30 seconds timeout
-                        
+
                         page.on('response', async (response) => {
                             const request = response.request();
                             const requestUrl = request.url();
-                            
+
                             // Match any SofaScore API endpoint for this event
                             if (requestUrl.includes(`/api/v1/event/${eventId}`) && request.method() === 'GET') {
                                 try {
                                     const json = await response.json();
-                                    
+
                                     // Determine endpoint type from URL
                                     let endpointType = 'unknown';
                                     for (const endpoint of apiEndpoints) {
@@ -179,24 +179,28 @@ export class SofaScoreAPI {
                                             break;
                                         }
                                     }
-                                    
+
                                     // If no specific endpoint found, extract from URL pattern
                                     if (endpointType === 'unknown') {
                                         const match = requestUrl.match(/\/event\/\d+\/([^/?&]+)/);
                                         endpointType = match ? match[1] : 'event-details';
                                     }
-                                    
+
+                                    if (endpointType === 'standings') {
+                                        console.log(`[DEBUG] Intercepted standings endpoint for event ${eventId}: ${requestUrl}`);
+                                    }
                                     collectedData[endpointType] = json;
+                                    if (endpointType === 'standings') {
+                                        console.log(`[DEBUG] Added standings data to collectedData for event ${eventId}`);
+                                    }
                                     collectedCount++;
-                                    
                                     console.log(`[API] Collected ${endpointType} for event ${eventId} (${collectedCount} total)`);
-                                    
                                     // If we have collected enough data or key endpoints, we can resolve early
                                     if (collectedCount >= 5 || (collectedData['event-details'] && collectedData['statistics'] && collectedData['incidents'])) {
                                         clearTimeout(timeout);
                                         resolve(collectedData);
                                     }
-                                    
+
                                 } catch (error) {
                                     console.warn(`[API] Failed to parse JSON for ${requestUrl}:`, error);
                                 }
@@ -207,10 +211,10 @@ export class SofaScoreAPI {
                     try {
                         console.log(`[API] Processing comprehensive data for event ${eventId}...`);
                         await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
-                        
+
                         // Wait a bit more for all API calls to complete
                         await new Promise(resolve => setTimeout(resolve, 5000));
-                        
+
                         const apiData = await dataPromise;
 
                         if (Object.keys(apiData).length > 0) {
@@ -234,7 +238,7 @@ export class SofaScoreAPI {
                                 name: sport,
                                 slug: sport,
                             };
-                            
+
                             console.log(`[API] ✅ Complete data collected for event ${eventId}: ${Object.keys(apiData).join(', ')}`);
                             onProgressUpdate(accumulatedData);
                         } else {
@@ -247,17 +251,17 @@ export class SofaScoreAPI {
             });
 
             // Step 1: Get all sports
-            const liveSportsLinks = await this.cluster.execute({ 
-                taskType: 'getSports', 
-                url: mainPageUrl 
+            const liveSportsLinks = await this.cluster.execute({
+                taskType: 'getSports',
+                url: mainPageUrl
             });
 
             // Step 2: For each sport, get all events
             for (const sportLink of (liveSportsLinks || [])) {
-                const result = await this.cluster.execute({ 
-                    taskType: 'getEvents', 
-                    url: sportLink.url, 
-                    sport: sportLink.sport 
+                const result = await this.cluster.execute({
+                    taskType: 'getEvents',
+                    url: sportLink.url,
+                    sport: sportLink.sport
                 });
 
                 // Step 3: For each event, get the data
@@ -265,11 +269,11 @@ export class SofaScoreAPI {
                     for (const eventUrl of result.eventLinks.slice(0, 20)) { // Limit to 20 events per sport for now
                         const match = eventUrl.match(/\/event\/(\d+)/);
                         if (match && match[1]) {
-                            this.cluster.queue({ 
-                                taskType: 'getEventData', 
-                                url: eventUrl, 
-                                eventId: match[1], 
-                                sport: result.sport 
+                            this.cluster.queue({
+                                taskType: 'getEventData',
+                                url: eventUrl,
+                                eventId: match[1],
+                                sport: result.sport
                             });
                         }
                     }
@@ -291,16 +295,16 @@ export class SofaScoreAPI {
      */
     private extractLiveData(apiData: any, sport: string): any {
         const liveData: any = {};
-        
+
         try {
             // Basic event details
             if (apiData['event-details']?.event) {
                 const event = apiData['event-details'].event;
                 liveData.status = event.status?.description;
-                liveData.MatchTime = event.time?.currentPeriodStartTimestamp ? 
+                liveData.MatchTime = event.time?.currentPeriodStartTimestamp ?
                     Math.floor((Date.now() / 1000 - event.time.currentPeriodStartTimestamp) / 60) : -1;
                 liveData.PeriodName = event.status?.type;
-                
+
                 // Scores
                 if (event.homeScore?.current !== undefined) {
                     liveData.ResultHome = event.homeScore.current;
@@ -308,7 +312,7 @@ export class SofaScoreAPI {
                 if (event.awayScore?.current !== undefined) {
                     liveData.ResultAway = event.awayScore.current;
                 }
-                
+
                 // Period scores for different sports
                 if (event.homeScore?.period1 !== undefined) {
                     const periods = [];
@@ -401,7 +405,7 @@ export class SofaScoreAPI {
         } catch (error) {
             console.warn('[API] Error extracting live data:', error);
         }
-        
+
         return liveData;
     }
 
@@ -410,7 +414,7 @@ export class SofaScoreAPI {
      */
     private extractTeamInfo(apiData: any): any {
         const teams: any = {};
-        
+
         try {
             if (apiData['event-details']?.event) {
                 const event = apiData['event-details'].event;
@@ -430,7 +434,7 @@ export class SofaScoreAPI {
         } catch (error) {
             console.warn('[API] Error extracting team info:', error);
         }
-        
+
         return teams;
     }
 
@@ -439,7 +443,7 @@ export class SofaScoreAPI {
      */
     private extractTournamentInfo(apiData: any): any {
         const tournament: any = {};
-        
+
         try {
             if (apiData['event-details']?.event?.tournament) {
                 const t = apiData['event-details'].event.tournament;
@@ -453,7 +457,7 @@ export class SofaScoreAPI {
         } catch (error) {
             console.warn('[API] Error extracting tournament info:', error);
         }
-        
+
         return tournament;
     }
 
@@ -462,27 +466,27 @@ export class SofaScoreAPI {
      */
     private extractMediaAssets(apiData: any, eventId: string): any {
         const media: any = {};
-        
+
         try {
             media.teamImages = {
-                home: apiData['event-details']?.event?.homeTeam?.id ? 
+                home: apiData['event-details']?.event?.homeTeam?.id ?
                     `https://img.sofascore.com/api/v1/team/${apiData['event-details'].event.homeTeam.id}/image` : null,
-                away: apiData['event-details']?.event?.awayTeam?.id ? 
+                away: apiData['event-details']?.event?.awayTeam?.id ?
                     `https://img.sofascore.com/api/v1/team/${apiData['event-details'].event.awayTeam.id}/image` : null
             };
-            
-            media.tournamentImage = apiData['event-details']?.event?.tournament?.uniqueTournament?.id ? 
+
+            media.tournamentImage = apiData['event-details']?.event?.tournament?.uniqueTournament?.id ?
                 `https://img.sofascore.com/api/v1/unique-tournament/${apiData['event-details'].event.tournament.uniqueTournament.id}/image` : null;
-            
+
             media.jerseys = {
                 home: `https://img.sofascore.com/api/v1/event/${eventId}/jersey/home/player/clean`,
                 away: `https://img.sofascore.com/api/v1/event/${eventId}/jersey/away/player/clean`
             };
-            
+
         } catch (error) {
             console.warn('[API] Error extracting media assets:', error);
         }
-        
+
         return media;
     }
 }
