@@ -733,7 +733,6 @@ export class BrowserPoolManager {
         const criticalEndpoints = [
             `event/${eventId}/statistics`,
             `event/${eventId}/h2h`,
-            `tournament/177/season/80229/standings/total`,
             `event/${eventId}/lineups`,
             `event/${eventId}/odds/1/all`,
             `event/${eventId}/odds/1/featured`,
@@ -742,6 +741,13 @@ export class BrowserPoolManager {
             `event/${eventId}/graph`,
             `event/${eventId}/pregame-form`
         ];
+        // Add standings endpoint if we have event data with tournament and season IDs
+        if (eventData?.tournament?.id && eventData?.season?.id) {
+            const standingsEndpoint = `tournament/${eventData.tournament.id}/season/${eventData.season.id}/standings/total`;
+            if (!interceptedData[standingsEndpoint]) {
+                criticalEndpoints.push(standingsEndpoint);
+            }
+        }
 
         // Add team events endpoints if we have event data with team IDs
         if (eventData) {
