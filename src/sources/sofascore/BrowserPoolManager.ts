@@ -29,19 +29,31 @@ export class BrowserPoolManager {
     private eventDataCache: Map<string, EventApiData> = new Map();
     private savedEvents: Set<string> = new Set(); // Track which events have been saved to avoid duplicates
     
-    private readonly BROWSERS_COUNT = 3; // Number of browser instances (each ~2GB) - Reduced from 5 to lower memory pressure
-    private readonly TABS_PER_BROWSER = 0; // Max tabs per browser (0 = unlimited)
-    private readonly MAX_TOTAL_EVENTS = 0; // Total capacity: 0 = unlimited, auto-cleanup handles resource management
-    
-    // Timeout for the entire browser session's communication over the DevTools Protocol (in milliseconds)
-    private readonly PROTOCOL_TIMEOUT = 300000; // 5 minutes
+    private BROWSERS_COUNT: number;
+    private TABS_PER_BROWSER: number;
+    private MAX_TOTAL_EVENTS: number;
+    private PROTOCOL_TIMEOUT: number;
+    private HEALTH_CHECK_INTERVAL: number;
 
     private browserTabCounts: number[] = [];
     private browserHealth: boolean[] = []; // Tracks if browsers are connected
     private healthCheckInterval: NodeJS.Timeout | null = null;
-    private readonly HEALTH_CHECK_INTERVAL = 30000; // 30 seconds
     
     constructor() {
+        // Load configuration from environment variables or use defaults
+        this.BROWSERS_COUNT = parseInt(process.env.SOFASCORE_BROWSERS_COUNT || '3', 10);
+        this.TABS_PER_BROWSER = parseInt(process.env.SOFASCORE_TABS_PER_BROWSER || '0', 10);
+        this.MAX_TOTAL_EVENTS = parseInt(process.env.SOFASCORE_MAX_TOTAL_EVENTS || '0', 10);
+        this.PROTOCOL_TIMEOUT = parseInt(process.env.SOFASCORE_PROTOCOL_TIMEOUT || '300000', 10);
+        this.HEALTH_CHECK_INTERVAL = parseInt(process.env.SOFASCORE_HEALTH_CHECK_INTERVAL || '30000', 10);
+
+        console.log('✅ [BROWSER POOL] Configuration loaded:');
+        console.log(`   - Browsers: ${this.BROWSERS_COUNT}`);
+        console.log(`   - Tabs per browser: ${this.TABS_PER_BROWSER === 0 ? 'unlimited' : this.TABS_PER_BROWSER}`);
+        console.log(`   - Max total events: ${this.MAX_TOTAL_EVENTS === 0 ? 'unlimited' : this.MAX_TOTAL_EVENTS}`);
+        console.log(`   - Protocol timeout: ${this.PROTOCOL_TIMEOUT / 1000}s`);
+        console.log(`   - Health check interval: ${this.HEALTH_CHECK_INTERVAL / 1000}s`);
+
         this.browserTabCounts = new Array(this.BROWSERS_COUNT).fill(0);
         this.browserHealth = new Array(this.BROWSERS_COUNT).fill(false);
     }
