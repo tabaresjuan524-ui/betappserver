@@ -33,6 +33,9 @@ export class BrowserPoolManager {
     private readonly TABS_PER_BROWSER = 0; // Max tabs per browser (0 = unlimited)
     private readonly MAX_TOTAL_EVENTS = 0; // Total capacity: 0 = unlimited, auto-cleanup handles resource management
     
+    // Timeout for the entire browser session's communication over the DevTools Protocol (in milliseconds)
+    private readonly PROTOCOL_TIMEOUT = 300000; // 5 minutes
+
     private browserTabCounts: number[] = [];
     private browserHealth: boolean[] = []; // Tracks if browsers are connected
     private healthCheckInterval: NodeJS.Timeout | null = null;
@@ -100,7 +103,7 @@ export class BrowserPoolManager {
             const browser = await puppeteer.launch({
                 executablePath: chrome,
                 headless: true, // Use true for production, false for debugging
-                protocolTimeout: 300000, // 300 seconds (5 min) - increased for better stability
+                protocolTimeout: this.PROTOCOL_TIMEOUT, // 300 seconds (5 min) - increased for better stability
                 args: [
                     '--no-sandbox',
                     '--disable-setuid-sandbox',
