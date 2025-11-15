@@ -700,6 +700,13 @@ export class BrowserPoolManager {
     }
 
     /**
+     * Get all monitored event IDs
+     */
+    getMonitoredEventIds(): string[] {
+        return Array.from(this.eventTabs.keys());
+    }
+
+    /**
      * Fetch missing critical endpoints via direct HTTP requests
      * This function is called after the Puppeteer waiting period to fill in any missing endpoints
      */

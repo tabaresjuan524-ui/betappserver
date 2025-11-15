@@ -423,6 +423,32 @@ export class SofaScoreAPIFetcher {
                     }
                 }
             }
+
+            // *** BEGIN: STALE EVENT CLEANUP ***
+            console.log('🧹 [SOFASCORE] Starting stale event cleanup...');
+            const monitoredEventIds = this.browserPool.getMonitoredEventIds();
+            const newLiveEventIds = new Set<string>();
+            
+            Object.values(consolidatedData.sports).forEach(sportData => {
+                sportData.liveEvents?.events?.forEach(event => {
+                    newLiveEventIds.add(event.id.toString());
+                });
+            });
+
+            const staleEventIds = monitoredEventIds.filter(id => !newLiveEventIds.has(id));
+
+            if (staleEventIds.length > 0) {
+                console.log(`🗑️  [SOFASCORE] Found ${staleEventIds.length} stale events to close: ${staleEventIds.join(', ')}`);
+                const closeQueue = new PQueue({ concurrency: 5 }); // Concurrently close up to 5 tabs at a time
+                const closePromises = staleEventIds.map(eventId => {
+                    return closeQueue.add(() => this.browserPool.closeEventTab(eventId));
+                });
+                await Promise.all(closePromises);
+                console.log(`✅ [SOFASCORE] Finished closing ${staleEventIds.length} stale event tabs.`);
+            } else {
+                console.log('👍 [SOFASCORE] No stale events to clean up.');
+            }
+            // *** END: STALE EVENT CLEANUP ***
             
             console.log('✅ [SOFASCORE] Data fetch cycle completed');
             this.logMemoryUsage();
