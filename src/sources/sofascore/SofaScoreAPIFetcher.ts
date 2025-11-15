@@ -349,7 +349,7 @@ export class SofaScoreAPIFetcher {
     async fetchAllData(): Promise<ConsolidatedData> {
         console.log('🚀 [SOFASCORE] Starting data fetch cycle...');
         console.log(`⚙️  [SOFASCORE] Max events per sport: ${this.MAX_EVENTS_PER_SPORT === 0 ? 'unlimited' : this.MAX_EVENTS_PER_SPORT}`);
-        console.log(`🎯 [SOFASCORE] Sport filter: ${this.SPORT_FILTER === 'all' ? 'all sports' : this.SPORT_FILTER}`);
+        console.log(`🎯 [SOFASCORE] Sport filter: ${process.env.SPORT_FILTER === 'all' ? 'all sports' : process.env.SPORT_FILTER}`);
         this.logMemoryUsage();
         
         try {
