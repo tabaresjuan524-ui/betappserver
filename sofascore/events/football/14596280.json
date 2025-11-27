@@ -1,0 +1,2981 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/14596280/pregame-form": {
+    "homeTeam": {
+      "position": 15,
+      "value": "7",
+      "form": [
+        "D",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 6,
+      "value": "9",
+      "form": [
+        "W",
+        "L",
+        "W",
+        "W"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14596280/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "player": {
+          "name": "João Afonso",
+          "firstName": "João",
+          "lastName": "Afonso",
+          "slug": "joao-afonso",
+          "shortName": "J. Afonso",
+          "position": "F",
+          "jerseyNumber": "17",
+          "userCount": 17,
+          "gender": "M",
+          "id": 2240583,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جواو أفونسو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. أفونسو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Eduardo Fernandes",
+          "slug": "eduardo-fernandes",
+          "shortName": "Dudu",
+          "position": "F",
+          "jerseyNumber": "99",
+          "height": 179,
+          "userCount": 184,
+          "gender": "M",
+          "id": 1649060,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1174694400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدواردو فرنانديز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فرنانديز"
+            }
+          }
+        },
+        "footballPassingNetworkAction": [],
+        "id": 330324900,
+        "time": 9,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 37,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      }
+    }
+  },
+  "tv/event/14596280/country-channels": {
+    "countryChannels": {
+      "PT": [
+        403
+      ]
+    }
+  },
+  "event/14596280/votes": {
+    "vote": {
+      "vote1": 665,
+      "vote2": 1598,
+      "voteX": 434
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 562,
+      "voteNo": 52
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 89,
+      "voteNoGoal": 9,
+      "voteAway": 364
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14596280": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Youth League",
+        "slug": "uefa-youth-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Youth League",
+          "slug": "uefa-youth-league",
+          "primaryColorHex": "#44c156",
+          "secondaryColorHex": "#2828c6",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 22080,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 2132,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا للشباب",
+              "hi": "यूईएफए यूथ लीग",
+              "bn": "উয়েফা ইউথ লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 442,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 138558,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الشباب الأوروبي",
+            "hi": "यूईएफए यूथ लीग",
+            "bn": "উয়েফা ইয়ুথ লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Youth League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 1
+        },
+        "id": 81894
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "KmGstcL",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Ouder-Amstel"
+        },
+        "venueCoordinates": {
+          "latitude": 52.29504,
+          "longitude": 4.90746
+        },
+        "hidden": true,
+        "slug": "sportpark-de-toekomst",
+        "name": "Sportpark De Toekomst",
+        "capacity": 2250,
+        "id": 16736,
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "منتزه دي توكمست الرياضي",
+            "hi": "स्पोर्टपार्क डी टोकोमस्ट",
+            "bn": "স্পোর্টপার্ক ডি টোকমস্ট"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Sportpark De Toekomst",
+          "capacity": 2250
+        }
+      },
+      "referee": {
+        "name": "Lothar D'hondt",
+        "slug": "lothar-dhondt",
+        "yellowCards": 683,
+        "redCards": 23,
+        "yellowRedCards": 20,
+        "games": 171,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 785710,
+        "country": {
+          "alpha2": "BE",
+          "alpha3": "BEL",
+          "name": "Belgium",
+          "slug": "belgium"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لوثار د. هونت"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Ajax U19",
+        "slug": "ajax-u19",
+        "shortName": "Ajax U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2745,
+        "manager": {
+          "name": "Paul Nuijten",
+          "slug": "paul-nuijten",
+          "shortName": "P. Nuijten",
+          "id": 803852,
+          "country": {
+            "alpha2": "NL",
+            "alpha3": "NLD",
+            "name": "Netherlands",
+            "slug": "netherlands"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بول نويدتن"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. نويدتن"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Amsterdam"
+          },
+          "venueCoordinates": {
+            "latitude": 52.31599,
+            "longitude": 4.942931
+          },
+          "hidden": true,
+          "slug": "amsterdam-arena",
+          "name": "Amsterdam Arena",
+          "id": 26537,
+          "country": {
+            "alpha2": "NL",
+            "alpha3": "NLD",
+            "name": "Netherlands",
+            "slug": "netherlands"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أمستردام أرينا",
+              "hi": "एम्स्टर्डम एरिना",
+              "bn": "আমস্টারডাম এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Amsterdam Arena"
+          }
+        },
+        "nameCode": "AUU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 90118,
+        "country": {
+          "alpha2": "NL",
+          "alpha3": "NLD",
+          "name": "Netherlands",
+          "slug": "netherlands"
+        },
+        "fullName": "Ajax U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#bb002b",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -2202422400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أياكس تحت 19",
+            "ru": "ФК Аякс Амстердам"
+          },
+          "shortNameTranslation": {
+            "ar": "أياكس تحت 19"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Benfica U19",
+        "slug": "benfica-u19",
+        "shortName": "Benfica U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 10040,
+        "manager": {
+          "name": "Vitor Vinha",
+          "slug": "vitor-vinha",
+          "shortName": "V. Vinha",
+          "id": 795511,
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيتور فينيا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. فينيا"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Seixal"
+          },
+          "venueCoordinates": {
+            "latitude": 38.640761,
+            "longitude": -9.089808
+          },
+          "hidden": true,
+          "slug": "benfica-campus",
+          "name": "Benfica Campus",
+          "capacity": 2644,
+          "id": 8275,
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بنفيكا كامبوس",
+              "hi": "बेनफिका परिसर",
+              "bn": "বেনফিকা ক্যাম্পাস"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Benfica Campus",
+            "capacity": 2644
+          }
+        },
+        "nameCode": "BUU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 78135,
+        "country": {
+          "alpha2": "PT",
+          "alpha3": "PRT",
+          "name": "Portugal",
+          "slug": "portugal"
+        },
+        "fullName": "Benfica U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -2077833600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بنفيكا تحت 19",
+            "ru": "Бенфика"
+          },
+          "shortNameTranslation": {
+            "ar": "بنفيكا تحت 19"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1764072222,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display"
+        ],
+        "changeTimestamp": 1764072748
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": false,
+      "detailId": 4,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14596280,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1764072222,
+        "extra": 540
+      },
+      "slug": "ajax-u19-benfica-u19",
+      "currentPeriodStartTimestamp": 1764072222,
+      "startTimestamp": 1764072000,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14596280/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Aymean el Hani",
+            "firstName": "Aymean el Hani",
+            "slug": "aymean-el-hani",
+            "shortName": "A. e. Hani",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 182,
+            "userCount": 129,
+            "gender": "M",
+            "id": 1586658,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1178668800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أيمان الهاني"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. الهاني"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Luuk Beekman",
+            "firstName": "Luuk Beekman",
+            "slug": "luuk-beekman",
+            "shortName": "L. Beekman",
+            "position": "D",
+            "jerseyNumber": "15",
+            "userCount": 22,
+            "gender": "M",
+            "id": 1586635,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1189641600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيكمان، لوك"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. بيكمان"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Aaron Bouwman",
+            "firstName": "Aaron Bouwman",
+            "slug": "aaron-bouwman",
+            "shortName": "A. Bouwman",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 188,
+            "userCount": 572,
+            "gender": "M",
+            "id": 1586649,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1188259200,
+            "proposedMarketValueRaw": {
+              "value": 1000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "آرون بومان"
+              },
+              "shortNameTranslation": {
+                "ar": "آ. بومان"
+              }
+            }
+          },
+          "teamId": 2953,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Marvyn Muzungu",
+            "firstName": "Marvyn Muzungu",
+            "slug": "marvyn-muzungu",
+            "shortName": "M. Muzungu",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 192,
+            "userCount": 118,
+            "gender": "M",
+            "id": 1974219,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1196208000,
+            "proposedMarketValueRaw": {
+              "value": 320000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارفين موزونغو"
+              },
+              "shortNameTranslation": {
+                "ar": "م. موزونغو"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Lucas Jetten",
+            "firstName": "Lucas Jetten",
+            "slug": "lucas-jetten",
+            "shortName": "L. Jetten",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 166,
+            "userCount": 271,
+            "gender": "M",
+            "id": 1586637,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1181174400,
+            "proposedMarketValueRaw": {
+              "value": 770000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوكاس جيتين"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. جيتين"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Damián van der Vaart",
+            "slug": "damian-van-der-vaart",
+            "shortName": "D. v. d. Vaart",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 183,
+            "userCount": 132,
+            "gender": "M",
+            "id": 1997191,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1148774400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "داميان فان دير فارت"
+              },
+              "shortNameTranslation": {
+                "ar": "د. فان دير فارت"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jinairo Johnson",
+            "firstName": "Jinairo Johnson",
+            "slug": "jinairo-johnson",
+            "shortName": "J. Johnson",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 180,
+            "userCount": 131,
+            "gender": "M",
+            "id": 1823943,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1181692800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جينيرو جونسون"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. جونسون"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Sean Steur",
+            "firstName": "Sean Steur",
+            "slug": "sean-steur",
+            "shortName": "S. Steur",
+            "position": "M",
+            "jerseyNumber": "48",
+            "height": 180,
+            "userCount": 404,
+            "gender": "M",
+            "id": 1859920,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1200009600,
+            "proposedMarketValueRaw": {
+              "value": 680000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شون ستور"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. ستور"
+              }
+            }
+          },
+          "teamId": 2953,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Luca Messori",
+            "firstName": "Luca Messori",
+            "slug": "luca-messori",
+            "shortName": "L. Messori",
+            "position": "M",
+            "jerseyNumber": "22",
+            "userCount": 92,
+            "gender": "M",
+            "id": 1859919,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1193270400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوكا ميسوري"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. ميسوري"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Emre Ünüvar",
+            "firstName": "Emre Ünüvar",
+            "slug": "emre-unuvar",
+            "shortName": "E. Ünüvar",
+            "position": "F",
+            "jerseyNumber": "21",
+            "height": 170,
+            "userCount": 320,
+            "gender": "M",
+            "id": 1825875,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205798400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيمري أونوفار"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أونوفار"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Pharrel Nash",
+            "slug": "pharrel-nash",
+            "shortName": "P. Nash",
+            "position": "F",
+            "jerseyNumber": "11",
+            "userCount": 115,
+            "gender": "M",
+            "id": 1960323,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1202342400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فاريل ناش"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. ناش"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "Valentijn van der Velde",
+            "firstName": "Valentijn van der Velde",
+            "slug": "valentijn-van-der-velde",
+            "shortName": "V. v. d. Velde",
+            "position": "G",
+            "userCount": 11,
+            "gender": "M",
+            "id": 1586619,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1168560000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فالنتاين فان دير فيلدي"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. فان دير فيلدي"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Sesynijo Tilborg",
+            "firstName": "Sesynijo Tilborg",
+            "slug": "sesynijo-tilborg",
+            "shortName": "S. Tilborg",
+            "position": "D",
+            "jerseyNumber": "16",
+            "userCount": 19,
+            "gender": "M",
+            "id": 2266853,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1204934400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيسينيجو تيلبورغ"
+              },
+              "shortNameTranslation": {
+                "ar": "س. تيلبورغ"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Leroy Frankel",
+            "firstName": "Frankel Leroy",
+            "slug": "frankel-leroy",
+            "shortName": "F. Leroy",
+            "position": "D",
+            "userCount": 16,
+            "gender": "M",
+            "id": 2215820,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1217030400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانكل ليروي"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. ليروي"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Hasan Ayyildiz",
+            "firstName": "Hasan Ayyildiz",
+            "slug": "hasan-ayyildiz",
+            "shortName": "H. Ayyildiz",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 107,
+            "gender": "M",
+            "id": 1961849,
+            "country": {
+              "alpha2": "TR",
+              "alpha3": "TUR",
+              "name": "Türkiye",
+              "slug": "turkiye"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1199923200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "حسن أيديلدز"
+              },
+              "shortNameTranslation": {
+                "ar": "ح. أيديلدز"
+              }
+            }
+          },
+          "teamId": 46160,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Thijmen Romers",
+            "firstName": "Thijmen",
+            "lastName": "Romers",
+            "slug": "thijmen-romers",
+            "shortName": "T. Romers",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 24,
+            "gender": "M",
+            "id": 1957865,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1199404800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ثايمين رومرز"
+              },
+              "shortNameTranslation": {
+                "ar": "ث. رومرز"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Tyrese Teuwsen",
+            "firstName": "Tyrese Teuwsen",
+            "slug": "tyrese-teuwsen",
+            "shortName": "T. Teuwsen",
+            "position": "M",
+            "jerseyNumber": "20",
+            "userCount": 11,
+            "gender": "M",
+            "id": 2266845,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تايريس تيوسن"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. تيوسن"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Mohamed Abdalla",
+            "firstName": "Mohamed Abdalla",
+            "slug": "mohamed-abdalla",
+            "shortName": "M. Abdalla",
+            "position": "M",
+            "userCount": 32,
+            "gender": "M",
+            "id": 2256639,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1255910400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد عبد الله"
+              },
+              "shortNameTranslation": {
+                "ar": "م. الله"
+              }
+            }
+          },
+          "teamId": 22475,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Jeshurun Simeon",
+            "firstName": "Jeshurun",
+            "lastName": "Simeon",
+            "slug": "jeshurun-simeon",
+            "shortName": "J. Simeon",
+            "position": "F",
+            "userCount": 43,
+            "gender": "M",
+            "id": 2256583,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "يشورون سيميئون"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. سيميئون"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Eternal Barron",
+            "firstName": "Eternal Barron",
+            "slug": "eternal-barron",
+            "shortName": "E. Barron",
+            "position": "F",
+            "userCount": 8,
+            "id": 1957711,
+            "country": {
+              "alpha2": "NL",
+              "alpha3": "NLD",
+              "name": "Netherlands",
+              "slug": "netherlands"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205193600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيتيرنال بارون"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. بارون"
+              }
+            }
+          },
+          "teamId": 90118,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Diogo Ferreira",
+            "firstName": "Diogo Ferreira",
+            "lastName": "",
+            "slug": "diogo-ferreira",
+            "shortName": "D. Ferreira",
+            "position": "G",
+            "jerseyNumber": "50",
+            "height": 191,
+            "userCount": 320,
+            "gender": "M",
+            "id": 1489159,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171065600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديغو فيريرا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. فيريرا"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Duarte Soares",
+            "firstName": "Duarte Soares",
+            "slug": "duarte-soares",
+            "shortName": "D. Soares",
+            "position": "D",
+            "jerseyNumber": "2",
+            "userCount": 208,
+            "gender": "M",
+            "id": 1586647,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171843200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دورات سوارس"
+              },
+              "shortNameTranslation": {
+                "ar": "د. سوارس"
+              }
+            }
+          },
+          "teamId": 295094,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Gonçalo Oliveira",
+            "firstName": "Gonçalo Oliveira",
+            "slug": "goncalo-oliveira",
+            "shortName": "G. Oliveira",
+            "position": "D",
+            "jerseyNumber": "64",
+            "height": 180,
+            "userCount": 618,
+            "gender": "M",
+            "id": 1432417,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1151971200,
+            "proposedMarketValueRaw": {
+              "value": 1600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غونزالو أوليفيرا"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. أوليفيرا"
+              }
+            }
+          },
+          "teamId": 3006,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "João Fonseca",
+            "firstName": "João Fonseca",
+            "lastName": "",
+            "slug": "joao-fonseca",
+            "shortName": "J. Fonseca",
+            "position": "D",
+            "jerseyNumber": "55",
+            "height": 186,
+            "userCount": 210,
+            "gender": "M",
+            "id": 1402730,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1156982400,
+            "proposedMarketValueRaw": {
+              "value": 275000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جواو فونسيكا"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. فونسيكا"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Nilson Semedo",
+            "firstName": "Nilson Semedo",
+            "slug": "nilson-semedo",
+            "shortName": "N. Semedo",
+            "position": "D",
+            "jerseyNumber": "5",
+            "userCount": 20,
+            "gender": "M",
+            "id": 2267586,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1223769600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيلسون سيميدو"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. سيميدو"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Tiago Freitas",
+            "firstName": "Tiago Freitas",
+            "lastName": "",
+            "slug": "tiago-freitas",
+            "shortName": "T. Freitas",
+            "position": "M",
+            "jerseyNumber": "88",
+            "height": 186,
+            "userCount": 151,
+            "gender": "M",
+            "id": 1410243,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1155772800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تياغو فريتاس"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. فريتاس"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Gil Matteo Neves",
+            "firstName": "",
+            "lastName": "",
+            "slug": "gil-matteo-neves",
+            "shortName": "G. M. Neves",
+            "position": "M",
+            "jerseyNumber": "6",
+            "height": 189,
+            "userCount": 149,
+            "gender": "M",
+            "id": 1426231,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1202515200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيل ماتيو نيفيس"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. نيفيس"
+              }
+            }
+          },
+          "teamId": 295094,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "João Afonso",
+            "firstName": "João",
+            "lastName": "Afonso",
+            "slug": "joao-afonso",
+            "shortName": "J. Afonso",
+            "position": "F",
+            "jerseyNumber": "17",
+            "userCount": 17,
+            "gender": "M",
+            "id": 2240583,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171497600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جواو أفونسو"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. أفونسو"
+              }
+            }
+          },
+          "teamId": 295094,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Eduardo Fernandes",
+            "slug": "eduardo-fernandes",
+            "shortName": "Dudu",
+            "position": "F",
+            "jerseyNumber": "99",
+            "height": 179,
+            "userCount": 184,
+            "gender": "M",
+            "id": 1649060,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1174694400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إدواردو فرنانديز"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. فرنانديز"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Francisco Silva",
+            "firstName": "Francisco Silva",
+            "slug": "francisco-silva",
+            "shortName": "F. Silva",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 187,
+            "userCount": 140,
+            "gender": "M",
+            "id": 1939098,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1189728000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانسيسكو سيلفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. سيلفا"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Federico Coletta",
+            "firstName": "Federico",
+            "lastName": "Coletta",
+            "slug": "federico-coletta",
+            "shortName": "F. Coletta",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 170,
+            "userCount": 444,
+            "gender": "M",
+            "id": 1587209,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1180396800,
+            "proposedMarketValueRaw": {
+              "value": 970000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيديريكو كوليتا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. كوليتا"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Leonardo Lopes",
+            "firstName": "Leonardo Lopes",
+            "slug": "leonardo-lopes",
+            "shortName": "L. Lopes",
+            "position": "G",
+            "jerseyNumber": "12",
+            "height": 187,
+            "userCount": 26,
+            "gender": "M",
+            "id": 1862171,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1207440000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليوناردو لوبيس"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. لوبيس"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Rui Silva",
+            "firstName": "Rui Silva",
+            "slug": "rui-silva",
+            "shortName": "R. Silva",
+            "position": "D",
+            "jerseyNumber": "94",
+            "userCount": 54,
+            "gender": "M",
+            "id": 1545202,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182988800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "روي سيلفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. سيلفا"
+              }
+            }
+          },
+          "teamId": 74465,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Dinis Telehovschi",
+            "firstName": "Dinis Telehovschi",
+            "slug": "dinis-telehovschi",
+            "shortName": "D. Telehovschi",
+            "position": "M",
+            "jerseyNumber": "15",
+            "height": 190,
+            "userCount": 34,
+            "gender": "M",
+            "id": 1586651,
+            "country": {
+              "alpha2": "MD",
+              "alpha3": "MDA",
+              "name": "Moldova",
+              "slug": "moldova"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1177459200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دينيس تيليهوفسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "د. تيليهوفسكي"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Jaden Umeh",
+            "slug": "jaden-umeh",
+            "shortName": "J. Umeh",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 184,
+            "userCount": 348,
+            "gender": "M",
+            "id": 1566250,
+            "country": {
+              "alpha2": "IE",
+              "alpha3": "IRL",
+              "name": "Ireland",
+              "slug": "ireland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205798400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جادن أومي"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. أومي"
+              }
+            }
+          },
+          "teamId": 295094,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Isaac Ferreira",
+            "firstName": "Isaac Ferreira",
+            "slug": "isaac-ferreira",
+            "shortName": "I. Ferreira",
+            "position": "M",
+            "jerseyNumber": "16",
+            "userCount": 14,
+            "gender": "M",
+            "id": 2267608,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1228867200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسحاق فيريرا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. فيريرا"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ricardo Fernandes",
+            "slug": "ricardo-fernandes",
+            "shortName": "R. Fernandes",
+            "position": "F",
+            "height": 172,
+            "userCount": 14,
+            "gender": "M",
+            "id": 1983649,
+            "country": {
+              "alpha2": "BG",
+              "alpha3": "BGR",
+              "name": "Bulgaria",
+              "slug": "bulgaria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1203379200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريكاردو فيرنانديز"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. فيرنانديز"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "João Pedro Silva Gonçalves",
+            "slug": "joao-pedro-silva-goncalves",
+            "shortName": "J. P. S. Gonçalves",
+            "position": "F",
+            "jerseyNumber": "18",
+            "userCount": 5,
+            "gender": "M",
+            "id": 2349572,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171756800
+          },
+          "teamId": 78135,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Gustavo Ferreira",
+            "firstName": "Gustavo Ferreira",
+            "slug": "gustavo-ferreira",
+            "shortName": "G. Ferreira",
+            "position": "F",
+            "jerseyNumber": "19",
+            "height": 190,
+            "userCount": 105,
+            "gender": "M",
+            "id": 1545193,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1180396800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيريرا، غاستافو"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. فيريرا"
+              }
+            }
+          },
+          "teamId": 295094,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Tiago Rodrigues",
+            "firstName": "Tiago Rodrigues",
+            "slug": "tiago-rodrigues",
+            "shortName": "T. Rodrigues",
+            "position": "F",
+            "height": 170,
+            "userCount": 38,
+            "gender": "M",
+            "id": 2165027,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1232841600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تياغو رودريغيز"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. رودريغيز"
+              }
+            }
+          },
+          "teamId": 78135,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "statisticalVersion": 2
+  },
+  "event/14596280/managers": {
+    "homeManager": {
+      "name": "Paul Nuijten",
+      "slug": "paul-nuijten",
+      "shortName": "P. Nuijten",
+      "id": 803852,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بول نويدتن"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. نويدتن"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Vitor Vinha",
+      "slug": "vitor-vinha",
+      "shortName": "V. Vinha",
+      "id": 795511,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "فيتور فينيا"
+        },
+        "shortNameTranslation": {
+          "ar": "ف. فينيا"
+        }
+      }
+    }
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "betSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14596280/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322414,
+        "suspended": false,
+        "id": 164900279,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "6/1",
+            "sourceId": 36217985,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/2",
+            "fractionalValue": "5/1",
+            "sourceId": 36217991,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/3",
+            "sourceId": 36217996,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322414,
+        "suspended": false,
+        "id": 164900279,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "6/1",
+            "sourceId": 36217985,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/2",
+            "fractionalValue": "5/1",
+            "sourceId": 36217991,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/3",
+            "sourceId": 36217996,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322414,
+        "suspended": false,
+        "id": 164900279,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "6/1",
+            "sourceId": 36217985,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/2",
+            "fractionalValue": "5/1",
+            "sourceId": 36217991,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/3",
+            "sourceId": 36217996,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14596280/comments/es": {
+    "comments": [
+      {
+        "text": "¡Gooooool! Ajax U19 0, Benfica U19 1. Joao Afonso (Benfica U19) remate de cabeza. Asistencia de Eduardo Fernandes.",
+        "type": "scoreChange",
+        "isHome": false,
+        "player": {
+          "name": "João Afonso",
+          "firstName": "João",
+          "lastName": "Afonso",
+          "slug": "joao-afonso",
+          "shortName": "J. Afonso",
+          "position": "F",
+          "jerseyNumber": "17",
+          "userCount": 17,
+          "gender": "M",
+          "id": 2240583,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1171497600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جواو أفونسو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. أفونسو"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Eduardo Fernandes",
+          "slug": "eduardo-fernandes",
+          "shortName": "Dudu",
+          "position": "F",
+          "jerseyNumber": "99",
+          "height": 179,
+          "userCount": 184,
+          "gender": "M",
+          "id": 1649060,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1174694400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدواردو فرنانديز"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. فرنانديز"
+            }
+          }
+        },
+        "id": 33805531,
+        "periodName": "1ST",
+        "time": 9
+      },
+      {
+        "text": "Empieza primera parte.",
+        "type": "matchStarted",
+        "id": 33805521,
+        "periodName": "1ST",
+        "time": 1
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "dd0000",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      }
+    }
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15145898,
+        "homeTeamId": 131566,
+        "awayTeamId": 457907,
+        "uniqueTournamentId": 10125
+      },
+      {
+        "eventId": 15145899,
+        "homeTeamId": 88086,
+        "awayTeamId": 1083423,
+        "uniqueTournamentId": 907
+      },
+      {
+        "eventId": 15146261,
+        "homeTeamId": 409934,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146262,
+        "homeTeamId": 355334,
+        "awayTeamId": 409934,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146264,
+        "homeTeamId": 484968,
+        "awayTeamId": 409934,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146274,
+        "homeTeamId": 1043125,
+        "awayTeamId": 398482,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146293,
+        "homeTeamId": 481160,
+        "awayTeamId": 411152,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146302,
+        "homeTeamId": 240442,
+        "awayTeamId": 243797,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146305,
+        "homeTeamId": 1152996,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146659,
+        "homeTeamId": 243797,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146660,
+        "homeTeamId": 240442,
+        "awayTeamId": 1152996,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146869,
+        "homeTeamId": 252000,
+        "awayTeamId": 194939,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146870,
+        "homeTeamId": 253110,
+        "awayTeamId": 393206,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146871,
+        "homeTeamId": 1096990,
+        "awayTeamId": 321462,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146944,
+        "homeTeamId": 858274,
+        "awayTeamId": 1119811,
+        "uniqueTournamentId": 31135
+      },
+      {
+        "eventId": 15146962,
+        "homeTeamId": 410299,
+        "awayTeamId": 483153,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146963,
+        "homeTeamId": 409832,
+        "awayTeamId": 456912,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146964,
+        "homeTeamId": 410020,
+        "awayTeamId": 451466,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146965,
+        "homeTeamId": 484968,
+        "awayTeamId": 355334,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146966,
+        "homeTeamId": 410132,
+        "awayTeamId": 412607,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146967,
+        "homeTeamId": 409934,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146968,
+        "homeTeamId": 410058,
+        "awayTeamId": 522792,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146969,
+        "homeTeamId": 799152,
+        "awayTeamId": 414395,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146971,
+        "homeTeamId": 1107304,
+        "awayTeamId": 469498,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146972,
+        "homeTeamId": 937006,
+        "awayTeamId": 447970,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146974,
+        "homeTeamId": 409834,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146975,
+        "homeTeamId": 358706,
+        "awayTeamId": 419909,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146977,
+        "homeTeamId": 355280,
+        "awayTeamId": 1079724,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146978,
+        "homeTeamId": 409834,
+        "awayTeamId": 419909,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146980,
+        "homeTeamId": 410210,
+        "awayTeamId": 445964,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146981,
+        "homeTeamId": 410047,
+        "awayTeamId": 358706,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146982,
+        "homeTeamId": 355280,
+        "awayTeamId": 445964,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146983,
+        "homeTeamId": 409834,
+        "awayTeamId": 358706,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146984,
+        "homeTeamId": 1079724,
+        "awayTeamId": 410210,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146985,
+        "homeTeamId": 419909,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146986,
+        "homeTeamId": 355280,
+        "awayTeamId": 410210,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15147123,
+        "homeTeamId": 1093486,
+        "awayTeamId": 504842,
+        "uniqueTournamentId": 31135
+      },
+      {
+        "eventId": 15147214,
+        "homeTeamId": 377970,
+        "awayTeamId": 403179,
+        "uniqueTournamentId": 30136
+      },
+      {
+        "eventId": 15147215,
+        "homeTeamId": 454114,
+        "awayTeamId": 161874,
+        "uniqueTournamentId": 30136
+      }
+    ]
+  },
+  "event/14596280/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 1,
+      "draws": 1
+    },
+    "managerDuel": null
+  },
+  "event/14596280/odds/1/all": {
+    "markets": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322414,
+        "suspended": false,
+        "id": 164900279,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/1",
+            "fractionalValue": "6/1",
+            "sourceId": 36217985,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "7/2",
+            "fractionalValue": "5/1",
+            "sourceId": 36217991,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "1/3",
+            "sourceId": 36217996,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567242,
+        "suspended": false,
+        "id": 164815896,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/5",
+            "fractionalValue": "11/5",
+            "sourceId": 1937726163,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "16/5",
+            "fractionalValue": "16/5",
+            "sourceId": 1937726165,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "4/5",
+            "sourceId": 1937726166,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 14596280
+  },
+  "event/14596280/win-probability": {
+    "winProbability": {
+      "homeWin": 12,
+      "awayWin": 73,
+      "draw": 15
+    }
+  },
+  "event/14596280/team-streaks/betting-odds/1": {
+    "general": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567242,
+        "suspended": false,
+        "id": 164815896,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/5",
+            "fractionalValue": "11/5",
+            "sourceId": 1937726163,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "16/5",
+            "fractionalValue": "16/5",
+            "sourceId": 1937726165,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "4/5",
+            "sourceId": 1937726166,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567242,
+        "suspended": false,
+        "id": 164815896,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "11/5",
+            "fractionalValue": "11/5",
+            "sourceId": 1937726163,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "16/5",
+            "fractionalValue": "16/5",
+            "sourceId": 1937726165,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "4/5",
+            "fractionalValue": "4/5",
+            "sourceId": 1937726166,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "head2head": []
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "event/14961246/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14961246/incidents": {
+    "incidents": [
+      {
+        "text": "1. set",
+        "homeScore": 9,
+        "awayScore": 2,
+        "isLive": true,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327086296,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327086278,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327086267,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327086265,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327086264,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086256,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086247,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086244,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086232,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086229,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14961246/pregame-form": {
+    "homeTeam": {
+      "position": 3,
+      "value": "3",
+      "form": [
+        "L",
+        "L",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 4,
+      "value": "3",
+      "form": [
+        "L",
+        "W",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14961246": {
+    "event": {
+      "tournament": {
+        "name": "Volleyball Islamic Solidarity Games 2025 Women, Preliminary round",
+        "slug": "volleyball-islamic-solidarity-games-2025-women",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Volleyball",
+            "slug": "volleyball",
+            "id": 23
+          },
+          "id": 136,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Volleyball Islamic Solidarity Games 2025 Women",
+          "slug": "volleyball-islamic-solidarity-games-2025-women",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Volleyball",
+              "slug": "volleyball",
+              "id": 23
+            },
+            "id": 136,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 35,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 30528,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألعاب التضامن الإسلامي"
+            },
+            "shortNameTranslation": {}
+          },
+          "showBanner": true
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Preliminary round",
+        "competitionType": 1,
+        "id": 167392
+      },
+      "season": {
+        "name": "Islamic Solidarity Games",
+        "year": "2025",
+        "editor": false,
+        "id": 85317
+      },
+      "customId": "rMDbszVfj",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Iran",
+        "slug": "iran",
+        "shortName": "Iran",
+        "gender": "F",
+        "sport": {
+          "name": "Volleyball",
+          "slug": "volleyball",
+          "id": 23
+        },
+        "userCount": 1036,
+        "nameCode": "IRI",
+        "class": 1,
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 196867,
+        "country": {
+          "alpha2": "IR",
+          "alpha3": "IRN",
+          "name": "Iran",
+          "slug": "iran"
+        },
+        "fullName": "Iran",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#cc0000",
+          "text": "#cc0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيران",
+            "ru": "Иран"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Tajikistan",
+        "slug": "tajikistan",
+        "gender": "F",
+        "sport": {
+          "name": "Volleyball",
+          "slug": "volleyball",
+          "id": 23
+        },
+        "userCount": 8,
+        "nameCode": "TAJ",
+        "class": 1,
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 1139774,
+        "country": {
+          "alpha2": "TJ",
+          "alpha3": "TJK",
+          "name": "Tajikistan",
+          "slug": "tajikistan"
+        },
+        "fullName": "Tajikistan",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 9
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 2
+      },
+      "coverage": -1,
+      "time": {},
+      "changes": {
+        "changes": [
+          "homeScore.period1",
+          "awayScore.period1"
+        ],
+        "changeTimestamp": 1762931277
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14961246,
+      "defaultPeriodCount": 5,
+      "slug": "tajikistan-iran",
+      "startTimestamp": 1762930800,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set",
+        "overtime": "Overtime"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14961246/votes": {
+    "vote": {
+      "vote1": 106,
+      "vote2": 9,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "offers/banner/unique-tournament/30528/CO/es": {
+    "banners": []
+  },
+  "event/14961246/team-streaks": {
+    "general": [
+      {
+        "name": "Game points average (Last 10)",
+        "value": "163",
+        "team": "home"
+      },
+      {
+        "name": "Game points average (Last 10)",
+        "value": "107",
+        "team": "away"
+      },
+      {
+        "name": "First set loser",
+        "value": "8/10",
+        "team": "home"
+      }
+    ],
+    "head2head": []
+  },
+  "event/rMDbszVfj/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Volleyball Islamic Solidarity Games 2025 Women, Preliminary round",
+          "slug": "volleyball-islamic-solidarity-games-2025-women",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Volleyball",
+              "slug": "volleyball",
+              "id": 23
+            },
+            "id": 136,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Volleyball Islamic Solidarity Games 2025 Women",
+            "slug": "volleyball-islamic-solidarity-games-2025-women",
+            "category": {
+              "name": "International",
+              "slug": "international",
+              "sport": {
+                "name": "Volleyball",
+                "slug": "volleyball",
+                "id": 23
+              },
+              "id": 136,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "دولي",
+                  "hi": "अंतर्राष्ट्रीय",
+                  "bn": "আন্তর্জাতিক"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 35,
+            "hasPerformanceGraphFeature": false,
+            "id": 30528,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألعاب التضامن الإسلامي"
+              },
+              "shortNameTranslation": {}
+            },
+            "showBanner": true
+          },
+          "priority": 0,
+          "isGroup": true,
+          "groupName": "Preliminary round",
+          "id": 167392
+        },
+        "season": {
+          "name": "Islamic Solidarity Games",
+          "year": "2025",
+          "editor": false,
+          "id": 85317
+        },
+        "customId": "rMDbszVfj",
+        "status": {
+          "code": 8,
+          "description": "1st set",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Iran",
+          "slug": "iran",
+          "shortName": "Iran",
+          "gender": "F",
+          "sport": {
+            "name": "Volleyball",
+            "slug": "volleyball",
+            "id": 23
+          },
+          "userCount": 1036,
+          "nameCode": "IRI",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 196867,
+          "country": {
+            "alpha2": "IR",
+            "alpha3": "IRN",
+            "name": "Iran",
+            "slug": "iran"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيران",
+              "ru": "Иран"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Tajikistan",
+          "slug": "tajikistan",
+          "gender": "F",
+          "sport": {
+            "name": "Volleyball",
+            "slug": "volleyball",
+            "id": 23
+          },
+          "userCount": 8,
+          "nameCode": "TAJ",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 1139774,
+          "country": {
+            "alpha2": "TJ",
+            "alpha3": "TJK",
+            "name": "Tajikistan",
+            "slug": "tajikistan"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 9
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 2
+        },
+        "coverage": -1,
+        "time": {},
+        "changes": {
+          "changes": [
+            "homeScore.period1",
+            "awayScore.period1"
+          ],
+          "changeTimestamp": 1762931277
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 14961246,
+        "slug": "tajikistan-iran",
+        "startTimestamp": 1762930800,
+        "periods": {
+          "current": "Match",
+          "period1": "1st set",
+          "period2": "2nd set",
+          "period3": "3rd set",
+          "period4": "4th set",
+          "period5": "5th set",
+          "period6": "6th set",
+          "period7": "7th set",
+          "overtime": "Overtime"
+        },
+        "lastPeriod": "period1",
+        "finalResultOnly": false,
+        "feedLocked": true,
+        "isEditor": false
+      }
+    ]
+  }
+}

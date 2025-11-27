@@ -1,0 +1,246 @@
+{
+  "event/15036620/h2h": {
+    "teamDuel": {
+      "homeWins": 4,
+      "awayWins": 6,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036620/votes": {
+    "vote": {
+      "vote1": 5,
+      "vote2": 10,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15036620": {
+    "event": {
+      "tournament": {
+        "name": "TT Cup",
+        "slug": "tt-cup",
+        "category": {
+          "name": "Czech Republic",
+          "slug": "czech-republic",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1369,
+          "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+          },
+          "flag": "czech-republic",
+          "alpha2": "CZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "التشيك"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Cup",
+          "slug": "tt-cup",
+          "category": {
+            "name": "Czech Republic",
+            "slug": "czech-republic",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1369,
+            "country": {
+              "alpha2": "CZ",
+              "alpha3": "CZE",
+              "name": "Czechia",
+              "slug": "czechia"
+            },
+            "flag": "czech-republic",
+            "alpha2": "CZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "التشيك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 747,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 15005,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس تي تي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 78888,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس تي تي"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "hrDdsmqve",
+      "status": {
+        "code": 10,
+        "description": "3rd set",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Gola P.",
+        "slug": "gola-pawel",
+        "shortName": "Gola P.",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 105,
+        "playerTeamInfo": {
+          "id": 20878
+        },
+        "nameCode": "GOL",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 445857,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Gola, Pawel",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غولا، باويل"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. غولا"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Turecki K.",
+        "slug": "turecki-kacper",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 40,
+        "playerTeamInfo": {
+          "id": 22078
+        },
+        "nameCode": "TUR",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 550812,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Turecki, Kacper",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "توريكي، كاسبر"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 12,
+        "period2": 11,
+        "period3": 10
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 10,
+        "period2": 7,
+        "period3": 8
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762931756
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period3",
+          "awayScore.period3"
+        ],
+        "changeTimestamp": 1762931946
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036620,
+      "defaultPeriodCount": 5,
+      "slug": "turecki-gola",
+      "currentPeriodStartTimestamp": 1762931756,
+      "startTimestamp": 1762931100,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

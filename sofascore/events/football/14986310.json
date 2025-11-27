@@ -1,0 +1,964 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/14986310/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "feba4b",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "c0b7b3",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14986310": {
+    "event": {
+      "tournament": {
+        "name": "Coupe de France",
+        "slug": "coupe-de-france",
+        "category": {
+          "name": "France",
+          "slug": "france",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 7,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "flag": "france",
+          "alpha2": "FR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فرنسا",
+              "hi": "फ्रांस",
+              "bn": "ফ্রান্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Coupe de France",
+          "slug": "coupe-de-france",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#ff0000",
+          "category": {
+            "name": "France",
+            "slug": "france",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 7,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "flag": "france",
+            "alpha2": "FR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرنسا",
+                "hi": "फ्रांस",
+                "bn": "ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 42640,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 335,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس فرنسا",
+              "hi": "कूप डी फ्रांस",
+              "bn": "কুপে ডি ফ্রান্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 481,
+        "isGroup": false,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 77,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس فرنسا",
+            "hi": "कूप डी फ्रांस",
+            "bn": "কুপে ডি ফ্রান্স"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Coupe de France 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 85565
+      },
+      "roundInfo": {
+        "round": 7,
+        "name": "Round 7",
+        "slug": "round-7"
+      },
+      "customId": "BIsMHgj",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "US Auby",
+        "slug": "us-auby",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 10,
+        "nameCode": "AUB",
+        "national": false,
+        "type": 0,
+        "id": 1141637,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fullName": "US Auby",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Amiens SC",
+        "slug": "amiens-sc",
+        "shortName": "Amiens",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 9371,
+        "manager": {
+          "name": "Omar Daf",
+          "slug": "omar-daf",
+          "shortName": "O. Daf",
+          "id": 785819,
+          "country": {
+            "alpha2": "SN",
+            "alpha3": "SEN",
+            "name": "Senegal",
+            "slug": "senegal"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "عمر داف",
+              "hi": "उमर डैफ",
+              "bn": "ওমর দাফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ع. داف",
+              "hi": "ओ. डैफ",
+              "bn": "ও. দাফ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Amiens"
+          },
+          "venueCoordinates": {
+            "latitude": 49.9,
+            "longitude": 2.3
+          },
+          "hidden": false,
+          "slug": "stade-cr-dit-agricole-la-licorne",
+          "name": "Stade Crédit Agricole la Licorne",
+          "capacity": 12097,
+          "id": 2471,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب كريدي أجريكول لا ليكورن",
+              "hi": "स्टेड क्रेडिट एग्रीकोल ला लिकोर्न",
+              "bn": "স্টেড ক্রেডিট এগ্রিকোল লা লিকর্ন"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Stade Crédit Agricole la Licorne",
+            "capacity": 12097
+          }
+        },
+        "nameCode": "AMI",
+        "national": false,
+        "type": 0,
+        "id": 1676,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fullName": "Amiens SC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "foundationDateTimestamp": -2153433600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي أميان",
+            "ru": "Амьен",
+            "hi": "एमिएंस"
+          },
+          "shortNameTranslation": {
+            "ar": "أميان",
+            "hi": "एमियेन्स",
+            "bn": "অ্যামিয়েন্স"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1763211660,
+        "period1StartTimestamp": 1763211660,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period1",
+          "homeScore.normaltime",
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.period1",
+          "awayScore.normaltime",
+          "time.currentPeriodStart",
+          "time.period1Start"
+        ],
+        "changeTimestamp": 1763211700
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14986310,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1763211660,
+        "extra": 540
+      },
+      "slug": "us-auby-amiens-sc",
+      "currentPeriodStartTimestamp": 1763211660,
+      "startTimestamp": 1763211600,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 1,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14986310/votes": {
+    "vote": {
+      "vote1": 196,
+      "vote2": 881,
+      "voteX": 120
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 139,
+      "voteNo": 82
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 28,
+      "voteNoGoal": 6,
+      "voteAway": 202
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/BIsMHgj/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Coupe de France",
+          "slug": "coupe-de-france",
+          "category": {
+            "name": "France",
+            "slug": "france",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 7,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "flag": "france",
+            "alpha2": "FR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرنسا",
+                "hi": "फ्रांस",
+                "bn": "ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Coupe de France",
+            "slug": "coupe-de-france",
+            "primaryColorHex": "#062b5c",
+            "secondaryColorHex": "#ff0000",
+            "category": {
+              "name": "France",
+              "slug": "france",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 7,
+              "country": {
+                "alpha2": "FR",
+                "alpha3": "FRA",
+                "name": "France",
+                "slug": "france"
+              },
+              "flag": "france",
+              "alpha2": "FR",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "فرنسا",
+                  "hi": "फ्रांस",
+                  "bn": "ফ্রান্স"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 42640,
+            "hasPerformanceGraphFeature": false,
+            "id": 335,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كأس فرنسا",
+                "hi": "कूप डी फ्रांस",
+                "bn": "কুপে ডি ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 481,
+          "isGroup": false,
+          "isLive": false,
+          "id": 77,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس فرنسا",
+              "hi": "कूप डी फ्रांस",
+              "bn": "কুপে ডি ফ্রান্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "Coupe de France 25/26",
+          "year": "25/26",
+          "editor": false,
+          "id": 85565
+        },
+        "roundInfo": {
+          "round": 7,
+          "name": "Round 7",
+          "slug": "round-7"
+        },
+        "customId": "BIsMHgj",
+        "status": {
+          "code": 6,
+          "description": "1st half",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "US Auby",
+          "slug": "us-auby",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10,
+          "nameCode": "AUB",
+          "national": false,
+          "type": 0,
+          "id": 1141637,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          }
+        },
+        "awayTeam": {
+          "name": "Amiens SC",
+          "slug": "amiens-sc",
+          "shortName": "Amiens",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 9371,
+          "nameCode": "AMI",
+          "national": false,
+          "type": 0,
+          "id": 1676,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي أميان",
+              "ru": "Амьен",
+              "hi": "एमिएंस"
+            },
+            "shortNameTranslation": {
+              "ar": "أميان",
+              "hi": "एमियेन्स",
+              "bn": "অ্যামিয়েন্স"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "time": {
+          "currentPeriodStartTimestamp": 1763211660,
+          "initial": 0,
+          "max": 2700,
+          "extra": 540
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type",
+            "homeScore.current",
+            "homeScore.display",
+            "homeScore.period1",
+            "homeScore.normaltime",
+            "awayScore.current",
+            "awayScore.display",
+            "awayScore.period1",
+            "awayScore.normaltime",
+            "time.currentPeriodStart",
+            "time.period1Start"
+          ],
+          "changeTimestamp": 1763211700
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 14986310,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "statusTime": {
+          "prefix": "",
+          "initial": 0,
+          "max": 2700,
+          "timestamp": 1763211660,
+          "extra": 540
+        },
+        "slug": "us-auby-amiens-sc",
+        "startTimestamp": 1763211600,
+        "lastPeriod": "period1",
+        "finalResultOnly": false,
+        "feedLocked": true,
+        "isEditor": false
+      }
+    ]
+  },
+  "event/14986310/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "team/1141637/events/last/0": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Coupe de France",
+          "slug": "coupe-de-france",
+          "category": {
+            "name": "France",
+            "slug": "france",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 7,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "flag": "france",
+            "alpha2": "FR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرنسا",
+                "hi": "फ्रांस",
+                "bn": "ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Coupe de France",
+            "slug": "coupe-de-france",
+            "primaryColorHex": "#062b5c",
+            "secondaryColorHex": "#ff0000",
+            "category": {
+              "name": "France",
+              "slug": "france",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 7,
+              "country": {
+                "alpha2": "FR",
+                "alpha3": "FRA",
+                "name": "France",
+                "slug": "france"
+              },
+              "flag": "france",
+              "alpha2": "FR",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "فرنسا",
+                  "hi": "फ्रांस",
+                  "bn": "ফ্রান্স"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 42640,
+            "hasPerformanceGraphFeature": false,
+            "id": 335,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كأس فرنسا",
+                "hi": "कूप डी फ्रांस",
+                "bn": "কুপে ডি ফ্রান্স"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 481,
+          "isGroup": false,
+          "isLive": false,
+          "id": 77,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس فرنسا",
+              "hi": "कूप डी फ्रांस",
+              "bn": "কুপে ডি ফ্রান্স"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "Coupe de France 25/26",
+          "year": "25/26",
+          "editor": false,
+          "id": 85565
+        },
+        "roundInfo": {
+          "round": 7,
+          "name": "Round 7",
+          "slug": "round-7"
+        },
+        "customId": "BIsMHgj",
+        "status": {
+          "code": 6,
+          "description": "1st half",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "US Auby",
+          "slug": "us-auby",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 10,
+          "nameCode": "AUB",
+          "national": false,
+          "type": 0,
+          "id": 1141637,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          }
+        },
+        "awayTeam": {
+          "name": "Amiens SC",
+          "slug": "amiens-sc",
+          "shortName": "Amiens",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 9371,
+          "nameCode": "AMI",
+          "national": false,
+          "type": 0,
+          "id": 1676,
+          "country": {
+            "alpha2": "FR",
+            "alpha3": "FRA",
+            "name": "France",
+            "slug": "france"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي أميان",
+              "ru": "Амьен",
+              "hi": "एमिएंस"
+            },
+            "shortNameTranslation": {
+              "ar": "أميان",
+              "hi": "एमियेन्स",
+              "bn": "অ্যামিয়েন্স"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "time": {
+          "currentPeriodStartTimestamp": 1763211660,
+          "initial": 0,
+          "max": 2700,
+          "extra": 540
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type",
+            "homeScore.current",
+            "homeScore.display",
+            "homeScore.period1",
+            "homeScore.normaltime",
+            "awayScore.current",
+            "awayScore.display",
+            "awayScore.period1",
+            "awayScore.normaltime",
+            "time.currentPeriodStart",
+            "time.period1Start"
+          ],
+          "changeTimestamp": 1763211700
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 14986310,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "statusTime": {
+          "prefix": "",
+          "initial": 0,
+          "max": 2700,
+          "timestamp": 1763211660,
+          "extra": 540
+        },
+        "slug": "us-auby-amiens-sc",
+        "startTimestamp": 1763211600,
+        "lastPeriod": "period1",
+        "finalResultOnly": false,
+        "feedLocked": true,
+        "isEditor": false
+      }
+    ],
+    "hasNextPage": false
+  },
+  "event/14986310/team-streaks": {
+    "general": [
+      {
+        "name": "Losses",
+        "value": "3",
+        "team": "away"
+      },
+      {
+        "name": "Without clean sheet",
+        "value": "4",
+        "team": "away"
+      },
+      {
+        "name": "More than 2.5 goals",
+        "value": "4/5",
+        "team": "away"
+      },
+      {
+        "name": "Both teams scoring",
+        "value": "4/5",
+        "team": "away"
+      }
+    ],
+    "head2head": []
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 0,
+      "total": 1
+    },
+    "badminton": {
+      "live": 1,
+      "total": 13
+    },
+    "futsal": {
+      "live": 4,
+      "total": 531
+    },
+    "ice-hockey": {
+      "live": 1,
+      "total": 284
+    },
+    "beach-volley": {
+      "live": 0,
+      "total": 36
+    },
+    "minifootball": {
+      "live": 0,
+      "total": 28
+    },
+    "darts": {
+      "live": 0,
+      "total": 11
+    },
+    "table-tennis": {
+      "live": 6,
+      "total": 484
+    },
+    "american-football": {
+      "live": 0,
+      "total": 277
+    },
+    "aussie-rules": {
+      "live": 0,
+      "total": 1
+    },
+    "floorball": {
+      "live": 0,
+      "total": 44
+    },
+    "football": {
+      "live": 835,
+      "total": 4760
+    },
+    "tennis": {
+      "live": 17,
+      "total": 206
+    },
+    "baseball": {
+      "live": 1,
+      "total": 20
+    },
+    "basketball": {
+      "live": 24,
+      "total": 1013
+    },
+    "bandy": {
+      "live": 4,
+      "total": 13
+    },
+    "handball": {
+      "live": 5,
+      "total": 537
+    },
+    "cricket": {
+      "live": 1,
+      "total": 44
+    },
+    "waterpolo": {
+      "live": 0,
+      "total": 63
+    },
+    "rugby": {
+      "live": 7,
+      "total": 69
+    },
+    "esports": {
+      "live": 6,
+      "total": 49
+    },
+    "volleyball": {
+      "live": 12,
+      "total": 583
+    }
+  }
+}

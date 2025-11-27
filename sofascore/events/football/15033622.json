@@ -1,0 +1,614 @@
+{
+  "event/15033622/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "04ff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "f6f948",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15033622": {
+    "event": {
+      "tournament": {
+        "name": "U22 Friendly Games",
+        "slug": "u22-friendly-games",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "competitionType": 3,
+        "isLive": false,
+        "id": 21079,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مباريات ودية تحت 22"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "YoEstpE",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "South Korea U22",
+        "slug": "south-korea-u22",
+        "shortName": "South Korea",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 260,
+        "nameCode": "KOR",
+        "national": true,
+        "type": 0,
+        "id": 73268,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fullName": "South Korea U22",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#0000ff",
+          "text": "#0000ff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كوريا الجنوبية تحت 22"
+          },
+          "shortNameTranslation": {
+            "ar": "كوريا الجنوبية"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Uzbekistan U22",
+        "slug": "uzbekistan-u22",
+        "shortName": "Uzbekistan",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 251,
+        "nameCode": "UZB",
+        "national": true,
+        "type": 0,
+        "id": 73248,
+        "country": {
+          "alpha2": "UZ",
+          "alpha3": "UZB",
+          "name": "Uzbekistan",
+          "slug": "uzbekistan"
+        },
+        "fullName": "Uzbekistan U22",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0080ff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": 1609804800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوزبكستان تحت 22"
+          },
+          "shortNameTranslation": {
+            "ar": "أوزبكستان"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "coverage": -1,
+      "time": {
+        "currentPeriodStartTimestamp": 1762932600,
+        "period1StartTimestamp": 1762932600,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period1",
+          "homeScore.normaltime",
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.period1",
+          "awayScore.normaltime",
+          "time.currentPeriodStart",
+          "time.period1Start"
+        ],
+        "changeTimestamp": 1762932911
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15033622,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1762932600,
+        "extra": 540
+      },
+      "slug": "south-korea-u22-uzbekistan-u22",
+      "currentPeriodStartTimestamp": 1762932600,
+      "startTimestamp": 1762932600,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/15033622/h2h": {
+    "teamDuel": {
+      "homeWins": 1,
+      "awayWins": 0,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15033622/votes": {
+    "vote": {
+      "vote1": 471,
+      "vote2": 93,
+      "voteX": 120
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 81,
+      "voteNo": 28
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 91,
+      "voteNoGoal": 3,
+      "voteAway": 9
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15033622/team-streaks": {
+    "general": [
+      {
+        "name": "No wins",
+        "value": "3",
+        "team": "away"
+      },
+      {
+        "name": "Without clean sheet",
+        "value": "4",
+        "team": "home"
+      },
+      {
+        "name": "Less than 2.5 goals",
+        "value": "5/6",
+        "team": "home"
+      },
+      {
+        "name": "Less than 4.5 cards",
+        "value": "9/10",
+        "team": "both"
+      }
+    ],
+    "head2head": []
+  },
+  "event/YoEstpE/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "U22 Friendly Games",
+          "slug": "u22-friendly-games",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isLive": false,
+          "id": 21079,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية تحت 22"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "YoEstpE",
+        "status": {
+          "code": 6,
+          "description": "1st half",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "South Korea U22",
+          "slug": "south-korea-u22",
+          "shortName": "South Korea",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 260,
+          "nameCode": "KOR",
+          "national": true,
+          "type": 0,
+          "id": 73268,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوريا الجنوبية تحت 22"
+            },
+            "shortNameTranslation": {
+              "ar": "كوريا الجنوبية"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "Uzbekistan U22",
+          "slug": "uzbekistan-u22",
+          "shortName": "Uzbekistan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 251,
+          "nameCode": "UZB",
+          "national": true,
+          "type": 0,
+          "id": 73248,
+          "country": {
+            "alpha2": "UZ",
+            "alpha3": "UZB",
+            "name": "Uzbekistan",
+            "slug": "uzbekistan"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#0080ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوزبكستان تحت 22"
+            },
+            "shortNameTranslation": {
+              "ar": "أوزبكستان"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1762932600,
+          "initial": 0,
+          "max": 2700,
+          "extra": 540
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type",
+            "homeScore.current",
+            "homeScore.display",
+            "homeScore.period1",
+            "homeScore.normaltime",
+            "awayScore.current",
+            "awayScore.display",
+            "awayScore.period1",
+            "awayScore.normaltime",
+            "time.currentPeriodStart",
+            "time.period1Start"
+          ],
+          "changeTimestamp": 1762932911
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15033622,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "statusTime": {
+          "prefix": "",
+          "initial": 0,
+          "max": 2700,
+          "timestamp": 1762932600,
+          "extra": 540
+        },
+        "slug": "south-korea-u22-uzbekistan-u22",
+        "startTimestamp": 1762932600,
+        "lastPeriod": "period1",
+        "finalResultOnly": false,
+        "feedLocked": true
+      },
+      {
+        "tournament": {
+          "name": "U22 Friendly Games",
+          "slug": "u22-friendly-games",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isLive": false,
+          "id": 21079,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية تحت 22"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "YoEstpE",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 2,
+        "homeTeam": {
+          "name": "Uzbekistan U22",
+          "slug": "uzbekistan-u22",
+          "shortName": "Uzbekistan",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 251,
+          "nameCode": "UZB",
+          "national": true,
+          "type": 0,
+          "id": 73248,
+          "country": {
+            "alpha2": "UZ",
+            "alpha3": "UZB",
+            "name": "Uzbekistan",
+            "slug": "uzbekistan"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#0080ff",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوزبكستان تحت 22"
+            },
+            "shortNameTranslation": {
+              "ar": "أوزبكستان"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "South Korea U22",
+          "slug": "south-korea-u22",
+          "shortName": "South Korea",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 260,
+          "nameCode": "KOR",
+          "national": true,
+          "type": 0,
+          "id": 73268,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوريا الجنوبية تحت 22"
+            },
+            "shortNameTranslation": {
+              "ar": "كوريا الجنوبية"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 1,
+          "display": 1,
+          "period1": 0,
+          "period2": 1,
+          "normaltime": 1
+        },
+        "awayScore": {
+          "current": 3,
+          "display": 3,
+          "period1": 1,
+          "period2": 2,
+          "normaltime": 3
+        },
+        "coverage": -1,
+        "time": {
+          "periodLength": 2700,
+          "overtimeLength": 900,
+          "totalPeriodCount": 2,
+          "currentPeriodStartTimestamp": 1742891667
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type",
+            "homeScore.normaltime",
+            "awayScore.normaltime",
+            "time.currentPeriodStart"
+          ],
+          "changeTimestamp": 1742894727
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 13667488,
+        "homeRedCards": 1,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "south-korea-u22-uzbekistan-u22",
+        "startTimestamp": 1742887800,
+        "finalResultOnly": false,
+        "feedLocked": false
+      }
+    ]
+  }
+}

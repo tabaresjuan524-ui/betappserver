@@ -1,0 +1,3569 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 8,
+      "total": 26
+    },
+    "badminton": {
+      "live": 3,
+      "total": 135
+    },
+    "futsal": {
+      "live": 3,
+      "total": 40
+    },
+    "ice-hockey": {
+      "live": 18,
+      "total": 81
+    },
+    "minifootball": {
+      "live": 2,
+      "total": 42
+    },
+    "darts": {
+      "live": 0,
+      "total": 15
+    },
+    "table-tennis": {
+      "live": 4,
+      "total": 574
+    },
+    "american-football": {
+      "live": 0,
+      "total": 2
+    },
+    "football": {
+      "live": 159,
+      "total": 368
+    },
+    "tennis": {
+      "live": 17,
+      "total": 482
+    },
+    "baseball": {
+      "live": 0,
+      "total": 14
+    },
+    "basketball": {
+      "live": 19,
+      "total": 392
+    },
+    "bandy": {
+      "live": 7,
+      "total": 7
+    },
+    "handball": {
+      "live": 11,
+      "total": 34
+    },
+    "cricket": {
+      "live": 0,
+      "total": 34
+    },
+    "rugby": {
+      "live": 0,
+      "total": 2
+    },
+    "esports": {
+      "live": 8,
+      "total": 50
+    },
+    "volleyball": {
+      "live": 13,
+      "total": 54
+    }
+  },
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14884440/pregame-form": {
+    "homeTeam": {
+      "avgRating": "6.86",
+      "position": 6,
+      "value": "18",
+      "form": [
+        "L",
+        "W",
+        "W",
+        "D",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "avgRating": "6.91",
+      "position": 3,
+      "value": "21",
+      "form": [
+        "W",
+        "L",
+        "D",
+        "W",
+        "W"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14884440/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "ffbb00",
+        "number": "ffffff",
+        "outline": "ffbb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "1fa55d",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14884440/best-players/summary": {
+    "bestHomeTeamPlayers": [
+      {
+        "value": "6.7",
+        "label": "rating",
+        "player": {
+          "name": "Liam Gordon",
+          "slug": "liam-gordon",
+          "shortName": "L. Gordon",
+          "position": "D",
+          "jerseyNumber": "4",
+          "height": 178,
+          "userCount": 16,
+          "gender": "M",
+          "id": 339605,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 822614400,
+          "proposedMarketValueRaw": {
+            "value": 375000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليام غوردون",
+              "hi": "लियाम गॉर्डन",
+              "bn": "লিয়াম গর্ডন"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. غوردون",
+              "hi": "एल. गॉर्डन",
+              "bn": "এল. গর্ডন"
+            }
+          }
+        }
+      },
+      {
+        "value": "6.6",
+        "label": "rating",
+        "player": {
+          "name": "Oscar Priestman",
+          "firstName": "Oscar Priestman",
+          "lastName": "",
+          "slug": "priestman-oscar",
+          "shortName": "O. Priestman",
+          "position": "M",
+          "jerseyNumber": "25",
+          "height": 163,
+          "userCount": 51,
+          "gender": "M",
+          "id": 1190097,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1048550400,
+          "proposedMarketValueRaw": {
+            "value": 365000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بريستمان، أوسكار"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بريستمان"
+            }
+          }
+        }
+      },
+      {
+        "value": "6.6",
+        "label": "rating",
+        "player": {
+          "name": "Calum Ward",
+          "firstName": "",
+          "lastName": "",
+          "slug": "calum-ward",
+          "shortName": "C. Ward",
+          "position": "G",
+          "jerseyNumber": "13",
+          "height": 188,
+          "userCount": 23,
+          "gender": "M",
+          "id": 1047365,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 971740800,
+          "proposedMarketValueRaw": {
+            "value": 195000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كالوم وورد"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. وورد"
+            }
+          }
+        }
+      }
+    ],
+    "bestAwayTeamPlayers": [
+      {
+        "value": "6.7",
+        "label": "rating",
+        "player": {
+          "name": "Jack Iredale",
+          "slug": "jack-iredale",
+          "shortName": "J. Iredale",
+          "position": "D",
+          "jerseyNumber": "15",
+          "height": 184,
+          "userCount": 61,
+          "gender": "M",
+          "id": 892093,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 830995200,
+          "proposedMarketValueRaw": {
+            "value": 245000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاك إيريديل"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. إيريديل"
+            }
+          }
+        }
+      },
+      {
+        "value": "6.6",
+        "label": "rating",
+        "player": {
+          "name": "Grant Hanley",
+          "slug": "grant-hanley",
+          "shortName": "G. Hanley",
+          "position": "D",
+          "jerseyNumber": "4",
+          "height": 188,
+          "userCount": 243,
+          "gender": "M",
+          "id": 95791,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 690595200,
+          "proposedMarketValueRaw": {
+            "value": 580000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جرانت هانلي",
+              "hi": "ग्रांट हैनली",
+              "bn": "গ্রান্ট হ্যানলি"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. هانلي",
+              "hi": "जी. हैनली",
+              "bn": "জি. হ্যানলি"
+            }
+          }
+        }
+      },
+      {
+        "value": "6.6",
+        "label": "rating",
+        "player": {
+          "name": "Daniel Barlaser",
+          "firstName": "",
+          "lastName": "",
+          "slug": "daniel-barlaser",
+          "shortName": "D. Barlaser",
+          "position": "M",
+          "jerseyNumber": "22",
+          "height": 184,
+          "userCount": 123,
+          "gender": "M",
+          "id": 817564,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 853545600,
+          "proposedMarketValueRaw": {
+            "value": 2200000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دانيال بارلاسر"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بارلاسر"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "event/14884440": {
+    "event": {
+      "tournament": {
+        "name": "Scottish Premiership",
+        "slug": "premiership",
+        "category": {
+          "name": "Scotland",
+          "slug": "scotland",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 22,
+          "country": {
+            "alpha2": "SX",
+            "alpha3": "SCO",
+            "name": "Scotland",
+            "slug": "scotland"
+          },
+          "flag": "scotland",
+          "alpha2": "SX",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "اسكتلندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Scottish Premiership",
+          "slug": "premiership",
+          "primaryColorHex": "#311B77",
+          "secondaryColorHex": "#57E7FC",
+          "category": {
+            "name": "Scotland",
+            "slug": "scotland",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 22,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "flag": "scotland",
+            "alpha2": "SX",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "اسكتلندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 42901,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 36,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الاسكتلندي الممتاز",
+              "hi": "स्कॉटिश प्रीमियरशिप",
+              "bn": "স্কটিশ প্রিমিয়ারশিপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 489,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 54,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز",
+            "hi": "प्रीमियरशिप",
+            "bn": "প্রিমিয়ারশিপ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Premiership 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77128
+      },
+      "roundInfo": {
+        "round": 11
+      },
+      "customId": "WWseX",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Motherwell",
+        "slug": "motherwell",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 9717,
+        "manager": {
+          "name": "Jens Askou",
+          "slug": "jens-askou",
+          "shortName": "J. Askou",
+          "id": 790336,
+          "country": {
+            "alpha2": "DK",
+            "alpha3": "DNK",
+            "name": "Denmark",
+            "slug": "denmark"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ينس أسكو",
+              "hi": "जेन्स अस्कोउ",
+              "bn": "জেনস আস্কৌ"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. أسكو",
+              "hi": "जे. अस्कोउ",
+              "bn": "জে. আস্কৌ"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Motherwell"
+          },
+          "venueCoordinates": {
+            "latitude": 55.780423,
+            "longitude": -3.980263
+          },
+          "hidden": true,
+          "slug": "fir-park",
+          "name": "Fir Park",
+          "capacity": 13742,
+          "id": 1188,
+          "country": {
+            "alpha2": "SX",
+            "alpha3": "SCO",
+            "name": "Scotland",
+            "slug": "scotland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب فير بارك",
+              "hi": "फ़िर पार्क",
+              "bn": "ফির পার্ক"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Fir Park",
+            "capacity": 13742
+          }
+        },
+        "nameCode": "MOT",
+        "national": false,
+        "type": 0,
+        "id": 2346,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "fullName": "Motherwell",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffcc00",
+          "secondary": "#97004b",
+          "text": "#97004b"
+        },
+        "foundationDateTimestamp": -2639001600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مذرويل",
+            "ru": "Мотеруэлл",
+            "hi": "मदरवेल",
+            "bn": "মাদারওয়েল"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Hibernian",
+        "slug": "hibernian",
+        "shortName": "Hibernian",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 17637,
+        "manager": {
+          "name": "David Gray",
+          "slug": "david-gray",
+          "shortName": "D. Gray",
+          "id": 796780,
+          "country": {
+            "alpha2": "SX",
+            "alpha3": "SCO",
+            "name": "Scotland",
+            "slug": "scotland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديفيد غراي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. غراي"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Edinburgh"
+          },
+          "venueCoordinates": {
+            "latitude": 55.961686,
+            "longitude": -3.165168
+          },
+          "hidden": true,
+          "slug": "easter-road",
+          "name": "Easter Road",
+          "capacity": 20421,
+          "id": 1994,
+          "country": {
+            "alpha2": "SX",
+            "alpha3": "SCO",
+            "name": "Scotland",
+            "slug": "scotland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيستر رود",
+              "hi": "ईस्टर रोड",
+              "bn": "ইস্টার রোড"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Easter Road",
+            "capacity": 20421
+          }
+        },
+        "nameCode": "HIB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2354,
+        "country": {
+          "alpha2": "SX",
+          "alpha3": "SCO",
+          "name": "Scotland",
+          "slug": "scotland"
+        },
+        "fullName": "Hibernian",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#339933",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -2979158400,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي هيبرنيان",
+            "ru": "Хиберниан Эдинбург"
+          },
+          "shortNameTranslation": {
+            "ar": "نادي هيبرنيان"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1764099940,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1",
+          "homeScore.normaltime",
+          "awayScore.period1",
+          "awayScore.normaltime"
+        ],
+        "changeTimestamp": 1764099975
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14884440,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1764099940,
+        "extra": 540
+      },
+      "slug": "hibernian-motherwell",
+      "currentPeriodStartTimestamp": 1764099940,
+      "startTimestamp": 1764099900,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14884440/votes": {
+    "vote": {
+      "vote1": 1159,
+      "vote2": 2439,
+      "voteX": 1207
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 978,
+      "voteNo": 84
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 169,
+      "voteNoGoal": 17,
+      "voteAway": 516
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14884440/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Calum Ward",
+            "firstName": "",
+            "lastName": "",
+            "slug": "calum-ward",
+            "shortName": "C. Ward",
+            "position": "G",
+            "jerseyNumber": "13",
+            "height": 188,
+            "userCount": 23,
+            "gender": "M",
+            "id": 1047365,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 971740800,
+            "proposedMarketValueRaw": {
+              "value": 195000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كالوم وورد"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. وورد"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 6,
+            "accuratePass": 6,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 6,
+            "totalClearance": 1,
+            "ballRecovery": 1,
+            "totalKeeperSweeper": 1,
+            "accurateKeeperSweeper": 1,
+            "minutesPlayed": 9,
+            "touches": 8,
+            "rating": 6.6,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Paul McGinn",
+            "slug": "paul-mcginn",
+            "shortName": "P. McGinn",
+            "position": "D",
+            "jerseyNumber": "16",
+            "height": 175,
+            "userCount": 35,
+            "gender": "M",
+            "id": 214506,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 656553600,
+            "proposedMarketValueRaw": {
+              "value": 92000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بول مكغين"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. مكغين"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "D",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "totalPass": 13,
+            "accuratePass": 11,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 7,
+            "accurateOppositionHalfPasses": 4,
+            "totalOppositionHalfPasses": 6,
+            "ballRecovery": 1,
+            "minutesPlayed": 9,
+            "touches": 13,
+            "rating": 6.5,
+            "possessionLostCtrl": 2,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "dribbleValueNormalized": 0.04,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Liam Gordon",
+            "slug": "liam-gordon",
+            "shortName": "L. Gordon",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 178,
+            "userCount": 16,
+            "gender": "M",
+            "id": 339605,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 822614400,
+            "proposedMarketValueRaw": {
+              "value": 375000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليام غوردون",
+                "hi": "लियाम गॉर्डन",
+                "bn": "লিয়াম গর্ডন"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. غوردون",
+                "hi": "एल. गॉर्डन",
+                "bn": "এল. গর্ডন"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 18,
+            "accuratePass": 17,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 14,
+            "totalOwnHalfPasses": 15,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 3,
+            "aerialWon": 1,
+            "duelWon": 1,
+            "minutesPlayed": 9,
+            "touches": 18,
+            "rating": 6.7,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.7,
+              "alternative": 6.7
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "dribbleValueNormalized": -0.01,
+            "defensiveValueNormalized": -0.01,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Stephen Welsh",
+            "slug": "welsh-stephen",
+            "shortName": "S. Welsh",
+            "position": "D",
+            "jerseyNumber": "57",
+            "height": 180,
+            "userCount": 162,
+            "gender": "M",
+            "id": 862953,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 948240000,
+            "proposedMarketValueRaw": {
+              "value": 825000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ويلز، ستيفن",
+                "hi": "वेल्श, स्टीफन",
+                "bn": "ওয়েলশ, স্টিফেন"
+              },
+              "shortNameTranslation": {
+                "ar": "و. ستيفن",
+                "hi": "एस. वेल्श",
+                "bn": "এস. ওয়েলশ"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 57,
+          "jerseyNumber": "57",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 9,
+            "accuratePass": 9,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 3,
+            "minutesPlayed": 9,
+            "touches": 9,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.02,
+            "dribbleValueNormalized": 0,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Oscar Priestman",
+            "firstName": "Oscar Priestman",
+            "lastName": "",
+            "slug": "priestman-oscar",
+            "shortName": "O. Priestman",
+            "position": "M",
+            "jerseyNumber": "25",
+            "height": 163,
+            "userCount": 51,
+            "gender": "M",
+            "id": 1190097,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1048550400,
+            "proposedMarketValueRaw": {
+              "value": 365000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بريستمان، أوسكار"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. بريستمان"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 10,
+            "accuratePass": 10,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 4,
+            "totalOppositionHalfPasses": 4,
+            "duelWon": 1,
+            "ballRecovery": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 9,
+            "touches": 11,
+            "rating": 6.6,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.01,
+            "dribbleValueNormalized": -0.01,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tom Sparrow",
+            "firstName": "",
+            "lastName": "",
+            "slug": "tom-sparrow",
+            "shortName": "T. Sparrow",
+            "position": "M",
+            "jerseyNumber": "7",
+            "userCount": 31,
+            "gender": "M",
+            "id": 1014453,
+            "country": {
+              "alpha2": "WA",
+              "alpha3": "WAL",
+              "name": "Wales",
+              "slug": "wales"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1044230400,
+            "proposedMarketValueRaw": {
+              "value": 92000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "توم سبارو",
+                "hi": "टॉम स्पैरो",
+                "bn": "টম স্প্যারো"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. سبارو",
+                "hi": "टी. स्पैरो",
+                "bn": "টি. স্প্যারো"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 8,
+            "accuratePass": 8,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 6,
+            "totalOppositionHalfPasses": 6,
+            "totalClearance": 1,
+            "minutesPlayed": 9,
+            "touches": 10,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.03,
+            "dribbleValueNormalized": -0.05,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Elliot Watt",
+            "slug": "elliot-watt",
+            "shortName": "E. Watt",
+            "position": "M",
+            "jerseyNumber": "20",
+            "height": 175,
+            "userCount": 87,
+            "gender": "M",
+            "id": 942060,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 952732800,
+            "proposedMarketValueRaw": {
+              "value": 470000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيليوت وات"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. وات"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 11,
+            "accuratePass": 9,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 6,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 5,
+            "duelLost": 1,
+            "fouls": 1,
+            "minutesPlayed": 9,
+            "touches": 11,
+            "rating": 6.4,
+            "possessionLostCtrl": 2,
+            "ratingVersions": {
+              "original": 6.4,
+              "alternative": 6.4
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.16,
+            "dribbleValueNormalized": 0.01,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Elijah Just",
+            "firstName": "",
+            "lastName": "",
+            "slug": "elijah-just",
+            "shortName": "E. Just",
+            "position": "M",
+            "jerseyNumber": "21",
+            "height": 174,
+            "userCount": 120,
+            "gender": "M",
+            "id": 905267,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 957139200,
+            "proposedMarketValueRaw": {
+              "value": 320000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيليا جاست",
+                "hi": "एलिजा जस्ट",
+                "bn": "ইলিয়াস জাস্ট"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. جاست",
+                "hi": "ई. जस्ट",
+                "bn": "ই. জাস্ট"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 3,
+            "accuratePass": 2,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 1,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 2,
+            "minutesPlayed": 9,
+            "touches": 5,
+            "rating": 6.5,
+            "possessionLostCtrl": 3,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.02,
+            "dribbleValueNormalized": -0.51,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Johnny Koutroumbis",
+            "slug": "johnny-koutroumbis",
+            "shortName": "J. Koutroumbis",
+            "position": "D",
+            "jerseyNumber": "22",
+            "height": 183,
+            "userCount": 60,
+            "gender": "M",
+            "id": 845770,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 889142400,
+            "proposedMarketValueRaw": {
+              "value": 340000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوني كوترومبيس"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كوترومبيس"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 3,
+            "accuratePass": 3,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 1,
+            "ballRecovery": 2,
+            "minutesPlayed": 9,
+            "touches": 3,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.01,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tawanda Maswanhise",
+            "firstName": "Tawanda Maswanhise",
+            "slug": "tawanda-maswanhise",
+            "shortName": "T. Maswanhise",
+            "position": "F",
+            "jerseyNumber": "18",
+            "height": 180,
+            "userCount": 337,
+            "gender": "M",
+            "id": 1065210,
+            "country": {
+              "alpha2": "ZW",
+              "alpha3": "ZWE",
+              "name": "Zimbabwe",
+              "slug": "zimbabwe"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1037750400,
+            "proposedMarketValueRaw": {
+              "value": 410000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تاواندا ماسوانهايس",
+                "hi": "तवांडा मस्वान्हिसे",
+                "bn": "তাওয়ান্দা মাসওয়ানহিসে"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. ماسوانهايس",
+                "hi": "टी. मस्वान्हिसे",
+                "bn": "টি. মাসওয়ানহিস"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "duelLost": 1,
+            "totalContest": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 1,
+            "minutesPlayed": 9,
+            "touches": 2,
+            "rating": 6.5,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.4
+            },
+            "totalShots": 0,
+            "dribbleValueNormalized": 0.06,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Regan Charles-Cook",
+            "slug": "regan-charles-cook",
+            "shortName": "R. Charles-Cook",
+            "position": "F",
+            "jerseyNumber": "77",
+            "height": 175,
+            "userCount": 65,
+            "gender": "M",
+            "id": 803116,
+            "country": {
+              "alpha2": "GD",
+              "alpha3": "GRD",
+              "name": "Grenada",
+              "slug": "grenada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 857174400,
+            "proposedMarketValueRaw": {
+              "value": 695000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريجان تشارلز-كوك",
+                "hi": "रेगन चार्ल्स-कुक",
+                "bn": "রেগান চার্লস-কুক"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. تشارلز-كوك",
+                "hi": "आर. चार्ल्स-कुक",
+                "bn": "আর. চার্লস-কুক"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 77,
+          "jerseyNumber": "77",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 5,
+            "accuratePass": 5,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 3,
+            "minutesPlayed": 9,
+            "touches": 5,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.01,
+            "dribbleValueNormalized": 0,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Matty Connelly",
+            "firstName": "Matty Connelly",
+            "slug": "matty-connolly",
+            "shortName": "M. Connelly",
+            "position": "G",
+            "jerseyNumber": "31",
+            "height": 179,
+            "userCount": 10,
+            "gender": "M",
+            "id": 1211882,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1046563200,
+            "proposedMarketValueRaw": {
+              "value": 53000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتي كونلي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. كونلي"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 31,
+          "jerseyNumber": "31",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kofi Balmer",
+            "firstName": "",
+            "lastName": "",
+            "slug": "kofi-balmer",
+            "shortName": "K. Balmer",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 183,
+            "userCount": 77,
+            "gender": "M",
+            "id": 891238,
+            "country": {
+              "alpha2": "NX",
+              "alpha3": "NIR",
+              "name": "Northern Ireland",
+              "slug": "northern-ireland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 969321600,
+            "proposedMarketValueRaw": {
+              "value": 215000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوفي بالمر",
+                "hi": "कोफ़ी बालमेर",
+                "bn": "কফি বালমার"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. بالمر",
+                "hi": "के. बालमेर",
+                "bn": "কে. বালমার"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Emmanuel Longelo",
+            "firstName": "",
+            "lastName": "",
+            "slug": "emmanuel-longelo",
+            "shortName": "E. Longelo",
+            "position": "D",
+            "jerseyNumber": "45",
+            "height": 180,
+            "userCount": 81,
+            "gender": "M",
+            "id": 991612,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 977875200,
+            "proposedMarketValueRaw": {
+              "value": 620000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيمانويل لونغيلو",
+                "hi": "इमैनुएल लोंगेलो",
+                "bn": "ইমানুয়েল লঙ্গেলো"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. لونغيلو",
+                "hi": "ई. लोंगेलो",
+                "bn": "ই. লঙ্গেলো"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 45,
+          "jerseyNumber": "45",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ibrahim Said",
+            "slug": "ibrahim-said",
+            "shortName": "I. Said",
+            "position": "M",
+            "jerseyNumber": "90",
+            "height": 172,
+            "userCount": 192,
+            "gender": "M",
+            "id": 1002471,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1024099200,
+            "proposedMarketValueRaw": {
+              "value": 620000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إبراهيم سعيد"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. سعيد"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 90,
+          "jerseyNumber": "90",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Lukas Fadinger",
+            "slug": "lukas-fadinger",
+            "shortName": "L. Fadinger",
+            "position": "M",
+            "jerseyNumber": "12",
+            "height": 172,
+            "userCount": 50,
+            "gender": "M",
+            "id": 936277,
+            "country": {
+              "alpha2": "AT",
+              "alpha3": "AUT",
+              "name": "Austria",
+              "slug": "austria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 970012800,
+            "proposedMarketValueRaw": {
+              "value": 385000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوكاس فادينجر"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. فادينجر"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Luca Ross",
+            "firstName": "Luca Ross",
+            "lastName": "",
+            "slug": "luca-ross",
+            "shortName": "L. Ross",
+            "position": "F",
+            "jerseyNumber": "28",
+            "height": 177,
+            "userCount": 24,
+            "gender": "M",
+            "id": 1401756,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1155254400,
+            "proposedMarketValueRaw": {
+              "value": 23000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوكا روس"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. روس"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 28,
+          "jerseyNumber": "28",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Detlef Esapa Osong",
+            "slug": "osong-detlef-esapa",
+            "shortName": "D. E. Osong",
+            "position": "F",
+            "jerseyNumber": "24",
+            "userCount": 60,
+            "gender": "M",
+            "id": 1176429,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1095724800,
+            "proposedMarketValueRaw": {
+              "value": 155000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديتليف إسابا أوسونج",
+                "hi": "ओसोंग, डेटलेफ़ एसापा",
+                "bn": "ওসোংক, ডেটলেফ এসাপা"
+              },
+              "shortNameTranslation": {
+                "ar": "د. إ. أوسونج",
+                "hi": "डी.एस. ओसोंग",
+                "bn": "ডি. ই. ওসং"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Callum Slattery",
+            "firstName": "",
+            "lastName": "",
+            "slug": "callum-slattery",
+            "shortName": "C. Slattery",
+            "position": "F",
+            "jerseyNumber": "8",
+            "height": 175,
+            "userCount": 61,
+            "gender": "M",
+            "id": 920371,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 918432000,
+            "proposedMarketValueRaw": {
+              "value": 365000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كالوم سلاتري"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. سلاتري"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Callum Hendry",
+            "slug": "callum-hendry",
+            "shortName": "C. Hendry",
+            "position": "F",
+            "jerseyNumber": "66",
+            "height": 176,
+            "userCount": 46,
+            "gender": "M",
+            "id": 888458,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 881539200,
+            "proposedMarketValueRaw": {
+              "value": 215000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كالوم هندري",
+                "hi": "कैलम हेंड्री",
+                "bn": "ক্যালাম হেন্ড্রি"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. هندري",
+                "hi": "सी. हेंड्री",
+                "bn": "সি. হেন্ড্রি"
+              }
+            }
+          },
+          "teamId": 2346,
+          "shirtNumber": 66,
+          "jerseyNumber": "66",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "3-1-4-2",
+      "playerColor": {
+        "primary": "ffbb00",
+        "number": "ffffff",
+        "outline": "ffbb00",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Raphael Sallinger",
+            "slug": "raphael-sallinger",
+            "shortName": "R. Sallinger",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 196,
+            "userCount": 88,
+            "gender": "M",
+            "id": 275801,
+            "country": {
+              "alpha2": "AT",
+              "alpha3": "AUT",
+              "name": "Austria",
+              "slug": "austria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 818380800,
+            "proposedMarketValueRaw": {
+              "value": 470000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رافاييل سالينجر",
+                "hi": "राफेल सैलिंगर",
+                "bn": "রাফায়েল স্যালিঙ্গার"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. سالينجر",
+                "hi": "आर. सैलिंगर",
+                "bn": "আর. স্যালিঙ্গার"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 4,
+            "accuratePass": 2,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "totalOppositionHalfPasses": 2,
+            "ballRecovery": 2,
+            "minutesPlayed": 9,
+            "touches": 5,
+            "rating": 6.5,
+            "possessionLostCtrl": 2,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "defensiveValueNormalized": 0.14,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Rocky Bushiri Kiranga",
+            "firstName": "",
+            "lastName": "",
+            "slug": "rocky-bushiri-kiranga",
+            "shortName": "R. B. Kiranga",
+            "position": "D",
+            "jerseyNumber": "33",
+            "height": 186,
+            "userCount": 1752,
+            "gender": "M",
+            "id": 886124,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 943920000,
+            "proposedMarketValueRaw": {
+              "value": 1000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "روكي بوشيري كيرانغا",
+                "hi": "रॉकी बुशिरी किरांगा",
+                "bn": "রকি বুশিরি কিরাঙ্গা"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. بوشيري",
+                "hi": "आर.बी. किरांगा",
+                "bn": "আর. বি. কিরাঙ্গা"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 33,
+          "jerseyNumber": "33",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 5,
+            "accuratePass": 5,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 5,
+            "minutesPlayed": 9,
+            "touches": 5,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.01,
+            "dribbleValueNormalized": 0.01,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Grant Hanley",
+            "slug": "grant-hanley",
+            "shortName": "G. Hanley",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 188,
+            "userCount": 243,
+            "gender": "M",
+            "id": 95791,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 690595200,
+            "proposedMarketValueRaw": {
+              "value": 580000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جرانت هانلي",
+                "hi": "ग्रांट हैनली",
+                "bn": "গ্রান্ট হ্যানলি"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. هانلي",
+                "hi": "जी. हैनली",
+                "bn": "জি. হ্যানলি"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 11,
+            "accuratePass": 9,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 9,
+            "totalOwnHalfPasses": 9,
+            "totalOppositionHalfPasses": 2,
+            "duelWon": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 9,
+            "touches": 13,
+            "rating": 6.6,
+            "possessionLostCtrl": 3,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.01,
+            "dribbleValueNormalized": 0.02,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jack Iredale",
+            "slug": "jack-iredale",
+            "shortName": "J. Iredale",
+            "position": "D",
+            "jerseyNumber": "15",
+            "height": 184,
+            "userCount": 61,
+            "gender": "M",
+            "id": 892093,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 830995200,
+            "proposedMarketValueRaw": {
+              "value": 245000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاك إيريديل"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. إيريديل"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 9,
+            "accuratePass": 8,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 7,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 2,
+            "duelWon": 1,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "minutesPlayed": 9,
+            "touches": 10,
+            "rating": 6.7,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.7,
+              "alternative": 6.7
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.01,
+            "dribbleValueNormalized": -0.01,
+            "defensiveValueNormalized": 0.21,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Christopher Cadden",
+            "slug": "christopher-cadden",
+            "shortName": "C. Cadden",
+            "position": "M",
+            "jerseyNumber": "12",
+            "height": 183,
+            "userCount": 41,
+            "gender": "M",
+            "id": 538126,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 843091200,
+            "proposedMarketValueRaw": {
+              "value": 570000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستوفر كادن"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كادن"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 1,
+            "accuratePass": 1,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 1,
+            "interceptionWon": 1,
+            "minutesPlayed": 9,
+            "touches": 2,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Josh Mulligan",
+            "slug": "josh-mulligan",
+            "shortName": "J. Mulligan",
+            "position": "M",
+            "jerseyNumber": "20",
+            "height": 175,
+            "userCount": 71,
+            "gender": "M",
+            "id": 988691,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1037059200,
+            "proposedMarketValueRaw": {
+              "value": 1000000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوش مالليغان"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. مالليغان"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 3,
+            "accuratePass": 2,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 1,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 2,
+            "interceptionWon": 1,
+            "ballRecovery": 1,
+            "minutesPlayed": 9,
+            "touches": 4,
+            "rating": 6.5,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.03,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Daniel Barlaser",
+            "firstName": "",
+            "lastName": "",
+            "slug": "daniel-barlaser",
+            "shortName": "D. Barlaser",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 184,
+            "userCount": 123,
+            "gender": "M",
+            "id": 817564,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 853545600,
+            "proposedMarketValueRaw": {
+              "value": 2200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانيال بارلاسر"
+              },
+              "shortNameTranslation": {
+                "ar": "د. بارلاسر"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 6,
+            "accuratePass": 5,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 2,
+            "accurateOwnHalfPasses": 4,
+            "totalOwnHalfPasses": 4,
+            "accurateOppositionHalfPasses": 1,
+            "totalOppositionHalfPasses": 2,
+            "ballRecovery": 1,
+            "minutesPlayed": 9,
+            "touches": 6,
+            "rating": 6.6,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 6.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0,
+            "dribbleValueNormalized": 0.02,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Nicky Cadden",
+            "firstName": "",
+            "lastName": "",
+            "slug": "cadden-nicky",
+            "shortName": "N. Cadden",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 173,
+            "userCount": 56,
+            "gender": "M",
+            "id": 371318,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 843091200,
+            "proposedMarketValueRaw": {
+              "value": 720000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كادن، نيكي"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. كادن"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 5,
+            "accuratePass": 5,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 3,
+            "minutesPlayed": 9,
+            "touches": 6,
+            "rating": 6.5,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.01,
+            "dribbleValueNormalized": 0,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jamie McGrath",
+            "slug": "jamie-mcgrath",
+            "shortName": "J. McGrath",
+            "position": "M",
+            "jerseyNumber": "17",
+            "height": 175,
+            "userCount": 246,
+            "gender": "M",
+            "id": 797980,
+            "country": {
+              "alpha2": "IE",
+              "alpha3": "IRL",
+              "name": "Ireland",
+              "slug": "ireland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 844041600,
+            "proposedMarketValueRaw": {
+              "value": 1100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيمي ماكغراث",
+                "hi": "जेमी मैकग्राथ",
+                "bn": "জেমি ম্যাকগ্রা"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ماكغراث",
+                "hi": "जे. मैकग्राथ",
+                "bn": "জে. ম্যাকগ্রাথ"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 6,
+            "accuratePass": 5,
+            "accurateOwnHalfPasses": 3,
+            "totalOwnHalfPasses": 4,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 2,
+            "duelLost": 1,
+            "duelWon": 1,
+            "wasFouled": 1,
+            "fouls": 1,
+            "minutesPlayed": 9,
+            "touches": 7,
+            "rating": 6.5,
+            "possessionLostCtrl": 1,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.05,
+            "dribbleValueNormalized": 0.01,
+            "defensiveValueNormalized": -0.01,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Martin Boyle",
+            "slug": "martin-boyle",
+            "shortName": "M. Boyle",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 172,
+            "userCount": 452,
+            "gender": "M",
+            "id": 214308,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 735696000,
+            "proposedMarketValueRaw": {
+              "value": 580000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارتن بويل",
+                "hi": "मार्टिन बॉयल",
+                "bn": "মার্টিন বয়েল"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بويل",
+                "hi": "एम. बॉयल",
+                "bn": "এম. বয়েল"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "minutesPlayed": 9,
+            "rating": 6.4,
+            "ratingVersions": {
+              "original": 6.4,
+              "alternative": 6.4
+            },
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kieron Bowie",
+            "firstName": "",
+            "lastName": "",
+            "slug": "kieron-bowie",
+            "shortName": "K. Bowie",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 190,
+            "userCount": 211,
+            "gender": "M",
+            "id": 983601,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1032566400,
+            "proposedMarketValueRaw": {
+              "value": 2700000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيرون بووي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. بووي"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "aerialLost": 1,
+            "duelLost": 1,
+            "minutesPlayed": 9,
+            "rating": 6.3,
+            "ratingVersions": {
+              "original": 6.3,
+              "alternative": 6.3
+            },
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jordan Smith",
+            "firstName": "",
+            "lastName": "",
+            "slug": "jordan-smith",
+            "shortName": "J. Smith",
+            "position": "G",
+            "jerseyNumber": "13",
+            "height": 185,
+            "userCount": 42,
+            "gender": "M",
+            "id": 846251,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 786844800,
+            "proposedMarketValueRaw": {
+              "value": 97000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوردان سميث",
+                "hi": "जॉर्डन स्मिथ",
+                "bn": "জর্ডান স্মিথ"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سميث",
+                "hi": "जे. स्मिथ",
+                "bn": "জে. স্মিথ"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Warren O'Hora",
+            "slug": "warren-ohora",
+            "shortName": "W. O'Hora",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 188,
+            "userCount": 62,
+            "gender": "M",
+            "id": 970352,
+            "country": {
+              "alpha2": "IE",
+              "alpha3": "IRL",
+              "name": "Ireland",
+              "slug": "ireland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 924480000,
+            "proposedMarketValueRaw": {
+              "value": 455000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "وارن أوهورا"
+              },
+              "shortNameTranslation": {
+                "ar": "و. أوهورا"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jordan Obita",
+            "slug": "jordan-obita",
+            "shortName": "J. Obita",
+            "position": "D",
+            "jerseyNumber": "21",
+            "height": 180,
+            "userCount": 203,
+            "gender": "M",
+            "id": 149391,
+            "country": {
+              "alpha2": "UG",
+              "alpha3": "UGA",
+              "name": "Uganda",
+              "slug": "uganda"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 755308800,
+            "proposedMarketValueRaw": {
+              "value": 230000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوردان أوبيتا"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. أوبيتا"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kanayochukwu Megwa",
+            "slug": "megwa-kanayochukwu",
+            "shortName": "K. Megwa",
+            "position": "D",
+            "jerseyNumber": "27",
+            "height": 181,
+            "userCount": 25,
+            "gender": "M",
+            "id": 1405604,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1078444800,
+            "proposedMarketValueRaw": {
+              "value": 145000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميغوا، كانايوتشوكو"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ميغوا"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 27,
+          "jerseyNumber": "27",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joe Newell",
+            "slug": "joe-newell",
+            "shortName": "J. Newell",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 180,
+            "userCount": 51,
+            "gender": "M",
+            "id": 151059,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 732153600,
+            "proposedMarketValueRaw": {
+              "value": 450000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جو نيويل"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. نيويل"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Miguel Changa Chaiwa",
+            "firstName": "Miguel Changa Chaiwa",
+            "slug": "miguel-changa-chaiwa",
+            "shortName": "M. C. Chaiwa",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 181,
+            "userCount": 1036,
+            "gender": "M",
+            "id": 1192550,
+            "country": {
+              "alpha2": "ZM",
+              "alpha3": "ZMB",
+              "name": "Zambia",
+              "slug": "zambia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1081296000,
+            "proposedMarketValueRaw": {
+              "value": 1200000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميغيل تشانغا تشايوا",
+                "hi": "मिगुएल चांगा चाइवा",
+                "bn": "মিগুয়েল চাঙ্গা চাইওয়া"
+              },
+              "shortNameTranslation": {
+                "ar": "م. تشانغا تشايوا",
+                "hi": "एम.सी. चाइवा",
+                "bn": "এম. সি. চাইওয়া"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Junior Hoilett",
+            "firstName": "",
+            "lastName": "",
+            "slug": "junior-hoilett",
+            "shortName": "J. Hoilett",
+            "position": "F",
+            "jerseyNumber": "23",
+            "height": 173,
+            "userCount": 233,
+            "gender": "M",
+            "id": 33478,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 644544000,
+            "proposedMarketValueRaw": {
+              "value": 45000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جونيور هويلت",
+                "hi": "जूनियर होइलेट",
+                "bn": "জুনিয়র হোয়েলেট"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. هويلت",
+                "hi": "जे. होइलेट",
+                "bn": "জে. হোয়েলেট"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Thody Elie Youan",
+            "firstName": "",
+            "lastName": "",
+            "slug": "thody-elie-youan",
+            "shortName": "T. E. Youan",
+            "position": "F",
+            "jerseyNumber": "7",
+            "height": 181,
+            "userCount": 184,
+            "gender": "M",
+            "id": 921362,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 923443200,
+            "proposedMarketValueRaw": {
+              "value": 1300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ثودي إيلي يوان",
+                "hi": "थोडी एली योआन",
+                "bn": "থোডি এলি ইউয়ান"
+              },
+              "shortNameTranslation": {
+                "ar": "ث. إ. يوان",
+                "hi": "टी.ई.योआन",
+                "bn": "টি. ই. ইউয়ান"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Thibault Klidje",
+            "firstName": "",
+            "lastName": "",
+            "slug": "thibault-klidje",
+            "shortName": "T. Klidje",
+            "position": "F",
+            "jerseyNumber": "18",
+            "height": 175,
+            "userCount": 515,
+            "gender": "M",
+            "id": 1150445,
+            "country": {
+              "alpha2": "TG",
+              "alpha3": "TGO",
+              "name": "Togo",
+              "slug": "togo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 994723200,
+            "proposedMarketValueRaw": {
+              "value": 2300000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ثيبوت كليجي",
+                "hi": "थिबॉल्ट क्लिद्जे",
+                "bn": "থিবল্ট ক্লিডজে"
+              },
+              "shortNameTranslation": {
+                "ar": "ث. كليجي",
+                "hi": "टी. क्लिद्जे",
+                "bn": "টি. ক্লিডজে"
+              }
+            }
+          },
+          "teamId": 2354,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "3-4-1-2",
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "1fa55d",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": 3
+  },
+  "event/14884440/managers": {
+    "homeManager": {
+      "name": "Jens Askou",
+      "slug": "jens-askou",
+      "shortName": "J. Askou",
+      "id": 790336,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ينس أسكو",
+          "hi": "जेन्स अस्कोउ",
+          "bn": "জেনস আস্কৌ"
+        },
+        "shortNameTranslation": {
+          "ar": "ي. أسكو",
+          "hi": "जे. अस्कोउ",
+          "bn": "জে. আস্কৌ"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "David Gray",
+      "slug": "david-gray",
+      "shortName": "D. Gray",
+      "id": 796780,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "ديفيد غراي"
+        },
+        "shortNameTranslation": {
+          "ar": "د. غراي"
+        }
+      }
+    }
+  },
+  "event/14884440/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -7
+      },
+      {
+        "minute": 2,
+        "value": -13
+      },
+      {
+        "minute": 3,
+        "value": -11
+      },
+      {
+        "minute": 4,
+        "value": -3
+      },
+      {
+        "minute": 5,
+        "value": 4
+      },
+      {
+        "minute": 6,
+        "value": 6
+      },
+      {
+        "minute": 7,
+        "value": 1
+      },
+      {
+        "minute": 8,
+        "value": 16
+      },
+      {
+        "minute": 9,
+        "value": 16
+      }
+    ],
+    "periodTime": 45,
+    "overtimeLength": 15,
+    "periodCount": 2
+  },
+  "event/14884440/comments/es": {
+    "comments": [
+      {
+        "text": "Grant Hanley (Hibernian) ha recibido una falta en la zona defensiva.",
+        "type": "freeKickWon",
+        "isHome": false,
+        "player": {
+          "name": "Grant Hanley",
+          "slug": "grant-hanley",
+          "shortName": "G. Hanley",
+          "position": "D",
+          "jerseyNumber": "4",
+          "height": 188,
+          "userCount": 243,
+          "gender": "M",
+          "id": 95791,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 690595200,
+          "proposedMarketValueRaw": {
+            "value": 580000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جرانت هانلي",
+              "hi": "ग्रांट हैनली",
+              "bn": "গ্রান্ট হ্যানলি"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. هانلي",
+              "hi": "जी. हैनली",
+              "bn": "জি. হ্যানলি"
+            }
+          }
+        },
+        "id": 33807278,
+        "periodName": "1ST",
+        "time": 9
+      },
+      {
+        "text": "Oscar Priestman (Motherwell) ha recibido una falta en la zona defensiva.",
+        "type": "freeKickWon",
+        "isHome": true,
+        "player": {
+          "name": "Oscar Priestman",
+          "firstName": "Oscar Priestman",
+          "lastName": "",
+          "slug": "priestman-oscar",
+          "shortName": "O. Priestman",
+          "position": "M",
+          "jerseyNumber": "25",
+          "height": 163,
+          "userCount": 51,
+          "gender": "M",
+          "id": 1190097,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1048550400,
+          "proposedMarketValueRaw": {
+            "value": 365000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بريستمان، أوسكار"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. بريستمان"
+            }
+          }
+        },
+        "id": 33807261,
+        "periodName": "1ST",
+        "time": 7
+      },
+      {
+        "text": "Falta de Jamie McGrath (Hibernian).",
+        "type": "freeKickLost",
+        "isHome": false,
+        "player": {
+          "name": "Jamie McGrath",
+          "slug": "jamie-mcgrath",
+          "shortName": "J. McGrath",
+          "position": "M",
+          "jerseyNumber": "17",
+          "height": 175,
+          "userCount": 246,
+          "gender": "M",
+          "id": 797980,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 844041600,
+          "proposedMarketValueRaw": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمي ماكغراث",
+              "hi": "जेमी मैकग्राथ",
+              "bn": "জেমি ম্যাকগ্রা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ماكغراث",
+              "hi": "जे. मैकग्राथ",
+              "bn": "জে. ম্যাকগ্রাথ"
+            }
+          }
+        },
+        "id": 33807247,
+        "periodName": "1ST",
+        "time": 7
+      },
+      {
+        "text": "Falta de Elliot Watt (Motherwell).",
+        "type": "freeKickLost",
+        "isHome": true,
+        "player": {
+          "name": "Elliot Watt",
+          "slug": "elliot-watt",
+          "shortName": "E. Watt",
+          "position": "M",
+          "jerseyNumber": "20",
+          "height": 175,
+          "userCount": 87,
+          "gender": "M",
+          "id": 942060,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 952732800,
+          "proposedMarketValueRaw": {
+            "value": 470000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيليوت وات"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. وات"
+            }
+          }
+        },
+        "id": 33807188,
+        "periodName": "1ST",
+        "time": 1
+      },
+      {
+        "text": "Jamie McGrath (Hibernian) ha recibido una falta en la banda izquierda.",
+        "type": "freeKickWon",
+        "isHome": false,
+        "player": {
+          "name": "Jamie McGrath",
+          "slug": "jamie-mcgrath",
+          "shortName": "J. McGrath",
+          "position": "M",
+          "jerseyNumber": "17",
+          "height": 175,
+          "userCount": 246,
+          "gender": "M",
+          "id": 797980,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 844041600,
+          "proposedMarketValueRaw": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيمي ماكغراث",
+              "hi": "जेमी मैकग्राथ",
+              "bn": "জেমি ম্যাকগ্রা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ماكغراث",
+              "hi": "जे. मैकग्राथ",
+              "bn": "জে. ম্যাকগ্রাথ"
+            }
+          }
+        },
+        "id": 33807187,
+        "periodName": "1ST",
+        "time": 1
+      },
+      {
+        "text": "Empieza primera parte.",
+        "type": "matchStarted",
+        "id": 33807158,
+        "periodName": "1ST",
+        "time": 1
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "ffbb00",
+        "number": "ffffff",
+        "outline": "ffbb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "1fa55d",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  }
+}

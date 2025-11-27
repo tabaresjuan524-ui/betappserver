@@ -4,6 +4,7 @@ import { Browser, Page } from 'puppeteer-core';
 import { promises as fs } from 'fs';
 import path from 'path';
 import axios from 'axios';
+import { SofaScoreDataInterceptor } from './SofaScoreDataInterceptor';
 
 interface EventApiData {
     [endpoint: string]: any;
@@ -28,7 +29,7 @@ export class BrowserPoolManager {
     private eventTabs: Map<string, { browser: Browser; page: Page; browserIndex: number; event: any; url: string; sportSlug: string }> = new Map();
     private eventDataCache: Map<string, EventApiData> = new Map();
     private savedEvents: Set<string> = new Set(); // Track which events have been saved to avoid duplicates
-    
+
     private BROWSERS_COUNT: number;
     private TABS_PER_BROWSER: number;
     private MAX_TOTAL_EVENTS: number;
@@ -38,7 +39,7 @@ export class BrowserPoolManager {
     private browserTabCounts: number[] = [];
     private browserHealth: boolean[] = []; // Tracks if browsers are connected
     private healthCheckInterval: NodeJS.Timeout | null = null;
-    
+
     constructor() {
         // Load configuration from environment variables or use defaults
         this.BROWSERS_COUNT = parseInt(process.env.SOFASCORE_BROWSERS_COUNT || '3', 10);
@@ -57,25 +58,25 @@ export class BrowserPoolManager {
         this.browserTabCounts = new Array(this.BROWSERS_COUNT).fill(0);
         this.browserHealth = new Array(this.BROWSERS_COUNT).fill(false);
     }
-    
+
     /**
      * Initialize browser pool
      */
     async initialize(): Promise<void> {
         console.log(`🌐 [BROWSER POOL] Initializing ${this.BROWSERS_COUNT} browser instances...`);
-        
+
         const browserPromises = [];
         for (let i = 0; i < this.BROWSERS_COUNT; i++) {
             browserPromises.push(this.launchBrowser(i));
         }
-        
+
         this.browsers = await Promise.all(browserPromises);
         console.log(`✅ [BROWSER POOL] ${this.browsers.length} browsers ready`);
-        
+
         this.startHealthChecks();
         this.logMemoryUsage();
     }
-    
+
     /**
      * Save event data to JSON file (organized by sport)
      */
@@ -85,32 +86,32 @@ export class BrowserPoolManager {
         if (!saveEnabled) {
             return;
         }
-        
+
         // Only save if we haven't saved this event yet and it has data
         if (this.savedEvents.has(eventId) || Object.keys(eventData).length === 0) {
             return;
         }
-        
+
         try {
             const dirPath = path.join(process.cwd(), 'sofascore', 'events', sportSlug);
             await fs.mkdir(dirPath, { recursive: true });
-            
+
             const filePath = path.join(dirPath, `${eventId}.json`);
             await fs.writeFile(filePath, JSON.stringify(eventData, null, 2), 'utf-8');
-            
+
             this.savedEvents.add(eventId);
             console.log(`[SOFASCORE] ✅ Saved data for event ${eventId} to sofascore/events/${sportSlug}/${eventId}.json`);
         } catch (error: any) {
             console.error(`[SOFASCORE] ❌ Error saving data for event ${eventId}:`, error.message);
         }
     }
-    
+
     /**
      * Launch a single browser instance
      */
     private async launchBrowser(index: number): Promise<Browser> {
         console.log(`   🚀 Launching browser ${index + 1}/${this.BROWSERS_COUNT}...`);
-        
+
         try {
             const browser = await puppeteer.launch({
                 executablePath: chrome,
@@ -152,7 +153,7 @@ export class BrowserPoolManager {
 
             this.browserHealth[index] = true;
             console.log(`   ✅ Browser ${index + 1} launched successfully.`);
-            
+
             // Add a listener for when the browser disconnects
             browser.on('disconnected', () => {
                 console.error(`❌ [HEALTH] Browser ${index + 1} has disconnected!`);
@@ -167,7 +168,7 @@ export class BrowserPoolManager {
             throw error; // Re-throw to be handled by initialize
         }
     }
-    
+
     /**
      * Get the browser with least tabs from the pool of healthy browsers
      */
@@ -190,19 +191,20 @@ export class BrowserPoolManager {
 
         return minIndex;
     }
-    
+
     /**
      * Open event tab for live monitoring
      */
     async openEventTab(event: any, eventUrl: string): Promise<EventApiData> {
+        console.log(`[BrowserPoolManager] openEventTab started for event ${event.id}`);
         const eventId = event.id.toString();
-        
+
         // Check if already monitoring this event
         if (this.eventTabs.has(eventId)) {
             console.log(`♻️  [BROWSER POOL] Event ${eventId} already being monitored`);
             return this.eventDataCache.get(eventId) || {};
         }
-        
+
         // Check total capacity (only if MAX_TOTAL_EVENTS > 0)
         if (this.MAX_TOTAL_EVENTS > 0) {
             const totalActiveTabs = this.eventTabs.size;
@@ -211,10 +213,10 @@ export class BrowserPoolManager {
                 return {};
             }
         }
-        
+
         // Find browser with least load
         const browserIndex = this.getLeastLoadedBrowserIndex();
-        
+
         if (browserIndex === -1) {
             console.error(`❌ Cannot open event tab for ${eventId}. No healthy browsers available.`);
             return {};
@@ -223,7 +225,7 @@ export class BrowserPoolManager {
         // Check if this specific browser is at capacity (only if TABS_PER_BROWSER > 0)
         if (this.TABS_PER_BROWSER > 0 && this.browserTabCounts[browserIndex] >= this.TABS_PER_BROWSER) {
             console.warn(`⚠️  [BROWSER POOL] Browser ${browserIndex + 1} at capacity (${this.TABS_PER_BROWSER} tabs). Trying to distribute...`);
-            
+
             // Try to find ANY browser with space
             let foundBrowser = false;
             for (let i = 0; i < this.BROWSERS_COUNT; i++) {
@@ -233,13 +235,13 @@ export class BrowserPoolManager {
                     break;
                 }
             }
-            
+
             if (!foundBrowser) {
                 console.warn(`⚠️  [BROWSER POOL] All browsers at capacity. Skipping event ${eventId}`);
                 return {};
             }
         }
-        
+
         const browser = this.browsers[browserIndex];
         const interceptedData: EventApiData = {};
         let page: Page | null = null;
@@ -247,83 +249,35 @@ export class BrowserPoolManager {
         try {
             // 1. Create a lightweight blank page first
             page = await browser.newPage();
-            
+
             // Set viewport to laptop dimensions (1920x1080) to ensure all widgets load
             await page.setViewport({
                 width: 1920,
                 height: 1080,
                 deviceScaleFactor: 1,
             });
-            
+
             await page.goto('about:blank', { waitUntil: 'domcontentloaded' });
 
-            // 2. Enable request interception to capture responses before browser consumes them
-            await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-            await page.setRequestInterception(true);
-            
-            // Store responses by request ID to match with requests
-            const pendingRequests = new Map<string, string>();
-            
-            // Intercept requests and store their IDs
-            page.on('request', (request: any) => {
-                const url = request.url();
-                if (url.includes('www.sofascore.com/api/v1/')) {
-                    pendingRequests.set(request._requestId, url);
-                }
-                request.continue();
-            });
-            
-            // Intercept responses using request interception approach
-            page.on('response', async (response: any) => {
-                const url = response.url();
-                
-                // Only process SofaScore API JSON responses
-                if (!url.includes('www.sofascore.com/api/v1/')) return;
-                
-                try {
-                    const statusCode = response.status();
-                    if (statusCode >= 400) return;
-                    
-                    const contentType = response.headers()['content-type'] || '';
-                    if (!contentType.includes('application/json')) return;
-                    
-                    const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
-                    if (!endpointMatch) return;
-                    
-                    const endpoint = endpointMatch[1];
-                    
-                    // Filter out noise
-                    if (endpoint.includes('/image') || endpoint.includes('/flag') || endpoint.includes('/logo')) return;
-                    
-                    // Use buffer() instead of json() to avoid body consumption issues
-                    const buffer = await response.buffer();
-                    const text = buffer.toString('utf-8');
-                    const data = JSON.parse(text);
-                    
-                    if (data?.error || data?.errors) return;
-                    
-                    // Store it
-                    interceptedData[endpoint] = data;
-                    const cachedData = this.eventDataCache.get(eventId) || {};
-                    cachedData[endpoint] = data;
-                    this.eventDataCache.set(eventId, cachedData);
-                    
-                    console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - Captured: ${endpoint}`);
-                    
-                    // Save periodically
-                    if (Object.keys(cachedData).length >= 5 && !this.savedEvents.has(eventId)) {
-                        const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
-                        await this.saveEventDataToFile(eventId, cachedData, sportSlug);
-                        this.savedEvents.add(eventId);
-                    }
-                } catch (error: any) {
-                    // Log failures for critical endpoints
-                    const endpointMatch = url.match(/api\/v1\/(.+?)(?:\?|$)/);
-                    const endpoint = endpointMatch ? endpointMatch[1] : url;
-                    if (endpoint.includes('statistics') || endpoint.includes('h2h') || 
-                        endpoint.includes('standings') || endpoint.includes('lineups')) {
-                        console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Failed to capture ${endpoint}: ${error.message}`);
-                    }
+            // 2. Enable request interception using the new interceptor
+            const interceptor = new SofaScoreDataInterceptor(browserIndex, eventId);
+            await interceptor.setupInterception(page);
+
+            // Listen for data from the interceptor
+            interceptor.on('sofascore-data', ({ endpoint, data }) => {
+                interceptedData[endpoint] = data;
+                const cachedData = this.eventDataCache.get(eventId) || {};
+                cachedData[endpoint] = data;
+                this.eventDataCache.set(eventId, cachedData);
+
+                console.log(`[SOFASCORE] Fetched URL: https://www.sofascore.com/api/v1/${endpoint}`);
+                console.log(`📥 [Browser ${browserIndex + 1}] Event ${eventId} - Captured: ${endpoint}`);
+
+                // Save periodically
+                if (Object.keys(cachedData).length >= 5 && !this.savedEvents.has(eventId)) {
+                    const sportSlug = event.tournament?.category?.sport?.slug || 'unknown';
+                    this.saveEventDataToFile(eventId, cachedData, sportSlug);
+                    this.savedEvents.add(eventId);
                 }
             });
 
@@ -335,26 +289,33 @@ export class BrowserPoolManager {
 
             console.log(`🌐 [Browser ${browserIndex + 1}] Event ${eventId} - ${event.slug}`);
             console.log(`   URL: ${eventUrl}`);
-            
+
             // 3. Now, navigate to the actual URL
+            console.log(`[BrowserPoolManager] Navigating to ${eventUrl} for event ${eventId}`);
+            const navigationStartTime = Date.now();
             await page.goto(eventUrl, {
                 waitUntil: 'load', // Wait for DOM to load (networkidle2 never triggers due to continuous live updates)
-                timeout: 90000, // 90-second navigation timeout
+                timeout: 20000, // 20-second navigation timeout
             });
-            
+            const navigationEndTime = Date.now();
+            console.log(`[BrowserPoolManager] Navigation for event ${eventId} completed in ${navigationEndTime - navigationStartTime}ms`);
+
             // 4. Wait for all widget endpoints to load
             // SofaScore fires all endpoints automatically on page load (no interaction needed)
             // Critical endpoints: statistics, h2h, standings/total, odds/1/all
             console.log(`⏳ [Browser ${browserIndex + 1}] Event ${eventId} - Waiting for all widget endpoints to load...`);
-            
+
             // Initial wait for page to settle and fire initial requests
             await new Promise(resolve => setTimeout(resolve, 5000));
             let previousCount = Object.keys(interceptedData).length;
             console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Initial capture: ${previousCount} endpoints`);
-            
+
             // 4b. Click on different tabs to trigger their endpoint loading
             // H2H Tab
+            /*
             try {
+                console.log(`[BrowserPoolManager] Clicking H2H tab for event ${eventId}`);
+                const h2hClickStartTime = Date.now();
                 console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking H2H tab to load team events...`);
                 
                 // Wait for tab navigation to be available - using actual SofaScore selector
@@ -374,12 +335,16 @@ export class BrowserPoolManager {
                         }
                     }
                 }
+                const h2hClickEndTime = Date.now();
+                console.log(`[BrowserPoolManager] H2H tab click for event ${eventId} completed in ${h2hClickEndTime - h2hClickStartTime}ms`);
             } catch (error: any) {
                 console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click H2H tab: ${error.message}`);
             }
             
             // Statistics Tab
             try {
+                console.log(`[BrowserPoolManager] Clicking Statistics tab for event ${eventId}`);
+                const statsClickStartTime = Date.now();
                 console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking Statistics tab...`);
                 const tabs = await page.$$('button[role="tab"]');
                 for (const tab of tabs) {
@@ -391,12 +356,16 @@ export class BrowserPoolManager {
                         break;
                     }
                 }
+                const statsClickEndTime = Date.now();
+                console.log(`[BrowserPoolManager] Statistics tab click for event ${eventId} completed in ${statsClickEndTime - statsClickStartTime}ms`);
             } catch (error: any) {
                 console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click Statistics tab: ${error.message}`);
             }
             
             // Lineups Tab
             try {
+                console.log(`[BrowserPoolManager] Clicking Lineups tab for event ${eventId}`);
+                const lineupsClickStartTime = Date.now();
                 console.log(`🖱️  [Browser ${browserIndex + 1}] Event ${eventId} - Clicking Lineups tab...`);
                 const tabs = await page.$$('button[role="tab"]');
                 for (const tab of tabs) {
@@ -408,6 +377,8 @@ export class BrowserPoolManager {
                         break;
                     }
                 }
+                const lineupsClickEndTime = Date.now();
+                console.log(`[BrowserPoolManager] Lineups tab click for event ${eventId} completed in ${lineupsClickEndTime - lineupsClickStartTime}ms`);
             } catch (error: any) {
                 console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click Lineups tab: ${error.message}`);
             }
@@ -428,50 +399,55 @@ export class BrowserPoolManager {
             } catch (error: any) {
                 console.log(`⚠️  [Browser ${browserIndex + 1}] Event ${eventId} - Could not click 'Show more' button: ${error.message}`);
             }
-            
+            */
             // Keep waiting as long as new endpoints are being captured (up to 60 seconds total)
-            let idleIterations = 0;
-            const maxIdleIterations = 5; // Stop after 15 seconds of no new endpoints (5 × 3s)
-            const maxTotalIterations = 20; // Max 60 seconds total wait (20 × 3s)
-            
-            for (let i = 0; i < maxTotalIterations; i++) {
-                await new Promise(resolve => setTimeout(resolve, 3000));
-                const currentCount = Object.keys(interceptedData).length;
-                
-                if (currentCount > previousCount) {
-                    console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Captured ${currentCount} endpoints (+${currentCount - previousCount} new)`);
-                    previousCount = currentCount;
-                    idleIterations = 0; // Reset idle counter
-                } else {
-                    idleIterations++;
-                    if (idleIterations >= maxIdleIterations) {
-                        console.log(`✋ [Browser ${browserIndex + 1}] Event ${eventId} - No new endpoints for ${maxIdleIterations * 3}s, stopping wait`);
-                        break;
-                    }
-                }
-            }
-            
+            /*  let idleIterations = 0;
+              const maxIdleIterations = 5; // Stop after 15 seconds of no new endpoints (5 × 3s)
+              const maxTotalIterations = 20; // Max 60 seconds total wait (20 × 3s)
+  
+              for (let i = 0; i < maxTotalIterations; i++) {
+                  console.log(`[BrowserPoolManager] Waiting for endpoints for event ${eventId}, iteration ${i + 1}/${maxTotalIterations}`);
+                  await new Promise(resolve => setTimeout(resolve, 3000));
+                  const currentCount = Object.keys(interceptedData).length;
+  
+                  if (currentCount > previousCount) {
+                      console.log(`📊 [Browser ${browserIndex + 1}] Event ${eventId} - Captured ${currentCount} endpoints (+${currentCount - previousCount} new)`);
+                      previousCount = currentCount;
+                      idleIterations = 0; // Reset idle counter
+                  } else {
+                      idleIterations++;
+                      if (idleIterations >= maxIdleIterations) {
+                          console.log(`✋ [Browser ${browserIndex + 1}] Event ${eventId} - No new endpoints for ${maxIdleIterations * 3}s, stopping wait`);
+                          break;
+                      }
+                  }
+              }
+  */
             // After waiting period ends, fetch missing critical endpoints via direct HTTP
-            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - About to call fetchMissingCriticalEndpoints`);
-            await this.fetchMissingCriticalEndpoints(eventId, interceptedData, page);
-            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - Finished fetchMissingCriticalEndpoints`);
-            
-            const capturedEndpoints = Object.keys(interceptedData).length;
-            const endpointList = Object.keys(interceptedData).join(', ');
-            console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
-            console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
-            
-            // CRITICAL FIX: Update cache with final complete interceptedData
-            // This ensures cache has ALL endpoints including those from tab clicks
-            this.eventDataCache.set(eventId, interceptedData);
-            console.log(`💾 [Browser ${browserIndex + 1}] Event ${eventId} - Cache updated with all ${capturedEndpoints} endpoints`);
-            
-            // Log distribution periodically
-            const totalActiveTabs = this.eventTabs.size;
-            if (totalActiveTabs % 10 === 0) {
-                this.logDistribution();
-            }
-            
+            /*  console.log(`[BrowserPoolManager] Fetching missing critical endpoints for event ${eventId}`);
+              const fetchMissingStartTime = Date.now();
+              console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - About to call fetchMissingCriticalEndpoints`);
+              await this.fetchMissingCriticalEndpoints(eventId, interceptedData, page);
+              console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - Finished fetchMissingCriticalEndpoints`);
+              const fetchMissingEndTime = Date.now();
+              console.log(`[BrowserPoolManager] fetchMissingCriticalEndpoints for event ${eventId} completed in ${fetchMissingEndTime - fetchMissingStartTime}ms`);
+  
+              const capturedEndpoints = Object.keys(interceptedData).length;
+              const endpointList = Object.keys(interceptedData).join(', ');
+              console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
+              console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
+  
+              // CRITICAL FIX: Update cache with final complete interceptedData
+              // This ensures cache has ALL endpoints including those from tab clicks
+              this.eventDataCache.set(eventId, interceptedData);
+              console.log(`💾 [Browser ${browserIndex + 1}] Event ${eventId} - Cache updated with all ${capturedEndpoints} endpoints`);
+  
+              // Log distribution periodically
+              const totalActiveTabs = this.eventTabs.size;
+              if (totalActiveTabs % 10 === 0) {
+                  this.logDistribution();
+              }*/
+
         } catch (error: any) {
             console.error(`❌ [Browser ${browserIndex + 1}] Event ${eventId}: ${error.message}`);
             console.error(`   URL: ${eventUrl}`);
@@ -480,14 +456,14 @@ export class BrowserPoolManager {
                 await this.closeEventTab(eventId);
             }
         }
-        
+
         // CRITICAL FIX: Update cache with final complete interceptedData after all tab clicks
         // Previously cache was set at line 319 BEFORE tab clicking, missing h2h/statistics/etc
         this.eventDataCache.set(eventId, interceptedData);
-        
+
         return interceptedData;
     }
-    
+
     /**
      * Close event tab when event finishes
      */
@@ -496,46 +472,46 @@ export class BrowserPoolManager {
         if (!tabInfo) {
             return;
         }
-        
+
         try {
             await tabInfo.page.close();
             this.eventTabs.delete(eventId);
             this.eventDataCache.delete(eventId);
             this.browserTabCounts[tabInfo.browserIndex]--;
-            
+
             console.log(`🗑️  [Browser ${tabInfo.browserIndex + 1}] Closed event ${eventId}`);
         } catch (error) {
             console.error(`❌ Error closing event ${eventId}:`, error);
         }
     }
-    
+
     /**
      * Check if an event is already being monitored
      */
     isEventMonitored(eventId: string): boolean {
         return this.eventTabs.has(eventId);
     }
-    
+
     /**
      * Get cached data for an event (returns live-updated data)
      */
     getEventData(eventId: string): EventApiData {
         return this.eventDataCache.get(eventId) || {};
     }
-    
+
     /**
      * Get all cached event data (for consolidation)
      */
     getAllEventData(): Map<string, EventApiData> {
         return this.eventDataCache;
     }
-    
+
     /**
      * Close all tabs and browsers
      */
     async cleanup(): Promise<void> {
         console.log('🧹 [BROWSER POOL] Cleaning up all browsers...');
-        
+
         // Close all tabs first
         for (const [eventId, tabInfo] of this.eventTabs.entries()) {
             try {
@@ -544,7 +520,7 @@ export class BrowserPoolManager {
                 // Ignore
             }
         }
-        
+
         // Close all browsers
         for (const browser of this.browsers) {
             try {
@@ -553,7 +529,7 @@ export class BrowserPoolManager {
                 // Ignore
             }
         }
-        
+
         this.eventTabs.clear();
         this.eventDataCache.clear();
         this.browsers = [];
@@ -563,17 +539,17 @@ export class BrowserPoolManager {
         if (this.healthCheckInterval) {
             clearInterval(this.healthCheckInterval);
         }
-        
+
         console.log('✅ [BROWSER POOL] Cleanup complete');
     }
-    
+
     /**
      * Log browser load distribution
      */
     private logDistribution(): void {
         console.log(`📊 [BROWSER POOL] Distribution: ${this.browserTabCounts.map((count, i) => `B${i + 1}:${count}`).join(' | ')} (Total: ${this.eventTabs.size})`);
     }
-    
+
     /**
      * Starts the periodic health check of browser instances
      */
@@ -598,7 +574,7 @@ export class BrowserPoolManager {
 
         for (let i = 0; i < this.browsers.length; i++) {
             const isConnected = this.browsers[i] && this.browsers[i].isConnected();
-            
+
             if (!isConnected) { // Browser is disconnected
                 if (this.browserHealth[i]) {
                     // First time detecting disconnection
@@ -607,9 +583,9 @@ export class BrowserPoolManager {
                     // Still disconnected, try to replace again
                     console.warn(`⚠️ [HEALTH] Browser ${i + 1} still disconnected. Retrying replacement...`);
                 }
-                
+
                 this.browserHealth[i] = false;
-                
+
                 try {
                     await this.replaceBrowser(i);
                     this.browserHealth[i] = true; // Mark as healthy after successful replacement
@@ -619,8 +595,8 @@ export class BrowserPoolManager {
                     console.error(`❌ [HEALTH] Failed to replace browser ${i + 1}: ${error.message}`);
                 }
             } else if (isConnected && !this.browserHealth[i]) { // Was unhealthy, now it's back
-                 this.browserHealth[i] = true;
-                 console.log(`✅ [HEALTH] Browser ${i + 1} has reconnected.`);
+                this.browserHealth[i] = true;
+                console.log(`✅ [HEALTH] Browser ${i + 1} has reconnected.`);
             }
         }
 
@@ -654,9 +630,9 @@ export class BrowserPoolManager {
         for (const [eventId, tabInfo] of this.eventTabs.entries()) {
             if (tabInfo.browserIndex === index) {
                 console.log(`    - Event ${eventId} was on crashed browser ${index + 1}. Queueing for reopening...`);
-                tabsToReopen.push({ 
-                    eventId, 
-                    event: tabInfo.event, 
+                tabsToReopen.push({
+                    eventId,
+                    event: tabInfo.event,
                     url: tabInfo.url,
                     sportSlug: tabInfo.sportSlug
                 });
@@ -665,7 +641,7 @@ export class BrowserPoolManager {
                 this.eventDataCache.delete(eventId);
             }
         }
-        
+
         // Reopen tabs on the new browser
         if (tabsToReopen.length > 0) {
             console.log(`    - Reopening ${tabsToReopen.length} tabs on new browser ${index + 1}...`);
@@ -692,17 +668,17 @@ export class BrowserPoolManager {
         const heapUsed = Math.round(used.heapUsed / 1024 / 1024);
         const heapTotal = Math.round(used.heapTotal / 1024 / 1024);
         const external = Math.round(used.external / 1024 / 1024);
-        
+
         console.log(`📊 [MEMORY] RSS: ${rss}MB | Heap: ${heapUsed}/${heapTotal}MB | External: ${external}MB`);
     }
-    
+
     /**
      * Get active tabs count
      */
     getActiveTabsCount(): number {
         return this.eventTabs.size;
     }
-    
+
     /**
      * Get capacity info
      */
@@ -729,7 +705,7 @@ export class BrowserPoolManager {
         // Get event details to extract team IDs and customId
         const eventEndpoint = `event/${eventId}`;
         const eventData = interceptedData[eventEndpoint];
-        
+
         const criticalEndpoints = [
             `event/${eventId}/statistics`,
             `event/${eventId}/h2h`,
@@ -796,14 +772,14 @@ export class BrowserPoolManager {
                             },
                             credentials: 'include'
                         })
-                        .then(response => {
-                            if (response.ok) {
-                                return response.json();
-                            } else {
-                                return null;
-                            }
-                        })
-                        .catch(() => null);
+                            .then(response => {
+                                if (response.ok) {
+                                    return response.json();
+                                } else {
+                                    return null;
+                                }
+                            })
+                            .catch(() => null);
                     }, endpoint);
 
                     if (data) {

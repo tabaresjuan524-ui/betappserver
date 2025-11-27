@@ -1,0 +1,1115 @@
+{
+  "event/15037616/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 2,
+      "draws": 1
+    },
+    "managerDuel": null
+  },
+  "event/15037616/incidents": {
+    "incidents": [
+      {
+        "text": "HT",
+        "homeScore": 1,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "id": 327086861,
+        "time": 30,
+        "timeSeconds": 1800,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 900,
+        "periodTimeSeconds": 1800,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15037616": {
+    "event": {
+      "tournament": {
+        "name": "Ethiopian Higher League",
+        "slug": "ethiopian-higher-league",
+        "category": {
+          "name": "Ethiopia",
+          "slug": "ethiopia",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1102,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "flag": "ethiopia",
+          "alpha2": "ET",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إثيوبيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Ethiopian Higher League",
+          "slug": "ethiopian-higher-league",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 566,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 22244,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإثيوبي الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "id": 128600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الإثيوبي الممتاز"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "gnfeswige",
+      "status": {
+        "code": 31,
+        "description": "Halftime",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Bench Maji Buna FC",
+        "slug": "bench-maji-buna-fc",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 249,
+        "nameCode": "BMB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 515421,
+        "country": {
+          "alpha2": "ET",
+          "alpha3": "ETH",
+          "name": "Ethiopia",
+          "slug": "ethiopia"
+        },
+        "fullName": "Bench Maji Buna FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بينش ماجي بونا إف سي"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Gamo Chencha",
+        "slug": "gamo-chencha",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 237,
+        "nameCode": "GCH",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 513156,
+        "country": {},
+        "fullName": "Gamo Chencha",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "غمو تشينتشا"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "coverage": -1,
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762931122,
+        "period1StartTimestamp": 1762930837
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1762933822
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15037616,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "bench-maji-buna-fc-gamo-chencha",
+      "currentPeriodStartTimestamp": 1762931122,
+      "startTimestamp": 1762930800,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/15037616/votes": {
+    "vote": {
+      "vote1": 0,
+      "vote2": 0,
+      "voteX": 0
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15037616/statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Corner kicks",
+                "home": "2",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Free kicks",
+                "home": "9",
+                "away": "10",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 9,
+                "awayValue": 10,
+                "renderType": 1,
+                "key": "freeKicks"
+              },
+              {
+                "name": "Yellow cards",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "yellowCards"
+              },
+              {
+                "name": "Red cards",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "redCards"
+              }
+            ]
+          },
+          {
+            "groupName": "Attack",
+            "statisticsItems": [
+              {
+                "name": "Offsides",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "offsides"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "event/15037616/team-streaks": {
+    "general": [],
+    "head2head": []
+  },
+  "event/gnfeswige/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Ethiopian Higher League",
+          "slug": "ethiopian-higher-league",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Ethiopian Higher League",
+            "slug": "ethiopian-higher-league",
+            "category": {
+              "name": "Ethiopia",
+              "slug": "ethiopia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1102,
+              "country": {
+                "alpha2": "ET",
+                "alpha3": "ETH",
+                "name": "Ethiopia",
+                "slug": "ethiopia"
+              },
+              "flag": "ethiopia",
+              "alpha2": "ET",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إثيوبيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 566,
+            "hasPerformanceGraphFeature": false,
+            "id": 22244,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدوري الإثيوبي الممتاز"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "id": 128600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإثيوبي الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "gnfeswige",
+        "status": {
+          "code": 31,
+          "description": "Halftime",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Bench Maji Buna FC",
+          "slug": "bench-maji-buna-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 249,
+          "nameCode": "BMB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 515421,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينش ماجي بونا إف سي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Gamo Chencha",
+          "slug": "gamo-chencha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 237,
+          "nameCode": "GCH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 513156,
+          "country": {},
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غمو تشينتشا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 1,
+          "display": 1,
+          "period1": 1
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0
+        },
+        "coverage": -1,
+        "time": {
+          "periodLength": 2700,
+          "overtimeLength": 900,
+          "totalPeriodCount": 2,
+          "currentPeriodStartTimestamp": 1762931122
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "time.currentPeriodStart"
+          ],
+          "changeTimestamp": 1762933822
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15037616,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "bench-maji-buna-fc-gamo-chencha",
+        "startTimestamp": 1762930800,
+        "finalResultOnly": false,
+        "feedLocked": true
+      },
+      {
+        "tournament": {
+          "name": "Ethiopian Higher League",
+          "slug": "ethiopian-higher-league",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Ethiopian Higher League",
+            "slug": "ethiopian-higher-league",
+            "category": {
+              "name": "Ethiopia",
+              "slug": "ethiopia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1102,
+              "country": {
+                "alpha2": "ET",
+                "alpha3": "ETH",
+                "name": "Ethiopia",
+                "slug": "ethiopia"
+              },
+              "flag": "ethiopia",
+              "alpha2": "ET",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إثيوبيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 566,
+            "hasPerformanceGraphFeature": false,
+            "id": 22244,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدوري الإثيوبي الممتاز"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "id": 128600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإثيوبي الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "gnfeswige",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeTeam": {
+          "name": "Gamo Chencha",
+          "slug": "gamo-chencha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 237,
+          "nameCode": "GCH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 513156,
+          "country": {},
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غمو تشينتشا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Bench Maji Buna FC",
+          "slug": "bench-maji-buna-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 249,
+          "nameCode": "BMB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 515421,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينش ماجي بونا إف سي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 2,
+          "display": 2,
+          "period1": 2,
+          "period2": 0,
+          "normaltime": 2
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "periodLength": 2700,
+          "overtimeLength": 900,
+          "totalPeriodCount": 2,
+          "currentPeriodStartTimestamp": 1762608985
+        },
+        "changes": {
+          "changes": [
+            "time.currentPeriodStart"
+          ],
+          "changeTimestamp": 1762611925
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15021610,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "bench-maji-buna-fc-gamo-chencha",
+        "startTimestamp": 1762605000,
+        "finalResultOnly": false,
+        "feedLocked": true
+      },
+      {
+        "tournament": {
+          "name": "Ethiopian Higher League",
+          "slug": "ethiopian-higher-league",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Ethiopian Higher League",
+            "slug": "ethiopian-higher-league",
+            "category": {
+              "name": "Ethiopia",
+              "slug": "ethiopia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1102,
+              "country": {
+                "alpha2": "ET",
+                "alpha3": "ETH",
+                "name": "Ethiopia",
+                "slug": "ethiopia"
+              },
+              "flag": "ethiopia",
+              "alpha2": "ET",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إثيوبيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 566,
+            "hasPerformanceGraphFeature": false,
+            "id": 22244,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدوري الإثيوبي الممتاز"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "id": 128600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإثيوبي الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "gnfeswige",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 2,
+        "homeTeam": {
+          "name": "Bench Maji Buna FC",
+          "slug": "bench-maji-buna-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 249,
+          "nameCode": "BMB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 515421,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينش ماجي بونا إف سي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Gamo Chencha",
+          "slug": "gamo-chencha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 237,
+          "nameCode": "GCH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 513156,
+          "country": {},
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غمو تشينتشا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 3,
+          "display": 3,
+          "period1": 3,
+          "period2": 0,
+          "normaltime": 3
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1741867200
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type"
+          ],
+          "changeTimestamp": 1741870258
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 13597609,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "bench-maji-buna-fc-gamo-chencha",
+        "startTimestamp": 1741863600,
+        "finalResultOnly": false,
+        "feedLocked": true
+      },
+      {
+        "tournament": {
+          "name": "Ethiopian Higher League",
+          "slug": "ethiopian-higher-league",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Ethiopian Higher League",
+            "slug": "ethiopian-higher-league",
+            "category": {
+              "name": "Ethiopia",
+              "slug": "ethiopia",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1102,
+              "country": {
+                "alpha2": "ET",
+                "alpha3": "ETH",
+                "name": "Ethiopia",
+                "slug": "ethiopia"
+              },
+              "flag": "ethiopia",
+              "alpha2": "ET",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إثيوبيا"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 566,
+            "hasPerformanceGraphFeature": false,
+            "id": 22244,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدوري الإثيوبي الممتاز"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "id": 128600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإثيوبي الممتاز"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "gnfeswige",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 3,
+        "homeTeam": {
+          "name": "Gamo Chencha",
+          "slug": "gamo-chencha",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 237,
+          "nameCode": "GCH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 513156,
+          "country": {},
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غمو تشينتشا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Bench Maji Buna FC",
+          "slug": "bench-maji-buna-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 249,
+          "nameCode": "BMB",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 515421,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينش ماجي بونا إف سي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1732273200
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "status.type"
+          ],
+          "changeTimestamp": 1732276090
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 13151864,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "bench-maji-buna-fc-gamo-chencha",
+        "startTimestamp": 1732269600,
+        "finalResultOnly": false,
+        "feedLocked": false
+      }
+    ]
+  }
+}

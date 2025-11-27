@@ -1,0 +1,242 @@
+{
+  "event/15036783/h2h": {
+    "teamDuel": {
+      "homeWins": 7,
+      "awayWins": 3,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036783/votes": {
+    "vote": {
+      "vote1": 19,
+      "vote2": 5,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15036783": {
+    "event": {
+      "tournament": {
+        "name": "TT Elite Series",
+        "slug": "tt-elite-series",
+        "category": {
+          "name": "Poland",
+          "slug": "poland",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1340,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "flag": "poland",
+          "alpha2": "PL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Elite Series",
+          "slug": "tt-elite-series",
+          "category": {
+            "name": "Poland",
+            "slug": "poland",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1340,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "flag": "poland",
+            "alpha2": "PL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1038,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19041,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة النخبة لتنس الطاولة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة النخبة لتنس الطاولة (TT)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "MhvdsTwTd",
+      "status": {
+        "code": 10,
+        "description": "3rd set",
+        "type": "inprogress"
+      },
+      "winnerCode": 1,
+      "homeTeam": {
+        "name": "Wisniewski K.",
+        "slug": "wisniewski-karol",
+        "shortName": "Wisniewski K.",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 503,
+        "playerTeamInfo": {
+          "id": 30157
+        },
+        "nameCode": "WIS",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 425387,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Wisniewski K.",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ويشنيفسكي، كارول"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. ويشنيفسكي"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Wloczko K.",
+        "slug": "wloczko-krzysztof",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 349,
+        "nameCode": "WLO",
+        "national": false,
+        "type": 1,
+        "id": 483593,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Wloczko, Krzysztof",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ولوكزو، كريستوف"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 11,
+        "period3": 4
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 7,
+        "period2": 9,
+        "period3": 1
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762926243
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period3",
+          "awayScore.period3"
+        ],
+        "changeTimestamp": 1762926306
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036783,
+      "defaultPeriodCount": 5,
+      "slug": "wloczko-wisniewski",
+      "currentPeriodStartTimestamp": 1762926243,
+      "startTimestamp": 1762925700,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

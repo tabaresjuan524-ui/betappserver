@@ -1,0 +1,417 @@
+{
+  "event/15000922/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 0,
+        "awayScore": 3,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 3,
+        "id": 327086316,
+        "time": 81,
+        "timeSeconds": 4860,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 540,
+        "periodTimeSeconds": 2160,
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 2,
+        "id": 327086108,
+        "time": 65,
+        "timeSeconds": 3900,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "reversedPeriodTimeSeconds": 1500,
+        "periodTimeSeconds": 1200,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "id": 327085604,
+        "time": 27,
+        "timeSeconds": 1620,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1080,
+        "periodTimeSeconds": 1620,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15000922/h2h": {
+    "teamDuel": {
+      "homeWins": 0,
+      "awayWins": 1,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15000922/pregame-form": {
+    "homeTeam": {
+      "position": 8,
+      "value": "22",
+      "form": [
+        "L",
+        "W",
+        "D",
+        "L",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 2,
+      "value": "36",
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "D"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15000922": {
+    "event": {
+      "tournament": {
+        "name": "BDFA Super Division League",
+        "slug": "bdfa-super-division-league",
+        "category": {
+          "name": "India Amateur",
+          "slug": "india-amateur",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1598,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "flag": "india",
+          "alpha2": "IN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الهند هواة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "BDFA Super Division League",
+          "slug": "bdfa-super-division-league",
+          "category": {
+            "name": "India Amateur",
+            "slug": "india-amateur",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1598,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند هواة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 257,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 29341,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الدرجة الممتازة BDFA"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 163089,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري السوبر BDFA"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "2025",
+        "year": "2025",
+        "editor": true,
+        "id": 82323
+      },
+      "roundInfo": {
+        "round": 17
+      },
+      "customId": "oFZcsDkyh",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Real Bengaluru",
+        "slug": "real-bengaluru",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 786,
+        "nameCode": "RBE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 933028,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Real Bengaluru",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريال بنغالورو"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "FC Bengaluru United",
+        "slug": "fc-bengaluru-united",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2226,
+        "venue": {
+          "city": {
+            "name": "Bangalore"
+          },
+          "venueCoordinates": {
+            "latitude": 12.97194,
+            "longitude": 77.59369
+          },
+          "hidden": true,
+          "slug": "bangalore-football-stadium",
+          "name": "Bangalore Football Stadium",
+          "capacity": 8400,
+          "id": 4028,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب بنغالور لكرة القدم",
+              "hi": "बैंगलोर फुटबॉल स्टेडियम",
+              "bn": "ব্যাঙ্গালোর ফুটবল স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Bangalore Football Stadium",
+            "capacity": 8400
+          }
+        },
+        "nameCode": "FBU",
+        "national": false,
+        "type": 0,
+        "id": 374014,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "FC Bengaluru United",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": 1560729600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إف سي بنغالورو يونايتد"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 1,
+        "period2": 2
+      },
+      "coverage": -1,
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1762929225,
+        "period1StartTimestamp": 1762925278,
+        "period2StartTimestamp": 1762929184,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.period2"
+        ],
+        "changeTimestamp": 1762931391
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15000922,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1762929225,
+        "extra": 540
+      },
+      "slug": "real-bengaluru-fc-bengaluru-united",
+      "currentPeriodStartTimestamp": 1762929225,
+      "startTimestamp": 1762925400,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "createdByNickname": "Shediur Sangma",
+      "eventEditorName": "Shediur Sangma",
+      "eventEditor": {
+        "id": "6676efe264a7a2f51446acaf",
+        "name": "Shediur Sangma"
+      },
+      "showTotoPromo": true,
+      "isEditor": true
+    }
+  },
+  "event/15000922/votes": {
+    "vote": {
+      "vote1": 35,
+      "vote2": 141,
+      "voteX": 14
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 43,
+      "voteNo": 6
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 3,
+      "voteNoGoal": 2,
+      "voteAway": 42
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/15042353/votes": {
+    "vote": {
+      "vote1": 0,
+      "vote2": 0,
+      "voteX": 0
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15042353/incidents": {
+    "incidents": [
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "0000ff",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15042353": {
+    "event": {
+      "tournament": {
+        "name": "Ethiopia Cup ",
+        "slug": "cup",
+        "category": {
+          "name": "Ethiopia",
+          "slug": "ethiopia",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1102,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "flag": "ethiopia",
+          "alpha2": "ET",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إثيوبيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 59963,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس إثيوبيا"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "KvYbsKqkj",
+      "status": {
+        "code": 31,
+        "description": "Halftime",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Sihul Shire",
+        "slug": "sihul-shire",
+        "shortName": "Sihul Shire",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 0,
+        "nameCode": "SSH",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1150835,
+        "country": {
+          "alpha2": "ET",
+          "alpha3": "ETH",
+          "name": "Ethiopia",
+          "slug": "ethiopia"
+        },
+        "fullName": "Sihul Shire",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Defence Force FC",
+        "slug": "defence-force-fc",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2611,
+        "venue": {
+          "city": {
+            "name": "Port of Spain"
+          },
+          "venueCoordinates": {
+            "latitude": 10.66151,
+            "longitude": -61.533049
+          },
+          "hidden": true,
+          "slug": "hasely-crawford-stadium",
+          "name": "Hasely Crawford Stadium",
+          "capacity": 27000,
+          "id": 16774,
+          "country": {
+            "alpha2": "TT",
+            "alpha3": "TTO",
+            "name": "Trinidad and Tobago",
+            "slug": "trinidad-and-tobago"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاسيلي كروفورد ستاديوم",
+              "hi": "हेस्ली क्रॉफोर्ड स्टेडियम",
+              "bn": "হেসেলি ক্রফোর্ড স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Hasely Crawford Stadium",
+            "capacity": 27000
+          }
+        },
+        "nameCode": "DEF",
+        "national": false,
+        "type": 0,
+        "id": 246035,
+        "country": {
+          "alpha2": "TT",
+          "alpha3": "TTO",
+          "name": "Trinidad and Tobago",
+          "slug": "trinidad-and-tobago"
+        },
+        "fullName": "Defence Force FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#0000ff",
+          "text": "#0000ff"
+        },
+        "foundationDateTimestamp": 123465600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي ديفينس فورس",
+            "ru": "Дефенс Форс",
+            "hi": "डिफेन्स फाॅर्स एफसी"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "coverage": -1,
+      "time": {
+        "currentPeriodStartTimestamp": 1763017380,
+        "period1StartTimestamp": 1763017380
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description"
+        ],
+        "changeTimestamp": 1763020486
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15042353,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "sihul-shire-defence-force-fc",
+      "currentPeriodStartTimestamp": 1763017380,
+      "startTimestamp": 1763017200,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/15042353/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15042353/team-streaks": {
+    "general": [],
+    "head2head": []
+  },
+  "event/KvYbsKqkj/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Ethiopia Cup ",
+          "slug": "cup",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isLive": false,
+          "id": 59963,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس إثيوبيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "KvYbsKqkj",
+        "status": {
+          "code": 31,
+          "description": "Halftime",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Sihul Shire",
+          "slug": "sihul-shire",
+          "shortName": "Sihul Shire",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 0,
+          "nameCode": "SSH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1150835,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          }
+        },
+        "awayTeam": {
+          "name": "Defence Force FC",
+          "slug": "defence-force-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2611,
+          "nameCode": "DEF",
+          "national": false,
+          "type": 0,
+          "id": 246035,
+          "country": {
+            "alpha2": "TT",
+            "alpha3": "TTO",
+            "name": "Trinidad and Tobago",
+            "slug": "trinidad-and-tobago"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي ديفينس فورس",
+              "ru": "Дефенс Форс",
+              "hi": "डिफेन्स फाॅर्स एफसी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1763017380
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description"
+          ],
+          "changeTimestamp": 1763020486
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15042353,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "sihul-shire-defence-force-fc",
+        "startTimestamp": 1763017200,
+        "finalResultOnly": false,
+        "feedLocked": true
+      }
+    ]
+  },
+  "team/1150835/events/last/0": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Ethiopia Cup ",
+          "slug": "cup",
+          "category": {
+            "name": "Ethiopia",
+            "slug": "ethiopia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1102,
+            "country": {
+              "alpha2": "ET",
+              "alpha3": "ETH",
+              "name": "Ethiopia",
+              "slug": "ethiopia"
+            },
+            "flag": "ethiopia",
+            "alpha2": "ET",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إثيوبيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isLive": false,
+          "id": 59963,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس إثيوبيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "customId": "KvYbsKqkj",
+        "status": {
+          "code": 31,
+          "description": "Halftime",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Sihul Shire",
+          "slug": "sihul-shire",
+          "shortName": "Sihul Shire",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 0,
+          "nameCode": "SSH",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1150835,
+          "country": {
+            "alpha2": "ET",
+            "alpha3": "ETH",
+            "name": "Ethiopia",
+            "slug": "ethiopia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          }
+        },
+        "awayTeam": {
+          "name": "Defence Force FC",
+          "slug": "defence-force-fc",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 2611,
+          "nameCode": "DEF",
+          "national": false,
+          "type": 0,
+          "id": 246035,
+          "country": {
+            "alpha2": "TT",
+            "alpha3": "TTO",
+            "name": "Trinidad and Tobago",
+            "slug": "trinidad-and-tobago"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffff00",
+            "secondary": "#0000ff",
+            "text": "#0000ff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نادي ديفينس فورس",
+              "ru": "Дефенс Форс",
+              "hi": "डिफेन्स फाॅर्स एफसी"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1763017380
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description"
+          ],
+          "changeTimestamp": 1763020486
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15042353,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "sihul-shire-defence-force-fc",
+        "startTimestamp": 1763017200,
+        "finalResultOnly": false,
+        "feedLocked": true
+      }
+    ],
+    "hasNextPage": false
+  }
+}

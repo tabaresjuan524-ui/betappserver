@@ -164,7 +164,7 @@ export class SofaScoreDataSource implements IDataSource {
         // This method returns the latest cached data.
         // The fetching is handled by the startFetching loop.
         let dataToReturn = this.lastSuccessfulData;
-        
+         
         // If no cached data, try to load the latest saved file
         if (!dataToReturn) {
             try {

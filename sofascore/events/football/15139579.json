@@ -1,0 +1,3727 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/15139579/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "playerIn": {
+          "name": "Ryu Jun-sun",
+          "firstName": "Jun-Sun Ryu",
+          "slug": "jun-sun-ryu",
+          "shortName": "J. Ryu",
+          "position": "M",
+          "jerseyNumber": "16",
+          "height": 178,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1805459,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1064448000,
+          "proposedMarketValueRaw": {
+            "value": 145000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون-سون، ريو"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. جون-سون"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Jeong-bin Lee",
+          "slug": "jeong-bin-lee",
+          "shortName": "J. B. Lee",
+          "position": "M",
+          "jerseyNumber": "8",
+          "height": 174,
+          "userCount": 6,
+          "gender": "M",
+          "id": 1026121,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 789782400,
+          "proposedMarketValueRaw": {
+            "value": 160000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونغ-بين لي"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. لي"
+            }
+          }
+        },
+        "id": 125190786,
+        "time": 88,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 3,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Sanghyeok Park",
+          "firstName": "",
+          "lastName": "",
+          "slug": "sanghyeok-park",
+          "shortName": "S. Park",
+          "position": "M",
+          "jerseyNumber": "2",
+          "height": 163,
+          "userCount": 9,
+          "gender": "M",
+          "id": 822533,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 893030400,
+          "proposedMarketValueRaw": {
+            "value": 205000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سانغ هيوك بارك"
+            },
+            "shortNameTranslation": {
+              "ar": "س. بارك"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Sang-min Lee",
+          "slug": "sang-min-lee",
+          "shortName": "S. Lee",
+          "position": "D",
+          "jerseyNumber": "20",
+          "height": 180,
+          "userCount": 7,
+          "gender": "M",
+          "id": 1026211,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 935971200,
+          "proposedMarketValueRaw": {
+            "value": 255000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سانغ-مين لي"
+            },
+            "shortNameTranslation": {
+              "ar": "س. لي"
+            }
+          }
+        },
+        "id": 125190785,
+        "time": 88,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 3,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Joo-won Kim",
+          "slug": "joo-won-kim",
+          "shortName": "J. Kim",
+          "position": "D",
+          "jerseyNumber": "66",
+          "height": 185,
+          "userCount": 4,
+          "gender": "M",
+          "id": 812469,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 680745600,
+          "proposedMarketValueRaw": {
+            "value": 140000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جو-ون كيم"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كيم"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Jae-won Shin",
+          "slug": "jae-won-shin",
+          "shortName": "J. W. Shin",
+          "position": "D",
+          "jerseyNumber": "7",
+          "height": 183,
+          "userCount": 13,
+          "gender": "M",
+          "id": 1012804,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 905904000,
+          "proposedMarketValueRaw": {
+            "value": 235000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاي وون شين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شين"
+            }
+          }
+        },
+        "id": 125190784,
+        "time": 87,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Kwang-hun Chae",
+          "slug": "kwang-hun-chae",
+          "shortName": "K. Chae",
+          "position": "D",
+          "jerseyNumber": "6",
+          "height": 175,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1025879,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 745545600,
+          "proposedMarketValueRaw": {
+            "value": 185000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوانغ-هون تشاي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. تشاي"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Ju-hwan Kim",
+          "slug": "ju-hwan-kim",
+          "shortName": "J. Kim",
+          "position": "D",
+          "jerseyNumber": "19",
+          "height": 176,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1025776,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 982368000,
+          "proposedMarketValueRaw": {
+            "value": 130000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جو-هوان كيم"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كيم"
+            }
+          }
+        },
+        "id": 125190783,
+        "time": 87,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "incidentType": "substitution"
+      },
+      {
+        "from": "regular",
+        "homeScore": 0,
+        "awayScore": 1,
+        "player": {
+          "name": "Leonardo Ruiz",
+          "slug": "leonardo-ruiz",
+          "shortName": "L. Ruiz",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 185,
+          "userCount": 99,
+          "gender": "M",
+          "id": 605426,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 829785600,
+          "proposedMarketValueRaw": {
+            "value": 400000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليوناردو رويز"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. رويز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jae-won Shin",
+          "slug": "jae-won-shin",
+          "shortName": "J. W. Shin",
+          "position": "D",
+          "jerseyNumber": "7",
+          "height": 183,
+          "userCount": 13,
+          "gender": "M",
+          "id": 1012804,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 905904000,
+          "proposedMarketValueRaw": {
+            "value": 235000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاي وون شين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شين"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 330512697,
+        "time": 85,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 6,
+        "incidentType": "goal"
+      },
+      {
+        "playerIn": {
+          "name": "Jeong Jae-Min",
+          "firstName": "Jeong Jae-Min",
+          "slug": "jeong-jae-min",
+          "shortName": "J. Jae-Min",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 191,
+          "userCount": 10,
+          "gender": "M",
+          "id": 1473141,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1004227200,
+          "proposedMarketValueRaw": {
+            "value": 180000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونغ جاي-مين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاي-مين"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Euller",
+          "slug": "euller",
+          "shortName": "Euller",
+          "position": "M",
+          "jerseyNumber": "7",
+          "height": 173,
+          "userCount": 62,
+          "gender": "M",
+          "id": 336843,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 789177600,
+          "proposedMarketValueRaw": {
+            "value": 570000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أويلر"
+            },
+            "shortNameTranslation": {
+              "ar": "أويلر"
+            }
+          }
+        },
+        "id": 125190780,
+        "time": 78,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 13,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Byeon Gyung-Jun",
+          "firstName": "Byeon Gyung-Jun",
+          "lastName": "",
+          "slug": "byeon-gyung-jun",
+          "shortName": "B. Gyung-Jun",
+          "position": "M",
+          "jerseyNumber": "16",
+          "height": 181,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1103507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1018224000,
+          "proposedMarketValueRaw": {
+            "value": 435000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيون غيونغ-جون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. غيونغ-جون"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124384725,
+        "time": 71,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 20,
+        "incidentType": "card"
+      },
+      {
+        "playerIn": {
+          "name": "Ju-an You",
+          "firstName": "",
+          "lastName": "",
+          "slug": "ju-an-you",
+          "shortName": "J. You",
+          "position": "M",
+          "jerseyNumber": "23",
+          "height": 177,
+          "userCount": 2,
+          "gender": "M",
+          "id": 1386162,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 907200000,
+          "proposedMarketValueRaw": {
+            "value": 73000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جو آن يو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. يو"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Jeong-hwan Kim",
+          "slug": "jeong-hwan-kim",
+          "shortName": "H. K. Jeong",
+          "position": "M",
+          "jerseyNumber": "11",
+          "height": 175,
+          "userCount": 1,
+          "gender": "M",
+          "id": 832199,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 852336000,
+          "proposedMarketValueRaw": {
+            "value": 210000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونغ هوان كيم"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كيم"
+            }
+          }
+        },
+        "id": 125190753,
+        "time": 68,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 23,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Gabriel Santos",
+          "firstName": "",
+          "lastName": "",
+          "slug": "gabriel-santos",
+          "shortName": "Gabriel Santos",
+          "position": "F",
+          "jerseyNumber": "90",
+          "height": 185,
+          "userCount": 75,
+          "gender": "M",
+          "id": 1010620,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 921542400,
+          "proposedMarketValueRaw": {
+            "value": 285000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غابرييل سانتوس"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. سانتوس"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "John Iredale",
+          "firstName": "",
+          "lastName": "",
+          "slug": "john-iredale",
+          "shortName": "J. Iredale",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 188,
+          "userCount": 57,
+          "gender": "M",
+          "id": 901270,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 933465600,
+          "proposedMarketValueRaw": {
+            "value": 590000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جون إيرديل",
+              "hi": "जॉन इरेडेल",
+              "bn": "জন আইরেডেল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. إيرديل",
+              "hi": "जे. इरेडेल",
+              "bn": "জে. আইরেডেল"
+            }
+          }
+        },
+        "id": 125190738,
+        "time": 57,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 34,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Ji-ung Baek",
+          "slug": "ji-ung-baek",
+          "shortName": "J. Baek",
+          "position": "M",
+          "jerseyNumber": "66",
+          "height": 188,
+          "userCount": 23,
+          "gender": "M",
+          "id": 1869676,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1093737600,
+          "proposedMarketValueRaw": {
+            "value": 245000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جي-أونغ بايك"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. بايك"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Jae-min Seo",
+          "firstName": "Seo Jae-Min",
+          "slug": "seo-jae-min",
+          "shortName": "S. Jae-Min",
+          "position": "M",
+          "jerseyNumber": "15",
+          "height": 178,
+          "userCount": 9,
+          "gender": "M",
+          "id": 1391965,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1063670400,
+          "proposedMarketValueRaw": {
+            "value": 260000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيو، جاي-مين"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سيو"
+            }
+          }
+        },
+        "id": 125190721,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Byeon Gyung-Jun",
+          "firstName": "Byeon Gyung-Jun",
+          "lastName": "",
+          "slug": "byeon-gyung-jun",
+          "shortName": "B. Gyung-Jun",
+          "position": "M",
+          "jerseyNumber": "16",
+          "height": 181,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1103507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1018224000,
+          "proposedMarketValueRaw": {
+            "value": 435000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيون غيونغ-جون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. غيونغ-جون"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Joo-hyuk Lee",
+          "firstName": "Joo-hyuk Lee",
+          "slug": "joo-hyuk-lee",
+          "shortName": "J. Lee",
+          "position": "F",
+          "jerseyNumber": "47",
+          "height": 176,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2234793,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1086134400,
+          "proposedMarketValueRaw": {
+            "value": 97000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جو-هيوك لي"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. لي"
+            }
+          }
+        },
+        "id": 125190720,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "player": {
+          "name": "Leonardo Ruiz",
+          "slug": "leonardo-ruiz",
+          "shortName": "L. Ruiz",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 185,
+          "userCount": 99,
+          "gender": "M",
+          "id": 605426,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 829785600,
+          "proposedMarketValueRaw": {
+            "value": 400000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليوناردو رويز"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. رويز"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124384641,
+        "time": 42,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 4,
+        "incidentType": "card"
+      },
+      {
+        "player": {
+          "name": "Jeong-hwan Kim",
+          "slug": "jeong-hwan-kim",
+          "shortName": "H. K. Jeong",
+          "position": "M",
+          "jerseyNumber": "11",
+          "height": 175,
+          "userCount": 1,
+          "gender": "M",
+          "id": 832199,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 852336000,
+          "proposedMarketValueRaw": {
+            "value": 210000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جونغ هوان كيم"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. كيم"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124384624,
+        "time": 32,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 14,
+        "incidentType": "card"
+      },
+      {
+        "playerIn": {
+          "name": "Leandro Ribeiro",
+          "slug": "leandro-ribeiro",
+          "shortName": "L. Ribeiro",
+          "position": "F",
+          "jerseyNumber": "70",
+          "height": 178,
+          "userCount": 47,
+          "gender": "M",
+          "id": 560130,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 789955200,
+          "proposedMarketValueRaw": {
+            "value": 400000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لياندرو ريبيرو",
+              "hi": "लिआंड्रो रिबेरो",
+              "bn": "লিয়েন্দ্রো রিবেইরো"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. ريبيرو",
+              "hi": "एल. रिबेरो",
+              "bn": "এল. রিবেইরো"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Park Byeong Gyu",
+          "slug": "byeong-gyu-park",
+          "shortName": "B. Park",
+          "position": "F",
+          "jerseyNumber": "30",
+          "userCount": 1,
+          "gender": "M",
+          "id": 2053622,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1098921600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيونغ-غيو بارك"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. بارك"
+            }
+          }
+        },
+        "id": 125190696,
+        "time": 18,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 28,
+        "incidentType": "substitution"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "eb59a3",
+        "number": "000000",
+        "outline": "eb59a3",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "004080",
+        "number": "ffffff",
+        "outline": "004080",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ee1414",
+        "number": "ffffff",
+        "outline": "ee1414",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      }
+    }
+  },
+  "event/15139579": {
+    "event": {
+      "tournament": {
+        "name": "K League 1, Relegation/Promotion",
+        "slug": "k-league-1-relegationpromotion",
+        "category": {
+          "name": "South Korea",
+          "slug": "south-korea",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 291,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "flag": "south-korea",
+          "alpha2": "KR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوريا الجنوبية"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "K League 1",
+          "slug": "k-league-1",
+          "primaryColorHex": "#e72523",
+          "secondaryColorHex": "#0a3f72",
+          "category": {
+            "name": "South Korea",
+            "slug": "south-korea",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 291,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "flag": "south-korea",
+            "alpha2": "KR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوريا الجنوبية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 10770,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 410,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الدرجة الأولى الكوري",
+              "hi": "के लीग 1",
+              "bn": "কে লীগ 1"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 35,
+        "isGroup": false,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 31575,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الكوري 1، هبوط/صعود",
+            "hi": "के-लीग 1, रेलीगेशन/प्रोमोशन",
+            "bn": "কে-লিগ 1, রেলিগেশন/প্রমোশন"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "K-League 1 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 70830
+      },
+      "roundInfo": {
+        "round": 1,
+        "name": "Qualification Round 1",
+        "slug": "qualification-round-1"
+      },
+      "customId": "bddsxNAb",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Mok-dong"
+        },
+        "venueCoordinates": {
+          "latitude": 127.40843,
+          "longitude": 36.33064
+        },
+        "hidden": true,
+        "slug": "mokdong-stadium",
+        "name": "Mokdong Stadium",
+        "capacity": 15127,
+        "id": 34354,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب موك دونغ",
+            "hi": "मोकडोंग स्टेडियम",
+            "bn": "মোকডং স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Mokdong Stadium",
+          "capacity": 15127
+        }
+      },
+      "homeTeam": {
+        "name": "Seoul E-Land FC",
+        "slug": "seoul-e-land-fc",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 4157,
+        "manager": {
+          "name": "Do-kyun Kim",
+          "slug": "do-kyun-kim",
+          "shortName": "D. Kim",
+          "id": 794458,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دو-كيون كيم"
+            },
+            "shortNameTranslation": {
+              "ar": "د. كيم"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Mok-dong"
+          },
+          "venueCoordinates": {
+            "latitude": 127.40843,
+            "longitude": 36.33064
+          },
+          "hidden": true,
+          "slug": "mokdong-stadium",
+          "name": "Mokdong Stadium",
+          "capacity": 15127,
+          "id": 34354,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب موك دونغ",
+              "hi": "मोकडोंग स्टेडियम",
+              "bn": "মোকডং স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Mokdong Stadium",
+            "capacity": 15127
+          }
+        },
+        "nameCode": "SEL",
+        "national": false,
+        "type": 0,
+        "id": 189422,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fullName": "Seoul E-Land FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#03034f",
+          "secondary": "#03034f",
+          "text": "#03034f"
+        },
+        "foundationDateTimestamp": 1408665600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيول لاند",
+            "ru": "Сеул Е-Ленд ФК",
+            "hi": "सोल इ-लैंड ऍफ़सी"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Seongnam FC",
+        "slug": "seongnam-fc",
+        "shortName": "Seongnam",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3162,
+        "manager": {
+          "name": "Kyung-Joon Jeon",
+          "slug": "kyung-joon-jeon",
+          "shortName": "K. Jeon",
+          "id": 794487,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيونغ-جون جيون"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. جيون"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Seongnam"
+          },
+          "venueCoordinates": {
+            "latitude": 37.43861,
+            "longitude": 127.13778
+          },
+          "hidden": true,
+          "slug": "tancheon-sports-complex",
+          "name": "Tancheon Sports Complex",
+          "capacity": 16146,
+          "id": 4418,
+          "country": {
+            "alpha2": "KR",
+            "alpha3": "KOR",
+            "name": "South Korea",
+            "slug": "south-korea"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مجمع تشانشون الرياضي",
+              "hi": "तांचेओन स्पोर्ट्स कॉम्प्लेक्स",
+              "bn": "তঞ্চন স্পোর্টস কমপ্লেক্স"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Tancheon Sports Complex",
+            "capacity": 16146
+          }
+        },
+        "nameCode": "SEO",
+        "national": false,
+        "type": 0,
+        "id": 7651,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fullName": "Seongnam FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "foundationDateTimestamp": 602380800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سيونغنام إف سي",
+            "ru": "Соннам"
+          },
+          "shortNameTranslation": {
+            "ar": "سيونغنام"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1764241380,
+        "period1StartTimestamp": 1764237600,
+        "period2StartTimestamp": 1764241380,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "awayScore.current",
+          "awayScore.display"
+        ],
+        "changeTimestamp": 1764243736
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15139579,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1764241380,
+        "extra": 540
+      },
+      "streamContentId": 2050581,
+      "streamContentGeoRestrictions": [
+        "BG",
+        "BR",
+        "GB",
+        "JP",
+        "KE",
+        "NG"
+      ],
+      "slug": "seoul-e-land-fc-seongnam-fc",
+      "currentPeriodStartTimestamp": 1764241380,
+      "startTimestamp": 1764237600,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 1,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15139579/votes": {
+    "vote": {
+      "vote1": 1787,
+      "vote2": 322,
+      "voteX": 525
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 373,
+      "voteNo": 60
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 289,
+      "voteNoGoal": 18,
+      "voteAway": 25
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15139579/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Sung-Yun Gu",
+            "slug": "sung-yun-gu",
+            "shortName": "S. Gu",
+            "position": "G",
+            "jerseyNumber": "25",
+            "height": 198,
+            "userCount": 34,
+            "gender": "M",
+            "id": 309432,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 772675200,
+            "proposedMarketValueRaw": {
+              "value": 570000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سونغ يون غيو",
+                "hi": "सुंग-यूं गु",
+                "bn": "সুং-ইয়ুন গু"
+              },
+              "shortNameTranslation": {
+                "ar": "س. غيو",
+                "hi": "एस. गु",
+                "bn": "এস. গু"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Oh-kyu Kim",
+            "slug": "oh-kyu-kim",
+            "shortName": "O. K. Kim",
+            "position": "D",
+            "jerseyNumber": "20",
+            "height": 183,
+            "userCount": 18,
+            "gender": "M",
+            "id": 988244,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 614304000,
+            "proposedMarketValueRaw": {
+              "value": 230000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوه-كيو كيم"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. كيم"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Osmar Barba",
+            "slug": "osmar-barba",
+            "shortName": "O. B. Ibanez",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 192,
+            "userCount": 48,
+            "gender": "M",
+            "id": 99963,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Spain",
+              "slug": "spain"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 581472000,
+            "proposedMarketValueRaw": {
+              "value": 365000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوسمار باربا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. باربا"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Kim Ha-Jun",
+            "firstName": "Kim Ha-Jun",
+            "slug": "kim-ha-jun",
+            "shortName": "K. Ha-Jun",
+            "position": "D",
+            "jerseyNumber": "44",
+            "height": 188,
+            "userCount": 13,
+            "gender": "M",
+            "id": 1479278,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1026864000,
+            "proposedMarketValueRaw": {
+              "value": 185000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيم ها-جون"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ها-جون"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 44,
+          "jerseyNumber": "44",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ju-hwan Kim",
+            "slug": "ju-hwan-kim",
+            "shortName": "J. Kim",
+            "position": "D",
+            "jerseyNumber": "19",
+            "height": 176,
+            "userCount": 15,
+            "gender": "M",
+            "id": 1025776,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 982368000,
+            "proposedMarketValueRaw": {
+              "value": 130000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جو-هوان كيم"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كيم"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jae-min Seo",
+            "firstName": "Seo Jae-Min",
+            "slug": "seo-jae-min",
+            "shortName": "S. Jae-Min",
+            "position": "M",
+            "jerseyNumber": "15",
+            "height": 178,
+            "userCount": 9,
+            "gender": "M",
+            "id": 1391965,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1063670400,
+            "proposedMarketValueRaw": {
+              "value": 260000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيو، جاي-مين"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سيو"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Park Chang-Hwan",
+            "firstName": "Park Chang-Hwan",
+            "lastName": "",
+            "slug": "park-chang-hwan",
+            "shortName": "P. Chang-Hwan",
+            "position": "M",
+            "jerseyNumber": "30",
+            "height": 176,
+            "userCount": 11,
+            "gender": "M",
+            "id": 1103524,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1006300800,
+            "proposedMarketValueRaw": {
+              "value": 260000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بارك تشانغ-هوان"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. تشانغ-هوان"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Inpyo Oh",
+            "slug": "inpyo-oh",
+            "shortName": "I. Oh",
+            "position": "D",
+            "jerseyNumber": "97",
+            "height": 178,
+            "userCount": 15,
+            "gender": "M",
+            "id": 936276,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 858643200,
+            "proposedMarketValueRaw": {
+              "value": 160000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنبيو أوه"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أوه"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 97,
+          "jerseyNumber": "97",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Euller",
+            "slug": "euller",
+            "shortName": "Euller",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 173,
+            "userCount": 62,
+            "gender": "M",
+            "id": 336843,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 789177600,
+            "proposedMarketValueRaw": {
+              "value": 570000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أويلر"
+              },
+              "shortNameTranslation": {
+                "ar": "أويلر"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "John Iredale",
+            "firstName": "",
+            "lastName": "",
+            "slug": "john-iredale",
+            "shortName": "J. Iredale",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 188,
+            "userCount": 57,
+            "gender": "M",
+            "id": 901270,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 933465600,
+            "proposedMarketValueRaw": {
+              "value": 590000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جون إيرديل",
+                "hi": "जॉन इरेडेल",
+                "bn": "জন আইরেডেল"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. إيرديل",
+                "hi": "जे. इरेडेल",
+                "bn": "জে. আইরেডেল"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Joo-hyuk Lee",
+            "firstName": "Joo-hyuk Lee",
+            "slug": "joo-hyuk-lee",
+            "shortName": "J. Lee",
+            "position": "F",
+            "jerseyNumber": "47",
+            "height": 176,
+            "userCount": 0,
+            "gender": "M",
+            "id": 2234793,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1086134400,
+            "proposedMarketValueRaw": {
+              "value": 97000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جو-هيوك لي"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. لي"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 47,
+          "jerseyNumber": "47",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ji-ung Baek",
+            "slug": "ji-ung-baek",
+            "shortName": "J. Baek",
+            "position": "M",
+            "jerseyNumber": "66",
+            "height": 188,
+            "userCount": 23,
+            "gender": "M",
+            "id": 1869676,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1093737600,
+            "proposedMarketValueRaw": {
+              "value": 245000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جي-أونغ بايك"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بايك"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 66,
+          "jerseyNumber": "66",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Byeon Gyung-Jun",
+            "firstName": "Byeon Gyung-Jun",
+            "lastName": "",
+            "slug": "byeon-gyung-jun",
+            "shortName": "B. Gyung-Jun",
+            "position": "M",
+            "jerseyNumber": "16",
+            "height": 181,
+            "userCount": 20,
+            "gender": "M",
+            "id": 1103507,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1018224000,
+            "proposedMarketValueRaw": {
+              "value": 435000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيون غيونغ-جون"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. غيونغ-جون"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Gabriel Santos",
+            "firstName": "",
+            "lastName": "",
+            "slug": "gabriel-santos",
+            "shortName": "Gabriel Santos",
+            "position": "F",
+            "jerseyNumber": "90",
+            "height": 185,
+            "userCount": 75,
+            "gender": "M",
+            "id": 1010620,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 921542400,
+            "proposedMarketValueRaw": {
+              "value": 285000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غابرييل سانتوس"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. سانتوس"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 90,
+          "jerseyNumber": "90",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Jeong Jae-Min",
+            "firstName": "Jeong Jae-Min",
+            "slug": "jeong-jae-min",
+            "shortName": "J. Jae-Min",
+            "position": "F",
+            "jerseyNumber": "18",
+            "height": 191,
+            "userCount": 10,
+            "gender": "M",
+            "id": 1473141,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1004227200,
+            "proposedMarketValueRaw": {
+              "value": 180000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جونغ جاي-مين"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. جاي-مين"
+              }
+            }
+          },
+          "teamId": 7647,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Min-ho Kim",
+            "slug": "min-ho-kim",
+            "shortName": "M. Kim",
+            "position": "G",
+            "jerseyNumber": "21",
+            "height": 192,
+            "userCount": 7,
+            "gender": "M",
+            "id": 976347,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 948758400,
+            "proposedMarketValueRaw": {
+              "value": 93000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مين-هو كيم"
+              },
+              "shortNameTranslation": {
+                "ar": "م. كيم"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Min-jae Kang",
+            "firstName": "Min-jae",
+            "lastName": "Kang",
+            "slug": "min-jae-kang",
+            "shortName": "M. Kang",
+            "position": "D",
+            "jerseyNumber": "55",
+            "height": 182,
+            "userCount": 3,
+            "gender": "M",
+            "id": 2167557,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1030320000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مين-جي كانغ"
+              },
+              "shortNameTranslation": {
+                "ar": "م. كانغ"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 55,
+          "jerseyNumber": "55",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Kwang-hun Chae",
+            "slug": "kwang-hun-chae",
+            "shortName": "K. Chae",
+            "position": "D",
+            "jerseyNumber": "6",
+            "height": 175,
+            "userCount": 4,
+            "gender": "M",
+            "id": 1025879,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 745545600,
+            "proposedMarketValueRaw": {
+              "value": 185000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوانغ-هون تشاي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. تشاي"
+              }
+            }
+          },
+          "teamId": 189422,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "3-4-3",
+      "playerColor": {
+        "primary": "004080",
+        "number": "ffffff",
+        "outline": "004080",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "eb59a3",
+        "number": "000000",
+        "outline": "eb59a3",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Han-been Yang",
+            "slug": "han-been-yang",
+            "shortName": "H. B. Yang",
+            "position": "G",
+            "jerseyNumber": "21",
+            "height": 195,
+            "userCount": 39,
+            "gender": "M",
+            "id": 160871,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 683510400,
+            "proposedMarketValueRaw": {
+              "value": 240000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هان-بين يانغ"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. يانغ"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jae-won Shin",
+            "slug": "jae-won-shin",
+            "shortName": "J. W. Shin",
+            "position": "D",
+            "jerseyNumber": "7",
+            "height": 183,
+            "userCount": 13,
+            "gender": "M",
+            "id": 1012804,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 905904000,
+            "proposedMarketValueRaw": {
+              "value": 235000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاي وون شين"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. شين"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Sang-min Lee",
+            "slug": "sang-min-lee",
+            "shortName": "S. Lee",
+            "position": "D",
+            "jerseyNumber": "20",
+            "height": 180,
+            "userCount": 7,
+            "gender": "M",
+            "id": 1026211,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 935971200,
+            "proposedMarketValueRaw": {
+              "value": 255000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سانغ-مين لي"
+              },
+              "shortNameTranslation": {
+                "ar": "س. لي"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Venício Tomás",
+            "slug": "venicio-tomas",
+            "shortName": "V. Tomás",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 188,
+            "userCount": 16,
+            "gender": "M",
+            "id": 987881,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 763516800,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فينيشيو توماس"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. توماس"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Seung-Yong Jeong",
+            "slug": "seung-yong-jeong",
+            "shortName": "S. Jeong",
+            "position": "D",
+            "height": 182,
+            "userCount": 3,
+            "gender": "M",
+            "id": 1025875,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 669859200,
+            "proposedMarketValueRaw": {
+              "value": 325000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيوونغ-يونغ جونغ"
+              },
+              "shortNameTranslation": {
+                "ar": "س. جونغ"
+              }
+            }
+          },
+          "teamId": 241802,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jeong-bin Lee",
+            "slug": "jeong-bin-lee",
+            "shortName": "J. B. Lee",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 174,
+            "userCount": 6,
+            "gender": "M",
+            "id": 1026121,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 789782400,
+            "proposedMarketValueRaw": {
+              "value": 160000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جونغ-بين لي"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. لي"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Elionay",
+            "firstName": "",
+            "lastName": "",
+            "slug": "elionay",
+            "shortName": "Elionay",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 185,
+            "userCount": 23,
+            "gender": "M",
+            "id": 1173018,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 864345600,
+            "proposedMarketValueRaw": {
+              "value": 330000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليوناي",
+                "hi": "एलियोनय",
+                "bn": "এলিয়নয়"
+              },
+              "shortNameTranslation": {
+                "ar": "إليوناي",
+                "hi": "एलियोनय",
+                "bn": "এলিওনে"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Su-bin Park",
+            "firstName": "Su-bin Park",
+            "slug": "su-bin-park",
+            "shortName": "S. Park",
+            "position": "M",
+            "jerseyNumber": "33",
+            "height": 181,
+            "userCount": 6,
+            "gender": "M",
+            "id": 1477393,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 937958400,
+            "proposedMarketValueRaw": {
+              "value": 185000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سو-بين بارك"
+              },
+              "shortNameTranslation": {
+                "ar": "س. بارك"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 33,
+          "jerseyNumber": "33",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jeong-hwan Kim",
+            "slug": "jeong-hwan-kim",
+            "shortName": "H. K. Jeong",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 175,
+            "userCount": 1,
+            "gender": "M",
+            "id": 832199,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 852336000,
+            "proposedMarketValueRaw": {
+              "value": 210000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جونغ هوان كيم"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كيم"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Park Byeong Gyu",
+            "slug": "byeong-gyu-park",
+            "shortName": "B. Park",
+            "position": "F",
+            "jerseyNumber": "30",
+            "userCount": 1,
+            "gender": "M",
+            "id": 2053622,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1098921600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيونغ-غيو بارك"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. بارك"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Leonardo Ruiz",
+            "slug": "leonardo-ruiz",
+            "shortName": "L. Ruiz",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 185,
+            "userCount": 99,
+            "gender": "M",
+            "id": 605426,
+            "country": {
+              "alpha2": "CO",
+              "alpha3": "COL",
+              "name": "Colombia",
+              "slug": "colombia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 829785600,
+            "proposedMarketValueRaw": {
+              "value": 400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليوناردو رويز"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. رويز"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Leandro Ribeiro",
+            "slug": "leandro-ribeiro",
+            "shortName": "L. Ribeiro",
+            "position": "F",
+            "jerseyNumber": "70",
+            "height": 178,
+            "userCount": 47,
+            "gender": "M",
+            "id": 560130,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 789955200,
+            "proposedMarketValueRaw": {
+              "value": 400000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لياندرو ريبيرو",
+                "hi": "लिआंड्रो रिबेरो",
+                "bn": "লিয়েন্দ্রো রিবেইরো"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. ريبيرو",
+                "hi": "एल. रिबेरो",
+                "bn": "এল. রিবেইরো"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 70,
+          "jerseyNumber": "70",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ju-an You",
+            "firstName": "",
+            "lastName": "",
+            "slug": "ju-an-you",
+            "shortName": "J. You",
+            "position": "M",
+            "jerseyNumber": "23",
+            "height": 177,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1386162,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 907200000,
+            "proposedMarketValueRaw": {
+              "value": 73000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جو آن يو"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. يو"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ji-min Park",
+            "slug": "ji-min-park",
+            "shortName": "J. Park",
+            "position": "G",
+            "jerseyNumber": "34",
+            "height": 188,
+            "userCount": 10,
+            "gender": "M",
+            "id": 983534,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 959212800,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جي-مين بارك"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بارك"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 34,
+          "jerseyNumber": "34",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Joo-won Kim",
+            "slug": "joo-won-kim",
+            "shortName": "J. Kim",
+            "position": "D",
+            "jerseyNumber": "66",
+            "height": 185,
+            "userCount": 4,
+            "gender": "M",
+            "id": 812469,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 680745600,
+            "proposedMarketValueRaw": {
+              "value": 140000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جو-ون كيم"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كيم"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 66,
+          "jerseyNumber": "66",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ryu Jun-sun",
+            "firstName": "Jun-Sun Ryu",
+            "slug": "jun-sun-ryu",
+            "shortName": "J. Ryu",
+            "position": "M",
+            "jerseyNumber": "16",
+            "height": 178,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1805459,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1064448000,
+            "proposedMarketValueRaw": {
+              "value": 145000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جون-سون، ريو"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. جون-سون"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Sanghyeok Park",
+            "firstName": "",
+            "lastName": "",
+            "slug": "sanghyeok-park",
+            "shortName": "S. Park",
+            "position": "M",
+            "jerseyNumber": "2",
+            "height": 163,
+            "userCount": 9,
+            "gender": "M",
+            "id": 822533,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 893030400,
+            "proposedMarketValueRaw": {
+              "value": 205000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سانغ هيوك بارك"
+              },
+              "shortNameTranslation": {
+                "ar": "س. بارك"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Lee Jae-wook",
+            "firstName": "",
+            "lastName": "",
+            "slug": "jae-wook-lee",
+            "shortName": "L. Jae-wook",
+            "position": "M",
+            "jerseyNumber": "68",
+            "height": 170,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1463312,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 984096000,
+            "proposedMarketValueRaw": {
+              "value": 49000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لي جاي-ووك"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. جاي-ووك"
+              }
+            }
+          },
+          "teamId": 7651,
+          "shirtNumber": 68,
+          "jerseyNumber": "68",
+          "position": "M",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-4-2",
+      "playerColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "ee1414",
+        "number": "ffffff",
+        "outline": "ee1414",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "statisticalVersion": 2
+  },
+  "event/15139579/managers": {
+    "homeManager": {
+      "name": "Do-kyun Kim",
+      "slug": "do-kyun-kim",
+      "shortName": "D. Kim",
+      "id": 794458,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "دو-كيون كيم"
+        },
+        "shortNameTranslation": {
+          "ar": "د. كيم"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Kyung-Joon Jeon",
+      "slug": "kyung-joon-jeon",
+      "shortName": "K. Jeon",
+      "id": 794487,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيونغ-جون جيون"
+        },
+        "shortNameTranslation": {
+          "ar": "ك. جيون"
+        }
+      }
+    }
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "betSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/15139579/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 185398770,
+        "structureType": 2,
+        "marketId": 17,
+        "marketName": "Asian handicap",
+        "isLive": true,
+        "fid": 185398770,
+        "suspended": false,
+        "id": 166694657,
+        "marketGroup": "Asian Handicap",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "21/40",
+            "sourceId": 56713145,
+            "name": "(0) Seoul E-Land FC",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "17/20",
+            "fractionalValue": "57/40",
+            "sourceId": 56713189,
+            "name": "(0) Seongnam FC",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 185398770,
+        "structureType": 2,
+        "marketId": 17,
+        "marketName": "Asian handicap",
+        "isLive": true,
+        "fid": 185398770,
+        "suspended": false,
+        "id": 166694657,
+        "marketGroup": "Asian Handicap",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "19/20",
+            "fractionalValue": "21/40",
+            "sourceId": 56713145,
+            "name": "(0) Seoul E-Land FC",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "17/20",
+            "fractionalValue": "57/40",
+            "sourceId": 56713189,
+            "name": "(0) Seongnam FC",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185398770,
+        "suspended": false,
+        "id": 166694533,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "6/5",
+            "fractionalValue": "450/1",
+            "sourceId": 45879705,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "17/10",
+            "fractionalValue": "12/1",
+            "sourceId": 45879706,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "5/2",
+            "fractionalValue": "1/25",
+            "sourceId": 45879707,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15153420,
+        "homeTeamId": 1126961,
+        "awayTeamId": 363996,
+        "uniqueTournamentId": 23645
+      },
+      {
+        "eventId": 15153421,
+        "homeTeamId": 1106512,
+        "awayTeamId": 1109080,
+        "uniqueTournamentId": 23645
+      },
+      {
+        "eventId": 15153424,
+        "homeTeamId": 1137450,
+        "awayTeamId": 1149536,
+        "uniqueTournamentId": 23645
+      },
+      {
+        "eventId": 15153846,
+        "homeTeamId": 421151,
+        "awayTeamId": 1154059,
+        "uniqueTournamentId": 31100
+      },
+      {
+        "eventId": 15153864,
+        "homeTeamId": 1079090,
+        "awayTeamId": 1153679,
+        "uniqueTournamentId": 31102
+      },
+      {
+        "eventId": 15153867,
+        "homeTeamId": 493629,
+        "awayTeamId": 937228,
+        "uniqueTournamentId": 31102
+      },
+      {
+        "eventId": 15153914,
+        "homeTeamId": 1111838,
+        "awayTeamId": 826078,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153923,
+        "homeTeamId": 210981,
+        "awayTeamId": 424824,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153929,
+        "homeTeamId": 381917,
+        "awayTeamId": 1112174,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153945,
+        "homeTeamId": 1110307,
+        "awayTeamId": 1154897,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153954,
+        "homeTeamId": 1154898,
+        "awayTeamId": 386759,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153956,
+        "homeTeamId": 284076,
+        "awayTeamId": 83447,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153962,
+        "homeTeamId": 454680,
+        "awayTeamId": 1109862,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153967,
+        "homeTeamId": 402459,
+        "awayTeamId": 415575,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15153971,
+        "homeTeamId": 68478,
+        "awayTeamId": 371456,
+        "uniqueTournamentId": 31079
+      },
+      {
+        "eventId": 15154018,
+        "homeTeamId": 1152402,
+        "awayTeamId": 161874,
+        "uniqueTournamentId": 31076
+      },
+      {
+        "eventId": 15154027,
+        "homeTeamId": 380041,
+        "awayTeamId": 285840,
+        "uniqueTournamentId": 31076
+      },
+      {
+        "eventId": 15154035,
+        "homeTeamId": 107483,
+        "awayTeamId": 402471,
+        "uniqueTournamentId": 31076
+      },
+      {
+        "eventId": 15154049,
+        "homeTeamId": 460294,
+        "awayTeamId": 206594,
+        "uniqueTournamentId": 31076
+      },
+      {
+        "eventId": 15154068,
+        "homeTeamId": 349351,
+        "awayTeamId": 469382,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154069,
+        "homeTeamId": 1125828,
+        "awayTeamId": 230379,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154070,
+        "homeTeamId": 299619,
+        "awayTeamId": 204755,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154077,
+        "homeTeamId": 300559,
+        "awayTeamId": 333770,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154078,
+        "homeTeamId": 50643,
+        "awayTeamId": 25822,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154174,
+        "homeTeamId": 217484,
+        "awayTeamId": 450836,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154175,
+        "homeTeamId": 510777,
+        "awayTeamId": 67783,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154176,
+        "homeTeamId": 1074758,
+        "awayTeamId": 378449,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154184,
+        "homeTeamId": 1137603,
+        "awayTeamId": 476924,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154185,
+        "homeTeamId": 250522,
+        "awayTeamId": 342864,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154186,
+        "homeTeamId": 507583,
+        "awayTeamId": 509664,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154187,
+        "homeTeamId": 490722,
+        "awayTeamId": 367819,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154188,
+        "homeTeamId": 215390,
+        "awayTeamId": 424829,
+        "uniqueTournamentId": 31111
+      },
+      {
+        "eventId": 15154369,
+        "homeTeamId": 1153962,
+        "awayTeamId": 1118831,
+        "uniqueTournamentId": 31085
+      },
+      {
+        "eventId": 15154370,
+        "homeTeamId": 321459,
+        "awayTeamId": 321462,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15154416,
+        "homeTeamId": 518231,
+        "awayTeamId": 1099410,
+        "uniqueTournamentId": 31073
+      },
+      {
+        "eventId": 15154417,
+        "homeTeamId": 497617,
+        "awayTeamId": 270414,
+        "uniqueTournamentId": 31073
+      },
+      {
+        "eventId": 15154418,
+        "homeTeamId": 530943,
+        "awayTeamId": 260167,
+        "uniqueTournamentId": 31073
+      },
+      {
+        "eventId": 15154419,
+        "homeTeamId": 1154314,
+        "awayTeamId": 308249,
+        "uniqueTournamentId": 31073
+      },
+      {
+        "eventId": 15154422,
+        "homeTeamId": 112987,
+        "awayTeamId": 298057,
+        "uniqueTournamentId": 31072
+      },
+      {
+        "eventId": 15154467,
+        "homeTeamId": 118040,
+        "awayTeamId": 262336,
+        "uniqueTournamentId": 31072
+      },
+      {
+        "eventId": 15154468,
+        "homeTeamId": 238867,
+        "awayTeamId": 195336,
+        "uniqueTournamentId": 31072
+      },
+      {
+        "eventId": 15154476,
+        "homeTeamId": 257537,
+        "awayTeamId": 372309,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154479,
+        "homeTeamId": 266221,
+        "awayTeamId": 398757,
+        "uniqueTournamentId": 31105
+      },
+      {
+        "eventId": 15154492,
+        "homeTeamId": 240436,
+        "awayTeamId": 240439,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15154526,
+        "homeTeamId": 221793,
+        "awayTeamId": 355536,
+        "uniqueTournamentId": 31105
+      }
+    ]
+  },
+  "team/189422/team-statistics/seasons": {
+    "uniqueTournamentSeasons": [
+      {
+        "uniqueTournament": {
+          "name": "K League 2",
+          "slug": "k-league-2",
+          "primaryColorHex": "#e72523",
+          "secondaryColorHex": "#0a3f72",
+          "category": {
+            "name": "South Korea",
+            "slug": "south-korea",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 291,
+            "flag": "south-korea",
+            "alpha2": "KR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوريا الجنوبية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3727,
+          "id": 777,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الكوري 2",
+              "hi": "के लीग 2",
+              "bn": "কে লীগ 2"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "seasons": [
+          {
+            "name": "K-League 2 2025",
+            "year": "2025",
+            "editor": false,
+            "id": 71101
+          },
+          {
+            "name": "K-League 2 2024",
+            "year": "2024",
+            "editor": false,
+            "id": 57993
+          },
+          {
+            "name": "K-League 2 2023",
+            "year": "2023",
+            "editor": false,
+            "id": 48706
+          },
+          {
+            "name": "K-League 2 2022",
+            "year": "2022",
+            "editor": false,
+            "id": 40513
+          },
+          {
+            "name": "K-League 2 2021",
+            "year": "2021",
+            "editor": false,
+            "id": 35559
+          },
+          {
+            "name": "K-League 2 2020",
+            "year": "2020",
+            "editor": false,
+            "id": 27193
+          }
+        ]
+      }
+    ],
+    "typesMap": {
+      "777": {
+        "27193": [
+          "overall"
+        ],
+        "35559": [
+          "overall"
+        ],
+        "40513": [
+          "overall"
+        ],
+        "48706": [
+          "overall"
+        ],
+        "57993": [
+          "overall"
+        ],
+        "71101": [
+          "overall"
+        ]
+      }
+    }
+  },
+  "team/7651/team-statistics/seasons": {
+    "uniqueTournamentSeasons": [
+      {
+        "uniqueTournament": {
+          "name": "K League 2",
+          "slug": "k-league-2",
+          "primaryColorHex": "#e72523",
+          "secondaryColorHex": "#0a3f72",
+          "category": {
+            "name": "South Korea",
+            "slug": "south-korea",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 291,
+            "flag": "south-korea",
+            "alpha2": "KR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوريا الجنوبية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3727,
+          "id": 777,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الكوري 2",
+              "hi": "के लीग 2",
+              "bn": "কে লীগ 2"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "seasons": [
+          {
+            "name": "K-League 2 2025",
+            "year": "2025",
+            "editor": false,
+            "id": 71101
+          },
+          {
+            "name": "K-League 2 2024",
+            "year": "2024",
+            "editor": false,
+            "id": 57993
+          },
+          {
+            "name": "K-League 2 2023",
+            "year": "2023",
+            "editor": false,
+            "id": 48706
+          }
+        ]
+      },
+      {
+        "uniqueTournament": {
+          "name": "K League 1",
+          "slug": "k-league-1",
+          "primaryColorHex": "#e72523",
+          "secondaryColorHex": "#0a3f72",
+          "category": {
+            "name": "South Korea",
+            "slug": "south-korea",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 291,
+            "flag": "south-korea",
+            "alpha2": "KR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوريا الجنوبية"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 10770,
+          "id": 410,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الدرجة الأولى الكوري",
+              "hi": "के लीग 1",
+              "bn": "কে লীগ 1"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "seasons": [
+          {
+            "name": "K-League 1 2022",
+            "year": "2022",
+            "editor": false,
+            "id": 40409
+          },
+          {
+            "name": "K-League 1 2021",
+            "year": "2021",
+            "editor": false,
+            "id": 35558
+          },
+          {
+            "name": "K-League 1 2020",
+            "year": "2020",
+            "editor": false,
+            "id": 27192
+          }
+        ]
+      }
+    ],
+    "typesMap": {
+      "410": {
+        "27192": [
+          "overall"
+        ],
+        "35558": [
+          "overall"
+        ],
+        "40409": [
+          "overall"
+        ]
+      },
+      "777": {
+        "48706": [
+          "overall"
+        ],
+        "57993": [
+          "overall"
+        ],
+        "71101": [
+          "overall"
+        ]
+      }
+    }
+  },
+  "event/15139579/win-probability": {
+    "winProbability": {
+      "homeWin": 0,
+      "awayWin": 93,
+      "draw": 7
+    }
+  },
+  "event/15139579/provider/1/winning-odds": {
+    "home": {
+      "fractionalValue": "23/20",
+      "expected": 47,
+      "actual": 50,
+      "id": 18364182
+    },
+    "away": {
+      "fractionalValue": "13/5",
+      "expected": 28,
+      "actual": 18,
+      "id": 18364183
+    }
+  }
+}

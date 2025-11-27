@@ -1,0 +1,596 @@
+{
+  "event/14713220": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3587,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "kUJsOEwc",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Manhattan Jaspers",
+        "slug": "manhattan-jaspers",
+        "shortName": "Manhattan",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 131,
+        "venue": {
+          "city": {
+            "name": "Bronx"
+          },
+          "hidden": true,
+          "slug": "draddy-gymnasium",
+          "name": "Draddy Gymnasium",
+          "capacity": 2345,
+          "id": 19505,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "صالة درادي الرياضية",
+              "hi": "ड्रैडी जिमनैजियम",
+              "bn": "ড্রাডি জিমনেসিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Draddy Gymnasium",
+            "capacity": 2345
+          }
+        },
+        "nameCode": "MAN",
+        "national": false,
+        "type": 0,
+        "id": 87210,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Manhattan Jaspers",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانهاتن جاسبرس",
+            "ru": "Манхэттен Джасперс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Utah Tech Trailblazers",
+        "slug": "utah-tech-trailblazers",
+        "shortName": "Utah Tech",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 114,
+        "venue": {
+          "city": {
+            "name": "St. George"
+          },
+          "hidden": true,
+          "slug": "burns-arena",
+          "name": "Burns Arena",
+          "capacity": 4779,
+          "id": 27185,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا بيرنز",
+              "hi": "बर्न्स एरिना",
+              "bn": "বার্নস এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Burns Arena",
+            "capacity": 4779
+          }
+        },
+        "nameCode": "UTT",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 303989,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Utah Tech Trailblazers",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "Utah Tech Trailblaizers",
+            "ru": "Utah Tech Trailblaizers"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 79,
+        "display": 79,
+        "period1": 34,
+        "period2": 45
+      },
+      "awayScore": {
+        "current": 75,
+        "display": 75,
+        "period1": 36,
+        "period2": 39
+      },
+      "time": {
+        "played": 2400,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2",
+          "time.played"
+        ],
+        "changeTimestamp": 1763007355
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14713220,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "utah-tech-trailblazers-manhattan-jaspers",
+      "startTimestamp": 1763001000,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14713220/votes": {
+    "vote": {
+      "vote1": 104,
+      "vote2": 167,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14713220/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184622380,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "156.5",
+        "isLive": true,
+        "fid": 184622380,
+        "suspended": false,
+        "id": 151777247,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "5/6",
+            "sourceId": 2090662418,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/11",
+            "sourceId": 2090662419,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184622380,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "156.5",
+        "isLive": true,
+        "fid": 184622380,
+        "suspended": false,
+        "id": 151777247,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "5/6",
+            "sourceId": 2090662418,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/11",
+            "sourceId": 2090662419,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184622380,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "156.5",
+        "isLive": true,
+        "fid": 184622380,
+        "suspended": false,
+        "id": 151777247,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "5/6",
+            "sourceId": 2090662418,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "10/11",
+            "sourceId": 2090662419,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/14713220/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 79,
+        "awayScore": 75,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "text": "HT",
+        "homeScore": 34,
+        "awayScore": 36,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      }
+    ]
+  },
+  "event/14713220/statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Scoring",
+            "statisticsItems": [
+              {
+                "name": "Free throws",
+                "home": "16/18 (89%)",
+                "away": "9/15 (60%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 16,
+                "awayValue": 9,
+                "homeTotal": 18,
+                "awayTotal": 15,
+                "renderType": 3,
+                "key": "freeThrowsScored"
+              },
+              {
+                "name": "2 pointers",
+                "home": "19/31 (61%)",
+                "away": "21/37 (57%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 19,
+                "awayValue": 21,
+                "homeTotal": 31,
+                "awayTotal": 37,
+                "renderType": 3,
+                "key": "twoPointersScored"
+              },
+              {
+                "name": "3 pointers",
+                "home": "8/20 (40%)",
+                "away": "8/24 (33%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 8,
+                "awayValue": 8,
+                "homeTotal": 20,
+                "awayTotal": 24,
+                "renderType": 3,
+                "key": "threePointersScored"
+              },
+              {
+                "name": "Field goals",
+                "home": "27/51 (53%)",
+                "away": "29/61 (48%)",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "team",
+                "homeValue": 27,
+                "awayValue": 29,
+                "homeTotal": 51,
+                "awayTotal": 61,
+                "renderType": 3,
+                "key": "fieldGoalsScored"
+              }
+            ]
+          },
+          {
+            "groupName": "Other",
+            "statisticsItems": [
+              {
+                "name": "Rebounds",
+                "home": "28",
+                "away": "30",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 28,
+                "awayValue": 30,
+                "renderType": 2,
+                "key": "rebounds"
+              },
+              {
+                "name": "Fouls",
+                "home": "14",
+                "away": "13",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 14,
+                "awayValue": 13,
+                "renderType": 1,
+                "key": "totalFouls"
+              },
+              {
+                "name": "Timeouts",
+                "home": "3",
+                "away": "7",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 7,
+                "renderType": 1,
+                "key": "timeouts"
+              }
+            ]
+          },
+          {
+            "groupName": "Lead",
+            "statisticsItems": [
+              {
+                "name": "Max points in a row",
+                "home": "8",
+                "away": "11",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 8,
+                "awayValue": 11,
+                "renderType": 1,
+                "key": "maxPointsInARow"
+              },
+              {
+                "name": "Time spent in lead",
+                "home": "30:41",
+                "away": "4:51",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "time",
+                "homeValue": 1841,
+                "awayValue": 291,
+                "homeTotal": 0,
+                "awayTotal": 0,
+                "renderType": 1,
+                "key": "timeSpentInLead"
+              },
+              {
+                "name": "Lead changes",
+                "home": "6",
+                "away": "5",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 5,
+                "renderType": 1,
+                "key": "leadChanges"
+              },
+              {
+                "name": "Biggest lead",
+                "home": "14",
+                "away": "3",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 14,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "biggestLead"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

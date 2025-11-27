@@ -1,0 +1,3088 @@
+{
+  "event/15033858/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15033858/votes": {
+    "vote": {
+      "vote1": 25,
+      "vote2": 14,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15033858/incidents": {
+    "incidents": [
+      {
+        "text": "1. set",
+        "homeScore": 20,
+        "awayScore": 18,
+        "isLive": true,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 19,
+        "awayScore": 18,
+        "period": "period1",
+        "id": 327087135,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 19,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327087134,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 18,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327087122,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 17,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327087114,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327087105,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 16,
+        "period": "period1",
+        "id": 327087096,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 15,
+        "period": "period1",
+        "id": 327087095,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 16,
+        "awayScore": 14,
+        "period": "period1",
+        "id": 327087085,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 15,
+        "awayScore": 14,
+        "period": "period1",
+        "id": 327087084,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 15,
+        "awayScore": 13,
+        "period": "period1",
+        "id": 327087083,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 13,
+        "period": "period1",
+        "id": 327087055,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 14,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327087054,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327087050,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327087049,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327087048,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 11,
+        "period": "period1",
+        "id": 327087036,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 11,
+        "period": "period1",
+        "id": 327087032,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 10,
+        "period": "period1",
+        "id": 327087024,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 9,
+        "period": "period1",
+        "id": 327087023,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327087020,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327087019,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327087018,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327087011,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327087010,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327087009,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327087006,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327087005,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327087004,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327087001,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327087000,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327086999,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327086992,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327086981,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327086980,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327086979,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086978,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "period": "period1",
+        "id": 327086977,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/15033858": {
+    "event": {
+      "tournament": {
+        "name": "Kumamoto Masters Japan 2025, MD",
+        "slug": "kumamoto-masters-japan-2025-md",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "id": 259,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kumamoto Masters Japan, MD",
+          "slug": "kumamoto-masters-japan-md",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 21,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 21535,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كوماموتو اليابان، زوجي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168687
+      },
+      "season": {
+        "name": "Kumamoto Masters Japan, MD 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85984
+      },
+      "roundInfo": {
+        "round": 6,
+        "name": "Round of 32",
+        "slug": "round-of-32",
+        "cupRoundType": 16
+      },
+      "customId": "eBWdsITjj",
+      "status": {
+        "code": 8,
+        "description": "1st set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kumamoto"
+        },
+        "hidden": true,
+        "slug": "court-1",
+        "name": "Court 1",
+        "id": 42501,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 1",
+            "hi": "कोर्ट 1",
+            "bn": "কোর্ট 1"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Court 1"
+        }
+      },
+      "homeTeam": {
+        "name": "Nomura T / Shimogami Y",
+        "slug": "nomura-t-shimogami-y",
+        "gender": "M",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 13,
+        "nameCode": "N/S",
+        "national": false,
+        "type": 2,
+        "id": 491304,
+        "country": {},
+        "fullName": "Nomura T / Shimogami Y",
+        "subTeams": [
+          {
+            "name": "Nomura T.",
+            "slug": "nomura-takumi",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 0,
+            "nameCode": "NOM",
+            "national": false,
+            "type": 1,
+            "id": 491305,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Nomura, Takumi",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نومورا، تاكومي"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Shimogami Y.",
+            "slug": "shimogami-yuichi",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 0,
+            "nameCode": "SHI",
+            "national": false,
+            "type": 1,
+            "id": 491306,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Shimogami, Yuichi",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شيموغامي، يويتشي"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نومورا ت / شيموغامي ي"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Puavaranukroh D / Wedler L E",
+        "slug": "puavaranukroh-d-wedler-l-e",
+        "gender": "M",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 5,
+        "nameCode": "P/W",
+        "national": false,
+        "type": 2,
+        "id": 1149683,
+        "country": {},
+        "fullName": "Puavaranukroh D / Wedler L E",
+        "subTeams": [
+          {
+            "name": "Puavaranukroh D.",
+            "slug": "puavaranukroh-dechapol",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 67,
+            "nameCode": "PUA",
+            "national": false,
+            "type": 1,
+            "id": 478512,
+            "country": {
+              "alpha2": "TH",
+              "alpha3": "THA",
+              "name": "Thailand",
+              "slug": "thailand"
+            },
+            "fullName": "Puavaranukroh, Dechapol",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوافارانكروه، ديشبول"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Wedler L.",
+            "slug": "wedler-lucas-ekarat",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 0,
+            "nameCode": "WED",
+            "national": false,
+            "type": 1,
+            "id": 1149684,
+            "country": {
+              "alpha2": "TH",
+              "alpha3": "THA",
+              "name": "Thailand",
+              "slug": "thailand"
+            },
+            "fullName": "Wedler, Lucas Ekarat",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 20
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 18
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762932787
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period1"
+        ],
+        "changeTimestamp": 1762933916
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15033858,
+      "defaultPeriodCount": 3,
+      "slug": "puavaranukroh-wedlere-nomura-shimogami",
+      "currentPeriodStartTimestamp": 1762932787,
+      "startTimestamp": 1762932300,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15033858/statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Points",
+            "statisticsItems": [
+              {
+                "name": "Points won",
+                "home": "18",
+                "away": "17",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 18,
+                "awayValue": 17,
+                "renderType": 1,
+                "key": "PointsWon"
+              },
+              {
+                "name": "Max points in a row",
+                "home": "3",
+                "away": "3",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "MaxPointsInRow"
+              },
+              {
+                "name": "Biggest lead",
+                "home": "3",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "BiggestLead"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "period": "1ST",
+        "groups": [
+          {
+            "groupName": "Points",
+            "statisticsItems": [
+              {
+                "name": "Points won",
+                "home": "18",
+                "away": "17",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 18,
+                "awayValue": 17,
+                "renderType": 1,
+                "key": "PointsWon"
+              },
+              {
+                "name": "Max points in a row",
+                "home": "3",
+                "away": "3",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "MaxPointsInRow"
+              },
+              {
+                "name": "Biggest lead",
+                "home": "3",
+                "away": "1",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "BiggestLead"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "unique-tournament/21535/season/85984/cuptrees": {
+    "cupTrees": [
+      {
+        "id": 10843601,
+        "name": "Kumamoto Masters Japan 2025, MD",
+        "tournament": {
+          "name": "Kumamoto Masters Japan 2025, MD",
+          "slug": "kumamoto-masters-japan-2025-md",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Kumamoto Masters Japan, MD",
+            "slug": "kumamoto-masters-japan-md",
+            "category": {
+              "name": "International",
+              "slug": "international",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "id": 259,
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "دولي"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 21,
+            "id": 21535,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كوماموتو اليابان، زوجي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "id": 168687
+        },
+        "currentRound": 1,
+        "rounds": [
+          {
+            "order": 1,
+            "type": 16,
+            "description": "Round of 32",
+            "blocks": [
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 1,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "KIM W H / Seo S J",
+                      "slug": "kim-w-h-seo-s-j",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 255,
+                      "nameCode": "K/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 254314,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كيم و هـ / سيو س ج"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5254240
+                  },
+                  {
+                    "team": {
+                      "name": "Onodera M / Tanioka D",
+                      "slug": "onodera-m-tanioka-d",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 2,
+                      "nameCode": "O/T",
+                      "national": false,
+                      "type": 2,
+                      "id": 511044,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أونوديرا م / تانيؤكا د"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5254241
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853406,
+                "events": [
+                  15033859
+                ],
+                "blockId": 2475986,
+                "seriesStartDateTimestamp": 1762914000,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 2,
+                "result": "2:1",
+                "homeTeamScore": "2",
+                "awayTeamScore": "1",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "JIN Y / NA S S",
+                      "slug": "jin-y-na-s-s",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 20,
+                      "nameCode": "J/N",
+                      "national": false,
+                      "type": 2,
+                      "id": 412354,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "جين ي / نا س س"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253092
+                  },
+                  {
+                    "team": {
+                      "name": "Kjaer C F / Kjaer R",
+                      "slug": "kjaer-c-f-kjaer-r",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 2,
+                      "nameCode": "K/K",
+                      "national": false,
+                      "type": 2,
+                      "id": 1149854,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253093
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853407,
+                "events": [
+                  15029468
+                ],
+                "blockId": 2475988,
+                "seriesStartDateTimestamp": 1762849800,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 3,
+                "result": "0:2",
+                "homeTeamScore": "0",
+                "awayTeamScore": "2",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "LEE F-C / Lee F-J",
+                      "slug": "lee-f-c-lee-f-j",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 39,
+                      "nameCode": "L/L",
+                      "national": false,
+                      "type": 2,
+                      "id": 249894,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "لي ف-ج / لي ف-ج"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5253094
+                  },
+                  {
+                    "team": {
+                      "name": "Kumagai K / Nishi H",
+                      "slug": "kumagai-k-nishi-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 7,
+                      "nameCode": "K/N",
+                      "national": false,
+                      "type": 2,
+                      "id": 1040463,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كوماغاي ك / نيشي ه"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 2,
+                    "id": 5253095
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853409,
+                "events": [
+                  15029450
+                ],
+                "blockId": 2475990,
+                "seriesStartDateTimestamp": 1762851900,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 4,
+                "result": "0:2",
+                "homeTeamScore": "0",
+                "awayTeamScore": "2",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "LAI P Y / Tsai F C",
+                      "slug": "lai-p-y-tsai-f-c",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 9,
+                      "nameCode": "L/T",
+                      "national": false,
+                      "type": 2,
+                      "id": 447209,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "لاي ب ي / تساي ف سي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5253096
+                  },
+                  {
+                    "team": {
+                      "name": "Azriyn N M A A / Tan W K",
+                      "slug": "azriyn-n-m-a-a-tan-w-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 133,
+                      "nameCode": "A/T",
+                      "national": false,
+                      "type": 2,
+                      "id": 481195,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أزريين إن إم إيه إيه / تان واي كيه"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 2,
+                    "id": 5253097
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853410,
+                "events": [
+                  15029465
+                ],
+                "blockId": 2475992,
+                "seriesStartDateTimestamp": 1762849500,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 5,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Chiu H C / Wang C",
+                      "slug": "chiu-h-c-wang-c",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 66,
+                      "nameCode": "C/W",
+                      "national": false,
+                      "type": 2,
+                      "id": 828213,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشيو إتش سي / وانغ سي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253098
+                  },
+                  {
+                    "team": {
+                      "name": "Chen C K / Lin B-W",
+                      "slug": "chen-c-k-lin-b-w",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 11,
+                      "nameCode": "C/L",
+                      "national": false,
+                      "type": 2,
+                      "id": 1077918,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشين س ك / لين ب-و"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253099
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853413,
+                "events": [
+                  15029463
+                ],
+                "blockId": 2475994,
+                "seriesStartDateTimestamp": 1762847100,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 6,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Chen Z Y / Smith P",
+                      "slug": "chen-z-y-smith-p",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 12,
+                      "nameCode": "C/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 481211,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشين زيد واي / سميث بي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253100
+                  },
+                  {
+                    "team": {
+                      "name": "Chia W / Lwi S H",
+                      "slug": "chia-w-lwi-s-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 23,
+                      "nameCode": "C/L",
+                      "national": false,
+                      "type": 2,
+                      "id": 929601,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "شيا و / لووي س هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253101
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853414,
+                "events": [
+                  15029461
+                ],
+                "blockId": 2475996,
+                "seriesStartDateTimestamp": 1762837800,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 7,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Liu K H / Yang P H",
+                      "slug": "liu-k-h-yang-p-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 33,
+                      "nameCode": "L/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 526390,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ليو ك هـ / يانغ ب هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253102
+                  },
+                  {
+                    "team": {
+                      "name": "He Z-W / Huang J-H",
+                      "slug": "he-z-w-huang-j-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 5,
+                      "nameCode": "H/H",
+                      "national": false,
+                      "type": 2,
+                      "id": 511022,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "هي ز. و / هوانغ ج. هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253103
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853416,
+                "events": [
+                  15029459
+                ],
+                "blockId": 2475998,
+                "seriesStartDateTimestamp": 1762846800,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 8,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Choong H J / Haikal M",
+                      "slug": "choong-h-j-haikal-m",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 122,
+                      "nameCode": "C/H",
+                      "national": false,
+                      "type": 2,
+                      "id": 490349,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشونغ هـ. ج / هيكل م"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253104
+                  },
+                  {
+                    "team": {
+                      "name": "Shibata K / Yamada N",
+                      "slug": "shibata-k-yamada-n",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 6,
+                      "nameCode": "S/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 511040,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "شيباتا ك / يامادا ن"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253105
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853417,
+                "events": [
+                  15029444
+                ],
+                "blockId": 2476000,
+                "seriesStartDateTimestamp": 1762842000,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 9,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Nomura T / Shimogami Y",
+                      "slug": "nomura-t-shimogami-y",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 13,
+                      "nameCode": "N/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 491304,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "نومورا ت / شيموغامي ي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5254242
+                  },
+                  {
+                    "team": {
+                      "name": "Puavaranukroh D / Wedler L E",
+                      "slug": "puavaranukroh-d-wedler-l-e",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 5,
+                      "nameCode": "P/W",
+                      "national": false,
+                      "type": 2,
+                      "id": 1149683,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5254243
+                  }
+                ],
+                "eventInProgress": true,
+                "id": 2853421,
+                "events": [
+                  15033858
+                ],
+                "blockId": 2476002,
+                "seriesStartDateTimestamp": 1762932300,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 10,
+                "result": "0:2",
+                "homeTeamScore": "0",
+                "awayTeamScore": "2",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Chang K-C / PO L-W",
+                      "slug": "chang-k-c-po-l-w",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 14,
+                      "nameCode": "C/P",
+                      "national": false,
+                      "type": 2,
+                      "id": 310213,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشانغ ك-سي / ب.أو ل-دبليو"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5253106
+                  },
+                  {
+                    "team": {
+                      "name": "Arif J / Yap R K",
+                      "slug": "arif-j-yap-r-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 206,
+                      "nameCode": "A/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 466661,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "عارف ج / ياب ر. ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 2,
+                    "id": 5253107
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853422,
+                "events": [
+                  15029457
+                ],
+                "blockId": 2476004,
+                "seriesStartDateTimestamp": 1762840200,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 11,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Ong Y S / Teo E Y",
+                      "slug": "ong-y-s-teo-e-y",
+                      "shortName": "Ong Y S / Teo E Y",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 366,
+                      "nameCode": "ONT",
+                      "national": false,
+                      "type": 2,
+                      "id": 211298,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أونغ ي. س / تيو إ. ي",
+                          "ru": "Онг Ю-С./Тео Е-Ю."
+                        },
+                        "shortNameTranslation": {
+                          "ar": "س. أونغ / ي. تيو"
+                        }
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253108
+                  },
+                  {
+                    "team": {
+                      "name": "Chen Z R / Lin Y C",
+                      "slug": "chen-z-r-lin-y-c",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 13,
+                      "nameCode": "C/L",
+                      "national": false,
+                      "type": 2,
+                      "id": 509951,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشن ز ر / لين ي ج"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253109
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853424,
+                "events": [
+                  15029454
+                ],
+                "blockId": 2476006,
+                "seriesStartDateTimestamp": 1762848300,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 12,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Midorikawa H / Yamashita K",
+                      "slug": "midorikawa-h-yamashita-k",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 13,
+                      "nameCode": "M/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 331584,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ميدوريكاوا ح / ياماشيتا ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5253110
+                  },
+                  {
+                    "team": {
+                      "name": "Man W C / Tee K W",
+                      "slug": "man-w-c-tee-k-w",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 437,
+                      "nameCode": "MAT",
+                      "national": false,
+                      "type": 2,
+                      "id": 378878,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "مان و ج س / تي ك و"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5253111
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853425,
+                "events": [
+                  15029445
+                ],
+                "blockId": 2476008,
+                "seriesStartDateTimestamp": 1762837200,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 13,
+                "result": "2:0",
+                "homeTeamScore": "2",
+                "awayTeamScore": "0",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Kawabe H / Matsukawa K",
+                      "slug": "kawabe-h-matsukawa-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 1,
+                      "nameCode": "K/M",
+                      "national": false,
+                      "type": 2,
+                      "id": 1127838,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كاوابي هـ / ماتسوكوا ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 1,
+                    "id": 5254244
+                  },
+                  {
+                    "team": {
+                      "name": "Choi S G / Goh V S",
+                      "slug": "choi-s-g-goh-v-s",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 35,
+                      "nameCode": "C/G",
+                      "national": false,
+                      "type": 2,
+                      "id": 1072543,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشوي س ج / جوه ف س"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5254245
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853428,
+                "events": [
+                  15033861
+                ],
+                "blockId": 2476010,
+                "seriesStartDateTimestamp": 1762923600,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 14,
+                "result": "0:2",
+                "homeTeamScore": "0",
+                "awayTeamScore": "2",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Mitsuhashi K / Okamura H",
+                      "slug": "mitsuhashi-k-okamura-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 17,
+                      "nameCode": "M/O",
+                      "national": false,
+                      "type": 2,
+                      "id": 467099,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ميتسوهشي كيه / أوكامورا إتش"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5253112
+                  },
+                  {
+                    "team": {
+                      "name": "LEE J-H / Yang P-H",
+                      "slug": "lee-j-h-yang-p-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 67,
+                      "nameCode": "L/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 307475,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "لي ج-هـ / يانغ ب-هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 2,
+                    "id": 5253113
+                  }
+                ],
+                "hasNextRoundLink": true,
+                "eventInProgress": false,
+                "id": 2853429,
+                "events": [
+                  15029452
+                ],
+                "blockId": 2476012,
+                "seriesStartDateTimestamp": 1762841700,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 15,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Aizawa T / Sano D",
+                      "slug": "aizawa-t-sano-d",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 2,
+                      "nameCode": "A/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 811027,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أيزاوا ت / سانوا د"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5254246
+                  },
+                  {
+                    "team": {
+                      "name": "Matsui K / Tamate K",
+                      "slug": "matsui-k-tamate-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 2,
+                      "nameCode": "M/T",
+                      "national": false,
+                      "type": 2,
+                      "id": 511925,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ماتسوي ك / تاماتي ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 2,
+                    "id": 5254247
+                  }
+                ],
+                "eventInProgress": true,
+                "id": 2853431,
+                "events": [
+                  15033860
+                ],
+                "blockId": 2476014,
+                "seriesStartDateTimestamp": 1762931400,
+                "automaticProgression": false
+              },
+              {
+                "finished": true,
+                "matchesInRound": 1,
+                "order": 16,
+                "result": "0:2",
+                "homeTeamScore": "0",
+                "awayTeamScore": "2",
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Kang M H / Ki D J",
+                      "slug": "kang-m-h-ki-d-j",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 26,
+                      "nameCode": "K/K",
+                      "national": false,
+                      "type": 2,
+                      "id": 1079300,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كانغ م إتش / كي د ج"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "order": 1,
+                    "id": 5253114
+                  },
+                  {
+                    "team": {
+                      "name": "Goh S F / Izzuddin N",
+                      "slug": "goh-s-f-izzuddin-n",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 876,
+                      "nameCode": "G/I",
+                      "national": false,
+                      "type": 2,
+                      "id": 244108,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "غوه / عزالدين",
+                          "ru": "Гох С-Ф./Иззуддин Н."
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": true,
+                    "order": 2,
+                    "id": 5253115
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853432,
+                "events": [
+                  15029470
+                ],
+                "blockId": 2476016,
+                "seriesStartDateTimestamp": 1762852200,
+                "automaticProgression": false
+              }
+            ],
+            "id": 210598
+          },
+          {
+            "order": 2,
+            "type": 8,
+            "description": "Round of 16",
+            "blocks": [
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 1,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "KIM W H / Seo S J",
+                      "slug": "kim-w-h-seo-s-j",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 255,
+                      "nameCode": "K/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 254314,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كيم و هـ / سيو س ج"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475986,
+                    "order": 1,
+                    "id": 5254591
+                  },
+                  {
+                    "team": {
+                      "name": "JIN Y / NA S S",
+                      "slug": "jin-y-na-s-s",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 20,
+                      "nameCode": "J/N",
+                      "national": false,
+                      "type": 2,
+                      "id": 412354,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "جين ي / نا س س"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475988,
+                    "order": 2,
+                    "id": 5254592
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853408,
+                "events": [
+                  15037506
+                ],
+                "blockId": 2476018,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 2,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Kumagai K / Nishi H",
+                      "slug": "kumagai-k-nishi-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 7,
+                      "nameCode": "K/N",
+                      "national": false,
+                      "type": 2,
+                      "id": 1040463,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كوماغاي ك / نيشي ه"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475990,
+                    "order": 1,
+                    "id": 5254593
+                  },
+                  {
+                    "team": {
+                      "name": "Azriyn N M A A / Tan W K",
+                      "slug": "azriyn-n-m-a-a-tan-w-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 133,
+                      "nameCode": "A/T",
+                      "national": false,
+                      "type": 2,
+                      "id": 481195,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أزريين إن إم إيه إيه / تان واي كيه"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475992,
+                    "order": 2,
+                    "id": 5254594
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853411,
+                "events": [
+                  15037507
+                ],
+                "blockId": 2476020,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 3,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Chiu H C / Wang C",
+                      "slug": "chiu-h-c-wang-c",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 66,
+                      "nameCode": "C/W",
+                      "national": false,
+                      "type": 2,
+                      "id": 828213,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشيو إتش سي / وانغ سي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475994,
+                    "order": 1,
+                    "id": 5254595
+                  },
+                  {
+                    "team": {
+                      "name": "Chen Z Y / Smith P",
+                      "slug": "chen-z-y-smith-p",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 12,
+                      "nameCode": "C/S",
+                      "national": false,
+                      "type": 2,
+                      "id": 481211,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشين زيد واي / سميث بي"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475996,
+                    "order": 2,
+                    "id": 5254596
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853415,
+                "events": [
+                  15037508
+                ],
+                "blockId": 2476022,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 4,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Liu K H / Yang P H",
+                      "slug": "liu-k-h-yang-p-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 33,
+                      "nameCode": "L/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 526390,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ليو ك هـ / يانغ ب هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2475998,
+                    "order": 1,
+                    "id": 5254597
+                  },
+                  {
+                    "team": {
+                      "name": "Choong H J / Haikal M",
+                      "slug": "choong-h-j-haikal-m",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 122,
+                      "nameCode": "C/H",
+                      "national": false,
+                      "type": 2,
+                      "id": 490349,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "تشونغ هـ. ج / هيكل م"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2476000,
+                    "order": 2,
+                    "id": 5254598
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853418,
+                "events": [
+                  15037509
+                ],
+                "blockId": 2476024,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 5,
+                "participants": [],
+                "id": 2853423,
+                "events": [],
+                "blockId": 2476026,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 6,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Ong Y S / Teo E Y",
+                      "slug": "ong-y-s-teo-e-y",
+                      "shortName": "Ong Y S / Teo E Y",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 366,
+                      "nameCode": "ONT",
+                      "national": false,
+                      "type": 2,
+                      "id": 211298,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "أونغ ي. س / تيو إ. ي",
+                          "ru": "Онг Ю-С./Тео Е-Ю."
+                        },
+                        "shortNameTranslation": {
+                          "ar": "س. أونغ / ي. تيو"
+                        }
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2476006,
+                    "order": 1,
+                    "id": 5254599
+                  },
+                  {
+                    "team": {
+                      "name": "Midorikawa H / Yamashita K",
+                      "slug": "midorikawa-h-yamashita-k",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 13,
+                      "nameCode": "M/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 331584,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "ميدوريكاوا ح / ياماشيتا ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2476008,
+                    "order": 2,
+                    "id": 5254600
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853426,
+                "events": [
+                  15037510
+                ],
+                "blockId": 2476028,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "finished": false,
+                "matchesInRound": 1,
+                "order": 7,
+                "participants": [
+                  {
+                    "team": {
+                      "name": "Kawabe H / Matsukawa K",
+                      "slug": "kawabe-h-matsukawa-k",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 1,
+                      "nameCode": "K/M",
+                      "national": false,
+                      "type": 2,
+                      "id": 1127838,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "كاوابي هـ / ماتسوكوا ك"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2476010,
+                    "order": 1,
+                    "id": 5254619
+                  },
+                  {
+                    "team": {
+                      "name": "LEE J-H / Yang P-H",
+                      "slug": "lee-j-h-yang-p-h",
+                      "gender": "M",
+                      "sport": {
+                        "name": "Badminton",
+                        "slug": "badminton",
+                        "id": 31
+                      },
+                      "userCount": 67,
+                      "nameCode": "L/Y",
+                      "national": false,
+                      "type": 2,
+                      "id": 307475,
+                      "teamColors": {
+                        "primary": "#374df5",
+                        "secondary": "#374df5",
+                        "text": "#ffffff"
+                      },
+                      "fieldTranslations": {
+                        "nameTranslation": {
+                          "ar": "لي ج-هـ / يانغ ب-هـ"
+                        },
+                        "shortNameTranslation": {}
+                      }
+                    },
+                    "winner": false,
+                    "sourceBlockId": 2476012,
+                    "order": 2,
+                    "id": 5254620
+                  }
+                ],
+                "eventInProgress": false,
+                "id": 2853430,
+                "events": [
+                  15037546
+                ],
+                "blockId": 2476030,
+                "seriesStartDateTimestamp": 1762995600,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 8,
+                "participants": [],
+                "id": 2853433,
+                "events": [],
+                "blockId": 2476032,
+                "automaticProgression": false
+              }
+            ],
+            "id": 210599
+          },
+          {
+            "order": 3,
+            "type": 4,
+            "description": "Quarterfinal",
+            "blocks": [
+              {
+                "matchesInRound": 0,
+                "order": 1,
+                "participants": [],
+                "id": 2853412,
+                "events": [],
+                "blockId": 2476034,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 2,
+                "participants": [],
+                "id": 2853419,
+                "events": [],
+                "blockId": 2476036,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 3,
+                "participants": [],
+                "id": 2853427,
+                "events": [],
+                "blockId": 2476038,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 4,
+                "participants": [],
+                "id": 2853434,
+                "events": [],
+                "blockId": 2476040,
+                "automaticProgression": false
+              }
+            ],
+            "id": 210600
+          },
+          {
+            "order": 4,
+            "type": 2,
+            "description": "Semifinal",
+            "blocks": [
+              {
+                "matchesInRound": 0,
+                "order": 1,
+                "participants": [],
+                "id": 2853420,
+                "events": [],
+                "blockId": 2476042,
+                "automaticProgression": false
+              },
+              {
+                "matchesInRound": 0,
+                "order": 2,
+                "participants": [],
+                "id": 2853435,
+                "events": [],
+                "blockId": 2476044,
+                "automaticProgression": false
+              }
+            ],
+            "id": 210601
+          },
+          {
+            "order": 5,
+            "type": 1,
+            "description": "Final",
+            "blocks": [
+              {
+                "matchesInRound": 0,
+                "order": 1,
+                "participants": [],
+                "id": 2853436,
+                "events": [],
+                "blockId": 2476046,
+                "automaticProgression": false
+              }
+            ],
+            "id": 210602
+          }
+        ],
+        "type": 1,
+        "finalMatchCupBlock": {
+          "matchesInRound": 0,
+          "order": 1,
+          "participants": [],
+          "id": 2853436,
+          "events": [],
+          "blockId": 2476046,
+          "automaticProgression": false
+        },
+        "showSingleParticipantByeBlocks": false,
+        "hideRoundsWithoutParticipants": false
+      }
+    ]
+  },
+  "event/eBWdsITjj/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Kumamoto Masters Japan 2025, MD",
+          "slug": "kumamoto-masters-japan-2025-md",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Kumamoto Masters Japan, MD",
+            "slug": "kumamoto-masters-japan-md",
+            "category": {
+              "name": "International",
+              "slug": "international",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "id": 259,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "دولي"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 21,
+            "hasPerformanceGraphFeature": false,
+            "id": 21535,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كوماموتو اليابان، زوجي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "id": 168687
+        },
+        "season": {
+          "name": "Kumamoto Masters Japan, MD 2025",
+          "year": "2025",
+          "editor": false,
+          "id": 85984
+        },
+        "roundInfo": {
+          "round": 6,
+          "name": "Round of 32",
+          "slug": "round-of-32",
+          "cupRoundType": 16
+        },
+        "customId": "eBWdsITjj",
+        "status": {
+          "code": 8,
+          "description": "1st set",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Nomura T / Shimogami Y",
+          "slug": "nomura-t-shimogami-y",
+          "gender": "M",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "userCount": 13,
+          "nameCode": "N/S",
+          "national": false,
+          "type": 2,
+          "id": 491304,
+          "country": {},
+          "subTeams": [
+            {
+              "name": "Nomura T.",
+              "slug": "nomura-takumi",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "userCount": 0,
+              "nameCode": "NOM",
+              "national": false,
+              "type": 1,
+              "id": 491305,
+              "country": {
+                "alpha2": "JP",
+                "alpha3": "JPN",
+                "name": "Japan",
+                "slug": "japan"
+              },
+              "subTeams": [],
+              "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+              },
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "نومورا، تاكومي"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            {
+              "name": "Shimogami Y.",
+              "slug": "shimogami-yuichi",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "userCount": 0,
+              "nameCode": "SHI",
+              "national": false,
+              "type": 1,
+              "id": 491306,
+              "country": {
+                "alpha2": "JP",
+                "alpha3": "JPN",
+                "name": "Japan",
+                "slug": "japan"
+              },
+              "subTeams": [],
+              "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+              },
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "شيموغامي، يويتشي"
+                },
+                "shortNameTranslation": {}
+              }
+            }
+          ],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نومورا ت / شيموغامي ي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Puavaranukroh D / Wedler L E",
+          "slug": "puavaranukroh-d-wedler-l-e",
+          "gender": "M",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "userCount": 5,
+          "nameCode": "P/W",
+          "national": false,
+          "type": 2,
+          "id": 1149683,
+          "country": {},
+          "subTeams": [
+            {
+              "name": "Puavaranukroh D.",
+              "slug": "puavaranukroh-dechapol",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "userCount": 67,
+              "nameCode": "PUA",
+              "national": false,
+              "type": 1,
+              "id": 478512,
+              "country": {
+                "alpha2": "TH",
+                "alpha3": "THA",
+                "name": "Thailand",
+                "slug": "thailand"
+              },
+              "subTeams": [],
+              "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+              },
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "بوافارانكروه، ديشبول"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            {
+              "name": "Wedler L.",
+              "slug": "wedler-lucas-ekarat",
+              "sport": {
+                "name": "Badminton",
+                "slug": "badminton",
+                "id": 31
+              },
+              "userCount": 0,
+              "nameCode": "WED",
+              "national": false,
+              "type": 1,
+              "id": 1149684,
+              "country": {
+                "alpha2": "TH",
+                "alpha3": "THA",
+                "name": "Thailand",
+                "slug": "thailand"
+              },
+              "subTeams": [],
+              "teamColors": {
+                "primary": "#374df5",
+                "secondary": "#374df5",
+                "text": "#ffffff"
+              }
+            }
+          ],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 20
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 18
+        },
+        "time": {
+          "currentPeriodStartTimestamp": 1762932787
+        },
+        "changes": {
+          "changes": [
+            "homeScore.period1"
+          ],
+          "changeTimestamp": 1762933916
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15033858,
+        "slug": "puavaranukroh-wedlere-nomura-shimogami",
+        "startTimestamp": 1762932300,
+        "periods": {
+          "current": "Match",
+          "period1": "1st set",
+          "period2": "2nd set",
+          "period3": "3rd set",
+          "period4": "4th set",
+          "period5": "5th set"
+        },
+        "lastPeriod": "period1",
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "isEditor": false
+      }
+    ]
+  },
+  "event/15033858/team-streaks": {
+    "general": [],
+    "head2head": []
+  }
+}

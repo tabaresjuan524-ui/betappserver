@@ -1,0 +1,4996 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 0,
+      "total": 1
+    },
+    "badminton": {
+      "live": 0,
+      "total": 13
+    },
+    "futsal": {
+      "live": 3,
+      "total": 531
+    },
+    "ice-hockey": {
+      "live": 1,
+      "total": 284
+    },
+    "beach-volley": {
+      "live": 0,
+      "total": 36
+    },
+    "minifootball": {
+      "live": 4,
+      "total": 28
+    },
+    "darts": {
+      "live": 0,
+      "total": 11
+    },
+    "table-tennis": {
+      "live": 6,
+      "total": 484
+    },
+    "american-football": {
+      "live": 0,
+      "total": 277
+    },
+    "aussie-rules": {
+      "live": 0,
+      "total": 1
+    },
+    "floorball": {
+      "live": 0,
+      "total": 44
+    },
+    "football": {
+      "live": 455,
+      "total": 4780
+    },
+    "tennis": {
+      "live": 13,
+      "total": 203
+    },
+    "baseball": {
+      "live": 1,
+      "total": 20
+    },
+    "basketball": {
+      "live": 19,
+      "total": 1013
+    },
+    "bandy": {
+      "live": 1,
+      "total": 13
+    },
+    "handball": {
+      "live": 4,
+      "total": 537
+    },
+    "cricket": {
+      "live": 1,
+      "total": 44
+    },
+    "waterpolo": {
+      "live": 1,
+      "total": 63
+    },
+    "rugby": {
+      "live": 5,
+      "total": 69
+    },
+    "esports": {
+      "live": 6,
+      "total": 49
+    },
+    "volleyball": {
+      "live": 10,
+      "total": 583
+    }
+  },
+  "event/14286993/pregame-form": {
+    "homeTeam": {
+      "avgRating": "6.72",
+      "position": 11,
+      "value": "5",
+      "form": [
+        "D",
+        "L",
+        "W",
+        "L",
+        "D"
+      ]
+    },
+    "awayTeam": {
+      "avgRating": "6.52",
+      "position": 12,
+      "value": "0",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14286993/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "playerIn": {
+          "name": "Elena Dhont",
+          "firstName": "",
+          "lastName": "",
+          "slug": "dhont-elena",
+          "shortName": "E. Dhont",
+          "position": "F",
+          "jerseyNumber": "13",
+          "height": 164,
+          "userCount": 30,
+          "gender": "F",
+          "id": 1388770,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 890956800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دهونت، إيلينا"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. دهونت"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Aurora De Rita",
+          "firstName": "",
+          "lastName": "",
+          "slug": "aurora-de-rita",
+          "shortName": "A. D. Rita",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 9,
+          "gender": "F",
+          "id": 1007972,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 940550400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أورورا دي ريتا"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. دي ريتا"
+            }
+          }
+        },
+        "id": 125135045,
+        "time": 69,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Katja Skupień",
+          "slug": "katja-skupien",
+          "shortName": "K. Skupień",
+          "position": "D",
+          "jerseyNumber": "7",
+          "height": 176,
+          "userCount": 4,
+          "gender": "F",
+          "id": 1547312,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1093305600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاتيا سكوبين"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. سكوبين"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Manuela Perselli",
+          "firstName": "Manuela Perselli",
+          "slug": "manuela-perselli",
+          "shortName": "M. Perselli",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 18,
+          "gender": "F",
+          "id": 1894844,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1157068800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانويلا بيرسيلي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيرسيلي"
+            }
+          }
+        },
+        "id": 125135043,
+        "time": 69,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Virginia Di Giammarino",
+          "firstName": "Virginia",
+          "lastName": "Di Giammarino",
+          "slug": "virginia-di-giammarino",
+          "shortName": "V. D. Giammarino",
+          "position": "M",
+          "jerseyNumber": "27",
+          "userCount": 7,
+          "gender": "F",
+          "id": 1137785,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 919555200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرجينيا دي جيامارينو"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. دي جيامارينو"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Maria Grazia Petrara",
+          "firstName": "",
+          "lastName": "",
+          "slug": "maria-grazia-petrara",
+          "shortName": "M. G. Petrara",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1172799,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1080864000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريا غراتسيا بيترارا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيترارا"
+            }
+          }
+        },
+        "id": 125135013,
+        "time": 67,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Jacynta Gala",
+          "slug": "galabadaarachchi-jacynta",
+          "shortName": "J. Gala",
+          "position": "F",
+          "jerseyNumber": "19",
+          "height": 155,
+          "userCount": 169,
+          "gender": "F",
+          "id": 1007264,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 978739200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاسينتا غالا"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. غالا"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Naomi Eto'o",
+          "slug": "naomi-eto",
+          "shortName": "N. Eto'o",
+          "position": "M",
+          "jerseyNumber": "90",
+          "userCount": 162,
+          "gender": "F",
+          "id": 1920129,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1095897600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نعومي إيتو"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. إيتو"
+            }
+          }
+        },
+        "id": 125134995,
+        "time": 55,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 36,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Benedetta Brignoli",
+          "firstName": "",
+          "lastName": "",
+          "slug": "benedetta-brignoli",
+          "shortName": "B. Brignoli",
+          "position": "M",
+          "jerseyNumber": "15",
+          "userCount": 8,
+          "gender": "F",
+          "id": 1007206,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 938995200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيديتا بريجنولي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. بريجنولي"
+            }
+          }
+        },
+        "playerName": "Benedetta Brignoli",
+        "reason": "Foul",
+        "rescinded": false,
+        "id": 124337944,
+        "time": 52,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 39,
+        "incidentType": "card"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "length": 2,
+        "time": 45,
+        "addedTime": 0,
+        "reversedPeriodTime": 1,
+        "incidentType": "injuryTime"
+      },
+      {
+        "player": {
+          "name": "Giada Cimò",
+          "firstName": "Giada Cimò",
+          "slug": "giada-cimo",
+          "shortName": "G. Cimò",
+          "position": "M",
+          "jerseyNumber": "20",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1495796,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1160179200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيا دا تشيمو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. تشيمو"
+            }
+          }
+        },
+        "playerName": "Giada Cimò",
+        "reason": "Foul",
+        "rescinded": false,
+        "id": 124337768,
+        "time": 39,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 7,
+        "incidentType": "card"
+      },
+      {
+        "confirmed": true,
+        "player": {
+          "name": "Giada Cimò",
+          "firstName": "Giada Cimò",
+          "slug": "giada-cimo",
+          "shortName": "G. Cimò",
+          "position": "M",
+          "jerseyNumber": "20",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1495796,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1160179200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيا دا تشيمو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. تشيمو"
+            }
+          }
+        },
+        "isHome": false,
+        "id": 91365,
+        "time": 35,
+        "incidentClass": "penaltyNotAwarded",
+        "reversedPeriodTime": 11,
+        "incidentType": "varDecision"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "player": {
+          "name": "Giada Cimò",
+          "firstName": "Giada Cimò",
+          "slug": "giada-cimo",
+          "shortName": "G. Cimò",
+          "position": "M",
+          "jerseyNumber": "20",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1495796,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1160179200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيا دا تشيمو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. تشيمو"
+            }
+          }
+        },
+        "footballPassingNetworkAction": [
+          {
+            "player": {
+              "name": "Eleonora Pacioni",
+              "firstName": "",
+              "lastName": "",
+              "slug": "eleonora-pacioni",
+              "shortName": "E. Pacioni",
+              "position": "D",
+              "jerseyNumber": "4",
+              "userCount": 5,
+              "gender": "F",
+              "id": 1137591,
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1019520000,
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "إليونورا باتشوني"
+                },
+                "shortNameTranslation": {
+                  "ar": "إ. باتشوني"
+                }
+              }
+            },
+            "eventType": "clearance",
+            "time": 14,
+            "playerCoordinates": {
+              "x": 81.8,
+              "y": 54.3
+            },
+            "passEndCoordinates": {
+              "x": 33.5,
+              "y": 16.6
+            },
+            "isHome": false
+          },
+          {
+            "player": {
+              "name": "Valeria Pirone",
+              "firstName": "",
+              "lastName": "",
+              "slug": "pirone-valeria",
+              "shortName": "V. Pirone",
+              "position": "F",
+              "jerseyNumber": "11",
+              "height": 160,
+              "userCount": 12,
+              "gender": "F",
+              "id": 822147,
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 597110400,
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "بيروني، فاليريا"
+                },
+                "shortNameTranslation": {
+                  "ar": "ف. بيروني"
+                }
+              }
+            },
+            "eventType": "cross",
+            "time": 14,
+            "playerCoordinates": {
+              "x": 22.1,
+              "y": 20.5
+            },
+            "passEndCoordinates": {
+              "x": 7.2,
+              "y": 46.6
+            },
+            "isHome": false
+          },
+          {
+            "player": {
+              "name": "Giada Cimò",
+              "firstName": "Giada Cimò",
+              "slug": "giada-cimo",
+              "shortName": "G. Cimò",
+              "position": "M",
+              "jerseyNumber": "20",
+              "userCount": 30,
+              "gender": "F",
+              "id": 1495796,
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1160179200,
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "جيا دا تشيمو"
+                },
+                "shortNameTranslation": {
+                  "ar": "ج. تشيمو"
+                }
+              }
+            },
+            "eventType": "goal",
+            "bodyPart": "left-foot",
+            "time": 14,
+            "playerCoordinates": {
+              "x": 7.5,
+              "y": 44.5
+            },
+            "gkCoordinates": {
+              "x": 2.4,
+              "y": 49.6
+            },
+            "goalShotCoordinates": {
+              "x": 0,
+              "y": 47.2
+            },
+            "goalMouthCoordinates": {
+              "x": 34.95,
+              "y": 57.83
+            },
+            "goalkeeper": {
+              "name": "Solène Durand",
+              "firstName": "",
+              "lastName": "",
+              "slug": "solene-durand",
+              "shortName": "S. Durand",
+              "position": "G",
+              "jerseyNumber": "16",
+              "height": 170,
+              "userCount": 49,
+              "gender": "F",
+              "id": 973852,
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 785289600,
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "سولين دوراند"
+                },
+                "shortNameTranslation": {
+                  "ar": "س. دوراند"
+                }
+              }
+            },
+            "isHome": false,
+            "goalType": "regular"
+          }
+        ],
+        "id": 329562548,
+        "time": 14,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 32,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "f1ff00",
+        "number": "ffffff",
+        "outline": "f1ff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ff6600",
+        "number": "222226",
+        "outline": "ff6600",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "f5f5f5",
+        "number": "222226",
+        "outline": "f5f5f5",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14286993/best-players/summary": {
+    "bestHomeTeamPlayers": [
+      {
+        "value": "7.5",
+        "label": "rating",
+        "player": {
+          "name": "Jessika Nash",
+          "firstName": "Jessika Nash",
+          "lastName": "",
+          "slug": "jessika-nash",
+          "shortName": "J. Nash",
+          "position": "D",
+          "jerseyNumber": "21",
+          "userCount": 24,
+          "gender": "F",
+          "id": 1096385,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1096934400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيسيكا ناش"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ناش"
+            }
+          }
+        }
+      },
+      {
+        "value": "7.2",
+        "label": "rating",
+        "player": {
+          "name": "Benedetta Brignoli",
+          "firstName": "",
+          "lastName": "",
+          "slug": "benedetta-brignoli",
+          "shortName": "B. Brignoli",
+          "position": "M",
+          "jerseyNumber": "15",
+          "userCount": 8,
+          "gender": "F",
+          "id": 1007206,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 938995200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيديتا بريجنولي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. بريجنولي"
+            }
+          }
+        }
+      },
+      {
+        "value": "7.2",
+        "label": "rating",
+        "player": {
+          "name": "Lana Clelland",
+          "slug": "lana-clelland",
+          "shortName": "L. Clelland",
+          "position": "F",
+          "jerseyNumber": "26",
+          "height": 173,
+          "userCount": 22,
+          "gender": "F",
+          "id": 863057,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 728006400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانا كليلان"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كليلان"
+            }
+          }
+        }
+      }
+    ],
+    "bestAwayTeamPlayers": [
+      {
+        "value": "8.1",
+        "label": "rating",
+        "player": {
+          "name": "Eleonora Pacioni",
+          "firstName": "",
+          "lastName": "",
+          "slug": "eleonora-pacioni",
+          "shortName": "E. Pacioni",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 5,
+          "gender": "F",
+          "id": 1137591,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1019520000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليونورا باتشوني"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. باتشوني"
+            }
+          }
+        }
+      },
+      {
+        "value": "7.8",
+        "label": "rating",
+        "player": {
+          "name": "Giada Cimò",
+          "firstName": "Giada Cimò",
+          "slug": "giada-cimo",
+          "shortName": "G. Cimò",
+          "position": "M",
+          "jerseyNumber": "20",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1495796,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1160179200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيا دا تشيمو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. تشيمو"
+            }
+          }
+        }
+      },
+      {
+        "value": "7.0",
+        "label": "rating",
+        "player": {
+          "name": "Gloria Ciccioli",
+          "firstName": "",
+          "lastName": "",
+          "slug": "gloria-ciccioli",
+          "shortName": "G. Ciccioli",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 4,
+          "gender": "F",
+          "id": 1021616,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 958262400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غلوريا تشيتشيولي"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. تشيتشيولي"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "tv/event/14286993/country-channels": {
+    "countryChannels": {
+      "BM": [
+        525
+      ],
+      "US": [
+        525
+      ],
+      "ES": [
+        2453
+      ]
+    }
+  },
+  "event/14286993": {
+    "event": {
+      "tournament": {
+        "name": "Serie A Femminile",
+        "slug": "serie-a-women",
+        "category": {
+          "name": "Italy",
+          "slug": "italy",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 31,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "flag": "italy",
+          "alpha2": "IT",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيطاليا",
+              "hi": "इटली",
+              "bn": "ইতালি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Serie A Women",
+          "slug": "serie-a-femminile",
+          "primaryColorHex": "#159fdb",
+          "secondaryColorHex": "#1f6d8e",
+          "category": {
+            "name": "Italy",
+            "slug": "italy",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 31,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "flag": "italy",
+            "alpha2": "IT",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيطاليا",
+                "hi": "इटली",
+                "bn": "ইতালি"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 6029,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 10640,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري الدرجة الأولى الإيطالي للسيدات",
+              "hi": "सेरी ए फेमिनिले",
+              "bn": "সিরি এ ফেমিনিলি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 10,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 7372,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الأول، سيدات",
+            "hi": "सीरी ए, वूमेन",
+            "bn": "সিরি এ, উইমেন"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Serie A, Women 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 79262
+      },
+      "roundInfo": {
+        "round": 6
+      },
+      "customId": "uWhcspZWd",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Sassuolo",
+        "slug": "sassuolo",
+        "shortName": "Sassuolo",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2572,
+        "manager": {
+          "name": "Alessandro Spugna",
+          "slug": "alessandro-spugna",
+          "shortName": "A. Spugna",
+          "id": 799071,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أليساندرو سبوجنا"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. سبوجنا"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Reggio Emilia"
+          },
+          "venueCoordinates": {
+            "latitude": 44.714546,
+            "longitude": 10.649731
+          },
+          "hidden": false,
+          "slug": "mapei-stadium",
+          "name": "Mapei Stadium",
+          "capacity": 21584,
+          "id": 2031,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب مابي",
+              "hi": "मापेई स्टेडियम",
+              "bn": "মাপেই স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Mapei Stadium",
+            "capacity": 21584
+          }
+        },
+        "nameCode": "SAS",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 269819,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "fullName": "Sassuolo",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#006600",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساسولو",
+            "ru": "Сассуоло Кальчо"
+          },
+          "shortNameTranslation": {
+            "ar": "ساسولو"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Ternana",
+        "slug": "ternana",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 729,
+        "manager": {
+          "name": "Antonio Cincotta",
+          "slug": "antonio-cincotta",
+          "shortName": "A. Cincotta",
+          "id": 793348,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أنتونيو تشينكوتا"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. تشينكوتا"
+            }
+          }
+        },
+        "nameCode": "TER",
+        "national": false,
+        "type": 0,
+        "id": 492465,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "fullName": "Ternana",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#009900",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ترنانا"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "period2": 0,
+        "normaltime": 1
+      },
+      "time": {
+        "injuryTime1": 2,
+        "currentPeriodStartTimestamp": 1763210047,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period2",
+          "awayScore.period2"
+        ],
+        "changeTimestamp": 1763210303
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14286993,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1763210047,
+        "extra": 540
+      },
+      "slug": "ternana-sassuolo",
+      "currentPeriodStartTimestamp": 1763210047,
+      "startTimestamp": 1763206200,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14286993/votes": {
+    "vote": {
+      "vote1": 1036,
+      "vote2": 85,
+      "voteX": 268
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 193,
+      "voteNo": 56
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 213,
+      "voteNoGoal": 6,
+      "voteAway": 16
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14286993/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184769306,
+        "suspended": false,
+        "id": 154008955,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "8/15",
+            "fractionalValue": "7/1",
+            "sourceId": 2110106137,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "29/10",
+            "fractionalValue": "9/4",
+            "sourceId": 2110106138,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/1",
+            "fractionalValue": "4/7",
+            "sourceId": 2110106139,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184769306,
+        "suspended": false,
+        "id": 154008955,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "8/15",
+            "fractionalValue": "7/1",
+            "sourceId": 2110106137,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "29/10",
+            "fractionalValue": "9/4",
+            "sourceId": 2110106138,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/1",
+            "fractionalValue": "4/7",
+            "sourceId": 2110106139,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184769306,
+        "suspended": false,
+        "id": 154008955,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "8/15",
+            "fractionalValue": "7/1",
+            "sourceId": 2110106137,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "29/10",
+            "fractionalValue": "9/4",
+            "sourceId": 2110106138,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "4/1",
+            "fractionalValue": "4/7",
+            "sourceId": 2110106139,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14286993/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Solène Durand",
+            "firstName": "",
+            "lastName": "",
+            "slug": "solene-durand",
+            "shortName": "S. Durand",
+            "position": "G",
+            "jerseyNumber": "16",
+            "height": 170,
+            "userCount": 49,
+            "gender": "F",
+            "id": 973852,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 785289600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سولين دوراند"
+              },
+              "shortNameTranslation": {
+                "ar": "س. دوراند"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 20,
+            "accuratePass": 16,
+            "totalLongBalls": 4,
+            "accurateOwnHalfPasses": 16,
+            "totalOwnHalfPasses": 16,
+            "totalOppositionHalfPasses": 4,
+            "ballRecovery": 3,
+            "savedShotsFromInsideTheBox": 1,
+            "saves": 1,
+            "minutesPlayed": 72,
+            "touches": 23,
+            "rating": 6.4,
+            "possessionLostCtrl": 4,
+            "keeperSaveValue": 0.0317,
+            "ratingVersions": {
+              "original": 6.4,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.02,
+            "dribbleValueNormalized": 0,
+            "defensiveValueNormalized": -0.08,
+            "goalkeeperValueNormalized": 0.04,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Aurora De Rita",
+            "firstName": "",
+            "lastName": "",
+            "slug": "aurora-de-rita",
+            "shortName": "A. D. Rita",
+            "position": "D",
+            "jerseyNumber": "24",
+            "userCount": 9,
+            "gender": "F",
+            "id": 1007972,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 940550400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أورورا دي ريتا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. دي ريتا"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 41,
+            "accuratePass": 34,
+            "totalLongBalls": 5,
+            "accurateLongBalls": 3,
+            "accurateOwnHalfPasses": 15,
+            "totalOwnHalfPasses": 16,
+            "accurateOppositionHalfPasses": 19,
+            "totalOppositionHalfPasses": 25,
+            "duelLost": 3,
+            "duelWon": 1,
+            "totalContest": 2,
+            "totalClearance": 2,
+            "ballRecovery": 2,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "fouls": 1,
+            "minutesPlayed": 69,
+            "touches": 56,
+            "rating": 6.3,
+            "possessionLostCtrl": 9,
+            "ratingVersions": {
+              "original": 6.3,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.05,
+            "dribbleValueNormalized": -0.19,
+            "defensiveValueNormalized": -0.16,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jessika Nash",
+            "firstName": "Jessika Nash",
+            "lastName": "",
+            "slug": "jessika-nash",
+            "shortName": "J. Nash",
+            "position": "D",
+            "jerseyNumber": "21",
+            "userCount": 24,
+            "gender": "F",
+            "id": 1096385,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1096934400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيسيكا ناش"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ناش"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 82,
+            "accuratePass": 76,
+            "totalLongBalls": 12,
+            "accurateLongBalls": 8,
+            "accurateOwnHalfPasses": 35,
+            "totalOwnHalfPasses": 36,
+            "accurateOppositionHalfPasses": 39,
+            "totalOppositionHalfPasses": 46,
+            "totalCross": 2,
+            "duelWon": 2,
+            "totalClearance": 1,
+            "outfielderBlock": 1,
+            "ballRecovery": 5,
+            "totalTackle": 2,
+            "wonTackle": 1,
+            "minutesPlayed": 72,
+            "touches": 91,
+            "rating": 7.5,
+            "possessionLostCtrl": 8,
+            "ratingVersions": {
+              "original": 7.5,
+              "alternative": 7.2
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.42,
+            "dribbleValueNormalized": 0.08,
+            "defensiveValueNormalized": -0.02,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sara Caiazzo",
+            "firstName": "",
+            "lastName": "",
+            "slug": "sara-caiazzo",
+            "shortName": "S. Caiazzo",
+            "position": "D",
+            "jerseyNumber": "5",
+            "userCount": 35,
+            "gender": "F",
+            "id": 1084108,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1050969600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سارا كايازو"
+              },
+              "shortNameTranslation": {
+                "ar": "س. كايازو"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 66,
+            "accuratePass": 63,
+            "totalLongBalls": 6,
+            "accurateLongBalls": 4,
+            "accurateOwnHalfPasses": 40,
+            "totalOwnHalfPasses": 40,
+            "accurateOppositionHalfPasses": 23,
+            "totalOppositionHalfPasses": 26,
+            "aerialLost": 1,
+            "duelLost": 2,
+            "totalClearance": 2,
+            "outfielderBlock": 2,
+            "interceptionWon": 1,
+            "ballRecovery": 1,
+            "unsuccessfulTouch": 1,
+            "fouls": 1,
+            "minutesPlayed": 72,
+            "touches": 72,
+            "rating": 6.8,
+            "possessionLostCtrl": 4,
+            "ratingVersions": {
+              "original": 6.8,
+              "alternative": 6.9
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.3,
+            "dribbleValueNormalized": 0.04,
+            "defensiveValueNormalized": -0.02,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Davina Philtjens",
+            "slug": "davina-philtjens",
+            "shortName": "D. Philtjens",
+            "position": "M",
+            "jerseyNumber": "2",
+            "height": 150,
+            "userCount": 44,
+            "gender": "F",
+            "id": 869362,
+            "country": {
+              "alpha2": "BE",
+              "alpha3": "BEL",
+              "name": "Belgium",
+              "slug": "belgium"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 604454400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دافينا فيلتجنز"
+              },
+              "shortNameTranslation": {
+                "ar": "د. فيلتجنز"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 55,
+            "accuratePass": 49,
+            "totalLongBalls": 8,
+            "accurateLongBalls": 5,
+            "accurateOwnHalfPasses": 23,
+            "totalOwnHalfPasses": 26,
+            "accurateOppositionHalfPasses": 23,
+            "totalOppositionHalfPasses": 29,
+            "totalCross": 3,
+            "blockedScoringAttempt": 1,
+            "totalClearance": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 4,
+            "minutesPlayed": 72,
+            "touches": 75,
+            "rating": 6.8,
+            "possessionLostCtrl": 9,
+            "ratingVersions": {
+              "original": 6.8,
+              "alternative": 6.7
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.07,
+            "passValueNormalized": 0.32,
+            "dribbleValueNormalized": -0.35,
+            "defensiveValueNormalized": -0.17,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kassandra Missipo",
+            "slug": "kassandra-missipo",
+            "shortName": "K. Missipo",
+            "position": "M",
+            "jerseyNumber": "12",
+            "height": 159,
+            "userCount": 40,
+            "gender": "F",
+            "id": 869379,
+            "country": {
+              "alpha2": "BE",
+              "alpha3": "BEL",
+              "name": "Belgium",
+              "slug": "belgium"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 886464000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاسندرا ميسيبوا"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ميسيبوا"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 35,
+            "accuratePass": 29,
+            "totalLongBalls": 2,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 6,
+            "totalOwnHalfPasses": 7,
+            "accurateOppositionHalfPasses": 20,
+            "totalOppositionHalfPasses": 28,
+            "totalCross": 3,
+            "aerialWon": 1,
+            "duelLost": 2,
+            "duelWon": 4,
+            "totalContest": 1,
+            "ballRecovery": 6,
+            "totalTackle": 2,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 1,
+            "fouls": 1,
+            "minutesPlayed": 72,
+            "touches": 44,
+            "rating": 6.6,
+            "possessionLostCtrl": 11,
+            "keyPass": 2,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 7
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.06,
+            "dribbleValueNormalized": 0,
+            "defensiveValueNormalized": -0.09,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Benedetta Brignoli",
+            "firstName": "",
+            "lastName": "",
+            "slug": "benedetta-brignoli",
+            "shortName": "B. Brignoli",
+            "position": "M",
+            "jerseyNumber": "15",
+            "userCount": 8,
+            "gender": "F",
+            "id": 1007206,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 938995200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بينيديتا بريجنولي"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. بريجنولي"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 76,
+            "accuratePass": 65,
+            "totalLongBalls": 13,
+            "accurateLongBalls": 7,
+            "accurateOwnHalfPasses": 28,
+            "totalOwnHalfPasses": 30,
+            "accurateOppositionHalfPasses": 37,
+            "totalOppositionHalfPasses": 46,
+            "aerialLost": 1,
+            "aerialWon": 1,
+            "duelLost": 2,
+            "duelWon": 4,
+            "shotOffTarget": 1,
+            "totalClearance": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 7,
+            "totalTackle": 3,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 2,
+            "fouls": 1,
+            "minutesPlayed": 72,
+            "touches": 86,
+            "rating": 7.2,
+            "possessionLostCtrl": 13,
+            "keyPass": 1,
+            "ratingVersions": {
+              "original": 7.2,
+              "alternative": 7.2
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.09,
+            "passValueNormalized": 0.37,
+            "dribbleValueNormalized": 0.16,
+            "defensiveValueNormalized": -0.04,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Manuela Perselli",
+            "firstName": "Manuela Perselli",
+            "slug": "manuela-perselli",
+            "shortName": "M. Perselli",
+            "position": "M",
+            "jerseyNumber": "30",
+            "userCount": 18,
+            "gender": "F",
+            "id": 1894844,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1157068800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مانويلا بيرسيلي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بيرسيلي"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 23,
+            "accuratePass": 17,
+            "totalLongBalls": 4,
+            "accurateLongBalls": 3,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 8,
+            "accurateOppositionHalfPasses": 10,
+            "totalOppositionHalfPasses": 15,
+            "aerialLost": 2,
+            "duelLost": 5,
+            "totalContest": 3,
+            "blockedScoringAttempt": 1,
+            "interceptionWon": 1,
+            "ballRecovery": 3,
+            "unsuccessfulTouch": 1,
+            "minutesPlayed": 69,
+            "touches": 31,
+            "rating": 6.1,
+            "possessionLostCtrl": 10,
+            "keyPass": 1,
+            "ratingVersions": {
+              "original": 6.1,
+              "alternative": 6.3
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.05,
+            "passValueNormalized": -0.06,
+            "dribbleValueNormalized": -0.51,
+            "defensiveValueNormalized": -0.07,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Naomi Eto'o",
+            "slug": "naomi-eto",
+            "shortName": "N. Eto'o",
+            "position": "M",
+            "jerseyNumber": "90",
+            "userCount": 162,
+            "gender": "F",
+            "id": 1920129,
+            "country": {
+              "alpha2": "CM",
+              "alpha3": "CMR",
+              "name": "Cameroon",
+              "slug": "cameroon"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1095897600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نعومي إيتو"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. إيتو"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 90,
+          "jerseyNumber": "90",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 12,
+            "accuratePass": 9,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 8,
+            "totalOppositionHalfPasses": 10,
+            "duelLost": 4,
+            "duelWon": 2,
+            "dispossessed": 3,
+            "onTargetScoringAttempt": 1,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 1,
+            "fouls": 1,
+            "minutesPlayed": 55,
+            "touches": 22,
+            "rating": 5.7,
+            "possessionLostCtrl": 9,
+            "ratingVersions": {
+              "original": 5.7,
+              "alternative": 6.7
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.89,
+            "passValueNormalized": -0.02,
+            "dribbleValueNormalized": 0.09,
+            "defensiveValueNormalized": -0.01,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Lina Chaib",
+            "firstName": "Lina Chaib",
+            "slug": "lina-chaib",
+            "shortName": "L. Chaib",
+            "position": "F",
+            "jerseyNumber": "17",
+            "userCount": 12,
+            "gender": "F",
+            "id": 1859485,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1178064000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لينا شعيب"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. شعيب"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 20,
+            "accuratePass": 14,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 1,
+            "accurateOppositionHalfPasses": 12,
+            "totalOppositionHalfPasses": 19,
+            "totalCross": 1,
+            "aerialWon": 1,
+            "duelLost": 5,
+            "duelWon": 5,
+            "dispossessed": 4,
+            "totalContest": 1,
+            "blockedScoringAttempt": 2,
+            "interceptionWon": 1,
+            "wasFouled": 4,
+            "minutesPlayed": 72,
+            "touches": 34,
+            "rating": 6.7,
+            "possessionLostCtrl": 12,
+            "ratingVersions": {
+              "original": 6.7,
+              "alternative": 6.6
+            },
+            "totalShots": 2,
+            "shotValueNormalized": -0.08,
+            "passValueNormalized": 0.06,
+            "dribbleValueNormalized": -0.37,
+            "defensiveValueNormalized": 0.14,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Lana Clelland",
+            "slug": "lana-clelland",
+            "shortName": "L. Clelland",
+            "position": "F",
+            "jerseyNumber": "26",
+            "height": 173,
+            "userCount": 22,
+            "gender": "F",
+            "id": 863057,
+            "country": {
+              "alpha2": "SX",
+              "alpha3": "SCO",
+              "name": "Scotland",
+              "slug": "scotland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 728006400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لانا كليلان"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. كليلان"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 26,
+          "jerseyNumber": "26",
+          "position": "F",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "totalPass": 12,
+            "accuratePass": 9,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 2,
+            "totalOwnHalfPasses": 2,
+            "accurateOppositionHalfPasses": 0,
+            "totalOppositionHalfPasses": 10,
+            "totalCross": 7,
+            "duelLost": 2,
+            "duelWon": 4,
+            "totalContest": 2,
+            "shotOffTarget": 2,
+            "onTargetScoringAttempt": 1,
+            "ballRecovery": 2,
+            "totalTackle": 1,
+            "wonTackle": 1,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 3,
+            "fouls": 1,
+            "minutesPlayed": 72,
+            "touches": 31,
+            "rating": 7.2,
+            "possessionLostCtrl": 14,
+            "keyPass": 1,
+            "ratingVersions": {
+              "original": 7.2,
+              "alternative": 7.1
+            },
+            "totalShots": 3,
+            "shotValueNormalized": -0.16,
+            "passValueNormalized": 0.55,
+            "dribbleValueNormalized": -0.56,
+            "defensiveValueNormalized": -0.03,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jacynta Gala",
+            "slug": "galabadaarachchi-jacynta",
+            "shortName": "J. Gala",
+            "position": "F",
+            "jerseyNumber": "19",
+            "height": 155,
+            "userCount": 169,
+            "gender": "F",
+            "id": 1007264,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 978739200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاسينتا غالا"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. غالا"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalPass": 4,
+            "accuratePass": 3,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 4,
+            "totalCross": 1,
+            "minutesPlayed": 17,
+            "touches": 5,
+            "rating": 6.5,
+            "possessionLostCtrl": 2,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.05,
+            "dribbleValueNormalized": -0.54,
+            "defensiveValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Katja Skupień",
+            "slug": "katja-skupien",
+            "shortName": "K. Skupień",
+            "position": "D",
+            "jerseyNumber": "7",
+            "height": 176,
+            "userCount": 4,
+            "gender": "F",
+            "id": 1547312,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1093305600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاتيا سكوبين"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. سكوبين"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "minutesPlayed": 3,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Elena Dhont",
+            "firstName": "",
+            "lastName": "",
+            "slug": "dhont-elena",
+            "shortName": "E. Dhont",
+            "position": "F",
+            "jerseyNumber": "13",
+            "height": 164,
+            "userCount": 30,
+            "gender": "F",
+            "id": 1388770,
+            "country": {
+              "alpha2": "BE",
+              "alpha3": "BEL",
+              "name": "Belgium",
+              "slug": "belgium"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 890956800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دهونت، إيلينا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. دهونت"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "duelLost": 1,
+            "unsuccessfulTouch": 1,
+            "fouls": 1,
+            "minutesPlayed": 3,
+            "touches": 1,
+            "possessionLostCtrl": 1,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Noemi Benz",
+            "slug": "noemi-benz",
+            "shortName": "N. Benz",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 171,
+            "userCount": 15,
+            "gender": "F",
+            "id": 1093433,
+            "country": {
+              "alpha2": "CH",
+              "alpha3": "CHE",
+              "name": "Switzerland",
+              "slug": "switzerland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1075507200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نوييمي بنز"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. بنز"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Francesca De Bona",
+            "slug": "francesca-de-bona",
+            "shortName": "F. D. Bona",
+            "position": "G",
+            "jerseyNumber": "78",
+            "userCount": 9,
+            "gender": "F",
+            "id": 1049713,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1071705600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانشيسكا دي بونا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. دي بونا"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 78,
+          "jerseyNumber": "78",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Hélène Fercocq",
+            "firstName": "",
+            "lastName": "",
+            "slug": "fercocq-helene",
+            "shortName": "H. Fercocq",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 176,
+            "userCount": 6,
+            "gender": "F",
+            "id": 944427,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 904176000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيركوك، إيلين"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. فيركوك"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Martina Brustia",
+            "slug": "martina-brustia",
+            "shortName": "M. Brustia",
+            "position": "D",
+            "jerseyNumber": "8",
+            "height": 168,
+            "userCount": 21,
+            "gender": "F",
+            "id": 1007108,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 899510400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارتينا بروستيا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بروستيا"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Caterina Venturelli",
+            "firstName": "Caterina Venturelli",
+            "slug": "caterina-venturelli",
+            "shortName": "C. Venturelli",
+            "position": "D",
+            "jerseyNumber": "25",
+            "height": 169,
+            "userCount": 22,
+            "gender": "F",
+            "id": 2029609,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1224028800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاترينا فينتوريلي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. فينتوريلي"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Erika Santoro",
+            "slug": "erika-santoro",
+            "shortName": "E. Santoro",
+            "position": "D",
+            "jerseyNumber": "27",
+            "height": 170,
+            "userCount": 18,
+            "gender": "F",
+            "id": 1007136,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 936316800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيريكا سانتورو"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. سانتورو"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 27,
+          "jerseyNumber": "27",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Maja Hagemann",
+            "slug": "maja-hagemann",
+            "shortName": "M. Hagemann",
+            "position": "M",
+            "jerseyNumber": "14",
+            "userCount": 21,
+            "gender": "F",
+            "id": 1535053,
+            "country": {
+              "alpha2": "DK",
+              "alpha3": "DNK",
+              "name": "Denmark",
+              "slug": "denmark"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1128643200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مايا هاجيمان"
+              },
+              "shortNameTranslation": {
+                "ar": "م. هاجيمان"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Melisa Filis",
+            "firstName": "",
+            "lastName": "",
+            "slug": "filis-melisa",
+            "shortName": "M. Filis",
+            "position": "M",
+            "jerseyNumber": "10",
+            "userCount": 25,
+            "gender": "F",
+            "id": 1001369,
+            "country": {
+              "alpha2": "IE",
+              "alpha3": "IRL",
+              "name": "Ireland",
+              "slug": "ireland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1027123200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيليس، ميليسا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. فيليس"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Daniela Sabatino",
+            "firstName": "",
+            "lastName": "",
+            "slug": "daniela-sabatino",
+            "shortName": "D. Sabatino",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 167,
+            "userCount": 24,
+            "gender": "F",
+            "id": 153821,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 488592000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانييلا ساباتينو"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ساباتينو"
+              }
+            }
+          },
+          "teamId": 269819,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "000000",
+        "number": "ffffff",
+        "outline": "000000",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "f1ff00",
+        "number": "ffffff",
+        "outline": "f1ff00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Gloria Ciccioli",
+            "firstName": "",
+            "lastName": "",
+            "slug": "gloria-ciccioli",
+            "shortName": "G. Ciccioli",
+            "position": "G",
+            "jerseyNumber": "12",
+            "userCount": 4,
+            "gender": "F",
+            "id": 1021616,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 958262400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غلوريا تشيتشيولي"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. تشيتشيولي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 19,
+            "accuratePass": 14,
+            "totalLongBalls": 12,
+            "accurateLongBalls": 7,
+            "accurateOwnHalfPasses": 12,
+            "totalOwnHalfPasses": 15,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 4,
+            "duelWon": 2,
+            "totalClearance": 1,
+            "ballRecovery": 4,
+            "wasFouled": 2,
+            "savedShotsFromInsideTheBox": 1,
+            "saves": 1,
+            "minutesPlayed": 72,
+            "touches": 24,
+            "rating": 7,
+            "possessionLostCtrl": 5,
+            "keeperSaveValue": 0.0002,
+            "ratingVersions": {
+              "original": 7,
+              "alternative": 6.9
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.04,
+            "defensiveValueNormalized": 0.25,
+            "goalkeeperValueNormalized": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Francesca Quazzico",
+            "firstName": "",
+            "lastName": "",
+            "slug": "francesca-quazzico",
+            "shortName": "F. Quazzico",
+            "position": "D",
+            "jerseyNumber": "19",
+            "userCount": 10,
+            "gender": "F",
+            "id": 1007129,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 989193600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانشيسكا كواززيكو"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. كواززيكو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 12,
+            "accuratePass": 12,
+            "totalLongBalls": 1,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 11,
+            "totalOwnHalfPasses": 11,
+            "accurateOppositionHalfPasses": 0,
+            "totalOppositionHalfPasses": 1,
+            "totalCross": 1,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 3,
+            "onTargetScoringAttempt": 1,
+            "totalClearance": 5,
+            "outfielderBlock": 1,
+            "ballRecovery": 1,
+            "totalTackle": 2,
+            "wonTackle": 1,
+            "fouls": 3,
+            "minutesPlayed": 72,
+            "touches": 30,
+            "rating": 6.8,
+            "possessionLostCtrl": 4,
+            "ratingVersions": {
+              "original": 6.8,
+              "alternative": 7.1
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.09,
+            "passValueNormalized": 0.11,
+            "dribbleValueNormalized": -0.03,
+            "defensiveValueNormalized": 0.25,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Eleonora Pacioni",
+            "firstName": "",
+            "lastName": "",
+            "slug": "eleonora-pacioni",
+            "shortName": "E. Pacioni",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 5,
+            "gender": "F",
+            "id": 1137591,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1019520000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليونورا باتشوني"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. باتشوني"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false,
+          "captain": true,
+          "statistics": {
+            "totalPass": 16,
+            "accuratePass": 12,
+            "totalLongBalls": 6,
+            "accurateLongBalls": 3,
+            "accurateOwnHalfPasses": 7,
+            "totalOwnHalfPasses": 9,
+            "accurateOppositionHalfPasses": 5,
+            "totalOppositionHalfPasses": 7,
+            "duelWon": 1,
+            "totalClearance": 9,
+            "clearanceOffLine": 1,
+            "outfielderBlock": 2,
+            "ballRecovery": 1,
+            "wasFouled": 1,
+            "minutesPlayed": 72,
+            "touches": 29,
+            "rating": 8.1,
+            "possessionLostCtrl": 5,
+            "ratingVersions": {
+              "original": 8.1,
+              "alternative": 7.6
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.1,
+            "dribbleValueNormalized": 0.01,
+            "defensiveValueNormalized": 1,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Heden Corrado",
+            "firstName": "",
+            "lastName": "",
+            "slug": "heden-corrado",
+            "shortName": "H. Corrado",
+            "position": "D",
+            "jerseyNumber": "6",
+            "userCount": 6,
+            "gender": "F",
+            "id": 1466225,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1015286400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هيدن كورادو"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. كورادو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 19,
+            "accuratePass": 12,
+            "totalLongBalls": 6,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 10,
+            "totalOwnHalfPasses": 12,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 7,
+            "duelWon": 1,
+            "totalClearance": 3,
+            "ballRecovery": 1,
+            "totalTackle": 1,
+            "minutesPlayed": 72,
+            "touches": 23,
+            "rating": 6.6,
+            "possessionLostCtrl": 7,
+            "ratingVersions": {
+              "original": 6.6,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.05,
+            "dribbleValueNormalized": 0.02,
+            "defensiveValueNormalized": 0.23,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Laura Peruzzo",
+            "slug": "laura-peruzzo",
+            "shortName": "L. Peruzzo",
+            "position": "D",
+            "jerseyNumber": "5",
+            "userCount": 1,
+            "id": 1965361,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 872467200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لاورا بيروزو"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. بيروزو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 30,
+            "accuratePass": 16,
+            "totalLongBalls": 10,
+            "accurateLongBalls": 4,
+            "accurateOwnHalfPasses": 11,
+            "totalOwnHalfPasses": 15,
+            "accurateOppositionHalfPasses": 5,
+            "totalOppositionHalfPasses": 15,
+            "aerialLost": 1,
+            "duelLost": 3,
+            "duelWon": 2,
+            "dispossessed": 2,
+            "totalClearance": 1,
+            "interceptionWon": 2,
+            "ballRecovery": 1,
+            "totalTackle": 2,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 1,
+            "minutesPlayed": 72,
+            "touches": 43,
+            "rating": 6.7,
+            "possessionLostCtrl": 19,
+            "keyPass": 2,
+            "ratingVersions": {
+              "original": 6.7,
+              "alternative": 6.8
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.17,
+            "dribbleValueNormalized": 0.09,
+            "defensiveValueNormalized": 0.18,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Lucia Pastrenge",
+            "slug": "lucia-pastrenge",
+            "shortName": "L. Pastrenge",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 168,
+            "userCount": 21,
+            "gender": "F",
+            "id": 1111567,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1016150400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوسيا باسترانجي"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. باسترانجي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 21,
+            "accuratePass": 18,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 14,
+            "totalOwnHalfPasses": 15,
+            "accurateOppositionHalfPasses": 4,
+            "totalOppositionHalfPasses": 6,
+            "aerialWon": 1,
+            "duelLost": 3,
+            "duelWon": 2,
+            "totalContest": 1,
+            "totalClearance": 1,
+            "ballRecovery": 2,
+            "totalTackle": 1,
+            "unsuccessfulTouch": 1,
+            "fouls": 2,
+            "minutesPlayed": 72,
+            "touches": 25,
+            "rating": 6.5,
+            "possessionLostCtrl": 5,
+            "keyPass": 1,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.5
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.11,
+            "dribbleValueNormalized": -0.17,
+            "defensiveValueNormalized": -0.04,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Stephanie Breitner",
+            "slug": "stephanie-breitner",
+            "shortName": "S. Breitner",
+            "position": "M",
+            "jerseyNumber": "3",
+            "height": 171,
+            "userCount": 17,
+            "gender": "F",
+            "id": 998174,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 717379200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ستيفاني برايتنر"
+              },
+              "shortNameTranslation": {
+                "ar": "س. برايتنر"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 18,
+            "accuratePass": 9,
+            "totalLongBalls": 7,
+            "accurateLongBalls": 1,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 8,
+            "accurateOppositionHalfPasses": 4,
+            "totalOppositionHalfPasses": 10,
+            "totalCross": 1,
+            "accurateCross": 1,
+            "duelLost": 3,
+            "duelWon": 5,
+            "shotOffTarget": 1,
+            "outfielderBlock": 2,
+            "ballRecovery": 2,
+            "totalTackle": 4,
+            "wonTackle": 3,
+            "unsuccessfulTouch": 1,
+            "wasFouled": 1,
+            "fouls": 3,
+            "minutesPlayed": 72,
+            "touches": 29,
+            "rating": 6.9,
+            "possessionLostCtrl": 10,
+            "keyPass": 2,
+            "ratingVersions": {
+              "original": 6.9,
+              "alternative": 7.1
+            },
+            "totalShots": 1,
+            "shotValueNormalized": -0.11,
+            "passValueNormalized": 0.15,
+            "dribbleValueNormalized": 0.07,
+            "defensiveValueNormalized": 0.38,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Maria Grazia Petrara",
+            "firstName": "",
+            "lastName": "",
+            "slug": "maria-grazia-petrara",
+            "shortName": "M. G. Petrara",
+            "position": "F",
+            "jerseyNumber": "21",
+            "userCount": 2,
+            "gender": "F",
+            "id": 1172799,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1080864000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماريا غراتسيا بيترارا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بيترارا"
+              }
+            }
+          },
+          "teamId": 301414,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 16,
+            "accuratePass": 8,
+            "totalLongBalls": 1,
+            "accurateOwnHalfPasses": 5,
+            "totalOwnHalfPasses": 9,
+            "accurateOppositionHalfPasses": 3,
+            "totalOppositionHalfPasses": 7,
+            "duelLost": 3,
+            "dispossessed": 1,
+            "totalContest": 2,
+            "ballRecovery": 2,
+            "unsuccessfulTouch": 1,
+            "minutesPlayed": 67,
+            "touches": 24,
+            "rating": 6.1,
+            "possessionLostCtrl": 12,
+            "ratingVersions": {
+              "original": 6.1,
+              "alternative": 6.2
+            },
+            "totalShots": 0,
+            "passValueNormalized": -0.11,
+            "dribbleValueNormalized": -0.19,
+            "defensiveValueNormalized": 0.13,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Paloma Lázaro",
+            "firstName": "",
+            "lastName": "",
+            "slug": "paloma-lazaro",
+            "shortName": "P. Lázaro",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 163,
+            "userCount": 22,
+            "gender": "F",
+            "id": 998203,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Spain",
+              "slug": "spain"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 749174400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بالوما لازارو"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. لازارو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 26,
+            "accuratePass": 19,
+            "totalLongBalls": 5,
+            "accurateLongBalls": 3,
+            "accurateOwnHalfPasses": 11,
+            "totalOwnHalfPasses": 14,
+            "accurateOppositionHalfPasses": 7,
+            "totalOppositionHalfPasses": 12,
+            "totalCross": 1,
+            "aerialLost": 1,
+            "duelLost": 4,
+            "duelWon": 3,
+            "dispossessed": 2,
+            "totalContest": 1,
+            "totalClearance": 1,
+            "ballRecovery": 4,
+            "totalTackle": 3,
+            "wonTackle": 3,
+            "minutesPlayed": 72,
+            "touches": 38,
+            "rating": 6.9,
+            "possessionLostCtrl": 12,
+            "ratingVersions": {
+              "original": 6.9,
+              "alternative": 6.8
+            },
+            "totalShots": 0,
+            "passValueNormalized": 0.24,
+            "dribbleValueNormalized": 0.07,
+            "defensiveValueNormalized": 0.27,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Valeria Pirone",
+            "firstName": "",
+            "lastName": "",
+            "slug": "pirone-valeria",
+            "shortName": "V. Pirone",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 160,
+            "userCount": 12,
+            "gender": "F",
+            "id": 822147,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 597110400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيروني، فاليريا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. بيروني"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 8,
+            "accuratePass": 1,
+            "accurateOwnHalfPasses": 1,
+            "totalOwnHalfPasses": 2,
+            "totalOppositionHalfPasses": 6,
+            "totalCross": 2,
+            "aerialWon": 2,
+            "duelLost": 1,
+            "duelWon": 3,
+            "totalContest": 1,
+            "shotOffTarget": 1,
+            "blockedScoringAttempt": 2,
+            "ballRecovery": 1,
+            "wasFouled": 1,
+            "totalOffside": 1,
+            "minutesPlayed": 72,
+            "touches": 17,
+            "rating": 6.5,
+            "possessionLostCtrl": 10,
+            "ratingVersions": {
+              "original": 6.5,
+              "alternative": 6.7
+            },
+            "totalShots": 3,
+            "shotValueNormalized": -0.32,
+            "passValueNormalized": -0.23,
+            "dribbleValueNormalized": 0.23,
+            "defensiveValueNormalized": -0.01,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Giada Cimò",
+            "firstName": "Giada Cimò",
+            "slug": "giada-cimo",
+            "shortName": "G. Cimò",
+            "position": "M",
+            "jerseyNumber": "20",
+            "userCount": 30,
+            "gender": "F",
+            "id": 1495796,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1160179200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيا دا تشيمو"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. تشيمو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "totalPass": 13,
+            "accuratePass": 6,
+            "totalLongBalls": 2,
+            "accurateOwnHalfPasses": 3,
+            "totalOwnHalfPasses": 7,
+            "accurateOppositionHalfPasses": 2,
+            "totalOppositionHalfPasses": 6,
+            "totalCross": 1,
+            "duelLost": 1,
+            "duelWon": 4,
+            "onTargetScoringAttempt": 1,
+            "blockedScoringAttempt": 1,
+            "goals": 1,
+            "totalClearance": 2,
+            "ballRecovery": 4,
+            "totalTackle": 3,
+            "wonTackle": 2,
+            "unsuccessfulTouch": 3,
+            "wasFouled": 1,
+            "fouls": 1,
+            "minutesPlayed": 72,
+            "touches": 31,
+            "rating": 7.8,
+            "possessionLostCtrl": 11,
+            "keyPass": 1,
+            "ratingVersions": {
+              "original": 7.8,
+              "alternative": 7.5
+            },
+            "totalShots": 2,
+            "shotValueNormalized": 0.55,
+            "passValueNormalized": -0.12,
+            "dribbleValueNormalized": 0.12,
+            "defensiveValueNormalized": 0.16,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Virginia Di Giammarino",
+            "firstName": "Virginia",
+            "lastName": "Di Giammarino",
+            "slug": "virginia-di-giammarino",
+            "shortName": "V. D. Giammarino",
+            "position": "M",
+            "jerseyNumber": "27",
+            "userCount": 7,
+            "gender": "F",
+            "id": 1137785,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 919555200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيرجينيا دي جيامارينو"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. دي جيامارينو"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 27,
+          "jerseyNumber": "27",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "aerialLost": 1,
+            "duelLost": 1,
+            "minutesPlayed": 5,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Viola Bartalini",
+            "firstName": "",
+            "lastName": "",
+            "slug": "viola-bartalini",
+            "shortName": "V. Bartalini",
+            "position": "G",
+            "jerseyNumber": "1",
+            "userCount": 4,
+            "gender": "F",
+            "id": 1174235,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيولا بارتاليني"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. بارتاليني"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Katia Ghioc",
+            "slug": "katia-ghioc",
+            "shortName": "K. Ghioc",
+            "position": "G",
+            "jerseyNumber": "13",
+            "userCount": 5,
+            "gender": "F",
+            "id": 1099366,
+            "country": {
+              "alpha2": "RO",
+              "alpha3": "ROU",
+              "name": "Romania",
+              "slug": "romania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1035331200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاتيا غيوك"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. غيوك"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kaja Erzen",
+            "firstName": "",
+            "lastName": "",
+            "slug": "erzen-kaja",
+            "shortName": "K. Eržen",
+            "position": "D",
+            "jerseyNumber": "22",
+            "height": 176,
+            "userCount": 13,
+            "gender": "F",
+            "id": 930073,
+            "country": {
+              "alpha2": "SI",
+              "alpha3": "SVN",
+              "name": "Slovenia",
+              "slug": "slovenia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 777427200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيرزين، كاجا"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. إيرزين"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Chiara Ripamonti",
+            "slug": "chiara-ripamonti",
+            "shortName": "C. Ripamonti",
+            "position": "D",
+            "jerseyNumber": "55",
+            "userCount": 4,
+            "gender": "F",
+            "id": 1007307,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 985996800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيارا ريبامونتي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ريبامونتي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 55,
+          "jerseyNumber": "55",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Camilla Labate",
+            "firstName": "",
+            "lastName": "",
+            "slug": "camilla-labate",
+            "shortName": "C. Labate",
+            "position": "D",
+            "jerseyNumber": "17",
+            "height": 170,
+            "userCount": 12,
+            "gender": "F",
+            "id": 1007169,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 925516800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاميلا لاباتي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. لاباتي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Chiara Vigliucci",
+            "firstName": "Chiara",
+            "lastName": "Vigliucci",
+            "slug": "chiara-vigliucci",
+            "shortName": "C. Vigliucci",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 4,
+            "gender": "F",
+            "id": 1139386,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 997488000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيارا فيغليوتشي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. فيغليوتشي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Maddalena Porcarelli",
+            "firstName": "",
+            "lastName": "",
+            "slug": "maddalena-porcarelli",
+            "shortName": "M. Porcarelli",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 158,
+            "userCount": 6,
+            "gender": "F",
+            "id": 1137582,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 952300800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مادالينا بوركاريلي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بوركاريلي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Alice Regazzoli",
+            "firstName": "",
+            "lastName": "",
+            "slug": "alice-regazzoli",
+            "shortName": "A. Regazzoli",
+            "position": "M",
+            "jerseyNumber": "23",
+            "userCount": 7,
+            "gender": "F",
+            "id": 1007176,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 921456000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أليس ريجازولي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. ريجازولي"
+              }
+            }
+          },
+          "teamId": 492465,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Claudia Ciccotti",
+            "slug": "ciccotti-claudia",
+            "shortName": "C. Ciccotti",
+            "position": "M",
+            "jerseyNumber": "16",
+            "userCount": 31,
+            "gender": "F",
+            "id": 1007106,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 760752000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تشوكوتي، كلوديا"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. تشوكوتي"
+              }
+            }
+          },
+          "teamId": 301414,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Eleonora Ferraresi",
+            "firstName": "Eleonora Ferraresi",
+            "slug": "eleonora-ferraresi",
+            "shortName": "E. Ferraresi",
+            "position": "M",
+            "jerseyNumber": "15",
+            "userCount": 76,
+            "gender": "F",
+            "id": 1956352,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليانورا فيراريسي"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. فيراريسي"
+              }
+            }
+          },
+          "teamId": 269824,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Cíntia Martins",
+            "slug": "cintia-martins",
+            "shortName": "C. Martins",
+            "position": "F",
+            "jerseyNumber": "29",
+            "userCount": 18,
+            "gender": "F",
+            "id": 1858735,
+            "country": {
+              "alpha2": "PT",
+              "alpha3": "PRT",
+              "name": "Portugal",
+              "slug": "portugal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1183075200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سينتيا مارتينز"
+              },
+              "shortNameTranslation": {
+                "ar": "س. مارتينز"
+              }
+            }
+          },
+          "teamId": 301414,
+          "shirtNumber": 29,
+          "jerseyNumber": "29",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "f5f5f5",
+        "number": "222226",
+        "outline": "f5f5f5",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ff6600",
+        "number": "222226",
+        "outline": "ff6600",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": 3
+  },
+  "event/14286993/managers": {
+    "homeManager": {
+      "name": "Alessandro Spugna",
+      "slug": "alessandro-spugna",
+      "shortName": "A. Spugna",
+      "id": 799071,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أليساندرو سبوجنا"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. سبوجنا"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Antonio Cincotta",
+      "slug": "antonio-cincotta",
+      "shortName": "A. Cincotta",
+      "id": 793348,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أنتونيو تشينكوتا"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. تشينكوتا"
+        }
+      }
+    }
+  },
+  "event/14286993/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": 1
+      },
+      {
+        "minute": 2,
+        "value": 5
+      },
+      {
+        "minute": 3,
+        "value": -7
+      },
+      {
+        "minute": 4,
+        "value": 19
+      },
+      {
+        "minute": 5,
+        "value": 25
+      },
+      {
+        "minute": 6,
+        "value": 24
+      },
+      {
+        "minute": 7,
+        "value": 10
+      },
+      {
+        "minute": 8,
+        "value": -9
+      },
+      {
+        "minute": 9,
+        "value": 6
+      },
+      {
+        "minute": 10,
+        "value": 21
+      },
+      {
+        "minute": 11,
+        "value": 47
+      },
+      {
+        "minute": 12,
+        "value": 25
+      },
+      {
+        "minute": 13,
+        "value": 9
+      },
+      {
+        "minute": 14,
+        "value": 9
+      },
+      {
+        "minute": 15,
+        "value": -26
+      },
+      {
+        "minute": 16,
+        "value": -5
+      },
+      {
+        "minute": 17,
+        "value": 20
+      },
+      {
+        "minute": 18,
+        "value": -27
+      },
+      {
+        "minute": 19,
+        "value": 35
+      },
+      {
+        "minute": 20,
+        "value": 41
+      },
+      {
+        "minute": 21,
+        "value": 30
+      },
+      {
+        "minute": 22,
+        "value": 18
+      },
+      {
+        "minute": 23,
+        "value": 19
+      },
+      {
+        "minute": 24,
+        "value": 78
+      },
+      {
+        "minute": 25,
+        "value": 50
+      },
+      {
+        "minute": 26,
+        "value": 12
+      },
+      {
+        "minute": 27,
+        "value": 13
+      },
+      {
+        "minute": 28,
+        "value": 34
+      },
+      {
+        "minute": 29,
+        "value": 9
+      },
+      {
+        "minute": 30,
+        "value": 11
+      },
+      {
+        "minute": 31,
+        "value": 16
+      },
+      {
+        "minute": 32,
+        "value": 10
+      },
+      {
+        "minute": 33,
+        "value": -29
+      },
+      {
+        "minute": 34,
+        "value": -18
+      },
+      {
+        "minute": 35,
+        "value": -7
+      },
+      {
+        "minute": 36,
+        "value": -6
+      },
+      {
+        "minute": 37,
+        "value": -12
+      },
+      {
+        "minute": 38,
+        "value": -41
+      },
+      {
+        "minute": 39,
+        "value": -17
+      },
+      {
+        "minute": 40,
+        "value": 42
+      },
+      {
+        "minute": 41,
+        "value": 18
+      },
+      {
+        "minute": 42,
+        "value": 10
+      },
+      {
+        "minute": 43,
+        "value": 39
+      },
+      {
+        "minute": 44,
+        "value": 30
+      },
+      {
+        "minute": 45,
+        "value": 21
+      },
+      {
+        "minute": 45.5,
+        "value": 10
+      },
+      {
+        "minute": 46,
+        "value": 6
+      },
+      {
+        "minute": 47,
+        "value": 9
+      },
+      {
+        "minute": 48,
+        "value": 11
+      },
+      {
+        "minute": 49,
+        "value": 12
+      },
+      {
+        "minute": 50,
+        "value": 31
+      },
+      {
+        "minute": 51,
+        "value": 28
+      },
+      {
+        "minute": 52,
+        "value": 23
+      },
+      {
+        "minute": 53,
+        "value": 38
+      },
+      {
+        "minute": 54,
+        "value": 23
+      },
+      {
+        "minute": 55,
+        "value": 20
+      },
+      {
+        "minute": 56,
+        "value": 16
+      },
+      {
+        "minute": 57,
+        "value": 35
+      },
+      {
+        "minute": 58,
+        "value": 34
+      },
+      {
+        "minute": 59,
+        "value": 23
+      },
+      {
+        "minute": 60,
+        "value": 19
+      },
+      {
+        "minute": 61,
+        "value": 16
+      },
+      {
+        "minute": 62,
+        "value": 13
+      },
+      {
+        "minute": 63,
+        "value": 12
+      },
+      {
+        "minute": 64,
+        "value": 12
+      },
+      {
+        "minute": 65,
+        "value": 12
+      },
+      {
+        "minute": 66,
+        "value": 12
+      },
+      {
+        "minute": 67,
+        "value": 77
+      },
+      {
+        "minute": 68,
+        "value": 37
+      },
+      {
+        "minute": 69,
+        "value": 22
+      },
+      {
+        "minute": 70,
+        "value": 18
+      },
+      {
+        "minute": 71,
+        "value": 21
+      },
+      {
+        "minute": 72,
+        "value": 7
+      }
+    ],
+    "periodTime": 45,
+    "overtimeLength": 15,
+    "periodCount": 2
+  },
+  "event/14286993/average-positions": {
+    "home": [
+      {
+        "player": {
+          "name": "Aurora De Rita",
+          "firstName": "",
+          "lastName": "",
+          "slug": "aurora-de-rita",
+          "shortName": "A. D. Rita",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 9,
+          "gender": "F",
+          "id": 1007972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أورورا دي ريتا"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. دي ريتا"
+            }
+          }
+        },
+        "averageX": 55.804918032787,
+        "averageY": 12.968852459016,
+        "pointsCount": 61
+      },
+      {
+        "player": {
+          "name": "Lina Chaib",
+          "firstName": "Lina Chaib",
+          "slug": "lina-chaib",
+          "shortName": "L. Chaib",
+          "position": "F",
+          "jerseyNumber": "17",
+          "userCount": 12,
+          "gender": "F",
+          "id": 1859485,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لينا شعيب"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. شعيب"
+            }
+          }
+        },
+        "averageX": 67.580555555556,
+        "averageY": 38.205555555556,
+        "pointsCount": 36
+      },
+      {
+        "player": {
+          "name": "Naomi Eto'o",
+          "slug": "naomi-eto",
+          "shortName": "N. Eto'o",
+          "position": "M",
+          "jerseyNumber": "90",
+          "userCount": 162,
+          "gender": "F",
+          "id": 1920129,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نعومي إيتو"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. إيتو"
+            }
+          }
+        },
+        "averageX": 79.308,
+        "averageY": 46.064,
+        "pointsCount": 25
+      },
+      {
+        "player": {
+          "name": "Lana Clelland",
+          "slug": "lana-clelland",
+          "shortName": "L. Clelland",
+          "position": "F",
+          "jerseyNumber": "26",
+          "userCount": 22,
+          "gender": "F",
+          "id": 863057,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لانا كليلان"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. كليلان"
+            }
+          }
+        },
+        "averageX": 78.832352941176,
+        "averageY": 51.694117647059,
+        "pointsCount": 34
+      },
+      {
+        "player": {
+          "name": "Solène Durand",
+          "firstName": "",
+          "lastName": "",
+          "slug": "solene-durand",
+          "shortName": "S. Durand",
+          "position": "G",
+          "jerseyNumber": "16",
+          "userCount": 49,
+          "gender": "F",
+          "id": 973852,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سولين دوراند"
+            },
+            "shortNameTranslation": {
+              "ar": "س. دوراند"
+            }
+          }
+        },
+        "averageX": 9.6076923076923,
+        "averageY": 52.007692307692,
+        "pointsCount": 26
+      },
+      {
+        "player": {
+          "name": "Manuela Perselli",
+          "firstName": "Manuela Perselli",
+          "slug": "manuela-perselli",
+          "shortName": "M. Perselli",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 18,
+          "gender": "F",
+          "id": 1894844,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانويلا بيرسيلي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيرسيلي"
+            }
+          }
+        },
+        "averageX": 59.197368421053,
+        "averageY": 64.384210526316,
+        "pointsCount": 38
+      },
+      {
+        "player": {
+          "name": "Sara Caiazzo",
+          "firstName": "",
+          "lastName": "",
+          "slug": "sara-caiazzo",
+          "shortName": "S. Caiazzo",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 35,
+          "gender": "F",
+          "id": 1084108,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سارا كايازو"
+            },
+            "shortNameTranslation": {
+              "ar": "س. كايازو"
+            }
+          }
+        },
+        "averageX": 32.176923076923,
+        "averageY": 60.171794871795,
+        "pointsCount": 78
+      },
+      {
+        "player": {
+          "name": "Jacynta Gala",
+          "slug": "galabadaarachchi-jacynta",
+          "shortName": "J. Gala",
+          "position": "F",
+          "jerseyNumber": "19",
+          "userCount": 169,
+          "gender": "F",
+          "id": 1007264,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاسينتا غالا"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. غالا"
+            }
+          }
+        },
+        "averageX": 72.72,
+        "averageY": 41.38,
+        "pointsCount": 5
+      },
+      {
+        "player": {
+          "name": "Kassandra Missipo",
+          "slug": "kassandra-missipo",
+          "shortName": "K. Missipo",
+          "position": "M",
+          "jerseyNumber": "12",
+          "userCount": 40,
+          "gender": "F",
+          "id": 869379,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاسندرا ميسيبوا"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. ميسيبوا"
+            }
+          }
+        },
+        "averageX": 61.996226415094,
+        "averageY": 27.511320754717,
+        "pointsCount": 53
+      },
+      {
+        "player": {
+          "name": "Elena Dhont",
+          "firstName": "",
+          "lastName": "",
+          "slug": "dhont-elena",
+          "shortName": "E. Dhont",
+          "position": "F",
+          "jerseyNumber": "13",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1388770,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دهونت، إيلينا"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. دهونت"
+            }
+          }
+        },
+        "averageX": 83.65,
+        "averageY": 27.7,
+        "pointsCount": 2
+      },
+      {
+        "player": {
+          "name": "Jessika Nash",
+          "firstName": "Jessika Nash",
+          "lastName": "",
+          "slug": "jessika-nash",
+          "shortName": "J. Nash",
+          "position": "D",
+          "jerseyNumber": "21",
+          "userCount": 24,
+          "gender": "F",
+          "id": 1096385,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيسيكا ناش"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ناش"
+            }
+          }
+        },
+        "averageX": 39.101041666667,
+        "averageY": 30.469791666667,
+        "pointsCount": 96
+      },
+      {
+        "player": {
+          "name": "Benedetta Brignoli",
+          "firstName": "",
+          "lastName": "",
+          "slug": "benedetta-brignoli",
+          "shortName": "B. Brignoli",
+          "position": "M",
+          "jerseyNumber": "15",
+          "userCount": 8,
+          "gender": "F",
+          "id": 1007206,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بينيديتا بريجنولي"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. بريجنولي"
+            }
+          }
+        },
+        "averageX": 50.705154639175,
+        "averageY": 46.176288659794,
+        "pointsCount": 97
+      },
+      {
+        "player": {
+          "name": "Davina Philtjens",
+          "slug": "davina-philtjens",
+          "shortName": "D. Philtjens",
+          "position": "M",
+          "jerseyNumber": "2",
+          "userCount": 44,
+          "gender": "F",
+          "id": 869362,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دافينا فيلتجنز"
+            },
+            "shortNameTranslation": {
+              "ar": "د. فيلتجنز"
+            }
+          }
+        },
+        "averageX": 50.056962025316,
+        "averageY": 83.255696202532,
+        "pointsCount": 79
+      }
+    ],
+    "away": [
+      {
+        "player": {
+          "name": "Maria Grazia Petrara",
+          "firstName": "",
+          "lastName": "",
+          "slug": "maria-grazia-petrara",
+          "shortName": "M. G. Petrara",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1172799,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريا غراتسيا بيترارا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيترارا"
+            }
+          }
+        },
+        "averageX": 45.753846153846,
+        "averageY": 78.873076923077,
+        "pointsCount": 26
+      },
+      {
+        "player": {
+          "name": "Gloria Ciccioli",
+          "firstName": "",
+          "lastName": "",
+          "slug": "gloria-ciccioli",
+          "shortName": "G. Ciccioli",
+          "position": "G",
+          "jerseyNumber": "12",
+          "userCount": 4,
+          "gender": "F",
+          "id": 1021616,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غلوريا تشيتشيولي"
+            },
+            "shortNameTranslation": {
+              "ar": "غ. تشيتشيولي"
+            }
+          }
+        },
+        "averageX": 6.6535714285714,
+        "averageY": 49.225,
+        "pointsCount": 28
+      },
+      {
+        "player": {
+          "name": "Giada Cimò",
+          "firstName": "Giada Cimò",
+          "slug": "giada-cimo",
+          "shortName": "G. Cimò",
+          "position": "M",
+          "jerseyNumber": "20",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1495796,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيا دا تشيمو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. تشيمو"
+            }
+          }
+        },
+        "averageX": 47.878947368421,
+        "averageY": 49.060526315789,
+        "pointsCount": 38
+      },
+      {
+        "player": {
+          "name": "Stephanie Breitner",
+          "slug": "stephanie-breitner",
+          "shortName": "S. Breitner",
+          "position": "M",
+          "jerseyNumber": "3",
+          "userCount": 17,
+          "gender": "F",
+          "id": 998174,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيفاني برايتنر"
+            },
+            "shortNameTranslation": {
+              "ar": "س. برايتنر"
+            }
+          }
+        },
+        "averageX": 41.841666666667,
+        "averageY": 52.247222222222,
+        "pointsCount": 36
+      },
+      {
+        "player": {
+          "name": "Heden Corrado",
+          "firstName": "",
+          "lastName": "",
+          "slug": "heden-corrado",
+          "shortName": "H. Corrado",
+          "position": "D",
+          "jerseyNumber": "6",
+          "userCount": 6,
+          "gender": "F",
+          "id": 1466225,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هيدن كورادو"
+            },
+            "shortNameTranslation": {
+              "ar": "ه. كورادو"
+            }
+          }
+        },
+        "averageX": 20.875,
+        "averageY": 67.870833333333,
+        "pointsCount": 24
+      },
+      {
+        "player": {
+          "name": "Valeria Pirone",
+          "firstName": "",
+          "lastName": "",
+          "slug": "pirone-valeria",
+          "shortName": "V. Pirone",
+          "position": "F",
+          "jerseyNumber": "11",
+          "userCount": 12,
+          "gender": "F",
+          "id": 822147,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيروني، فاليريا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. بيروني"
+            }
+          }
+        },
+        "averageX": 70.595238095238,
+        "averageY": 57.038095238095,
+        "pointsCount": 21
+      },
+      {
+        "player": {
+          "name": "Laura Peruzzo",
+          "slug": "laura-peruzzo",
+          "shortName": "L. Peruzzo",
+          "position": "D",
+          "jerseyNumber": "5",
+          "userCount": 1,
+          "id": 1965361,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لاورا بيروزو"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. بيروزو"
+            }
+          }
+        },
+        "averageX": 29.689583333333,
+        "averageY": 86.110416666667,
+        "pointsCount": 48
+      },
+      {
+        "player": {
+          "name": "Francesca Quazzico",
+          "firstName": "",
+          "lastName": "",
+          "slug": "francesca-quazzico",
+          "shortName": "F. Quazzico",
+          "position": "D",
+          "jerseyNumber": "19",
+          "userCount": 10,
+          "gender": "F",
+          "id": 1007129,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فرانشيسكا كواززيكو"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. كواززيكو"
+            }
+          }
+        },
+        "averageX": 32.224324324324,
+        "averageY": 18.345945945946,
+        "pointsCount": 37
+      },
+      {
+        "player": {
+          "name": "Eleonora Pacioni",
+          "firstName": "",
+          "lastName": "",
+          "slug": "eleonora-pacioni",
+          "shortName": "E. Pacioni",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 5,
+          "gender": "F",
+          "id": 1137591,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليونورا باتشوني"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. باتشوني"
+            }
+          }
+        },
+        "averageX": 25.556666666667,
+        "averageY": 35.61,
+        "pointsCount": 30
+      },
+      {
+        "player": {
+          "name": "Virginia Di Giammarino",
+          "firstName": "Virginia",
+          "lastName": "Di Giammarino",
+          "slug": "virginia-di-giammarino",
+          "shortName": "V. D. Giammarino",
+          "position": "M",
+          "jerseyNumber": "27",
+          "userCount": 7,
+          "gender": "F",
+          "id": 1137785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرجينيا دي جيامارينو"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. دي جيامارينو"
+            }
+          }
+        },
+        "averageX": 46.8,
+        "averageY": 46.5,
+        "pointsCount": 1
+      },
+      {
+        "player": {
+          "name": "Lucia Pastrenge",
+          "slug": "lucia-pastrenge",
+          "shortName": "L. Pastrenge",
+          "position": "M",
+          "jerseyNumber": "8",
+          "userCount": 21,
+          "gender": "F",
+          "id": 1111567,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوسيا باسترانجي"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. باسترانجي"
+            }
+          }
+        },
+        "averageX": 37.009375,
+        "averageY": 43.928125,
+        "pointsCount": 32
+      },
+      {
+        "player": {
+          "name": "Paloma Lázaro",
+          "firstName": "",
+          "lastName": "",
+          "slug": "paloma-lazaro",
+          "shortName": "P. Lázaro",
+          "position": "F",
+          "jerseyNumber": "10",
+          "userCount": 22,
+          "gender": "F",
+          "id": 998203,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بالوما لازارو"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. لازارو"
+            }
+          }
+        },
+        "averageX": 41.325581395349,
+        "averageY": 47.732558139535,
+        "pointsCount": 43
+      }
+    ],
+    "substitutions": [
+      {
+        "playerIn": {
+          "name": "Jacynta Gala",
+          "slug": "galabadaarachchi-jacynta",
+          "shortName": "J. Gala",
+          "position": "F",
+          "jerseyNumber": "19",
+          "userCount": 169,
+          "gender": "F",
+          "id": 1007264,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاسينتا غالا"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. غالا"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Naomi Eto'o",
+          "slug": "naomi-eto",
+          "shortName": "N. Eto'o",
+          "position": "M",
+          "jerseyNumber": "90",
+          "userCount": 162,
+          "gender": "F",
+          "id": 1920129,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نعومي إيتو"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. إيتو"
+            }
+          }
+        },
+        "id": 125134995,
+        "time": 55,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 36,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Virginia Di Giammarino",
+          "firstName": "Virginia",
+          "lastName": "Di Giammarino",
+          "slug": "virginia-di-giammarino",
+          "shortName": "V. D. Giammarino",
+          "position": "M",
+          "jerseyNumber": "27",
+          "userCount": 7,
+          "gender": "F",
+          "id": 1137785,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيرجينيا دي جيامارينو"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. دي جيامارينو"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Maria Grazia Petrara",
+          "firstName": "",
+          "lastName": "",
+          "slug": "maria-grazia-petrara",
+          "shortName": "M. G. Petrara",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 2,
+          "gender": "F",
+          "id": 1172799,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماريا غراتسيا بيترارا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيترارا"
+            }
+          }
+        },
+        "id": 125135013,
+        "time": 67,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 24,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Katja Skupień",
+          "slug": "katja-skupien",
+          "shortName": "K. Skupień",
+          "position": "D",
+          "jerseyNumber": "7",
+          "userCount": 4,
+          "gender": "F",
+          "id": 1547312,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاتيا سكوبين"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. سكوبين"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Manuela Perselli",
+          "firstName": "Manuela Perselli",
+          "slug": "manuela-perselli",
+          "shortName": "M. Perselli",
+          "position": "M",
+          "jerseyNumber": "30",
+          "userCount": 18,
+          "gender": "F",
+          "id": 1894844,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مانويلا بيرسيلي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيرسيلي"
+            }
+          }
+        },
+        "id": 125135043,
+        "time": 69,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Elena Dhont",
+          "firstName": "",
+          "lastName": "",
+          "slug": "dhont-elena",
+          "shortName": "E. Dhont",
+          "position": "F",
+          "jerseyNumber": "13",
+          "userCount": 30,
+          "gender": "F",
+          "id": 1388770,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دهونت، إيلينا"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. دهونت"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Aurora De Rita",
+          "firstName": "",
+          "lastName": "",
+          "slug": "aurora-de-rita",
+          "shortName": "A. D. Rita",
+          "position": "D",
+          "jerseyNumber": "24",
+          "userCount": 9,
+          "gender": "F",
+          "id": 1007972,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أورورا دي ريتا"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. دي ريتا"
+            }
+          }
+        },
+        "id": 125135045,
+        "time": 69,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      }
+    ]
+  }
+}

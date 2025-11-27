@@ -1,0 +1,3302 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/13982219/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 2,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "playerIn": {
+          "name": "Guessouma Fofana",
+          "slug": "guessouma-fofana",
+          "shortName": "G. Fofana",
+          "position": "M",
+          "jerseyNumber": "27",
+          "height": 184,
+          "userCount": 167,
+          "gender": "M",
+          "id": 845092,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 724550400,
+          "proposedMarketValueRaw": {
+            "value": 135000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جيسوما فوفانا",
+              "hi": "गुसेउमा फ़ोफ़ाना",
+              "bn": "গেসুমা ফোফানা"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. فوفانا",
+              "hi": "जी. फ़ोफ़ाना",
+              "bn": "জি. ফোফানা"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Sidi Yacoub",
+          "slug": "sidi-yacoub",
+          "shortName": "S. Yacoub",
+          "position": "M",
+          "jerseyNumber": "29",
+          "height": 176,
+          "userCount": 75,
+          "gender": "M",
+          "id": 1008231,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 818553600,
+          "proposedMarketValueRaw": {
+            "value": 160000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيدي يعقوب",
+              "hi": "सिदी याकूब",
+              "bn": "সিদি ইয়াকুব"
+            },
+            "shortNameTranslation": {
+              "ar": "س. يعقوب",
+              "hi": "एस. याकूब",
+              "bn": "এস. ইয়াকুব"
+            }
+          }
+        },
+        "id": 125185561,
+        "time": 90,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 1,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Sultan Al Enezi",
+          "slug": "sultan-al-enezi",
+          "shortName": "S. Al-Enezi",
+          "position": "M",
+          "height": 180,
+          "userCount": 34,
+          "gender": "M",
+          "id": 377732,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 712368000,
+          "proposedMarketValueRaw": {
+            "value": 240000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سلطان العنزي",
+              "hi": "सुल्तान अल एनेज़ी",
+              "bn": "সুলতান আল এনেজি"
+            },
+            "shortNameTranslation": {
+              "ar": "س. العنزي",
+              "hi": "एस. अल-एनेज़ी",
+              "bn": "এস. আল-এনেজি"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Athbi Shehab",
+          "firstName": "Athbi Shehab",
+          "slug": "athbi-shehab",
+          "shortName": "A. Shehab",
+          "position": "F",
+          "jerseyNumber": "18",
+          "userCount": 31,
+          "gender": "M",
+          "id": 1502648,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 631152000,
+          "proposedMarketValueRaw": {
+            "value": 170000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "عذبي شهاب",
+              "hi": "अथबी शेहाब",
+              "bn": "অথবি শেহাব"
+            },
+            "shortNameTranslation": {
+              "ar": "ع. شهاب",
+              "hi": "ए. शेहाब",
+              "bn": "এ. শেহাব"
+            }
+          }
+        },
+        "id": 125185557,
+        "time": 87,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Mohammed Al Sharif",
+          "slug": "mohammed-al-sharif",
+          "shortName": "M. A. Sharif",
+          "position": "F",
+          "jerseyNumber": "29",
+          "userCount": 3,
+          "gender": "M",
+          "id": 1114635,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 857433600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد الشريف"
+            },
+            "shortNameTranslation": {
+              "ar": "م. الشريف"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Moaath Al Dhafiri",
+          "firstName": "Moaath Al Dhafiri",
+          "slug": "moaath-meshal",
+          "shortName": "M. Meshal",
+          "position": "D",
+          "jerseyNumber": "3",
+          "userCount": 26,
+          "gender": "M",
+          "id": 1123418,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 864000000,
+          "proposedMarketValueRaw": {
+            "value": 185000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "معاذ مشعل",
+              "hi": "मोआथ मेशाल",
+              "bn": "মোয়াথ মেশাল"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مشعل",
+              "hi": "एम. मेशल",
+              "bn": "এম. মেশাল"
+            }
+          }
+        },
+        "id": 125185556,
+        "time": 87,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 4,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Khadim Diaw",
+          "firstName": "Khadim Diaw",
+          "slug": "khadim-diaw",
+          "shortName": "K. Diaw",
+          "position": "D",
+          "jerseyNumber": "12",
+          "height": 184,
+          "userCount": 377,
+          "gender": "M",
+          "id": 1407653,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 899769600,
+          "proposedMarketValueRaw": {
+            "value": 180000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاظم دياو",
+              "hi": "ख़ादिम दियाव",
+              "bn": "খাদিম দিয়া"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. دياو",
+              "hi": "के. दियाव",
+              "bn": "কে. দিয়াও"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380263,
+        "time": 86,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 5,
+        "incidentType": "card"
+      },
+      {
+        "playerIn": {
+          "name": "Ahmed El Moctar Ahmed",
+          "slug": "ahmed-el-moctar",
+          "shortName": "A. E. Moctar",
+          "position": "F",
+          "userCount": 80,
+          "gender": "M",
+          "id": 2023466,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1068854400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أحمد الموكتار"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. الموكتار"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Nouh Mohamed El Abd",
+          "firstName": "Nouh Mohamed El Abd",
+          "lastName": "",
+          "slug": "nouh-mohamed-el-abd",
+          "shortName": "N. M. E. Abd",
+          "position": "D",
+          "jerseyNumber": "24",
+          "height": 186,
+          "userCount": 210,
+          "gender": "M",
+          "id": 1444497,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 977616000,
+          "proposedMarketValueRaw": {
+            "value": 97000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوح محمد عبد",
+              "hi": "नौह मोहम्मद अल अब्द",
+              "bn": "নূহ মোহাম্মদ এল আবদ"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. عبد",
+              "hi": "एन. एम. ई. अब्द",
+              "bn": "এন. এম. ই. আবদ"
+            }
+          }
+        },
+        "id": 125185495,
+        "time": 80,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 11,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Maata Magassa",
+          "firstName": "Maata Magassa",
+          "slug": "maata-magassa",
+          "shortName": "M. Magassa",
+          "position": "M",
+          "jerseyNumber": "37",
+          "userCount": 102,
+          "gender": "M",
+          "id": 1531104,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1072915200,
+          "proposedMarketValueRaw": {
+            "value": 215000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماتا ماغاسا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ماغاسا"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380258,
+        "time": 78,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 13,
+        "incidentType": "card"
+      },
+      {
+        "playerIn": {
+          "name": "Shabaib Al Khaldi",
+          "slug": "shabib-al-khaldi",
+          "shortName": "S. Al-Khaldi",
+          "position": "F",
+          "jerseyNumber": "20",
+          "height": 185,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1006302,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 902793600,
+          "proposedMarketValueRaw": {
+            "value": 290000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شبيب الخالدي",
+              "hi": "शबाइब अल-खाल्दी",
+              "bn": "শাবাইব আল-খালদি"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. الخالدي",
+              "hi": "एस. अल-खाल्दी",
+              "bn": "এস. আল-খালদি"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Yousef Nasser",
+          "slug": "yousef-nasser-al-sulaiman",
+          "shortName": "Y. Nasser",
+          "position": "F",
+          "jerseyNumber": "20",
+          "height": 176,
+          "userCount": 122,
+          "gender": "M",
+          "id": 130074,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 655430400,
+          "proposedMarketValueRaw": {
+            "value": 210000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر، يوسف",
+              "hi": "नासिर, यूसुफ",
+              "bn": "নাসের, ইউসুফ"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. ناصر",
+              "hi": "वाई. नासिर",
+              "bn": "ওয়াই. নাসের"
+            }
+          }
+        },
+        "id": 125185492,
+        "time": 77,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 14,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Ahmad Al Dhefiri",
+          "slug": "ahmad-al-dhefiri",
+          "shortName": "A. Al-Dhefiri",
+          "position": "M",
+          "jerseyNumber": "8",
+          "height": 179,
+          "userCount": 36,
+          "gender": "M",
+          "id": 868946,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 694828800,
+          "proposedMarketValueRaw": {
+            "value": 275000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أحمد الضفيري",
+              "hi": "अहमद अल-देफिरी",
+              "bn": "আহমদ আল-ধেফিরি"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. الضفيري",
+              "hi": "ए. अल-देफिरी",
+              "bn": "এ. আল-ধেফিরি"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380247,
+        "time": 74,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 17,
+        "incidentType": "card"
+      },
+      {
+        "playerIn": {
+          "name": "El Mami Tetah",
+          "firstName": "El Mami Tetah",
+          "lastName": "",
+          "slug": "el-mami-tetah",
+          "shortName": "E. M. Tetah",
+          "position": "M",
+          "height": 170,
+          "userCount": 146,
+          "gender": "M",
+          "id": 1101148,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1005523200,
+          "proposedMarketValueRaw": {
+            "value": 205000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "المامي تيتاه"
+            },
+            "shortNameTranslation": {
+              "ar": "ا. تيتاه"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Idrissa Thiam",
+          "firstName": "",
+          "lastName": "",
+          "slug": "idrissa-thiam",
+          "shortName": "I. Thiam",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 177,
+          "userCount": 182,
+          "gender": "M",
+          "id": 1010564,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967852800,
+          "proposedMarketValueRaw": {
+            "value": 290000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدريسا ثيام",
+              "hi": "इद्रिसा थियाम",
+              "bn": "ইদ্রিসা থিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ثيام",
+              "hi": "आई. थियाम",
+              "bn": "আই. থিয়াম"
+            }
+          }
+        },
+        "id": 125185461,
+        "time": 69,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Ahmed M'Bareck",
+          "slug": "ahmed-mbareck",
+          "shortName": "A. M'Bareck",
+          "position": "F",
+          "jerseyNumber": "23",
+          "height": 176,
+          "userCount": 83,
+          "gender": "M",
+          "id": 1134659,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1015372800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أحمد م'بارك"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. م'بارك"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Mamadou Sy",
+          "firstName": "Mamadou Sy",
+          "slug": "mamadou-sy",
+          "shortName": "M. Sy",
+          "position": "F",
+          "height": 185,
+          "userCount": 171,
+          "gender": "M",
+          "id": 1465026,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 978220800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مامادو سي"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سي"
+            }
+          }
+        },
+        "id": 125185460,
+        "time": 69,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 22,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Nasser Falah",
+          "firstName": "Nasser Falah",
+          "lastName": "",
+          "slug": "nasser-falah",
+          "shortName": "N. Falah",
+          "position": "M",
+          "userCount": 2,
+          "gender": "M",
+          "id": 1110503,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 915148800,
+          "proposedMarketValueRaw": {
+            "value": 46000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ناصر فلاح",
+              "hi": "नासिर फ़लाह",
+              "bn": "নাসের ফালাহ"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. فلاح",
+              "hi": "एन. फ़लाह",
+              "bn": "এন. ফালাহ"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Reda Hani",
+          "slug": "hani-reda",
+          "shortName": "R. Hani",
+          "position": "M",
+          "jerseyNumber": "4",
+          "height": 170,
+          "userCount": 25,
+          "gender": "M",
+          "id": 1006870,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 877910400,
+          "proposedMarketValueRaw": {
+            "value": 290000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رضا هاني",
+              "hi": "रेडा हानी",
+              "bn": "রেদা হানি"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. هاني",
+              "hi": "आर. हानी",
+              "bn": "আর. হানি"
+            }
+          }
+        },
+        "id": 125185457,
+        "time": 65,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Rashed Al Dosari",
+          "firstName": "Rashed Al Dosari",
+          "lastName": "",
+          "slug": "rashed-al-dosari",
+          "shortName": "R. A. Dosari",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 28,
+          "gender": "M",
+          "id": 1122843,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 963792000,
+          "proposedMarketValueRaw": {
+            "value": 220000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "راشد الدوسري",
+              "hi": "रशीद अल दोसरी",
+              "bn": "রাশেদ আল দোসারী"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. أ. الدوسري",
+              "hi": "आर. ए. दोसरी",
+              "bn": "আর. এ. দোসারী"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380191,
+        "time": 54,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 37,
+        "incidentType": "card"
+      },
+      {
+        "text": "HT",
+        "homeScore": 2,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "player": {
+          "name": "Sidi Yacoub",
+          "slug": "sidi-yacoub",
+          "shortName": "S. Yacoub",
+          "position": "M",
+          "jerseyNumber": "29",
+          "height": 176,
+          "userCount": 75,
+          "gender": "M",
+          "id": 1008231,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 818553600,
+          "proposedMarketValueRaw": {
+            "value": 160000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيدي يعقوب",
+              "hi": "सिदी याकूब",
+              "bn": "সিদি ইয়াকুব"
+            },
+            "shortNameTranslation": {
+              "ar": "س. يعقوب",
+              "hi": "एस. याकूब",
+              "bn": "এস. ইয়াকুব"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380163,
+        "time": 45,
+        "addedTime": 1,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 1,
+        "incidentType": "card"
+      },
+      {
+        "player": {
+          "name": "Idrissa Thiam",
+          "firstName": "",
+          "lastName": "",
+          "slug": "idrissa-thiam",
+          "shortName": "I. Thiam",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 177,
+          "userCount": 182,
+          "gender": "M",
+          "id": 1010564,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967852800,
+          "proposedMarketValueRaw": {
+            "value": 290000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إدريسا ثيام",
+              "hi": "इद्रिसा थियाम",
+              "bn": "ইদ্রিসা থিয়াম"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ثيام",
+              "hi": "आई. थियाम",
+              "bn": "আই. থিয়াম"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380162,
+        "time": 42,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 4,
+        "incidentType": "card"
+      },
+      {
+        "player": {
+          "name": "Hassan Hamdan Al-Enezi",
+          "firstName": "Hassan Hamdan Al-Enezi",
+          "slug": "hassan-hamdan-al-enezi",
+          "shortName": "H. H. Al-Enezi",
+          "position": "D",
+          "jerseyNumber": "2",
+          "height": 184,
+          "userCount": 47,
+          "gender": "M",
+          "id": 1461347,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967680000,
+          "proposedMarketValueRaw": {
+            "value": 305000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "حسن حمدان",
+              "hi": "हसन हमदान",
+              "bn": "হাসান হামদান"
+            },
+            "shortNameTranslation": {
+              "ar": "ح. ح. العنزي",
+              "hi": "एच. एच. अल-एनेज़ी",
+              "bn": "এইচ.এইচ. আল-এনেজি"
+            }
+          }
+        },
+        "rescinded": false,
+        "id": 124380118,
+        "time": 32,
+        "isHome": true,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 14,
+        "incidentType": "card"
+      },
+      {
+        "from": "owngoal",
+        "homeScore": 2,
+        "awayScore": 0,
+        "player": {
+          "name": "Nouh Mohamed El Abd",
+          "firstName": "Nouh Mohamed El Abd",
+          "lastName": "",
+          "slug": "nouh-mohamed-el-abd",
+          "shortName": "N. M. E. Abd",
+          "position": "D",
+          "jerseyNumber": "24",
+          "height": 186,
+          "userCount": 210,
+          "gender": "M",
+          "id": 1444497,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 977616000,
+          "proposedMarketValueRaw": {
+            "value": 97000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نوح محمد عبد",
+              "hi": "नौह मोहम्मद अल अब्द",
+              "bn": "নূহ মোহাম্মদ এল আবদ"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. عبد",
+              "hi": "एन. एम. ई. अब्द",
+              "bn": "এন. এম. ই. আবদ"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330329326,
+        "time": 23,
+        "isHome": true,
+        "incidentClass": "ownGoal",
+        "reversedPeriodTime": 23,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Mohammad Daham",
+          "firstName": "Mohammad Daham",
+          "slug": "mohammad-daham",
+          "shortName": "M. Daham",
+          "position": "M",
+          "jerseyNumber": "11",
+          "height": 178,
+          "userCount": 160,
+          "gender": "M",
+          "id": 1500636,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 950745600,
+          "proposedMarketValueRaw": {
+            "value": 375000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "محمد دهم",
+              "hi": "मोहम्मद दहम",
+              "bn": "মোহাম্মদ দাহাম"
+            },
+            "shortNameTranslation": {
+              "ar": "م. دهم",
+              "hi": "एम. दहम",
+              "bn": "এম. দাহাম"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330328332,
+        "time": 8,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 38,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "0fdf71",
+        "number": "ffffff",
+        "outline": "0fdf71",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "0033ff",
+        "number": "ffffff",
+        "outline": "0033ff",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ef790b",
+        "number": "050505",
+        "outline": "ef790b",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "008800",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/13982219": {
+    "event": {
+      "tournament": {
+        "name": "Arab Cup, Qualification",
+        "slug": "arab-cup-qualification",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Arab Cup",
+          "slug": "arab-cup",
+          "primaryColorHex": "#8a1538",
+          "secondaryColorHex": "#999999",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 27982,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 17034,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العرب",
+              "hi": "अरब कप",
+              "bn": "আরব কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "isLive": false,
+        "id": 93613,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كأس العرب، التصفيات"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Arab Cup 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 76482
+      },
+      "roundInfo": {
+        "round": 1,
+        "name": "Qualification Round 1",
+        "slug": "qualification-round-1"
+      },
+      "customId": "EVbsthc",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Kuwait",
+        "slug": "kuwait",
+        "shortName": "Kuwait",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 12643,
+        "manager": {
+          "name": "Helio Sousa",
+          "slug": "helio-sousa",
+          "shortName": "H. Sousa",
+          "id": 784955,
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "Dias Sousa, Helio Filipe"
+            },
+            "shortNameTranslation": {
+              "ar": "H. F. D. Sousa"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Kuwait City"
+          },
+          "venueCoordinates": {
+            "latitude": 29.36972,
+            "longitude": 47.97833
+          },
+          "hidden": true,
+          "slug": "jaber-al-ahmad-international-stadium",
+          "name": "Jaber al-Ahmad International Stadium",
+          "capacity": 60000,
+          "id": 26295,
+          "country": {
+            "alpha2": "KW",
+            "alpha3": "KWT",
+            "name": "Kuwait",
+            "slug": "kuwait"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب جابر الأحمد الدولي",
+              "hi": "जाबेर अल-अहमद इंटरनेशनल स्टेडियम",
+              "bn": "জাবের আল-আহমদ ইন্টারন্যাশনাল স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Jaber al-Ahmad International Stadium",
+            "capacity": 60000
+          }
+        },
+        "nameCode": "KUW",
+        "ranking": 135,
+        "class": 1,
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 5368,
+        "country": {
+          "alpha2": "KW",
+          "alpha3": "KWT",
+          "name": "Kuwait",
+          "slug": "kuwait"
+        },
+        "fullName": "Kuwait",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#0033ff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -568080000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الكويت",
+            "ru": "Кувейт",
+            "hi": "कुवैत",
+            "bn": "কুয়েত"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Mauritania",
+        "slug": "mauritania",
+        "shortName": "Mauritania",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 32950,
+        "manager": {
+          "name": "Aritz Lopez Garai",
+          "slug": "aritz-lopez-garai",
+          "shortName": "A. L. Garai",
+          "id": 788800,
+          "country": {
+            "alpha2": "ES",
+            "alpha3": "ESP",
+            "name": "Spain",
+            "slug": "spain"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أريتس لوبيز غاراي"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. ل. غاراي"
+            }
+          }
+        },
+        "nameCode": "MRT",
+        "ranking": 114,
+        "class": 1,
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 4779,
+        "country": {
+          "alpha2": "MR",
+          "alpha3": "MRT",
+          "name": "Mauritania",
+          "slug": "mauritania"
+        },
+        "fullName": "Mauritania",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#008000",
+          "secondary": "#ffdf00",
+          "text": "#ffdf00"
+        },
+        "foundationDateTimestamp": -261532800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "موريتانيا",
+            "ru": "Мавритания",
+            "hi": "मॉरिटानिया",
+            "bn": "মৌরিতানিয়া"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 2,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1764079607,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1764081673
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 13982219,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1764079607,
+        "extra": 540
+      },
+      "slug": "kuwait-mauritania",
+      "currentPeriodStartTimestamp": 1764079607,
+      "startTimestamp": 1764075600,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "cupMatchesInRound": 1,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/13982219/votes": {
+    "vote": {
+      "vote1": 2135,
+      "vote2": 1288,
+      "voteX": 578
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 567,
+      "voteNo": 155
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 444,
+      "voteNoGoal": 42,
+      "voteAway": 187
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/13982219/managers": {
+    "homeManager": {
+      "name": "Juan Antonio Pizzi",
+      "slug": "juan-antonio-pizzi",
+      "shortName": "J. A. Pizzi",
+      "id": 785230,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "خوان أنطونيو بيزي",
+          "hi": "जुआन एंटोनियो पिज्जी",
+          "bn": "হুয়ান আন্তোনিও পিজ্জি"
+        },
+        "shortNameTranslation": {
+          "ar": "ج. أ. بيزي",
+          "hi": "जे. ए. पिज्जी",
+          "bn": "জে. এ. পিজ্জি"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Aritz Lopez Garai",
+      "slug": "aritz-lopez-garai",
+      "shortName": "A. L. Garai",
+      "id": 788800,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "أريتس لوبيز غاراي"
+        },
+        "shortNameTranslation": {
+          "ar": "أ. ل. غاراي"
+        }
+      }
+    }
+  },
+  "event/13982219/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Khaled Al Rashidi",
+            "slug": "khaled-al-rashidi",
+            "shortName": "K. A. Rashidi",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 185,
+            "userCount": 67,
+            "gender": "M",
+            "id": 58055,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 545788800,
+            "proposedMarketValueRaw": {
+              "value": 73000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "خالد الرشيدي",
+                "hi": "खालिद अल रशीदी",
+                "bn": "খালেদ আল রশিদি"
+              },
+              "shortNameTranslation": {
+                "ar": "خ. الرشيدي",
+                "hi": "के.ए. रशीदी",
+                "bn": "কে. এ. রাশিদি"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Rashed Al Dosari",
+            "firstName": "Rashed Al Dosari",
+            "lastName": "",
+            "slug": "rashed-al-dosari",
+            "shortName": "R. A. Dosari",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 28,
+            "gender": "M",
+            "id": 1122843,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 963792000,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "راشد الدوسري",
+                "hi": "रशीद अल दोसरी",
+                "bn": "রাশেদ আল দোসারী"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. أ. الدوسري",
+                "hi": "आर. ए. दोसरी",
+                "bn": "আর. এ. দোসারী"
+              }
+            }
+          },
+          "teamId": 23480,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Hassan Hamdan Al-Enezi",
+            "firstName": "Hassan Hamdan Al-Enezi",
+            "slug": "hassan-hamdan-al-enezi",
+            "shortName": "H. H. Al-Enezi",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 184,
+            "userCount": 47,
+            "gender": "M",
+            "id": 1461347,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 967680000,
+            "proposedMarketValueRaw": {
+              "value": 305000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "حسن حمدان",
+                "hi": "हसन हमदान",
+                "bn": "হাসান হামদান"
+              },
+              "shortNameTranslation": {
+                "ar": "ح. ح. العنزي",
+                "hi": "एच. एच. अल-एनेज़ी",
+                "bn": "এইচ.এইচ. আল-এনেজি"
+              }
+            }
+          },
+          "teamId": 167130,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Khaled Al-Fadhli",
+            "slug": "al-fadhli-khaled",
+            "shortName": "K. Al-Fadhli",
+            "position": "D",
+            "jerseyNumber": "6",
+            "userCount": 10,
+            "gender": "M",
+            "id": 1951721,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1014422400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الفاضلي، خالد"
+              },
+              "shortNameTranslation": {
+                "ar": "خ. الفاضلي"
+              }
+            }
+          },
+          "teamId": 241802,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Moaath Al Dhafiri",
+            "firstName": "Moaath Al Dhafiri",
+            "slug": "moaath-meshal",
+            "shortName": "M. Meshal",
+            "position": "D",
+            "jerseyNumber": "3",
+            "userCount": 26,
+            "gender": "M",
+            "id": 1123418,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 864000000,
+            "proposedMarketValueRaw": {
+              "value": 185000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "معاذ مشعل",
+                "hi": "मोआथ मेशाल",
+                "bn": "মোয়াথ মেশাল"
+              },
+              "shortNameTranslation": {
+                "ar": "م. مشعل",
+                "hi": "एम. मेशल",
+                "bn": "এম. মেশাল"
+              }
+            }
+          },
+          "teamId": 23480,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Reda Hani",
+            "slug": "hani-reda",
+            "shortName": "R. Hani",
+            "position": "M",
+            "jerseyNumber": "4",
+            "height": 170,
+            "userCount": 25,
+            "gender": "M",
+            "id": 1006870,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 877910400,
+            "proposedMarketValueRaw": {
+              "value": 290000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رضا هاني",
+                "hi": "रेडा हानी",
+                "bn": "রেদা হানি"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. هاني",
+                "hi": "आर. हानी",
+                "bn": "আর. হানি"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ahmad Al Dhefiri",
+            "slug": "ahmad-al-dhefiri",
+            "shortName": "A. Al-Dhefiri",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 179,
+            "userCount": 36,
+            "gender": "M",
+            "id": 868946,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 694828800,
+            "proposedMarketValueRaw": {
+              "value": 275000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أحمد الضفيري",
+                "hi": "अहमद अल-देफिरी",
+                "bn": "আহমদ আল-ধেফিরি"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. الضفيري",
+                "hi": "ए. अल-देफिरी",
+                "bn": "এ. আল-ধেফিরি"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Eid Al Rashidi",
+            "slug": "eid-al-rashidi",
+            "shortName": "E. A. Rashidi",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 175,
+            "userCount": 81,
+            "gender": "M",
+            "id": 994841,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 927504000,
+            "proposedMarketValueRaw": {
+              "value": 360000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عيد الرشيدي",
+                "hi": "ईद अल रशीदी",
+                "bn": "ঈদুল রশিদী"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أ. الرشيدي",
+                "hi": "ई. ए. रशीदी",
+                "bn": "ই. এ. রাশিদি"
+              }
+            }
+          },
+          "teamId": 23480,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Athbi Shehab",
+            "firstName": "Athbi Shehab",
+            "slug": "athbi-shehab",
+            "shortName": "A. Shehab",
+            "position": "F",
+            "jerseyNumber": "18",
+            "userCount": 31,
+            "gender": "M",
+            "id": 1502648,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 631152000,
+            "proposedMarketValueRaw": {
+              "value": 170000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عذبي شهاب",
+                "hi": "अथबी शेहाब",
+                "bn": "অথবি শেহাব"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. شهاب",
+                "hi": "ए. शेहाब",
+                "bn": "এ. শেহাব"
+              }
+            }
+          },
+          "teamId": 23480,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Mohammad Daham",
+            "firstName": "Mohammad Daham",
+            "slug": "mohammad-daham",
+            "shortName": "M. Daham",
+            "position": "M",
+            "jerseyNumber": "11",
+            "height": 178,
+            "userCount": 160,
+            "gender": "M",
+            "id": 1500636,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 950745600,
+            "proposedMarketValueRaw": {
+              "value": 375000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد دهم",
+                "hi": "मोहम्मद दहम",
+                "bn": "মোহাম্মদ দাহাম"
+              },
+              "shortNameTranslation": {
+                "ar": "م. دهم",
+                "hi": "एम. दहम",
+                "bn": "এম. দাহাম"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Yousef Nasser",
+            "slug": "yousef-nasser-al-sulaiman",
+            "shortName": "Y. Nasser",
+            "position": "F",
+            "jerseyNumber": "20",
+            "height": 176,
+            "userCount": 122,
+            "gender": "M",
+            "id": 130074,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 655430400,
+            "proposedMarketValueRaw": {
+              "value": 210000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ناصر، يوسف",
+                "hi": "नासिर, यूसुफ",
+                "bn": "নাসের, ইউসুফ"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. ناصر",
+                "hi": "वाई. नासिर",
+                "bn": "ওয়াই. নাসের"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Nasser Falah",
+            "firstName": "Nasser Falah",
+            "lastName": "",
+            "slug": "nasser-falah",
+            "shortName": "N. Falah",
+            "position": "M",
+            "userCount": 2,
+            "gender": "M",
+            "id": 1110503,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 915148800,
+            "proposedMarketValueRaw": {
+              "value": 46000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ناصر فلاح",
+                "hi": "नासिर फ़लाह",
+                "bn": "নাসের ফালাহ"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. فلاح",
+                "hi": "एन. फ़लाह",
+                "bn": "এন. ফালাহ"
+              }
+            }
+          },
+          "teamId": 40654,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Shabaib Al Khaldi",
+            "slug": "shabib-al-khaldi",
+            "shortName": "S. Al-Khaldi",
+            "position": "F",
+            "jerseyNumber": "20",
+            "height": 185,
+            "userCount": 15,
+            "gender": "M",
+            "id": 1006302,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 902793600,
+            "proposedMarketValueRaw": {
+              "value": 290000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شبيب الخالدي",
+                "hi": "शबाइब अल-खाल्दी",
+                "bn": "শাবাইব আল-খালদি"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. الخالدي",
+                "hi": "एस. अल-खाल्दी",
+                "bn": "এস. আল-খালদি"
+              }
+            }
+          },
+          "teamId": 40654,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Sulaiman Abdulghafour",
+            "slug": "abdulghafoor-sulaiman",
+            "shortName": "S. Abdulghafoor",
+            "position": "G",
+            "jerseyNumber": "22",
+            "height": 183,
+            "userCount": 72,
+            "gender": "M",
+            "id": 787456,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 667440000,
+            "proposedMarketValueRaw": {
+              "value": 265000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سليمان عبدالغفور"
+              },
+              "shortNameTranslation": {
+                "ar": "س. عبدالغفور",
+                "hi": "एस. अब्दुलग़फ़ौर",
+                "bn": "এস. আব্দুল গফুর"
+              }
+            }
+          },
+          "teamId": 35892,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Suod Alhoushan",
+            "slug": "alhoushan-suod",
+            "shortName": "S. Alhoushan",
+            "position": "G",
+            "jerseyNumber": "33",
+            "userCount": 23,
+            "gender": "M",
+            "id": 1562825,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 953337600,
+            "proposedMarketValueRaw": {
+              "value": 190000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الحوشان، سعود"
+              },
+              "shortNameTranslation": {
+                "ar": "س. الحوشان"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Fahad Al-Hajeri",
+            "slug": "fahad-al-hajeri",
+            "shortName": "F. Al-Hajeri",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 186,
+            "userCount": 32,
+            "gender": "M",
+            "id": 785966,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 689731200,
+            "proposedMarketValueRaw": {
+              "value": 260000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فهد الهاجري",
+                "hi": "फहाद अल-हजेरी",
+                "bn": "ফাহাদ আল-হাজেরি"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. الهاجري",
+                "hi": "एफ. अल-हजेरी",
+                "bn": "এফ. আল-হাজেরি"
+              }
+            }
+          },
+          "teamId": 32525,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Sultan Al Enezi",
+            "slug": "sultan-al-enezi",
+            "shortName": "S. Al-Enezi",
+            "position": "M",
+            "height": 180,
+            "userCount": 34,
+            "gender": "M",
+            "id": 377732,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 712368000,
+            "proposedMarketValueRaw": {
+              "value": 240000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سلطان العنزي",
+                "hi": "सुल्तान अल एनेज़ी",
+                "bn": "সুলতান আল এনেজি"
+              },
+              "shortNameTranslation": {
+                "ar": "س. العنزي",
+                "hi": "एस. अल-एनेज़ी",
+                "bn": "এস. আল-এনেজি"
+              }
+            }
+          },
+          "teamId": 40654,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Fawaz Ayedh Al Otaibi",
+            "firstName": "Fawaz Ayedh Al Otaibi",
+            "slug": "fawaz-ayedh",
+            "shortName": "F. Ayedh",
+            "position": "M",
+            "userCount": 11,
+            "gender": "M",
+            "id": 1100820,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 856396800,
+            "proposedMarketValueRaw": {
+              "value": 215000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فواز عايض",
+                "hi": "फ़वाज़ अयेद",
+                "bn": "ফাওয়াজ আয়েদ"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. عايض",
+                "hi": "एफ. अयेदह",
+                "bn": "এফ. আয়েদ"
+              }
+            }
+          },
+          "teamId": 55161,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Yousef Majed",
+            "firstName": "Yousef Majed",
+            "slug": "yousef-majed",
+            "shortName": "Y. Majed",
+            "position": "M",
+            "jerseyNumber": "30",
+            "height": 170,
+            "userCount": 87,
+            "gender": "M",
+            "id": 1542559,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1105574400,
+            "proposedMarketValueRaw": {
+              "value": 205000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "يوسف ماجد"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. ماجد"
+              }
+            }
+          },
+          "teamId": 35892,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Mohammed Al Sharif",
+            "slug": "mohammed-al-sharif",
+            "shortName": "M. A. Sharif",
+            "position": "F",
+            "jerseyNumber": "29",
+            "userCount": 3,
+            "gender": "M",
+            "id": 1114635,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 857433600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد الشريف"
+              },
+              "shortNameTranslation": {
+                "ar": "م. الشريف"
+              }
+            }
+          },
+          "teamId": 486520,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Abdullah Al Awadhi",
+            "slug": "abdullah-al-awadhi",
+            "shortName": "A. A. Awadhi",
+            "position": "F",
+            "jerseyNumber": "15",
+            "height": 187,
+            "userCount": 22,
+            "gender": "M",
+            "id": 2048455,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1016582400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عبدالله العوضي"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. العوضي"
+              }
+            }
+          },
+          "teamId": 23480,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Moath Al-Enezi",
+            "slug": "m-al-asaima",
+            "shortName": "M. Al-Enezi",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 167,
+            "userCount": 24,
+            "gender": "M",
+            "id": 2020877,
+            "country": {
+              "alpha2": "KW",
+              "alpha3": "KWT",
+              "name": "Kuwait",
+              "slug": "kuwait"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1058313600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "معاذ العسيمة"
+              },
+              "shortNameTranslation": {
+                "ar": "م. العسيمة"
+              }
+            }
+          },
+          "teamId": 55161,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Nasser Khader",
+            "slug": "nasser-khader",
+            "shortName": "N. Khader",
+            "userCount": 1,
+            "id": 2363260,
+            "country": {},
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 5368,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-2-3-1",
+      "playerColor": {
+        "primary": "0033ff",
+        "number": "ffffff",
+        "outline": "0033ff",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "0fdf71",
+        "number": "ffffff",
+        "outline": "0fdf71",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Babacar Diop",
+            "slug": "babacar-diop",
+            "shortName": "B. Diop",
+            "position": "G",
+            "jerseyNumber": "17",
+            "height": 185,
+            "userCount": 53,
+            "gender": "M",
+            "id": 985940,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 842918400,
+            "proposedMarketValueRaw": {
+              "value": 23000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باباكر ديوب",
+                "hi": "बबाकर डियोप",
+                "bn": "বাবাকার দিওপ"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. ديوب",
+                "hi": "बी. डियोप",
+                "bn": "বি. দিওপ"
+              }
+            }
+          },
+          "teamId": 134304,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Nouh Mohamed El Abd",
+            "firstName": "Nouh Mohamed El Abd",
+            "lastName": "",
+            "slug": "nouh-mohamed-el-abd",
+            "shortName": "N. M. E. Abd",
+            "position": "D",
+            "jerseyNumber": "24",
+            "height": 186,
+            "userCount": 210,
+            "gender": "M",
+            "id": 1444497,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 977616000,
+            "proposedMarketValueRaw": {
+              "value": 97000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نوح محمد عبد",
+                "hi": "नौह मोहम्मद अल अब्द",
+                "bn": "নূহ মোহাম্মদ এল আবদ"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. عبد",
+                "hi": "एन. एम. ई. अब्द",
+                "bn": "এন. এম. ই. আবদ"
+              }
+            }
+          },
+          "teamId": 24394,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Lamine Ba",
+            "slug": "lamine-ba",
+            "shortName": "L. Ba",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 190,
+            "userCount": 590,
+            "gender": "M",
+            "id": 872038,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 872380800,
+            "proposedMarketValueRaw": {
+              "value": 550000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لامين با",
+                "hi": "लामिन बा",
+                "bn": "ল্যামিন বা"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. با",
+                "hi": "एल. बा",
+                "bn": "এল. বা"
+              }
+            }
+          },
+          "teamId": 231380,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Demini Saleck",
+            "firstName": "Demini Saleck",
+            "lastName": "",
+            "slug": "demini-saleck",
+            "shortName": "D. Saleck",
+            "position": "D",
+            "jerseyNumber": "25",
+            "height": 184,
+            "userCount": 148,
+            "gender": "M",
+            "id": 1444500,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 786153600,
+            "proposedMarketValueRaw": {
+              "value": 95000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديميني ساليك",
+                "hi": "डेमिनी सालेक",
+                "bn": "ডেমিনি সালেক"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ساليك",
+                "hi": "डी. सालेक",
+                "bn": "ডি. সালেক"
+              }
+            }
+          },
+          "teamId": 134304,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Khadim Diaw",
+            "firstName": "Khadim Diaw",
+            "slug": "khadim-diaw",
+            "shortName": "K. Diaw",
+            "position": "D",
+            "jerseyNumber": "12",
+            "height": 184,
+            "userCount": 377,
+            "gender": "M",
+            "id": 1407653,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 899769600,
+            "proposedMarketValueRaw": {
+              "value": 180000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاظم دياو",
+                "hi": "ख़ादिम दियाव",
+                "bn": "খাদিম দিয়া"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. دياو",
+                "hi": "के. दियाव",
+                "bn": "কে. দিয়াও"
+              }
+            }
+          },
+          "teamId": 69322,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Maata Magassa",
+            "firstName": "Maata Magassa",
+            "slug": "maata-magassa",
+            "shortName": "M. Magassa",
+            "position": "M",
+            "jerseyNumber": "37",
+            "userCount": 102,
+            "gender": "M",
+            "id": 1531104,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1072915200,
+            "proposedMarketValueRaw": {
+              "value": 215000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتا ماغاسا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. ماغاسا"
+              }
+            }
+          },
+          "teamId": 373168,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Sidi Yacoub",
+            "slug": "sidi-yacoub",
+            "shortName": "S. Yacoub",
+            "position": "M",
+            "jerseyNumber": "29",
+            "height": 176,
+            "userCount": 75,
+            "gender": "M",
+            "id": 1008231,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 818553600,
+            "proposedMarketValueRaw": {
+              "value": 160000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيدي يعقوب",
+                "hi": "सिदी याकूब",
+                "bn": "সিদি ইয়াকুব"
+              },
+              "shortNameTranslation": {
+                "ar": "س. يعقوب",
+                "hi": "एस. याकूब",
+                "bn": "এস. ইয়াকুব"
+              }
+            }
+          },
+          "teamId": 375026,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Moctar El Hacen",
+            "slug": "el-hacen",
+            "shortName": "M. El Hacen",
+            "position": "M",
+            "jerseyNumber": "18",
+            "height": 181,
+            "userCount": 99,
+            "gender": "M",
+            "id": 912144,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 883526400,
+            "proposedMarketValueRaw": {
+              "value": 190000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الحسن",
+                "hi": "एल हसेन",
+                "bn": "এল হেসেন"
+              },
+              "shortNameTranslation": {
+                "ar": "الحسن",
+                "hi": "ई. हसेन",
+                "bn": "ই. হেসেন"
+              }
+            }
+          },
+          "teamId": 55043,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Sidi Amar Bouna",
+            "firstName": "",
+            "slug": "sidi-amar-bouna",
+            "shortName": "S. Amar",
+            "position": "M",
+            "jerseyNumber": "28",
+            "height": 172,
+            "userCount": 1078,
+            "gender": "M",
+            "id": 1459304,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 915062400,
+            "proposedMarketValueRaw": {
+              "value": 385000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيدي عمار بونا",
+                "hi": "सिदी अमर बौना",
+                "bn": "সিদি আমার বউনা"
+              },
+              "shortNameTranslation": {
+                "ar": "س. عمار",
+                "hi": "एस. अमर",
+                "bn": "এস. অমর"
+              }
+            }
+          },
+          "teamId": 305260,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Mamadou Sy",
+            "firstName": "Mamadou Sy",
+            "slug": "mamadou-sy",
+            "shortName": "M. Sy",
+            "position": "F",
+            "height": 185,
+            "userCount": 171,
+            "gender": "M",
+            "id": 1465026,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 978220800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مامادو سي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سي"
+              }
+            }
+          },
+          "teamId": 191189,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Idrissa Thiam",
+            "firstName": "",
+            "lastName": "",
+            "slug": "idrissa-thiam",
+            "shortName": "I. Thiam",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 177,
+            "userCount": 182,
+            "gender": "M",
+            "id": 1010564,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 967852800,
+            "proposedMarketValueRaw": {
+              "value": 290000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إدريسا ثيام",
+                "hi": "इद्रिसा थियाम",
+                "bn": "ইদ্রিসা থিয়াম"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. ثيام",
+                "hi": "आई. थियाम",
+                "bn": "আই. থিয়াম"
+              }
+            }
+          },
+          "teamId": 205470,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "El Mami Tetah",
+            "firstName": "El Mami Tetah",
+            "lastName": "",
+            "slug": "el-mami-tetah",
+            "shortName": "E. M. Tetah",
+            "position": "M",
+            "height": 170,
+            "userCount": 146,
+            "gender": "M",
+            "id": 1101148,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1005523200,
+            "proposedMarketValueRaw": {
+              "value": 205000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "المامي تيتاه"
+              },
+              "shortNameTranslation": {
+                "ar": "ا. تيتاه"
+              }
+            }
+          },
+          "teamId": 339159,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ahmed M'Bareck",
+            "slug": "ahmed-mbareck",
+            "shortName": "A. M'Bareck",
+            "position": "F",
+            "jerseyNumber": "23",
+            "height": 176,
+            "userCount": 83,
+            "gender": "M",
+            "id": 1134659,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1015372800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أحمد م'بارك"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. م'بارك"
+              }
+            }
+          },
+          "teamId": 69322,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ahmed El Moctar Ahmed",
+            "slug": "ahmed-el-moctar",
+            "shortName": "A. E. Moctar",
+            "position": "F",
+            "userCount": 80,
+            "gender": "M",
+            "id": 2023466,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1068854400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أحمد الموكتار"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. الموكتار"
+              }
+            }
+          },
+          "teamId": 313217,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Abderrahmane Sarr",
+            "firstName": "Abderrahmane Sarr",
+            "slug": "abderrahmane-sarr",
+            "shortName": "A. Sarr",
+            "position": "G",
+            "userCount": 453,
+            "gender": "M",
+            "id": 1501813,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1112313600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عبد الرحمن سار"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. سار"
+              }
+            }
+          },
+          "teamId": 305253,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Babacar Niasse",
+            "slug": "babacar-niasse",
+            "shortName": "B. Niasse",
+            "position": "G",
+            "jerseyNumber": "30",
+            "height": 195,
+            "userCount": 451,
+            "gender": "M",
+            "id": 794543,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 851040000,
+            "proposedMarketValueRaw": {
+              "value": 215000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بابكر نياسي",
+                "hi": "बबाकार नियासे",
+                "bn": "বাবার নিয়াসে"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. نياسي",
+                "hi": "ए. पीपर",
+                "bn": "বি. নিয়াসে"
+              }
+            }
+          },
+          "teamId": 55043,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Mohamed Ramdane Zweide",
+            "firstName": "Mohamed Ramdane Zweide",
+            "lastName": "",
+            "slug": "mohamed-ramdane-zweide",
+            "shortName": "M. R. Zweide",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 184,
+            "userCount": 20,
+            "gender": "M",
+            "id": 1103644,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 985478400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "زوايد، محمد رمضان"
+              },
+              "shortNameTranslation": {
+                "ar": "م. رمضان زوايد"
+              }
+            }
+          },
+          "teamId": 134304,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Abdellahi El Id",
+            "slug": "abdellahi-el-id",
+            "shortName": "A. E. Id",
+            "position": "D",
+            "height": 174,
+            "userCount": 18,
+            "id": 2023474,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 989193600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عبد اللهي الإيد"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. الإيد"
+              }
+            }
+          },
+          "teamId": 339159,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Mohamed Sarr",
+            "firstName": "",
+            "lastName": "",
+            "slug": "mohamed-sarr",
+            "shortName": "M. Sarr",
+            "position": "D",
+            "height": 184,
+            "userCount": 27,
+            "gender": "M",
+            "id": 1103219,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1035763200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد سار"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سار"
+              }
+            }
+          },
+          "teamId": 305253,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Guessouma Fofana",
+            "slug": "guessouma-fofana",
+            "shortName": "G. Fofana",
+            "position": "M",
+            "jerseyNumber": "27",
+            "height": 184,
+            "userCount": 167,
+            "gender": "M",
+            "id": 845092,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 724550400,
+            "proposedMarketValueRaw": {
+              "value": 135000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيسوما فوفانا",
+                "hi": "गुसेउमा फ़ोफ़ाना",
+                "bn": "গেসুমা ফোফানা"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. فوفانا",
+                "hi": "जी. फ़ोफ़ाना",
+                "bn": "জি. ফোফানা"
+              }
+            }
+          },
+          "teamId": 69322,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Amar Haïdara",
+            "firstName": "",
+            "lastName": "",
+            "slug": "amar-haidara",
+            "shortName": "A. Haïdara",
+            "position": "M",
+            "jerseyNumber": "70",
+            "height": 172,
+            "userCount": 60,
+            "gender": "M",
+            "id": 1103230,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1069977600,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أمار هايدارا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. هايدارا"
+              }
+            }
+          },
+          "teamId": 5343,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Bakari Camara",
+            "slug": "bakari-camara",
+            "shortName": "B. Camara",
+            "position": "M",
+            "jerseyNumber": "13",
+            "height": 189,
+            "userCount": 321,
+            "gender": "M",
+            "id": 869078,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 757641600,
+            "proposedMarketValueRaw": {
+              "value": 105000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باكاري كامارا",
+                "hi": "बकरी कैमारा",
+                "bn": "বাকারি কামারা"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. كامارا",
+                "hi": "बी. कैमारा",
+                "bn": "বি. কামারা"
+              }
+            }
+          },
+          "teamId": 1675,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Mohamed Saïd",
+            "firstName": "Mohamed Saïd",
+            "slug": "mohamed-said",
+            "shortName": "M. Saïd",
+            "position": "M",
+            "jerseyNumber": "19",
+            "userCount": 17,
+            "gender": "M",
+            "id": 1613047,
+            "country": {
+              "alpha2": "MR",
+              "alpha3": "MRT",
+              "name": "Mauritania",
+              "slug": "mauritania"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 951436800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمد سعيد"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سعيد"
+              }
+            }
+          },
+          "teamId": 134304,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "008800",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ef790b",
+        "number": "050505",
+        "outline": "ef790b",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/13982219/statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Ball possession",
+                "home": "0%",
+                "away": "0%",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 2,
+                "key": "ballPossession"
+              },
+              {
+                "name": "Corner kicks",
+                "home": "1",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Fouls",
+                "home": "12",
+                "away": "12",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 12,
+                "awayValue": 12,
+                "renderType": 1,
+                "key": "fouls"
+              },
+              {
+                "name": "Free kicks",
+                "home": "13",
+                "away": "16",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 13,
+                "awayValue": 16,
+                "renderType": 1,
+                "key": "freeKicks"
+              },
+              {
+                "name": "Yellow cards",
+                "home": "3",
+                "away": "4",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "yellowCards"
+              },
+              {
+                "name": "Red cards",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "redCards"
+              }
+            ]
+          },
+          {
+            "groupName": "Shots",
+            "statisticsItems": [
+              {
+                "name": "Shots on target",
+                "home": "4",
+                "away": "4",
+                "compareCode": 3,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 4,
+                "awayValue": 4,
+                "renderType": 1,
+                "key": "shotsOnGoal"
+              },
+              {
+                "name": "Hit woodwork",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "hitWoodwork"
+              },
+              {
+                "name": "Shots off target",
+                "home": "5",
+                "away": "6",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 5,
+                "awayValue": 6,
+                "renderType": 1,
+                "key": "shotsOffGoal"
+              },
+              {
+                "name": "Blocked shots",
+                "home": "1",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 1,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "blockedScoringAttempt"
+              }
+            ]
+          },
+          {
+            "groupName": "Passes",
+            "statisticsItems": [
+              {
+                "name": "Throw-ins",
+                "home": "21",
+                "away": "28",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 21,
+                "awayValue": 28,
+                "renderType": 1,
+                "key": "throwIns"
+              }
+            ]
+          },
+          {
+            "groupName": "Goalkeeping",
+            "statisticsItems": [
+              {
+                "name": "Goal kicks",
+                "home": "7",
+                "away": "8",
+                "compareCode": 2,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 7,
+                "awayValue": 8,
+                "renderType": 1,
+                "key": "goalKicks"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "event/13982219/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/13982219/win-probability": {
+    "winProbability": {
+      "homeWin": 99,
+      "awayWin": 0,
+      "draw": 1
+    }
+  }
+}

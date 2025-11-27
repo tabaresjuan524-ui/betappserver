@@ -1,0 +1,1431 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/15141369": {
+    "event": {
+      "tournament": {
+        "name": "U17 Friendly Games",
+        "slug": "u17-friendly-games",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "U17 Friendly Games",
+          "slug": "u17-friendly-games",
+          "primaryColorHex": "#25497d",
+          "secondaryColorHex": "#d38f1d",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1786,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 858,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية تحت 17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 5842,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مباريات ودية تحت 17"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "U17 Friendly Games 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 70798
+      },
+      "customId": "dCuskTFi",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Rwanda U17",
+        "slug": "rwanda-u17",
+        "shortName": "Rwanda U17",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 6,
+        "nameCode": "RWA",
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 48853,
+        "country": {
+          "alpha2": "RW",
+          "alpha3": "RWA",
+          "name": "Rwanda",
+          "slug": "rwanda"
+        },
+        "fullName": "Rwanda U17",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#f4f400",
+          "secondary": "#00b000",
+          "text": "#00b000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "رواندا تحت 17"
+          },
+          "shortNameTranslation": {
+            "ar": "رواندا"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Somalia U17",
+        "slug": "somalia-u17",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 376,
+        "manager": {
+          "name": "Nuur Maxamed Amiin",
+          "slug": "nuur-maxamed-amiin",
+          "shortName": "N. M. Amiin",
+          "id": 810163,
+          "country": {
+            "alpha2": "SO",
+            "alpha3": "SOM",
+            "name": "Somalia",
+            "slug": "somalia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نور محمد أمين"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. م. أمين"
+            }
+          }
+        },
+        "nameCode": "SU1",
+        "class": 1,
+        "disabled": false,
+        "national": true,
+        "type": 0,
+        "id": 1077160,
+        "country": {
+          "alpha2": "SO",
+          "alpha3": "SOM",
+          "name": "Somalia",
+          "slug": "somalia"
+        },
+        "fullName": "Somalia U17",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#75aadb",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الصومال تحت 17"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "coverage": -1,
+      "time": {
+        "currentPeriodStartTimestamp": 1763982000,
+        "period1StartTimestamp": 1763978460,
+        "period2StartTimestamp": 1763982000,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "homeScore.period2",
+          "awayScore.period2",
+          "time.currentPeriodStart",
+          "time.period2Start"
+        ],
+        "changeTimestamp": 1763982331
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15141369,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1763982000,
+        "extra": 540
+      },
+      "slug": "somalia-u17-rwanda-u17",
+      "currentPeriodStartTimestamp": 1763982000,
+      "startTimestamp": 1763978400,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15141369/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "text": "HT",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "ffea00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "55b3ff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15141369/votes": {
+    "vote": {
+      "vote1": 0,
+      "vote2": 0,
+      "voteX": 0
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/dCuskTFi/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "U17 Friendly Games",
+          "slug": "u17-friendly-games",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "U17 Friendly Games",
+            "slug": "u17-friendly-games",
+            "primaryColorHex": "#25497d",
+            "secondaryColorHex": "#d38f1d",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1468,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 1786,
+            "hasPerformanceGraphFeature": false,
+            "id": 858,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مباريات ودية تحت 17"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "isLive": false,
+          "id": 5842,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية تحت 17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "U17 Friendly Games 2025",
+          "year": "2025",
+          "editor": false,
+          "id": 70798
+        },
+        "customId": "dCuskTFi",
+        "status": {
+          "code": 7,
+          "description": "2nd half",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Rwanda U17",
+          "slug": "rwanda-u17",
+          "shortName": "Rwanda U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6,
+          "nameCode": "RWA",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 48853,
+          "country": {
+            "alpha2": "RW",
+            "alpha3": "RWA",
+            "name": "Rwanda",
+            "slug": "rwanda"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#f4f400",
+            "secondary": "#00b000",
+            "text": "#00b000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رواندا تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "رواندا"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "Somalia U17",
+          "slug": "somalia-u17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 376,
+          "nameCode": "SU1",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 1077160,
+          "country": {
+            "alpha2": "SO",
+            "alpha3": "SOM",
+            "name": "Somalia",
+            "slug": "somalia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#75aadb",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الصومال تحت 17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1763982000,
+          "initial": 2700,
+          "max": 5400,
+          "extra": 540
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "homeScore.period2",
+            "awayScore.period2",
+            "time.currentPeriodStart",
+            "time.period2Start"
+          ],
+          "changeTimestamp": 1763982331
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15141369,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "statusTime": {
+          "prefix": "",
+          "initial": 2700,
+          "max": 5400,
+          "timestamp": 1763982000,
+          "extra": 540
+        },
+        "slug": "somalia-u17-rwanda-u17",
+        "startTimestamp": 1763978400,
+        "lastPeriod": "period2",
+        "finalResultOnly": false,
+        "feedLocked": true,
+        "isEditor": false
+      }
+    ]
+  },
+  "event/15141369/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "team/48853/events/last/0": {
+    "events": [
+      {
+        "tournament": {
+          "name": "U17 FIFA World Cup, Group C",
+          "slug": "u17-fifa-world-cup-group-c",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "U17 World Championship",
+            "slug": "u17-world-championship",
+            "primaryColorHex": "#398835",
+            "secondaryColorHex": "#377ac4",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1468,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 32226,
+            "hasPerformanceGraphFeature": false,
+            "id": 279,
+            "country": {},
+            "hasEventPlayerStatistics": true,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كأس العالم تحت 17 سنة",
+                "hi": "U-17 वर्ल्ड चैंपियनशिप",
+                "bn": "আন্ডার 17ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 337,
+          "isGroup": true,
+          "groupName": "Group C",
+          "isLive": false,
+          "id": 6207,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم تحت 17 سنة، المجموعة C",
+              "hi": "U17 फीफा वर्ल्ड कप, ग्रुप सी",
+              "bn": "আন্ডার17 ফিফা ওয়ার্ল্ডকাপ, গ্রুপ সি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "U17 World Cup 2011",
+          "year": "2011",
+          "editor": false,
+          "id": 3356
+        },
+        "roundInfo": {
+          "round": 1
+        },
+        "customId": "ZbjsdCu",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 2,
+        "homeTeam": {
+          "name": "Rwanda U17",
+          "slug": "rwanda-u17",
+          "shortName": "Rwanda U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6,
+          "nameCode": "RWA",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 48853,
+          "country": {
+            "alpha2": "RW",
+            "alpha3": "RWA",
+            "name": "Rwanda",
+            "slug": "rwanda"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#f4f400",
+            "secondary": "#00b000",
+            "text": "#00b000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رواندا تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "رواندا"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "England U17",
+          "slug": "england-u17",
+          "shortName": "England U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6469,
+          "nameCode": "ENG",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 22599,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ffffff",
+            "secondary": "#cc0000",
+            "text": "#cc0000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنجلترا تحت 17",
+              "ru": "Англия U17",
+              "hi": "इंग्लैंड U17"
+            },
+            "shortNameTranslation": {
+              "ar": "إنجلترا تحت 17"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 2,
+          "display": 2,
+          "period1": 0,
+          "period2": 2,
+          "normaltime": 2
+        },
+        "time": {},
+        "changes": {
+          "changeTimestamp": 0
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 1746790,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "rwanda-u17-england-u17",
+        "startTimestamp": 1308513600,
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "isEditor": false
+      },
+      {
+        "tournament": {
+          "name": "U17 FIFA World Cup, Group C",
+          "slug": "u17-fifa-world-cup-group-c",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "U17 World Championship",
+            "slug": "u17-world-championship",
+            "primaryColorHex": "#398835",
+            "secondaryColorHex": "#377ac4",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1468,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 32226,
+            "hasPerformanceGraphFeature": false,
+            "id": 279,
+            "country": {},
+            "hasEventPlayerStatistics": true,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كأس العالم تحت 17 سنة",
+                "hi": "U-17 वर्ल्ड चैंपियनशिप",
+                "bn": "আন্ডার 17ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 337,
+          "isGroup": true,
+          "groupName": "Group C",
+          "isLive": false,
+          "id": 6207,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم تحت 17 سنة، المجموعة C",
+              "hi": "U17 फीफा वर्ल्ड कप, ग्रुप सी",
+              "bn": "আন্ডার17 ফিফা ওয়ার্ল্ডকাপ, গ্রুপ সি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "U17 World Cup 2011",
+          "year": "2011",
+          "editor": false,
+          "id": 3356
+        },
+        "roundInfo": {
+          "round": 2
+        },
+        "customId": "xWosdCu",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 1,
+        "homeTeam": {
+          "name": "Uruguay U17",
+          "slug": "uruguay-u17",
+          "shortName": "Uruguay U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 1218,
+          "nameCode": "URU",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 37322,
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#7eacfe",
+            "secondary": "#000000",
+            "text": "#000000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الأوروغواي تحت 17",
+              "ru": "Уругвай U17",
+              "hi": "उरुग्वे U17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Rwanda U17",
+          "slug": "rwanda-u17",
+          "shortName": "Rwanda U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6,
+          "nameCode": "RWA",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 48853,
+          "country": {
+            "alpha2": "RW",
+            "alpha3": "RWA",
+            "name": "Rwanda",
+            "slug": "rwanda"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#f4f400",
+            "secondary": "#00b000",
+            "text": "#00b000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رواندا تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "رواندا"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 1,
+          "display": 1,
+          "period1": 0,
+          "period2": 1,
+          "normaltime": 1
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "time": {},
+        "changes": {
+          "changeTimestamp": 0
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 1746792,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "rwanda-u17-uruguay-u17",
+        "startTimestamp": 1308772800,
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "isEditor": false
+      },
+      {
+        "tournament": {
+          "name": "U17 FIFA World Cup, Group C",
+          "slug": "u17-fifa-world-cup-group-c",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "U17 World Championship",
+            "slug": "u17-world-championship",
+            "primaryColorHex": "#398835",
+            "secondaryColorHex": "#377ac4",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1468,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 32226,
+            "hasPerformanceGraphFeature": false,
+            "id": 279,
+            "country": {},
+            "hasEventPlayerStatistics": true,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطولة كأس العالم تحت 17 سنة",
+                "hi": "U-17 वर्ल्ड चैंपियनशिप",
+                "bn": "আন্ডার 17ওয়ার্ল্ড চ্যাম্পিয়নশিপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 337,
+          "isGroup": true,
+          "groupName": "Group C",
+          "isLive": false,
+          "id": 6207,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس العالم تحت 17 سنة، المجموعة C",
+              "hi": "U17 फीफा वर्ल्ड कप, ग्रुप सी",
+              "bn": "আন্ডার17 ফিফা ওয়ার্ল্ডকাপ, গ্রুপ সি"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "U17 World Cup 2011",
+          "year": "2011",
+          "editor": false,
+          "id": 3356
+        },
+        "roundInfo": {
+          "round": 3
+        },
+        "customId": "PbjsdCu",
+        "status": {
+          "code": 100,
+          "description": "Ended",
+          "type": "finished"
+        },
+        "winnerCode": 3,
+        "homeTeam": {
+          "name": "Canada U17",
+          "slug": "canada-u17",
+          "shortName": "Canada U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 922,
+          "nameCode": "CUU",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 22590,
+          "country": {
+            "alpha2": "CA",
+            "alpha3": "CAN",
+            "name": "Canada",
+            "slug": "canada"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#ff0000",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كندا تحت 17",
+              "ru": "Канада U17",
+              "hi": "केनाडा U17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "awayTeam": {
+          "name": "Rwanda U17",
+          "slug": "rwanda-u17",
+          "shortName": "Rwanda U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6,
+          "nameCode": "RWA",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 48853,
+          "country": {
+            "alpha2": "RW",
+            "alpha3": "RWA",
+            "name": "Rwanda",
+            "slug": "rwanda"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#f4f400",
+            "secondary": "#00b000",
+            "text": "#00b000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رواندا تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "رواندا"
+            }
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "time": {},
+        "changes": {
+          "changeTimestamp": 0
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 1746794,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "rwanda-u17-canada-u17",
+        "startTimestamp": 1309032000,
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "isEditor": false
+      },
+      {
+        "tournament": {
+          "name": "U17 Friendly Games",
+          "slug": "u17-friendly-games",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "U17 Friendly Games",
+            "slug": "u17-friendly-games",
+            "primaryColorHex": "#25497d",
+            "secondaryColorHex": "#d38f1d",
+            "category": {
+              "name": "World",
+              "slug": "world",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1468,
+              "country": {},
+              "flag": "international",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "العالم",
+                  "hi": "विश्व",
+                  "bn": "বিশ্ব"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 1786,
+            "hasPerformanceGraphFeature": false,
+            "id": 858,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مباريات ودية تحت 17"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": false,
+          "isLive": false,
+          "id": 5842,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية تحت 17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "U17 Friendly Games 2025",
+          "year": "2025",
+          "editor": false,
+          "id": 70798
+        },
+        "customId": "dCuskTFi",
+        "status": {
+          "code": 7,
+          "description": "2nd half",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Rwanda U17",
+          "slug": "rwanda-u17",
+          "shortName": "Rwanda U17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 6,
+          "nameCode": "RWA",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 48853,
+          "country": {
+            "alpha2": "RW",
+            "alpha3": "RWA",
+            "name": "Rwanda",
+            "slug": "rwanda"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#f4f400",
+            "secondary": "#00b000",
+            "text": "#00b000"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رواندا تحت 17"
+            },
+            "shortNameTranslation": {
+              "ar": "رواندا"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "Somalia U17",
+          "slug": "somalia-u17",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 376,
+          "nameCode": "SU1",
+          "disabled": false,
+          "national": true,
+          "type": 0,
+          "id": 1077160,
+          "country": {
+            "alpha2": "SO",
+            "alpha3": "SOM",
+            "name": "Somalia",
+            "slug": "somalia"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#75aadb",
+            "secondary": "#ffffff",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الصومال تحت 17"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0,
+          "period1": 0,
+          "period2": 0,
+          "normaltime": 0
+        },
+        "coverage": -1,
+        "time": {
+          "currentPeriodStartTimestamp": 1763982000,
+          "initial": 2700,
+          "max": 5400,
+          "extra": 540
+        },
+        "changes": {
+          "changes": [
+            "status.code",
+            "status.description",
+            "homeScore.period2",
+            "awayScore.period2",
+            "time.currentPeriodStart",
+            "time.period2Start"
+          ],
+          "changeTimestamp": 1763982331
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": false,
+        "id": 15141369,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "statusTime": {
+          "prefix": "",
+          "initial": 2700,
+          "max": 5400,
+          "timestamp": 1763982000,
+          "extra": 540
+        },
+        "slug": "somalia-u17-rwanda-u17",
+        "startTimestamp": 1763978400,
+        "lastPeriod": "period2",
+        "finalResultOnly": false,
+        "feedLocked": true,
+        "isEditor": false
+      }
+    ],
+    "hasNextPage": false
+  },
+  "event/15141369/team-streaks": {
+    "general": [],
+    "head2head": []
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 3,
+      "total": 28
+    },
+    "futsal": {
+      "live": 1,
+      "total": 41
+    },
+    "ice-hockey": {
+      "live": 0,
+      "total": 37
+    },
+    "minifootball": {
+      "live": 0,
+      "total": 28
+    },
+    "darts": {
+      "live": 1,
+      "total": 15
+    },
+    "table-tennis": {
+      "live": 12,
+      "total": 526
+    },
+    "american-football": {
+      "live": 0,
+      "total": 1
+    },
+    "football": {
+      "live": 19,
+      "total": 302
+    },
+    "tennis": {
+      "live": 12,
+      "total": 176
+    },
+    "baseball": {
+      "live": 0,
+      "total": 2
+    },
+    "basketball": {
+      "live": 1,
+      "total": 247
+    },
+    "handball": {
+      "live": 0,
+      "total": 18
+    },
+    "cricket": {
+      "live": 2,
+      "total": 18
+    },
+    "rugby": {
+      "live": 0,
+      "total": 8
+    },
+    "esports": {
+      "live": 5,
+      "total": 43
+    },
+    "volleyball": {
+      "live": 1,
+      "total": 17
+    }
+  }
+}

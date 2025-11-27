@@ -1,0 +1,2863 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 1,
+      "total": 2
+    },
+    "badminton": {
+      "live": 6,
+      "total": 119
+    },
+    "futsal": {
+      "live": 1,
+      "total": 38
+    },
+    "ice-hockey": {
+      "live": 2,
+      "total": 68
+    },
+    "beach-volley": {
+      "live": 0,
+      "total": 19
+    },
+    "minifootball": {
+      "live": 0,
+      "total": 17
+    },
+    "darts": {
+      "live": 0,
+      "total": 30
+    },
+    "table-tennis": {
+      "live": 14,
+      "total": 568
+    },
+    "american-football": {
+      "live": 0,
+      "total": 2
+    },
+    "floorball": {
+      "live": 0,
+      "total": 2
+    },
+    "football": {
+      "live": 55,
+      "total": 342
+    },
+    "tennis": {
+      "live": 39,
+      "total": 466
+    },
+    "baseball": {
+      "live": 0,
+      "total": 26
+    },
+    "basketball": {
+      "live": 3,
+      "total": 216
+    },
+    "handball": {
+      "live": 0,
+      "total": 32
+    },
+    "cricket": {
+      "live": 2,
+      "total": 15
+    },
+    "rugby": {
+      "live": 0,
+      "total": 2
+    },
+    "waterpolo": {
+      "live": 0,
+      "total": 8
+    },
+    "esports": {
+      "live": 7,
+      "total": 53
+    },
+    "volleyball": {
+      "live": 3,
+      "total": 89
+    }
+  },
+  "event/15042661/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 2,
+        "awayScore": 2,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 2,
+        "awayScore": 2,
+        "period": "period2",
+        "id": 327866027,
+        "time": 83,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 8,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 2,
+        "player": {
+          "name": "Jakub Kucharski",
+          "slug": "jakub-kucharski",
+          "shortName": "J. Kucharski",
+          "position": "M",
+          "jerseyNumber": "20",
+          "height": 175,
+          "userCount": 20,
+          "gender": "M",
+          "id": 2039165,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1225670400,
+          "proposedMarketValueRaw": {
+            "value": 205000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ياكوب كوشارسكي"
+            },
+            "shortNameTranslation": {
+              "ar": "ي. كوشارسكي"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 327841862,
+        "time": 62,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 29,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 1,
+        "awayScore": 1,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 1,
+        "player": {
+          "name": "Jonathan",
+          "firstName": "",
+          "lastName": "",
+          "slug": "jonathan",
+          "shortName": "Jonathan",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 173,
+          "userCount": 102,
+          "gender": "M",
+          "id": 994466,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 925257600,
+          "proposedMarketValueRaw": {
+            "value": 120000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جوناثان"
+            },
+            "shortNameTranslation": {
+              "ar": "جوناثان"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 327838670,
+        "time": 13,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 33,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Kahveh Zahiroleslam",
+          "firstName": "Kahveh Zahiroleslam",
+          "slug": "kahveh-zahiroleslam",
+          "shortName": "K. Zahiroleslam",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 193,
+          "userCount": 256,
+          "gender": "M",
+          "id": 1519355,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1023926400,
+          "proposedMarketValueRaw": {
+            "value": 825000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاهفيه زهيرولسلام"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. زهيرولسلام"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 327838506,
+        "time": 1,
+        "timeSeconds": 60,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "reversedPeriodTimeSeconds": 2640,
+        "periodTimeSeconds": 60,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "044e41",
+        "number": "ffffff",
+        "outline": "044e41",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "fcfcfc",
+        "number": "000000",
+        "outline": "fcfcfc",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "00ff00",
+        "number": "000000",
+        "outline": "00ff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "272d2f",
+        "number": "89a1ec",
+        "outline": "272d2f",
+        "fancyNumber": "ffffff"
+      }
+    }
+  },
+  "event/15042661": {
+    "event": {
+      "tournament": {
+        "name": "Club Friendly Games",
+        "slug": "club-friendly-games",
+        "category": {
+          "name": "World",
+          "slug": "world",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1468,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "العالم",
+              "hi": "विश्व",
+              "bn": "বিশ্ব"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Club Friendly Games",
+          "slug": "club-friendly-games",
+          "primaryColorHex": "#25497d",
+          "secondaryColorHex": "#d38f1d",
+          "category": {
+            "name": "World",
+            "slug": "world",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1468,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "العالم",
+                "hi": "विश्व",
+                "bn": "বিশ্ব"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 29444,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 853,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مباريات ودية للأندية",
+              "hi": "क्लब फ्रेंडली गेम्स",
+              "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "isLive": false,
+        "id": 86,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مباريات ودية للأندية",
+            "hi": "क्लब फ्रेंडली गेम्स",
+            "bn": "ক্লাব ফ্রেন্ডলি গেমস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "Club Friendly Games 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 69580
+      },
+      "customId": "bYbshUo",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Cracovia",
+        "slug": "cracovia",
+        "shortName": "Cracovia",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 14059,
+        "manager": {
+          "name": "Luka Elsner",
+          "slug": "luka-elsner",
+          "shortName": "L. Elsner",
+          "id": 25970,
+          "country": {
+            "alpha2": "SI",
+            "alpha3": "SVN",
+            "name": "Slovenia",
+            "slug": "slovenia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوكا إلسنر",
+              "hi": "लुका एल्स्नर",
+              "bn": "লুকা এলসনার"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. إلسنر",
+              "hi": "एल. एल्स्नर",
+              "bn": "এল. এলসনার"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Krakow"
+          },
+          "venueCoordinates": {
+            "latitude": 50.06143,
+            "longitude": 19.93658
+          },
+          "hidden": true,
+          "slug": "marshal-jozef-pilsudski-stadium",
+          "name": "Marshal Jozef Pilsudski Stadium",
+          "capacity": 15016,
+          "id": 2348,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب مارشال يوزيف بيلسودسكي",
+              "hi": "मार्शल जोज़ेफ़ पिल्सडस्की स्टेडियम",
+              "bn": "মার্শাল জোজেফ পিলসুদস্কি স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Marshal Jozef Pilsudski Stadium",
+            "capacity": 15016
+          }
+        },
+        "nameCode": "CRA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 4901,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Cracovia",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -2005603200,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كراكوفيا",
+            "ru": "Краковия Краков",
+            "hi": "क्राकोविया",
+            "bn": "ক্রাকোভিয়া"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Stal Rzeszów",
+        "slug": "stal-rzeszow",
+        "shortName": "Stal Rzeszów",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3666,
+        "manager": {
+          "name": "Marek Zub",
+          "slug": "marek-zub",
+          "shortName": "M. Zub",
+          "id": 296010,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارك زوب"
+            },
+            "shortNameTranslation": {
+              "ar": "م. زوب"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Rzeszow"
+          },
+          "venueCoordinates": {
+            "latitude": 50.04132,
+            "longitude": 21.99901
+          },
+          "hidden": true,
+          "slug": "stadion-miejski-stal-w-rzeszowie-",
+          "name": "Stadion Miejski ,,Stal'' w Rzeszowie ",
+          "capacity": 12700,
+          "id": 29289,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب المدينة \"ستال\" في ريزو",
+              "hi": "स्टेडियन मिज्स्की, स्टाल'' डब्ल्यू रेज़ज़ोवी",
+              "bn": "স্টেডিয়ান মিয়েজস্কি \"স্টাল\" ডব্লিউ রেজেসযোয়ি"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Stadion Miejski ,,Stal'' w Rzeszowie ",
+            "capacity": 12700
+          }
+        },
+        "nameCode": "SRZ",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 37207,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Stal Rzeszów",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#6596cb",
+          "secondary": "#012c57",
+          "text": "#012c57"
+        },
+        "foundationDateTimestamp": -820540800,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ستال ريزهوف",
+            "ru": "Сталь Жешув"
+          },
+          "shortNameTranslation": {
+            "ar": "ستال ريزهوف"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1763036624,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2"
+        ],
+        "changeTimestamp": 1763038904
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15042661,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1763036624,
+        "extra": 540
+      },
+      "slug": "stal-rzeszow-cracovia",
+      "currentPeriodStartTimestamp": 1763036624,
+      "startTimestamp": 1763033400,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15042661/votes": {
+    "vote": {
+      "vote1": 154,
+      "vote2": 31,
+      "voteX": 22
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 48,
+      "voteNo": 5
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 37,
+      "voteNoGoal": 3,
+      "voteAway": 1
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15042661/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Henrich Ravas",
+            "firstName": "",
+            "lastName": "",
+            "slug": "henrich-ravas",
+            "shortName": "H. Ravas",
+            "position": "G",
+            "jerseyNumber": "27",
+            "height": 195,
+            "userCount": 156,
+            "gender": "M",
+            "id": 909930,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 871689600,
+            "proposedMarketValueRaw": {
+              "value": 380000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هنريش رافاس",
+                "hi": "हेनरिक रावस",
+                "bn": "হেনরিক রাভাস"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. رافاس",
+                "hi": "एच. रावस",
+                "bn": "এইচ. রাভাস"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 27,
+          "jerseyNumber": "27",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Boško Šutalo",
+            "slug": "bosko-sutalo",
+            "shortName": "B. Šutalo",
+            "position": "D",
+            "jerseyNumber": "21",
+            "height": 188,
+            "userCount": 765,
+            "gender": "M",
+            "id": 942992,
+            "country": {
+              "alpha2": "HR",
+              "alpha3": "HRV",
+              "name": "Croatia",
+              "slug": "croatia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 946684800,
+            "proposedMarketValueRaw": {
+              "value": 2600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوسكو شوتالو",
+                "hi": "बोस्को शुटालो",
+                "bn": "বোসকো সুতালো"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. شوتالو",
+                "hi": "बी. शुटालो",
+                "bn": "বি. সুতালো"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Gustav Henriksson",
+            "slug": "gustav-henriksson",
+            "shortName": "G. Henriksson",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 190,
+            "userCount": 61,
+            "gender": "M",
+            "id": 946840,
+            "country": {
+              "alpha2": "SE",
+              "alpha3": "SWE",
+              "name": "Sweden",
+              "slug": "sweden"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 886464000,
+            "proposedMarketValueRaw": {
+              "value": 970000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غوستاف هنريكوسون",
+                "hi": "गुस्ताव हेनरिकसन",
+                "bn": "গুস্তাভ হেনরিকসন"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. هنريكوسون",
+                "hi": "जी. हेनरिकसन",
+                "bn": "জি. হেনরিকসন"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Brahim Traoré",
+            "firstName": "",
+            "lastName": "",
+            "slug": "brahim-traore",
+            "shortName": "B. Traoré",
+            "position": "D",
+            "jerseyNumber": "61",
+            "height": 190,
+            "userCount": 261,
+            "gender": "M",
+            "id": 1112794,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1075852800,
+            "proposedMarketValueRaw": {
+              "value": 1600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إبراهيم تراوري"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. تراوري"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 61,
+          "jerseyNumber": "61",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Dominik Piła",
+            "slug": "dominik-pila",
+            "shortName": "D. Piła",
+            "position": "D",
+            "jerseyNumber": "79",
+            "height": 187,
+            "userCount": 90,
+            "gender": "M",
+            "id": 990074,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 989107200,
+            "proposedMarketValueRaw": {
+              "value": 480000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دومينيك بيلا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. بيلا"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 79,
+          "jerseyNumber": "79",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Karol Knap",
+            "firstName": "",
+            "lastName": "",
+            "slug": "karol-knap",
+            "shortName": "K. Knap",
+            "position": "M",
+            "jerseyNumber": "20",
+            "height": 180,
+            "userCount": 65,
+            "gender": "M",
+            "id": 1063187,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1000252800,
+            "proposedMarketValueRaw": {
+              "value": 270000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارول كناپ"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كناپ"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Mateusz Praszelik",
+            "firstName": "",
+            "lastName": "",
+            "slug": "praszelik-mateusz",
+            "shortName": "M. Praszelik",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 184,
+            "userCount": 368,
+            "gender": "M",
+            "id": 863022,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 969926400,
+            "proposedMarketValueRaw": {
+              "value": 485000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتيوس بارسيليك",
+                "hi": "प्रज़ेलिक, माटेउज़",
+                "bn": "প্রসেলিক, ম্যাথিউ"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بارسيليك",
+                "hi": "एम. प्रज़ेलिक",
+                "bn": "এম. প্রসেলিক"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Davíð Kristján Ólafsson",
+            "firstName": "",
+            "lastName": "",
+            "slug": "david-kristjan-olafsson",
+            "shortName": "D. K. Ólafsson",
+            "position": "M",
+            "jerseyNumber": "19",
+            "height": 188,
+            "userCount": 51,
+            "gender": "M",
+            "id": 796720,
+            "country": {
+              "alpha2": "IS",
+              "alpha3": "ISL",
+              "name": "Iceland",
+              "slug": "iceland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 800496000,
+            "proposedMarketValueRaw": {
+              "value": 600000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفيد كريستيان أولافسون",
+                "hi": "डेविड क्रिस्टजान ओलाफ्सन",
+                "bn": "ডেভিড ক্রিস্টজান ওলাফসন"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ك. أولافسون",
+                "hi": "डी.. के. ओलाफ्सन",
+                "bn": "ডি. কে. ওলাফসন"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Michał Rakoczy",
+            "firstName": "",
+            "lastName": "",
+            "slug": "michal-rakoczy",
+            "shortName": "M. Rakoczy",
+            "position": "M",
+            "jerseyNumber": "10",
+            "height": 175,
+            "userCount": 274,
+            "gender": "M",
+            "id": 926186,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1017446400,
+            "proposedMarketValueRaw": {
+              "value": 410000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميشال راكوتشي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. راكوتشي"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Kahveh Zahiroleslam",
+            "firstName": "Kahveh Zahiroleslam",
+            "slug": "kahveh-zahiroleslam",
+            "shortName": "K. Zahiroleslam",
+            "position": "F",
+            "jerseyNumber": "18",
+            "height": 193,
+            "userCount": 256,
+            "gender": "M",
+            "id": 1519355,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1023926400,
+            "proposedMarketValueRaw": {
+              "value": 825000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاهفيه زهيرولسلام"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. زهيرولسلام"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ajdin Hasić",
+            "slug": "ajdin-hasic",
+            "shortName": "A. Hasić",
+            "position": "F",
+            "jerseyNumber": "14",
+            "height": 180,
+            "userCount": 576,
+            "gender": "M",
+            "id": 954832,
+            "country": {
+              "alpha2": "BA",
+              "alpha3": "BIH",
+              "name": "Bosnia & Herzegovina",
+              "slug": "bosnia-and-herzegovina"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1002412800,
+            "proposedMarketValueRaw": {
+              "value": 2100000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أيدين هاسيتش",
+                "hi": "अजदिन हसीक",
+                "bn": "আজদিন হাসিক"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. هاسيتش",
+                "hi": "ए. हसीक",
+                "bn": "এ. হাসিক"
+              }
+            }
+          },
+          "teamId": 4901,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "F",
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "formation": "3-4-3",
+      "playerColor": {
+        "primary": "fcfcfc",
+        "number": "000000",
+        "outline": "fcfcfc",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "044e41",
+        "number": "ffffff",
+        "outline": "044e41",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Marek Kozioł",
+            "firstName": "",
+            "lastName": "",
+            "slug": "marek-koziol",
+            "shortName": "M. Kozioł",
+            "position": "G",
+            "jerseyNumber": "88",
+            "height": 199,
+            "userCount": 31,
+            "gender": "M",
+            "id": 71090,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 581126400,
+            "proposedMarketValueRaw": {
+              "value": 24000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارك كوزيول"
+              },
+              "shortNameTranslation": {
+                "ar": "م. كوزيول"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 88,
+          "jerseyNumber": "88",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Patryk Warczak",
+            "firstName": "",
+            "lastName": "",
+            "slug": "patryk-warczak",
+            "shortName": "P. Warczak",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 182,
+            "userCount": 50,
+            "gender": "M",
+            "id": 1126582,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1065139200,
+            "proposedMarketValueRaw": {
+              "value": 360000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باتريك واركزاك"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. واركزاك"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Vladislav Krasovskiy",
+            "firstName": "Vladislav Krasovskiy",
+            "lastName": "",
+            "slug": "vladislav-krasovskiy",
+            "shortName": "V. Krasovskiy",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 198,
+            "userCount": 16,
+            "gender": "M",
+            "id": 1408994,
+            "country": {
+              "alpha2": "BY",
+              "alpha3": "BLR",
+              "name": "Belarus",
+              "slug": "belarus"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1075680000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فلاديسلاف كراسوفسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. كراسوفسكي"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Daniel Zieja",
+            "slug": "daniel-zieja",
+            "shortName": "D. Zieja",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 2,
+            "gender": "M",
+            "id": 2255537,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1201046400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانيال زيجا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. زيجا"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ksawery Kukułka",
+            "slug": "ksawery-kukulka",
+            "shortName": "K. Kukułka",
+            "position": "D",
+            "jerseyNumber": "77",
+            "height": 181,
+            "userCount": 26,
+            "gender": "M",
+            "id": 1155467,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1075507200,
+            "proposedMarketValueRaw": {
+              "value": 240000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كساوري كوكولكا"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كوكولكا"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 77,
+          "jerseyNumber": "77",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Oliwier Sławiński",
+            "slug": "oliwier-slawinski",
+            "shortName": "O. Sławiński",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 184,
+            "userCount": 85,
+            "gender": "M",
+            "id": 1101996,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1113523200,
+            "proposedMarketValueRaw": {
+              "value": 46000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوليفير سلاوينسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. سلاوينسكي"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Karol Łysiak",
+            "firstName": "Karol Lysiak",
+            "slug": "karol-lysiak",
+            "shortName": "K. Łysiak",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 178,
+            "userCount": 45,
+            "gender": "M",
+            "id": 1513060,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1077667200,
+            "proposedMarketValueRaw": {
+              "value": 360000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارول لويسيك"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. لويسيك"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jakub Kucharski",
+            "slug": "jakub-kucharski",
+            "shortName": "J. Kucharski",
+            "position": "M",
+            "jerseyNumber": "20",
+            "height": 175,
+            "userCount": 20,
+            "gender": "M",
+            "id": 2039165,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1225670400,
+            "proposedMarketValueRaw": {
+              "value": 205000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ياكوب كوشارسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. كوشارسكي"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Kacper Masiak",
+            "firstName": "Kacper Masiak",
+            "lastName": "",
+            "slug": "kacper-masiak",
+            "shortName": "K. Masiak",
+            "position": "M",
+            "jerseyNumber": "9",
+            "height": 175,
+            "userCount": 39,
+            "gender": "M",
+            "id": 1149243,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1105401600,
+            "proposedMarketValueRaw": {
+              "value": 73000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاسبر ماسيك"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ماسيك"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jonathan",
+            "firstName": "",
+            "lastName": "",
+            "slug": "jonathan",
+            "shortName": "Jonathan",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 173,
+            "userCount": 102,
+            "gender": "M",
+            "id": 994466,
+            "country": {
+              "alpha2": "BR",
+              "alpha3": "BRA",
+              "name": "Brazil",
+              "slug": "brazil"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 925257600,
+            "proposedMarketValueRaw": {
+              "value": 120000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوناثان"
+              },
+              "shortNameTranslation": {
+                "ar": "جوناثان"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Filip Wolski",
+            "firstName": "Filip",
+            "lastName": "Wolski",
+            "slug": "wolski-filip",
+            "shortName": "F. Wolski",
+            "position": "F",
+            "jerseyNumber": "25",
+            "height": 178,
+            "userCount": 77,
+            "gender": "M",
+            "id": 1384508,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1144540800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "وولسكي، فيليب"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. وولسكي"
+              }
+            }
+          },
+          "teamId": 37207,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "F",
+          "substitute": false
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "272d2f",
+        "number": "89a1ec",
+        "outline": "272d2f",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "00ff00",
+        "number": "000000",
+        "outline": "00ff00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": 2
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 40,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 50,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "betSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15042302,
+        "homeTeamId": 1150836,
+        "awayTeamId": 1150834,
+        "uniqueTournamentId": 30865
+      },
+      {
+        "eventId": 15042305,
+        "homeTeamId": 344429,
+        "awayTeamId": 1150837,
+        "uniqueTournamentId": 15004
+      },
+      {
+        "eventId": 15042338,
+        "homeTeamId": 1132156,
+        "awayTeamId": 389785,
+        "uniqueTournamentId": 30846
+      },
+      {
+        "eventId": 15042341,
+        "homeTeamId": 1080933,
+        "awayTeamId": 502730,
+        "uniqueTournamentId": 30846
+      },
+      {
+        "eventId": 15042342,
+        "homeTeamId": 365114,
+        "awayTeamId": 504842,
+        "uniqueTournamentId": 30846
+      },
+      {
+        "eventId": 15042354,
+        "homeTeamId": 343456,
+        "awayTeamId": 1150838,
+        "uniqueTournamentId": 15004
+      },
+      {
+        "eventId": 15042400,
+        "homeTeamId": 1150840,
+        "awayTeamId": 1150841,
+        "uniqueTournamentId": 15004
+      },
+      {
+        "eventId": 15042401,
+        "homeTeamId": 1150842,
+        "awayTeamId": 1150843,
+        "uniqueTournamentId": 15004
+      },
+      {
+        "eventId": 15042411,
+        "homeTeamId": 420995,
+        "awayTeamId": 231035,
+        "uniqueTournamentId": 30347
+      },
+      {
+        "eventId": 15042441,
+        "homeTeamId": 1150577,
+        "awayTeamId": 1150847,
+        "uniqueTournamentId": 30865
+      },
+      {
+        "eventId": 15042519,
+        "homeTeamId": 1150849,
+        "awayTeamId": 1150850,
+        "uniqueTournamentId": 30865
+      },
+      {
+        "eventId": 15042606,
+        "homeTeamId": 412176,
+        "awayTeamId": 511702,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042607,
+        "homeTeamId": 255413,
+        "awayTeamId": 224619,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042608,
+        "homeTeamId": 231579,
+        "awayTeamId": 460293,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042609,
+        "homeTeamId": 329533,
+        "awayTeamId": 379453,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042610,
+        "homeTeamId": 297139,
+        "awayTeamId": 391778,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042611,
+        "homeTeamId": 303908,
+        "awayTeamId": 221015,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042612,
+        "homeTeamId": 939549,
+        "awayTeamId": 333081,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042613,
+        "homeTeamId": 403914,
+        "awayTeamId": 396006,
+        "uniqueTournamentId": 30789
+      },
+      {
+        "eventId": 15042615,
+        "homeTeamId": 487749,
+        "awayTeamId": 1150456,
+        "uniqueTournamentId": 30788
+      },
+      {
+        "eventId": 15042616,
+        "homeTeamId": 1106186,
+        "awayTeamId": 1099693,
+        "uniqueTournamentId": 30788
+      },
+      {
+        "eventId": 15042617,
+        "homeTeamId": 454797,
+        "awayTeamId": 1090228,
+        "uniqueTournamentId": 30788
+      },
+      {
+        "eventId": 15042622,
+        "homeTeamId": 283616,
+        "awayTeamId": 292051,
+        "uniqueTournamentId": 30801
+      },
+      {
+        "eventId": 15042623,
+        "homeTeamId": 201729,
+        "awayTeamId": 372053,
+        "uniqueTournamentId": 30801
+      },
+      {
+        "eventId": 15042624,
+        "homeTeamId": 401988,
+        "awayTeamId": 201338,
+        "uniqueTournamentId": 30801
+      },
+      {
+        "eventId": 15042625,
+        "homeTeamId": 248329,
+        "awayTeamId": 489717,
+        "uniqueTournamentId": 30801
+      },
+      {
+        "eventId": 15042626,
+        "homeTeamId": 1105218,
+        "awayTeamId": 381099,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042627,
+        "homeTeamId": 498414,
+        "awayTeamId": 522293,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042628,
+        "homeTeamId": 526373,
+        "awayTeamId": 161874,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042629,
+        "homeTeamId": 300486,
+        "awayTeamId": 290989,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042630,
+        "homeTeamId": 481888,
+        "awayTeamId": 1050759,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042631,
+        "homeTeamId": 853639,
+        "awayTeamId": 475834,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042632,
+        "homeTeamId": 281518,
+        "awayTeamId": 421229,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042633,
+        "homeTeamId": 516156,
+        "awayTeamId": 938332,
+        "uniqueTournamentId": 30779
+      },
+      {
+        "eventId": 15042644,
+        "homeTeamId": 486489,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15042645,
+        "homeTeamId": 253164,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15042646,
+        "homeTeamId": 526189,
+        "awayTeamId": 341369,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15042672,
+        "homeTeamId": 451772,
+        "awayTeamId": 499470,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042673,
+        "homeTeamId": 267667,
+        "awayTeamId": 323019,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042674,
+        "homeTeamId": 417199,
+        "awayTeamId": 419860,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042675,
+        "homeTeamId": 341184,
+        "awayTeamId": 1077426,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042676,
+        "homeTeamId": 137978,
+        "awayTeamId": 44978,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042677,
+        "homeTeamId": 496032,
+        "awayTeamId": 362567,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042678,
+        "homeTeamId": 476572,
+        "awayTeamId": 526210,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042679,
+        "homeTeamId": 236917,
+        "awayTeamId": 300314,
+        "uniqueTournamentId": 30803
+      },
+      {
+        "eventId": 15042702,
+        "homeTeamId": 340542,
+        "awayTeamId": 927960,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042703,
+        "homeTeamId": 383992,
+        "awayTeamId": 266264,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042704,
+        "homeTeamId": 314866,
+        "awayTeamId": 409324,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042705,
+        "homeTeamId": 499489,
+        "awayTeamId": 306076,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042706,
+        "homeTeamId": 137962,
+        "awayTeamId": 395231,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042707,
+        "homeTeamId": 130624,
+        "awayTeamId": 280202,
+        "uniqueTournamentId": 30799
+      },
+      {
+        "eventId": 15042718,
+        "homeTeamId": 379454,
+        "awayTeamId": 115335,
+        "uniqueTournamentId": 30769
+      },
+      {
+        "eventId": 15042719,
+        "homeTeamId": 265627,
+        "awayTeamId": 105021,
+        "uniqueTournamentId": 30769
+      },
+      {
+        "eventId": 15042731,
+        "homeTeamId": 507841,
+        "awayTeamId": 1131910,
+        "uniqueTournamentId": 30820
+      },
+      {
+        "eventId": 15042732,
+        "homeTeamId": 1150469,
+        "awayTeamId": 1150473,
+        "uniqueTournamentId": 30820
+      },
+      {
+        "eventId": 15042733,
+        "homeTeamId": 1041799,
+        "awayTeamId": 1150030,
+        "uniqueTournamentId": 30820
+      },
+      {
+        "eventId": 15042922,
+        "homeTeamId": 389724,
+        "awayTeamId": 1148011,
+        "uniqueTournamentId": 30822
+      },
+      {
+        "eventId": 15042968,
+        "homeTeamId": 417195,
+        "awayTeamId": 319991,
+        "uniqueTournamentId": 30765
+      },
+      {
+        "eventId": 15042969,
+        "homeTeamId": 297955,
+        "awayTeamId": 406808,
+        "uniqueTournamentId": 30765
+      },
+      {
+        "eventId": 15042970,
+        "homeTeamId": 385272,
+        "awayTeamId": 384240,
+        "uniqueTournamentId": 30765
+      },
+      {
+        "eventId": 15042971,
+        "homeTeamId": 480913,
+        "awayTeamId": 1095911,
+        "uniqueTournamentId": 30765
+      },
+      {
+        "eventId": 15042972,
+        "homeTeamId": 479876,
+        "awayTeamId": 403371,
+        "uniqueTournamentId": 30765
+      },
+      {
+        "eventId": 15042973,
+        "homeTeamId": 400877,
+        "awayTeamId": 1150013,
+        "uniqueTournamentId": 30790
+      },
+      {
+        "eventId": 15042974,
+        "homeTeamId": 1150461,
+        "awayTeamId": 1121071,
+        "uniqueTournamentId": 30790
+      },
+      {
+        "eventId": 15042975,
+        "homeTeamId": 402699,
+        "awayTeamId": 1150016,
+        "uniqueTournamentId": 30790
+      },
+      {
+        "eventId": 15042976,
+        "homeTeamId": 1096184,
+        "awayTeamId": 1150018,
+        "uniqueTournamentId": 30790
+      },
+      {
+        "eventId": 15042984,
+        "homeTeamId": 1145221,
+        "awayTeamId": 1092629,
+        "uniqueTournamentId": 30780
+      },
+      {
+        "eventId": 15042985,
+        "homeTeamId": 1150129,
+        "awayTeamId": 937085,
+        "uniqueTournamentId": 30780
+      },
+      {
+        "eventId": 15042986,
+        "homeTeamId": 1150450,
+        "awayTeamId": 1150132,
+        "uniqueTournamentId": 30780
+      },
+      {
+        "eventId": 15042987,
+        "homeTeamId": 1123053,
+        "awayTeamId": 853844,
+        "uniqueTournamentId": 30780
+      },
+      {
+        "eventId": 15042989,
+        "homeTeamId": 1150431,
+        "awayTeamId": 268123,
+        "uniqueTournamentId": 30860
+      },
+      {
+        "eventId": 15042990,
+        "homeTeamId": 1097232,
+        "awayTeamId": 1122110,
+        "uniqueTournamentId": 30860
+      },
+      {
+        "eventId": 15042993,
+        "homeTeamId": 1127146,
+        "awayTeamId": 1149644,
+        "uniqueTournamentId": 30822
+      },
+      {
+        "eventId": 15042994,
+        "homeTeamId": 235446,
+        "awayTeamId": 281106,
+        "uniqueTournamentId": 30859
+      },
+      {
+        "eventId": 15043010,
+        "homeTeamId": 1130049,
+        "awayTeamId": 1150379,
+        "uniqueTournamentId": 30800
+      },
+      {
+        "eventId": 15043011,
+        "homeTeamId": 1093732,
+        "awayTeamId": 1150022,
+        "uniqueTournamentId": 30800
+      },
+      {
+        "eventId": 15043012,
+        "homeTeamId": 505511,
+        "awayTeamId": 1150381,
+        "uniqueTournamentId": 30800
+      },
+      {
+        "eventId": 15043016,
+        "homeTeamId": 1150466,
+        "awayTeamId": 496200,
+        "uniqueTournamentId": 30802
+      },
+      {
+        "eventId": 15043017,
+        "homeTeamId": 1143808,
+        "awayTeamId": 937345,
+        "uniqueTournamentId": 30802
+      },
+      {
+        "eventId": 15043018,
+        "homeTeamId": 514605,
+        "awayTeamId": 1150464,
+        "uniqueTournamentId": 30802
+      },
+      {
+        "eventId": 15043041,
+        "homeTeamId": 390272,
+        "awayTeamId": 1043048,
+        "uniqueTournamentId": 19365
+      },
+      {
+        "eventId": 15043094,
+        "homeTeamId": 525148,
+        "awayTeamId": 409911,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15043095,
+        "homeTeamId": 412636,
+        "awayTeamId": 548882,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15043096,
+        "homeTeamId": 470122,
+        "awayTeamId": 461161,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15043097,
+        "homeTeamId": 479111,
+        "awayTeamId": 410939,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15043098,
+        "homeTeamId": 424243,
+        "awayTeamId": 458743,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15043099,
+        "homeTeamId": 447970,
+        "awayTeamId": 469498,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043100,
+        "homeTeamId": 1111354,
+        "awayTeamId": 1138861,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043101,
+        "homeTeamId": 409857,
+        "awayTeamId": 454919,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043102,
+        "homeTeamId": 355384,
+        "awayTeamId": 410294,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043103,
+        "homeTeamId": 410039,
+        "awayTeamId": 411558,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043104,
+        "homeTeamId": 424034,
+        "awayTeamId": 488697,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043105,
+        "homeTeamId": 410374,
+        "awayTeamId": 466145,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043106,
+        "homeTeamId": 412231,
+        "awayTeamId": 414085,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043107,
+        "homeTeamId": 491349,
+        "awayTeamId": 452588,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043108,
+        "homeTeamId": 410854,
+        "awayTeamId": 398477,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043109,
+        "homeTeamId": 424034,
+        "awayTeamId": 414085,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043110,
+        "homeTeamId": 355333,
+        "awayTeamId": 456840,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043111,
+        "homeTeamId": 410374,
+        "awayTeamId": 398477,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043112,
+        "homeTeamId": 488697,
+        "awayTeamId": 412231,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043113,
+        "homeTeamId": 491349,
+        "awayTeamId": 456840,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043114,
+        "homeTeamId": 466145,
+        "awayTeamId": 410854,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043115,
+        "homeTeamId": 424034,
+        "awayTeamId": 412231,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043116,
+        "homeTeamId": 452588,
+        "awayTeamId": 355333,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043117,
+        "homeTeamId": 410374,
+        "awayTeamId": 410854,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043118,
+        "homeTeamId": 414085,
+        "awayTeamId": 488697,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043119,
+        "homeTeamId": 491349,
+        "awayTeamId": 355333,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043120,
+        "homeTeamId": 398477,
+        "awayTeamId": 466145,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043121,
+        "homeTeamId": 456840,
+        "awayTeamId": 452588,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15043179,
+        "homeTeamId": 1150871,
+        "awayTeamId": 1150275,
+        "uniqueTournamentId": 30792
+      },
+      {
+        "eventId": 15043225,
+        "homeTeamId": 194942,
+        "awayTeamId": 321462,
+        "uniqueTournamentId": 30859
+      },
+      {
+        "eventId": 15043230,
+        "homeTeamId": 131632,
+        "awayTeamId": 495243,
+        "uniqueTournamentId": 30859
+      },
+      {
+        "eventId": 15043277,
+        "homeTeamId": 208088,
+        "awayTeamId": 322528,
+        "uniqueTournamentId": 30859
+      },
+      {
+        "eventId": 15044585,
+        "homeTeamId": 240422,
+        "awayTeamId": 104583,
+        "uniqueTournamentId": 30762
+      },
+      {
+        "eventId": 15044586,
+        "homeTeamId": 500403,
+        "awayTeamId": 322738,
+        "uniqueTournamentId": 30762
+      },
+      {
+        "eventId": 15044587,
+        "homeTeamId": 192772,
+        "awayTeamId": 495242,
+        "uniqueTournamentId": 30762
+      },
+      {
+        "eventId": 15044601,
+        "homeTeamId": 406163,
+        "awayTeamId": 476537,
+        "uniqueTournamentId": 30805
+      }
+    ]
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  }
+}

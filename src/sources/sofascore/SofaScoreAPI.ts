@@ -166,6 +166,8 @@ export class SofaScoreAPI {
                             const request = response.request();
                             const requestUrl = request.url();
 
+                            console.log(`[SOFASCORE API] Intercepted a response from URL: ${requestUrl}`);
+
                             // Match any SofaScore API endpoint for this event
                             if (requestUrl.includes(`/api/v1/event/${eventId}`) && request.method() === 'GET') {
                                 try {
@@ -210,6 +212,7 @@ export class SofaScoreAPI {
 
                     try {
                         console.log(`[API] Processing comprehensive data for event ${eventId}...`);
+                        console.log(`[API] Navigating to URL for event ${eventId}: ${url}`);
                         await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });
 
                         // Wait a bit more for all API calls to complete

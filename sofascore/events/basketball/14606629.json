@@ -1,0 +1,2340 @@
+{
+  "event/14606629/pregame-form": {
+    "homeTeam": {
+      "position": 7,
+      "value": "5-7",
+      "form": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 9,
+      "value": "3-9",
+      "form": [
+        "L",
+        "L",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    "label": "W-L"
+  },
+  "event/14606629/votes": {
+    "vote": {
+      "vote1": 984,
+      "vote2": 355,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14606629/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Jensen Bradtke",
+            "slug": "bradtke-jensen",
+            "shortName": "J. Bradtke",
+            "position": "F",
+            "jerseyNumber": "50",
+            "height": 208,
+            "userCount": 1,
+            "gender": "M",
+            "id": 1600542,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1086307200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "برادتيك، جنسن"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. برادتيك"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 50,
+          "jerseyNumber": "50",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jack Purchase",
+            "slug": "purchase-jack",
+            "shortName": "J. Purchase",
+            "position": "F",
+            "jerseyNumber": "12",
+            "height": 205,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1187297,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 804124800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيرشاس، جاك"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بيرشاس"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jaylen Adams",
+            "firstName": "Jaylen",
+            "lastName": "Adams ",
+            "slug": "adams-jaylen",
+            "shortName": "J. Adams",
+            "position": "G",
+            "jerseyNumber": "2",
+            "height": 183,
+            "userCount": 136,
+            "gender": "M",
+            "id": 940815,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 831168000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جيلين آدامز",
+                "hi": "एडम्स, जेलेन",
+                "bn": "অ্যাডামস, জেলেন"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. آدامز",
+                "hi": "जे. एडम्स",
+                "bn": "জে. অ্যাডামস"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 101,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -2,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Casey Prather",
+            "slug": "prather-casey",
+            "shortName": "C. Prather",
+            "position": "G",
+            "jerseyNumber": "23",
+            "height": 198,
+            "userCount": 94,
+            "gender": "M",
+            "id": 957482,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 675475200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "برايثر، كيسي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. برايثر"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 1,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -6,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jacob Holt",
+            "slug": "holt-jacob",
+            "shortName": "J. Holt",
+            "position": "F",
+            "jerseyNumber": "15",
+            "height": 206,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1178092,
+            "country": {
+              "alpha2": "CA",
+              "alpha3": "CAN",
+              "name": "Canada",
+              "slug": "canada"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1056153600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هولت، جاكوب"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. هولت"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Alex Ducas",
+            "slug": "ducas-alex",
+            "shortName": "A. Ducas",
+            "position": "F",
+            "jerseyNumber": "4",
+            "height": 198,
+            "userCount": 52,
+            "gender": "M",
+            "id": 1178100,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 976492800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دوكاس، أليكس"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. دوكاس"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 3,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -6,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tristan Devers",
+            "slug": "devers-tristan",
+            "shortName": "T. Devers",
+            "position": "G",
+            "jerseyNumber": "6",
+            "height": 191,
+            "userCount": 4,
+            "gender": "M",
+            "id": 1540645,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1120262400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفرز، تريستان"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. ديفرز"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 101,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -2,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dakota Mathias",
+            "firstName": "Dakota",
+            "lastName": "Mathias ",
+            "slug": "mathias-dakota",
+            "shortName": "D. Mathias",
+            "position": "G",
+            "jerseyNumber": "31",
+            "height": 193,
+            "userCount": 10,
+            "gender": "M",
+            "id": 990045,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 805420800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماثياس، داكوتا",
+                "hi": "मैथियास, डकोटा",
+                "bn": "ম্যাথিয়াস, ডাকোটা"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ماثياس",
+                "hi": "डी. मैथियास",
+                "bn": "ডি. ম্যাথিয়াস"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 31,
+          "jerseyNumber": "31",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 182,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -4,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tyrell Harrison",
+            "slug": "harrison-tyrell",
+            "shortName": "T. Harrison",
+            "position": "C",
+            "jerseyNumber": "24",
+            "height": 214,
+            "userCount": 56,
+            "gender": "M",
+            "id": 1182122,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 931219200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هاريسون، تايريل"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. هاريسون"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "C",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 2,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 1,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -6,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Mitchell Norton",
+            "firstName": "Mitch",
+            "lastName": "Norton",
+            "slug": "mitch-norton",
+            "shortName": "M. Norton",
+            "position": "G",
+            "jerseyNumber": "8",
+            "height": 184,
+            "userCount": 5,
+            "gender": "M",
+            "id": 1798536,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 733622400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نورتون، ميتشل"
+              },
+              "shortNameTranslation": {
+                "ar": "م. نورتون"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 182,
+            "points": 2,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -4,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Callum Dalton",
+            "firstName": "Callum",
+            "lastName": "Dalton",
+            "slug": "callum-dalton",
+            "shortName": "C. Dalton",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 207,
+            "userCount": 1,
+            "gender": "M",
+            "id": 2061447,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 957398400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دالتون، كالم"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. دالتون"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Taine Murray",
+            "slug": "murray-taine",
+            "shortName": "T. Murray",
+            "position": "G",
+            "jerseyNumber": "0",
+            "height": 196,
+            "userCount": 6,
+            "gender": "M",
+            "id": 1182978,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1019174400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "موري، تاين"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. موري"
+              }
+            }
+          },
+          "teamId": 233139,
+          "shirtNumber": 0,
+          "jerseyNumber": "0",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Carlin Davison",
+            "slug": "davison-carlin",
+            "shortName": "C. Davison",
+            "position": "F",
+            "jerseyNumber": "21",
+            "height": 196,
+            "userCount": 25,
+            "gender": "M",
+            "id": 1540650,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1061424000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفيسون، كارلين"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ديفيسون"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Taylor Britt",
+            "firstName": "Taylor Britt",
+            "slug": "britt-taylor",
+            "shortName": "T. Britt",
+            "position": "G",
+            "jerseyNumber": "5",
+            "height": 188,
+            "userCount": 4,
+            "gender": "M",
+            "id": 1433653,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 843350400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بريت، تايلور",
+                "hi": "ब्रिट, टेलर",
+                "bn": "ব্রিট, টেলর"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. بريت",
+                "hi": "टी. ब्रिट",
+                "bn": "টি. ব্রিট"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sean Bairstow",
+            "slug": "bairstow-sean",
+            "shortName": "S. Bairstow",
+            "position": "G",
+            "jerseyNumber": "2",
+            "height": 203,
+            "userCount": 6,
+            "gender": "M",
+            "id": 1178179,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 975542400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيرستو، شون"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. بيرستو"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sam Mennenga",
+            "slug": "mennenga-sam",
+            "shortName": "S. Mennenga",
+            "position": "F",
+            "jerseyNumber": "8",
+            "height": 206,
+            "userCount": 70,
+            "gender": "M",
+            "id": 1179676,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1008115200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مينينغا، سام"
+              },
+              "shortNameTranslation": {
+                "ar": "س. مينينغا"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 7,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 4,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 6,
+            "rebounds": 1,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 6,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Izaiah Brockington",
+            "slug": "brockington-izaiah",
+            "shortName": "I. Brockington",
+            "position": "G",
+            "jerseyNumber": "8",
+            "height": 193,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1178755,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 931737600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بروكينغتون، إيزياه",
+                "hi": "ब्रॉकिंगटन, इज़ैया",
+                "bn": "ব্রকিংটন, ইজাইয়া"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. بروكينغتون",
+                "hi": "आई. ब्रॉकिंगटन",
+                "bn": "আই. ব্রকিংটন"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 6,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Max Darling",
+            "slug": "darling-max",
+            "shortName": "M. Darling",
+            "position": "F",
+            "jerseyNumber": "12",
+            "height": 198,
+            "userCount": 7,
+            "gender": "M",
+            "id": 1540649,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 970272000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دارلينغ، ماكس"
+              },
+              "shortNameTranslation": {
+                "ar": "م. دارلينغ"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Parker Jackson-Cartwright",
+            "firstName": "",
+            "lastName": "",
+            "slug": "jackson-cartwright-parker",
+            "shortName": "P. Jackson-Cartwright",
+            "position": "G",
+            "jerseyNumber": "6",
+            "height": 180,
+            "userCount": 136,
+            "gender": "M",
+            "id": 1184704,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 805507200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "باركر جاكسون-كارترايت",
+                "hi": "जैक्सन-कार्टराइट, पार्कर",
+                "bn": "জ্যাকসন-কার্টরাইট, পার্কার"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. جاكسون-كارترايت",
+                "hi": "पी. जैक्सन-कार्टराइट",
+                "bn": "পি. জ্যাকসন-কার্টরাইট"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "G",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": 6,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Izayah Le'afa",
+            "slug": "mauriohooho-leafa-izayah",
+            "shortName": "I. Mauriohooho-Le'Afa",
+            "position": "G",
+            "jerseyNumber": "2",
+            "height": 188,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1180794,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 847324800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماوريوهوهو-ليفا، إيزايا",
+                "hi": "मौरियोहोहो-ले'आफ़ा, इज़ायाह",
+                "bn": "মরিওহুহো-লে'আফা, ইযায়্যাহ"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. ماوريوهوهو-ليفا",
+                "hi": "आई. मौरियोहोहो-ले'आफ़ा",
+                "bn": "আই. মরিওহুহো-লে'আফা"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jack Andrew",
+            "slug": "andrew-jack",
+            "shortName": "J. Andrew",
+            "position": "F",
+            "jerseyNumber": "21",
+            "height": 208,
+            "userCount": 2,
+            "gender": "M",
+            "id": 1412254,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 997401600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أندرو، جاك"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. أندرو"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Reuben Te Rangi",
+            "slug": "te-rangi-reuben",
+            "shortName": "R. T. Rangi",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 198,
+            "userCount": 14,
+            "gender": "M",
+            "id": 1180799,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 782092800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تي رانجي، روبن",
+                "hi": "ते रांगी, रूबेन",
+                "bn": "তে রাঙ্গি, রুবেন"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. ت. تيرانجي",
+                "hi": "आर. टी. रांगी",
+                "bn": "আর. টি. রাঙ্গি"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Karim Lopez",
+            "firstName": "Karim",
+            "lastName": "Lopez",
+            "slug": "lopez-karim",
+            "shortName": "K. Lopez",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 202,
+            "userCount": 145,
+            "gender": "M",
+            "id": 1545208,
+            "country": {
+              "alpha2": "MX",
+              "alpha3": "MEX",
+              "name": "Mexico",
+              "slug": "mexico"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1176336000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوبيز، كريم"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. لوبيز"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 6,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 2,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 2,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 2,
+            "steals": 1,
+            "plusMinus": 6,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Robert Baker",
+            "firstName": "Robert",
+            "lastName": "Baker",
+            "slug": "baker-robert",
+            "shortName": "R. Baker",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 210,
+            "userCount": 24,
+            "gender": "M",
+            "id": 1389940,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 898992000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيكر، روبرت"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. بيكر"
+              }
+            }
+          },
+          "teamId": 122090,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "secondsPlayed": 284,
+            "points": 3,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 1,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 2,
+            "rebounds": 3,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 6,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14606629": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NBL",
+        "slug": "nbl",
+        "category": {
+          "name": "Australia",
+          "slug": "australia",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 113,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "flag": "australia",
+          "alpha2": "AU",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أستراليا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NBL",
+          "slug": "nbl",
+          "primaryColorHex": "#f36f02",
+          "category": {
+            "name": "Australia",
+            "slug": "australia",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 113,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "flag": "australia",
+            "alpha2": "AU",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أستراليا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 2705,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 1524,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الوطني لكرة السلة",
+              "hi": "एनबीएल",
+              "bn": "এনবিএল"
+            },
+            "shortNameTranslation": {}
+          },
+          "hasRating": true,
+          "hasLiveRating": true
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 727,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الوطني الأسترالي لكرة السلة",
+            "hi": "एनबीएल",
+            "bn": "এনবিএল"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NBL 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 77205
+      },
+      "roundInfo": {
+        "round": 9
+      },
+      "customId": "PQYsOmTb",
+      "status": {
+        "code": 13,
+        "description": "1st quarter",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Carrara"
+        },
+        "venueCoordinates": {
+          "latitude": 5.2542452899143,
+          "longitude": 161.80061220066
+        },
+        "hidden": true,
+        "slug": "gold-coast-sport-and-leisure-centre",
+        "name": "Gold Coast Sport and Leisure Centre",
+        "capacity": 5300,
+        "id": 52949,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "stadium": {
+          "name": "Gold Coast Sport and Leisure Centre",
+          "capacity": 5300
+        }
+      },
+      "homeTeam": {
+        "name": "Brisbane Bullets",
+        "slug": "brisbane-bullets",
+        "shortName": "Brisbane",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 1345,
+        "venue": {
+          "city": {
+            "name": "Brisbane"
+          },
+          "venueCoordinates": {
+            "latitude": -27.342222,
+            "longitude": 153.071111
+          },
+          "hidden": true,
+          "slug": "brisbane-entertainment-centre",
+          "name": "Brisbane Entertainment Centre",
+          "capacity": 13601,
+          "id": 46658,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز بريسبان الترفيهي",
+              "hi": "ब्रिस्बेन एंटरटेनमेंट सेंटर",
+              "bn": "ব্রিসবেন এন্টারটেইনমেন্ট সেন্টার"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Brisbane Entertainment Centre",
+            "capacity": 13601
+          }
+        },
+        "nameCode": "BRI",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 233139,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Brisbane Bullets",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#002974",
+          "secondary": "#faa314",
+          "text": "#faa314"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بريسبن باليتس",
+            "ru": "Брисбэйн Баллетс"
+          },
+          "shortNameTranslation": {
+            "ar": "بريسبان",
+            "hi": "ब्रिस्बेन",
+            "bn": "ব্রিসবেন"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "New Zealand Breakers",
+        "slug": "new-zealand-breakers",
+        "shortName": "New Zealand",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 1828,
+        "venue": {
+          "city": {
+            "name": "Auckland"
+          },
+          "hidden": true,
+          "slug": "spark-arena",
+          "name": "Spark Arena",
+          "id": 23900,
+          "country": {
+            "alpha2": "NZ",
+            "alpha3": "NZL",
+            "name": "New Zealand",
+            "slug": "new-zealand"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا سبارك",
+              "hi": "स्पार्क एरिना",
+              "bn": "স্পার্ক এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Spark Arena"
+          }
+        },
+        "nameCode": "NZB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 122090,
+        "country": {
+          "alpha2": "NZ",
+          "alpha3": "NZL",
+          "name": "New Zealand",
+          "slug": "new-zealand"
+        },
+        "fullName": "New Zealand Breakers",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#87ceeb",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نيوزيلاند بريكرس",
+            "ru": "Нью-Зиланд Брейкерс"
+          },
+          "shortNameTranslation": {
+            "ar": "نيوزيلندا",
+            "hi": "न्यूज़ीलैंड",
+            "bn": "নিউজিল্যান্ড"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 7,
+        "display": 7,
+        "period1": 7
+      },
+      "awayScore": {
+        "current": 14,
+        "display": 14,
+        "period1": 14
+      },
+      "time": {
+        "played": 228,
+        "periodLength": 600,
+        "overtimeLength": 300,
+        "totalPeriodCount": 4
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762936973
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14606629,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 10,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "slug": "brisbane-bullets-new-zealand-breakers",
+      "startTimestamp": 1762936200,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "??",
+        "AN",
+        "CU",
+        "IR",
+        "KP",
+        "SY",
+        "VE",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": true,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14606629/incidents": {
+    "incidents": [
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 18,
+        "player": {
+          "name": "Izaiah Brockington",
+          "slug": "brockington-izaiah",
+          "shortName": "I. Brockington",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 193,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1178755,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 931737600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بروكينغتون، إيزياه",
+              "hi": "ब्रॉकिंगटन, इज़ैया",
+              "bn": "ব্রকিংটন, ইজাইয়া"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. بروكينغتون",
+              "hi": "आई. ब्रॉकिंगटन",
+              "bn": "আই. ব্রকিংটন"
+            }
+          }
+        },
+        "id": 327087811,
+        "time": 5,
+        "timeSeconds": 296,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 304,
+        "periodTimeSeconds": 296,
+        "incidentType": "goal"
+      },
+      {
+        "text": "1st quarter",
+        "homeScore": 10,
+        "awayScore": 16,
+        "isLive": true,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 16,
+        "player": {
+          "name": "Tristan Devers",
+          "slug": "devers-tristan",
+          "shortName": "T. Devers",
+          "position": "G",
+          "jerseyNumber": "6",
+          "height": 191,
+          "userCount": 4,
+          "gender": "M",
+          "id": 1540645,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120262400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ديفرز، تريستان"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. ديفرز"
+            }
+          }
+        },
+        "id": 327087810,
+        "time": 5,
+        "timeSeconds": 281,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 319,
+        "periodTimeSeconds": 281,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 16,
+        "player": {
+          "name": "Sam Mennenga",
+          "slug": "mennenga-sam",
+          "shortName": "S. Mennenga",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 206,
+          "userCount": 70,
+          "gender": "M",
+          "id": 1179676,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1008115200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مينينغا، سام"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مينينغا"
+            }
+          }
+        },
+        "id": 327087809,
+        "time": 5,
+        "timeSeconds": 260,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 340,
+        "periodTimeSeconds": 260,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 7,
+        "awayScore": 14,
+        "player": {
+          "name": "Karim Lopez",
+          "firstName": "Karim",
+          "lastName": "Lopez",
+          "slug": "lopez-karim",
+          "shortName": "K. Lopez",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 202,
+          "userCount": 145,
+          "gender": "M",
+          "id": 1545208,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1176336000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوبيز، كريم"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. لوبيز"
+            }
+          }
+        },
+        "id": 327087790,
+        "time": 4,
+        "timeSeconds": 206,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 394,
+        "periodTimeSeconds": 206,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 7,
+        "awayScore": 11,
+        "player": {
+          "name": "Casey Prather",
+          "slug": "prather-casey",
+          "shortName": "C. Prather",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 198,
+          "userCount": 94,
+          "gender": "M",
+          "id": 957482,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 675475200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برايثر، كيسي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برايثر"
+            }
+          }
+        },
+        "id": 327087756,
+        "time": 3,
+        "timeSeconds": 151,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 449,
+        "periodTimeSeconds": 151,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 4,
+        "awayScore": 11,
+        "player": {
+          "name": "Sam Mennenga",
+          "slug": "mennenga-sam",
+          "shortName": "S. Mennenga",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 206,
+          "userCount": 70,
+          "gender": "M",
+          "id": 1179676,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1008115200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مينينغا، سام"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مينينغا"
+            }
+          }
+        },
+        "id": 327087742,
+        "time": 3,
+        "timeSeconds": 141,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 459,
+        "periodTimeSeconds": 141,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 8,
+        "player": {
+          "name": "Mitchell Norton",
+          "firstName": "Mitch",
+          "lastName": "Norton",
+          "slug": "mitch-norton",
+          "shortName": "M. Norton",
+          "position": "G",
+          "jerseyNumber": "8",
+          "height": 184,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1798536,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 733622400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نورتون، ميتشل"
+            },
+            "shortNameTranslation": {
+              "ar": "م. نورتون"
+            }
+          }
+        },
+        "id": 327087741,
+        "time": 3,
+        "timeSeconds": 129,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 471,
+        "periodTimeSeconds": 129,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 8,
+        "player": {
+          "name": "Sam Mennenga",
+          "slug": "mennenga-sam",
+          "shortName": "S. Mennenga",
+          "position": "F",
+          "jerseyNumber": "8",
+          "height": 206,
+          "userCount": 70,
+          "gender": "M",
+          "id": 1179676,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1008115200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مينينغا، سام"
+            },
+            "shortNameTranslation": {
+              "ar": "س. مينينغا"
+            }
+          }
+        },
+        "id": 327087740,
+        "time": 3,
+        "timeSeconds": 124,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 476,
+        "periodTimeSeconds": 124,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 2,
+        "awayScore": 6,
+        "player": {
+          "name": "Karim Lopez",
+          "firstName": "Karim",
+          "lastName": "Lopez",
+          "slug": "lopez-karim",
+          "shortName": "K. Lopez",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 202,
+          "userCount": 145,
+          "gender": "M",
+          "id": 1545208,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1176336000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوبيز، كريم"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. لوبيز"
+            }
+          }
+        },
+        "id": 327087720,
+        "time": 2,
+        "timeSeconds": 84,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 516,
+        "periodTimeSeconds": 84,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 3,
+        "player": {
+          "name": "Tyrell Harrison",
+          "slug": "harrison-tyrell",
+          "shortName": "T. Harrison",
+          "position": "C",
+          "jerseyNumber": "24",
+          "height": 214,
+          "userCount": 56,
+          "gender": "M",
+          "id": 1182122,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 931219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هاريسون، تايريل"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. هاريسون"
+            }
+          }
+        },
+        "id": 327087719,
+        "time": 1,
+        "timeSeconds": 60,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 540,
+        "periodTimeSeconds": 60,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 0,
+        "awayScore": 3,
+        "player": {
+          "name": "Robert Baker",
+          "firstName": "Robert",
+          "lastName": "Baker",
+          "slug": "baker-robert",
+          "shortName": "R. Baker",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 210,
+          "userCount": 24,
+          "gender": "M",
+          "id": 1389940,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 898992000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيكر، روبرت"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. بيكر"
+            }
+          }
+        },
+        "id": 327087707,
+        "time": 1,
+        "timeSeconds": 23,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 577,
+        "periodTimeSeconds": 23,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 0,
+        "awayScore": 2,
+        "player": {
+          "name": "Casey Prather",
+          "slug": "prather-casey",
+          "shortName": "C. Prather",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 198,
+          "userCount": 94,
+          "gender": "M",
+          "id": 957482,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 675475200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برايثر، كيسي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برايثر"
+            }
+          }
+        },
+        "id": 327087705,
+        "time": 1,
+        "timeSeconds": 23,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 577,
+        "periodTimeSeconds": 23,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14606629/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -1
+      },
+      {
+        "minute": 2,
+        "value": -4
+      },
+      {
+        "minute": 3,
+        "value": -4
+      },
+      {
+        "minute": 4,
+        "value": -7
+      },
+      {
+        "minute": 5,
+        "value": -8
+      }
+    ],
+    "periodTime": 10,
+    "overtimeLength": 5,
+    "periodCount": 4
+  }
+}

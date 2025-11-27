@@ -81,10 +81,10 @@ export class SofaScoreAPIFetcher {
     private browserPool: BrowserPoolManager;
     private isBrowserPoolInitialized = false;
     private openTabQueue: PQueue;
-    
+
     // Configuration: Limit events per sport to prevent Chrome crashes during testing
-    private readonly MAX_EVENTS_PER_SPORT: number = 5; // Set to 5 for testing, can be changed to 0 (unlimited) later
-    
+    private readonly MAX_EVENTS_PER_SPORT: number = Number(process.env.SOFASCORE_MAX_TOTAL_EVENTS); // Set to 5 for testing, can be changed to 0 (unlimited) later
+
     // Configuration: Sport filter for testing specific sports
     // Options: 'all' (fetch all sports), 'football', 'basketball', 'tennis', etc.
     // Example: Set to 'basketball' to only fetch basketball events
@@ -101,7 +101,7 @@ export class SofaScoreAPIFetcher {
                 'Referer': 'https://www.sofascore.com/es',
             }
         });
-        
+
         this.browserPool = new BrowserPoolManager();
         this.openTabQueue = new PQueue({ concurrency: 2 }); // Reduced to 2 concurrent tabs to prevent memory exhaustion
     }
@@ -124,7 +124,7 @@ export class SofaScoreAPIFetcher {
         const slug = event.slug;
         const customId = event.customId;
         const id = event.id;
-        
+
         return `${this.baseUrl}/es/${sportSlug}/match/${slug}/${customId}#id:${id}`;
     }
 
@@ -134,32 +134,36 @@ export class SofaScoreAPIFetcher {
     private async fetchEventCount(): Promise<EventCount> {
         try {
             console.log('📊 [SOFASCORE] Fetching event count via browser...');
-            
+
             // Initialize browser pool
             await this.initBrowserPool();
-            
+
             // Get a browser from the pool
             const browser = this.browserPool['browsers'][0];
             const page = await browser.newPage();
-            
+
             try {
                 // Navigate to main page first to establish session
-                await page.goto('https://www.sofascore.com/es', { 
-                    waitUntil: 'networkidle2', 
-                    timeout: 30000 
-                });
-                
+                /* await page.goto('https://www.sofascore.com/es', { 
+                     waitUntil: 'load', 
+                     timeout: 30000 
+                 });*/
+
                 // Now fetch the API endpoint
-                const response = await page.goto(`${this.apiUrl}/sport/-18000/event-count`, {
-                    waitUntil: 'networkidle2',
+                const eventCountUrl = `${this.apiUrl}/sport/-18000/event-count`;
+                console.log(`[SOFASCORE] Fetching URL: ${eventCountUrl}`);
+                const response = await page.goto(eventCountUrl, {
+                    waitUntil: 'load',
                     timeout: 30000
                 });
-                
-                const data = await response!.json();
+
+                const buffer = await response!.buffer();
+                const text = buffer.toString('utf-8');
+                const data = JSON.parse(text);
                 const sportsWithLive = Object.keys(data).filter(s => data[s].live > 0);
                 console.log(`✅ [SOFASCORE] Event count fetched. Sports with live events: ${sportsWithLive.length}`);
                 console.log(`📋 [SOFASCORE] Sports with live events: ${sportsWithLive.join(', ')}`);
-                
+
                 await page.close();
                 return data;
             } catch (error) {
@@ -178,15 +182,17 @@ export class SofaScoreAPIFetcher {
     private async fetchLiveEvents(sportName: string): Promise<LiveEventData> {
         try {
             console.log(`🏃 [SOFASCORE] Fetching live events for ${sportName}...`);
-            
+
             // Get a browser from the pool
             const browser = this.browserPool['browsers'][0]; // Use any available browser
             const page = await browser.newPage();
-            
+
             try {
                 // Navigate to the live events API endpoint
-                const response = await page.goto(`${this.apiUrl}/sport/${sportName}/events/live`, {
-                    waitUntil: 'networkidle2',
+                const liveEventsUrl = `${this.apiUrl}/sport/${sportName}/events/live`;
+                console.log(`[SOFASCORE] Fetching URL: ${liveEventsUrl}`);
+                const response = await page.goto(liveEventsUrl, {
+                    waitUntil: 'load',
                     timeout: 60000 // Increased timeout
                 });
 
@@ -194,9 +200,11 @@ export class SofaScoreAPIFetcher {
                     throw new Error('No response received from page.goto');
                 }
 
-                const data = await response.json();
+                const buffer = await response.buffer();
+                const text = buffer.toString('utf-8');
+                const data = JSON.parse(text);
                 console.log(`✅ [SOFASCORE] ${sportName}: ${data.events?.length || 0} live events`);
-                
+
                 await page.close();
                 return data;
             } catch (error) {
@@ -217,11 +225,11 @@ export class SofaScoreAPIFetcher {
             // Create directory structure: sofascore/events/{sport}/
             const dirPath = path.join(process.cwd(), 'sofascore', 'events', sport);
             await fs.mkdir(dirPath, { recursive: true });
-            
+
             // Save event data to file
             const filePath = path.join(dirPath, `${eventId}.json`);
             await fs.writeFile(filePath, JSON.stringify(eventData, null, 2), 'utf-8');
-            
+
             console.log(`[SOFASCORE] ✅ Saved data for event ${eventId} to sofascore/events/${sport}/${eventId}.json`);
         } catch (error: any) {
             console.error(`[SOFASCORE] ❌ Error saving data for event ${eventId}:`, error.message);
@@ -236,20 +244,20 @@ export class SofaScoreAPIFetcher {
             liveEvents,
             events: {} as { [eventId: string]: EventApiData },
         };
-        
+
         let events = liveEvents.events || [];
-        
+
         if (events.length === 0) {
             return sportData;
         }
-        
+
         // Filter out events that are already being monitored
         const newEvents = events.filter(event => !this.browserPool.isEventMonitored(event.id.toString()));
         const alreadyMonitoredCount = events.length - newEvents.length;
-        
+
         if (alreadyMonitoredCount > 0) {
             console.log(`♻️  [SOFASCORE] ${sportName}: ${alreadyMonitoredCount} events already being monitored`);
-            
+
             // Populate sportData.events with data from already-monitored events
             events.forEach(event => {
                 const eventId = event.id.toString();
@@ -260,20 +268,20 @@ export class SofaScoreAPIFetcher {
                     }
                 }
             });
-            
+
             console.log(`📥 [SOFASCORE] ${sportName}: Retrieved cached data for ${Object.keys(sportData.events).length} already-monitored events`);
         }
-        
+
         // Calculate remaining slots for this sport
-        const remainingSlots = this.MAX_EVENTS_PER_SPORT > 0 
+        const remainingSlots = this.MAX_EVENTS_PER_SPORT > 0
             ? Math.max(0, this.MAX_EVENTS_PER_SPORT - alreadyMonitoredCount)
             : newEvents.length;
-        
+
         if (remainingSlots === 0) {
             console.log(`⏸️  [SOFASCORE] ${sportName}: Already at max capacity (${alreadyMonitoredCount}/${this.MAX_EVENTS_PER_SPORT}), returning cached data`);
             return sportData;
         }
-        
+
         // Limit new events to remaining slots
         if (newEvents.length > remainingSlots) {
             console.log(`⚠️  [SOFASCORE] Limiting ${sportName} from ${newEvents.length} new events to ${remainingSlots} (${alreadyMonitoredCount} already monitored, max: ${this.MAX_EVENTS_PER_SPORT})`);
@@ -281,14 +289,14 @@ export class SofaScoreAPIFetcher {
         } else {
             events = newEvents;
         }
-        
+
         console.log(`🔄 [SOFASCORE] Processing ${events.length} NEW events for ${sportName} (total will be: ${alreadyMonitoredCount + events.length}/${this.MAX_EVENTS_PER_SPORT})...`);
-        
+
         // Initialize browser pool if not done
         await this.initBrowserPool();
-        
+
         // Shuffle events to distribute them across browsers more evenly
-        const shuffledEvents = events.sort(() => Math.random() - 0.5);
+        const shuffledEvents = events.sort(() => Math.random() - 0.5); //what this line does exactly?
 
         // Add all tab opening tasks to the queue
         const promises = shuffledEvents.map((event, index) => {
@@ -297,22 +305,22 @@ export class SofaScoreAPIFetcher {
                     // Add delay between events to prevent memory spikes and allow GC
                     if (index > 0 && index % 2 === 0) {
                         await new Promise(resolve => setTimeout(resolve, 2000));
-                        
+
                         // Trigger GC every 5 events if available
                         if (index % 5 === 0 && global.gc) {
                             global.gc();
                             console.log(`🗑️  [SOFASCORE] GC after ${index} events`);
                         }
                     }
-                    
+
                     const eventUrl = this.createEventUrl(event);
-                    
+
                     // Add per-event timeout protection to prevent individual events from hanging
                     // Increased to 120 seconds to allow for page load (90s) + widget data collection (up to 35s)
                     const eventTimeout = new Promise<EventApiData>((_, reject) => {
-                        setTimeout(() => reject(new Error(`Event ${event.id} processing timeout after 120 seconds`)), 120000);
+                        setTimeout(() => reject(new Error(`Event ${event.id} processing timeout after 240 seconds`)), 240000);
                     });
-                    
+
                     const eventData = await Promise.race([
                         this.browserPool.openEventTab(event, eventUrl),
                         eventTimeout
@@ -320,9 +328,9 @@ export class SofaScoreAPIFetcher {
                         console.error(`⏰ [SOFASCORE] Event ${event.id} timeout or error:`, error.message);
                         return {} as EventApiData; // Return empty object on timeout/error to continue processing other events
                     }) as EventApiData;
-                    
+
                     sportData.events[event.id.toString()] = eventData;
-                    
+
                     // Save event data to file immediately after fetching
                     if (eventData && Object.keys(eventData).length > 0) {
                         await this.saveEventDataToFile(event.id.toString(), eventData, sportName);
@@ -335,11 +343,11 @@ export class SofaScoreAPIFetcher {
 
         // Wait for all queued tasks to complete
         await Promise.all(promises);
-        
+
         const capacity = this.browserPool.getCapacityInfo();
         console.log(`✅ [SOFASCORE] ${sportName}: ${Object.keys(sportData.events).length}/${events.length} events opened`);
         console.log(`📊 [CAPACITY] ${capacity.active}/${capacity.max} tabs across ${capacity.browsers} browsers`);
-        
+
         return sportData;
     }
 
@@ -351,16 +359,16 @@ export class SofaScoreAPIFetcher {
         console.log(`⚙️  [SOFASCORE] Max events per sport: ${this.MAX_EVENTS_PER_SPORT === 0 ? 'unlimited' : this.MAX_EVENTS_PER_SPORT}`);
         console.log(`🎯 [SOFASCORE] Sport filter: ${process.env.SPORT_FILTER === 'all' ? 'all sports' : process.env.SPORT_FILTER}`);
         this.logMemoryUsage();
-        
+
         try {
             // Step 1: Fetch event count
             const eventCount = await this.fetchEventCount();
-            
+
             // Step 2: Get sports with live events
             let sportsWithLiveEvents = Object.keys(eventCount).filter(
                 sport => eventCount[sport].live > 0
             );
-            
+
             // Step 2.5: Apply sport filter if specified
             if (this.SPORT_FILTER !== 'all') {
                 const originalCount = sportsWithLiveEvents.length;
@@ -368,23 +376,23 @@ export class SofaScoreAPIFetcher {
                     sport => sport.toLowerCase() === this.SPORT_FILTER.toLowerCase()
                 );
                 console.log(`🎯 [SOFASCORE] Sport filter applied: ${originalCount} sports -> ${sportsWithLiveEvents.length} sport(s) (${this.SPORT_FILTER})`);
-                
+
                 if (sportsWithLiveEvents.length === 0) {
                     console.warn(`⚠️  [SOFASCORE] No live events found for sport: ${this.SPORT_FILTER}`);
                 }
             }
-            
+
             // Step 3: Fetch live events and open monitoring tabs for each sport
             const consolidatedData: ConsolidatedData = {
                 eventCount,
                 sports: {},
                 lastUpdate: new Date().toISOString(),
             };
-            
+
             for (const sportName of sportsWithLiveEvents) {
                 try {
                     const liveEvents = await this.fetchLiveEvents(sportName);
-                    
+
                     // Add timeout protection to prevent infinite hangs
                     // Increased to 180 seconds to allow for:
                     // - Opening tabs: ~10-15s for 5 events
@@ -392,29 +400,29 @@ export class SofaScoreAPIFetcher {
                     // - Data processing and saving: ~5-10s
                     // Total: ~90-95s for 5 events, 180s provides comfortable buffer
                     const timeout = new Promise((_, reject) => {
-                        setTimeout(() => reject(new Error(`Sport ${sportName} processing timeout after 180 seconds`)), 180000);
+                        setTimeout(() => reject(new Error(`Sport ${sportName} processing timeout after 360 seconds`)), 360000);
                     });
-                    
+
                     const sportData = await Promise.race([
                         this.processEventsForSport(sportName, liveEvents),
                         timeout
                     ]);
-                    
+
                     consolidatedData.sports[sportName] = sportData;
                 } catch (error: any) {
                     console.error(`❌ [SOFASCORE] Error processing ${sportName}:`, error.message);
                     // Continue with next sport instead of failing completely
-                    consolidatedData.sports[sportName] = { 
+                    consolidatedData.sports[sportName] = {
                         liveEvents: { events: [] },
                         events: {}
                     };
                 }
-                
+
                 // Add 5-second delay between sports to allow memory stabilization and full GC cycle
                 if (sportsWithLiveEvents.indexOf(sportName) < sportsWithLiveEvents.length - 1) {
                     console.log('⏳ [SOFASCORE] Pausing 5s before next sport...');
                     await new Promise(resolve => setTimeout(resolve, 5000));
-                    
+
                     // Trigger garbage collection if available
                     if (global.gc) {
                         global.gc();
@@ -428,7 +436,7 @@ export class SofaScoreAPIFetcher {
             console.log('🧹 [SOFASCORE] Starting stale event cleanup...');
             const monitoredEventIds = this.browserPool.getMonitoredEventIds();
             const newLiveEventIds = new Set<string>();
-            
+
             Object.values(consolidatedData.sports).forEach(sportData => {
                 sportData.liveEvents?.events?.forEach(event => {
                     newLiveEventIds.add(event.id.toString());
@@ -449,45 +457,45 @@ export class SofaScoreAPIFetcher {
                 console.log('👍 [SOFASCORE] No stale events to clean up.');
             }
             // *** END: STALE EVENT CLEANUP ***
-            
+
             console.log('✅ [SOFASCORE] Data fetch cycle completed');
             this.logMemoryUsage();
-            
+
             // Filter consolidatedData to only include actively monitored events
             // This ensures cached data only contains events we're actually tracking
             console.log('🔍 [SOFASCORE] Filtering consolidated data to only include actively monitored events...');
             let totalEventsBeforeFilter = 0;
             let totalEventsAfterFilter = 0;
-            
+
             for (const sportName in consolidatedData.sports) {
                 const sportData = consolidatedData.sports[sportName];
-                
+
                 if (sportData.liveEvents && sportData.liveEvents.events) {
                     const originalCount = sportData.liveEvents.events.length;
                     totalEventsBeforeFilter += originalCount;
-                    
+
                     // Filter events to only include those being actively monitored
-                    sportData.liveEvents.events = sportData.liveEvents.events.filter(event => 
+                    sportData.liveEvents.events = sportData.liveEvents.events.filter(event =>
                         this.browserPool.isEventMonitored(event.id.toString())
                     );
-                    
+
                     const filteredCount = sportData.liveEvents.events.length;
                     totalEventsAfterFilter += filteredCount;
-                    
+
                     if (originalCount !== filteredCount) {
                         console.log(`  📊 [SOFASCORE] ${sportName}: ${originalCount} events → ${filteredCount} actively monitored`);
                     }
-                    
+
                     // DO NOT filter sportData.events - keep all detailedData for monitored events
                     // The events object contains intercepted data from browser tabs that should persist
                     // even if the event is not in the current live events API response
                 }
             }
-            
+
             console.log(`✅ [SOFASCORE] Filtered consolidated data: ${totalEventsBeforeFilter} → ${totalEventsAfterFilter} events`);
-            
+
             return consolidatedData;
-            
+
         } catch (error: any) {
             console.error('❌ [SOFASCORE] Error during fetch cycle:', error);
             throw error;
@@ -500,19 +508,19 @@ export class SofaScoreAPIFetcher {
      */
     getLiveData(): ConsolidatedData {
         const allEventData = this.browserPool.getAllEventData();
-        
+
         const consolidatedData: ConsolidatedData = {
             eventCount: {},
             sports: {},
             lastUpdate: new Date().toISOString(),
         };
-        
+
         // Organize cached data by sport (you'd need to track sport info)
         for (const [eventId, eventData] of allEventData.entries()) {
             // For now, return flat structure
             // You can enhance this to organize by sport
         }
-        
+
         return consolidatedData;
     }
 
@@ -545,7 +553,7 @@ export class SofaScoreAPIFetcher {
         const arrayBuffers = Math.round(used.arrayBuffers / 1024 / 1024);
         const totalMemoryGB = 24;
         const percentUsed = ((rss / 1024) / totalMemoryGB * 100).toFixed(1);
-        
+
         console.log(`📊 [MEMORY FETCH-START] RSS: ${rss}MB | Heap: ${heapUsed}/${heapTotal}MB | External: ${external}MB | Arrays: ${arrayBuffers}MB | Total: ${percentUsed}% of ${totalMemoryGB}GB`);
     }
 }

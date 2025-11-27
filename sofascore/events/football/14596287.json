@@ -1,0 +1,3155 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/14596287/incidents": {
+    "incidents": [
+      {
+        "text": "HT",
+        "homeScore": 1,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "player": {
+          "name": "Cavid Malikov",
+          "slug": "cavid-malikov",
+          "shortName": "C. Malikov",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 19,
+          "gender": "M",
+          "id": 2227397,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1179014400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جافيد مالكوف"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مالكوف"
+            }
+          }
+        },
+        "playerName": "Cavid Malikov",
+        "reason": "Foul",
+        "rescinded": false,
+        "id": 124380119,
+        "time": 35,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 11,
+        "incidentType": "card"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Christian Raggioli",
+          "firstName": "Christian Raggioli",
+          "slug": "christian-raggioli",
+          "shortName": "C. Raggioli",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 186,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1546433,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1136937600,
+          "proposedMarketValueRaw": {
+            "value": 185000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كريستيان راجيولي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. راجيولي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Francisco Barido",
+          "slug": "francisco-barido",
+          "shortName": "F. Barido",
+          "position": "M",
+          "jerseyNumber": "10",
+          "userCount": 333,
+          "gender": "M",
+          "id": 2082486,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1199145600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فرانسيسكو باريدو"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. باريدو"
+            }
+          }
+        },
+        "footballPassingNetworkAction": [],
+        "id": 330328153,
+        "time": 4,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 42,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ff9900",
+        "number": "000000",
+        "outline": "ff9900",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "66ccff",
+        "number": "dd0000",
+        "outline": "66ccff",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "000000",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14596287/pregame-form": {
+    "homeTeam": {
+      "position": 28,
+      "value": "3",
+      "form": [
+        "L",
+        "D",
+        "D",
+        "D"
+      ]
+    },
+    "awayTeam": {
+      "position": 35,
+      "value": "0",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14596287/votes": {
+    "vote": {
+      "vote1": 2020,
+      "vote2": 246,
+      "voteX": 299
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 334,
+      "voteNo": 183
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 447,
+      "voteNoGoal": 10,
+      "voteAway": 33
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14596287": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Youth League",
+        "slug": "uefa-youth-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Youth League",
+          "slug": "uefa-youth-league",
+          "primaryColorHex": "#44c156",
+          "secondaryColorHex": "#2828c6",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 22080,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 2132,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا للشباب",
+              "hi": "यूईएफए यूथ लीग",
+              "bn": "উয়েফা ইউথ লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 442,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 138558,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الشباب الأوروبي",
+            "hi": "यूईएफए यूथ लीग",
+            "bn": "উয়েফা ইয়ুথ লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Youth League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 1
+        },
+        "id": 81894
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "pZqsExWb",
+      "status": {
+        "code": 31,
+        "description": "Halftime",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Cercola"
+        },
+        "hidden": true,
+        "slug": "stadio-giuseppe-piccolo",
+        "name": "Stadio Giuseppe Piccolo",
+        "capacity": 3947,
+        "id": 41741,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 2",
+            "hi": "स्टेडियो गिउसेप्पे पिकोलो",
+            "bn": "স্টেডিও জিউসেপ পিকোলো"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Stadio Giuseppe Piccolo",
+          "capacity": 3947
+        }
+      },
+      "referee": {
+        "name": "Dominik Stary",
+        "slug": "dominik-stary",
+        "yellowCards": 455,
+        "redCards": 16,
+        "yellowRedCards": 8,
+        "games": 102,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 788137,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دومينيك ستاري"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Napoli U19",
+        "slug": "napoli-u19",
+        "shortName": "Napoli U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3942,
+        "manager": {
+          "name": "Dario Rocco",
+          "slug": "dario-rocco",
+          "shortName": "D. Rocco",
+          "id": 806075,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داريو روكو"
+            },
+            "shortNameTranslation": {
+              "ar": "د. روكو"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Naples"
+          },
+          "venueCoordinates": {
+            "latitude": 40.827977,
+            "longitude": 14.192889
+          },
+          "hidden": false,
+          "slug": "stadio-diego-armando-maradona",
+          "name": "Stadio Diego Armando Maradona",
+          "capacity": 54726,
+          "id": 872,
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب دييغو ارماندو مارادونا",
+              "hi": "स्टेडियो डिएगो अर्मांडो माराडोना",
+              "bn": "স্টেডিও দিয়েগো আরমান্দো ম্যারাডোনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Stadio Diego Armando Maradona",
+            "capacity": 54726
+          }
+        },
+        "nameCode": "NUU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 42465,
+        "country": {
+          "alpha2": "IT",
+          "alpha3": "ITA",
+          "name": "Italy",
+          "slug": "italy"
+        },
+        "fullName": "Napoli U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#008cea",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -1370217600,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نابولي تحت 19"
+          },
+          "shortNameTranslation": {
+            "ar": "نابولي تحت 19"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Qarabağ U19",
+        "slug": "qarabag-u19",
+        "shortName": "Qarabağ U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1009,
+        "manager": {
+          "name": "Rashad Sadiqov",
+          "slug": "rashad-sadiqov",
+          "shortName": "R. Sadiqov",
+          "id": 813836,
+          "country": {
+            "alpha2": "AZ",
+            "alpha3": "AZE",
+            "name": "Azerbaijan",
+            "slug": "azerbaijan"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "رشاد صادقوف"
+            },
+            "shortNameTranslation": {
+              "ar": "ر. صادقوف"
+            }
+          }
+        },
+        "nameCode": "QUU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 241129,
+        "country": {
+          "alpha2": "AZ",
+          "alpha3": "AZE",
+          "name": "Azerbaijan",
+          "slug": "azerbaijan"
+        },
+        "fullName": "Qarabağ U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "قاراباغ تحت 19"
+          },
+          "shortNameTranslation": {
+            "ar": "قاراباغ"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 1,
+        "normaltime": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1764075631
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description"
+        ],
+        "changeTimestamp": 1764078646
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": false,
+      "detailId": 4,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14596287,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "qarabag-u19-napoli-u19",
+      "currentPeriodStartTimestamp": 1764075631,
+      "startTimestamp": 1764075600,
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14596287/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "David Spinelli",
+            "slug": "david-spinelli",
+            "shortName": "D. Spinelli",
+            "position": "G",
+            "jerseyNumber": "1",
+            "userCount": 81,
+            "id": 2272725,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1209340800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفيد سبينيللي"
+              },
+              "shortNameTranslation": {
+                "ar": "د. سبينيللي"
+              }
+            }
+          },
+          "teamId": 42465,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Andrea Caucci",
+            "firstName": "",
+            "lastName": "",
+            "slug": "andrea-caucci",
+            "shortName": "A. Caucci",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 190,
+            "userCount": 11,
+            "gender": "M",
+            "id": 1462300,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1183248000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أندريا كاوتشي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. كاوتشي"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Vittorio Gambardella",
+            "slug": "vittorio-gambardella",
+            "shortName": "V. Gambardella",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 192,
+            "userCount": 24,
+            "gender": "M",
+            "id": 1562655,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1141948800,
+            "proposedMarketValueRaw": {
+              "value": 80000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيتوريوا غامبارديلا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. غامبارديلا"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Alfonso De Luca",
+            "firstName": "Alfonso De Luca",
+            "slug": "alfonso-de-luca",
+            "shortName": "A. D. Luca",
+            "position": "D",
+            "jerseyNumber": "6",
+            "height": 187,
+            "userCount": 19,
+            "gender": "M",
+            "id": 1546430,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1158624000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألفونسو دي لوكا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. دي لوكا"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "Mykyta Melnyk",
+            "slug": "mykyta-melnyk",
+            "shortName": "M. Melnyk",
+            "position": "D",
+            "jerseyNumber": "3",
+            "userCount": 6,
+            "id": 2290919,
+            "country": {
+              "alpha2": "UA",
+              "alpha3": "UKR",
+              "name": "Ukraine",
+              "slug": "ukraine"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1199750400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميكيتا ميلنيك"
+              },
+              "shortNameTranslation": {
+                "ar": "م. ميلنيك"
+              }
+            }
+          },
+          "teamId": 42465,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Antonio Cimmaruta",
+            "firstName": "Antonio Cimmaruta",
+            "slug": "antonio-cimmaruta",
+            "shortName": "A. Cimmaruta",
+            "position": "M",
+            "jerseyNumber": "4",
+            "userCount": 18,
+            "gender": "M",
+            "id": 1868046,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1194998400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أنتونيو سيماروتا"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. سيماروتا"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ivan Anić",
+            "slug": "ivan-anic",
+            "shortName": "I. Anić",
+            "position": "M",
+            "jerseyNumber": "8",
+            "height": 187,
+            "userCount": 84,
+            "gender": "M",
+            "id": 1631324,
+            "country": {
+              "alpha2": "HR",
+              "alpha3": "HRV",
+              "name": "Croatia",
+              "slug": "croatia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1168905600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفان أنيتش"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أنيتش"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Andrea Smeraldi",
+            "firstName": "Andrea Smeraldi",
+            "slug": "andrea-smeraldi",
+            "shortName": "A. Smeraldi",
+            "position": "F",
+            "jerseyNumber": "11",
+            "userCount": 7,
+            "gender": "M",
+            "id": 2220252,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1178668800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أندريا سميرالدي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. سميرالدي"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Luigi Esposito",
+            "firstName": "Luigi Esposito",
+            "slug": "luigi-esposito",
+            "shortName": "L. Esposito",
+            "position": "F",
+            "jerseyNumber": "7",
+            "userCount": 14,
+            "gender": "M",
+            "id": 2220232,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1213833600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لويجي إسبوزيتو"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. إسبوزيتو"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Francisco Barido",
+            "slug": "francisco-barido",
+            "shortName": "F. Barido",
+            "position": "M",
+            "jerseyNumber": "10",
+            "userCount": 333,
+            "gender": "M",
+            "id": 2082486,
+            "country": {
+              "alpha2": "AR",
+              "alpha3": "ARG",
+              "name": "Argentina",
+              "slug": "argentina"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1199145600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانسيسكو باريدو"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. باريدو"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Christian Raggioli",
+            "firstName": "Christian Raggioli",
+            "slug": "christian-raggioli",
+            "shortName": "C. Raggioli",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 186,
+            "userCount": 15,
+            "gender": "M",
+            "id": 1546433,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1136937600,
+            "proposedMarketValueRaw": {
+              "value": 185000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيان راجيولي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. راجيولي"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Claudio Pugliese",
+            "firstName": "Claudio Pugliese",
+            "slug": "claudio-pugliese",
+            "shortName": "C. Pugliese",
+            "position": "G",
+            "jerseyNumber": "12",
+            "userCount": 8,
+            "gender": "M",
+            "id": 2220248,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1208217600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كلوديو بوجليسي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. بوجليسي"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Christian Garofalo",
+            "firstName": "Christian",
+            "lastName": "Garofalo",
+            "slug": "christian-garofalo",
+            "shortName": "C. Garofalo",
+            "position": "D",
+            "jerseyNumber": "13",
+            "userCount": 49,
+            "gender": "M",
+            "id": 1587205,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1167868800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيان غاروفالو"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. غاروفالو"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Gabriele Marotta",
+            "firstName": "Gabriele Marotta",
+            "slug": "gabriele-marotta",
+            "shortName": "G. Marotta",
+            "position": "D",
+            "jerseyNumber": "14",
+            "userCount": 7,
+            "gender": "M",
+            "id": 2220231,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1206057600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جابرييل ماروتا"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ماروتا"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Francesco Zappettini",
+            "slug": "francesco-zappettini",
+            "shortName": "F. Zappettini",
+            "position": "D",
+            "jerseyNumber": "16",
+            "userCount": 4,
+            "gender": "M",
+            "id": 2222765,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1213488000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانشيسكو زابيتيني"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. زابيتيني"
+              }
+            }
+          },
+          "teamId": 42465,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Fabio Palomba",
+            "firstName": "Fabio Palomba",
+            "slug": "fabio-palomba",
+            "shortName": "F. Palomba",
+            "position": "D",
+            "jerseyNumber": "15",
+            "userCount": 3,
+            "gender": "M",
+            "id": 2220245,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1200268800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فابيو بالومبا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. بالومبا"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Alessandro Olivieri",
+            "firstName": "Alessandro",
+            "lastName": "Olivieri",
+            "slug": "alessandro-olivieri",
+            "shortName": "A. Olivieri",
+            "position": "M",
+            "jerseyNumber": "17",
+            "userCount": 5,
+            "gender": "M",
+            "id": 1587203,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1170979200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أليساندرو أوليفييري"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. أوليفييري"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Andrea Chiummariello",
+            "slug": "andrea-chiummariello",
+            "shortName": "A. Chiummariello",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 1,
+            "id": 2342738,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1199404800
+          },
+          "teamId": 42465,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Andrea Iovine",
+            "firstName": "Andrea Iovine",
+            "slug": "andrea-iovine",
+            "shortName": "A. Iovine",
+            "position": "F",
+            "jerseyNumber": "20",
+            "userCount": 5,
+            "gender": "M",
+            "id": 2220254,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1178668800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أندريا إيوفيني"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. إيوفيني"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Elia Favicchio",
+            "firstName": "Elia Favicchio",
+            "slug": "elia-favicchio",
+            "shortName": "E. Favicchio",
+            "position": "F",
+            "jerseyNumber": "19",
+            "userCount": 2,
+            "gender": "M",
+            "id": 2220246,
+            "country": {
+              "alpha2": "IT",
+              "alpha3": "ITA",
+              "name": "Italy",
+              "slug": "italy"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205280000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليا فافيتشيو"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. فافيتشيو"
+              }
+            }
+          },
+          "teamId": 829592,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "3-4-3",
+      "playerColor": {
+        "primary": "66ccff",
+        "number": "dd0000",
+        "outline": "66ccff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ff9900",
+        "number": "000000",
+        "outline": "ff9900",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Bilal Haciyev",
+            "firstName": "Bilal Haciyev",
+            "slug": "bilal-haciyev",
+            "shortName": "B. Haciyev",
+            "position": "G",
+            "jerseyNumber": "12",
+            "userCount": 16,
+            "id": 2268024,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيلا لهاجييف"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. لهاجييف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Cavid Məmmədov",
+            "slug": "cavid-memmedov",
+            "shortName": "C. Məmmədov",
+            "position": "M",
+            "jerseyNumber": "29",
+            "userCount": 2,
+            "id": 1938649,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1120608000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جافيد ممدوف"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ممدوف"
+              }
+            }
+          },
+          "teamId": 490459,
+          "shirtNumber": 29,
+          "jerseyNumber": "29",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Cavid Malikov",
+            "slug": "cavid-malikov",
+            "shortName": "C. Malikov",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 19,
+            "gender": "M",
+            "id": 2227397,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1179014400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جافيد مالكوف"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. مالكوف"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Rashad Alishov",
+            "firstName": "Rashad",
+            "lastName": "Alishov",
+            "slug": "rashad-alishov",
+            "shortName": "R. Alishov",
+            "position": "D",
+            "jerseyNumber": "23",
+            "userCount": 35,
+            "gender": "M",
+            "id": 1586072,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1168214400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رشاد عليشوف"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. عليشوف"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ravan Teymurov",
+            "firstName": "Ravan Teymurov",
+            "slug": "ravan-teymurov",
+            "shortName": "R. Teymurov",
+            "position": "D",
+            "jerseyNumber": "13",
+            "userCount": 13,
+            "id": 2268036,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رافان تيموروف"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. تيموروف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Amin Rzayev",
+            "firstName": "Amin Rzayev",
+            "slug": "amin-rzayev",
+            "shortName": "A. Rzayev",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 175,
+            "userCount": 298,
+            "gender": "M",
+            "id": 2052695,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1255305600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أمين رزايف"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. رزايف"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Muyideen Olude",
+            "slug": "muyideen-olude",
+            "shortName": "M. Olude",
+            "position": "F",
+            "jerseyNumber": "6",
+            "userCount": 30,
+            "id": 1911003,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1180915200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مويدين أولود"
+              },
+              "shortNameTranslation": {
+                "ar": "م. أولود"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Masud Alishanly",
+            "firstName": "Masud Alishanly",
+            "slug": "masud-alishanly",
+            "shortName": "M. Alishanly",
+            "position": "D",
+            "jerseyNumber": "2",
+            "userCount": 20,
+            "gender": "M",
+            "id": 2245588,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1168387200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماسود عليشانلي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. عليشانلي"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ali Gazibayov",
+            "firstName": "Ali Gazibayov",
+            "slug": "ali-gazibayov",
+            "shortName": "A. Gazibayov",
+            "position": "M",
+            "jerseyNumber": "8",
+            "userCount": 21,
+            "gender": "M",
+            "id": 1990876,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1226102400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي غازيباييف"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. غازيباييف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Hikmat Cabrayilzada",
+            "firstName": "Hikmat",
+            "lastName": "Cabrayilzada",
+            "slug": "hikmat-jabrayilzade",
+            "shortName": "H. Cabrayilzada",
+            "position": "M",
+            "jerseyNumber": "10",
+            "height": 176,
+            "userCount": 1881,
+            "gender": "M",
+            "id": 1586078,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1185753600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "حكمت كابراييلزادا"
+              },
+              "shortNameTranslation": {
+                "ar": "ح. كابراييلزادا"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "Toheeb Abiodun",
+            "slug": "toheeb-abiodun",
+            "shortName": "T. Abiodun",
+            "position": "F",
+            "jerseyNumber": "22",
+            "userCount": 54,
+            "id": 1911014,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182211200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "توهيب أبدون"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. أبدون"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Teymur Hasanov",
+            "slug": "teymur-hasanov",
+            "shortName": "T. Hasanov",
+            "position": "G",
+            "jerseyNumber": "1",
+            "userCount": 57,
+            "gender": "M",
+            "id": 1464585,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1170720000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تييمور حسنوف"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. حسنوف"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ali Abishev",
+            "firstName": "Ali Abishev",
+            "slug": "ali-abishev",
+            "shortName": "A. Abishev",
+            "position": "D",
+            "jerseyNumber": "15",
+            "userCount": 11,
+            "id": 2268016,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي أبيشيف"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. أبيشيف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Abdulaziz Jabbarli",
+            "slug": "abdulaziz-jabbarli",
+            "shortName": "A. Jabbarli",
+            "position": "M",
+            "jerseyNumber": "5",
+            "userCount": 9,
+            "gender": "M",
+            "id": 1992866,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1207526400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "عبد العزيز جبارلي"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. جبارلي"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ahmet Gulenc",
+            "slug": "ahmet-gulenc",
+            "shortName": "A. Gulenc",
+            "position": "M",
+            "jerseyNumber": "17",
+            "userCount": 12,
+            "id": 2270677,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1207094400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أحمد غولنج"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. غولنج"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Aliakbar Rzazade",
+            "slug": "aliakbar-rzazade",
+            "shortName": "A. Rzazade",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 22,
+            "gender": "M",
+            "id": 2224598,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1178755200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي أكبر رزازاده"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. رزازاده"
+              }
+            }
+          },
+          "teamId": 296099,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ali Bashirov",
+            "firstName": "Ali Bashirov",
+            "slug": "ali-bashirov",
+            "shortName": "A. Bashirov",
+            "position": "M",
+            "jerseyNumber": "19",
+            "userCount": 25,
+            "id": 2268019,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي باشيروف"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. باشيروف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ali Ibrahim",
+            "slug": "ali-ibrahim",
+            "shortName": "A. Ibrahim",
+            "position": "F",
+            "jerseyNumber": "9",
+            "userCount": 10,
+            "gender": "M",
+            "id": 1992868,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1207353600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي إبراهيم"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. إبراهيم"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ahmed Valiyev",
+            "firstName": "Ahmed Valiyev",
+            "slug": "ahmed-valiyev",
+            "shortName": "A. Valiyev",
+            "position": "F",
+            "jerseyNumber": "7",
+            "userCount": 16,
+            "gender": "M",
+            "id": 2052693,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1211500800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أحمد فالييف"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. فالييف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ali Aliyev",
+            "firstName": "Ali Aliyev",
+            "slug": "ali-aliyev",
+            "shortName": "A. Aliyev",
+            "position": "F",
+            "jerseyNumber": "11",
+            "userCount": 12,
+            "id": 2268018,
+            "country": {
+              "alpha2": "AZ",
+              "alpha3": "AZE",
+              "name": "Azerbaijan",
+              "slug": "azerbaijan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1219622400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "علي علييف"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. علييف"
+              }
+            }
+          },
+          "teamId": 241129,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "5-4-1",
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "000000",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "statisticalVersion": 2
+  },
+  "event/14596287/managers": {
+    "homeManager": {
+      "name": "Dario Rocco",
+      "slug": "dario-rocco",
+      "shortName": "D. Rocco",
+      "id": 806075,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "داريو روكو"
+        },
+        "shortNameTranslation": {
+          "ar": "د. روكو"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Rashad Sadiqov",
+      "slug": "rashad-sadiqov",
+      "shortName": "R. Sadiqov",
+      "id": 813836,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "رشاد صادقوف"
+        },
+        "shortNameTranslation": {
+          "ar": "ر. صادقوف"
+        }
+      }
+    }
+  },
+  "event/14596287/comments/es": {
+    "comments": [
+      {
+        "text": "Final primera parte, Napoli U19 1, Qarabag U19 0.",
+        "type": "endFirstHalf",
+        "id": 33805938,
+        "periodName": "1ST",
+        "time": 51
+      },
+      {
+        "text": "El cuarto árbitro ha anunciado 3 minutos de tiempo añadido.",
+        "type": "addedTime",
+        "id": 33805939,
+        "periodName": "1ST",
+        "time": 46
+      },
+      {
+        "text": "Cavid Malikov (Qarabag U19) ha visto tarjeta amarilla por juego peligroso.",
+        "type": "yellowCard",
+        "isHome": false,
+        "player": {
+          "name": "Cavid Malikov",
+          "slug": "cavid-malikov",
+          "shortName": "C. Malikov",
+          "position": "D",
+          "jerseyNumber": "4",
+          "userCount": 19,
+          "gender": "M",
+          "id": 2227397,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1179014400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جافيد مالكوف"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. مالكوف"
+            }
+          }
+        },
+        "id": 33805897,
+        "periodName": "1ST",
+        "time": 36
+      },
+      {
+        "text": "¡Gooooool! Napoli U19 1, Qarabag U19 0. Christian Raggioli (Napoli U19) remate con la derecha desde el centro del área.",
+        "type": "scoreChange",
+        "isHome": true,
+        "player": {
+          "name": "Christian Raggioli",
+          "firstName": "Christian Raggioli",
+          "slug": "christian-raggioli",
+          "shortName": "C. Raggioli",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 186,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1546433,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1136937600,
+          "proposedMarketValueRaw": {
+            "value": 185000,
+            "currency": "EUR"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كريستيان راجيولي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. راجيولي"
+            }
+          }
+        },
+        "id": 33805709,
+        "periodName": "1ST",
+        "time": 5
+      },
+      {
+        "text": "Empieza primera parte.",
+        "type": "matchStarted",
+        "id": 33805702,
+        "periodName": "1ST",
+        "time": 1
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ff9900",
+        "number": "000000",
+        "outline": "ff9900",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "66ccff",
+        "number": "dd0000",
+        "outline": "66ccff",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "ffffff",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "ffffff",
+        "number": "000000",
+        "outline": "ffffff",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 45,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "betSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&lpid=18&bid=1510",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14596287/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185342466,
+        "suspended": false,
+        "id": 164920717,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "1/33",
+            "sourceId": 38467845,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "14/1",
+            "sourceId": 38467846,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "28/1",
+            "sourceId": 38467847,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185342466,
+        "suspended": false,
+        "id": 164920717,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "1/33",
+            "sourceId": 38467845,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "14/1",
+            "sourceId": 38467846,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "28/1",
+            "sourceId": 38467847,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185342466,
+        "suspended": false,
+        "id": 164920717,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "1/33",
+            "sourceId": 38467845,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "14/1",
+            "sourceId": 38467846,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "28/1",
+            "sourceId": 38467847,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15146261,
+        "homeTeamId": 409934,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146262,
+        "homeTeamId": 355334,
+        "awayTeamId": 409934,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146264,
+        "homeTeamId": 484968,
+        "awayTeamId": 409934,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146274,
+        "homeTeamId": 1043125,
+        "awayTeamId": 398482,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146293,
+        "homeTeamId": 481160,
+        "awayTeamId": 411152,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146302,
+        "homeTeamId": 240442,
+        "awayTeamId": 243797,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146305,
+        "homeTeamId": 1152996,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146659,
+        "homeTeamId": 243797,
+        "awayTeamId": 526189,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146660,
+        "homeTeamId": 240442,
+        "awayTeamId": 1152996,
+        "uniqueTournamentId": 9410
+      },
+      {
+        "eventId": 15146869,
+        "homeTeamId": 252000,
+        "awayTeamId": 194939,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146870,
+        "homeTeamId": 253110,
+        "awayTeamId": 393206,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146871,
+        "homeTeamId": 1096990,
+        "awayTeamId": 321462,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15146944,
+        "homeTeamId": 858274,
+        "awayTeamId": 1119811,
+        "uniqueTournamentId": 31135
+      },
+      {
+        "eventId": 15146962,
+        "homeTeamId": 410299,
+        "awayTeamId": 483153,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146963,
+        "homeTeamId": 409832,
+        "awayTeamId": 456912,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146964,
+        "homeTeamId": 410020,
+        "awayTeamId": 451466,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146965,
+        "homeTeamId": 484968,
+        "awayTeamId": 355334,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146966,
+        "homeTeamId": 410132,
+        "awayTeamId": 412607,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146967,
+        "homeTeamId": 409934,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146968,
+        "homeTeamId": 410058,
+        "awayTeamId": 522792,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146969,
+        "homeTeamId": 799152,
+        "awayTeamId": 414395,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15146971,
+        "homeTeamId": 1107304,
+        "awayTeamId": 469498,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146972,
+        "homeTeamId": 937006,
+        "awayTeamId": 447970,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146974,
+        "homeTeamId": 409834,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146975,
+        "homeTeamId": 358706,
+        "awayTeamId": 419909,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146977,
+        "homeTeamId": 355280,
+        "awayTeamId": 1079724,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146978,
+        "homeTeamId": 409834,
+        "awayTeamId": 419909,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146980,
+        "homeTeamId": 410210,
+        "awayTeamId": 445964,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146981,
+        "homeTeamId": 410047,
+        "awayTeamId": 358706,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146982,
+        "homeTeamId": 355280,
+        "awayTeamId": 445964,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146983,
+        "homeTeamId": 409834,
+        "awayTeamId": 358706,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146984,
+        "homeTeamId": 1079724,
+        "awayTeamId": 410210,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146985,
+        "homeTeamId": 419909,
+        "awayTeamId": 410047,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146986,
+        "homeTeamId": 355280,
+        "awayTeamId": 410210,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146987,
+        "homeTeamId": 445964,
+        "awayTeamId": 1079724,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146988,
+        "homeTeamId": 447972,
+        "awayTeamId": 455852,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146989,
+        "homeTeamId": 411794,
+        "awayTeamId": 414086,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146991,
+        "homeTeamId": 463673,
+        "awayTeamId": 494212,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15146993,
+        "homeTeamId": 447972,
+        "awayTeamId": 414086,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15147123,
+        "homeTeamId": 1093486,
+        "awayTeamId": 504842,
+        "uniqueTournamentId": 31135
+      },
+      {
+        "eventId": 15147214,
+        "homeTeamId": 377970,
+        "awayTeamId": 403179,
+        "uniqueTournamentId": 30136
+      },
+      {
+        "eventId": 15147215,
+        "homeTeamId": 454114,
+        "awayTeamId": 161874,
+        "uniqueTournamentId": 30136
+      },
+      {
+        "eventId": 15147508,
+        "homeTeamId": 456267,
+        "awayTeamId": 332850,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147509,
+        "homeTeamId": 422913,
+        "awayTeamId": 131626,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147510,
+        "homeTeamId": 322739,
+        "awayTeamId": 158516,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147511,
+        "homeTeamId": 103153,
+        "awayTeamId": 255307,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147512,
+        "homeTeamId": 240436,
+        "awayTeamId": 939397,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147513,
+        "homeTeamId": 512886,
+        "awayTeamId": 349062,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147514,
+        "homeTeamId": 272812,
+        "awayTeamId": 240439,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147515,
+        "homeTeamId": 251992,
+        "awayTeamId": 146862,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147516,
+        "homeTeamId": 240429,
+        "awayTeamId": 386662,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147517,
+        "homeTeamId": 253164,
+        "awayTeamId": 200100,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147518,
+        "homeTeamId": 923919,
+        "awayTeamId": 282573,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147672,
+        "homeTeamId": 104549,
+        "awayTeamId": 25094,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147673,
+        "homeTeamId": 281116,
+        "awayTeamId": 368448,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147675,
+        "homeTeamId": 494955,
+        "awayTeamId": 321963,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147676,
+        "homeTeamId": 205199,
+        "awayTeamId": 270073,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147696,
+        "homeTeamId": 1154081,
+        "awayTeamId": 1127141,
+        "uniqueTournamentId": 24229
+      },
+      {
+        "eventId": 15147719,
+        "homeTeamId": 1154080,
+        "awayTeamId": 1154086,
+        "uniqueTournamentId": 24229
+      },
+      {
+        "eventId": 15147720,
+        "homeTeamId": 1119518,
+        "awayTeamId": 1075378,
+        "uniqueTournamentId": 24229
+      },
+      {
+        "eventId": 15147721,
+        "homeTeamId": 1118060,
+        "awayTeamId": 1145077,
+        "uniqueTournamentId": 24229
+      },
+      {
+        "eventId": 15147747,
+        "homeTeamId": 321459,
+        "awayTeamId": 252958,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15147748,
+        "homeTeamId": 1116879,
+        "awayTeamId": 183683,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15147749,
+        "homeTeamId": 24924,
+        "awayTeamId": 251998,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15147750,
+        "homeTeamId": 268052,
+        "awayTeamId": 503307,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15147751,
+        "homeTeamId": 394893,
+        "awayTeamId": 194911,
+        "uniqueTournamentId": 24230
+      },
+      {
+        "eventId": 15147811,
+        "homeTeamId": 500403,
+        "awayTeamId": 291910,
+        "uniqueTournamentId": 24228
+      },
+      {
+        "eventId": 15147850,
+        "homeTeamId": 1154289,
+        "awayTeamId": 1154290,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147851,
+        "homeTeamId": 1154291,
+        "awayTeamId": 1154292,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147852,
+        "homeTeamId": 1154293,
+        "awayTeamId": 1105409,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147853,
+        "homeTeamId": 1154294,
+        "awayTeamId": 1041786,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147854,
+        "homeTeamId": 1154295,
+        "awayTeamId": 1154296,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147855,
+        "homeTeamId": 1154297,
+        "awayTeamId": 1154298,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147856,
+        "homeTeamId": 1154299,
+        "awayTeamId": 1152161,
+        "uniqueTournamentId": 31091
+      },
+      {
+        "eventId": 15147857,
+        "homeTeamId": 237972,
+        "awayTeamId": 1152157,
+        "uniqueTournamentId": 31091
+      }
+    ]
+  },
+  "event/14596287/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14596287/odds/1/all": {
+    "markets": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185342466,
+        "suspended": false,
+        "id": 164920717,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "1/33",
+            "sourceId": 38467845,
+            "name": "1",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "14/1",
+            "sourceId": 38467846,
+            "name": "X",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "28/1",
+            "sourceId": 38467847,
+            "name": "2",
+            "change": 1
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567246,
+        "suspended": false,
+        "id": 164815899,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "2/11",
+            "sourceId": 1937726223,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "11/2",
+            "sourceId": 1937726224,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "12/1",
+            "sourceId": 1937726225,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 14596287
+  },
+  "event/14596287/win-probability": {
+    "winProbability": {
+      "homeWin": 95,
+      "awayWin": 1,
+      "draw": 4
+    }
+  },
+  "event/14596287/team-streaks/betting-odds/1": {
+    "general": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567246,
+        "suspended": false,
+        "id": 164815899,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "2/11",
+            "sourceId": 1937726223,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "11/2",
+            "sourceId": 1937726224,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "12/1",
+            "sourceId": 1937726225,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567246,
+        "suspended": false,
+        "id": 164815899,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/11",
+            "fractionalValue": "2/11",
+            "sourceId": 1937726223,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "11/2",
+            "sourceId": 1937726224,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "12/1",
+            "fractionalValue": "12/1",
+            "sourceId": 1937726225,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "head2head": []
+  }
+}

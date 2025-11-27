@@ -1,0 +1,2389 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/14571608/incidents": {
+    "incidents": [
+      {
+        "text": "Second half",
+        "homeScore": 9,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 90,
+        "addedTime": 999,
+        "timeSeconds": 5400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 9,
+        "awayScore": 0,
+        "player": {
+          "name": "Vanessa Hrušovská",
+          "slug": "vanessa-hrusovska",
+          "shortName": "V. Hrušovská",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1213488000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فانيسا هروشوفسكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هروشوفسكا"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 330325868,
+        "time": 72,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 19,
+        "incidentType": "goal"
+      },
+      {
+        "playerIn": {
+          "name": "Desire Scupola",
+          "slug": "desire-scupola",
+          "shortName": "D. Scupola",
+          "position": "M",
+          "userCount": 0,
+          "id": 2371679,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1248220800
+        },
+        "playerOut": {
+          "name": "Aurora Scupola",
+          "slug": "aurora-scupola",
+          "shortName": "A. Scupola",
+          "position": "F",
+          "userCount": 0,
+          "id": 2371715,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1248220800
+        },
+        "id": 125185009,
+        "time": 65,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 26,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Sofia Ondikova",
+          "slug": "sofia-ondikova",
+          "shortName": "S. Ondikova",
+          "position": "F",
+          "userCount": 0,
+          "id": 2371643,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1218844800
+        },
+        "playerOut": {
+          "name": "Victoria Havalec",
+          "slug": "victoria-havalec",
+          "shortName": "V. Havalec",
+          "position": "F",
+          "jerseyNumber": "25",
+          "userCount": 1,
+          "gender": "F",
+          "id": 1925842,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1205712000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا هافاليك"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هافاليك"
+            }
+          }
+        },
+        "id": 125185008,
+        "time": 61,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 30,
+        "incidentType": "substitution"
+      },
+      {
+        "player": {
+          "name": "Elin Rinderer",
+          "slug": "elin-rinderer",
+          "shortName": "E. Rinderer",
+          "position": "F",
+          "userCount": 0,
+          "id": 2371702,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1219708800
+        },
+        "rescinded": false,
+        "id": 124379869,
+        "time": 58,
+        "isHome": false,
+        "incidentClass": "yellow",
+        "reversedPeriodTime": 33,
+        "incidentType": "card"
+      },
+      {
+        "from": "regular",
+        "homeScore": 8,
+        "awayScore": 0,
+        "player": {
+          "name": "Michaela Pekárová",
+          "slug": "michaela-pekarova",
+          "shortName": "M. Pekárová",
+          "position": "F",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252934,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1204761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميكايلا بيكاروفا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيكاروفا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Lucia Rumancikova",
+          "slug": "lucia-rumancikova",
+          "shortName": "L. Rumancikova",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1980424,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1179878400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوسيا رومانتشيكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. رومانتشيكوفا"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 330324707,
+        "time": 56,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 35,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 7,
+        "awayScore": 0,
+        "player": {
+          "name": "Victoria Havalec",
+          "slug": "victoria-havalec",
+          "shortName": "V. Havalec",
+          "position": "F",
+          "jerseyNumber": "25",
+          "userCount": 1,
+          "gender": "F",
+          "id": 1925842,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1205712000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا هافاليك"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هافاليك"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Michaela Pekárová",
+          "slug": "michaela-pekarova",
+          "shortName": "M. Pekárová",
+          "position": "F",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252934,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1204761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميكايلا بيكاروفا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيكاروفا"
+            }
+          }
+        },
+        "period": "period2",
+        "id": 330324256,
+        "time": 49,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 42,
+        "incidentType": "goal"
+      },
+      {
+        "playerIn": {
+          "name": "Michaela Pekárová",
+          "slug": "michaela-pekarova",
+          "shortName": "M. Pekárová",
+          "position": "F",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252934,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1204761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ميكايلا بيكاروفا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. بيكاروفا"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Dominika Gondova",
+          "slug": "dominika-gondova",
+          "shortName": "D. Gondova",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1980419,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1182816000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيكا غوندوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "د. غوندوفا"
+            }
+          }
+        },
+        "id": 125184939,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Matilda Sluková",
+          "slug": "matilda-slukova",
+          "shortName": "M. Sluková",
+          "position": "M",
+          "jerseyNumber": "22",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1535080,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1186704000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ماتيلدا سلوكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "م. سلوكوفا"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Katarína Bučková",
+          "slug": "katarina-buckova",
+          "shortName": "K. Bučková",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1535086,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1168560000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاتارينا بوتشكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوتشكوفا"
+            }
+          }
+        },
+        "id": 125184938,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Vanessa Hrušovská",
+          "slug": "vanessa-hrusovska",
+          "shortName": "V. Hrušovská",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252932,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1213488000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فانيسا هروشوفسكا"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هروشوفسكا"
+            }
+          }
+        },
+        "playerOut": {
+          "name": "Tamara Kramlikova",
+          "slug": "tamara-kramlikova",
+          "shortName": "T. Kramlikova",
+          "position": "F",
+          "jerseyNumber": "20",
+          "userCount": 6,
+          "gender": "F",
+          "id": 1535381,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1196208000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تامارا كرامليكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كرامليكوفا"
+            }
+          }
+        },
+        "id": 125184937,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Viviana Marugg",
+          "slug": "viviana-marugg",
+          "shortName": "V. Marugg",
+          "position": "D",
+          "userCount": 0,
+          "id": 2371646,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1214265600
+        },
+        "playerOut": {
+          "name": "Anika Wohlwend",
+          "slug": "anika-wohlwend",
+          "shortName": "A. Wohlwend",
+          "position": "M",
+          "userCount": 0,
+          "id": 2371673,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1252627200
+        },
+        "id": 125184936,
+        "time": 46,
+        "injury": false,
+        "isHome": false,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "playerIn": {
+          "name": "Alexandra Kotikova",
+          "slug": "alexandra-kotikova",
+          "shortName": "A. Kotikova",
+          "position": "D",
+          "userCount": 0,
+          "id": 2371633,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1223683200
+        },
+        "playerOut": {
+          "name": "Ema Marhevková",
+          "slug": "ema-marhevkova",
+          "shortName": "E. Marhevková",
+          "position": "D",
+          "userCount": 0,
+          "gender": "F",
+          "id": 2252864,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1208131200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيما مارهيفكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. مارهيفكوفا"
+            }
+          }
+        },
+        "id": 125184935,
+        "time": 46,
+        "injury": false,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 45,
+        "incidentType": "substitution"
+      },
+      {
+        "text": "HT",
+        "homeScore": 6,
+        "awayScore": 0,
+        "isLive": false,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      },
+      {
+        "from": "regular",
+        "homeScore": 6,
+        "awayScore": 0,
+        "player": {
+          "name": "Dominika Gondova",
+          "slug": "dominika-gondova",
+          "shortName": "D. Gondova",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1980419,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1182816000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيكا غوندوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "د. غوندوفا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Lucia Rumancikova",
+          "slug": "lucia-rumancikova",
+          "shortName": "L. Rumancikova",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1980424,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1179878400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "لوسيا رومانتشيكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. رومانتشيكوفا"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330323056,
+        "time": 44,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 5,
+        "awayScore": 0,
+        "player": {
+          "name": "Tamara Kramlikova",
+          "slug": "tamara-kramlikova",
+          "shortName": "T. Kramlikova",
+          "position": "F",
+          "jerseyNumber": "20",
+          "userCount": 6,
+          "gender": "F",
+          "id": 1535381,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1196208000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تامارا كرامليكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كرامليكوفا"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330322631,
+        "time": 39,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 7,
+        "incidentType": "goal"
+      },
+      {
+        "from": "penalty",
+        "homeScore": 4,
+        "awayScore": 0,
+        "player": {
+          "name": "Katarína Bučková",
+          "slug": "katarina-buckova",
+          "shortName": "K. Bučková",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1535086,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1168560000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاتارينا بوتشكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوتشكوفا"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330321687,
+        "time": 20,
+        "isHome": true,
+        "incidentClass": "penalty",
+        "reversedPeriodTime": 26,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 3,
+        "awayScore": 0,
+        "player": {
+          "name": "Victoria Havalec",
+          "slug": "victoria-havalec",
+          "shortName": "V. Havalec",
+          "position": "F",
+          "jerseyNumber": "25",
+          "userCount": 1,
+          "gender": "F",
+          "id": 1925842,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1205712000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا هافاليك"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هافاليك"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Katarína Bučková",
+          "slug": "katarina-buckova",
+          "shortName": "K. Bučková",
+          "position": "F",
+          "jerseyNumber": "21",
+          "userCount": 3,
+          "gender": "F",
+          "id": 1535086,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1168560000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كاتارينا بوتشكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بوتشكوفا"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330320961,
+        "time": 11,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 35,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 2,
+        "awayScore": 0,
+        "player": {
+          "name": "Tamara Kramlikova",
+          "slug": "tamara-kramlikova",
+          "shortName": "T. Kramlikova",
+          "position": "F",
+          "jerseyNumber": "20",
+          "userCount": 6,
+          "gender": "F",
+          "id": 1535381,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1196208000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تامارا كرامليكوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كرامليكوفا"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Victoria Havalec",
+          "slug": "victoria-havalec",
+          "shortName": "V. Havalec",
+          "position": "F",
+          "jerseyNumber": "25",
+          "userCount": 1,
+          "gender": "F",
+          "id": 1925842,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1205712000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فيكتوريا هافاليك"
+            },
+            "shortNameTranslation": {
+              "ar": "ف. هافاليك"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330320830,
+        "time": 8,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 38,
+        "incidentType": "goal"
+      },
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "player": {
+          "name": "Dominika Gondova",
+          "slug": "dominika-gondova",
+          "shortName": "D. Gondova",
+          "position": "M",
+          "userCount": 0,
+          "gender": "F",
+          "id": 1980419,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1182816000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دومينيكا غوندوفا"
+            },
+            "shortNameTranslation": {
+              "ar": "د. غوندوفا"
+            }
+          }
+        },
+        "period": "period1",
+        "id": 330320625,
+        "time": 4,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 42,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "222226",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      },
+      "playerColor": {
+        "primary": "054fba",
+        "number": "222226",
+        "outline": "054fba",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14571608": {
+    "event": {
+      "tournament": {
+        "name": "U19 UEFA European Championship, W, Q, R1, Gr. B2",
+        "slug": "u19-uefa-european-championship-w-q-r1-gr-b2",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "U19 European Women's Championship Qualif.",
+          "slug": "u19-european-womens-championship-qualif",
+          "primaryColorHex": "#d32b79",
+          "secondaryColorHex": "#cb93ac",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1887,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 746,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تصفيات بطولة أوروبا للسيدات تحت 19 سنة",
+              "hi": "U19 यूरोपियन वूमेन्स चैंपियनशिप क्वालीफिकेशन",
+              "bn": "আন্ডার19 ইউরোপীয়ান উইমেনস চ্যাম্পিয়নশিপ কোয়ালিফি."
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group B2",
+        "competitionType": 1,
+        "isLive": false,
+        "id": 95264,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة أوروبا تحت 19 سنة، السيدات، تصفيات، المرحلة 1، المجموعة B2",
+            "hi": "U19 यूईएफए यूरोपीयन चैंपियनशिप, डब्ल्यू, क्यू, आर1, ग्रेड B2",
+            "bn": "আন্ডার19 উয়েফা ইউরোপীয়ান চ্যাম্পিয়নশিপ, ডব্লিউ, কিউ, আর1, গ্র. বি2"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "U19 European Championship, Women, Qualification 2026",
+        "year": "2026",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 1
+        },
+        "id": 81602
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "kXosNPtc",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Slovakia U19",
+        "slug": "slovakia-u19",
+        "shortName": "Slovakia U19",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 378,
+        "nameCode": "SUU",
+        "national": true,
+        "type": 0,
+        "id": 37360,
+        "country": {
+          "alpha2": "SK",
+          "alpha3": "SVK",
+          "name": "Slovakia",
+          "slug": "slovakia"
+        },
+        "fullName": "Slovakia U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#3333ff",
+          "text": "#3333ff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلوفاكيا تحت 19",
+            "ru": "Словакия U19",
+            "hi": "स्लोवाकिया U19"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Liechtenstein U19",
+        "slug": "liechtenstein-u19",
+        "shortName": "Liechtenstein U19",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 186,
+        "nameCode": "LUU",
+        "national": true,
+        "type": 0,
+        "id": 297038,
+        "country": {
+          "alpha2": "LI",
+          "alpha3": "LIE",
+          "name": "Liechtenstein",
+          "slug": "liechtenstein"
+        },
+        "fullName": "Liechtenstein U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#3a5aa3",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ليختنشتاين تحت 19",
+            "ru": "Лихтенштейн U19",
+            "hi": "लिकटेंस्टेइन U19"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 9,
+        "display": 9,
+        "period1": 6,
+        "period2": 3,
+        "normaltime": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1764072039,
+        "period1StartTimestamp": 1764068460,
+        "initial": 2700,
+        "max": 5400,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period2"
+        ],
+        "changeTimestamp": 1764073637
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14571608,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 2700,
+        "max": 5400,
+        "timestamp": 1764072039,
+        "extra": 540
+      },
+      "slug": "liechtenstein-u19-slovakia-u19",
+      "currentPeriodStartTimestamp": 1764072039,
+      "startTimestamp": 1764068400,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14571608/votes": {
+    "vote": {
+      "vote1": 493,
+      "vote2": 60,
+      "voteX": 60
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 95,
+      "voteNo": 61
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 153,
+      "voteNoGoal": 3,
+      "voteAway": 9
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14571608/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Sabina Rabcanova",
+            "slug": "sabina-rabcanova",
+            "shortName": "S. Rabcanova",
+            "position": "G",
+            "userCount": 1,
+            "gender": "F",
+            "id": 1980423,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1190505600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سابينا رابكانوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "س. رابكانوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ema Marhevková",
+            "slug": "ema-marhevkova",
+            "shortName": "E. Marhevková",
+            "position": "D",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252864,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1208131200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيما مارهيفكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. مارهيفكوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 46,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Mária Fuxhofferová",
+            "slug": "maria-fuxhofferova",
+            "shortName": "M. Fuxhofferová",
+            "position": "D",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252908,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1188518400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماريا فوكهوفروا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. فوكهوفروا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Dominika Schmidtova",
+            "slug": "dominika-schmidtova",
+            "shortName": "D. Schmidtova",
+            "position": "D",
+            "userCount": 0,
+            "id": 2371635,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1200873600
+          },
+          "teamId": 37360,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Lea Kozubova",
+            "slug": "lea-kozubova",
+            "shortName": "L. Kozubova",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371640,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1206316800
+          },
+          "teamId": 37360,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Katarína Bučková",
+            "slug": "katarina-buckova",
+            "shortName": "K. Bučková",
+            "position": "F",
+            "jerseyNumber": "21",
+            "userCount": 3,
+            "gender": "F",
+            "id": 1535086,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1168560000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاتارينا بوتشكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. بوتشكوفا"
+              }
+            }
+          },
+          "teamId": 44171,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 1,
+            "goals": 1,
+            "ownGoals": 0,
+            "minutesPlayed": 46,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Emily Suchoňová",
+            "slug": "emily-suchonova",
+            "shortName": "E. Suchoňová",
+            "position": "M",
+            "jerseyNumber": "5",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1925857,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1212969600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إميلي سوشونوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. سوشونوفا"
+              }
+            }
+          },
+          "teamId": 284974,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Lucia Rumancikova",
+            "slug": "lucia-rumancikova",
+            "shortName": "L. Rumancikova",
+            "position": "M",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1980424,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1179878400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "لوسيا رومانتشيكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. رومانتشيكوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 2,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 90,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dominika Gondova",
+            "slug": "dominika-gondova",
+            "shortName": "D. Gondova",
+            "position": "M",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1980419,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182816000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دومينيكا غوندوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. غوندوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 2,
+            "ownGoals": 0,
+            "minutesPlayed": 46,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tamara Kramlikova",
+            "slug": "tamara-kramlikova",
+            "shortName": "T. Kramlikova",
+            "position": "F",
+            "jerseyNumber": "20",
+            "userCount": 6,
+            "gender": "F",
+            "id": 1535381,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1196208000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تامارا كرامليكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. كرامليكوفا"
+              }
+            }
+          },
+          "teamId": 284974,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 2,
+            "ownGoals": 0,
+            "minutesPlayed": 46,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Victoria Havalec",
+            "slug": "victoria-havalec",
+            "shortName": "V. Havalec",
+            "position": "F",
+            "jerseyNumber": "25",
+            "userCount": 1,
+            "gender": "F",
+            "id": 1925842,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205712000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيكتوريا هافاليك"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. هافاليك"
+              }
+            }
+          },
+          "teamId": 38255,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 1,
+            "goals": 2,
+            "ownGoals": 0,
+            "minutesPlayed": 61,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Alexandra Kotikova",
+            "slug": "alexandra-kotikova",
+            "shortName": "A. Kotikova",
+            "position": "D",
+            "userCount": 0,
+            "id": 2371633,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1223683200
+          },
+          "teamId": 37360,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 44,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Matilda Sluková",
+            "slug": "matilda-slukova",
+            "shortName": "M. Sluková",
+            "position": "M",
+            "jerseyNumber": "22",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1535080,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1186704000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتيلدا سلوكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سلوكوفا"
+              }
+            }
+          },
+          "teamId": 44171,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 44,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Vanessa Hrušovská",
+            "slug": "vanessa-hrusovska",
+            "shortName": "V. Hrušovská",
+            "position": "M",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252932,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1213488000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فانيسا هروشوفسكا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. هروشوفسكا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 1,
+            "ownGoals": 0,
+            "minutesPlayed": 44,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Michaela Pekárová",
+            "slug": "michaela-pekarova",
+            "shortName": "M. Pekárová",
+            "position": "F",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252934,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1204761600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميكايلا بيكاروفا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. بيكاروفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 1,
+            "goals": 1,
+            "ownGoals": 0,
+            "minutesPlayed": 44,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sofia Ondikova",
+            "slug": "sofia-ondikova",
+            "shortName": "S. Ondikova",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371643,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1218844800
+          },
+          "teamId": 37360,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 29,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sofia Valenčinová",
+            "slug": "sofia-valencinova",
+            "shortName": "S. Valenčinová",
+            "position": "G",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252863,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "صوفيا فالينتشينوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ص. فالينتشينوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Linda Krajanova",
+            "slug": "linda-krajanova",
+            "shortName": "L. Krajanova",
+            "position": "D",
+            "userCount": 0,
+            "id": 2371631,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1227744000
+          },
+          "teamId": 37360,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Lea Bekečová",
+            "slug": "lea-bekecova",
+            "shortName": "L. Bekečová",
+            "position": "D",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2252926,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1228608000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليا بيكيكوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. بيكيكوفا"
+              }
+            }
+          },
+          "teamId": 37360,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Sára Kerešová",
+            "slug": "sara-keresova",
+            "shortName": "S. Kerešová",
+            "position": "M",
+            "jerseyNumber": "8",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1925834,
+            "country": {
+              "alpha2": "SK",
+              "alpha3": "SVK",
+              "name": "Slovakia",
+              "slug": "slovakia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1210377600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سارا كيريشوفا"
+              },
+              "shortNameTranslation": {
+                "ar": "س. كيريشوفا"
+              }
+            }
+          },
+          "teamId": 38255,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "054fba",
+        "number": "222226",
+        "outline": "054fba",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "ff0000",
+        "number": "222226",
+        "outline": "ff0000",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Marie Göldi",
+            "firstName": "Marie Göldi",
+            "slug": "marie-goldi",
+            "shortName": "M. Göldi",
+            "position": "G",
+            "userCount": 1,
+            "gender": "F",
+            "id": 2051848,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1167696000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماري غولدي"
+              },
+              "shortNameTranslation": {
+                "ar": "م. غولدي"
+              }
+            }
+          },
+          "teamId": 397373,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Sara Tokic",
+            "slug": "sara-tokic",
+            "shortName": "S. Tokic",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371699,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1210377600
+          },
+          "teamId": 297038,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Vanessa Wenger",
+            "slug": "vanessa-wenger",
+            "shortName": "V. Wenger",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371690,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1240099200
+          },
+          "teamId": 297038,
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Valennia Göldi",
+            "firstName": "Valennia Göldi",
+            "slug": "valennia-goldi",
+            "shortName": "V. Göldi",
+            "position": "M",
+            "userCount": 1,
+            "gender": "F",
+            "id": 2164371,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1167696000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فالينيا غولدي"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. غولدي"
+              }
+            }
+          },
+          "teamId": 397373,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Lilly Falk",
+            "firstName": "Lilly Falk",
+            "slug": "lilly-falk",
+            "shortName": "L. Falk",
+            "position": "M",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2166913,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1197331200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليلي فالك"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. فالك"
+              }
+            }
+          },
+          "teamId": 397373,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Julia Beck",
+            "firstName": "Julia Beck",
+            "slug": "julia-beck",
+            "shortName": "J. Beck",
+            "position": "D",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2166912,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1210377600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوليا بيك"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بيك"
+              }
+            }
+          },
+          "teamId": 397373,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Aurora Scupola",
+            "slug": "aurora-scupola",
+            "shortName": "A. Scupola",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371715,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1248220800
+          },
+          "teamId": 297038,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 65,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Julia Suhner",
+            "firstName": "Julia Suhner",
+            "slug": "julia-suhner",
+            "shortName": "J. Suhner",
+            "position": "M",
+            "userCount": 0,
+            "gender": "F",
+            "id": 2169420,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوليا سوهنر"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سوهنر"
+              }
+            }
+          },
+          "teamId": 397373,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Anika Wohlwend",
+            "slug": "anika-wohlwend",
+            "shortName": "A. Wohlwend",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371673,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1252627200
+          },
+          "teamId": 297038,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "M",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 46,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Enya Strunk",
+            "slug": "enya-strunk",
+            "shortName": "E. Strunk",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371695,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 297038,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Elin Rinderer",
+            "slug": "elin-rinderer",
+            "shortName": "E. Rinderer",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371702,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1219708800
+          },
+          "teamId": 297038,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "F",
+          "substitute": false,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 90,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Viviana Marugg",
+            "slug": "viviana-marugg",
+            "shortName": "V. Marugg",
+            "position": "D",
+            "userCount": 0,
+            "id": 2371646,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1214265600
+          },
+          "teamId": 297038,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 44,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Desire Scupola",
+            "slug": "desire-scupola",
+            "shortName": "D. Scupola",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371679,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1248220800
+          },
+          "teamId": 297038,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "M",
+          "substitute": true,
+          "statistics": {
+            "goalAssist": 0,
+            "goals": 0,
+            "ownGoals": 0,
+            "minutesPlayed": 25,
+            "totalShots": 0,
+            "statisticsType": {
+              "sportSlug": "football",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Irina Wohlwend",
+            "slug": "irina-wohlwend",
+            "shortName": "I. Wohlwend",
+            "position": "G",
+            "userCount": 0,
+            "id": 2371645,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1252627200
+          },
+          "teamId": 297038,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Anna Lucia Beck",
+            "slug": "anna-lucia-beck",
+            "shortName": "A. L. Beck",
+            "position": "D",
+            "userCount": 0,
+            "id": 2371652,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182816000
+          },
+          "teamId": 297038,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Fiona Scheidl",
+            "slug": "fiona-scheidl",
+            "shortName": "F. Scheidl",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371658,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1222128000
+          },
+          "teamId": 297038,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Lara Maria Schmidle",
+            "slug": "lara-maria-schmidle",
+            "shortName": "L. M. Schmidle",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371664,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1214870400
+          },
+          "teamId": 297038,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Aileen Mikus",
+            "slug": "aileen-mikus",
+            "shortName": "A. Mikus",
+            "position": "M",
+            "userCount": 0,
+            "id": 2371677,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1211932800
+          },
+          "teamId": 297038,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Lea Zecic",
+            "slug": "lea-zecic",
+            "shortName": "L. Zecic",
+            "position": "F",
+            "userCount": 0,
+            "id": 2371700,
+            "country": {
+              "alpha2": "LI",
+              "alpha3": "LIE",
+              "name": "Liechtenstein",
+              "slug": "liechtenstein"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1229558400
+          },
+          "teamId": 297038,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-1-4-1",
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14571608/statistics": {
+    "statistics": [
+      {
+        "period": "ALL",
+        "groups": [
+          {
+            "groupName": "Match overview",
+            "statisticsItems": [
+              {
+                "name": "Corner kicks",
+                "home": "6",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 6,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "cornerKicks"
+              },
+              {
+                "name": "Fouls",
+                "home": "3",
+                "away": "14",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 3,
+                "awayValue": 14,
+                "renderType": 1,
+                "key": "fouls"
+              },
+              {
+                "name": "Free kicks",
+                "home": "13",
+                "away": "3",
+                "compareCode": 1,
+                "statisticsType": "positive",
+                "valueType": "event",
+                "homeValue": 13,
+                "awayValue": 3,
+                "renderType": 1,
+                "key": "freeKicks"
+              },
+              {
+                "name": "Yellow cards",
+                "home": "0",
+                "away": "1",
+                "compareCode": 2,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 1,
+                "renderType": 1,
+                "key": "yellowCards"
+              },
+              {
+                "name": "Red cards",
+                "home": "0",
+                "away": "0",
+                "compareCode": 3,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 0,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "redCards"
+              }
+            ]
+          },
+          {
+            "groupName": "Attack",
+            "statisticsItems": [
+              {
+                "name": "Offsides",
+                "home": "2",
+                "away": "0",
+                "compareCode": 1,
+                "statisticsType": "negative",
+                "valueType": "event",
+                "homeValue": 2,
+                "awayValue": 0,
+                "renderType": 1,
+                "key": "offsides"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "event/14571608/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  }
+}

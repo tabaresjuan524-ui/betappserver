@@ -1,0 +1,981 @@
+{
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/15036509/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 2,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036509": {
+    "event": {
+      "tournament": {
+        "name": "Czech Liga Pro",
+        "slug": "czech-liga-pro",
+        "category": {
+          "name": "Czech Republic",
+          "slug": "czech-republic",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1369,
+          "country": {
+            "alpha2": "CZ",
+            "alpha3": "CZE",
+            "name": "Czechia",
+            "slug": "czechia"
+          },
+          "flag": "czech-republic",
+          "alpha2": "CZ",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "التشيك"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Czech Liga Pro",
+          "slug": "czech-liga-pro",
+          "category": {
+            "name": "Czech Republic",
+            "slug": "czech-republic",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1369,
+            "country": {
+              "alpha2": "CZ",
+              "alpha3": "CZE",
+              "name": "Czechia",
+              "slug": "czechia"
+            },
+            "flag": "czech-republic",
+            "alpha2": "CZ",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "التشيك"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 112,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19039,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري المحترفين التشيكي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99075,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري المحترفين التشيكي (Czech)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "ZckesRWqi",
+      "status": {
+        "code": 12,
+        "description": "5th set",
+        "type": "inprogress"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Zikmund I.",
+        "slug": "zikmund-ivo",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 17,
+        "nameCode": "ZIK",
+        "national": false,
+        "type": 1,
+        "id": 1042342,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Zikmund, Ivo",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "زيكموند، إيفو"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Petr P.",
+        "slug": "petr-pavel",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 38,
+        "nameCode": "PET",
+        "national": false,
+        "type": 1,
+        "id": 525149,
+        "country": {
+          "alpha2": "CZ",
+          "alpha3": "CZE",
+          "name": "Czechia",
+          "slug": "czechia"
+        },
+        "fullName": "Petr, Pavel",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيتر، بافيل"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 5,
+        "period2": 11,
+        "period3": 12,
+        "period4": 9,
+        "period5": 4
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 8,
+        "period3": 10,
+        "period4": 11,
+        "period5": 4
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762932225
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period5",
+          "awayScore.period5"
+        ],
+        "changeTimestamp": 1762932426
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036509,
+      "defaultPeriodCount": 5,
+      "slug": "zikmund-petr",
+      "currentPeriodStartTimestamp": 1762932225,
+      "startTimestamp": 1762930800,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period5",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  },
+  "event/15036509/votes": {
+    "vote": {
+      "vote1": 29,
+      "vote2": 40,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 40,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 50,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "betSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15037360,
+        "homeTeamId": 364403,
+        "awayTeamId": 508928,
+        "uniqueTournamentId": 19068
+      },
+      {
+        "eventId": 15037394,
+        "homeTeamId": 462061,
+        "awayTeamId": 342293,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037395,
+        "homeTeamId": 239879,
+        "awayTeamId": 169630,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037396,
+        "homeTeamId": 221339,
+        "awayTeamId": 245307,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037397,
+        "homeTeamId": 201850,
+        "awayTeamId": 15858,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037398,
+        "homeTeamId": 234275,
+        "awayTeamId": 209103,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037399,
+        "homeTeamId": 425564,
+        "awayTeamId": 446854,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037400,
+        "homeTeamId": 222958,
+        "awayTeamId": 223481,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037401,
+        "homeTeamId": 111609,
+        "awayTeamId": 283488,
+        "uniqueTournamentId": 30763
+      },
+      {
+        "eventId": 15037423,
+        "homeTeamId": 515645,
+        "awayTeamId": 1149448,
+        "uniqueTournamentId": 30704
+      },
+      {
+        "eventId": 15037438,
+        "homeTeamId": 1150373,
+        "awayTeamId": 328162,
+        "uniqueTournamentId": 30805
+      },
+      {
+        "eventId": 15037500,
+        "homeTeamId": 485767,
+        "awayTeamId": 1072203,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15037501,
+        "homeTeamId": 409849,
+        "awayTeamId": 410298,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15037502,
+        "homeTeamId": 484525,
+        "awayTeamId": 409968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15037503,
+        "homeTeamId": 459107,
+        "awayTeamId": 1115666,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15037504,
+        "homeTeamId": 490558,
+        "awayTeamId": 503330,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15037505,
+        "homeTeamId": 483808,
+        "awayTeamId": 462289,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15037512,
+        "homeTeamId": 829670,
+        "awayTeamId": 459396,
+        "uniqueTournamentId": 30762
+      },
+      {
+        "eventId": 15037515,
+        "homeTeamId": 454114,
+        "awayTeamId": 79929,
+        "uniqueTournamentId": 30769
+      },
+      {
+        "eventId": 15037518,
+        "homeTeamId": 420995,
+        "awayTeamId": 321401,
+        "uniqueTournamentId": 30347
+      }
+    ]
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  }
+}

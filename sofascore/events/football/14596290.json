@@ -1,0 +1,2238 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "event/14596290/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "66cc66",
+        "number": "000000",
+        "outline": "66cc66",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "33ccff",
+        "number": "000033",
+        "outline": "33ccff",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ff2222",
+        "number": "ffffff",
+        "outline": "ff2222",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14596290/pregame-form": {
+    "homeTeam": {
+      "position": 20,
+      "value": "6",
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
+    "awayTeam": {
+      "position": 18,
+      "value": "7",
+      "form": [
+        "W",
+        "W",
+        "D",
+        "L"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/14596290/votes": {
+    "vote": {
+      "vote1": 2164,
+      "vote2": 404,
+      "voteX": 458
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 633,
+      "voteNo": 75
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 485,
+      "voteNoGoal": 12,
+      "voteAway": 65
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14596290": {
+    "event": {
+      "tournament": {
+        "name": "UEFA Youth League",
+        "slug": "uefa-youth-league",
+        "category": {
+          "name": "Europe",
+          "slug": "europe",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1465,
+          "country": {},
+          "flag": "europe",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أوروبا",
+              "hi": "यूरोप",
+              "bn": "ইউরোপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "UEFA Youth League",
+          "slug": "uefa-youth-league",
+          "primaryColorHex": "#44c156",
+          "secondaryColorHex": "#2828c6",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "country": {},
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 22080,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 2132,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا للشباب",
+              "hi": "यूईएफए यूथ लीग",
+              "bn": "উয়েফা ইউথ লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 442,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 138558,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري الشباب الأوروبي",
+            "hi": "यूईएफए यूथ लीग",
+            "bn": "উয়েফা ইয়ুথ লীগ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "UEFA Youth League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 1
+        },
+        "id": 81894
+      },
+      "roundInfo": {
+        "round": 5
+      },
+      "customId": "qzrsgrY",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Manchester"
+        },
+        "venueCoordinates": {
+          "latitude": 53.481266,
+          "longitude": -2.192813
+        },
+        "hidden": true,
+        "slug": "academy-stadium",
+        "name": "Academy Stadium",
+        "capacity": 7000,
+        "id": 16651,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب الأكاديمية",
+            "hi": "अकेडमी स्टेडियम",
+            "bn": "একাডেমি স্টেডিয়াম"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Academy Stadium",
+          "capacity": 7000
+        }
+      },
+      "referee": {
+        "name": "Mathieu Vernice",
+        "slug": "mathieu-vernice",
+        "yellowCards": 457,
+        "redCards": 22,
+        "yellowRedCards": 11,
+        "games": 108,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 787561,
+        "country": {
+          "alpha2": "FR",
+          "alpha3": "FRA",
+          "name": "France",
+          "slug": "france"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماتيو فيرنايس",
+            "hi": "मैथ्यू वर्निस",
+            "bn": "ম্যাথিউ ভার্নিস"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Manchester City U19",
+        "slug": "manchester-city-u19",
+        "shortName": "Man City U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 6430,
+        "manager": {
+          "name": "Benjamin Wilkinson",
+          "slug": "benjamin-wilkinson",
+          "shortName": "B. Wilkinson",
+          "id": 806086,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بنجامين ويلكينسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. ويلكينسون"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Manchester"
+          },
+          "venueCoordinates": {
+            "latitude": 53.481266,
+            "longitude": -2.192813
+          },
+          "hidden": true,
+          "slug": "academy-stadium",
+          "name": "Academy Stadium",
+          "capacity": 7000,
+          "id": 16651,
+          "country": {
+            "alpha2": "EN",
+            "alpha3": "ENG",
+            "name": "England",
+            "slug": "england"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ملعب الأكاديمية",
+              "hi": "अकेडमी स्टेडियम",
+              "bn": "একাডেমি স্টেডিয়াম"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Academy Stadium",
+            "capacity": 7000
+          }
+        },
+        "nameCode": "MCU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 120856,
+        "country": {
+          "alpha2": "EN",
+          "alpha3": "ENG",
+          "name": "England",
+          "slug": "england"
+        },
+        "fullName": "Manchester City U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#66ccff",
+          "secondary": "#2d6f82",
+          "text": "#2d6f82"
+        },
+        "foundationDateTimestamp": -2811888000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانشستر سيتي تحت 19",
+            "ru": "Манчестер Сити"
+          },
+          "shortNameTranslation": {
+            "ar": "مان سيتي تحت 19"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bayer Leverkusen U19",
+        "slug": "bayer-leverkusen-u19",
+        "shortName": "Leverkusen U19",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 3205,
+        "manager": {
+          "name": "Kevin Brok",
+          "slug": "kevin-brok",
+          "shortName": "K. Brok",
+          "id": 813833,
+          "country": {
+            "alpha2": "NL",
+            "alpha3": "NLD",
+            "name": "Netherlands",
+            "slug": "netherlands"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كيفن بروك"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. بروك"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Leverkusen"
+          },
+          "venueCoordinates": {
+            "latitude": 51.0303,
+            "longitude": 6.98432
+          },
+          "hidden": true,
+          "slug": "jugendfu-ball-zentrum-kurtekotten",
+          "name": "Jugendfußball-Zentrum Kurtekotten",
+          "capacity": 3000,
+          "id": 4866,
+          "country": {
+            "alpha2": "DE",
+            "alpha3": "DEU",
+            "name": "Germany",
+            "slug": "germany"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "يوجندفوسبول-زينتروم كورتوكوتن",
+              "hi": "जुगेंडफ़ुस्बॉल-ज़ेंट्रम कुर्टेकोटेन",
+              "bn": "জুগেন্ডফুসবল-জেনট্রাম কুর্তেকোটেন"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Jugendfußball-Zentrum Kurtekotten",
+            "capacity": 3000
+          }
+        },
+        "nameCode": "BLU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 43716,
+        "country": {
+          "alpha2": "DE",
+          "alpha3": "DEU",
+          "name": "Germany",
+          "slug": "germany"
+        },
+        "fullName": "Bayer Leverkusen U19",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#ff2222",
+          "text": "#ff2222"
+        },
+        "foundationDateTimestamp": -2067120000,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باير ليفركوزن تحت 19",
+            "ru": "Байер Леверкузен"
+          },
+          "shortNameTranslation": {
+            "ar": "ليفركوزن تحت 19"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1764082968,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.current",
+          "homeScore.display",
+          "homeScore.period1",
+          "awayScore.current",
+          "awayScore.display",
+          "awayScore.period1",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1764082971
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": false,
+      "detailId": 4,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14596290,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1764082968,
+        "extra": 540
+      },
+      "slug": "manchester-city-u19-bayer-leverkusen-u19",
+      "currentPeriodStartTimestamp": 1764082968,
+      "startTimestamp": 1764082800,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14596290/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Spike Brits",
+            "firstName": "Spike Brits",
+            "slug": "spike-brits",
+            "shortName": "S. Brits",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 190,
+            "userCount": 339,
+            "gender": "M",
+            "id": 1546249,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182643200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سبايك بريتس"
+              },
+              "shortNameTranslation": {
+                "ar": "س. بريتس"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Brooklyn Nfonkeu",
+            "firstName": "Brooklyn Nfonkeu",
+            "slug": "brooklyn-nfonkeu",
+            "shortName": "B. Nfonkeu",
+            "position": "F",
+            "jerseyNumber": "2",
+            "userCount": 98,
+            "gender": "M",
+            "id": 1402686,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1183248000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بروكلين نفونكيو"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. نفونكيو"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Kian Noble",
+            "firstName": "Kian Noble",
+            "slug": "kian-noble",
+            "shortName": "K. Noble",
+            "position": "D",
+            "jerseyNumber": "3",
+            "userCount": 333,
+            "gender": "M",
+            "id": 1402735,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1172448000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيان نوبل"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. نوبل"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Stephen Mfuni",
+            "firstName": "Stephen Mfuni",
+            "slug": "stephen-mfuni",
+            "shortName": "S. Mfuni",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 180,
+            "userCount": 1682,
+            "gender": "M",
+            "id": 1402791,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1202774400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ستيفن مفونى"
+              },
+              "shortNameTranslation": {
+                "ar": "س. مفونى"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Christian McFarlane",
+            "firstName": "Christian McFarlane",
+            "lastName": "",
+            "slug": "mcfarlane-christian",
+            "shortName": "C. McFarlane",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 183,
+            "userCount": 1792,
+            "gender": "M",
+            "id": 1142916,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1169683200,
+            "proposedMarketValueRaw": {
+              "value": 1900000,
+              "currency": "EUR"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماكفارلين ، كريستيان"
+              },
+              "shortNameTranslation": {
+                "ar": "م. ، كريستيان"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Charlie Gray",
+            "firstName": "Charlie Gray",
+            "lastName": "",
+            "slug": "charlie-gray",
+            "shortName": "C. Gray",
+            "position": "M",
+            "jerseyNumber": "8",
+            "userCount": 214,
+            "gender": "M",
+            "id": 1402918,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1140566400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غراي، تشارلي"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. غراي"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Femi Fapetu",
+            "firstName": "Femi Fapetu",
+            "lastName": "",
+            "slug": "femi-fapetu",
+            "shortName": "F. Fapetu",
+            "position": "M",
+            "jerseyNumber": "6",
+            "userCount": 146,
+            "gender": "M",
+            "id": 1402700,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1186185600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فيمي فابيتو"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. فابيتو"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Divine Mukasa",
+            "firstName": "",
+            "lastName": "",
+            "slug": "divine-mukasa",
+            "shortName": "D. Mukasa",
+            "position": "M",
+            "jerseyNumber": "10",
+            "height": 178,
+            "userCount": 8278,
+            "gender": "M",
+            "id": 1467990,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1187740800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديڤاين موكاسا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. موكاسا"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "Ryan McAidoo",
+            "slug": "ryan-mcaidoo",
+            "shortName": "R. McAidoo",
+            "position": "M",
+            "jerseyNumber": "7",
+            "height": 174,
+            "userCount": 1031,
+            "gender": "M",
+            "id": 1826151,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1214265600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رايان مكأيدو"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. مكأيدو"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Mahamadou Sangaré",
+            "firstName": "Mahamadou Sangaré",
+            "slug": "mahamadou-sangare",
+            "shortName": "M. Sangaré",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 177,
+            "userCount": 1530,
+            "gender": "M",
+            "id": 1544537,
+            "country": {
+              "alpha2": "FR",
+              "alpha3": "FRA",
+              "name": "France",
+              "slug": "france"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1173139200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "محمادو سانغاري"
+              },
+              "shortNameTranslation": {
+                "ar": "م. سانغاري"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Reigan Heskey",
+            "firstName": "Reigan",
+            "lastName": "Heskey",
+            "slug": "reigan-heskey",
+            "shortName": "R. Heskey",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 184,
+            "userCount": 1944,
+            "gender": "M",
+            "id": 1601596,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1200614400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريغان هيسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. هيسكي"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Max Hudson",
+            "firstName": "Max Hudson",
+            "slug": "max-hudson",
+            "shortName": "M. Hudson",
+            "position": "G",
+            "jerseyNumber": "13",
+            "height": 181,
+            "userCount": 211,
+            "id": 1606560,
+            "country": {
+              "alpha2": "WA",
+              "alpha3": "WAL",
+              "name": "Wales",
+              "slug": "wales"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1167609600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماكس هودسون"
+              },
+              "shortNameTranslation": {
+                "ar": "م. هودسون"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Leke Drake",
+            "firstName": "Leke Drake",
+            "lastName": "",
+            "slug": "leke-drake",
+            "shortName": "L. Drake",
+            "position": "D",
+            "jerseyNumber": "12",
+            "userCount": 90,
+            "id": 1402739,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1180656000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليكي دريك"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. دريك"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Dante Headley",
+            "slug": "dante-headley",
+            "shortName": "D. Headley",
+            "position": "D",
+            "jerseyNumber": "14",
+            "height": 179,
+            "userCount": 118,
+            "gender": "M",
+            "id": 1913054,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1221696000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانتي هيدلي"
+              },
+              "shortNameTranslation": {
+                "ar": "د. هيدلي"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Kaden Braithwaite",
+            "firstName": "Kaden Braithwaite",
+            "slug": "kaden-braithwaite",
+            "shortName": "K. Braithwaite",
+            "position": "D",
+            "jerseyNumber": "15",
+            "height": 183,
+            "userCount": 649,
+            "gender": "M",
+            "id": 1899484,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1206403200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كادين برايثويت"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. برايثويت"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Floyd Samba",
+            "firstName": "Floyd Samba",
+            "slug": "floyd-samba",
+            "shortName": "F. Samba",
+            "position": "M",
+            "jerseyNumber": "18",
+            "height": 183,
+            "userCount": 173,
+            "gender": "M",
+            "id": 1937970,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1231977600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فلويد سامبا"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. سامبا"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Harrison Miles",
+            "slug": "harrison-miles",
+            "shortName": "H. Miles",
+            "position": "M",
+            "jerseyNumber": "16",
+            "height": 178,
+            "userCount": 161,
+            "id": 1563930,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1215043200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هاريسون مايلز"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. مايلز"
+              }
+            }
+          },
+          "teamId": 120856,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Justin Oboavwoduo",
+            "firstName": "Justin Oboavwoduo",
+            "lastName": "",
+            "slug": "justin-oboavwoduo",
+            "shortName": "J. Oboavwoduo",
+            "position": "F",
+            "jerseyNumber": "17",
+            "height": 179,
+            "userCount": 706,
+            "gender": "M",
+            "id": 1400670,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1156291200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاستن أوبوفودو"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. أوبوفودو"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Christian Dunbar-McDonald",
+            "firstName": "Christian Dunbar-McDonald",
+            "lastName": "",
+            "slug": "christian-dunbar-mcdonald",
+            "shortName": "C. Dunbar-McDonald",
+            "position": "F",
+            "jerseyNumber": "19",
+            "userCount": 190,
+            "gender": "M",
+            "id": 1402690,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1193616000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كريستيان دنبار-ماكدونالد"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ماكدونالد"
+              }
+            }
+          },
+          "teamId": 758669,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Matty Warhurst",
+            "slug": "matty-warhurst",
+            "shortName": "M. Warhurst",
+            "position": "F",
+            "jerseyNumber": "20",
+            "height": 181,
+            "userCount": 309,
+            "gender": "M",
+            "id": 1546085,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1159142400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماتي وارهيرست"
+              },
+              "shortNameTranslation": {
+                "ar": "م. وارهيرست"
+              }
+            }
+          },
+          "teamId": 36544,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "33ccff",
+        "number": "000033",
+        "outline": "33ccff",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "66cc66",
+        "number": "000000",
+        "outline": "66cc66",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Jesper Schlich",
+            "firstName": "Jesper Schlich",
+            "lastName": "",
+            "slug": "jesper-schlich",
+            "shortName": "J. Schlich",
+            "position": "G",
+            "jerseyNumber": "1",
+            "userCount": 17,
+            "gender": "M",
+            "id": 1489148,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1184198400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ييسبر شليخ"
+              },
+              "shortNameTranslation": {
+                "ar": "ي. شليخ"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false,
+          "captain": true
+        },
+        {
+          "player": {
+            "name": "Nebe-Sirak Domnic",
+            "firstName": "Nebe-Sirak Domnic",
+            "slug": "nebe-sirak-domnic",
+            "shortName": "N. Domnic",
+            "position": "D",
+            "jerseyNumber": "20",
+            "height": 182,
+            "userCount": 76,
+            "gender": "M",
+            "id": 1931663,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1226793600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيبي-سيراك دومنيك"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. دومنيك"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Noah Probst",
+            "firstName": "Noah Probst",
+            "slug": "noah-probst",
+            "shortName": "N. Probst",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 6,
+            "gender": "M",
+            "id": 1961801,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1241654400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نوح بروباست"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. بروباست"
+              }
+            }
+          },
+          "teamId": 241802,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Burak Kir",
+            "firstName": "Burak Kir",
+            "slug": "burak-kir",
+            "shortName": "B. Kir",
+            "position": "M",
+            "jerseyNumber": "30",
+            "userCount": 8,
+            "gender": "M",
+            "id": 2270568,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1213660800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوراك كير"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. كير"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Osman Turay",
+            "firstName": "Osman Mohamed",
+            "lastName": "Turay",
+            "slug": "osman-mohamed-turay",
+            "shortName": "O. M. Turay",
+            "position": "D",
+            "jerseyNumber": "2",
+            "height": 173,
+            "userCount": 160,
+            "gender": "M",
+            "id": 2157303,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205712000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "توري، عثمان"
+              },
+              "shortNameTranslation": {
+                "ar": "ع. توري"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Julien Kurowski",
+            "firstName": "Julien Kurowski",
+            "slug": "julien-kurowski",
+            "shortName": "J. Kurowski",
+            "position": "F",
+            "jerseyNumber": "17",
+            "userCount": 28,
+            "gender": "M",
+            "id": 1939005,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1182816000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوليان كوروسكي"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. كوروسكي"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Elia Datené",
+            "firstName": "Elia Datené",
+            "slug": "elia-datene",
+            "shortName": "E. Datené",
+            "position": "M",
+            "jerseyNumber": "8",
+            "userCount": 2,
+            "gender": "M",
+            "id": 1994980,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1231545600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليا داتيني"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. داتيني"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Melis Djedovic",
+            "firstName": "Melis Djedovic",
+            "slug": "melis-djedovic",
+            "shortName": "M. Djedovic",
+            "position": "M",
+            "jerseyNumber": "14",
+            "userCount": 21,
+            "gender": "M",
+            "id": 1990926,
+            "country": {
+              "alpha2": "BA",
+              "alpha3": "BIH",
+              "name": "Bosnia & Herzegovina",
+              "slug": "bosnia-and-herzegovina"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1229817600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميليس جيدوفيتش"
+              },
+              "shortNameTranslation": {
+                "ar": "م. جيدوفيتش"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Jonah Louis Berghoff",
+            "slug": "jonah-louis-berghoff",
+            "shortName": "J. L. Berghoff",
+            "position": "M",
+            "jerseyNumber": "25",
+            "userCount": 3,
+            "gender": "M",
+            "id": 2005365,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1202256000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوناه لويس بيرغهوف"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. بيرغهوف"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 25,
+          "jerseyNumber": "25",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ivan Massek",
+            "firstName": "Ivan Massek",
+            "slug": "ivan-massek",
+            "shortName": "I. Massek",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 177,
+            "userCount": 24,
+            "gender": "M",
+            "id": 1961770,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1244419200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفان ماسك"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. ماسك"
+              }
+            }
+          },
+          "teamId": 241802,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ken Izekor",
+            "slug": "ken-izekor",
+            "shortName": "K. Izekor",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 177,
+            "userCount": 168,
+            "gender": "M",
+            "id": 1632596,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1179964800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كين إيزكور"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. إيزكور"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Julian Leuchter",
+            "firstName": "Julian Leuchter",
+            "slug": "julian-leuchter",
+            "shortName": "J. Leuchter",
+            "position": "G",
+            "jerseyNumber": "21",
+            "userCount": 2,
+            "gender": "M",
+            "id": 2270644,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1204588800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جوليان لوشتير"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. لوشتير"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Nils Gernhardt",
+            "firstName": "Nils Gernhardt",
+            "slug": "nils-gernhardt",
+            "shortName": "N. Gernhardt",
+            "position": "D",
+            "jerseyNumber": "3",
+            "userCount": 17,
+            "gender": "M",
+            "id": 1939023,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171584000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيلس جيرنهاردت"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. جيرنهاردت"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Konstantinos Papadakis",
+            "firstName": "Konstantinos",
+            "lastName": "Papadakis",
+            "slug": "konstantinos-papadakis",
+            "shortName": "K. Papadakis",
+            "position": "D",
+            "jerseyNumber": "6",
+            "userCount": 6,
+            "gender": "M",
+            "id": 2331649,
+            "country": {
+              "alpha2": "GR",
+              "alpha3": "GRC",
+              "name": "Greece",
+              "slug": "greece"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1240790400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كونستانتينوس باباداكيس"
+              },
+              "shortNameTranslation": {
+                "ar": "كي. باباداكيس"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Max Wrobel",
+            "slug": "max-wrobel",
+            "shortName": "M. Wrobel",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 186,
+            "userCount": 0,
+            "id": 2372144,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1233878400
+          },
+          "teamId": 241802,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Gabriel Minutillo",
+            "firstName": "Gabriel Minutillo",
+            "slug": "gabriel-minutillo",
+            "shortName": "G. Minutillo",
+            "position": "M",
+            "jerseyNumber": "47",
+            "userCount": 5,
+            "id": 2311153,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غابرييل مينوتيلو"
+              },
+              "shortNameTranslation": {
+                "ar": "غ. مينوتيلو"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 47,
+          "jerseyNumber": "47",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Rayan Zidane",
+            "slug": "rayan-zidane",
+            "shortName": "R. Zidane",
+            "position": "M",
+            "jerseyNumber": "16",
+            "userCount": 18,
+            "id": 2349583,
+            "country": {
+              "alpha2": "DZ",
+              "alpha3": "DZA",
+              "name": "Algeria",
+              "slug": "algeria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1239667200
+          },
+          "teamId": 43716,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Emmanuel Owen",
+            "slug": "emmanuel-owen",
+            "shortName": "E. Owen",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 171,
+            "userCount": 64,
+            "gender": "M",
+            "id": 1896946,
+            "country": {
+              "alpha2": "DE",
+              "alpha3": "DEU",
+              "name": "Germany",
+              "slug": "germany"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1181520000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيمانويل أوين"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. أوين"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Berkan Ermeç",
+            "firstName": "Berkan Ermeç",
+            "slug": "berkan-ermec",
+            "shortName": "B. Ermeç",
+            "position": "F",
+            "jerseyNumber": "27",
+            "userCount": 13,
+            "gender": "M",
+            "id": 2270567,
+            "country": {
+              "alpha2": "TR",
+              "alpha3": "TUR",
+              "name": "Türkiye",
+              "slug": "turkiye"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1205712000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بركان إرمش"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. إرمش"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 27,
+          "jerseyNumber": "27",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Maksym Gololobov",
+            "firstName": "Maksym Gololobov",
+            "slug": "maksym-gololobov",
+            "shortName": "M. Gololobov",
+            "position": "F",
+            "jerseyNumber": "26",
+            "userCount": 6,
+            "gender": "M",
+            "id": 2048713,
+            "country": {
+              "alpha2": "UA",
+              "alpha3": "UKR",
+              "name": "Ukraine",
+              "slug": "ukraine"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1236988800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماكسيم غولولوبوف"
+              },
+              "shortNameTranslation": {
+                "ar": "م. غولولوبوف"
+              }
+            }
+          },
+          "teamId": 43716,
+          "shirtNumber": 26,
+          "jerseyNumber": "26",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-4-2",
+      "playerColor": {
+        "primary": "ff2222",
+        "number": "ffffff",
+        "outline": "ff2222",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": 2
+  },
+  "event/14596290/managers": {
+    "homeManager": {
+      "name": "Benjamin Wilkinson",
+      "slug": "benjamin-wilkinson",
+      "shortName": "B. Wilkinson",
+      "id": 806086,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "بنجامين ويلكينسون"
+        },
+        "shortNameTranslation": {
+          "ar": "ب. ويلكينسون"
+        }
+      }
+    },
+    "awayManager": {
+      "name": "Kevin Brok",
+      "slug": "kevin-brok",
+      "shortName": "K. Brok",
+      "id": 813833,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "كيفن بروك"
+        },
+        "shortNameTranslation": {
+          "ar": "ك. بروك"
+        }
+      }
+    }
+  },
+  "event/14596290/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322454,
+        "suspended": false,
+        "id": 164970860,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/9",
+            "fractionalValue": "4/11",
+            "sourceId": 36223558,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "4/1",
+            "sourceId": 36223561,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "13/2",
+            "fractionalValue": "13/2",
+            "sourceId": 36223562,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322454,
+        "suspended": false,
+        "id": 164970860,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/9",
+            "fractionalValue": "4/11",
+            "sourceId": 36223558,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "4/1",
+            "sourceId": 36223561,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "13/2",
+            "fractionalValue": "13/2",
+            "sourceId": 36223562,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322454,
+        "suspended": false,
+        "id": 164970860,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/9",
+            "fractionalValue": "4/11",
+            "sourceId": 36223558,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "4/1",
+            "sourceId": 36223561,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "13/2",
+            "fractionalValue": "13/2",
+            "sourceId": 36223562,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14596290/comments/es": {
+    "comments": [
+      {
+        "text": "Empieza primera parte.",
+        "type": "matchStarted",
+        "id": 33806055,
+        "periodName": "1ST",
+        "time": 1
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "66cc66",
+        "number": "000000",
+        "outline": "66cc66",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "33ccff",
+        "number": "000033",
+        "outline": "33ccff",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "ffff00",
+        "number": "000000",
+        "outline": "ffff00",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "ff2222",
+        "number": "ffffff",
+        "outline": "ff2222",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/14596290/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/14596290/odds/1/all": {
+    "markets": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 185322454,
+        "suspended": false,
+        "id": 164970860,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "2/9",
+            "fractionalValue": "4/11",
+            "sourceId": 36223558,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "11/2",
+            "fractionalValue": "4/1",
+            "sourceId": 36223561,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "13/2",
+            "fractionalValue": "13/2",
+            "sourceId": 36223562,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567259,
+        "suspended": false,
+        "id": 164815902,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/4",
+            "fractionalValue": "1/4",
+            "sourceId": 1937727012,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/1",
+            "fractionalValue": "5/1",
+            "sourceId": 1937727016,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "6/1",
+            "fractionalValue": "6/1",
+            "sourceId": 1937727017,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "eventId": 14596290
+  },
+  "event/14596290/win-probability": {
+    "winProbability": {
+      "homeWin": 71,
+      "awayWin": 11,
+      "draw": 18
+    }
+  },
+  "event/14596290/team-streaks/betting-odds/1": {
+    "general": [
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567259,
+        "suspended": false,
+        "id": 164815902,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/4",
+            "fractionalValue": "1/4",
+            "sourceId": 1937727012,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/1",
+            "fractionalValue": "5/1",
+            "sourceId": 1937727016,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "6/1",
+            "fractionalValue": "6/1",
+            "sourceId": 1937727017,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 183567259,
+        "suspended": false,
+        "id": 164815902,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/4",
+            "fractionalValue": "1/4",
+            "sourceId": 1937727012,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "5/1",
+            "fractionalValue": "5/1",
+            "sourceId": 1937727016,
+            "name": "X",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "6/1",
+            "fractionalValue": "6/1",
+            "sourceId": 1937727017,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    ],
+    "head2head": []
+  }
+}

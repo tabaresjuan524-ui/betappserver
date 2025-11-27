@@ -15,7 +15,7 @@ import { transformToRichFormat } from './richDataTransformer';
 export function transformPartialData(sofascoreData: any): CombinedData {
     // Transform to rich format with nested sofascore structure
     const richData = transformToRichFormat(sofascoreData);
-    
+
     // Transform for legacy compatibility
     const standardizedEvents: StandardizedEvent[] = Object.entries(sofascoreData.events || {})
         .map(([eventId, eventData]) => transformSofaScoreEvent(eventId, eventData))
@@ -70,7 +70,7 @@ export function transformPartialData(sofascoreData: any): CombinedData {
             media: sofascoreData.media || {}
         }
     };
-    
+
     return combinedData;
 }
 
@@ -79,17 +79,17 @@ export function transformPartialData(sofascoreData: any): CombinedData {
  */
 export function broadcastPartialUpdate(combinedData: CombinedData): void {
     const { broadcastSubscriptionUpdate } = require('../../common/websocketServer');
-    
+
     const eventCount = combinedData.standardizedEvents?.length || 0;
     const sportCount = combinedData.sports?.length || 0;
     const richEventCount = Object.keys(combinedData.sofascore?.liveData?.events || {}).length;
-    
+
     console.log(`📤 [PROGRESSIVE UPDATE] Broadcasting partial data:`);
     console.log(`   - Sports: ${sportCount}`);
     console.log(`   - Standardized Events: ${eventCount}`);
     console.log(`   - Rich Events (sofascore.liveData): ${richEventCount}`);
     console.log(`   - Live Events: ${combinedData.liveEvents?.length || 0}`);
-    
+
     broadcastSubscriptionUpdate('mainData', {
         type: 'mainData',
         data: combinedData
@@ -101,17 +101,18 @@ export function broadcastPartialUpdate(combinedData: CombinedData): void {
  * Returns a callback that transforms and broadcasts partial data
  */
 export function createProgressiveCallback(updateCache: (data: CombinedData) => void): (partialData: any) => void {
+    console.log("🚀 Setting up progressive update callback for SofaScore...");
     return (partialData: any) => {
         try {
             // Transform the partial data
             const transformedData = transformPartialData(partialData.sofascoreData || partialData);
-            
+
             // Update the cache
             updateCache(transformedData);
-            
+
             // Broadcast to clients
             broadcastPartialUpdate(transformedData);
-            
+
         } catch (error) {
             console.error(`❌ [PROGRESSIVE CALLBACK] Error processing partial data:`, error);
         }

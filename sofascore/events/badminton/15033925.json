@@ -1,0 +1,740 @@
+{
+  "event/15033925/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/15033925/votes": {
+    "vote": {
+      "vote1": 6,
+      "vote2": 12,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15033925/incidents": {
+    "incidents": [
+      {
+        "text": "2. set",
+        "homeScore": 0,
+        "awayScore": 1,
+        "isLive": true,
+        "period": "period2",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "text": "1. set",
+        "homeScore": 13,
+        "awayScore": 21,
+        "isLive": false,
+        "period": "period1",
+        "time": -1,
+        "timeSeconds": -60,
+        "incidentType": "period"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 21,
+        "period": "period1",
+        "id": 327085708,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 20,
+        "period": "period1",
+        "id": 327085705,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 13,
+        "awayScore": 19,
+        "period": "period1",
+        "id": 327085704,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 19,
+        "period": "period1",
+        "id": 327085703,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 12,
+        "awayScore": 18,
+        "period": "period1",
+        "id": 327085691,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 18,
+        "period": "period1",
+        "id": 327085690,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 11,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327085689,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 17,
+        "period": "period1",
+        "id": 327085686,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 16,
+        "period": "period1",
+        "id": 327085685,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 15,
+        "period": "period1",
+        "id": 327085674,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 14,
+        "period": "period1",
+        "id": 327085673,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 10,
+        "awayScore": 13,
+        "period": "period1",
+        "id": 327085672,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 13,
+        "period": "period1",
+        "id": 327085670,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 12,
+        "period": "period1",
+        "id": 327085657,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 11,
+        "period": "period1",
+        "id": 327085648,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 10,
+        "period": "period1",
+        "id": 327085647,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 9,
+        "period": "period1",
+        "id": 327085643,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 9,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327085642,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 8,
+        "period": "period1",
+        "id": 327085636,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 7,
+        "period": "period1",
+        "id": 327085635,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 8,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327085626,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 7,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327085625,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 6,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327085624,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 6,
+        "period": "period1",
+        "id": 327085612,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 5,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327085611,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 4,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327085608,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 5,
+        "period": "period1",
+        "id": 327085592,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 4,
+        "period": "period1",
+        "id": 327085591,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 3,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327085590,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 3,
+        "period": "period1",
+        "id": 327085580,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 2,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327085579,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 2,
+        "period": "period1",
+        "id": 327085578,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 1,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327085571,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      },
+      {
+        "homeScore": 0,
+        "awayScore": 1,
+        "period": "period1",
+        "id": 327085570,
+        "time": -1,
+        "isHome": false,
+        "incidentClass": "regular",
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/15033925": {
+    "event": {
+      "tournament": {
+        "name": "Kumamoto Masters Japan 2025, WD",
+        "slug": "kumamoto-masters-japan-2025-wd",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Badminton",
+            "slug": "badminton",
+            "id": 31
+          },
+          "id": 259,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Kumamoto Masters Japan, WD",
+          "slug": "kumamoto-masters-japan-wd",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "id": 259,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 22,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 21542,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة كوماموتو اليابان، السيدات زوجي"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 2,
+        "id": 168684
+      },
+      "season": {
+        "name": "Kumamoto Masters Japan, WD 2025",
+        "year": "2025",
+        "editor": false,
+        "id": 85987
+      },
+      "roundInfo": {
+        "round": 6,
+        "name": "Round of 32",
+        "slug": "round-of-32",
+        "cupRoundType": 16
+      },
+      "customId": "mZucsFjHi",
+      "status": {
+        "code": 9,
+        "description": "2nd set",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Kumamoto"
+        },
+        "hidden": true,
+        "slug": "court-2",
+        "name": "Court 2",
+        "id": 42502,
+        "country": {
+          "alpha2": "JP",
+          "alpha3": "JPN",
+          "name": "Japan",
+          "slug": "japan"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب 2",
+            "hi": "कोर्ट 2",
+            "bn": "কোর্ট 2"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "Court 2"
+        }
+      },
+      "homeTeam": {
+        "name": "Hiramoto R / Ishikawa K",
+        "slug": "hiramoto-r-ishikawa-k",
+        "gender": "F",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 5,
+        "nameCode": "H/I",
+        "national": false,
+        "type": 2,
+        "id": 1080480,
+        "country": {},
+        "fullName": "Hiramoto R / Ishikawa K",
+        "subTeams": [
+          {
+            "name": "Hiramoto R.",
+            "slug": "hiramoto-ririna",
+            "gender": "F",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 2,
+            "nameCode": "HIR",
+            "national": false,
+            "type": 1,
+            "id": 1072594,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Hiramoto, Ririna",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هيراموتو، ريرينا"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Ishikawa K.",
+            "slug": "ishikawa-kokona",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 2,
+            "nameCode": "ISH",
+            "national": false,
+            "type": 1,
+            "id": 510972,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "fullName": "Ishikawa, Kokona",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إشيكاوا، كوكونا"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيراموتو ر / إيشيكاوا ك"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Kim H J / Kong H Y",
+        "slug": "kim-h-j-kong-h-y",
+        "gender": "F",
+        "sport": {
+          "name": "Badminton",
+          "slug": "badminton",
+          "id": 31
+        },
+        "userCount": 86,
+        "nameCode": "K/K",
+        "national": false,
+        "type": 2,
+        "id": 299962,
+        "country": {},
+        "fullName": "Kim H J / Kong H Y",
+        "subTeams": [
+          {
+            "name": "Kim H.",
+            "slug": "kim-hye-jeong",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 1,
+            "nameCode": "KIM",
+            "national": false,
+            "type": 1,
+            "id": 478566,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "fullName": "Kim, Hye Jeong",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيم، هاي جونغ"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          },
+          {
+            "name": "Kong H.",
+            "slug": "kong-hee-yong",
+            "sport": {
+              "name": "Badminton",
+              "slug": "badminton",
+              "id": 31
+            },
+            "userCount": 3,
+            "nameCode": "KON",
+            "national": false,
+            "type": 1,
+            "id": 478523,
+            "country": {
+              "alpha2": "KR",
+              "alpha3": "KOR",
+              "name": "South Korea",
+              "slug": "south-korea"
+            },
+            "fullName": "Kong, Hee Yong",
+            "subTeams": [],
+            "teamColors": {
+              "primary": "#374df5",
+              "secondary": "#374df5",
+              "text": "#ffffff"
+            },
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كونغ، هي يونغ"
+              },
+              "shortNameTranslation": {}
+            },
+            "timeActive": []
+          }
+        ],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كيم ه ج / كونغ ه ي"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 13,
+        "period2": 0
+      },
+      "awayScore": {
+        "current": 1,
+        "display": 1,
+        "period1": 21,
+        "period2": 1
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762927852
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period2",
+          "awayScore.period2"
+        ],
+        "changeTimestamp": 1762927877
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15033925,
+      "defaultPeriodCount": 3,
+      "slug": "hiramoto-ishikawa-kimj-kongy",
+      "currentPeriodStartTimestamp": 1762927852,
+      "startTimestamp": 1762926300,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set"
+      },
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  }
+}

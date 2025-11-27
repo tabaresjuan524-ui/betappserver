@@ -1,0 +1,247 @@
+{
+  "event/15036785/h2h": {
+    "teamDuel": {
+      "homeWins": 2,
+      "awayWins": 2,
+      "draws": 0
+    },
+    "managerDuel": null
+  },
+  "event/15036785/votes": {
+    "vote": {
+      "vote1": 30,
+      "vote2": 13,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15036785": {
+    "event": {
+      "tournament": {
+        "name": "TT Elite Series",
+        "slug": "tt-elite-series",
+        "category": {
+          "name": "Poland",
+          "slug": "poland",
+          "sport": {
+            "name": "Table tennis",
+            "slug": "table-tennis",
+            "id": 20
+          },
+          "id": 1340,
+          "country": {
+            "alpha2": "PL",
+            "alpha3": "POL",
+            "name": "Poland",
+            "slug": "poland"
+          },
+          "flag": "poland",
+          "alpha2": "PL",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بولندا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "TT Elite Series",
+          "slug": "tt-elite-series",
+          "category": {
+            "name": "Poland",
+            "slug": "poland",
+            "sport": {
+              "name": "Table tennis",
+              "slug": "table-tennis",
+              "id": 20
+            },
+            "id": 1340,
+            "country": {
+              "alpha2": "PL",
+              "alpha3": "POL",
+              "name": "Poland",
+              "slug": "poland"
+            },
+            "flag": "poland",
+            "alpha2": "PL",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بولندا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1038,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 19041,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة النخبة لتنس الطاولة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 99281,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بطولة النخبة لتنس الطاولة (TT)"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "customId": "OcZdshDVi",
+      "status": {
+        "code": 12,
+        "description": "5th set",
+        "type": "inprogress"
+      },
+      "winnerCode": 3,
+      "homeTeam": {
+        "name": "Adamus K.",
+        "slug": "adamus-kacper",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 90,
+        "playerTeamInfo": {
+          "id": 22356
+        },
+        "nameCode": "ADA",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 497639,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Adamus, Kacper",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أداموس، كاسبر"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Paszkiewicz M.",
+        "slug": "paszkiewicz-michal",
+        "gender": "M",
+        "sport": {
+          "name": "Table tennis",
+          "slug": "table-tennis",
+          "id": 20
+        },
+        "userCount": 33,
+        "playerTeamInfo": {
+          "id": 27002
+        },
+        "nameCode": "PAS",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 1113907,
+        "country": {
+          "alpha2": "PL",
+          "alpha3": "POL",
+          "name": "Poland",
+          "slug": "poland"
+        },
+        "fullName": "Paszkiewicz, Michal",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باسكيويتش، ميشال"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 8,
+        "period2": 14,
+        "period3": 11,
+        "period4": 10,
+        "period5": 13
+      },
+      "awayScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 11,
+        "period2": 12,
+        "period3": 7,
+        "period4": 12,
+        "period5": 13
+      },
+      "time": {
+        "currentPeriodStartTimestamp": 1762929983
+      },
+      "changes": {
+        "changes": [
+          "homeScore.period5",
+          "awayScore.period5"
+        ],
+        "changeTimestamp": 1762930268
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15036785,
+      "defaultPeriodCount": 5,
+      "slug": "paszkiewicz-adamus",
+      "currentPeriodStartTimestamp": 1762929983,
+      "startTimestamp": 1762929000,
+      "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+      },
+      "lastPeriod": "period5",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true
+    }
+  }
+}

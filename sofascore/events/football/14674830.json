@@ -1,0 +1,2081 @@
+{
+  "country/alpha2": {
+    "alpha2": "CO",
+    "continent_code": "SA",
+    "country": "colombia",
+    "city": "manizales",
+    "region_code": "CO-CAL"
+  },
+  "sport/-18000/event-count": {
+    "snooker": {
+      "live": 0,
+      "total": 2
+    },
+    "badminton": {
+      "live": 2,
+      "total": 94
+    },
+    "futsal": {
+      "live": 0,
+      "total": 38
+    },
+    "ice-hockey": {
+      "live": 0,
+      "total": 68
+    },
+    "beach-volley": {
+      "live": 0,
+      "total": 19
+    },
+    "minifootball": {
+      "live": 0,
+      "total": 35
+    },
+    "darts": {
+      "live": 0,
+      "total": 30
+    },
+    "table-tennis": {
+      "live": 12,
+      "total": 512
+    },
+    "american-football": {
+      "live": 0,
+      "total": 2
+    },
+    "floorball": {
+      "live": 0,
+      "total": 2
+    },
+    "football": {
+      "live": 9,
+      "total": 309
+    },
+    "tennis": {
+      "live": 26,
+      "total": 366
+    },
+    "baseball": {
+      "live": 0,
+      "total": 26
+    },
+    "basketball": {
+      "live": 1,
+      "total": 216
+    },
+    "handball": {
+      "live": 1,
+      "total": 32
+    },
+    "cricket": {
+      "live": 3,
+      "total": 15
+    },
+    "rugby": {
+      "live": 0,
+      "total": 2
+    },
+    "waterpolo": {
+      "live": 0,
+      "total": 8
+    },
+    "esports": {
+      "live": 3,
+      "total": 53
+    },
+    "volleyball": {
+      "live": 1,
+      "total": 89
+    }
+  },
+  "event/14674830/incidents": {
+    "incidents": [
+      {
+        "text": "First half",
+        "homeScore": 0,
+        "awayScore": 0,
+        "isLive": true,
+        "time": 45,
+        "addedTime": 999,
+        "timeSeconds": 2700,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 2700,
+        "incidentType": "period"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "aef5c5",
+        "number": "000000",
+        "outline": "aef5c5",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "101f3e",
+        "number": "ffffff",
+        "outline": "101f3e",
+        "fancyNumber": "ffffff"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "tv/event/14674830/country-channels": {
+    "countryChannels": {
+      "MY": [
+        3813
+      ]
+    }
+  },
+  "event/14674830": {
+    "event": {
+      "tournament": {
+        "name": "AFC Champions League, Women, Group A",
+        "slug": "afc-champions-league-women-group-a",
+        "category": {
+          "name": "Asia",
+          "slug": "asia",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1467,
+          "country": {},
+          "flag": "asia",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "آسيا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "AFC Women's Champions League",
+          "slug": "afc-champions-league-women",
+          "category": {
+            "name": "Asia",
+            "slug": "asia",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1467,
+            "country": {},
+            "flag": "asia",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "آسيا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 810,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 23009,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال آسيا للسيدات"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group A",
+        "competitionType": 1,
+        "id": 136004,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دوري أبطال آسيا للسيدات، المجموعة A"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "AFC Women's Champions League 25/26",
+        "year": "25/26",
+        "editor": false,
+        "seasonCoverageInfo": {
+          "editorCoverageLevel": 1
+        },
+        "id": 77726
+      },
+      "roundInfo": {
+        "round": 1
+      },
+      "customId": "FdIbstHve",
+      "status": {
+        "code": 6,
+        "description": "1st half",
+        "type": "inprogress"
+      },
+      "venue": {
+        "city": {
+          "name": "Ho Chi Minh City"
+        },
+        "venueCoordinates": {
+          "latitude": 10.760815,
+          "longitude": 106.663287
+        },
+        "hidden": true,
+        "slug": "sv-th-ng-nh-t",
+        "name": "SVĐ Thống Nhất",
+        "capacity": 14400,
+        "id": 16889,
+        "country": {
+          "alpha2": "VN",
+          "alpha3": "VNM",
+          "name": "Vietnam",
+          "slug": "vietnam"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملعب SVĐ تونغ نات",
+            "hi": "एसवीडी थोंग नहत",
+            "bn": "এসভিডি থোং নাহট"
+          },
+          "shortNameTranslation": {}
+        },
+        "stadium": {
+          "name": "SVĐ Thống Nhất",
+          "capacity": 14400
+        }
+      },
+      "referee": {
+        "name": "Hyeon Jeong Oh",
+        "slug": "oh-hyeon-jeong",
+        "yellowCards": 8,
+        "redCards": 1,
+        "yellowRedCards": 0,
+        "games": 7,
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "id": 787999,
+        "country": {
+          "alpha2": "KR",
+          "alpha3": "KOR",
+          "name": "South Korea",
+          "slug": "south-korea"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "هيون جونغ أوه"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "homeTeam": {
+        "name": "Melbourne City",
+        "slug": "melbourne-city",
+        "shortName": "Melbourne City",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 6324,
+        "manager": {
+          "name": "Michael Matricciani",
+          "slug": "michael-matricciani",
+          "shortName": "M. Matricciani",
+          "id": 801407,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مايكل ماتريتشاني"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ماتريتشاني"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Melbourne"
+          },
+          "venueCoordinates": {
+            "latitude": -37.703426,
+            "longitude": 144.96919
+          },
+          "hidden": true,
+          "slug": "cb-smith-reserve",
+          "name": "CB Smith Reserve",
+          "capacity": 2000,
+          "id": 16275,
+          "country": {
+            "alpha2": "AU",
+            "alpha3": "AUS",
+            "name": "Australia",
+            "slug": "australia"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سي بي سميث ريزيرف",
+              "hi": "सीबी स्मिथ रिजर्व",
+              "bn": "সিবি স্মিথ রিজার্ভ"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "CB Smith Reserve",
+            "capacity": 2000
+          }
+        },
+        "nameCode": "MEL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 207680,
+        "country": {
+          "alpha2": "AU",
+          "alpha3": "AUS",
+          "name": "Australia",
+          "slug": "australia"
+        },
+        "fullName": "Melbourne City",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#66ccff",
+          "text": "#66ccff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ملبورن سيتي",
+            "ru": "Мельбурн Сити"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Lion City Sailors FC",
+        "slug": "lion-city-sailors-fc",
+        "shortName": "Lion City Sailors",
+        "gender": "F",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 503,
+        "nameCode": "LCS",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 551618,
+        "country": {
+          "alpha2": "SG",
+          "alpha3": "SGP",
+          "name": "Singapore",
+          "slug": "singapore"
+        },
+        "fullName": "Lion City Sailors FC",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "لايون سيتي سيلورز إف سي"
+          },
+          "shortNameTranslation": {
+            "ar": "لايون سيتي سيلورز"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0
+      },
+      "time": {
+        "periodLength": 2700,
+        "overtimeLength": 900,
+        "totalPeriodCount": 2,
+        "currentPeriodStartTimestamp": 1763020869,
+        "initial": 0,
+        "max": 2700,
+        "extra": 540
+      },
+      "changes": {
+        "changes": [
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1763020869
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14674830,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "statusTime": {
+        "prefix": "",
+        "initial": 0,
+        "max": 2700,
+        "timestamp": 1763020869,
+        "extra": 540
+      },
+      "slug": "lion-city-sailors-fc-melbourne-city",
+      "currentPeriodStartTimestamp": 1763020869,
+      "startTimestamp": 1763020800,
+      "lastPeriod": "period1",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14674830/votes": {
+    "vote": {
+      "vote1": 1420,
+      "vote2": 307,
+      "voteX": 236
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 284,
+      "voteNo": 146
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 378,
+      "voteNoGoal": 6,
+      "voteAway": 47
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14674830/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184601009,
+        "suspended": false,
+        "id": 151929930,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/33",
+            "fractionalValue": "1/20",
+            "sourceId": 2087723422,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "18/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2087723423,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "40/1",
+            "fractionalValue": "22/1",
+            "sourceId": 2087723424,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184601009,
+        "suspended": false,
+        "id": 151929930,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/33",
+            "fractionalValue": "1/20",
+            "sourceId": 2087723422,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "18/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2087723423,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "40/1",
+            "fractionalValue": "22/1",
+            "sourceId": 2087723424,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": true,
+        "fid": 184601009,
+        "suspended": false,
+        "id": 151929930,
+        "marketGroup": "1X2",
+        "marketPeriod": "Full-time",
+        "choices": [
+          {
+            "initialFractionalValue": "1/33",
+            "fractionalValue": "1/20",
+            "sourceId": 2087723422,
+            "name": "1",
+            "change": 1
+          },
+          {
+            "initialFractionalValue": "18/1",
+            "fractionalValue": "10/1",
+            "sourceId": 2087723423,
+            "name": "X",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "40/1",
+            "fractionalValue": "22/1",
+            "sourceId": 2087723424,
+            "name": "2",
+            "change": -1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/14674830/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Melissa Barbieri",
+            "slug": "melissa-barbieri",
+            "shortName": "M. Barbieri",
+            "position": "G",
+            "jerseyNumber": "23",
+            "height": 168,
+            "userCount": 8,
+            "gender": "F",
+            "id": 28580,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 317174400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ميليسا باربييري"
+              },
+              "shortNameTranslation": {
+                "ar": "م. باربييري"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 23,
+          "jerseyNumber": "23",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Danielle Turner",
+            "slug": "danielle-turner",
+            "shortName": "D. Turner",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 170,
+            "userCount": 33,
+            "gender": "F",
+            "id": 1007119,
+            "country": {
+              "alpha2": "EN",
+              "alpha3": "ENG",
+              "name": "England",
+              "slug": "england"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 684460800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دانييل تورنر"
+              },
+              "shortNameTranslation": {
+                "ar": "د. تورنر"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Taylor Otto",
+            "firstName": "Taylor Otto",
+            "lastName": "",
+            "slug": "taylor-otto",
+            "shortName": "T. Otto",
+            "position": "D",
+            "jerseyNumber": "5",
+            "height": 179,
+            "userCount": 28,
+            "gender": "F",
+            "id": 1115742,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 877564800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوتو، تايلور"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. أوتو"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Rebekah Stott",
+            "slug": "rebekah-stott",
+            "shortName": "R. Stott",
+            "position": "D",
+            "jerseyNumber": "13",
+            "height": 172,
+            "userCount": 19,
+            "gender": "F",
+            "id": 242293,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 740275200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريبيكا ستوت"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. ستوت"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Alexia Apostolakis",
+            "firstName": "Alexia Apostolakis",
+            "lastName": "",
+            "slug": "alexia-apostolakis",
+            "shortName": "A. Apostolakis",
+            "position": "D",
+            "jerseyNumber": "8",
+            "userCount": 41,
+            "gender": "F",
+            "id": 1164886,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1147737600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أليكسيا أبوتولاكيس"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. أبوتولاكيس"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Leticia McKenna",
+            "slug": "leticia-mckenna",
+            "shortName": "L. McKenna",
+            "position": "M",
+            "jerseyNumber": "6",
+            "userCount": 21,
+            "gender": "F",
+            "id": 1010648,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1028678400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماكننا، ليتيسيا"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. ماكننا"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Danella Butrus",
+            "slug": "butrus-danella",
+            "shortName": "D. Butrus",
+            "position": "M",
+            "jerseyNumber": "7",
+            "userCount": 11,
+            "gender": "F",
+            "id": 1860628,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1171324800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بطرس، دانيللا"
+              },
+              "shortNameTranslation": {
+                "ar": "د. بطرس"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Laura Hughes",
+            "slug": "laura-hughes",
+            "shortName": "L. Hughes",
+            "position": "M",
+            "jerseyNumber": "14",
+            "height": 160,
+            "userCount": 16,
+            "gender": "F",
+            "id": 1010641,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 991785600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هيوز، لورا"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. هيوز"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Leah Davidson",
+            "slug": "leah-davidson",
+            "shortName": "L. Davidson",
+            "position": "M",
+            "jerseyNumber": "18",
+            "userCount": 21,
+            "gender": "F",
+            "id": 1014750,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 985737600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفيدسون، ليا"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. ديفيدسون"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Aideen Keane",
+            "firstName": "Aideen Keane",
+            "lastName": "",
+            "slug": "aideen-keane",
+            "shortName": "A. Keane",
+            "position": "M",
+            "jerseyNumber": "21",
+            "userCount": 12,
+            "gender": "F",
+            "id": 1096316,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1013212800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كين، أيدين"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. كين"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Holly McNamara",
+            "firstName": "Holly McNamara",
+            "lastName": "",
+            "slug": "holly-mcnamara",
+            "shortName": "H. McNamara",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 168,
+            "userCount": 131,
+            "gender": "F",
+            "id": 1159612,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1043280000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هولي مكنامارا"
+              },
+              "shortNameTranslation": {
+                "ar": "ه. مكنامارا"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Malena Mieres Garcia",
+            "slug": "mieres-garcia-malena",
+            "shortName": "M. M. Garcia",
+            "position": "G",
+            "jerseyNumber": "24",
+            "userCount": 1,
+            "gender": "F",
+            "id": 1963897,
+            "country": {
+              "alpha2": "ES",
+              "alpha3": "ESP",
+              "name": "Spain",
+              "slug": "spain"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 954288000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مييريس غارسيا، مالينا"
+              },
+              "shortNameTranslation": {
+                "ar": "م. غارسيا"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Ayana Aoyagi",
+            "firstName": "Ayana Aoyagi",
+            "slug": "ayana-aoyagi",
+            "shortName": "A. Aoyagi",
+            "position": "G",
+            "jerseyNumber": "30",
+            "userCount": 1,
+            "id": 2075574,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 961113600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أايانا أوياغي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. أوياغي"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "G",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Karly Roestbakken",
+            "slug": "roestbakken-karly",
+            "shortName": "K. Roestbakken",
+            "position": "D",
+            "jerseyNumber": "16",
+            "height": 165,
+            "userCount": 19,
+            "gender": "F",
+            "id": 986237,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 979689600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "روستباكن، كارلي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. روستباكن"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 16,
+          "jerseyNumber": "16",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Shelby McMahon",
+            "firstName": "Shelby",
+            "lastName": "McMahon",
+            "slug": "shelby-mcmahon",
+            "shortName": "S. McMahon",
+            "position": "M",
+            "jerseyNumber": "12",
+            "userCount": 16,
+            "gender": "F",
+            "id": 1656426,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1210636800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ماكنون، شيلبي"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. ماكنون"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Chinaza Uchendu",
+            "firstName": "",
+            "lastName": "",
+            "slug": "uchendu-chinaza",
+            "shortName": "C. Uchendu",
+            "position": "M",
+            "jerseyNumber": "15",
+            "height": 172,
+            "userCount": 27,
+            "gender": "F",
+            "id": 861104,
+            "country": {
+              "alpha2": "NG",
+              "alpha3": "NGA",
+              "name": "Nigeria",
+              "slug": "nigeria"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 881107200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوشيندو، تشينازا"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. أوشيندو"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Deven Jackson",
+            "firstName": "Deven Jackson",
+            "slug": "deven-jackson",
+            "shortName": "D. Jackson",
+            "position": "M",
+            "jerseyNumber": "11",
+            "userCount": 10,
+            "gender": "F",
+            "id": 1542728,
+            "country": {
+              "alpha2": "NZ",
+              "alpha3": "NZL",
+              "name": "New Zealand",
+              "slug": "new-zealand"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 893203200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديفن جاكسون"
+              },
+              "shortNameTranslation": {
+                "ar": "د. جاكسون"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Izabella Rako",
+            "firstName": "Izabella Rako",
+            "slug": "izabella-rako",
+            "shortName": "I. Rako",
+            "position": "M",
+            "jerseyNumber": "10",
+            "userCount": 0,
+            "id": 2231521,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1245974400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيزابيلا راكو"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. راكو"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Keira Sarris",
+            "firstName": "Keira",
+            "lastName": "Sarris",
+            "slug": "keira-sarris",
+            "shortName": "K. Sarris",
+            "position": "M",
+            "jerseyNumber": "19",
+            "userCount": 4,
+            "gender": "F",
+            "id": 2075793,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1253750400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كيرا ساريس"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. ساريس"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 19,
+          "jerseyNumber": "19",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Caitlin Karic",
+            "firstName": "Caitlin Karic",
+            "lastName": "",
+            "slug": "caitlin-karic",
+            "shortName": "C. Karic",
+            "position": "F",
+            "jerseyNumber": "20",
+            "userCount": 7,
+            "gender": "F",
+            "id": 1159608,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1119225600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كاريتش، كايتلين"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. كاريتش"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Kaya Jugovic",
+            "firstName": "Kaya",
+            "lastName": "Jugovic",
+            "slug": "kaya-jugovic",
+            "shortName": "K. Jugovic",
+            "position": "F",
+            "jerseyNumber": "17",
+            "userCount": 7,
+            "gender": "F",
+            "id": 2075792,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1232668800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كايا يوجوفيتش"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. يوجوفيتش"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Bryleeh Henry",
+            "firstName": "Bryleeh Henry",
+            "lastName": "",
+            "slug": "bryleeh-henry",
+            "shortName": "B. Henry",
+            "position": "F",
+            "jerseyNumber": "22",
+            "userCount": 51,
+            "gender": "F",
+            "id": 1096320,
+            "country": {
+              "alpha2": "AU",
+              "alpha3": "AUS",
+              "name": "Australia",
+              "slug": "australia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1052092800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بريلي هينري"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. هينري"
+              }
+            }
+          },
+          "teamId": 207680,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "F",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-4-2",
+      "playerColor": {
+        "primary": "101f3e",
+        "number": "ffffff",
+        "outline": "101f3e",
+        "fancyNumber": "ffffff"
+      },
+      "goalkeeperColor": {
+        "primary": "aef5c5",
+        "number": "000000",
+        "outline": "aef5c5",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Izairida Shakira",
+            "slug": "izairida-shakira",
+            "shortName": "I. Shakira",
+            "position": "G",
+            "jerseyNumber": "1",
+            "userCount": 1,
+            "id": 1895654,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1180742400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيزايريدا شاكيرا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. شاكيرا"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Wang Jiaxin",
+            "slug": "wang-jiaxin",
+            "shortName": "W. Jiaxin",
+            "position": "D",
+            "jerseyNumber": "3",
+            "userCount": 0,
+            "id": 2360939,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1060560000
+          },
+          "teamId": 551618,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Hikaru Shibusawa",
+            "slug": "hikaru-shibusawa",
+            "shortName": "H. Shibusawa",
+            "position": "D",
+            "jerseyNumber": "14",
+            "userCount": 0,
+            "id": 2360941,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 952041600
+          },
+          "teamId": 551618,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Syazwani Ruzi",
+            "slug": "syazwani-ruzi",
+            "shortName": "S. Ruzi",
+            "position": "D",
+            "jerseyNumber": "8",
+            "userCount": 0,
+            "id": 1895505,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1008720000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيازواني رزي"
+              },
+              "shortNameTranslation": {
+                "ar": "س. رزي"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Umairah Hamdan",
+            "slug": "umairah-hamdan",
+            "shortName": "U. Hamdan",
+            "position": "D",
+            "jerseyNumber": "4",
+            "userCount": 1,
+            "id": 1895504,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1015718400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أميرة حمدان"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. حمدان"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "position": "D",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Rivka Ramji",
+            "slug": "rivka-ramji",
+            "shortName": "R. Ramji",
+            "position": "M",
+            "jerseyNumber": "7",
+            "userCount": 7,
+            "gender": "F",
+            "id": 1618889,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1162080000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ريفكا رامجي"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. رامجي"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Nur Ain Salleh",
+            "slug": "nur-ain-salleh",
+            "shortName": "N. A. Salleh",
+            "jerseyNumber": "32",
+            "userCount": 0,
+            "id": 2360940,
+            "country": {},
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 551618,
+          "shirtNumber": 32,
+          "jerseyNumber": "32",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Dhaniyah Qasimah",
+            "slug": "dhaniyah-qasimah",
+            "shortName": "D. Qasimah",
+            "position": "M",
+            "jerseyNumber": "77",
+            "userCount": 0,
+            "gender": "F",
+            "id": 1895523,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1089072000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دهنية قاسيمة"
+              },
+              "shortNameTranslation": {
+                "ar": "د. قاسيمة"
+              }
+            }
+          },
+          "teamId": 555662,
+          "shirtNumber": 77,
+          "jerseyNumber": "77",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Eri Kitagawa",
+            "firstName": "Eri Kitagawa",
+            "slug": "eri-kitagawa",
+            "shortName": "E. Kitagawa",
+            "position": "F",
+            "jerseyNumber": "6",
+            "userCount": 1,
+            "gender": "F",
+            "id": 1604096,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 984441600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيري كيتاغاوا"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. كيتاغاوا"
+              }
+            }
+          },
+          "teamId": 320575,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Raeka Ee Pei Ying",
+            "slug": "raeka-ee-pei-ying",
+            "shortName": "R. E. P. Ying",
+            "position": "F",
+            "jerseyNumber": "9",
+            "userCount": 0,
+            "id": 1895649,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1063670400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "رايكا إي بي يينغ"
+              },
+              "shortNameTranslation": {
+                "ar": "ر. يينغ"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Ami Takeuchi",
+            "firstName": "Ami",
+            "lastName": "Takeuchi",
+            "slug": "ami-takeuchi",
+            "shortName": "A. Takeuchi",
+            "position": "M",
+            "jerseyNumber": "11",
+            "userCount": 7,
+            "gender": "F",
+            "id": 1819584,
+            "country": {
+              "alpha2": "JP",
+              "alpha3": "JPN",
+              "name": "Japan",
+              "slug": "japan"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1134691200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أمي تاكيشي"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تاكيشي"
+              }
+            }
+          },
+          "teamId": 216779,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "M",
+          "substitute": false
+        },
+        {
+          "player": {
+            "name": "Khairunnisa Khairol Anwar",
+            "slug": "khairunnisa-khairol-anwar",
+            "shortName": "K. K. Anwar",
+            "position": "D",
+            "jerseyNumber": "17",
+            "userCount": 3,
+            "id": 1895501,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1045699200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "خيرونيسا خيرول أنور"
+              },
+              "shortNameTranslation": {
+                "ar": "خ. أنور"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Nurhidayu Naszri",
+            "slug": "nurhidayu-naszri",
+            "shortName": "N. Naszri",
+            "position": "D",
+            "jerseyNumber": "24",
+            "userCount": 0,
+            "id": 1895655,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1079395200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نورهايدايو نازري"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. نازري"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Siti Erwan",
+            "slug": "siti-erwan",
+            "shortName": "S. Erwan",
+            "position": "D",
+            "jerseyNumber": "30",
+            "userCount": 0,
+            "id": 2360942,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1088208000
+          },
+          "teamId": 551618,
+          "shirtNumber": 30,
+          "jerseyNumber": "30",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Irsalina Irwan",
+            "firstName": "Irsalina Irwan",
+            "slug": "irsalina-irwan",
+            "shortName": "I. Irwan",
+            "position": "D",
+            "jerseyNumber": "5",
+            "userCount": 0,
+            "id": 1952553,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1167609600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إرسالينا إيروان"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. إيروان"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "D",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Wan Nashirah",
+            "slug": "wan-nashirah",
+            "shortName": "W. Nashirah",
+            "position": "M",
+            "jerseyNumber": "90",
+            "userCount": 0,
+            "id": 1895658,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1123113600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "وان ناشرة"
+              },
+              "shortNameTranslation": {
+                "ar": "و. ناشرة"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 90,
+          "jerseyNumber": "90",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Amelia Ng",
+            "slug": "amelia-ng",
+            "shortName": "A. Ng",
+            "position": "M",
+            "jerseyNumber": "33",
+            "userCount": 0,
+            "id": 2360943,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 551618,
+          "shirtNumber": 33,
+          "jerseyNumber": "33",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Qarissa Putri Ramadhani",
+            "slug": "qarissa-putri-ramadhani",
+            "shortName": "Q. P. Ramadhani",
+            "position": "M",
+            "jerseyNumber": "15",
+            "userCount": 0,
+            "id": 1895646,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1222214400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "قاريسة بوتري رمضان"
+              },
+              "shortNameTranslation": {
+                "ar": "ق. رمضان"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Zhang Qiaoling",
+            "slug": "zhang-qiaoling",
+            "shortName": "Z. Qiaoling",
+            "position": "M",
+            "jerseyNumber": "2",
+            "userCount": 0,
+            "id": 2360944,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1075420800
+          },
+          "teamId": 551618,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "M",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Dorcas Chu",
+            "slug": "dorcas-chu",
+            "shortName": "D. Chu",
+            "position": "F",
+            "jerseyNumber": "20",
+            "userCount": 0,
+            "id": 1895509,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1027814400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دوركاس تشو"
+              },
+              "shortNameTranslation": {
+                "ar": "د. تشو"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 20,
+          "jerseyNumber": "20",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Nicole Lim",
+            "firstName": "Nicole Lim",
+            "slug": "nicole-lim",
+            "shortName": "N. Lim",
+            "position": "F",
+            "jerseyNumber": "26",
+            "userCount": 1,
+            "id": 1952556,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1018396800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيكول ليم"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. ليم"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 26,
+          "jerseyNumber": "26",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Farah Nurzahirah",
+            "slug": "farah-nurzahirah",
+            "shortName": "F. Nurzahirah",
+            "position": "F",
+            "jerseyNumber": "10",
+            "userCount": 1,
+            "gender": "F",
+            "id": 1895660,
+            "country": {
+              "alpha2": "SG",
+              "alpha3": "SGP",
+              "name": "Singapore",
+              "slug": "singapore"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1073952000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فارة نور زاهيرة"
+              },
+              "shortNameTranslation": {
+                "ar": "ف. زاهيرة"
+              }
+            }
+          },
+          "teamId": 551618,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": true
+        },
+        {
+          "player": {
+            "name": "Lim Hazel",
+            "slug": "lim-hazel",
+            "shortName": "L. Hazel",
+            "jerseyNumber": "51",
+            "userCount": 0,
+            "id": 2334186,
+            "country": {},
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 551618,
+          "shirtNumber": 51,
+          "jerseyNumber": "51",
+          "substitute": true
+        }
+      ],
+      "supportStaff": [],
+      "formation": "4-3-3",
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14674830/managers": {
+    "homeManager": {
+      "name": "Michael Matricciani",
+      "slug": "michael-matricciani",
+      "shortName": "M. Matricciani",
+      "id": 801407,
+      "fieldTranslations": {
+        "nameTranslation": {
+          "ar": "مايكل ماتريتشاني"
+        },
+        "shortNameTranslation": {
+          "ar": "م. ماتريتشاني"
+        }
+      }
+    }
+  }
+}

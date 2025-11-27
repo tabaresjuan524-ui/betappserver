@@ -1,0 +1,4824 @@
+{
+  "event/15028064/odds/1/featured": {
+    "featured": {
+      "default": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184626593,
+        "suspended": false,
+        "id": 150944344,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/40",
+            "fractionalValue": "1/40",
+            "sourceId": 2091358463,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "19/2",
+            "fractionalValue": "19/2",
+            "sourceId": 2091358465,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      "asian": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184626593,
+        "suspended": false,
+        "id": 150944344,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/40",
+            "fractionalValue": "1/40",
+            "sourceId": 2091358463,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "19/2",
+            "fractionalValue": "19/2",
+            "sourceId": 2091358465,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      },
+      "fullTime": {
+        "structureType": 1,
+        "marketId": 1,
+        "marketName": "Full time",
+        "isLive": false,
+        "fid": 184626593,
+        "suspended": false,
+        "id": 150944344,
+        "marketGroup": "Home/Away",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "1/40",
+            "fractionalValue": "1/40",
+            "sourceId": 2091358463,
+            "name": "1",
+            "change": 0
+          },
+          {
+            "initialFractionalValue": "19/2",
+            "fractionalValue": "19/2",
+            "sourceId": 2091358465,
+            "name": "2",
+            "change": 0
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": false
+  },
+  "event/15028064/votes": {
+    "vote": {
+      "vote1": 44,
+      "vote2": 6,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15028064": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "Road to Basketball Africa League, Group A",
+        "slug": "road-to-basketball-africa-league-group-a",
+        "category": {
+          "name": "International",
+          "slug": "international",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 103,
+          "country": {},
+          "flag": "international",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولي",
+              "hi": "अंतर्राष्ट्रीय",
+              "bn": "আন্তর্জাতিক"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Road to Basketball Africa League",
+          "slug": "road-to-basketball-africa-league",
+          "category": {
+            "name": "International",
+            "slug": "international",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 103,
+            "country": {},
+            "flag": "international",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولي",
+                "hi": "अंतर्राष्ट्रीय",
+                "bn": "আন্তর্জাতিক"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 61,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 24311,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الطريق إلى دوري إفريقيا لكرة السلة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Group A",
+        "id": 167561
+      },
+      "season": {
+        "name": "2025",
+        "year": "2025",
+        "editor": false,
+        "id": 84724
+      },
+      "customId": "XAjcsjPIi",
+      "status": {
+        "code": 16,
+        "description": "4th quarter",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Kriol Star",
+        "slug": "kriol-star",
+        "shortName": "Kriol Star",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 116,
+        "nameCode": "KST",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1084509,
+        "country": {
+          "alpha2": "CV",
+          "alpha3": "CPV",
+          "name": "Cape Verde",
+          "slug": "cape-verde"
+        },
+        "fullName": "Kriol Star",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كريول ستار"
+          },
+          "shortNameTranslation": {
+            "ar": "كريول ستار"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "ASB New Generation",
+        "slug": "asb-new-generation",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 8,
+        "nameCode": "NGE",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 273797,
+        "country": {
+          "alpha2": "CD",
+          "alpha3": "COD",
+          "name": "DR Congo",
+          "slug": "dr-congo"
+        },
+        "fullName": "ASB New Generation",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ASB نيو جينيريشن"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 79,
+        "display": 79,
+        "period1": 14,
+        "period2": 13,
+        "period3": 27,
+        "period4": 25
+      },
+      "awayScore": {
+        "current": 85,
+        "display": 85,
+        "period1": 26,
+        "period2": 16,
+        "period3": 16,
+        "period4": 27
+      },
+      "time": {
+        "played": 2391,
+        "periodLength": 600,
+        "overtimeLength": 300,
+        "totalPeriodCount": 4
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762992297
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 15028064,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 10,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "slug": "kriol-star-asb-new-generation",
+      "startTimestamp": 1762983000,
+      "lastPeriod": "period4",
+      "finalResultOnly": false,
+      "hasBet365LiveStream": true,
+      "bet365ExcludedCountryCodes": [
+        "",
+        "IR",
+        "GR",
+        "RU",
+        "CH",
+        "CA"
+      ],
+      "feedLocked": true,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/15028064/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Ibrahima Thomas",
+            "firstName": "Ibrahima",
+            "lastName": "Thomas",
+            "slug": "ibrahima-thomas",
+            "shortName": "I. Thomas",
+            "position": "C",
+            "jerseyNumber": "1",
+            "height": 208,
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360084,
+            "country": {
+              "alpha2": "SN",
+              "alpha3": "SEN",
+              "name": "Senegal",
+              "slug": "senegal"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 539654400
+          },
+          "teamId": 1084509,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "C",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1204,
+            "points": 6,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 1,
+            "threePointsMade": 1,
+            "threePointAttempts": 6,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 4,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 7,
+            "rebounds": 3,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 1,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 3,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 7,
+            "fieldGoalPct": 14,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jordan Roberts",
+            "firstName": "Jordan",
+            "lastName": "Roberts",
+            "slug": "jordan-roberts",
+            "shortName": "J. Roberts",
+            "jerseyNumber": "2",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360085,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 923529600
+          },
+          "teamId": 1084509,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1146,
+            "points": 10,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 4,
+            "threePointsMade": 2,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 4,
+            "fieldGoalAttempts": 6,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 3,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 2,
+            "steals": 3,
+            "plusMinus": -2,
+            "fieldGoalPct": 67,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Michael Babatunde Balogun",
+            "firstName": "Michael Babatunde",
+            "lastName": "Balogun",
+            "slug": "michael-babatunde-balogun",
+            "shortName": "M. B. Balogun",
+            "jerseyNumber": "4",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360086,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 673574400
+          },
+          "teamId": 1084509,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 1446,
+            "points": 1,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 2,
+            "threePointsMade": 0,
+            "threePointAttempts": 6,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 8,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 5,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -3,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ivan Almeida",
+            "slug": "almeida-ivan",
+            "shortName": "I. Almeida",
+            "position": "F",
+            "jerseyNumber": "6",
+            "height": 197,
+            "userCount": 96,
+            "gender": "M",
+            "id": 1202507,
+            "country": {
+              "alpha2": "CV",
+              "alpha3": "CPV",
+              "name": "Cape Verde",
+              "slug": "cape-verde"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 610761600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفان ألمايدا",
+                "hi": "अल्मेडा, इवान",
+                "bn": "আলমেইডা, ইভান"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. ألمايدا",
+                "hi": "आई. अल्मेडा",
+                "bn": "আই. আলমেইডা"
+              }
+            }
+          },
+          "teamId": 503866,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "F",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 1734,
+            "points": 23,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 7,
+            "threePointsMade": 3,
+            "threePointAttempts": 9,
+            "freeThrowsMade": 6,
+            "freeThrowAttempts": 10,
+            "fieldGoalsMade": 7,
+            "fieldGoalAttempts": 16,
+            "rebounds": 8,
+            "defensiveRebounds": 6,
+            "offensiveRebounds": 2,
+            "turnovers": 5,
+            "blocks": 1,
+            "personalFouls": 5,
+            "assists": 2,
+            "steals": 3,
+            "plusMinus": -1,
+            "fieldGoalPct": 44,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dane Miller Jr",
+            "firstName": "Dane",
+            "lastName": "Miller Jr",
+            "slug": "dane-miller-jr",
+            "shortName": "D. M. Jr",
+            "position": "F",
+            "jerseyNumber": "7",
+            "height": 203,
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360087,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 642297600
+          },
+          "teamId": 1084509,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "position": "F",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 1811,
+            "points": 17,
+            "twoPointsMade": 8,
+            "twoPointAttempts": 10,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 3,
+            "fieldGoalsMade": 8,
+            "fieldGoalAttempts": 10,
+            "rebounds": 5,
+            "defensiveRebounds": 4,
+            "offensiveRebounds": 1,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 5,
+            "assists": 5,
+            "steals": 2,
+            "plusMinus": -12,
+            "fieldGoalPct": 80,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joel Emmanuel Almeidfa Tavares",
+            "firstName": "Joel Emmanuel",
+            "lastName": "Almeidfa Tavares",
+            "slug": "joel-emmanuel-almeidfa-tavares",
+            "shortName": "J. E. A. Tavares",
+            "position": "F",
+            "jerseyNumber": "8",
+            "height": 194,
+            "userCount": 7,
+            "id": 2004788,
+            "country": {
+              "alpha2": "CV",
+              "alpha3": "CPV",
+              "name": "Cape Verde",
+              "slug": "cape-verde"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1158019200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جويل إيمانويل ألميدفا تافاريس"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. تافاريس"
+              }
+            }
+          },
+          "teamId": 1084509,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "F",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 0,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joel Almeida",
+            "slug": "almeida-joel",
+            "shortName": "J. Almeida",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 192,
+            "userCount": 41,
+            "gender": "M",
+            "id": 1520017,
+            "country": {
+              "alpha2": "CV",
+              "alpha3": "CPV",
+              "name": "Cape Verde",
+              "slug": "cape-verde"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 497836800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ألميدا، جويل",
+                "hi": "अल्मेडा, जोएल",
+                "bn": "আলমেইডা, জোয়েল"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. ألميدا",
+                "hi": "जे. आल्मेडा",
+                "bn": "জে. আলমেইডা"
+              }
+            }
+          },
+          "teamId": 1084509,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 981,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 3,
+            "rebounds": 4,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 1,
+            "personalFouls": 1,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -7,
+            "fieldGoalPct": 33,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kenneti Mendes",
+            "firstName": "Kenneti",
+            "lastName": "Mendes",
+            "slug": "kenneti-mendes",
+            "shortName": "K. Mendes",
+            "position": "F",
+            "jerseyNumber": "10",
+            "height": 203,
+            "userCount": 5,
+            "gender": "M",
+            "id": 1802253,
+            "country": {
+              "alpha2": "CV",
+              "alpha3": "CPV",
+              "name": "Cape Verde",
+              "slug": "cape-verde"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 650851200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كينتي مينديس"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. مينديس"
+              }
+            }
+          },
+          "teamId": 1084509,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "F",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1498,
+            "points": 8,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 6,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 4,
+            "fieldGoalAttempts": 7,
+            "rebounds": 4,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": -15,
+            "fieldGoalPct": 57,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Leandro Miranda Monteiro",
+            "firstName": "Leandro",
+            "lastName": "Miranda Monteiro",
+            "slug": "leandro-miranda-monteiro",
+            "shortName": "L. M. Monteiro",
+            "jerseyNumber": "11",
+            "userCount": 2,
+            "gender": "M",
+            "id": 2360088,
+            "country": {
+              "alpha2": "CV",
+              "alpha3": "CPV",
+              "name": "Cape Verde",
+              "slug": "cape-verde"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1172188800
+          },
+          "teamId": 1084509,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1473,
+            "points": 11,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 2,
+            "threePointAttempts": 4,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 4,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 6,
+            "rebounds": 2,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 1,
+            "turnovers": 2,
+            "blocks": 1,
+            "personalFouls": 4,
+            "assists": 3,
+            "steals": 1,
+            "plusMinus": 7,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joel Ntambwe",
+            "firstName": "Joel",
+            "lastName": "Ntambwe",
+            "slug": "joel-ntambwe",
+            "shortName": "J. Ntambwe",
+            "position": "F",
+            "jerseyNumber": "15",
+            "height": 205,
+            "userCount": 2,
+            "id": 2004702,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 908582400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جويل نتمبوي"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. نتمبوي"
+              }
+            }
+          },
+          "teamId": 1084509,
+          "shirtNumber": 34,
+          "jerseyNumber": "34",
+          "position": "F",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 657,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 2,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -4,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Guibert Nijimbere",
+            "firstName": "Guibert",
+            "lastName": "Nijimbere",
+            "slug": "guibert-nijimbere",
+            "shortName": "G. Nijimbere",
+            "position": "G",
+            "jerseyNumber": "1",
+            "height": 186,
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360838,
+            "country": {
+              "alpha2": "BI",
+              "alpha3": "BDI",
+              "name": "Burundi",
+              "slug": "burundi"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 788918400
+          },
+          "teamId": 273797,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1091,
+            "points": 6,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 4,
+            "freeThrowAttempts": 4,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 3,
+            "rebounds": 3,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 1,
+            "turnovers": 4,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": -8,
+            "fieldGoalPct": 33,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Francois Xavier Mungenga Mungenga",
+            "firstName": "Francois Xavier",
+            "lastName": "Mungenga Mungenga",
+            "slug": "francois-xavier-mungenga-mungenga",
+            "shortName": "F. X. M. Mungenga",
+            "jerseyNumber": "4",
+            "userCount": 8,
+            "gender": "M",
+            "id": 2320545,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1077580800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فرانسوا زافييه مونغينغا مونغينغا"
+              },
+              "shortNameTranslation": {
+                "ar": "إف. إكس. إم. مونغينغا"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 4,
+          "jerseyNumber": "4",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 137,
+            "points": 1,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 1,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 1,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Exauce Ikamba Moke",
+            "firstName": "Exauce",
+            "lastName": "Ikamba Moke",
+            "slug": "exauce-ikamba-moke",
+            "shortName": "E. I. Moke",
+            "jerseyNumber": "20",
+            "userCount": 11,
+            "gender": "M",
+            "id": 2053049,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1120348800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إكساوس إيكامبا موكي"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. موكي"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 1399,
+            "points": 13,
+            "twoPointsMade": 3,
+            "twoPointAttempts": 6,
+            "threePointsMade": 2,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 8,
+            "rebounds": 5,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 5,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 4,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 9,
+            "fieldGoalPct": 63,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Deo Mwanyimi",
+            "firstName": "Deo",
+            "lastName": "Mwanyimi",
+            "slug": "deo-mwanyimi",
+            "shortName": "D. Mwanyimi",
+            "jerseyNumber": "11",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2320549,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1141776000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ديو موانييمي"
+              },
+              "shortNameTranslation": {
+                "ar": "دي. موانييمي"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 6,
+          "jerseyNumber": "6",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 207,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 1,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Etienne TAMETONG TOKO",
+            "firstName": "Etienne",
+            "lastName": "TAMETONG TOKO",
+            "slug": "etienne-tametong-toko",
+            "shortName": "E. T. TOKO",
+            "jerseyNumber": "0",
+            "height": 188,
+            "userCount": 0,
+            "id": 2004675,
+            "country": {
+              "alpha2": "CM",
+              "alpha3": "CMR",
+              "name": "Cameroon",
+              "slug": "cameroon"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 710985600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إتيان تاميتونغ توكو"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. توكو"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 7,
+          "jerseyNumber": "7",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1913,
+            "points": 13,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 2,
+            "threePointsMade": 3,
+            "threePointAttempts": 8,
+            "freeThrowsMade": 4,
+            "freeThrowAttempts": 7,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 10,
+            "rebounds": 5,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 2,
+            "turnovers": 3,
+            "blocks": 0,
+            "personalFouls": 3,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": 3,
+            "fieldGoalPct": 30,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Carl Ona Embo",
+            "firstName": "Carl",
+            "lastName": "Ona Embo",
+            "slug": "carl-ona-embo",
+            "shortName": "C. O. Embo",
+            "jerseyNumber": "9",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360839,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 618364800
+          },
+          "teamId": 273797,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1882,
+            "points": 12,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 2,
+            "threePointsMade": 1,
+            "threePointAttempts": 7,
+            "freeThrowsMade": 5,
+            "freeThrowAttempts": 6,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 9,
+            "rebounds": 8,
+            "defensiveRebounds": 7,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 1,
+            "personalFouls": 4,
+            "assists": 10,
+            "steals": 1,
+            "plusMinus": 10,
+            "fieldGoalPct": 33,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ntumba Michael Buzangu",
+            "firstName": "Ntumba Michael",
+            "lastName": "Buzangu",
+            "slug": "ntumba-michael-buzangu",
+            "shortName": "N. M. Buzangu",
+            "jerseyNumber": "10",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2320548,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 405302400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نتومبا مايكل بوزانغو"
+              },
+              "shortNameTranslation": {
+                "ar": "إن. إم. بوزانغو"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 656,
+            "points": 2,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 4,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 1,
+            "plusMinus": -1,
+            "fieldGoalPct": 25,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Viny Okouo",
+            "firstName": "Viny",
+            "lastName": "Okouo",
+            "slug": "viny-okouo",
+            "shortName": "V. Okouo",
+            "position": "C",
+            "jerseyNumber": "11",
+            "height": 213,
+            "userCount": 0,
+            "gender": "M",
+            "id": 2360840,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 860630400
+          },
+          "teamId": 273797,
+          "shirtNumber": 11,
+          "jerseyNumber": "11",
+          "position": "C",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 2083,
+            "points": 15,
+            "twoPointsMade": 5,
+            "twoPointAttempts": 9,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 5,
+            "freeThrowAttempts": 10,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 9,
+            "rebounds": 12,
+            "defensiveRebounds": 9,
+            "offensiveRebounds": 3,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 4,
+            "assists": 3,
+            "steals": 2,
+            "plusMinus": 8,
+            "fieldGoalPct": 56,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Gudul Omari Mulomba",
+            "firstName": "Gudul",
+            "lastName": "Omari Mulomba",
+            "slug": "gudul-omari-mulomba",
+            "shortName": "G. O. Mulomba",
+            "position": "C",
+            "jerseyNumber": "12",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2320542,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 769219200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غودول أوماري مولومبا"
+              },
+              "shortNameTranslation": {
+                "ar": "جي. أو. مولومبا"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "C",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1621,
+            "points": 14,
+            "twoPointsMade": 3,
+            "twoPointAttempts": 5,
+            "threePointsMade": 2,
+            "threePointAttempts": 7,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 12,
+            "rebounds": 5,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 2,
+            "turnovers": 3,
+            "blocks": 0,
+            "personalFouls": 4,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": 7,
+            "fieldGoalPct": 42,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Glory Kabemba Mukendi",
+            "firstName": "Glory",
+            "lastName": "Kabemba Mukendi",
+            "slug": "glory-kabemba-mukendi",
+            "shortName": "G. K. Mukendi",
+            "jerseyNumber": "9",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2320546,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1151020800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غلوري كابيمبا موكندي"
+              },
+              "shortNameTranslation": {
+                "ar": "جي. ك. موكندي"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 0,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Michael Tshibende",
+            "firstName": "Michael",
+            "lastName": "Tshibende",
+            "slug": "michael-tshibende",
+            "shortName": "M. Tshibende",
+            "jerseyNumber": "14",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2320544,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1057017600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مايكل تشيبيندي"
+              },
+              "shortNameTranslation": {
+                "ar": "إم. تشيبيندي"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 14,
+          "jerseyNumber": "14",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 323,
+            "points": 2,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 1,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -2,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Elisee Mutombo Tshienda",
+            "firstName": "Elisee",
+            "slug": "elisee-mutombo-tshienda",
+            "shortName": "E. M. Tshienda",
+            "jerseyNumber": "25",
+            "userCount": 0,
+            "id": 2004695,
+            "country": {
+              "alpha2": "CD",
+              "alpha3": "COD",
+              "name": "DR Congo",
+              "slug": "dr-congo"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1122249600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إليسي متومبو تشياند"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. تشياند"
+              }
+            }
+          },
+          "teamId": 273797,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 754,
+            "points": 7,
+            "twoPointsMade": 3,
+            "twoPointAttempts": 4,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 4,
+            "rebounds": 3,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 1,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -1,
+            "fieldGoalPct": 75,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/15028064/incidents": {
+    "incidents": [
+      {
+        "text": "4th quarter",
+        "homeScore": 79,
+        "awayScore": 85,
+        "isLive": true,
+        "period": "period4",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 79,
+        "awayScore": 85,
+        "player": {
+          "name": "Jordan Roberts",
+          "firstName": "Jordan",
+          "lastName": "Roberts",
+          "slug": "jordan-roberts",
+          "shortName": "J. Roberts",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360085,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 923529600
+        },
+        "id": 327819688,
+        "time": 40,
+        "timeSeconds": 2373,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 27,
+        "periodTimeSeconds": 573,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 77,
+        "awayScore": 85,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327819665,
+        "time": 40,
+        "timeSeconds": 2359,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 41,
+        "periodTimeSeconds": 559,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 77,
+        "awayScore": 84,
+        "player": {
+          "name": "Guibert Nijimbere",
+          "firstName": "Guibert",
+          "lastName": "Nijimbere",
+          "slug": "guibert-nijimbere",
+          "shortName": "G. Nijimbere",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 186,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 788918400
+        },
+        "id": 327819644,
+        "time": 40,
+        "timeSeconds": 2347,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 53,
+        "periodTimeSeconds": 547,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 77,
+        "awayScore": 83,
+        "player": {
+          "name": "Guibert Nijimbere",
+          "firstName": "Guibert",
+          "lastName": "Nijimbere",
+          "slug": "guibert-nijimbere",
+          "shortName": "G. Nijimbere",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 186,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 788918400
+        },
+        "id": 327819632,
+        "time": 40,
+        "timeSeconds": 2347,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 53,
+        "periodTimeSeconds": 547,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 77,
+        "awayScore": 82,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327819609,
+        "time": 40,
+        "timeSeconds": 2345,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 55,
+        "periodTimeSeconds": 545,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 76,
+        "awayScore": 82,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327819607,
+        "time": 40,
+        "timeSeconds": 2345,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 55,
+        "periodTimeSeconds": 545,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 75,
+        "awayScore": 82,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327819561,
+        "time": 39,
+        "timeSeconds": 2309,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 91,
+        "periodTimeSeconds": 509,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 73,
+        "awayScore": 82,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819558,
+        "time": 39,
+        "timeSeconds": 2309,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 91,
+        "periodTimeSeconds": 509,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 73,
+        "awayScore": 81,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819529,
+        "time": 38,
+        "timeSeconds": 2274,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 126,
+        "periodTimeSeconds": 474,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 73,
+        "awayScore": 80,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819523,
+        "time": 38,
+        "timeSeconds": 2274,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 126,
+        "periodTimeSeconds": 474,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 73,
+        "awayScore": 79,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819489,
+        "time": 38,
+        "timeSeconds": 2241,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 159,
+        "periodTimeSeconds": 441,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 73,
+        "awayScore": 78,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327819479,
+        "time": 38,
+        "timeSeconds": 2226,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 174,
+        "periodTimeSeconds": 426,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 71,
+        "awayScore": 78,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327819475,
+        "time": 37,
+        "timeSeconds": 2217,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 183,
+        "periodTimeSeconds": 417,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 71,
+        "awayScore": 77,
+        "player": {
+          "name": "Joel Almeida",
+          "slug": "almeida-joel",
+          "shortName": "J. Almeida",
+          "position": "F",
+          "jerseyNumber": "9",
+          "height": 192,
+          "userCount": 41,
+          "gender": "M",
+          "id": 1520017,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 497836800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ألميدا، جويل",
+              "hi": "अल्मेडा, जोएल",
+              "bn": "আলমেইডা, জোয়েল"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. ألميدا",
+              "hi": "जे. आल्मेडा",
+              "bn": "জে. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819459,
+        "time": 36,
+        "timeSeconds": 2157,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 243,
+        "periodTimeSeconds": 357,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 68,
+        "awayScore": 77,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819458,
+        "time": 36,
+        "timeSeconds": 2150,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 250,
+        "periodTimeSeconds": 350,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 68,
+        "awayScore": 76,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819457,
+        "time": 36,
+        "timeSeconds": 2150,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 250,
+        "periodTimeSeconds": 350,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 68,
+        "awayScore": 75,
+        "player": {
+          "name": "Ibrahima Thomas",
+          "firstName": "Ibrahima",
+          "lastName": "Thomas",
+          "slug": "ibrahima-thomas",
+          "shortName": "I. Thomas",
+          "position": "C",
+          "jerseyNumber": "1",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360084,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 539654400
+        },
+        "id": 327819450,
+        "time": 36,
+        "timeSeconds": 2144,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 256,
+        "periodTimeSeconds": 344,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 67,
+        "awayScore": 75,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327819411,
+        "time": 36,
+        "timeSeconds": 2128,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 272,
+        "periodTimeSeconds": 328,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 67,
+        "awayScore": 72,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327819404,
+        "time": 36,
+        "timeSeconds": 2115,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 285,
+        "periodTimeSeconds": 315,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 66,
+        "awayScore": 72,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819385,
+        "time": 36,
+        "timeSeconds": 2109,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 291,
+        "periodTimeSeconds": 309,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 66,
+        "awayScore": 70,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327819367,
+        "time": 35,
+        "timeSeconds": 2060,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 340,
+        "periodTimeSeconds": 260,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 66,
+        "awayScore": 67,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819360,
+        "time": 35,
+        "timeSeconds": 2053,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 347,
+        "periodTimeSeconds": 253,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 64,
+        "awayScore": 67,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327819352,
+        "time": 34,
+        "timeSeconds": 2027,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 373,
+        "periodTimeSeconds": 227,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 64,
+        "awayScore": 66,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327819348,
+        "time": 34,
+        "timeSeconds": 2025,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 375,
+        "periodTimeSeconds": 225,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 64,
+        "awayScore": 64,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819339,
+        "time": 34,
+        "timeSeconds": 2007,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 393,
+        "periodTimeSeconds": 207,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 62,
+        "awayScore": 64,
+        "player": {
+          "name": "Kenneti Mendes",
+          "firstName": "Kenneti",
+          "lastName": "Mendes",
+          "slug": "kenneti-mendes",
+          "shortName": "K. Mendes",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 203,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1802253,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650851200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كينتي مينديس"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. مينديس"
+            }
+          }
+        },
+        "id": 327819306,
+        "time": 33,
+        "timeSeconds": 1946,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 454,
+        "periodTimeSeconds": 146,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 60,
+        "awayScore": 64,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819302,
+        "time": 33,
+        "timeSeconds": 1937,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 463,
+        "periodTimeSeconds": 137,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 60,
+        "awayScore": 62,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819286,
+        "time": 32,
+        "timeSeconds": 1915,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 485,
+        "periodTimeSeconds": 115,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 60,
+        "awayScore": 61,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327819275,
+        "time": 32,
+        "timeSeconds": 1897,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 503,
+        "periodTimeSeconds": 97,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 59,
+        "awayScore": 61,
+        "player": {
+          "name": "Jordan Roberts",
+          "firstName": "Jordan",
+          "lastName": "Roberts",
+          "slug": "jordan-roberts",
+          "shortName": "J. Roberts",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360085,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 923529600
+        },
+        "id": 327819247,
+        "time": 31,
+        "timeSeconds": 1853,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 547,
+        "periodTimeSeconds": 53,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 56,
+        "awayScore": 61,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819243,
+        "time": 31,
+        "timeSeconds": 1845,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 555,
+        "periodTimeSeconds": 45,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 56,
+        "awayScore": 58,
+        "player": {
+          "name": "Ibrahima Thomas",
+          "firstName": "Ibrahima",
+          "lastName": "Thomas",
+          "slug": "ibrahima-thomas",
+          "shortName": "I. Thomas",
+          "position": "C",
+          "jerseyNumber": "1",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360084,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 539654400
+        },
+        "id": 327819239,
+        "time": 31,
+        "timeSeconds": 1845,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 555,
+        "periodTimeSeconds": 45,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 55,
+        "awayScore": 58,
+        "player": {
+          "name": "Ibrahima Thomas",
+          "firstName": "Ibrahima",
+          "lastName": "Thomas",
+          "slug": "ibrahima-thomas",
+          "shortName": "I. Thomas",
+          "position": "C",
+          "jerseyNumber": "1",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360084,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 539654400
+        },
+        "id": 327819235,
+        "time": 31,
+        "timeSeconds": 1845,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 555,
+        "periodTimeSeconds": 45,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q3",
+        "homeScore": 54,
+        "awayScore": 58,
+        "isLive": false,
+        "period": "period3",
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 54,
+        "awayScore": 58,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819165,
+        "time": 30,
+        "timeSeconds": 1752,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 48,
+        "periodTimeSeconds": 552,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 53,
+        "awayScore": 58,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327819139,
+        "time": 30,
+        "timeSeconds": 1741,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 59,
+        "periodTimeSeconds": 541,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 53,
+        "awayScore": 57,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327819138,
+        "time": 29,
+        "timeSeconds": 1725,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 75,
+        "periodTimeSeconds": 525,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 53,
+        "awayScore": 56,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327819125,
+        "time": 29,
+        "timeSeconds": 1686,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 114,
+        "periodTimeSeconds": 486,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 53,
+        "awayScore": 54,
+        "player": {
+          "name": "Jordan Roberts",
+          "firstName": "Jordan",
+          "lastName": "Roberts",
+          "slug": "jordan-roberts",
+          "shortName": "J. Roberts",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360085,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 923529600
+        },
+        "id": 327819118,
+        "time": 28,
+        "timeSeconds": 1634,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 166,
+        "periodTimeSeconds": 434,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 54,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327819109,
+        "time": 27,
+        "timeSeconds": 1612,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 188,
+        "periodTimeSeconds": 412,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 53,
+        "player": {
+          "name": "Francois Xavier Mungenga Mungenga",
+          "firstName": "Francois Xavier",
+          "lastName": "Mungenga Mungenga",
+          "slug": "francois-xavier-mungenga-mungenga",
+          "shortName": "F. X. M. Mungenga",
+          "jerseyNumber": "4",
+          "userCount": 8,
+          "gender": "M",
+          "id": 2320545,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1077580800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "فرانسوا زافييه مونغينغا مونغينغا"
+            },
+            "shortNameTranslation": {
+              "ar": "إف. إكس. إم. مونغينغا"
+            }
+          }
+        },
+        "id": 327819088,
+        "time": 27,
+        "timeSeconds": 1611,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 189,
+        "periodTimeSeconds": 411,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 50,
+        "awayScore": 52,
+        "player": {
+          "name": "Kenneti Mendes",
+          "firstName": "Kenneti",
+          "lastName": "Mendes",
+          "slug": "kenneti-mendes",
+          "shortName": "K. Mendes",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 203,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1802253,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650851200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كينتي مينديس"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. مينديس"
+            }
+          }
+        },
+        "id": 327819081,
+        "time": 27,
+        "timeSeconds": 1602,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 198,
+        "periodTimeSeconds": 402,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 52,
+        "player": {
+          "name": "Michael Tshibende",
+          "firstName": "Michael",
+          "lastName": "Tshibende",
+          "slug": "michael-tshibende",
+          "shortName": "M. Tshibende",
+          "jerseyNumber": "14",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320544,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1057017600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مايكل تشيبيندي"
+            },
+            "shortNameTranslation": {
+              "ar": "إم. تشيبيندي"
+            }
+          }
+        },
+        "id": 327819074,
+        "time": 27,
+        "timeSeconds": 1571,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 229,
+        "periodTimeSeconds": 371,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 48,
+        "awayScore": 50,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819068,
+        "time": 26,
+        "timeSeconds": 1554,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 246,
+        "periodTimeSeconds": 354,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 47,
+        "awayScore": 50,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819059,
+        "time": 26,
+        "timeSeconds": 1554,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 246,
+        "periodTimeSeconds": 354,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 46,
+        "awayScore": 50,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819039,
+        "time": 26,
+        "timeSeconds": 1522,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 278,
+        "periodTimeSeconds": 322,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 45,
+        "awayScore": 50,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327819038,
+        "time": 26,
+        "timeSeconds": 1522,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 278,
+        "periodTimeSeconds": 322,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 44,
+        "awayScore": 50,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327819022,
+        "time": 26,
+        "timeSeconds": 1516,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 284,
+        "periodTimeSeconds": 316,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 44,
+        "awayScore": 49,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818998,
+        "time": 26,
+        "timeSeconds": 1501,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 299,
+        "periodTimeSeconds": 301,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 43,
+        "awayScore": 49,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327818986,
+        "time": 25,
+        "timeSeconds": 1489,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 311,
+        "periodTimeSeconds": 289,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 43,
+        "awayScore": 48,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327818985,
+        "time": 25,
+        "timeSeconds": 1489,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 311,
+        "periodTimeSeconds": 289,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 43,
+        "awayScore": 47,
+        "player": {
+          "name": "Kenneti Mendes",
+          "firstName": "Kenneti",
+          "lastName": "Mendes",
+          "slug": "kenneti-mendes",
+          "shortName": "K. Mendes",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 203,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1802253,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650851200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كينتي مينديس"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. مينديس"
+            }
+          }
+        },
+        "id": 327818970,
+        "time": 25,
+        "timeSeconds": 1471,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 329,
+        "periodTimeSeconds": 271,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 41,
+        "awayScore": 47,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818936,
+        "time": 25,
+        "timeSeconds": 1441,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 359,
+        "periodTimeSeconds": 241,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 39,
+        "awayScore": 47,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327818926,
+        "time": 24,
+        "timeSeconds": 1431,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 369,
+        "periodTimeSeconds": 231,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 39,
+        "awayScore": 44,
+        "player": {
+          "name": "Ibrahima Thomas",
+          "firstName": "Ibrahima",
+          "lastName": "Thomas",
+          "slug": "ibrahima-thomas",
+          "shortName": "I. Thomas",
+          "position": "C",
+          "jerseyNumber": "1",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360084,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 539654400
+        },
+        "id": 327818921,
+        "time": 24,
+        "timeSeconds": 1421,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 379,
+        "periodTimeSeconds": 221,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 36,
+        "awayScore": 44,
+        "player": {
+          "name": "Michael Babatunde Balogun",
+          "firstName": "Michael Babatunde",
+          "lastName": "Balogun",
+          "slug": "michael-babatunde-balogun",
+          "shortName": "M. B. Balogun",
+          "jerseyNumber": "4",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360086,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 673574400
+        },
+        "id": 327818912,
+        "time": 24,
+        "timeSeconds": 1386,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 414,
+        "periodTimeSeconds": 186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 35,
+        "awayScore": 44,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818839,
+        "time": 22,
+        "timeSeconds": 1276,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 524,
+        "periodTimeSeconds": 76,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 32,
+        "awayScore": 44,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327818834,
+        "time": 22,
+        "timeSeconds": 1264,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 536,
+        "periodTimeSeconds": 64,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 32,
+        "awayScore": 42,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327818828,
+        "time": 21,
+        "timeSeconds": 1237,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 563,
+        "periodTimeSeconds": 37,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 29,
+        "awayScore": 42,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818825,
+        "time": 21,
+        "timeSeconds": 1213,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 587,
+        "periodTimeSeconds": 13,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q2",
+        "homeScore": 27,
+        "awayScore": 42,
+        "isLive": false,
+        "period": "period2",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 27,
+        "awayScore": 42,
+        "player": {
+          "name": "Elisee Mutombo Tshienda",
+          "firstName": "Elisee",
+          "slug": "elisee-mutombo-tshienda",
+          "shortName": "E. M. Tshienda",
+          "jerseyNumber": "25",
+          "userCount": 0,
+          "id": 2004695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1122249600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليسي متومبو تشياند"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. تشياند"
+            }
+          }
+        },
+        "id": 327818620,
+        "time": 20,
+        "timeSeconds": 1196,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 4,
+        "periodTimeSeconds": 596,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 27,
+        "awayScore": 40,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818613,
+        "time": 20,
+        "timeSeconds": 1166,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 34,
+        "periodTimeSeconds": 566,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 25,
+        "awayScore": 40,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327818603,
+        "time": 19,
+        "timeSeconds": 1130,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 70,
+        "periodTimeSeconds": 530,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 25,
+        "awayScore": 39,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818570,
+        "time": 19,
+        "timeSeconds": 1095,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 105,
+        "periodTimeSeconds": 495,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 23,
+        "awayScore": 39,
+        "player": {
+          "name": "Leandro Miranda Monteiro",
+          "firstName": "Leandro",
+          "lastName": "Miranda Monteiro",
+          "slug": "leandro-miranda-monteiro",
+          "shortName": "L. M. Monteiro",
+          "jerseyNumber": "11",
+          "userCount": 2,
+          "gender": "M",
+          "id": 2360088,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1172188800
+        },
+        "id": 327818561,
+        "time": 18,
+        "timeSeconds": 1062,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 138,
+        "periodTimeSeconds": 462,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 20,
+        "awayScore": 39,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327818545,
+        "time": 18,
+        "timeSeconds": 1040,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 160,
+        "periodTimeSeconds": 440,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 20,
+        "awayScore": 37,
+        "player": {
+          "name": "Ntumba Michael Buzangu",
+          "firstName": "Ntumba Michael",
+          "lastName": "Buzangu",
+          "slug": "ntumba-michael-buzangu",
+          "shortName": "N. M. Buzangu",
+          "jerseyNumber": "10",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320548,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 405302400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نتومبا مايكل بوزانغو"
+            },
+            "shortNameTranslation": {
+              "ar": "إن. إم. بوزانغو"
+            }
+          }
+        },
+        "id": 327818536,
+        "time": 17,
+        "timeSeconds": 1002,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 198,
+        "periodTimeSeconds": 402,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 20,
+        "awayScore": 35,
+        "player": {
+          "name": "Guibert Nijimbere",
+          "firstName": "Guibert",
+          "lastName": "Nijimbere",
+          "slug": "guibert-nijimbere",
+          "shortName": "G. Nijimbere",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 186,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 788918400
+        },
+        "id": 327818526,
+        "time": 17,
+        "timeSeconds": 985,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 215,
+        "periodTimeSeconds": 385,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 20,
+        "awayScore": 34,
+        "player": {
+          "name": "Guibert Nijimbere",
+          "firstName": "Guibert",
+          "lastName": "Nijimbere",
+          "slug": "guibert-nijimbere",
+          "shortName": "G. Nijimbere",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 186,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 788918400
+        },
+        "id": 327818522,
+        "time": 17,
+        "timeSeconds": 985,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 215,
+        "periodTimeSeconds": 385,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 20,
+        "awayScore": 33,
+        "player": {
+          "name": "Jordan Roberts",
+          "firstName": "Jordan",
+          "lastName": "Roberts",
+          "slug": "jordan-roberts",
+          "shortName": "J. Roberts",
+          "jerseyNumber": "2",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360085,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 923529600
+        },
+        "id": 327818484,
+        "time": 16,
+        "timeSeconds": 933,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 267,
+        "periodTimeSeconds": 333,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 18,
+        "awayScore": 33,
+        "player": {
+          "name": "Elisee Mutombo Tshienda",
+          "firstName": "Elisee",
+          "slug": "elisee-mutombo-tshienda",
+          "shortName": "E. M. Tshienda",
+          "jerseyNumber": "25",
+          "userCount": 0,
+          "id": 2004695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1122249600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليسي متومبو تشياند"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. تشياند"
+            }
+          }
+        },
+        "id": 327818466,
+        "time": 15,
+        "timeSeconds": 870,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 330,
+        "periodTimeSeconds": 270,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 18,
+        "awayScore": 31,
+        "player": {
+          "name": "Elisee Mutombo Tshienda",
+          "firstName": "Elisee",
+          "slug": "elisee-mutombo-tshienda",
+          "shortName": "E. M. Tshienda",
+          "jerseyNumber": "25",
+          "userCount": 0,
+          "id": 2004695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1122249600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليسي متومبو تشياند"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. تشياند"
+            }
+          }
+        },
+        "id": 327818460,
+        "time": 15,
+        "timeSeconds": 856,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 344,
+        "periodTimeSeconds": 256,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 18,
+        "awayScore": 30,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818425,
+        "time": 14,
+        "timeSeconds": 798,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 402,
+        "periodTimeSeconds": 198,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 16,
+        "awayScore": 30,
+        "player": {
+          "name": "Guibert Nijimbere",
+          "firstName": "Guibert",
+          "lastName": "Nijimbere",
+          "slug": "guibert-nijimbere",
+          "shortName": "G. Nijimbere",
+          "position": "G",
+          "jerseyNumber": "1",
+          "height": 186,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360838,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 788918400
+        },
+        "id": 327818422,
+        "time": 14,
+        "timeSeconds": 786,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 414,
+        "periodTimeSeconds": 186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 16,
+        "awayScore": 28,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327818394,
+        "time": 12,
+        "timeSeconds": 715,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 485,
+        "periodTimeSeconds": 115,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 16,
+        "awayScore": 26,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818386,
+        "time": 12,
+        "timeSeconds": 676,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 524,
+        "periodTimeSeconds": 76,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q1",
+        "homeScore": 14,
+        "awayScore": 26,
+        "isLive": false,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 14,
+        "awayScore": 26,
+        "player": {
+          "name": "Elisee Mutombo Tshienda",
+          "firstName": "Elisee",
+          "slug": "elisee-mutombo-tshienda",
+          "shortName": "E. M. Tshienda",
+          "jerseyNumber": "25",
+          "userCount": 0,
+          "id": 2004695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1122249600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إليسي متومبو تشياند"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. تشياند"
+            }
+          }
+        },
+        "id": 327818340,
+        "time": 10,
+        "timeSeconds": 589,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 11,
+        "periodTimeSeconds": 589,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 14,
+        "awayScore": 24,
+        "player": {
+          "name": "Kenneti Mendes",
+          "firstName": "Kenneti",
+          "lastName": "Mendes",
+          "slug": "kenneti-mendes",
+          "shortName": "K. Mendes",
+          "position": "F",
+          "jerseyNumber": "10",
+          "height": 203,
+          "userCount": 5,
+          "gender": "M",
+          "id": 1802253,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 650851200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كينتي مينديس"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. مينديس"
+            }
+          }
+        },
+        "id": 327818296,
+        "time": 9,
+        "timeSeconds": 513,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 87,
+        "periodTimeSeconds": 513,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 12,
+        "awayScore": 24,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327818277,
+        "time": 9,
+        "timeSeconds": 494,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 106,
+        "periodTimeSeconds": 494,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 12,
+        "awayScore": 21,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818272,
+        "time": 8,
+        "timeSeconds": 459,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 141,
+        "periodTimeSeconds": 459,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 9,
+        "awayScore": 21,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327818257,
+        "time": 8,
+        "timeSeconds": 445,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 155,
+        "periodTimeSeconds": 445,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 9,
+        "awayScore": 18,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818256,
+        "time": 8,
+        "timeSeconds": 429,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 171,
+        "periodTimeSeconds": 429,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 6,
+        "awayScore": 18,
+        "player": {
+          "name": "Viny Okouo",
+          "firstName": "Viny",
+          "lastName": "Okouo",
+          "slug": "viny-okouo",
+          "shortName": "V. Okouo",
+          "position": "C",
+          "jerseyNumber": "11",
+          "height": 213,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360840,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 860630400
+        },
+        "id": 327818237,
+        "time": 7,
+        "timeSeconds": 414,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 186,
+        "periodTimeSeconds": 414,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 6,
+        "awayScore": 16,
+        "player": {
+          "name": "Carl Ona Embo",
+          "firstName": "Carl",
+          "lastName": "Ona Embo",
+          "slug": "carl-ona-embo",
+          "shortName": "C. O. Embo",
+          "jerseyNumber": "9",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360839,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 618364800
+        },
+        "id": 327818234,
+        "time": 7,
+        "timeSeconds": 400,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 200,
+        "periodTimeSeconds": 400,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 6,
+        "awayScore": 14,
+        "player": {
+          "name": "Ivan Almeida",
+          "slug": "almeida-ivan",
+          "shortName": "I. Almeida",
+          "position": "F",
+          "jerseyNumber": "6",
+          "height": 197,
+          "userCount": 96,
+          "gender": "M",
+          "id": 1202507,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 610761600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفان ألمايدا",
+              "hi": "अल्मेडा, इवान",
+              "bn": "আলমেইডা, ইভান"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. ألمايدا",
+              "hi": "आई. अल्मेडा",
+              "bn": "আই. আলমেইডা"
+            }
+          }
+        },
+        "id": 327818212,
+        "time": 6,
+        "timeSeconds": 357,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 243,
+        "periodTimeSeconds": 357,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 14,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327818173,
+        "time": 6,
+        "timeSeconds": 319,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 281,
+        "periodTimeSeconds": 319,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 12,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327818151,
+        "time": 5,
+        "timeSeconds": 271,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 329,
+        "periodTimeSeconds": 271,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 4,
+        "awayScore": 10,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327818130,
+        "time": 4,
+        "timeSeconds": 185,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 415,
+        "periodTimeSeconds": 185,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 7,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818111,
+        "time": 3,
+        "timeSeconds": 153,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 447,
+        "periodTimeSeconds": 153,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 7,
+        "player": {
+          "name": "Gudul Omari Mulomba",
+          "firstName": "Gudul",
+          "lastName": "Omari Mulomba",
+          "slug": "gudul-omari-mulomba",
+          "shortName": "G. O. Mulomba",
+          "position": "C",
+          "jerseyNumber": "12",
+          "userCount": 0,
+          "gender": "M",
+          "id": 2320542,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 769219200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غودول أوماري مولومبا"
+            },
+            "shortNameTranslation": {
+              "ar": "جي. أو. مولومبا"
+            }
+          }
+        },
+        "id": 327818101,
+        "time": 3,
+        "timeSeconds": 138,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 462,
+        "periodTimeSeconds": 138,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 5,
+        "player": {
+          "name": "Dane Miller Jr",
+          "firstName": "Dane",
+          "lastName": "Miller Jr",
+          "slug": "dane-miller-jr",
+          "shortName": "D. M. Jr",
+          "position": "F",
+          "jerseyNumber": "7",
+          "height": 203,
+          "userCount": 0,
+          "gender": "M",
+          "id": 2360087,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 642297600
+        },
+        "id": 327818098,
+        "time": 2,
+        "timeSeconds": 117,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 483,
+        "periodTimeSeconds": 117,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 0,
+        "awayScore": 5,
+        "player": {
+          "name": "Exauce Ikamba Moke",
+          "firstName": "Exauce",
+          "lastName": "Ikamba Moke",
+          "slug": "exauce-ikamba-moke",
+          "shortName": "E. I. Moke",
+          "jerseyNumber": "20",
+          "userCount": 11,
+          "gender": "M",
+          "id": 2053049,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1120348800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إكساوس إيكامبا موكي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. موكي"
+            }
+          }
+        },
+        "id": 327818076,
+        "time": 1,
+        "timeSeconds": 57,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 543,
+        "periodTimeSeconds": 57,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 0,
+        "awayScore": 3,
+        "player": {
+          "name": "Etienne TAMETONG TOKO",
+          "firstName": "Etienne",
+          "lastName": "TAMETONG TOKO",
+          "slug": "etienne-tametong-toko",
+          "shortName": "E. T. TOKO",
+          "jerseyNumber": "0",
+          "height": 188,
+          "userCount": 0,
+          "id": 2004675,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 710985600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إتيان تاميتونغ توكو"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. توكو"
+            }
+          }
+        },
+        "id": 327818072,
+        "time": 1,
+        "timeSeconds": 19,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 581,
+        "periodTimeSeconds": 19,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/15028064/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -5
+      },
+      {
+        "minute": 2,
+        "value": -3
+      },
+      {
+        "minute": 3,
+        "value": -3
+      },
+      {
+        "minute": 4,
+        "value": -6
+      },
+      {
+        "minute": 5,
+        "value": -8
+      },
+      {
+        "minute": 6,
+        "value": -8
+      },
+      {
+        "minute": 7,
+        "value": -12
+      },
+      {
+        "minute": 8,
+        "value": -9
+      },
+      {
+        "minute": 9,
+        "value": -10
+      },
+      {
+        "minute": 10,
+        "value": -12
+      },
+      {
+        "minute": 11,
+        "value": -12
+      },
+      {
+        "minute": 12,
+        "value": -12
+      },
+      {
+        "minute": 13,
+        "value": -12
+      },
+      {
+        "minute": 14,
+        "value": -12
+      },
+      {
+        "minute": 15,
+        "value": -15
+      },
+      {
+        "minute": 16,
+        "value": -13
+      },
+      {
+        "minute": 17,
+        "value": -17
+      },
+      {
+        "minute": 18,
+        "value": -16
+      },
+      {
+        "minute": 19,
+        "value": -15
+      },
+      {
+        "minute": 20,
+        "value": -15
+      },
+      {
+        "minute": 21,
+        "value": -10
+      },
+      {
+        "minute": 22,
+        "value": -9
+      },
+      {
+        "minute": 23,
+        "value": -9
+      },
+      {
+        "minute": 24,
+        "value": -8
+      },
+      {
+        "minute": 25,
+        "value": -6
+      },
+      {
+        "minute": 26,
+        "value": -2
+      },
+      {
+        "minute": 27,
+        "value": -4
+      },
+      {
+        "minute": 28,
+        "value": -1
+      },
+      {
+        "minute": 29,
+        "value": -4
+      },
+      {
+        "minute": 30,
+        "value": -4
+      },
+      {
+        "minute": 31,
+        "value": -2
+      },
+      {
+        "minute": 32,
+        "value": -2
+      },
+      {
+        "minute": 33,
+        "value": -2
+      },
+      {
+        "minute": 34,
+        "value": -3
+      },
+      {
+        "minute": 35,
+        "value": -4
+      },
+      {
+        "minute": 36,
+        "value": -6
+      },
+      {
+        "minute": 37,
+        "value": -7
+      },
+      {
+        "minute": 38,
+        "value": -8
+      },
+      {
+        "minute": 39,
+        "value": -7
+      },
+      {
+        "minute": 40,
+        "value": -6
+      }
+    ],
+    "periodTime": 10,
+    "overtimeLength": 5,
+    "periodCount": 4
+  }
+}

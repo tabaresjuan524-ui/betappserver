@@ -1,0 +1,6719 @@
+{
+  "config/country-sport-priorities/country": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14621015/votes": {
+    "vote": {
+      "vote1": 320,
+      "vote2": 31,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14621015/lineups": {
+    "confirmed": true,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Nate Bittle",
+            "slug": "bittle-nate",
+            "shortName": "N. Bittle",
+            "position": "C",
+            "jerseyNumber": "32",
+            "height": 211,
+            "userCount": 12,
+            "gender": "M",
+            "id": 1181345,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيتل، نيت"
+              },
+              "shortNameTranslation": {
+                "ar": "ن. بيتل"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "C",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1860,
+            "points": 14,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 7,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 5,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 9,
+            "rebounds": 10,
+            "defensiveRebounds": 7,
+            "offensiveRebounds": 3,
+            "turnovers": 2,
+            "blocks": 2,
+            "personalFouls": 1,
+            "assists": 3,
+            "steals": 1,
+            "plusMinus": 0,
+            "fieldGoalPct": 56,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kwame Evans",
+            "slug": "evans-kwame",
+            "shortName": "K. Evans",
+            "position": "FC",
+            "jerseyNumber": "10",
+            "height": 206,
+            "userCount": 10,
+            "gender": "M",
+            "id": 1598822,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1091404800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إيفانز، كوامي"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. إيفانز"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "FC",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1380,
+            "points": 5,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 2,
+            "threePointsMade": 1,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 5,
+            "rebounds": 6,
+            "defensiveRebounds": 5,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 20,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dezdrick Lindsay",
+            "slug": "lindsay-dezdrick",
+            "shortName": "D. Lindsay",
+            "position": "F",
+            "jerseyNumber": "4",
+            "height": 198,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1978761,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ليندساي، ديزدريك"
+              },
+              "shortNameTranslation": {
+                "ar": "د. ليندساي"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1620,
+            "points": 8,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 2,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 4,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 3,
+            "assists": 2,
+            "steals": 2,
+            "plusMinus": 0,
+            "fieldGoalPct": 75,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Oleksandr Kobzystyi",
+            "firstName": "Oleksandr",
+            "lastName": "Kobzystyi",
+            "slug": "kobzystyi-oleksandr",
+            "shortName": "O. Kobzystyi",
+            "position": "G",
+            "jerseyNumber": "6",
+            "height": 200,
+            "userCount": 13,
+            "gender": "M",
+            "id": 1101410,
+            "country": {
+              "alpha2": "UA",
+              "alpha3": "UKR",
+              "name": "Ukraine",
+              "slug": "ukraine"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1053648000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كوبزسكي، أولكسندر"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. كوبزسكي"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 720,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 3,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 1,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 33,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jackson Shelstad",
+            "slug": "shelstad-jackson",
+            "shortName": "J. Shelstad",
+            "position": "G",
+            "jerseyNumber": "3",
+            "height": 183,
+            "userCount": 20,
+            "gender": "M",
+            "id": 1598823,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "شيلستاد، جاكسون"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. شيلستاد"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 2220,
+            "points": 22,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 6,
+            "threePointsMade": 4,
+            "threePointAttempts": 13,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 3,
+            "fieldGoalsMade": 8,
+            "fieldGoalAttempts": 19,
+            "rebounds": 3,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 8,
+            "steals": 3,
+            "plusMinus": 0,
+            "fieldGoalPct": 42,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sean Stewart",
+            "slug": "stewart-sean",
+            "shortName": "S. Stewart",
+            "position": "F",
+            "jerseyNumber": "13",
+            "height": 206,
+            "userCount": 7,
+            "gender": "M",
+            "id": 1600127,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "ستيوارت، شون"
+              },
+              "shortNameTranslation": {
+                "ar": "ش. ستيوارت"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1140,
+            "points": 6,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 4,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 4,
+            "rebounds": 5,
+            "defensiveRebounds": 4,
+            "offensiveRebounds": 1,
+            "turnovers": 3,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Ege Demir",
+            "slug": "demir-ege",
+            "shortName": "E. Demir",
+            "position": "F",
+            "jerseyNumber": "16",
+            "height": 207,
+            "userCount": 20,
+            "gender": "M",
+            "id": 1196128,
+            "country": {
+              "alpha2": "TR",
+              "alpha3": "TUR",
+              "name": "Türkiye",
+              "slug": "turkiye"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1092528000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دمير، إجي"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. دمير"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 420,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 4,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "TK Simpkins",
+            "slug": "simpkins-tk",
+            "shortName": "T. Simpkins",
+            "position": "G",
+            "jerseyNumber": "11",
+            "height": 193,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1599607,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سيمبكنز، تي. كيه"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. كيه سيمبكنز"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1620,
+            "points": 20,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 5,
+            "threePointAttempts": 10,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 4,
+            "fieldGoalsMade": 6,
+            "fieldGoalAttempts": 11,
+            "rebounds": 2,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 1,
+            "turnovers": 3,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 1,
+            "plusMinus": 0,
+            "fieldGoalPct": 55,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Lin Wei",
+            "slug": "wei-lin",
+            "shortName": "L. Wei",
+            "position": "G",
+            "jerseyNumber": "23",
+            "height": 188,
+            "userCount": 54,
+            "gender": "M",
+            "id": 1417002,
+            "country": {
+              "alpha2": "CN",
+              "alpha3": "CHN",
+              "name": "China",
+              "slug": "china"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1072310400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "وي، لين"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. وي"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 480,
+            "points": 2,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 4,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 5,
+            "rebounds": 2,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 20,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Drew Carter",
+            "slug": "carter-drew",
+            "shortName": "D. Carter",
+            "position": "G",
+            "jerseyNumber": "22",
+            "userCount": 0,
+            "gender": "M",
+            "id": 1183288,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "كارتر، درو"
+              },
+              "shortNameTranslation": {
+                "ar": "د. كارتر"
+              }
+            }
+          },
+          "teamId": 86814,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 540,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 2,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Caleb Delzell",
+            "firstName": "Caleb Delzell",
+            "slug": "caleb-delzell",
+            "shortName": "C. Delzell",
+            "userCount": 0,
+            "id": 2342688,
+            "country": {},
+            "marketValueCurrency": "EUR"
+          },
+          "teamId": 66356,
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1320,
+            "points": 5,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 3,
+            "threePointsMade": 1,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 6,
+            "rebounds": 6,
+            "defensiveRebounds": 5,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 33,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Jaden Jackson",
+            "slug": "jackson-jaden",
+            "shortName": "J. Jackson",
+            "position": "G",
+            "height": 183,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1909818,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "جاكسون، جايدن"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. جاكسون"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1740,
+            "points": 8,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 2,
+            "threePointAttempts": 4,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 6,
+            "rebounds": 6,
+            "defensiveRebounds": 6,
+            "offensiveRebounds": 0,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 2,
+            "steals": 1,
+            "plusMinus": 0,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Kalen Garry",
+            "slug": "garry-kalen",
+            "shortName": "K. Garry",
+            "position": "G",
+            "jerseyNumber": "10",
+            "height": 191,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1442199,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "غاري، كالن"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. غاري"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1440,
+            "points": 13,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 4,
+            "threePointsMade": 3,
+            "threePointAttempts": 6,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 10,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 3,
+            "assists": 0,
+            "steals": 1,
+            "plusMinus": 0,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Joe Sayler",
+            "slug": "sayler-joe",
+            "shortName": "J. Sayler",
+            "position": "G",
+            "jerseyNumber": "3",
+            "height": 191,
+            "userCount": 1,
+            "gender": "M",
+            "id": 1605759,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سايلر، جو"
+              },
+              "shortNameTranslation": {
+                "ar": "ج. سايلر"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1920,
+            "points": 14,
+            "twoPointsMade": 7,
+            "twoPointAttempts": 8,
+            "threePointsMade": 0,
+            "threePointAttempts": 4,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 7,
+            "fieldGoalAttempts": 12,
+            "rebounds": 3,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 0,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 58,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Luke Haertle",
+            "slug": "haertle-luke",
+            "shortName": "L. Haertle",
+            "position": "G",
+            "jerseyNumber": "12",
+            "height": 191,
+            "userCount": 1,
+            "gender": "M",
+            "id": 1457900,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "هارتل، لوك"
+              },
+              "shortNameTranslation": {
+                "ar": "ل. هارتل"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1500,
+            "points": 14,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 8,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 6,
+            "fieldGoalsMade": 5,
+            "fieldGoalAttempts": 10,
+            "rebounds": 6,
+            "defensiveRebounds": 4,
+            "offensiveRebounds": 2,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Trey Buchanan",
+            "slug": "buchanan-trey",
+            "shortName": "T. Buchanan",
+            "position": "G",
+            "height": 185,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1915294,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوشانان، تري"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. بوشانان"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "G",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 540,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Matthew Mors",
+            "slug": "mors-matthew",
+            "shortName": "M. Mors",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 201,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1178670,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مورز، ماثيو"
+              },
+              "shortNameTranslation": {
+                "ar": "م. مورز"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "F",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 1620,
+            "points": 7,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 1,
+            "threePointAttempts": 6,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 8,
+            "rebounds": 5,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 2,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 4,
+            "assists": 0,
+            "steals": 3,
+            "plusMinus": 0,
+            "fieldGoalPct": 25,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Alec Squires",
+            "slug": "squires-alec",
+            "shortName": "A. Squires",
+            "position": "C",
+            "height": 208,
+            "userCount": 0,
+            "gender": "M",
+            "id": 1909820,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سكوايرز، أليك"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. سكوايرز"
+              }
+            }
+          },
+          "teamId": 66356,
+          "position": "C",
+          "substitute": true,
+          "statistics": {
+            "secondsPlayed": 720,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 4,
+            "assists": 1,
+            "steals": 1,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "000000",
+        "outline": "fafb00",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14621015": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "NCAA",
+        "slug": "ncaa",
+        "category": {
+          "name": "USA",
+          "slug": "usa",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 15,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "flag": "usa",
+          "alpha2": "US",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الولايات المتحدة",
+              "hi": "संयुक्त राज्य अमेरिका",
+              "bn": "যুক্তরাষ্ট্র"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "NCAA Men",
+          "slug": "ncaa-men",
+          "primaryColorHex": "#005eb8",
+          "secondaryColorHex": "#007dfb",
+          "category": {
+            "name": "USA",
+            "slug": "usa",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 15,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "flag": "usa",
+            "alpha2": "US",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الولايات المتحدة",
+                "hi": "संयुक्त राज्य अमेरिका",
+                "bn": "যুক্তরাষ্ট্র"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 3587,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 648,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": true,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بطولة الرابطة الوطنية لرياضة الجامعات للرجال",
+              "hi": "एनसीएए मेन",
+              "bn": "এনসিএএ ম্যান"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 698,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الرابطة الوطنية لرياضة الجامعات",
+            "hi": "एनसीएए",
+            "bn": "এনসিএএ"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "NCAA, Regular Season 25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 80279
+      },
+      "customId": "gCBsoLJ",
+      "status": {
+        "code": 7,
+        "description": "2nd half",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Oregon Ducks",
+        "slug": "oregon-ducks",
+        "shortName": "Oregon",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 753,
+        "manager": {
+          "name": "Dana Altman",
+          "slug": "dana-altman",
+          "shortName": "D. Altman",
+          "id": 804394,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دانا ألتمن"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ألتمن"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Eugene"
+          },
+          "hidden": true,
+          "slug": "matthew-knight-arena",
+          "name": "Matthew Knight Arena",
+          "capacity": 12364,
+          "id": 19436,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مركز ماثيو نايت",
+              "hi": "मैथ्यू नाइट एरिना",
+              "bn": "ম্যাথিউ নাইট এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Matthew Knight Arena",
+            "capacity": 12364
+          }
+        },
+        "nameCode": "ORE",
+        "national": false,
+        "type": 0,
+        "id": 86814,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "Oregon Ducks",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#108138",
+          "secondary": "#f7e936",
+          "text": "#f7e936"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "اوريجون داكس",
+            "ru": "Орегон Дакс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "South Dakota State Jackrabbits",
+        "slug": "south-dakota-state-jackrabbits",
+        "shortName": "South Dakota St.",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 159,
+        "manager": {
+          "name": "Eric Henderson",
+          "slug": "eric-henderson",
+          "shortName": "E. Henderson",
+          "id": 804436,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إريك هندرسون"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. هندرسون"
+            }
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Brookings"
+          },
+          "hidden": true,
+          "slug": "frost-arena",
+          "name": "Frost Arena",
+          "capacity": 6500,
+          "id": 7620,
+          "country": {
+            "alpha2": "US",
+            "alpha3": "USA",
+            "name": "USA",
+            "slug": "usa"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أرينا فروست",
+              "hi": "फ्रॉस्ट एरिना",
+              "bn": "ফ্রস্ট এরিনা"
+            },
+            "shortNameTranslation": {}
+          },
+          "stadium": {
+            "name": "Frost Arena",
+            "capacity": 6500
+          }
+        },
+        "nameCode": "SDST",
+        "national": false,
+        "type": 0,
+        "id": 66356,
+        "country": {
+          "alpha2": "US",
+          "alpha3": "USA",
+          "name": "USA",
+          "slug": "usa"
+        },
+        "fullName": "South Dakota State Jackrabbits",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffd700",
+          "secondary": "#5173be",
+          "text": "#5173be"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ساوث داكوتا ستيت جاكرابيتس",
+            "ru": "Саус Дакота Стэйт Джекраббитс"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 83,
+        "display": 83,
+        "period1": 40,
+        "period2": 43
+      },
+      "awayScore": {
+        "current": 69,
+        "display": 69,
+        "period1": 34,
+        "period2": 35
+      },
+      "time": {
+        "played": 2400,
+        "periodLength": 1200,
+        "overtimeLength": 300,
+        "totalPeriodCount": 2
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1763008201
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14621015,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 20,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st half",
+        "period2": "2nd half",
+        "overtime": "Overtime"
+      },
+      "slug": "oregon-ducks-south-dakota-state-jackrabbits",
+      "startTimestamp": 1763001000,
+      "lastPeriod": "period2",
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14621015/incidents": {
+    "incidents": [
+      {
+        "text": "FT",
+        "homeScore": 83,
+        "awayScore": 69,
+        "isLive": false,
+        "period": "period2",
+        "time": 40,
+        "addedTime": 999,
+        "timeSeconds": 2400,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 83,
+        "awayScore": 69,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327830156,
+        "time": 40,
+        "timeSeconds": 2374,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 26,
+        "periodTimeSeconds": 1174,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 82,
+        "awayScore": 69,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327830140,
+        "time": 40,
+        "timeSeconds": 2374,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 26,
+        "periodTimeSeconds": 1174,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 81,
+        "awayScore": 69,
+        "player": {
+          "name": "Kwame Evans",
+          "slug": "evans-kwame",
+          "shortName": "K. Evans",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 206,
+          "userCount": 10,
+          "gender": "M",
+          "id": 1598822,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1091404800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفانز، كوامي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. إيفانز"
+            }
+          }
+        },
+        "id": 327830139,
+        "time": 40,
+        "timeSeconds": 2362,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 38,
+        "periodTimeSeconds": 1162,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 80,
+        "awayScore": 69,
+        "player": {
+          "name": "Kwame Evans",
+          "slug": "evans-kwame",
+          "shortName": "K. Evans",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 206,
+          "userCount": 10,
+          "gender": "M",
+          "id": 1598822,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1091404800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفانز، كوامي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. إيفانز"
+            }
+          }
+        },
+        "id": 327830138,
+        "time": 40,
+        "timeSeconds": 2362,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 38,
+        "periodTimeSeconds": 1162,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 79,
+        "awayScore": 69,
+        "player": {
+          "name": "Kalen Garry",
+          "slug": "garry-kalen",
+          "shortName": "K. Garry",
+          "position": "G",
+          "jerseyNumber": "10",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1442199,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غاري، كالن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. غاري"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Caleb Delzell",
+          "firstName": "Caleb Delzell",
+          "slug": "caleb-delzell",
+          "shortName": "C. Delzell",
+          "userCount": 0,
+          "id": 2342688,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327830104,
+        "time": 40,
+        "timeSeconds": 2353,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 47,
+        "periodTimeSeconds": 1153,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 79,
+        "awayScore": 66,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Kwame Evans",
+          "slug": "evans-kwame",
+          "shortName": "K. Evans",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 206,
+          "userCount": 10,
+          "gender": "M",
+          "id": 1598822,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1091404800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفانز، كوامي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. إيفانز"
+            }
+          }
+        },
+        "id": 327830078,
+        "time": 39,
+        "timeSeconds": 2337,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 63,
+        "periodTimeSeconds": 1137,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 77,
+        "awayScore": 66,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327830034,
+        "time": 39,
+        "timeSeconds": 2328,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 72,
+        "periodTimeSeconds": 1128,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 77,
+        "awayScore": 64,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "id": 327830026,
+        "time": 39,
+        "timeSeconds": 2319,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 81,
+        "periodTimeSeconds": 1119,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 76,
+        "awayScore": 64,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "id": 327830017,
+        "time": 39,
+        "timeSeconds": 2319,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 81,
+        "periodTimeSeconds": 1119,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 75,
+        "awayScore": 64,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327830003,
+        "time": 39,
+        "timeSeconds": 2294,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 106,
+        "periodTimeSeconds": 1094,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 73,
+        "awayScore": 64,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327830001,
+        "time": 38,
+        "timeSeconds": 2252,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 148,
+        "periodTimeSeconds": 1052,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 70,
+        "awayScore": 64,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829966,
+        "time": 37,
+        "timeSeconds": 2216,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 184,
+        "periodTimeSeconds": 1016,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 70,
+        "awayScore": 63,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829825,
+        "time": 35,
+        "timeSeconds": 2092,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 308,
+        "periodTimeSeconds": 892,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 67,
+        "awayScore": 63,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829824,
+        "time": 35,
+        "timeSeconds": 2070,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 330,
+        "periodTimeSeconds": 870,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 67,
+        "awayScore": 62,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829817,
+        "time": 35,
+        "timeSeconds": 2049,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 351,
+        "periodTimeSeconds": 849,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 64,
+        "awayScore": 62,
+        "player": {
+          "name": "Kalen Garry",
+          "slug": "garry-kalen",
+          "shortName": "K. Garry",
+          "position": "G",
+          "jerseyNumber": "10",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1442199,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غاري، كالن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. غاري"
+            }
+          }
+        },
+        "id": 327829816,
+        "time": 34,
+        "timeSeconds": 2038,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 362,
+        "periodTimeSeconds": 838,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 64,
+        "awayScore": 60,
+        "player": {
+          "name": "Kwame Evans",
+          "slug": "evans-kwame",
+          "shortName": "K. Evans",
+          "position": "FC",
+          "jerseyNumber": "10",
+          "height": 206,
+          "userCount": 10,
+          "gender": "M",
+          "id": 1598822,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1091404800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إيفانز، كوامي"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. إيفانز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Dezdrick Lindsay",
+          "slug": "lindsay-dezdrick",
+          "shortName": "D. Lindsay",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1978761,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليندساي، ديزدريك"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ليندساي"
+            }
+          }
+        },
+        "id": 327829799,
+        "time": 34,
+        "timeSeconds": 2008,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 392,
+        "periodTimeSeconds": 808,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 61,
+        "awayScore": 60,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jaden Jackson",
+          "slug": "jackson-jaden",
+          "shortName": "J. Jackson",
+          "position": "G",
+          "height": 183,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909818,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكسون، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاكسون"
+            }
+          }
+        },
+        "id": 327829671,
+        "time": 32,
+        "timeSeconds": 1901,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 499,
+        "periodTimeSeconds": 701,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 61,
+        "awayScore": 58,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829656,
+        "time": 32,
+        "timeSeconds": 1882,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 518,
+        "periodTimeSeconds": 682,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 59,
+        "awayScore": 58,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829635,
+        "time": 31,
+        "timeSeconds": 1830,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 570,
+        "periodTimeSeconds": 630,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 59,
+        "awayScore": 56,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829570,
+        "time": 30,
+        "timeSeconds": 1799,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 601,
+        "periodTimeSeconds": 599,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 59,
+        "awayScore": 54,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829553,
+        "time": 30,
+        "timeSeconds": 1757,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 643,
+        "periodTimeSeconds": 557,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 59,
+        "awayScore": 51,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829552,
+        "time": 30,
+        "timeSeconds": 1744,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 656,
+        "periodTimeSeconds": 544,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 56,
+        "awayScore": 51,
+        "player": {
+          "name": "Caleb Delzell",
+          "firstName": "Caleb Delzell",
+          "slug": "caleb-delzell",
+          "shortName": "C. Delzell",
+          "userCount": 0,
+          "id": 2342688,
+          "marketValueCurrency": "EUR"
+        },
+        "assist1": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327829551,
+        "time": 29,
+        "timeSeconds": 1709,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 691,
+        "periodTimeSeconds": 509,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 56,
+        "awayScore": 48,
+        "player": {
+          "name": "Jaden Jackson",
+          "slug": "jackson-jaden",
+          "shortName": "J. Jackson",
+          "position": "G",
+          "height": 183,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909818,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكسون، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاكسون"
+            }
+          }
+        },
+        "id": 327829538,
+        "time": 28,
+        "timeSeconds": 1677,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 723,
+        "periodTimeSeconds": 477,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 56,
+        "awayScore": 45,
+        "player": {
+          "name": "Drew Carter",
+          "slug": "carter-drew",
+          "shortName": "D. Carter",
+          "position": "G",
+          "jerseyNumber": "22",
+          "userCount": 0,
+          "gender": "M",
+          "id": 1183288,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كارتر، درو"
+            },
+            "shortNameTranslation": {
+              "ar": "د. كارتر"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Oleksandr Kobzystyi",
+          "firstName": "Oleksandr",
+          "lastName": "Kobzystyi",
+          "slug": "kobzystyi-oleksandr",
+          "shortName": "O. Kobzystyi",
+          "position": "G",
+          "jerseyNumber": "6",
+          "height": 200,
+          "userCount": 13,
+          "gender": "M",
+          "id": 1101410,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1053648000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبزسكي، أولكسندر"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. كوبزسكي"
+            }
+          }
+        },
+        "id": 327829537,
+        "time": 28,
+        "timeSeconds": 1657,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 743,
+        "periodTimeSeconds": 457,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 53,
+        "awayScore": 45,
+        "player": {
+          "name": "Jaden Jackson",
+          "slug": "jackson-jaden",
+          "shortName": "J. Jackson",
+          "position": "G",
+          "height": 183,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909818,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكسون، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاكسون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Trey Buchanan",
+          "slug": "buchanan-trey",
+          "shortName": "T. Buchanan",
+          "position": "G",
+          "height": 185,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1915294,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بوشانان، تري"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. بوشانان"
+            }
+          }
+        },
+        "id": 327829536,
+        "time": 28,
+        "timeSeconds": 1649,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 751,
+        "periodTimeSeconds": 449,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 53,
+        "awayScore": 42,
+        "player": {
+          "name": "Oleksandr Kobzystyi",
+          "firstName": "Oleksandr",
+          "lastName": "Kobzystyi",
+          "slug": "kobzystyi-oleksandr",
+          "shortName": "O. Kobzystyi",
+          "position": "G",
+          "jerseyNumber": "6",
+          "height": 200,
+          "userCount": 13,
+          "gender": "M",
+          "id": 1101410,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1053648000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كوبزسكي، أولكسندر"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. كوبزسكي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829451,
+        "time": 27,
+        "timeSeconds": 1620,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 780,
+        "periodTimeSeconds": 420,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 42,
+        "player": {
+          "name": "Matthew Mors",
+          "slug": "mors-matthew",
+          "shortName": "M. Mors",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1178670,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورز، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مورز"
+            }
+          }
+        },
+        "id": 327829416,
+        "time": 26,
+        "timeSeconds": 1544,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 856,
+        "periodTimeSeconds": 344,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 41,
+        "player": {
+          "name": "Matthew Mors",
+          "slug": "mors-matthew",
+          "shortName": "M. Mors",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1178670,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورز، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مورز"
+            }
+          }
+        },
+        "id": 327829415,
+        "time": 26,
+        "timeSeconds": 1544,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 856,
+        "periodTimeSeconds": 344,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 50,
+        "awayScore": 40,
+        "player": {
+          "name": "Sean Stewart",
+          "slug": "stewart-sean",
+          "shortName": "S. Stewart",
+          "position": "F",
+          "jerseyNumber": "13",
+          "height": 206,
+          "userCount": 7,
+          "gender": "M",
+          "id": 1600127,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيوارت، شون"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ستيوارت"
+            }
+          }
+        },
+        "id": 327829414,
+        "time": 26,
+        "timeSeconds": 1531,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 869,
+        "periodTimeSeconds": 331,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 49,
+        "awayScore": 40,
+        "player": {
+          "name": "Sean Stewart",
+          "slug": "stewart-sean",
+          "shortName": "S. Stewart",
+          "position": "F",
+          "jerseyNumber": "13",
+          "height": 206,
+          "userCount": 7,
+          "gender": "M",
+          "id": 1600127,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيوارت، شون"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ستيوارت"
+            }
+          }
+        },
+        "id": 327829413,
+        "time": 26,
+        "timeSeconds": 1531,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 869,
+        "periodTimeSeconds": 331,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 40,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327829365,
+        "time": 26,
+        "timeSeconds": 1516,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 884,
+        "periodTimeSeconds": 316,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 48,
+        "awayScore": 38,
+        "player": {
+          "name": "Dezdrick Lindsay",
+          "slug": "lindsay-dezdrick",
+          "shortName": "D. Lindsay",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1978761,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليندساي، ديزدريك"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ليندساي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327829362,
+        "time": 25,
+        "timeSeconds": 1500,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 900,
+        "periodTimeSeconds": 300,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 45,
+        "awayScore": 38,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829253,
+        "time": 23,
+        "timeSeconds": 1365,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1035,
+        "periodTimeSeconds": 165,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 42,
+        "awayScore": 38,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327829252,
+        "time": 23,
+        "timeSeconds": 1357,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 18,
+        "reversedPeriodTimeSeconds": 1043,
+        "periodTimeSeconds": 157,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 42,
+        "awayScore": 36,
+        "player": {
+          "name": "Dezdrick Lindsay",
+          "slug": "lindsay-dezdrick",
+          "shortName": "D. Lindsay",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1978761,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليندساي، ديزدريك"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ليندساي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327829206,
+        "time": 22,
+        "timeSeconds": 1297,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1103,
+        "periodTimeSeconds": 97,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 40,
+        "awayScore": 36,
+        "player": {
+          "name": "Matthew Mors",
+          "slug": "mors-matthew",
+          "shortName": "M. Mors",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1178670,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورز، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مورز"
+            }
+          }
+        },
+        "id": 327829139,
+        "time": 21,
+        "timeSeconds": 1234,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1166,
+        "periodTimeSeconds": 34,
+        "incidentType": "goal"
+      },
+      {
+        "text": "HT",
+        "homeScore": 40,
+        "awayScore": 34,
+        "isLive": false,
+        "period": "period1",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 1200,
+        "incidentType": "period"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 40,
+        "awayScore": 34,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327828689,
+        "time": 20,
+        "timeSeconds": 1186,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 14,
+        "periodTimeSeconds": 1186,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 39,
+        "awayScore": 34,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "id": 327828623,
+        "time": 19,
+        "timeSeconds": 1130,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 70,
+        "periodTimeSeconds": 1130,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 39,
+        "awayScore": 33,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "id": 327828619,
+        "time": 19,
+        "timeSeconds": 1130,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 70,
+        "periodTimeSeconds": 1130,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 39,
+        "awayScore": 32,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327828346,
+        "time": 19,
+        "timeSeconds": 1107,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 93,
+        "periodTimeSeconds": 1107,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 39,
+        "awayScore": 30,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327828313,
+        "time": 18,
+        "timeSeconds": 1068,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 132,
+        "periodTimeSeconds": 1068,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 37,
+        "awayScore": 30,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "id": 327828312,
+        "time": 18,
+        "timeSeconds": 1062,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 138,
+        "periodTimeSeconds": 1062,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 37,
+        "awayScore": 29,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "id": 327828310,
+        "time": 18,
+        "timeSeconds": 1062,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 138,
+        "periodTimeSeconds": 1062,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 37,
+        "awayScore": 28,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327828283,
+        "time": 18,
+        "timeSeconds": 1047,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 153,
+        "periodTimeSeconds": 1047,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 34,
+        "awayScore": 28,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327828282,
+        "time": 18,
+        "timeSeconds": 1024,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 176,
+        "periodTimeSeconds": 1024,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 34,
+        "awayScore": 26,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "id": 327828258,
+        "time": 17,
+        "timeSeconds": 981,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 219,
+        "periodTimeSeconds": 981,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 26,
+        "player": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jaden Jackson",
+          "slug": "jackson-jaden",
+          "shortName": "J. Jackson",
+          "position": "G",
+          "height": 183,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909818,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكسون، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاكسون"
+            }
+          }
+        },
+        "id": 327828158,
+        "time": 16,
+        "timeSeconds": 942,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 258,
+        "periodTimeSeconds": 942,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 24,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327828132,
+        "time": 16,
+        "timeSeconds": 924,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 276,
+        "periodTimeSeconds": 924,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 24,
+        "player": {
+          "name": "Caleb Delzell",
+          "firstName": "Caleb Delzell",
+          "slug": "caleb-delzell",
+          "shortName": "C. Delzell",
+          "userCount": 0,
+          "id": 2342688,
+          "marketValueCurrency": "EUR"
+        },
+        "id": 327828131,
+        "time": 16,
+        "timeSeconds": 907,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 293,
+        "periodTimeSeconds": 907,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 31,
+        "awayScore": 22,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Dezdrick Lindsay",
+          "slug": "lindsay-dezdrick",
+          "shortName": "D. Lindsay",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1978761,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليندساي، ديزدريك"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ليندساي"
+            }
+          }
+        },
+        "id": 327828063,
+        "time": 14,
+        "timeSeconds": 806,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 394,
+        "periodTimeSeconds": 806,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 28,
+        "awayScore": 22,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327828062,
+        "time": 13,
+        "timeSeconds": 769,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 431,
+        "periodTimeSeconds": 769,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 27,
+        "awayScore": 22,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327828022,
+        "time": 13,
+        "timeSeconds": 769,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 431,
+        "periodTimeSeconds": 769,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 26,
+        "awayScore": 22,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327827906,
+        "time": 13,
+        "timeSeconds": 732,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 468,
+        "periodTimeSeconds": 732,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 24,
+        "awayScore": 22,
+        "player": {
+          "name": "Matthew Mors",
+          "slug": "mors-matthew",
+          "shortName": "M. Mors",
+          "position": "F",
+          "jerseyNumber": "11",
+          "height": 201,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1178670,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مورز، ماثيو"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مورز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Damon Wilkinson",
+          "slug": "wilkinson-damon",
+          "shortName": "D. Wilkinson",
+          "position": "F",
+          "jerseyNumber": "34",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1605758,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ويلكنسون، ديمون"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ويلكنسون"
+            }
+          }
+        },
+        "id": 327827905,
+        "time": 12,
+        "timeSeconds": 714,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 486,
+        "periodTimeSeconds": 714,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 24,
+        "awayScore": 19,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Ege Demir",
+          "slug": "demir-ege",
+          "shortName": "E. Demir",
+          "position": "F",
+          "jerseyNumber": "16",
+          "height": 207,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1196128,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1092528000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دمير، إجي"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. دمير"
+            }
+          }
+        },
+        "id": 327827848,
+        "time": 12,
+        "timeSeconds": 662,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 538,
+        "periodTimeSeconds": 662,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 21,
+        "awayScore": 19,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327827785,
+        "time": 11,
+        "timeSeconds": 646,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 554,
+        "periodTimeSeconds": 646,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 21,
+        "awayScore": 18,
+        "player": {
+          "name": "Luke Haertle",
+          "slug": "haertle-luke",
+          "shortName": "L. Haertle",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1457900,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "هارتل، لوك"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. هارتل"
+            }
+          }
+        },
+        "id": 327827784,
+        "time": 11,
+        "timeSeconds": 646,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 554,
+        "periodTimeSeconds": 646,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 21,
+        "awayScore": 16,
+        "player": {
+          "name": "Lin Wei",
+          "slug": "wei-lin",
+          "shortName": "L. Wei",
+          "position": "G",
+          "jerseyNumber": "23",
+          "height": 188,
+          "userCount": 54,
+          "gender": "M",
+          "id": 1417002,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1072310400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "وي، لين"
+            },
+            "shortNameTranslation": {
+              "ar": "ل. وي"
+            }
+          }
+        },
+        "id": 327827695,
+        "time": 10,
+        "timeSeconds": 567,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 11,
+        "reversedPeriodTimeSeconds": 633,
+        "periodTimeSeconds": 567,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 19,
+        "awayScore": 16,
+        "player": {
+          "name": "Sean Stewart",
+          "slug": "stewart-sean",
+          "shortName": "S. Stewart",
+          "position": "F",
+          "jerseyNumber": "13",
+          "height": 206,
+          "userCount": 7,
+          "gender": "M",
+          "id": 1600127,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيوارت، شون"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ستيوارت"
+            }
+          }
+        },
+        "id": 327827660,
+        "time": 9,
+        "timeSeconds": 498,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 702,
+        "periodTimeSeconds": 498,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 16,
+        "player": {
+          "name": "Jaden Jackson",
+          "slug": "jackson-jaden",
+          "shortName": "J. Jackson",
+          "position": "G",
+          "height": 183,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909818,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "جاكسون، جايدن"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. جاكسون"
+            }
+          }
+        },
+        "id": 327827589,
+        "time": 9,
+        "timeSeconds": 484,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 12,
+        "reversedPeriodTimeSeconds": 716,
+        "periodTimeSeconds": 484,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 14,
+        "player": {
+          "name": "Sean Stewart",
+          "slug": "stewart-sean",
+          "shortName": "S. Stewart",
+          "position": "F",
+          "jerseyNumber": "13",
+          "height": 206,
+          "userCount": 7,
+          "gender": "M",
+          "id": 1600127,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ستيوارت، شون"
+            },
+            "shortNameTranslation": {
+              "ar": "ش. ستيوارت"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327827503,
+        "time": 8,
+        "timeSeconds": 421,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 13,
+        "reversedPeriodTimeSeconds": 779,
+        "periodTimeSeconds": 421,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 14,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327827502,
+        "time": 7,
+        "timeSeconds": 371,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 14,
+        "reversedPeriodTimeSeconds": 829,
+        "periodTimeSeconds": 371,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 14,
+        "player": {
+          "name": "Kalen Garry",
+          "slug": "garry-kalen",
+          "shortName": "K. Garry",
+          "position": "G",
+          "jerseyNumber": "10",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1442199,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غاري، كالن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. غاري"
+            }
+          }
+        },
+        "id": 327827415,
+        "time": 6,
+        "timeSeconds": 318,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 882,
+        "periodTimeSeconds": 318,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 13,
+        "awayScore": 12,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327827414,
+        "time": 6,
+        "timeSeconds": 305,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 15,
+        "reversedPeriodTimeSeconds": 895,
+        "periodTimeSeconds": 305,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 13,
+        "awayScore": 10,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327827413,
+        "time": 5,
+        "timeSeconds": 281,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 919,
+        "periodTimeSeconds": 281,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 10,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327827205,
+        "time": 5,
+        "timeSeconds": 258,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 16,
+        "reversedPeriodTimeSeconds": 942,
+        "periodTimeSeconds": 258,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 8,
+        "player": {
+          "name": "Dezdrick Lindsay",
+          "slug": "lindsay-dezdrick",
+          "shortName": "D. Lindsay",
+          "position": "F",
+          "jerseyNumber": "4",
+          "height": 198,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1978761,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "ليندساي، ديزدريك"
+            },
+            "shortNameTranslation": {
+              "ar": "د. ليندساي"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "id": 327827184,
+        "time": 4,
+        "timeSeconds": 232,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 968,
+        "periodTimeSeconds": 232,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 7,
+        "awayScore": 8,
+        "player": {
+          "name": "TK Simpkins",
+          "slug": "simpkins-tk",
+          "shortName": "T. Simpkins",
+          "position": "G",
+          "jerseyNumber": "11",
+          "height": 193,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1599607,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سيمبكنز، تي. كيه"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. كيه سيمبكنز"
+            }
+          }
+        },
+        "id": 327827146,
+        "time": 4,
+        "timeSeconds": 188,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 17,
+        "reversedPeriodTimeSeconds": 1012,
+        "periodTimeSeconds": 188,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 5,
+        "awayScore": 8,
+        "player": {
+          "name": "Jackson Shelstad",
+          "slug": "shelstad-jackson",
+          "shortName": "J. Shelstad",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 183,
+          "userCount": 20,
+          "gender": "M",
+          "id": 1598823,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "شيلستاد، جاكسون"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. شيلستاد"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327827108,
+        "time": 2,
+        "timeSeconds": 117,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1083,
+        "periodTimeSeconds": 117,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 2,
+        "awayScore": 8,
+        "player": {
+          "name": "Kalen Garry",
+          "slug": "garry-kalen",
+          "shortName": "K. Garry",
+          "position": "G",
+          "jerseyNumber": "10",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1442199,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غاري، كالن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. غاري"
+            }
+          }
+        },
+        "assist1": {
+          "name": "Alec Squires",
+          "slug": "squires-alec",
+          "shortName": "A. Squires",
+          "position": "C",
+          "height": 208,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1909820,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سكوايرز، أليك"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. سكوايرز"
+            }
+          }
+        },
+        "id": 327827107,
+        "time": 2,
+        "timeSeconds": 92,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 19,
+        "reversedPeriodTimeSeconds": 1108,
+        "periodTimeSeconds": 92,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 5,
+        "player": {
+          "name": "Joe Sayler",
+          "slug": "sayler-joe",
+          "shortName": "J. Sayler",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 191,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1605759,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "سايلر، جو"
+            },
+            "shortNameTranslation": {
+              "ar": "ج. سايلر"
+            }
+          }
+        },
+        "id": 327827106,
+        "time": 1,
+        "timeSeconds": 59,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1141,
+        "periodTimeSeconds": 59,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 2,
+        "awayScore": 3,
+        "player": {
+          "name": "Kalen Garry",
+          "slug": "garry-kalen",
+          "shortName": "K. Garry",
+          "position": "G",
+          "jerseyNumber": "10",
+          "height": 191,
+          "userCount": 0,
+          "gender": "M",
+          "id": 1442199,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "غاري، كالن"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. غاري"
+            }
+          }
+        },
+        "id": 327827075,
+        "time": 1,
+        "timeSeconds": 29,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1171,
+        "periodTimeSeconds": 29,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 0,
+        "player": {
+          "name": "Nate Bittle",
+          "slug": "bittle-nate",
+          "shortName": "N. Bittle",
+          "position": "C",
+          "jerseyNumber": "32",
+          "height": 211,
+          "userCount": 12,
+          "gender": "M",
+          "id": 1181345,
+          "marketValueCurrency": "EUR",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيتل، نيت"
+            },
+            "shortNameTranslation": {
+              "ar": "ن. بيتل"
+            }
+          }
+        },
+        "id": 327827036,
+        "time": 1,
+        "timeSeconds": 14,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 20,
+        "reversedPeriodTimeSeconds": 1186,
+        "periodTimeSeconds": 14,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "odds/providers/CO/web": {
+    "providers": [
+      {
+        "provider": {
+          "name": "Bwin Colombia",
+          "slug": "bwin-colombia",
+          "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 989,
+          "colors": {
+            "primary": "#202024"
+          }
+        },
+        "branded": true,
+        "weight": 40,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "betSlipLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "signupLink": "https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2150165",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19611,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Stake Colombia",
+          "slug": "stake-colombia",
+          "defaultBetSlipLink": "https://media1.stakeaffiliates.com/redirect.aspx?pid=5050&bid=1510",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1056,
+          "colors": {
+            "primary": "#192C38"
+          }
+        },
+        "branded": true,
+        "weight": 50,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "betSlipLink": "https://stake.com.co/es/promociones/bono_bienvenida",
+        "type": "web",
+        "campaignId": 6,
+        "fallbackProvider": {
+          "name": "bet365",
+          "slug": "bet365",
+          "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+          "country": "international",
+          "id": 1,
+          "colors": {
+            "primary": "#017b5b"
+          }
+        },
+        "id": 19612,
+        "impressionCostEncrypted": "5mG72X9qJfP1xpneTaW/rjzWmDJldrs="
+      },
+      {
+        "provider": {
+          "name": "Bwise Media (RushBet) Colombia",
+          "slug": "rushbet-colombia",
+          "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+          "oddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "liveOddsFrom": {
+            "name": "bet365",
+            "slug": "bet365",
+            "defaultBetSlipLink": "https://www.bet365.com/olp/open-account?affiliate=365_01301314",
+            "country": "international",
+            "id": 1,
+            "colors": {
+              "primary": "#017b5b"
+            }
+          },
+          "country": "CO",
+          "id": 1630,
+          "colors": {
+            "primary": "#E0E4E9"
+          }
+        },
+        "branded": true,
+        "weight": 10,
+        "featuredOddsType": "default",
+        "defaultBetSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "betSlipLink": "https://app.rushbet.co/atdw/jgb1gntn",
+        "type": "web",
+        "campaignId": 6,
+        "id": 19613,
+        "impressionCostEncrypted": "4nq7x39qJbXaoJiJAZQ2K8JNMiNF6IYvXA=="
+      }
+    ]
+  },
+  "config/country-sport-priorities/country/CO": {
+    "countrySportPriorities": [
+      {
+        "sport": {
+          "id": 1,
+          "slug": "football",
+          "name": "Football"
+        },
+        "position": 0,
+        "id": 751
+      },
+      {
+        "sport": {
+          "id": 5,
+          "slug": "tennis",
+          "name": "Tennis"
+        },
+        "position": 1,
+        "id": 752
+      },
+      {
+        "sport": {
+          "id": 2,
+          "slug": "basketball",
+          "name": "Basketball"
+        },
+        "position": 2,
+        "id": 753
+      },
+      {
+        "sport": {
+          "id": 64,
+          "slug": "baseball",
+          "name": "Baseball"
+        },
+        "position": 3,
+        "id": 754
+      },
+      {
+        "sport": {
+          "id": 23,
+          "slug": "volleyball",
+          "name": "Volleyball"
+        },
+        "position": 4,
+        "id": 755
+      },
+      {
+        "sport": {
+          "id": 63,
+          "slug": "american-football",
+          "name": "American football"
+        },
+        "position": 5,
+        "id": 756
+      },
+      {
+        "sport": {
+          "id": 6,
+          "slug": "handball",
+          "name": "Handball"
+        },
+        "position": 6,
+        "id": 757
+      },
+      {
+        "sport": {
+          "id": 20,
+          "slug": "table-tennis",
+          "name": "Table tennis"
+        },
+        "position": 7,
+        "id": 758
+      },
+      {
+        "sport": {
+          "id": 4,
+          "slug": "ice-hockey",
+          "name": "Ice hockey"
+        },
+        "position": 8,
+        "id": 759
+      },
+      {
+        "sport": {
+          "id": 22,
+          "slug": "darts",
+          "name": "Darts"
+        },
+        "position": 9,
+        "id": 760
+      },
+      {
+        "sport": {
+          "id": 72,
+          "slug": "esports",
+          "name": "E-sports"
+        },
+        "position": 10,
+        "id": 761
+      },
+      {
+        "sport": {
+          "id": 11,
+          "slug": "motorsport",
+          "name": "Motorsport"
+        },
+        "position": 11,
+        "id": 762
+      },
+      {
+        "sport": {
+          "id": 65,
+          "slug": "cycling",
+          "name": "Cycling"
+        },
+        "position": 12,
+        "id": 763
+      },
+      {
+        "sport": {
+          "id": 62,
+          "slug": "cricket",
+          "name": "Cricket"
+        },
+        "position": 13,
+        "id": 764
+      },
+      {
+        "sport": {
+          "id": 76,
+          "slug": "mma",
+          "name": "Mixed Martial Arts"
+        },
+        "position": 14,
+        "id": 765
+      },
+      {
+        "sport": {
+          "id": 12,
+          "slug": "rugby",
+          "name": "Rugby"
+        },
+        "position": 15,
+        "id": 766
+      },
+      {
+        "sport": {
+          "id": 29,
+          "slug": "futsal",
+          "name": "Futsal"
+        },
+        "position": 16,
+        "id": 767
+      },
+      {
+        "sport": {
+          "id": 31,
+          "slug": "badminton",
+          "name": "Badminton"
+        },
+        "position": 17,
+        "id": 768
+      },
+      {
+        "sport": {
+          "id": 26,
+          "slug": "waterpolo",
+          "name": "Waterpolo"
+        },
+        "position": 18,
+        "id": 769
+      },
+      {
+        "sport": {
+          "id": 19,
+          "slug": "snooker",
+          "name": "Snooker"
+        },
+        "position": 19,
+        "id": 770
+      },
+      {
+        "sport": {
+          "id": 13,
+          "slug": "aussie-rules",
+          "name": "Aussie rules"
+        },
+        "position": 20,
+        "id": 771
+      },
+      {
+        "sport": {
+          "id": 34,
+          "slug": "beach-volley",
+          "name": "Beach volley"
+        },
+        "position": 21,
+        "id": 772
+      },
+      {
+        "sport": {
+          "id": 109,
+          "slug": "minifootball",
+          "name": "Minifootball"
+        },
+        "position": 22,
+        "id": 773
+      },
+      {
+        "sport": {
+          "id": 7,
+          "slug": "floorball",
+          "name": "Floorball"
+        },
+        "position": 23,
+        "id": 774
+      },
+      {
+        "sport": {
+          "id": 15,
+          "slug": "bandy",
+          "name": "Bandy"
+        },
+        "position": 24,
+        "id": 775
+      }
+    ]
+  },
+  "event/14621015/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -3
+      },
+      {
+        "minute": 2,
+        "value": -3
+      },
+      {
+        "minute": 3,
+        "value": -3
+      },
+      {
+        "minute": 4,
+        "value": 2
+      },
+      {
+        "minute": 5,
+        "value": 3
+      },
+      {
+        "minute": 6,
+        "value": -1
+      },
+      {
+        "minute": 7,
+        "value": 1
+      },
+      {
+        "minute": 8,
+        "value": 3
+      },
+      {
+        "minute": 9,
+        "value": 3
+      },
+      {
+        "minute": 10,
+        "value": 5
+      },
+      {
+        "minute": 11,
+        "value": 2
+      },
+      {
+        "minute": 12,
+        "value": 2
+      },
+      {
+        "minute": 13,
+        "value": 6
+      },
+      {
+        "minute": 14,
+        "value": 9
+      },
+      {
+        "minute": 15,
+        "value": 9
+      },
+      {
+        "minute": 16,
+        "value": 7
+      },
+      {
+        "minute": 17,
+        "value": 8
+      },
+      {
+        "minute": 18,
+        "value": 9
+      },
+      {
+        "minute": 19,
+        "value": 5
+      },
+      {
+        "minute": 20,
+        "value": 6
+      },
+      {
+        "minute": 21,
+        "value": 4
+      },
+      {
+        "minute": 22,
+        "value": 6
+      },
+      {
+        "minute": 23,
+        "value": 7
+      },
+      {
+        "minute": 24,
+        "value": 7
+      },
+      {
+        "minute": 25,
+        "value": 10
+      },
+      {
+        "minute": 26,
+        "value": 8
+      },
+      {
+        "minute": 27,
+        "value": 11
+      },
+      {
+        "minute": 28,
+        "value": 8
+      },
+      {
+        "minute": 29,
+        "value": 5
+      },
+      {
+        "minute": 30,
+        "value": 3
+      },
+      {
+        "minute": 31,
+        "value": 1
+      },
+      {
+        "minute": 32,
+        "value": 1
+      },
+      {
+        "minute": 33,
+        "value": 1
+      },
+      {
+        "minute": 34,
+        "value": 2
+      },
+      {
+        "minute": 35,
+        "value": 7
+      },
+      {
+        "minute": 36,
+        "value": 7
+      },
+      {
+        "minute": 37,
+        "value": 6
+      },
+      {
+        "minute": 38,
+        "value": 9
+      },
+      {
+        "minute": 39,
+        "value": 13
+      },
+      {
+        "minute": 40,
+        "value": 14
+      }
+    ],
+    "periodTime": 20,
+    "overtimeLength": 5,
+    "periodCount": 2
+  },
+  "event/14621015/odds/1/featured": {
+    "featured": {
+      "default": {
+        "sourceId": 184622379,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "152.5",
+        "isLive": true,
+        "fid": 184622379,
+        "suspended": false,
+        "id": 151768419,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "4/6",
+            "sourceId": 2090661777,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "6/5",
+            "sourceId": 2090661782,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "asian": {
+        "sourceId": 184622379,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "152.5",
+        "isLive": true,
+        "fid": 184622379,
+        "suspended": false,
+        "id": 151768419,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "4/6",
+            "sourceId": 2090661777,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "6/5",
+            "sourceId": 2090661782,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      },
+      "fullTime": {
+        "sourceId": 184622379,
+        "structureType": 2,
+        "marketId": 18,
+        "marketName": "Game total",
+        "choiceGroup": "152.5",
+        "isLive": true,
+        "fid": 184622379,
+        "suspended": false,
+        "id": 151768419,
+        "marketGroup": "Over/Under",
+        "marketPeriod": "Match",
+        "choices": [
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "4/6",
+            "sourceId": 2090661777,
+            "name": "Over",
+            "change": -1
+          },
+          {
+            "initialFractionalValue": "20/23",
+            "fractionalValue": "6/5",
+            "sourceId": 2090661782,
+            "name": "Under",
+            "change": 1
+          }
+        ]
+      }
+    },
+    "hasMoreOdds": true
+  },
+  "event/newly-added-events": {
+    "events": [
+      {
+        "eventId": 15041205,
+        "homeTeamId": 1075520,
+        "awayTeamId": 1125819,
+        "uniqueTournamentId": 18891
+      },
+      {
+        "eventId": 15041260,
+        "homeTeamId": 412779,
+        "awayTeamId": 1089993,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041261,
+        "homeTeamId": 398475,
+        "awayTeamId": 488478,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041262,
+        "homeTeamId": 398476,
+        "awayTeamId": 409841,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041263,
+        "homeTeamId": 412231,
+        "awayTeamId": 414085,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041264,
+        "homeTeamId": 451525,
+        "awayTeamId": 505226,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041265,
+        "homeTeamId": 482081,
+        "awayTeamId": 410501,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041266,
+        "homeTeamId": 491329,
+        "awayTeamId": 449173,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041267,
+        "homeTeamId": 410603,
+        "awayTeamId": 453322,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041268,
+        "homeTeamId": 447972,
+        "awayTeamId": 411794,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041269,
+        "homeTeamId": 446419,
+        "awayTeamId": 465671,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041370,
+        "homeTeamId": 410613,
+        "awayTeamId": 1044038,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041371,
+        "homeTeamId": 484968,
+        "awayTeamId": 458856,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041372,
+        "homeTeamId": 493798,
+        "awayTeamId": 459107,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041373,
+        "homeTeamId": 1071931,
+        "awayTeamId": 410437,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041374,
+        "homeTeamId": 1110276,
+        "awayTeamId": 1041570,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041375,
+        "homeTeamId": 398514,
+        "awayTeamId": 481710,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041376,
+        "homeTeamId": 409838,
+        "awayTeamId": 458856,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041377,
+        "homeTeamId": 409832,
+        "awayTeamId": 459107,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041378,
+        "homeTeamId": 525387,
+        "awayTeamId": 1044038,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041379,
+        "homeTeamId": 1041570,
+        "awayTeamId": 410613,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041380,
+        "homeTeamId": 410437,
+        "awayTeamId": 493798,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041381,
+        "homeTeamId": 481710,
+        "awayTeamId": 484968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041382,
+        "homeTeamId": 459107,
+        "awayTeamId": 1071931,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041383,
+        "homeTeamId": 1044038,
+        "awayTeamId": 1110276,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041384,
+        "homeTeamId": 458856,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041385,
+        "homeTeamId": 1041570,
+        "awayTeamId": 525387,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041386,
+        "homeTeamId": 410437,
+        "awayTeamId": 409832,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041387,
+        "homeTeamId": 481710,
+        "awayTeamId": 409838,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041388,
+        "homeTeamId": 1071931,
+        "awayTeamId": 493798,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041389,
+        "homeTeamId": 1110276,
+        "awayTeamId": 410613,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041390,
+        "homeTeamId": 398514,
+        "awayTeamId": 484968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041391,
+        "homeTeamId": 470122,
+        "awayTeamId": 461161,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041392,
+        "homeTeamId": 479111,
+        "awayTeamId": 410939,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041393,
+        "homeTeamId": 409968,
+        "awayTeamId": 410132,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041394,
+        "homeTeamId": 458743,
+        "awayTeamId": 414395,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041395,
+        "homeTeamId": 548882,
+        "awayTeamId": 412636,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041396,
+        "homeTeamId": 424538,
+        "awayTeamId": 410299,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041397,
+        "homeTeamId": 409911,
+        "awayTeamId": 525148,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041398,
+        "homeTeamId": 424243,
+        "awayTeamId": 409845,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041399,
+        "homeTeamId": 410132,
+        "awayTeamId": 424538,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041400,
+        "homeTeamId": 410939,
+        "awayTeamId": 409911,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041401,
+        "homeTeamId": 414395,
+        "awayTeamId": 424243,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041402,
+        "homeTeamId": 461161,
+        "awayTeamId": 548882,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041403,
+        "homeTeamId": 410299,
+        "awayTeamId": 409968,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041404,
+        "homeTeamId": 525148,
+        "awayTeamId": 479111,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041405,
+        "homeTeamId": 412636,
+        "awayTeamId": 470122,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041406,
+        "homeTeamId": 409845,
+        "awayTeamId": 458743,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041407,
+        "homeTeamId": 470122,
+        "awayTeamId": 548882,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041408,
+        "homeTeamId": 479111,
+        "awayTeamId": 409911,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041409,
+        "homeTeamId": 409968,
+        "awayTeamId": 424538,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041410,
+        "homeTeamId": 458743,
+        "awayTeamId": 424243,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041411,
+        "homeTeamId": 410132,
+        "awayTeamId": 410299,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041412,
+        "homeTeamId": 410939,
+        "awayTeamId": 525148,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041413,
+        "homeTeamId": 414395,
+        "awayTeamId": 409845,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041414,
+        "homeTeamId": 461161,
+        "awayTeamId": 412636,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15041494,
+        "homeTeamId": 452354,
+        "awayTeamId": 468534,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041495,
+        "homeTeamId": 413380,
+        "awayTeamId": 452841,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041496,
+        "homeTeamId": 452354,
+        "awayTeamId": 421437,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041497,
+        "homeTeamId": 452841,
+        "awayTeamId": 468534,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041498,
+        "homeTeamId": 413380,
+        "awayTeamId": 421437,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041499,
+        "homeTeamId": 452354,
+        "awayTeamId": 452841,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041500,
+        "homeTeamId": 421437,
+        "awayTeamId": 468534,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041501,
+        "homeTeamId": 452354,
+        "awayTeamId": 413380,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041502,
+        "homeTeamId": 446962,
+        "awayTeamId": 445385,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041503,
+        "homeTeamId": 462025,
+        "awayTeamId": 456076,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041504,
+        "homeTeamId": 511646,
+        "awayTeamId": 445385,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041505,
+        "homeTeamId": 526370,
+        "awayTeamId": 462083,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041506,
+        "homeTeamId": 446686,
+        "awayTeamId": 447970,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041507,
+        "homeTeamId": 1138861,
+        "awayTeamId": 409857,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041508,
+        "homeTeamId": 446962,
+        "awayTeamId": 456076,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041509,
+        "homeTeamId": 486993,
+        "awayTeamId": 506374,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041510,
+        "homeTeamId": 1086282,
+        "awayTeamId": 469498,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041511,
+        "homeTeamId": 410791,
+        "awayTeamId": 515420,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041512,
+        "homeTeamId": 1111354,
+        "awayTeamId": 454919,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041513,
+        "homeTeamId": 410294,
+        "awayTeamId": 410039,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041514,
+        "homeTeamId": 461074,
+        "awayTeamId": 511646,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041515,
+        "homeTeamId": 445857,
+        "awayTeamId": 462083,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041516,
+        "homeTeamId": 446686,
+        "awayTeamId": 469498,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041517,
+        "homeTeamId": 1042196,
+        "awayTeamId": 523618,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041518,
+        "homeTeamId": 1138861,
+        "awayTeamId": 454919,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041519,
+        "homeTeamId": 355384,
+        "awayTeamId": 411558,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041520,
+        "homeTeamId": 462025,
+        "awayTeamId": 461074,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041521,
+        "homeTeamId": 526370,
+        "awayTeamId": 506374,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041522,
+        "homeTeamId": 410791,
+        "awayTeamId": 523618,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041523,
+        "homeTeamId": 447970,
+        "awayTeamId": 1086282,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041524,
+        "homeTeamId": 409857,
+        "awayTeamId": 1111354,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041525,
+        "homeTeamId": 410294,
+        "awayTeamId": 411558,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041526,
+        "homeTeamId": 446962,
+        "awayTeamId": 511646,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041527,
+        "homeTeamId": 463803,
+        "awayTeamId": 445857,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041528,
+        "homeTeamId": 446686,
+        "awayTeamId": 1086282,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041529,
+        "homeTeamId": 515420,
+        "awayTeamId": 1042196,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041530,
+        "homeTeamId": 1138861,
+        "awayTeamId": 1111354,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041531,
+        "homeTeamId": 410039,
+        "awayTeamId": 355384,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041532,
+        "homeTeamId": 461074,
+        "awayTeamId": 456076,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041533,
+        "homeTeamId": 486993,
+        "awayTeamId": 463803,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041534,
+        "homeTeamId": 410791,
+        "awayTeamId": 1042196,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041535,
+        "homeTeamId": 469498,
+        "awayTeamId": 447970,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041536,
+        "homeTeamId": 454919,
+        "awayTeamId": 409857,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041537,
+        "homeTeamId": 410294,
+        "awayTeamId": 355384,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041538,
+        "homeTeamId": 462025,
+        "awayTeamId": 445385,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041539,
+        "homeTeamId": 526370,
+        "awayTeamId": 445857,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041540,
+        "homeTeamId": 523618,
+        "awayTeamId": 515420,
+        "uniqueTournamentId": 15005
+      },
+      {
+        "eventId": 15041631,
+        "homeTeamId": 410599,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041632,
+        "homeTeamId": 462049,
+        "awayTeamId": 498223,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041633,
+        "homeTeamId": 452965,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041634,
+        "homeTeamId": 414115,
+        "awayTeamId": 1099486,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041635,
+        "homeTeamId": 410874,
+        "awayTeamId": 412011,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041636,
+        "homeTeamId": 1085576,
+        "awayTeamId": 459038,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041637,
+        "homeTeamId": 412472,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041638,
+        "homeTeamId": 1043754,
+        "awayTeamId": 1081202,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041639,
+        "homeTeamId": 478718,
+        "awayTeamId": 853696,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041640,
+        "homeTeamId": 1096267,
+        "awayTeamId": 410599,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041641,
+        "homeTeamId": 1105729,
+        "awayTeamId": 498223,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041642,
+        "homeTeamId": 1131576,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041643,
+        "homeTeamId": 414115,
+        "awayTeamId": 1081202,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041644,
+        "homeTeamId": 410874,
+        "awayTeamId": 853696,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041645,
+        "homeTeamId": 498108,
+        "awayTeamId": 462049,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041646,
+        "homeTeamId": 448103,
+        "awayTeamId": 410599,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041647,
+        "homeTeamId": 498321,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041648,
+        "homeTeamId": 1099486,
+        "awayTeamId": 1043754,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041649,
+        "homeTeamId": 412011,
+        "awayTeamId": 478718,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041650,
+        "homeTeamId": 412472,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041651,
+        "homeTeamId": 419378,
+        "awayTeamId": 1096267,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041652,
+        "homeTeamId": 1085576,
+        "awayTeamId": 1105729,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041653,
+        "homeTeamId": 414115,
+        "awayTeamId": 1043754,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041654,
+        "homeTeamId": 410874,
+        "awayTeamId": 478718,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041655,
+        "homeTeamId": 1131576,
+        "awayTeamId": 498321,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041656,
+        "homeTeamId": 448103,
+        "awayTeamId": 1096267,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041657,
+        "homeTeamId": 462049,
+        "awayTeamId": 459038,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041658,
+        "homeTeamId": 1081202,
+        "awayTeamId": 1099486,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041659,
+        "homeTeamId": 853696,
+        "awayTeamId": 412011,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041660,
+        "homeTeamId": 498108,
+        "awayTeamId": 498223,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041661,
+        "homeTeamId": 410599,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041662,
+        "homeTeamId": 467269,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041663,
+        "homeTeamId": 1105729,
+        "awayTeamId": 459038,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041664,
+        "homeTeamId": 412472,
+        "awayTeamId": 498321,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041665,
+        "homeTeamId": 448103,
+        "awayTeamId": 419378,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041666,
+        "homeTeamId": 452965,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041667,
+        "homeTeamId": 1096267,
+        "awayTeamId": 410599,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041668,
+        "homeTeamId": 1085576,
+        "awayTeamId": 498108,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041669,
+        "homeTeamId": 1131576,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041670,
+        "homeTeamId": 462049,
+        "awayTeamId": 498223,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041671,
+        "homeTeamId": 413684,
+        "awayTeamId": 412549,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041672,
+        "homeTeamId": 411478,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041673,
+        "homeTeamId": 508982,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041674,
+        "homeTeamId": 1105729,
+        "awayTeamId": 498108,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041675,
+        "homeTeamId": 498321,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041676,
+        "homeTeamId": 459928,
+        "awayTeamId": 483818,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041677,
+        "homeTeamId": 412491,
+        "awayTeamId": 420883,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041678,
+        "homeTeamId": 1085576,
+        "awayTeamId": 462049,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041679,
+        "homeTeamId": 455526,
+        "awayTeamId": 410488,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041680,
+        "homeTeamId": 412897,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041681,
+        "homeTeamId": 411478,
+        "awayTeamId": 483818,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041682,
+        "homeTeamId": 445545,
+        "awayTeamId": 410598,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041683,
+        "homeTeamId": 498223,
+        "awayTeamId": 459038,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041684,
+        "homeTeamId": 483593,
+        "awayTeamId": 482656,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041685,
+        "homeTeamId": 1131576,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041686,
+        "homeTeamId": 218133,
+        "awayTeamId": 268040,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041687,
+        "homeTeamId": 424854,
+        "awayTeamId": 459928,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041688,
+        "homeTeamId": 413684,
+        "awayTeamId": 412491,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041689,
+        "homeTeamId": 508982,
+        "awayTeamId": 455526,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041690,
+        "homeTeamId": 229494,
+        "awayTeamId": 249161,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041691,
+        "homeTeamId": 1105729,
+        "awayTeamId": 462049,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041692,
+        "homeTeamId": 498321,
+        "awayTeamId": 412897,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041693,
+        "homeTeamId": 410598,
+        "awayTeamId": 412549,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041694,
+        "homeTeamId": 482656,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041695,
+        "homeTeamId": 411478,
+        "awayTeamId": 459928,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041696,
+        "homeTeamId": 498108,
+        "awayTeamId": 459038,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041697,
+        "homeTeamId": 213383,
+        "awayTeamId": 268036,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041698,
+        "homeTeamId": 452965,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041699,
+        "homeTeamId": 445545,
+        "awayTeamId": 420883,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041700,
+        "homeTeamId": 483593,
+        "awayTeamId": 410488,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041701,
+        "homeTeamId": 483818,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041702,
+        "homeTeamId": 1085576,
+        "awayTeamId": 498223,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041703,
+        "homeTeamId": 218133,
+        "awayTeamId": 229494,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041704,
+        "homeTeamId": 1131576,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041705,
+        "homeTeamId": 412491,
+        "awayTeamId": 412549,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041706,
+        "homeTeamId": 455526,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041707,
+        "homeTeamId": 411478,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041708,
+        "homeTeamId": 268036,
+        "awayTeamId": 268040,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041709,
+        "homeTeamId": 1128065,
+        "awayTeamId": 1116410,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041710,
+        "homeTeamId": 412897,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041711,
+        "homeTeamId": 413684,
+        "awayTeamId": 445545,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041712,
+        "homeTeamId": 508982,
+        "awayTeamId": 483593,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041713,
+        "homeTeamId": 459928,
+        "awayTeamId": 483818,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041714,
+        "homeTeamId": 213383,
+        "awayTeamId": 249161,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041715,
+        "homeTeamId": 1097077,
+        "awayTeamId": 457064,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041716,
+        "homeTeamId": 498321,
+        "awayTeamId": 1131576,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041717,
+        "homeTeamId": 410598,
+        "awayTeamId": 420883,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041718,
+        "homeTeamId": 482656,
+        "awayTeamId": 410488,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041719,
+        "homeTeamId": 229494,
+        "awayTeamId": 268040,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041720,
+        "homeTeamId": 411478,
+        "awayTeamId": 483818,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041721,
+        "homeTeamId": 459045,
+        "awayTeamId": 497360,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041722,
+        "homeTeamId": 452965,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041723,
+        "homeTeamId": 412491,
+        "awayTeamId": 445545,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041724,
+        "homeTeamId": 455526,
+        "awayTeamId": 483593,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041725,
+        "homeTeamId": 424854,
+        "awayTeamId": 459928,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041726,
+        "homeTeamId": 218133,
+        "awayTeamId": 213383,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041727,
+        "homeTeamId": 412897,
+        "awayTeamId": 1131576,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041728,
+        "homeTeamId": 1128065,
+        "awayTeamId": 1097077,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041729,
+        "homeTeamId": 413684,
+        "awayTeamId": 410598,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041730,
+        "homeTeamId": 411478,
+        "awayTeamId": 459928,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041731,
+        "homeTeamId": 508982,
+        "awayTeamId": 482656,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041732,
+        "homeTeamId": 498321,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041733,
+        "homeTeamId": 497360,
+        "awayTeamId": 1116410,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041734,
+        "homeTeamId": 268036,
+        "awayTeamId": 249161,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041735,
+        "homeTeamId": 420883,
+        "awayTeamId": 412549,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041736,
+        "homeTeamId": 459045,
+        "awayTeamId": 457064,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041737,
+        "homeTeamId": 483818,
+        "awayTeamId": 424854,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041738,
+        "homeTeamId": 410488,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041739,
+        "homeTeamId": 467269,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041740,
+        "homeTeamId": 229494,
+        "awayTeamId": 213383,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041741,
+        "homeTeamId": 412491,
+        "awayTeamId": 410598,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041742,
+        "homeTeamId": 1097077,
+        "awayTeamId": 1116410,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041743,
+        "homeTeamId": 455526,
+        "awayTeamId": 482656,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041744,
+        "homeTeamId": 412897,
+        "awayTeamId": 452965,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041745,
+        "homeTeamId": 218133,
+        "awayTeamId": 268036,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041746,
+        "homeTeamId": 445545,
+        "awayTeamId": 412549,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041747,
+        "homeTeamId": 1131576,
+        "awayTeamId": 1131977,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041748,
+        "homeTeamId": 1128065,
+        "awayTeamId": 459045,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041749,
+        "homeTeamId": 483593,
+        "awayTeamId": 425387,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041750,
+        "homeTeamId": 249161,
+        "awayTeamId": 268040,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041751,
+        "homeTeamId": 413684,
+        "awayTeamId": 420883,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041752,
+        "homeTeamId": 508982,
+        "awayTeamId": 410488,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041753,
+        "homeTeamId": 498321,
+        "awayTeamId": 467269,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041754,
+        "homeTeamId": 497360,
+        "awayTeamId": 457064,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041755,
+        "homeTeamId": 229494,
+        "awayTeamId": 268036,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041756,
+        "homeTeamId": 410598,
+        "awayTeamId": 449546,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041757,
+        "homeTeamId": 411645,
+        "awayTeamId": 411478,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041758,
+        "homeTeamId": 410535,
+        "awayTeamId": 415467,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041759,
+        "homeTeamId": 1097077,
+        "awayTeamId": 459045,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041760,
+        "homeTeamId": 213383,
+        "awayTeamId": 268040,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15041761,
+        "homeTeamId": 483818,
+        "awayTeamId": 462050,
+        "uniqueTournamentId": 19041
+      },
+      {
+        "eventId": 15042159,
+        "homeTeamId": 1041570,
+        "awayTeamId": 1044038,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15042160,
+        "homeTeamId": 409838,
+        "awayTeamId": 481710,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15042161,
+        "homeTeamId": 410437,
+        "awayTeamId": 459107,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15042162,
+        "homeTeamId": 484968,
+        "awayTeamId": 398514,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15042163,
+        "homeTeamId": 493798,
+        "awayTeamId": 1071931,
+        "uniqueTournamentId": 19039
+      },
+      {
+        "eventId": 15042164,
+        "homeTeamId": 525387,
+        "awayTeamId": 1110276,
+        "uniqueTournamentId": 19039
+      }
+    ]
+  },
+  "odds/providers/CO/web-featured": {
+    "providers": []
+  }
+}

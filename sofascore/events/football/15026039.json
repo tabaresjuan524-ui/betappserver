@@ -1,0 +1,550 @@
+{
+  "event/15026039/incidents": {
+    "incidents": [
+      {
+        "from": "regular",
+        "homeScore": 1,
+        "awayScore": 0,
+        "id": 327085926,
+        "time": -1,
+        "isHome": true,
+        "incidentClass": "regular",
+        "reversedPeriodTime": 2,
+        "incidentType": "goal"
+      }
+    ],
+    "home": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    }
+  },
+  "event/15026039/pregame-form": {
+    "homeTeam": {
+      "position": 2,
+      "value": "16",
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 6,
+      "value": "12",
+      "form": [
+        "W",
+        "W",
+        "D",
+        "D",
+        "W"
+      ]
+    },
+    "label": "Pts"
+  },
+  "event/15026039": {
+    "event": {
+      "tournament": {
+        "name": "Manipur Premier League",
+        "slug": "manipur-premier-league",
+        "category": {
+          "name": "India Amateur",
+          "slug": "india-amateur",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "id": 1598,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "flag": "india",
+          "alpha2": "IN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الهند هواة"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "Manipur Premier League",
+          "slug": "manipur-premier-league",
+          "category": {
+            "name": "India Amateur",
+            "slug": "india-amateur",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1598,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند هواة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 25,
+          "hasRounds": true,
+          "hasPerformanceGraphFeature": false,
+          "id": 30438,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الممتاز في مانيبور"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": true,
+        "groupName": "Manipur Premier League",
+        "competitionType": 1,
+        "id": 167222,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري الممتاز في مانيبور"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "25/26",
+        "year": "25/26",
+        "editor": true,
+        "id": 85193
+      },
+      "roundInfo": {
+        "round": 8
+      },
+      "customId": "HebesdKfj",
+      "status": {
+        "code": 20,
+        "description": "Started",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Mayang Imphal United",
+        "slug": "mayang-imphal-united",
+        "shortName": "Mayang Imphal United",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 60,
+        "nameCode": "MIU",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1139253,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Mayang Imphal United",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايانغ إمفالب يونايتد"
+          },
+          "shortNameTranslation": {
+            "ar": "مايانغ إمفالب يونايتد"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Asufii Football Academy",
+        "slug": "asufii-football-academy",
+        "shortName": "Asufii FA",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 18,
+        "nameCode": "AFA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 502732,
+        "country": {
+          "alpha2": "IN",
+          "alpha3": "IND",
+          "name": "India",
+          "slug": "india"
+        },
+        "fullName": "Asufii Football Academy",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أكاديمية أسوفي فوتبول"
+          },
+          "shortNameTranslation": {}
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 1,
+        "display": 1
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0
+      },
+      "coverage": -1,
+      "time": {},
+      "changes": {
+        "changes": [
+          "homeScore.current",
+          "homeScore.display"
+        ],
+        "changeTimestamp": 1762929238
+      },
+      "hasGlobalHighlights": false,
+      "crowdsourcingDataDisplayEnabled": true,
+      "id": 15026039,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "slug": "mayang-imphal-united-asufii-football-academy",
+      "startTimestamp": 1762928100,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "createdByNickname": "Shediur Sangma",
+      "eventEditorName": "Shediur Sangma",
+      "eventEditor": {
+        "id": "6676efe264a7a2f51446acaf",
+        "name": "Shediur Sangma"
+      },
+      "showTotoPromo": true,
+      "isEditor": true,
+      "crowdsourcingEnabled": true
+    }
+  },
+  "event/15026039/votes": {
+    "vote": {
+      "vote1": 56,
+      "vote2": 3,
+      "voteX": 3
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 30,
+      "voteNo": 3
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 30,
+      "voteNoGoal": 0,
+      "voteAway": 1
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/15026039/h2h": {
+    "teamDuel": null,
+    "managerDuel": null
+  },
+  "event/HebesdKfj/h2h/events": {
+    "events": [
+      {
+        "tournament": {
+          "name": "Manipur Premier League",
+          "slug": "manipur-premier-league",
+          "category": {
+            "name": "India Amateur",
+            "slug": "india-amateur",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1598,
+            "country": {
+              "alpha2": "IN",
+              "alpha3": "IND",
+              "name": "India",
+              "slug": "india"
+            },
+            "flag": "india",
+            "alpha2": "IN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الهند هواة"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "uniqueTournament": {
+            "name": "Manipur Premier League",
+            "slug": "manipur-premier-league",
+            "category": {
+              "name": "India Amateur",
+              "slug": "india-amateur",
+              "sport": {
+                "name": "Football",
+                "slug": "football",
+                "id": 1
+              },
+              "id": 1598,
+              "country": {
+                "alpha2": "IN",
+                "alpha3": "IND",
+                "name": "India",
+                "slug": "india"
+              },
+              "flag": "india",
+              "alpha2": "IN",
+              "fieldTranslations": {
+                "nameTranslation": {
+                  "ar": "الهند هواة"
+                },
+                "shortNameTranslation": {}
+              }
+            },
+            "userCount": 25,
+            "hasPerformanceGraphFeature": false,
+            "id": 30438,
+            "country": {},
+            "hasEventPlayerStatistics": false,
+            "displayInverseHomeAwayTeams": false,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "الدوري الممتاز في مانيبور"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "priority": 0,
+          "isGroup": true,
+          "groupName": "Manipur Premier League",
+          "id": 167222,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الممتاز في مانيبور"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "season": {
+          "name": "25/26",
+          "year": "25/26",
+          "editor": true,
+          "id": 85193
+        },
+        "roundInfo": {
+          "round": 8
+        },
+        "customId": "HebesdKfj",
+        "status": {
+          "code": 20,
+          "description": "Started",
+          "type": "inprogress"
+        },
+        "homeTeam": {
+          "name": "Mayang Imphal United",
+          "slug": "mayang-imphal-united",
+          "shortName": "Mayang Imphal United",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 60,
+          "nameCode": "MIU",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 1139253,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مايانغ إمفالب يونايتد"
+            },
+            "shortNameTranslation": {
+              "ar": "مايانغ إمفالب يونايتد"
+            }
+          }
+        },
+        "awayTeam": {
+          "name": "Asufii Football Academy",
+          "slug": "asufii-football-academy",
+          "shortName": "Asufii FA",
+          "gender": "M",
+          "sport": {
+            "name": "Football",
+            "slug": "football",
+            "id": 1
+          },
+          "userCount": 18,
+          "nameCode": "AFA",
+          "disabled": false,
+          "national": false,
+          "type": 0,
+          "id": 502732,
+          "country": {
+            "alpha2": "IN",
+            "alpha3": "IND",
+            "name": "India",
+            "slug": "india"
+          },
+          "subTeams": [],
+          "teamColors": {
+            "primary": "#374df5",
+            "secondary": "#374df5",
+            "text": "#ffffff"
+          },
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "أكاديمية أسوفي فوتبول"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "homeScore": {
+          "current": 1,
+          "display": 1
+        },
+        "awayScore": {
+          "current": 0,
+          "display": 0
+        },
+        "coverage": -1,
+        "time": {},
+        "changes": {
+          "changes": [
+            "homeScore.current",
+            "homeScore.display"
+          ],
+          "changeTimestamp": 1762929238
+        },
+        "hasGlobalHighlights": false,
+        "crowdsourcingDataDisplayEnabled": true,
+        "id": 15026039,
+        "varInProgress": {
+          "homeTeam": false,
+          "awayTeam": false
+        },
+        "slug": "mayang-imphal-united-asufii-football-academy",
+        "startTimestamp": 1762928100,
+        "finalResultOnly": false,
+        "feedLocked": false,
+        "isEditor": true,
+        "crowdsourcingEnabled": true
+      }
+    ]
+  },
+  "event/15026039/team-streaks": {
+    "general": [
+      {
+        "name": "Wins",
+        "value": "4",
+        "team": "home"
+      },
+      {
+        "name": "No losses",
+        "value": "7",
+        "team": "away"
+      },
+      {
+        "name": "Without clean sheet",
+        "value": "4",
+        "team": "away"
+      },
+      {
+        "name": "Less than 2.5 goals",
+        "value": "5/7",
+        "team": "away"
+      },
+      {
+        "name": "Both teams scoring",
+        "value": "5/6",
+        "team": "away"
+      },
+      {
+        "name": "Less than 4.5 cards",
+        "value": "7/7",
+        "team": "home"
+      },
+      {
+        "name": "Less than 4.5 cards",
+        "value": "6/7",
+        "team": "away"
+      }
+    ],
+    "head2head": []
+  }
+}

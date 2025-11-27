@@ -1,0 +1,3498 @@
+{
+  "event/14961775/pregame-form": {
+    "homeTeam": {
+      "position": 8,
+      "value": "3-3",
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "awayTeam": {
+      "position": 4,
+      "value": "4-3",
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "W"
+      ]
+    },
+    "label": "W-L"
+  },
+  "event/14961775/votes": {
+    "vote": {
+      "vote1": 9,
+      "vote2": 12,
+      "voteX": null
+    },
+    "bothTeamsToScoreVote": {
+      "voteYes": 0,
+      "voteNo": 0
+    },
+    "firstTeamToScoreVote": {
+      "voteHome": 0,
+      "voteNoGoal": 0,
+      "voteAway": 0
+    },
+    "whoShouldHaveWonVote": {
+      "vote1": 0,
+      "vote2": 0
+    }
+  },
+  "event/14961775": {
+    "event": {
+      "officials": [],
+      "tournament": {
+        "name": "The League",
+        "slug": "the-league-ulirlyn-toglolt",
+        "category": {
+          "name": "Mongolia",
+          "slug": "mongolia",
+          "sport": {
+            "name": "Basketball",
+            "slug": "basketball",
+            "id": 2
+          },
+          "id": 1866,
+          "country": {
+            "alpha2": "MN",
+            "alpha3": "MNG",
+            "name": "Mongolia",
+            "slug": "mongolia"
+          },
+          "flag": "mongolia",
+          "alpha2": "MN",
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "منغوليا"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "uniqueTournament": {
+          "name": "The League",
+          "slug": "the-league",
+          "category": {
+            "name": "Mongolia",
+            "slug": "mongolia",
+            "sport": {
+              "name": "Basketball",
+              "slug": "basketball",
+              "id": 2
+            },
+            "id": 1866,
+            "country": {
+              "alpha2": "MN",
+              "alpha3": "MNG",
+              "name": "Mongolia",
+              "slug": "mongolia"
+            },
+            "flag": "mongolia",
+            "alpha2": "MN",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "منغوليا"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 112,
+          "hasRounds": false,
+          "hasPerformanceGraphFeature": false,
+          "id": 25147,
+          "country": {},
+          "hasEventPlayerStatistics": false,
+          "hasBoxScore": true,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        "priority": 0,
+        "isGroup": false,
+        "competitionType": 1,
+        "id": 165033,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "الدوري"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "season": {
+        "name": "25/26",
+        "year": "25/26",
+        "editor": false,
+        "id": 83924
+      },
+      "customId": "rUFiszUFi",
+      "status": {
+        "code": 15,
+        "description": "3rd quarter",
+        "type": "inprogress"
+      },
+      "homeTeam": {
+        "name": "Darkhan United",
+        "slug": "darkhan-united",
+        "shortName": "Darkhan",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 39,
+        "nameCode": "DUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1077224,
+        "country": {
+          "alpha2": "MN",
+          "alpha3": "MNG",
+          "name": "Mongolia",
+          "slug": "mongolia"
+        },
+        "fullName": "Darkhan United",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "دارخان يونايتد"
+          },
+          "shortNameTranslation": {
+            "ar": "دارخان"
+          }
+        },
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Bishrelt Metal",
+        "slug": "bishrelt-metal",
+        "shortName": "Bishrelt",
+        "gender": "M",
+        "sport": {
+          "name": "Basketball",
+          "slug": "basketball",
+          "id": 2
+        },
+        "userCount": 219,
+        "nameCode": "BME",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1077217,
+        "country": {
+          "alpha2": "MN",
+          "alpha3": "MNG",
+          "name": "Mongolia",
+          "slug": "mongolia"
+        },
+        "fullName": "Bishrelt Metal",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#374df5",
+          "secondary": "#374df5",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بيشريلت ميتال"
+          },
+          "shortNameTranslation": {
+            "ar": "بيشريلت"
+          }
+        },
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 50,
+        "display": 50,
+        "period1": 19,
+        "period2": 22,
+        "period3": 9
+      },
+      "awayScore": {
+        "current": 41,
+        "display": 41,
+        "period1": 18,
+        "period2": 16,
+        "period3": 7
+      },
+      "time": {
+        "played": 1445,
+        "periodLength": 600,
+        "overtimeLength": 300,
+        "totalPeriodCount": 4
+      },
+      "changes": {
+        "changes": [
+          "time.played"
+        ],
+        "changeTimestamp": 1762936962
+      },
+      "hasGlobalHighlights": false,
+      "hasEventPlayerStatistics": true,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 14961775,
+      "defaultPeriodCount": 4,
+      "defaultPeriodLength": 10,
+      "defaultOvertimeLength": 5,
+      "periods": {
+        "current": "Score",
+        "period1": "1st quarter",
+        "period2": "2nd quarter",
+        "period3": "3rd quarter",
+        "period4": "4th quarter",
+        "overtime": "Overtime"
+      },
+      "slug": "darkhan-united-bishrelt-metal",
+      "startTimestamp": 1762933200,
+      "lastPeriod": "period3",
+      "finalResultOnly": false,
+      "feedLocked": true,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    }
+  },
+  "event/14961775/incidents": {
+    "incidents": [
+      {
+        "text": "3rd quarter",
+        "homeScore": 50,
+        "awayScore": 41,
+        "isLive": true,
+        "period": "period3",
+        "time": 30,
+        "addedTime": 999,
+        "timeSeconds": 1800,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 50,
+        "awayScore": 41,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087773,
+        "time": 24,
+        "timeSeconds": 1384,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 416,
+        "periodTimeSeconds": 184,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 50,
+        "awayScore": 39,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087766,
+        "time": 23,
+        "timeSeconds": 1374,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 426,
+        "periodTimeSeconds": 174,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 39,
+        "player": {
+          "name": "Munkhchudur Nasanbat",
+          "firstName": "Munkhchudur",
+          "lastName": "Nasanbat",
+          "slug": "munkhchudur-nasanbat",
+          "shortName": "M. Nasanbat",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 187,
+          "userCount": 3,
+          "id": 2052400,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 962064000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخشودور ناسانبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ناسانبات"
+            }
+          }
+        },
+        "id": 327087751,
+        "time": 23,
+        "timeSeconds": 1355,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 445,
+        "periodTimeSeconds": 155,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 48,
+        "awayScore": 37,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087748,
+        "time": 23,
+        "timeSeconds": 1325,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 475,
+        "periodTimeSeconds": 125,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 48,
+        "awayScore": 36,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087731,
+        "time": 23,
+        "timeSeconds": 1325,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 475,
+        "periodTimeSeconds": 125,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 48,
+        "awayScore": 34,
+        "player": {
+          "name": "Dulguun Uuganbayar",
+          "firstName": "Dulguun",
+          "lastName": "Uuganbayar",
+          "slug": "dulguun-uuganbayar",
+          "shortName": "D. Uuganbayar",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 186,
+          "userCount": 0,
+          "id": 2052409,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1080777600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولغون أوغانبايار"
+            },
+            "shortNameTranslation": {
+              "ar": "د. أوغانبايار"
+            }
+          }
+        },
+        "id": 327087713,
+        "time": 22,
+        "timeSeconds": 1302,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 498,
+        "periodTimeSeconds": 102,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 45,
+        "awayScore": 34,
+        "player": {
+          "name": "Anthony Nelson",
+          "slug": "nelson-anthony",
+          "shortName": "A. Nelson",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1178986,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 908841600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيلسون، أنطوني"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. نيلسون"
+            }
+          }
+        },
+        "id": 327087703,
+        "time": 22,
+        "timeSeconds": 1267,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 533,
+        "periodTimeSeconds": 67,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 43,
+        "awayScore": 34,
+        "player": {
+          "name": "Anthony Nelson",
+          "slug": "nelson-anthony",
+          "shortName": "A. Nelson",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1178986,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 908841600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيلسون، أنطوني"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. نيلسون"
+            }
+          }
+        },
+        "id": 327087696,
+        "time": 21,
+        "timeSeconds": 1242,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 558,
+        "periodTimeSeconds": 42,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q2",
+        "homeScore": 41,
+        "awayScore": 34,
+        "isLive": false,
+        "period": "period2",
+        "time": 20,
+        "addedTime": 999,
+        "timeSeconds": 1200,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 41,
+        "awayScore": 34,
+        "player": {
+          "name": "Barsbold Balt",
+          "firstName": "Barsbold",
+          "lastName": "Balt",
+          "slug": "barsbold-balt",
+          "shortName": "B. Balt",
+          "position": "F",
+          "jerseyNumber": "12",
+          "height": 194,
+          "userCount": 1,
+          "id": 2052447,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 939686400,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بارسبولد بالت"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. بالت"
+            }
+          }
+        },
+        "id": 327087498,
+        "time": 20,
+        "timeSeconds": 1199,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 1,
+        "periodTimeSeconds": 599,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 38,
+        "awayScore": 34,
+        "player": {
+          "name": "Munkhchudur Nasanbat",
+          "firstName": "Munkhchudur",
+          "lastName": "Nasanbat",
+          "slug": "munkhchudur-nasanbat",
+          "shortName": "M. Nasanbat",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 187,
+          "userCount": 3,
+          "id": 2052400,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 962064000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخشودور ناسانبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ناسانبات"
+            }
+          }
+        },
+        "id": 327087450,
+        "time": 20,
+        "timeSeconds": 1170,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 30,
+        "periodTimeSeconds": 570,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 38,
+        "awayScore": 32,
+        "player": {
+          "name": "Anthony Nelson",
+          "slug": "nelson-anthony",
+          "shortName": "A. Nelson",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1178986,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 908841600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيلسون، أنطوني"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. نيلسون"
+            }
+          }
+        },
+        "id": 327087435,
+        "time": 20,
+        "timeSeconds": 1157,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 43,
+        "periodTimeSeconds": 557,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 37,
+        "awayScore": 32,
+        "player": {
+          "name": "Margad Erdenetsetseg",
+          "firstName": "Margad",
+          "lastName": "Erdenetsetseg",
+          "slug": "margad-erdenetsetseg",
+          "shortName": "M. Erdenetsetseg",
+          "position": "F",
+          "jerseyNumber": "20",
+          "height": 195,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1998695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1096675200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارغاد إردينتستسغ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إردينتستسغ"
+            }
+          }
+        },
+        "id": 327087426,
+        "time": 19,
+        "timeSeconds": 1135,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 65,
+        "periodTimeSeconds": 535,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 37,
+        "awayScore": 30,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087425,
+        "time": 19,
+        "timeSeconds": 1113,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 87,
+        "periodTimeSeconds": 513,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 35,
+        "awayScore": 30,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087385,
+        "time": 18,
+        "timeSeconds": 1033,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 3,
+        "reversedPeriodTimeSeconds": 167,
+        "periodTimeSeconds": 433,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 33,
+        "awayScore": 30,
+        "player": {
+          "name": "Baljinnyam Ganzorig",
+          "firstName": "Baljinnyam",
+          "lastName": "Ganzorig",
+          "slug": "baljinnyam-ganzorig",
+          "shortName": "B. Ganzorig",
+          "position": "C",
+          "jerseyNumber": "23",
+          "height": 196,
+          "userCount": 0,
+          "id": 2052418,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1187136000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بالجيننيام غانزورغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. غانزورغ"
+            }
+          }
+        },
+        "id": 327087374,
+        "time": 17,
+        "timeSeconds": 1007,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 193,
+        "periodTimeSeconds": 407,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 30,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087364,
+        "time": 17,
+        "timeSeconds": 992,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 208,
+        "periodTimeSeconds": 392,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 31,
+        "awayScore": 28,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087354,
+        "time": 17,
+        "timeSeconds": 967,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 233,
+        "periodTimeSeconds": 367,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 29,
+        "awayScore": 28,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087340,
+        "time": 16,
+        "timeSeconds": 934,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 266,
+        "periodTimeSeconds": 334,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 28,
+        "awayScore": 28,
+        "player": {
+          "name": "Munkhzolboo Munkhbat",
+          "firstName": "Munkhzolboo",
+          "lastName": "Munkhbat",
+          "slug": "munkhzolboo-munkhbat",
+          "shortName": "M. Munkhbat",
+          "position": "G",
+          "jerseyNumber": "5",
+          "height": 181,
+          "userCount": 0,
+          "id": 2052412,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1055116800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخزولبو مونخبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مونخبات"
+            }
+          }
+        },
+        "id": 327087311,
+        "time": 16,
+        "timeSeconds": 906,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 294,
+        "periodTimeSeconds": 306,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 26,
+        "awayScore": 28,
+        "player": {
+          "name": "Tsedevsuren Lkhagvajav",
+          "firstName": "Tsedevsuren",
+          "lastName": "Lkhagvajav",
+          "slug": "tsedevsuren-lkhagvajav",
+          "shortName": "T. Lkhagvajav",
+          "position": "C",
+          "jerseyNumber": "24",
+          "height": 196,
+          "userCount": 1,
+          "id": 2052423,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967593600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تسيديفسورن لخاغفاجاف"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. لخاغفاجاف"
+            }
+          }
+        },
+        "id": 327087303,
+        "time": 15,
+        "timeSeconds": 876,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 324,
+        "periodTimeSeconds": 276,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 26,
+        "awayScore": 26,
+        "player": {
+          "name": "Dulguun Uuganbayar",
+          "firstName": "Dulguun",
+          "lastName": "Uuganbayar",
+          "slug": "dulguun-uuganbayar",
+          "shortName": "D. Uuganbayar",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 186,
+          "userCount": 0,
+          "id": 2052409,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1080777600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دولغون أوغانبايار"
+            },
+            "shortNameTranslation": {
+              "ar": "د. أوغانبايار"
+            }
+          }
+        },
+        "id": 327087302,
+        "time": 15,
+        "timeSeconds": 862,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 338,
+        "periodTimeSeconds": 262,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 23,
+        "awayScore": 26,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087288,
+        "time": 14,
+        "timeSeconds": 823,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 377,
+        "periodTimeSeconds": 223,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 23,
+        "awayScore": 25,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087287,
+        "time": 14,
+        "timeSeconds": 823,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 377,
+        "periodTimeSeconds": 223,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 23,
+        "awayScore": 24,
+        "player": {
+          "name": "Munkhchudur Nasanbat",
+          "firstName": "Munkhchudur",
+          "lastName": "Nasanbat",
+          "slug": "munkhchudur-nasanbat",
+          "shortName": "M. Nasanbat",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 187,
+          "userCount": 3,
+          "id": 2052400,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 962064000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخشودور ناسانبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ناسانبات"
+            }
+          }
+        },
+        "id": 327087274,
+        "time": 14,
+        "timeSeconds": 797,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 403,
+        "periodTimeSeconds": 197,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 23,
+        "awayScore": 21,
+        "player": {
+          "name": "Munkhchudur Nasanbat",
+          "firstName": "Munkhchudur",
+          "lastName": "Nasanbat",
+          "slug": "munkhchudur-nasanbat",
+          "shortName": "M. Nasanbat",
+          "position": "F",
+          "jerseyNumber": "18",
+          "height": 187,
+          "userCount": 3,
+          "id": 2052400,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 962064000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخشودور ناسانبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. ناسانبات"
+            }
+          }
+        },
+        "id": 327087248,
+        "time": 12,
+        "timeSeconds": 696,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 504,
+        "periodTimeSeconds": 96,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 23,
+        "awayScore": 18,
+        "player": {
+          "name": "Baljinnyam Ganzorig",
+          "firstName": "Baljinnyam",
+          "lastName": "Ganzorig",
+          "slug": "baljinnyam-ganzorig",
+          "shortName": "B. Ganzorig",
+          "position": "C",
+          "jerseyNumber": "23",
+          "height": 196,
+          "userCount": 0,
+          "id": 2052418,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1187136000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بالجيننيام غانزورغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. غانزورغ"
+            }
+          }
+        },
+        "id": 327087234,
+        "time": 12,
+        "timeSeconds": 673,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 527,
+        "periodTimeSeconds": 73,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 22,
+        "awayScore": 18,
+        "player": {
+          "name": "Baljinnyam Ganzorig",
+          "firstName": "Baljinnyam",
+          "lastName": "Ganzorig",
+          "slug": "baljinnyam-ganzorig",
+          "shortName": "B. Ganzorig",
+          "position": "C",
+          "jerseyNumber": "23",
+          "height": 196,
+          "userCount": 0,
+          "id": 2052418,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1187136000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بالجيننيام غانزورغ"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. غانزورغ"
+            }
+          }
+        },
+        "id": 327087233,
+        "time": 12,
+        "timeSeconds": 673,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 527,
+        "periodTimeSeconds": 73,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 21,
+        "awayScore": 18,
+        "player": {
+          "name": "Anthony Nelson",
+          "slug": "nelson-anthony",
+          "shortName": "A. Nelson",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1178986,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 908841600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيلسون، أنطوني"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. نيلسون"
+            }
+          }
+        },
+        "id": 327087217,
+        "time": 11,
+        "timeSeconds": 632,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 568,
+        "periodTimeSeconds": 32,
+        "incidentType": "goal"
+      },
+      {
+        "text": "Q1",
+        "homeScore": 19,
+        "awayScore": 18,
+        "isLive": false,
+        "period": "period1",
+        "time": 10,
+        "addedTime": 999,
+        "timeSeconds": 600,
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 0,
+        "periodTimeSeconds": 600,
+        "incidentType": "period"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 19,
+        "awayScore": 18,
+        "player": {
+          "name": "Anthony Nelson",
+          "slug": "nelson-anthony",
+          "shortName": "A. Nelson",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 193,
+          "userCount": 3,
+          "gender": "M",
+          "id": 1178986,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 908841600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "نيلسون، أنطوني"
+            },
+            "shortNameTranslation": {
+              "ar": "أ. نيلسون"
+            }
+          }
+        },
+        "id": 327087163,
+        "time": 10,
+        "timeSeconds": 574,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 1,
+        "reversedPeriodTimeSeconds": 26,
+        "periodTimeSeconds": 574,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 17,
+        "awayScore": 18,
+        "player": {
+          "name": "Enkhtur Zorigtbaatar",
+          "firstName": "Enkhtur",
+          "lastName": "Zorigtbaatar",
+          "slug": "enkhtur-zorigtbaatar",
+          "shortName": "E. Zorigtbaatar",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 175,
+          "userCount": 4,
+          "id": 2052396,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 819331200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنختور زورغتباطار"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. زورغتباطار"
+            }
+          }
+        },
+        "id": 327087150,
+        "time": 9,
+        "timeSeconds": 509,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 91,
+        "periodTimeSeconds": 509,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 17,
+        "awayScore": 17,
+        "player": {
+          "name": "Enkhtur Zorigtbaatar",
+          "firstName": "Enkhtur",
+          "lastName": "Zorigtbaatar",
+          "slug": "enkhtur-zorigtbaatar",
+          "shortName": "E. Zorigtbaatar",
+          "position": "G",
+          "jerseyNumber": "12",
+          "height": 175,
+          "userCount": 4,
+          "id": 2052396,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 819331200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "إنختور زورغتباطار"
+            },
+            "shortNameTranslation": {
+              "ar": "إ. زورغتباطار"
+            }
+          }
+        },
+        "id": 327087146,
+        "time": 9,
+        "timeSeconds": 509,
+        "isHome": false,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 91,
+        "periodTimeSeconds": 509,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 16,
+        "player": {
+          "name": "Tsedevsuren Lkhagvajav",
+          "firstName": "Tsedevsuren",
+          "lastName": "Lkhagvajav",
+          "slug": "tsedevsuren-lkhagvajav",
+          "shortName": "T. Lkhagvajav",
+          "position": "C",
+          "jerseyNumber": "24",
+          "height": 196,
+          "userCount": 1,
+          "id": 2052423,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 967593600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تسيديفسورن لخاغفاجاف"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. لخاغفاجاف"
+            }
+          }
+        },
+        "id": 327087137,
+        "time": 9,
+        "timeSeconds": 484,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 2,
+        "reversedPeriodTimeSeconds": 116,
+        "periodTimeSeconds": 484,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 17,
+        "awayScore": 14,
+        "player": {
+          "name": "Christian Bradford",
+          "slug": "bradford-christian",
+          "shortName": "C. Bradford",
+          "position": "G",
+          "jerseyNumber": "3",
+          "height": 185,
+          "userCount": 8,
+          "gender": "M",
+          "id": 1465941,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 804124800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "برادفورد، كريستيان"
+            },
+            "shortNameTranslation": {
+              "ar": "ك. برادفورد"
+            }
+          }
+        },
+        "id": 327087121,
+        "time": 7,
+        "timeSeconds": 405,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 4,
+        "reversedPeriodTimeSeconds": 195,
+        "periodTimeSeconds": 405,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 17,
+        "awayScore": 11,
+        "player": {
+          "name": "Bilguunbayar Төгсбулган",
+          "firstName": "Bilguunbayar",
+          "lastName": "Төгсбулган",
+          "slug": "bilguunbayar-togsbulgan",
+          "shortName": "B. Төгсбулган",
+          "position": "C",
+          "jerseyNumber": "35",
+          "userCount": 0,
+          "id": 2052487,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1029024000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيغونبايار توغسبلغان"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. توغسبلغان"
+            }
+          }
+        },
+        "id": 327087117,
+        "time": 6,
+        "timeSeconds": 355,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 5,
+        "reversedPeriodTimeSeconds": 245,
+        "periodTimeSeconds": 355,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 11,
+        "player": {
+          "name": "Tselmeg Gantulga",
+          "firstName": "Tselmeg",
+          "lastName": "Gantulga",
+          "slug": "tselmeg-gantulga",
+          "shortName": "T. Gantulga",
+          "position": "F",
+          "jerseyNumber": "35",
+          "height": 192,
+          "userCount": 3,
+          "id": 2052435,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 928195200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تسلمغ غانتولغا"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. غانتولغا"
+            }
+          }
+        },
+        "id": 327087109,
+        "time": 5,
+        "timeSeconds": 300,
+        "isHome": false,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 300,
+        "periodTimeSeconds": 300,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 15,
+        "awayScore": 9,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087108,
+        "time": 5,
+        "timeSeconds": 287,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 6,
+        "reversedPeriodTimeSeconds": 313,
+        "periodTimeSeconds": 287,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 13,
+        "awayScore": 9,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087098,
+        "time": 4,
+        "timeSeconds": 240,
+        "isHome": true,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 360,
+        "periodTimeSeconds": 240,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 10,
+        "awayScore": 9,
+        "player": {
+          "name": "Tselmeg Gantulga",
+          "firstName": "Tselmeg",
+          "lastName": "Gantulga",
+          "slug": "tselmeg-gantulga",
+          "shortName": "T. Gantulga",
+          "position": "F",
+          "jerseyNumber": "35",
+          "height": 192,
+          "userCount": 3,
+          "id": 2052435,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 928195200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "تسلمغ غانتولغا"
+            },
+            "shortNameTranslation": {
+              "ar": "ت. غانتولغا"
+            }
+          }
+        },
+        "id": 327087087,
+        "time": 4,
+        "timeSeconds": 210,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 390,
+        "periodTimeSeconds": 210,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 10,
+        "awayScore": 6,
+        "player": {
+          "name": "Bilguunbayar Төгсбулган",
+          "firstName": "Bilguunbayar",
+          "lastName": "Төгсбулган",
+          "slug": "bilguunbayar-togsbulgan",
+          "shortName": "B. Төгсбулган",
+          "position": "C",
+          "jerseyNumber": "35",
+          "userCount": 0,
+          "id": 2052487,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1029024000,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "بيغونبايار توغسبلغان"
+            },
+            "shortNameTranslation": {
+              "ar": "ب. توغسبلغان"
+            }
+          }
+        },
+        "id": 327087086,
+        "time": 4,
+        "timeSeconds": 191,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 7,
+        "reversedPeriodTimeSeconds": 409,
+        "periodTimeSeconds": 191,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 8,
+        "awayScore": 6,
+        "player": {
+          "name": "Munkhzolboo Munkhbat",
+          "firstName": "Munkhzolboo",
+          "lastName": "Munkhbat",
+          "slug": "munkhzolboo-munkhbat",
+          "shortName": "M. Munkhbat",
+          "position": "G",
+          "jerseyNumber": "5",
+          "height": 181,
+          "userCount": 0,
+          "id": 2052412,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1055116800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخزولبو مونخبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مونخبات"
+            }
+          }
+        },
+        "id": 327087064,
+        "time": 3,
+        "timeSeconds": 139,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 8,
+        "reversedPeriodTimeSeconds": 461,
+        "periodTimeSeconds": 139,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 6,
+        "awayScore": 6,
+        "player": {
+          "name": "Dash-Ochir Bat-Ulzii",
+          "firstName": "Dash-Ochir",
+          "lastName": "Bat-Ulzii",
+          "slug": "dash-ochir-bat-ulzii",
+          "shortName": "D. Bat-Ulzii",
+          "position": "F",
+          "jerseyNumber": "12",
+          "height": 192,
+          "userCount": 0,
+          "id": 2052361,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 920073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داش-أوشير بات-أولزيي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بات-أولزيي"
+            }
+          }
+        },
+        "id": 327087053,
+        "time": 2,
+        "timeSeconds": 106,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 494,
+        "periodTimeSeconds": 106,
+        "incidentType": "goal"
+      },
+      {
+        "from": "onepoint",
+        "homeScore": 5,
+        "awayScore": 6,
+        "player": {
+          "name": "Dash-Ochir Bat-Ulzii",
+          "firstName": "Dash-Ochir",
+          "lastName": "Bat-Ulzii",
+          "slug": "dash-ochir-bat-ulzii",
+          "shortName": "D. Bat-Ulzii",
+          "position": "F",
+          "jerseyNumber": "12",
+          "height": 192,
+          "userCount": 0,
+          "id": 2052361,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 920073600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "داش-أوشير بات-أولزيي"
+            },
+            "shortNameTranslation": {
+              "ar": "د. بات-أولزيي"
+            }
+          }
+        },
+        "id": 327087052,
+        "time": 2,
+        "timeSeconds": 106,
+        "isHome": true,
+        "incidentClass": "onePoint",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 494,
+        "periodTimeSeconds": 106,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 4,
+        "awayScore": 6,
+        "player": {
+          "name": "Margad Erdenetsetseg",
+          "firstName": "Margad",
+          "lastName": "Erdenetsetseg",
+          "slug": "margad-erdenetsetseg",
+          "shortName": "M. Erdenetsetseg",
+          "position": "F",
+          "jerseyNumber": "20",
+          "height": 195,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1998695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1096675200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارغاد إردينتستسغ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إردينتستسغ"
+            }
+          }
+        },
+        "id": 327087043,
+        "time": 2,
+        "timeSeconds": 90,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 510,
+        "periodTimeSeconds": 90,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 4,
+        "awayScore": 3,
+        "player": {
+          "name": "Marlon Johnson",
+          "firstName": "Marlon",
+          "lastName": "Johnson",
+          "slug": "marlon-johnson-jr",
+          "shortName": "M. Johnson",
+          "position": "CF",
+          "jerseyNumber": "32",
+          "height": 208,
+          "userCount": 1,
+          "gender": "M",
+          "id": 1888952,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 762393600,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارلون جونسون جونيور"
+            },
+            "shortNameTranslation": {
+              "ar": "م. جونيور"
+            }
+          }
+        },
+        "id": 327087042,
+        "time": 2,
+        "timeSeconds": 77,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 9,
+        "reversedPeriodTimeSeconds": 523,
+        "periodTimeSeconds": 77,
+        "incidentType": "goal"
+      },
+      {
+        "from": "threepoints",
+        "homeScore": 2,
+        "awayScore": 3,
+        "player": {
+          "name": "Margad Erdenetsetseg",
+          "firstName": "Margad",
+          "lastName": "Erdenetsetseg",
+          "slug": "margad-erdenetsetseg",
+          "shortName": "M. Erdenetsetseg",
+          "position": "F",
+          "jerseyNumber": "20",
+          "height": 195,
+          "userCount": 15,
+          "gender": "M",
+          "id": 1998695,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1096675200,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مارغاد إردينتستسغ"
+            },
+            "shortNameTranslation": {
+              "ar": "م. إردينتستسغ"
+            }
+          }
+        },
+        "id": 327087035,
+        "time": 1,
+        "timeSeconds": 50,
+        "isHome": false,
+        "incidentClass": "threePoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 550,
+        "periodTimeSeconds": 50,
+        "incidentType": "goal"
+      },
+      {
+        "from": "twopoints",
+        "homeScore": 2,
+        "awayScore": 0,
+        "player": {
+          "name": "Munkhzolboo Munkhbat",
+          "firstName": "Munkhzolboo",
+          "lastName": "Munkhbat",
+          "slug": "munkhzolboo-munkhbat",
+          "shortName": "M. Munkhbat",
+          "position": "G",
+          "jerseyNumber": "5",
+          "height": 181,
+          "userCount": 0,
+          "id": 2052412,
+          "marketValueCurrency": "EUR",
+          "dateOfBirthTimestamp": 1055116800,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "مونخزولبو مونخبات"
+            },
+            "shortNameTranslation": {
+              "ar": "م. مونخبات"
+            }
+          }
+        },
+        "id": 327087034,
+        "time": 1,
+        "timeSeconds": 21,
+        "isHome": true,
+        "incidentClass": "twoPoints",
+        "reversedPeriodTime": 10,
+        "reversedPeriodTimeSeconds": 579,
+        "periodTimeSeconds": 21,
+        "incidentType": "goal"
+      }
+    ]
+  },
+  "event/14961775/lineups": {
+    "confirmed": false,
+    "home": {
+      "players": [
+        {
+          "player": {
+            "name": "Marlon Johnson",
+            "firstName": "Marlon",
+            "lastName": "Johnson",
+            "slug": "marlon-johnson-jr",
+            "shortName": "M. Johnson",
+            "position": "CF",
+            "jerseyNumber": "32",
+            "height": 208,
+            "userCount": 1,
+            "gender": "M",
+            "id": 1888952,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 762393600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارلون جونسون جونيور"
+              },
+              "shortNameTranslation": {
+                "ar": "م. جونيور"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 2,
+          "jerseyNumber": "2",
+          "position": "CF",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1144,
+            "points": 16,
+            "twoPointsMade": 6,
+            "twoPointAttempts": 8,
+            "threePointsMade": 1,
+            "threePointAttempts": 4,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 7,
+            "fieldGoalAttempts": 12,
+            "rebounds": 8,
+            "defensiveRebounds": 7,
+            "offensiveRebounds": 1,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 11,
+            "fieldGoalPct": 58,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Anthony Nelson",
+            "slug": "nelson-anthony",
+            "shortName": "A. Nelson",
+            "position": "G",
+            "jerseyNumber": "3",
+            "height": 193,
+            "userCount": 3,
+            "gender": "M",
+            "id": 1178986,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 908841600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "نيلسون، أنطوني"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. نيلسون"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "G",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 934,
+            "points": 9,
+            "twoPointsMade": 4,
+            "twoPointAttempts": 4,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 1,
+            "freeThrowAttempts": 4,
+            "fieldGoalsMade": 4,
+            "fieldGoalAttempts": 5,
+            "rebounds": 3,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 0,
+            "turnovers": 2,
+            "blocks": 1,
+            "personalFouls": 0,
+            "assists": 6,
+            "steals": 1,
+            "plusMinus": 8,
+            "fieldGoalPct": 80,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Munkhzolboo Munkhbat",
+            "firstName": "Munkhzolboo",
+            "lastName": "Munkhbat",
+            "slug": "munkhzolboo-munkhbat",
+            "shortName": "M. Munkhbat",
+            "position": "G",
+            "jerseyNumber": "5",
+            "height": 181,
+            "userCount": 0,
+            "id": 2052412,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1055116800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مونخزولبو مونخبات"
+              },
+              "shortNameTranslation": {
+                "ar": "م. مونخبات"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 5,
+          "jerseyNumber": "5",
+          "position": "G",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 831,
+            "points": 6,
+            "twoPointsMade": 3,
+            "twoPointAttempts": 6,
+            "threePointsMade": 0,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 8,
+            "rebounds": 3,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 3,
+            "steals": 3,
+            "plusMinus": 4,
+            "fieldGoalPct": 38,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Barsbold Balt",
+            "firstName": "Barsbold",
+            "lastName": "Balt",
+            "slug": "barsbold-balt",
+            "shortName": "B. Balt",
+            "position": "F",
+            "jerseyNumber": "12",
+            "height": 194,
+            "userCount": 1,
+            "id": 2052447,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 939686400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بارسبولد بالت"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. بالت"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 8,
+          "jerseyNumber": "8",
+          "position": "F",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 510,
+            "points": 3,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 2,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 8,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Erkhembileg Ikhbayar",
+            "firstName": "Erkhembileg",
+            "lastName": "Ikhbayar",
+            "slug": "erkhembileg-ikhbayar",
+            "shortName": "E. Ikhbayar",
+            "position": "G",
+            "jerseyNumber": "9",
+            "userCount": 0,
+            "gender": "M",
+            "id": 2294445,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إرخيمبيليغ إيكبايار"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. إيكبايار"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "G",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 169,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 1,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dulguun Uuganbayar",
+            "firstName": "Dulguun",
+            "lastName": "Uuganbayar",
+            "slug": "dulguun-uuganbayar",
+            "shortName": "D. Uuganbayar",
+            "position": "G",
+            "jerseyNumber": "3",
+            "height": 186,
+            "userCount": 0,
+            "id": 2052409,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1080777600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "دولغون أوغانبايار"
+              },
+              "shortNameTranslation": {
+                "ar": "د. أوغانبايار"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "G",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 589,
+            "points": 6,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 1,
+            "threePointsMade": 2,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 3,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 2,
+            "fieldGoalPct": 67,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Dash-Ochir Bat-Ulzii",
+            "firstName": "Dash-Ochir",
+            "lastName": "Bat-Ulzii",
+            "slug": "dash-ochir-bat-ulzii",
+            "shortName": "D. Bat-Ulzii",
+            "position": "F",
+            "jerseyNumber": "12",
+            "height": 192,
+            "userCount": 0,
+            "id": 2052361,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 920073600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "داش-أوشير بات-أولزيي"
+              },
+              "shortNameTranslation": {
+                "ar": "د. بات-أولزيي"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "F",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 599,
+            "points": 2,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 1,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 1,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Bilguunbayar Төгсбулган",
+            "firstName": "Bilguunbayar",
+            "lastName": "Төгсбулган",
+            "slug": "bilguunbayar-togsbulgan",
+            "shortName": "B. Төгсбулган",
+            "position": "C",
+            "jerseyNumber": "35",
+            "userCount": 0,
+            "id": 2052487,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1029024000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بيغونبايار توغسبلغان"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. توغسبلغان"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "C",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 753,
+            "points": 4,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 2,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 2,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 1,
+            "steals": 1,
+            "plusMinus": 3,
+            "fieldGoalPct": 100,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Baljinnyam Ganzorig",
+            "firstName": "Baljinnyam",
+            "lastName": "Ganzorig",
+            "slug": "baljinnyam-ganzorig",
+            "shortName": "B. Ganzorig",
+            "position": "C",
+            "jerseyNumber": "23",
+            "height": 196,
+            "userCount": 0,
+            "id": 2052418,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1187136000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بالجيننيام غانزورغ"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. غانزورغ"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 15,
+          "jerseyNumber": "15",
+          "position": "C",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 600,
+            "points": 4,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 1,
+            "fieldGoalAttempts": 2,
+            "rebounds": 4,
+            "defensiveRebounds": 3,
+            "offensiveRebounds": 1,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 6,
+            "fieldGoalPct": 50,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sumiyabazar Erdenebileg",
+            "firstName": "Sumiyabazar",
+            "lastName": "Erdenebileg",
+            "slug": "sumiyabazar-erdenebileg",
+            "shortName": "S. Erdenebileg",
+            "position": "G",
+            "jerseyNumber": "17",
+            "userCount": 1,
+            "id": 2052387,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 919900800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سوميابازار إردينبيليغ"
+              },
+              "shortNameTranslation": {
+                "ar": "س. إردينبيليغ"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 17,
+          "jerseyNumber": "17",
+          "position": "G",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 787,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 3,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sodonjamts Otgondorj",
+            "firstName": "Sodonjamts",
+            "lastName": "Otgondorj",
+            "slug": "sodonjamts-otgondorj",
+            "shortName": "S. Otgondorj",
+            "position": "C",
+            "jerseyNumber": "24",
+            "height": 193,
+            "userCount": 0,
+            "id": 2052415,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 959817600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سودونجامتس أوتغوندورج"
+              },
+              "shortNameTranslation": {
+                "ar": "س. أوتغوندورج"
+              }
+            }
+          },
+          "teamId": 1077224,
+          "shirtNumber": 24,
+          "jerseyNumber": "24",
+          "position": "C",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 300,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 1,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 1,
+            "plusMinus": -2,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "away": {
+      "players": [
+        {
+          "player": {
+            "name": "Purevdorj Erdenetogtokh",
+            "firstName": "Purevdorj",
+            "lastName": "Erdenetogtokh",
+            "slug": "purevdorj-erdenetogtokh",
+            "shortName": "P. Erdenetogtokh",
+            "position": "F",
+            "jerseyNumber": "0",
+            "height": 193,
+            "userCount": 0,
+            "id": 2052410,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 921110400,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "بوريفدورج إردينيتوغتوكه"
+              },
+              "shortNameTranslation": {
+                "ar": "ب. إردينيتوغتوكه"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 0,
+          "jerseyNumber": "0",
+          "position": "F",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 0,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Uuganbayar Tumenbayar",
+            "firstName": "Uuganbayar",
+            "lastName": "Tumenbayar",
+            "slug": "uuganbayar-tumenbayar",
+            "shortName": "U. Tumenbayar",
+            "position": "G",
+            "jerseyNumber": "4",
+            "height": 183,
+            "userCount": 34,
+            "id": 1800652,
+            "country": {
+              "alpha2": "MN",
+              "alpha3": "MNG",
+              "name": "Mongolia",
+              "slug": "mongolia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 887673600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوغنبايار تومينبايار"
+              },
+              "shortNameTranslation": {
+                "ar": "أ. تومينبايار"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 1,
+          "jerseyNumber": "1",
+          "position": "G",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 870,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 4,
+            "threePointsMade": 0,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 6,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 4,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 2,
+            "steals": 0,
+            "plusMinus": -18,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Christian Bradford",
+            "slug": "bradford-christian",
+            "shortName": "C. Bradford",
+            "position": "G",
+            "jerseyNumber": "3",
+            "height": 185,
+            "userCount": 8,
+            "gender": "M",
+            "id": 1465941,
+            "country": {
+              "alpha2": "US",
+              "alpha3": "USA",
+              "name": "USA",
+              "slug": "usa"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 804124800,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "برادفورد، كريستيان"
+              },
+              "shortNameTranslation": {
+                "ar": "ك. برادفورد"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 3,
+          "jerseyNumber": "3",
+          "position": "G",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 809,
+            "points": 12,
+            "twoPointsMade": 3,
+            "twoPointAttempts": 3,
+            "threePointsMade": 1,
+            "threePointAttempts": 3,
+            "freeThrowsMade": 3,
+            "freeThrowAttempts": 3,
+            "fieldGoalsMade": 4,
+            "fieldGoalAttempts": 6,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": 5,
+            "fieldGoalPct": 67,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Enkh-Amar Bayarbaatar",
+            "firstName": "Enkh-Amar",
+            "lastName": "Bayarbaatar",
+            "slug": "enkh-amar-bayarbaatar",
+            "shortName": "E. Bayarbaatar",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 201,
+            "userCount": 1,
+            "gender": "M",
+            "id": 2291028,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1081209600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنخ-أمار بايارباتار"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. بايارباتار"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 9,
+          "jerseyNumber": "9",
+          "position": "F",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 0,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Enkhtemuulen Erdenechimeg",
+            "firstName": "Enkhtemuulen",
+            "lastName": "Erdenechimeg",
+            "slug": "enkhtemuulen-erdenechimeg",
+            "shortName": "E. Erdenechimeg",
+            "position": "G",
+            "jerseyNumber": "10",
+            "userCount": 0,
+            "id": 2052362,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1069977600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنختيمولين إردينتشيميج"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. إردينتشيميج"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 10,
+          "jerseyNumber": "10",
+          "position": "G",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 0,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Enkhtur Zorigtbaatar",
+            "firstName": "Enkhtur",
+            "lastName": "Zorigtbaatar",
+            "slug": "enkhtur-zorigtbaatar",
+            "shortName": "E. Zorigtbaatar",
+            "position": "G",
+            "jerseyNumber": "12",
+            "height": 175,
+            "userCount": 4,
+            "id": 2052396,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 819331200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إنختور زورغتباطار"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. زورغتباطار"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 12,
+          "jerseyNumber": "12",
+          "position": "G",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 403,
+            "points": 2,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 2,
+            "freeThrowAttempts": 2,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 2,
+            "defensiveRebounds": 2,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 1,
+            "steals": 1,
+            "plusMinus": 7,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Margad Erdenetsetseg",
+            "firstName": "Margad",
+            "lastName": "Erdenetsetseg",
+            "slug": "margad-erdenetsetseg",
+            "shortName": "M. Erdenetsetseg",
+            "position": "F",
+            "jerseyNumber": "20",
+            "height": 195,
+            "userCount": 15,
+            "gender": "M",
+            "id": 1998695,
+            "country": {
+              "alpha2": "MN",
+              "alpha3": "MNG",
+              "name": "Mongolia",
+              "slug": "mongolia"
+            },
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1096675200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مارغاد إردينتستسغ"
+              },
+              "shortNameTranslation": {
+                "ar": "م. إردينتستسغ"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 13,
+          "jerseyNumber": "13",
+          "position": "F",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1276,
+            "points": 8,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 2,
+            "threePointsMade": 2,
+            "threePointAttempts": 5,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 3,
+            "fieldGoalAttempts": 7,
+            "rebounds": 4,
+            "defensiveRebounds": 4,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 2,
+            "personalFouls": 0,
+            "assists": 3,
+            "steals": 1,
+            "plusMinus": -11,
+            "fieldGoalPct": 43,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Munkhchudur Nasanbat",
+            "firstName": "Munkhchudur",
+            "lastName": "Nasanbat",
+            "slug": "munkhchudur-nasanbat",
+            "shortName": "M. Nasanbat",
+            "position": "F",
+            "jerseyNumber": "18",
+            "height": 187,
+            "userCount": 3,
+            "id": 2052400,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 962064000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "مونخشودور ناسانبات"
+              },
+              "shortNameTranslation": {
+                "ar": "م. ناسانبات"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 18,
+          "jerseyNumber": "18",
+          "position": "F",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1027,
+            "points": 10,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 4,
+            "threePointsMade": 2,
+            "threePointAttempts": 5,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 4,
+            "fieldGoalAttempts": 9,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 0,
+            "steals": 1,
+            "plusMinus": -9,
+            "fieldGoalPct": 44,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Erdenedalai Sukhbaatar",
+            "firstName": "Erdenedalai",
+            "lastName": "Sukhbaatar",
+            "slug": "erdenedalai-sukhbaatar",
+            "shortName": "E. Sukhbaatar",
+            "position": "F",
+            "jerseyNumber": "21",
+            "height": 192,
+            "userCount": 1,
+            "id": 2052425,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 654912000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إردينيدالاي سوخباتر"
+              },
+              "shortNameTranslation": {
+                "ar": "إ. سوخباتر"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 21,
+          "jerseyNumber": "21",
+          "position": "F",
+          "substitute": true,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 612,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 0,
+            "rebounds": 3,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 3,
+            "turnovers": 2,
+            "blocks": 0,
+            "personalFouls": 2,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -6,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tsedevsuren Lkhagvajav",
+            "firstName": "Tsedevsuren",
+            "lastName": "Lkhagvajav",
+            "slug": "tsedevsuren-lkhagvajav",
+            "shortName": "T. Lkhagvajav",
+            "position": "C",
+            "jerseyNumber": "24",
+            "height": 196,
+            "userCount": 1,
+            "id": 2052423,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 967593600,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تسيديفسورن لخاغفاجاف"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. لخاغفاجاف"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 22,
+          "jerseyNumber": "22",
+          "position": "C",
+          "substitute": false,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 831,
+            "points": 4,
+            "twoPointsMade": 2,
+            "twoPointAttempts": 3,
+            "threePointsMade": 0,
+            "threePointAttempts": 0,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 3,
+            "rebounds": 2,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 1,
+            "turnovers": 1,
+            "blocks": 0,
+            "personalFouls": 1,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": -3,
+            "fieldGoalPct": 67,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Tselmeg Gantulga",
+            "firstName": "Tselmeg",
+            "lastName": "Gantulga",
+            "slug": "tselmeg-gantulga",
+            "shortName": "T. Gantulga",
+            "position": "F",
+            "jerseyNumber": "35",
+            "height": 192,
+            "userCount": 3,
+            "id": 2052435,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 928195200,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "تسلمغ غانتولغا"
+              },
+              "shortNameTranslation": {
+                "ar": "ت. غانتولغا"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 35,
+          "jerseyNumber": "35",
+          "position": "F",
+          "substitute": false,
+          "inPlay": true,
+          "statistics": {
+            "secondsPlayed": 1014,
+            "points": 5,
+            "twoPointsMade": 1,
+            "twoPointAttempts": 5,
+            "threePointsMade": 1,
+            "threePointAttempts": 2,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 2,
+            "fieldGoalAttempts": 7,
+            "rebounds": 6,
+            "defensiveRebounds": 4,
+            "offensiveRebounds": 2,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 1,
+            "steals": 0,
+            "plusMinus": -14,
+            "fieldGoalPct": 29,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Sanchir Tsagaanbaatar",
+            "firstName": "Sanchir",
+            "lastName": "Tsagaanbaatar",
+            "slug": "sanchir-tsagaanbaatar",
+            "shortName": "S. Tsagaanbaatar",
+            "position": "G",
+            "jerseyNumber": "9",
+            "height": 190,
+            "userCount": 2,
+            "id": 2052417,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 952128000,
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "سانشير تساغانباتر"
+              },
+              "shortNameTranslation": {
+                "ar": "س. تساغانباتر"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 50,
+          "jerseyNumber": "50",
+          "position": "G",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 187,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 0,
+            "defensiveRebounds": 0,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 0,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 2,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        },
+        {
+          "player": {
+            "name": "Phu Vinh Nguyen",
+            "firstName": "Phu Vinh",
+            "lastName": "Nguyen",
+            "slug": "phu-vinh-nguyen",
+            "shortName": "P. V. Nguyen",
+            "position": "C",
+            "jerseyNumber": "84",
+            "userCount": 2,
+            "gender": "M",
+            "id": 2327779,
+            "country": {},
+            "marketValueCurrency": "EUR",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "فو فينه نغوين"
+              },
+              "shortNameTranslation": {
+                "ar": "بي. في. نغوين"
+              }
+            }
+          },
+          "teamId": 1077217,
+          "shirtNumber": 84,
+          "jerseyNumber": "84",
+          "position": "C",
+          "substitute": true,
+          "inPlay": false,
+          "statistics": {
+            "secondsPlayed": 187,
+            "points": 0,
+            "twoPointsMade": 0,
+            "twoPointAttempts": 0,
+            "threePointsMade": 0,
+            "threePointAttempts": 1,
+            "freeThrowsMade": 0,
+            "freeThrowAttempts": 0,
+            "fieldGoalsMade": 0,
+            "fieldGoalAttempts": 1,
+            "rebounds": 1,
+            "defensiveRebounds": 1,
+            "offensiveRebounds": 0,
+            "turnovers": 0,
+            "blocks": 1,
+            "personalFouls": 0,
+            "assists": 0,
+            "steals": 0,
+            "plusMinus": 2,
+            "fieldGoalPct": 0,
+            "statisticsType": {
+              "sportSlug": "basketball",
+              "statisticsType": "player"
+            }
+          }
+        }
+      ],
+      "supportStaff": [],
+      "playerColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      },
+      "goalkeeperColor": {
+        "primary": "000000",
+        "number": "222226",
+        "outline": "808080",
+        "fancyNumber": "222226"
+      }
+    },
+    "statisticalVersion": null
+  },
+  "event/14961775/graph": {
+    "graphPoints": [
+      {
+        "minute": 1,
+        "value": -1
+      },
+      {
+        "minute": 2,
+        "value": 0
+      },
+      {
+        "minute": 3,
+        "value": 2
+      },
+      {
+        "minute": 4,
+        "value": 4
+      },
+      {
+        "minute": 5,
+        "value": 4
+      },
+      {
+        "minute": 6,
+        "value": 6
+      },
+      {
+        "minute": 7,
+        "value": 3
+      },
+      {
+        "minute": 8,
+        "value": 3
+      },
+      {
+        "minute": 9,
+        "value": -1
+      },
+      {
+        "minute": 10,
+        "value": 1
+      },
+      {
+        "minute": 11,
+        "value": 3
+      },
+      {
+        "minute": 12,
+        "value": 2
+      },
+      {
+        "minute": 13,
+        "value": 2
+      },
+      {
+        "minute": 14,
+        "value": -3
+      },
+      {
+        "minute": 15,
+        "value": -2
+      },
+      {
+        "minute": 16,
+        "value": 1
+      },
+      {
+        "minute": 17,
+        "value": 3
+      },
+      {
+        "minute": 18,
+        "value": 5
+      },
+      {
+        "minute": 19,
+        "value": 5
+      },
+      {
+        "minute": 20,
+        "value": 7
+      },
+      {
+        "minute": 21,
+        "value": 9
+      },
+      {
+        "minute": 22,
+        "value": 14
+      },
+      {
+        "minute": 23,
+        "value": 11
+      },
+      {
+        "minute": 24,
+        "value": 9
+      },
+      {
+        "minute": 25,
+        "value": 9
+      }
+    ],
+    "periodTime": 10,
+    "overtimeLength": 5,
+    "periodCount": 4
+  }
+}
