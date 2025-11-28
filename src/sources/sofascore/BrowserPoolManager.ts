@@ -424,29 +424,31 @@ export class BrowserPoolManager {
               }
   */
             // After waiting period ends, fetch missing critical endpoints via direct HTTP
-            /*  console.log(`[BrowserPoolManager] Fetching missing critical endpoints for event ${eventId}`);
-              const fetchMissingStartTime = Date.now();
-              console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - About to call fetchMissingCriticalEndpoints`);
-              await this.fetchMissingCriticalEndpoints(eventId, interceptedData, page);
-              console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - Finished fetchMissingCriticalEndpoints`);
-              const fetchMissingEndTime = Date.now();
-              console.log(`[BrowserPoolManager] fetchMissingCriticalEndpoints for event ${eventId} completed in ${fetchMissingEndTime - fetchMissingStartTime}ms`);
-  
-              const capturedEndpoints = Object.keys(interceptedData).length;
-              const endpointList = Object.keys(interceptedData).join(', ');
-              console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
-              console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
-  
-              // CRITICAL FIX: Update cache with final complete interceptedData
-              // This ensures cache has ALL endpoints including those from tab clicks
-              this.eventDataCache.set(eventId, interceptedData);
-              console.log(`💾 [Browser ${browserIndex + 1}] Event ${eventId} - Cache updated with all ${capturedEndpoints} endpoints`);
-  
-              // Log distribution periodically
-              const totalActiveTabs = this.eventTabs.size;
-              if (totalActiveTabs % 10 === 0) {
-                  this.logDistribution();
-              }*/
+            console.log(`[BrowserPoolManager] Fetching missing critical endpoints for event ${eventId}`);
+            const fetchMissingStartTime = Date.now();
+            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - About to call fetchMissingCriticalEndpoints`);
+            await this.fetchMissingCriticalEndpoints(eventId, interceptedData, page);
+            console.log(`🔧 [Browser ${browserIndex + 1}] Event ${eventId} - Finished fetchMissingCriticalEndpoints`);
+            const fetchMissingEndTime = Date.now();
+            console.log(`[BrowserPoolManager] fetchMissingCriticalEndpoints for event ${eventId} completed in ${fetchMissingEndTime - fetchMissingStartTime}ms`);
+
+            this.compareAndLogMissingEndpoints(eventId, interceptedData);
+
+            const capturedEndpoints = Object.keys(interceptedData).length;
+            const endpointList = Object.keys(interceptedData).join(', ');
+            console.log(`✅ [Browser ${browserIndex + 1}] Event ${eventId} - Monitoring live (${capturedEndpoints} endpoints captured)`);
+            console.log(`📋 [Browser ${browserIndex + 1}] Event ${eventId} - Endpoints: ${endpointList}`);
+
+            // CRITICAL FIX: Update cache with final complete interceptedData
+            // This ensures cache has ALL endpoints including those from tab clicks
+            this.eventDataCache.set(eventId, interceptedData);
+            console.log(`💾 [Browser ${browserIndex + 1}] Event ${eventId} - Cache updated with all ${capturedEndpoints} endpoints`);
+
+            // Log distribution periodically
+            const totalActiveTabs = this.eventTabs.size;
+            if (totalActiveTabs % 10 === 0) {
+                this.logDistribution();
+            }
 
         } catch (error: any) {
             console.error(`❌ [Browser ${browserIndex + 1}] Event ${eventId}: ${error.message}`);
@@ -695,6 +697,95 @@ export class BrowserPoolManager {
      */
     getMonitoredEventIds(): string[] {
         return Array.from(this.eventTabs.keys());
+    }
+
+    private compareAndLogMissingEndpoints(eventId: string, interceptedData: EventApiData): void {
+        const eventData = interceptedData[`event/${eventId}`];
+        if (!eventData) {
+            console.log(`[ENDPOINT CHECK] Event data for ${eventId} not available. Cannot check for critical endpoints.`);
+            return;
+        }
+    
+        const homeTeamId = eventData.homeTeam?.id;
+        const awayTeamId = eventData.awayTeam?.id;
+        const customId = eventData.customId;
+        const tournamentId = eventData.tournament?.id;
+        const seasonId = eventData.season?.id;
+        const uniqueTournamentId = eventData.tournament?.uniqueTournament?.id;
+    
+        const expectedEndpoints = new Set<string>();
+    
+        // Event-specific endpoints
+        expectedEndpoints.add(`event/${eventId}`);
+        expectedEndpoints.add(`event/${eventId}/team-streaks/betting-odds/1`);
+        expectedEndpoints.add(`event/${eventId}/odds/1/all`);
+        expectedEndpoints.add(`event/${eventId}/average-positions`);
+        expectedEndpoints.add(`event/${eventId}/comments`);
+        expectedEndpoints.add(`event/${eventId}/odds/1/featured`);
+        expectedEndpoints.add(`event/${eventId}/graph`);
+        expectedEndpoints.add(`event/${eventId}/h2h`);
+        expectedEndpoints.add(`event/${eventId}/incidents`);
+        expectedEndpoints.add(`event/${eventId}/lineups`);
+        expectedEndpoints.add(`event/${eventId}/managers`);
+        expectedEndpoints.add(`event/${eventId}/pregame-form`);
+        expectedEndpoints.add(`event/${eventId}/shotmap`);
+        expectedEndpoints.add(`event/${eventId}/statistics`);
+        expectedEndpoints.add(`event/${eventId}/best-players/summary`);
+        expectedEndpoints.add(`event/${eventId}/team-streaks`);
+        expectedEndpoints.add(`event/${eventId}/votes`);
+        expectedEndpoints.add(`event/${eventId}/win-probability`);
+        expectedEndpoints.add(`event/${eventId}/provider/1/winning-odds`);
+    
+        if (customId) {
+            expectedEndpoints.add(`event/${customId}/h2h/events`);
+        }
+    
+        // Home team endpoints
+        if (homeTeamId) {
+            expectedEndpoints.add(`team/${homeTeamId}/events/last/0`);
+            expectedEndpoints.add(`team/${homeTeamId}/events/next/0`);
+            expectedEndpoints.add(`team/${homeTeamId}/team-statistics/seasons`);
+            if (uniqueTournamentId && seasonId) {
+                expectedEndpoints.add(`team/${homeTeamId}/unique-tournament/${uniqueTournamentId}/season/${seasonId}/goal-distributions`);
+                expectedEndpoints.add(`team/${homeTeamId}/unique-tournament/${uniqueTournamentId}/season/${seasonId}/statistics/overall`);
+                expectedEndpoints.add(`unique-tournament/${uniqueTournamentId}/season/${seasonId}/team/${homeTeamId}/team-performance-graph-data`);
+            }
+        }
+    
+        // Away team endpoints
+        if (awayTeamId) {
+            expectedEndpoints.add(`team/${awayTeamId}/events/last/0`);
+            expectedEndpoints.add(`team/${awayTeamId}/events/next/0`);
+            expectedEndpoints.add(`team/${awayTeamId}/team-statistics/seasons`);
+            if (uniqueTournamentId && seasonId) {
+                expectedEndpoints.add(`team/${awayTeamId}/unique-tournament/${uniqueTournamentId}/season/${seasonId}/goal-distributions`);
+                expectedEndpoints.add(`team/${awayTeamId}/unique-tournament/${uniqueTournamentId}/season/${seasonId}/statistics/overall`);
+                expectedEndpoints.add(`unique-tournament/${uniqueTournamentId}/season/${seasonId}/team/${awayTeamId}/team-performance-graph-data`);
+            }
+        }
+    
+        // Tournament endpoints
+        if (tournamentId && seasonId) {
+            expectedEndpoints.add(`tournament/${tournamentId}/season/${seasonId}/standings/total`);
+            expectedEndpoints.add(`tournament/${tournamentId}/season/${seasonId}/team-events/home`);
+            expectedEndpoints.add(`tournament/${tournamentId}/season/${seasonId}/team-events/away`);
+        }
+    
+        const capturedEndpoints = new Set(Object.keys(interceptedData));
+    
+        const missingEndpoints: string[] = [];
+        for (const endpoint of expectedEndpoints) {
+            if (!capturedEndpoints.has(endpoint)) {
+                missingEndpoints.push(`https://www.sofascore.com/api/v1/${endpoint}`);
+            }
+        }
+    
+        if (missingEndpoints.length > 0) {
+            console.warn(`[ENDPOINT CHECK] Missing ${missingEndpoints.length} critical endpoints for event ${eventId}:`);
+            missingEndpoints.forEach(e => console.warn(`  - ${e}`));
+        } else {
+            console.log(`[ENDPOINT CHECK] All critical endpoints for event ${eventId} are present.`);
+        }
     }
 
     /**
